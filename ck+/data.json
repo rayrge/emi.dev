@@ -1,6 +1,136 @@
 {
     "encounter_pools": {
         "fishing": {
+            "aerodactyl": {
+                "good": {
+                    "day": [
+                        {
+                            "chance": 35,
+                            "level": 63,
+                            "pokemon": "aerodactyl"
+                        },
+                        {
+                            "chance": 35,
+                            "level": 63,
+                            "pokemon": "aerodactyl"
+                        },
+                        {
+                            "chance": 20,
+                            "level": 63,
+                            "pokemon": "lapras"
+                        },
+                        {
+                            "chance": 10,
+                            "level": 63,
+                            "pokemon": "aerodactyl"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "chance": 35,
+                            "level": 63,
+                            "pokemon": "aerodactyl"
+                        },
+                        {
+                            "chance": 35,
+                            "level": 63,
+                            "pokemon": "aerodactyl"
+                        },
+                        {
+                            "chance": 20,
+                            "level": 63,
+                            "pokemon": "lapras"
+                        },
+                        {
+                            "chance": 10,
+                            "level": 63,
+                            "pokemon": "lapras"
+                        }
+                    ]
+                },
+                "old": {
+                    "day": [
+                        {
+                            "chance": 70,
+                            "level": 5,
+                            "pokemon": "horsea"
+                        },
+                        {
+                            "chance": 15,
+                            "level": 5,
+                            "pokemon": "gyarados"
+                        },
+                        {
+                            "chance": 15,
+                            "level": 5,
+                            "pokemon": "aerodactyl"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "chance": 70,
+                            "level": 5,
+                            "pokemon": "horsea"
+                        },
+                        {
+                            "chance": 15,
+                            "level": 5,
+                            "pokemon": "gyarados"
+                        },
+                        {
+                            "chance": 15,
+                            "level": 5,
+                            "pokemon": "aerodactyl"
+                        }
+                    ]
+                },
+                "super": {
+                    "day": [
+                        {
+                            "chance": 40,
+                            "level": 65,
+                            "pokemon": "gyarados"
+                        },
+                        {
+                            "chance": 30,
+                            "level": 65,
+                            "pokemon": "aerodactyl"
+                        },
+                        {
+                            "chance": 20,
+                            "level": 65,
+                            "pokemon": "lapras"
+                        },
+                        {
+                            "chance": 10,
+                            "level": 65,
+                            "pokemon": "lapras"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "chance": 40,
+                            "level": 65,
+                            "pokemon": "gyarados"
+                        },
+                        {
+                            "chance": 30,
+                            "level": 65,
+                            "pokemon": "aerodactyl"
+                        },
+                        {
+                            "chance": 20,
+                            "level": 65,
+                            "pokemon": "lapras"
+                        },
+                        {
+                            "chance": 10,
+                            "level": 65,
+                            "pokemon": "lapras"
+                        }
+                    ]
+                }
+            },
             "dratini": {
                 "good": {
                     "day": [
@@ -15732,15 +15862,15 @@
                     "type": "surfing"
                 },
                 {
-                    "pool": "fishing.dratini.old",
+                    "pool": "fishing.aerodactyl.old",
                     "type": "old-rod"
                 },
                 {
-                    "pool": "fishing.dratini.good",
+                    "pool": "fishing.aerodactyl.good",
                     "type": "good-rod"
                 },
                 {
-                    "pool": "fishing.dratini.super",
+                    "pool": "fishing.aerodactyl.super",
                     "type": "super-rod"
                 },
                 {
