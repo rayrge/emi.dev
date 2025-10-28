@@ -1827,22 +1827,22 @@
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "hoothoot"
+                    "pokemon": "delibird"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "spinarak"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "spinarak"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "doduo"
+                    "pokemon": "pinsir"
                 },
                 {
                     "chance": 5,
@@ -1859,27 +1859,27 @@
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "spearow"
+                    "pokemon": "yanma"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ledyba"
+                    "pokemon": "caterpie"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "zubat"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "beedrill"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "scyther"
                 },
                 {
                     "chance": 5,
@@ -1891,27 +1891,27 @@
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "spearow"
+                    "pokemon": "yanma"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ledyba"
+                    "pokemon": "caterpie"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "zubat"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "beedrill"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "scyther"
                 },
                 {
                     "chance": 5,
@@ -1923,27 +1923,27 @@
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "spearow"
+                    "pokemon": "yanma"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ledyba"
+                    "pokemon": "caterpie"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "zubat"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "beedrill"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "scyther"
                 },
                 {
                     "chance": 5,
@@ -1955,27 +1955,27 @@
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "spearow"
+                    "pokemon": "yanma"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ledyba"
+                    "pokemon": "caterpie"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "zubat"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "beedrill"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "scyther"
                 },
                 {
                     "chance": 5,
@@ -1987,22 +1987,22 @@
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "hoothoot"
+                    "pokemon": "delibird"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "spinarak"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "spinarak"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "doduo"
+                    "pokemon": "pinsir"
                 },
                 {
                     "chance": 5,
@@ -2012,34 +2012,34 @@
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "pineco"
+                    "pokemon": "tangela"
                 }
             ],
             "town": [
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "spearow"
+                    "pokemon": "yanma"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ledyba"
+                    "pokemon": "caterpie"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "zubat"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "beedrill"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "scyther"
                 },
                 {
                     "chance": 5,
@@ -2053,12 +2053,24 @@
                 {
                     "chance": 90,
                     "level": 15,
-                    "pokemon": "krabby"
+                    "pokemon": "pineco"
                 },
                 {
                     "chance": 10,
                     "level": 15,
                     "pokemon": "shuckle"
+                }
+            ],
+            "rock-invert": [
+                {
+                    "chance": 90,
+                    "level": 15,
+                    "pokemon": "shuckle"
+                },
+                {
+                    "chance": 10,
+                    "level": 15,
+                    "pokemon": "pineco"
                 }
             ]
         }
@@ -15723,7 +15735,7 @@
                     "type": "headbutt"
                 },
                 {
-                    "pool": "rock.rock",
+                    "pool": "rock.rock-invert",
                     "type": "rock"
                 },
                 {
@@ -15926,7 +15938,7 @@
                     "type": "headbutt"
                 },
                 {
-                    "pool": "rock.rock",
+                    "pool": "rock.rock-invert",
                     "type": "rock"
                 }
             ]
