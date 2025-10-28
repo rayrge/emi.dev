@@ -3842,7 +3842,7 @@
                         {
                             "chance": 10,
                             "level": 30,
-                            "pokemon": "corsola"
+                            "pokemon": "magcargo"
                         }
                     ],
                     "type": "surfing"
@@ -4111,7 +4111,7 @@
                         {
                             "chance": 30,
                             "level": 34,
-                            "pokemon": "gyarados"
+                            "pokemon": "mantine"
                         },
                         {
                             "chance": 10,
@@ -4259,17 +4259,17 @@
                         {
                             "chance": 60,
                             "level": 34,
-                            "pokemon": "seaking"
+                            "pokemon": "octillery"
                         },
                         {
                             "chance": 30,
                             "level": 34,
-                            "pokemon": "gyarados"
+                            "pokemon": "mantine"
                         },
                         {
                             "chance": 10,
                             "level": 34,
-                            "pokemon": "quagsire"
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -4412,7 +4412,7 @@
                         {
                             "chance": 60,
                             "level": 60,
-                            "pokemon": "qwilfish"
+                            "pokemon": "tentacruel"
                         },
                         {
                             "chance": 30,
@@ -4733,17 +4733,17 @@
                         {
                             "chance": 60,
                             "level": 34,
-                            "pokemon": "seaking"
+                            "pokemon": "octillery"
                         },
                         {
                             "chance": 30,
                             "level": 34,
-                            "pokemon": "gyarados"
+                            "pokemon": "mantine"
                         },
                         {
                             "chance": 10,
                             "level": 34,
-                            "pokemon": "quagsire"
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -4886,17 +4886,17 @@
                         {
                             "chance": 60,
                             "level": 34,
-                            "pokemon": "psyduck"
+                            "pokemon": "totodile"
                         },
                         {
                             "chance": 30,
                             "level": 34,
-                            "pokemon": "poliwhirl"
+                            "pokemon": "wartortle"
                         },
                         {
                             "chance": 10,
                             "level": 34,
-                            "pokemon": "golduck"
+                            "pokemon": "croconaw"
                         }
                     ],
                     "type": "surfing"
@@ -5043,12 +5043,12 @@
                         {
                             "chance": 60,
                             "level": 40,
-                            "pokemon": "golduck"
+                            "pokemon": "dewgong"
                         },
                         {
                             "chance": 30,
                             "level": 40,
-                            "pokemon": "golbat"
+                            "pokemon": "ledian"
                         },
                         {
                             "chance": 10,
@@ -5334,12 +5334,12 @@
                         {
                             "chance": 30,
                             "level": 43,
-                            "pokemon": "haunter"
+                            "pokemon": "misdreavus"
                         },
                         {
                             "chance": 10,
                             "level": 43,
-                            "pokemon": "qwilfish"
+                            "pokemon": "tentacruel"
                         }
                     ],
                     "type": "surfing"
@@ -5482,7 +5482,7 @@
                         {
                             "chance": 60,
                             "level": 40,
-                            "pokemon": "qwilfish"
+                            "pokemon": "tentacruel"
                         },
                         {
                             "chance": 30,
@@ -5492,7 +5492,7 @@
                         {
                             "chance": 10,
                             "level": 40,
-                            "pokemon": "mantine"
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -6577,7 +6577,7 @@
                         {
                             "chance": 60,
                             "level": 61,
-                            "pokemon": "seadra"
+                            "pokemon": "seaking"
                         },
                         {
                             "chance": 30,
@@ -6587,7 +6587,7 @@
                         {
                             "chance": 10,
                             "level": 61,
-                            "pokemon": "golbat"
+                            "pokemon": "skarmory"
                         }
                     ],
                     "type": "surfing"
@@ -7129,17 +7129,17 @@
                         {
                             "chance": 60,
                             "level": 62,
-                            "pokemon": "crobat"
+                            "pokemon": "skarmory"
                         },
                         {
                             "chance": 30,
                             "level": 62,
-                            "pokemon": "kingdra"
+                            "pokemon": "cloyster"
                         },
                         {
                             "chance": 10,
                             "level": 62,
-                            "pokemon": "starmie"
+                            "pokemon": "dragonite"
                         }
                     ],
                     "type": "surfing"
@@ -7987,7 +7987,7 @@
                         {
                             "chance": 60,
                             "level": 55,
-                            "pokemon": "qwilfish"
+                            "pokemon": "tentacruel"
                         },
                         {
                             "chance": 30,
@@ -7997,7 +7997,7 @@
                         {
                             "chance": 10,
                             "level": 55,
-                            "pokemon": "mantine"
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -8260,7 +8260,7 @@
                         {
                             "chance": 60,
                             "level": 55,
-                            "pokemon": "qwilfish"
+                            "pokemon": "tentacruel"
                         },
                         {
                             "chance": 30,
@@ -8270,7 +8270,7 @@
                         {
                             "chance": 10,
                             "level": 55,
-                            "pokemon": "mantine"
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -8538,17 +8538,17 @@
                         {
                             "chance": 60,
                             "level": 20,
-                            "pokemon": "poliwag"
+                            "pokemon": "sentret"
                         },
                         {
                             "chance": 30,
                             "level": 15,
-                            "pokemon": "poliwag"
+                            "pokemon": "sentret"
                         },
                         {
                             "chance": 10,
                             "level": 20,
-                            "pokemon": "poliwhirl"
+                            "pokemon": "furret"
                         }
                     ],
                     "type": "surfing"
@@ -8695,17 +8695,17 @@
                         {
                             "chance": 60,
                             "level": 20,
-                            "pokemon": "poliwag"
+                            "pokemon": "squirtle"
                         },
                         {
                             "chance": 30,
                             "level": 15,
-                            "pokemon": "poliwag"
+                            "pokemon": "squirtle"
                         },
                         {
                             "chance": 10,
                             "level": 20,
-                            "pokemon": "poliwhirl"
+                            "pokemon": "wartortle"
                         }
                     ],
                     "type": "surfing"
@@ -8852,7 +8852,7 @@
                         {
                             "chance": 60,
                             "level": 20,
-                            "pokemon": "tentacool"
+                            "pokemon": "qwilfish"
                         },
                         {
                             "chance": 30,
@@ -8862,7 +8862,7 @@
                         {
                             "chance": 10,
                             "level": 20,
-                            "pokemon": "tentacruel"
+                            "pokemon": "qwilfish"
                         }
                     ],
                     "type": "surfing"
@@ -9271,17 +9271,17 @@
                         {
                             "chance": 60,
                             "level": 20,
-                            "pokemon": "tentacool"
+                            "pokemon": "qwilfish"
                         },
                         {
                             "chance": 30,
                             "level": 15,
-                            "pokemon": "tentacool"
+                            "pokemon": "qwilfish"
                         },
                         {
                             "chance": 10,
                             "level": 20,
-                            "pokemon": "tentacruel"
+                            "pokemon": "qwilfish"
                         }
                     ],
                     "type": "surfing"
@@ -9475,17 +9475,17 @@
                         {
                             "chance": 60,
                             "level": 20,
-                            "pokemon": "psyduck"
+                            "pokemon": "seel"
                         },
                         {
                             "chance": 30,
                             "level": 15,
-                            "pokemon": "psyduck"
+                            "pokemon": "seel"
                         },
                         {
                             "chance": 10,
                             "level": 20,
-                            "pokemon": "golduck"
+                            "pokemon": "dewgong"
                         }
                     ],
                     "type": "surfing"
@@ -10306,17 +10306,17 @@
                         {
                             "chance": 60,
                             "level": 30,
-                            "pokemon": "wartortle"
+                            "pokemon": "croconaw"
                         },
                         {
                             "chance": 30,
                             "level": 30,
-                            "pokemon": "croconaw"
+                            "pokemon": "poliwhirl"
                         },
                         {
                             "chance": 10,
                             "level": 30,
-                            "pokemon": "croconaw"
+                            "pokemon": "poliwhirl"
                         }
                     ],
                     "type": "surfing"
@@ -10463,17 +10463,17 @@
                         {
                             "chance": 60,
                             "level": 44,
-                            "pokemon": "croconaw"
+                            "pokemon": "poliwhirl"
                         },
                         {
                             "chance": 30,
                             "level": 44,
-                            "pokemon": "wartortle"
+                            "pokemon": "croconaw"
                         },
                         {
                             "chance": 10,
                             "level": 44,
-                            "pokemon": "wartortle"
+                            "pokemon": "croconaw"
                         }
                     ],
                     "type": "surfing"
@@ -10625,12 +10625,12 @@
                         {
                             "chance": 30,
                             "level": 44,
-                            "pokemon": "poliwhirl"
+                            "pokemon": "wartortle"
                         },
                         {
                             "chance": 10,
                             "level": 44,
-                            "pokemon": "slowpoke"
+                            "pokemon": "staryu"
                         }
                     ],
                     "type": "surfing"
@@ -10777,17 +10777,17 @@
                         {
                             "chance": 60,
                             "level": 60,
-                            "pokemon": "kingdra"
+                            "pokemon": "dragonite"
                         },
                         {
                             "chance": 30,
                             "level": 60,
-                            "pokemon": "kingdra"
+                            "pokemon": "dragonite"
                         },
                         {
                             "chance": 10,
                             "level": 60,
-                            "pokemon": "kingdra"
+                            "pokemon": "dragonite"
                         }
                     ],
                     "type": "surfing"
@@ -11881,12 +11881,12 @@
                         {
                             "chance": 60,
                             "level": 30,
-                            "pokemon": "mantine"
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 30,
                             "level": 30,
-                            "pokemon": "qwilfish"
+                            "pokemon": "tentacruel"
                         },
                         {
                             "chance": 10,
@@ -14909,7 +14909,7 @@
                         {
                             "chance": 60,
                             "level": 61,
-                            "pokemon": "qwilfish"
+                            "pokemon": "tentacruel"
                         },
                         {
                             "chance": 30,
@@ -14919,7 +14919,7 @@
                         {
                             "chance": 10,
                             "level": 61,
-                            "pokemon": "mantine"
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -15066,7 +15066,7 @@
                         {
                             "chance": 60,
                             "level": 32,
-                            "pokemon": "tentacool"
+                            "pokemon": "qwilfish"
                         },
                         {
                             "chance": 30,
