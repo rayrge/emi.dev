@@ -1943,111 +1943,111 @@
                             {
                                 "chance": 30,
                                 "level": 4,
-                                "pokemon": "abra"
+                                "pokemon": "vulpix"
                             },
                             {
                                 "chance": 30,
                                 "level": 4,
-                                "pokemon": "hoothoot"
+                                "pokemon": "pichu"
                             },
                             {
                                 "chance": 20,
                                 "level": 4,
-                                "pokemon": "caterpie"
+                                "pokemon": "nidoran-f"
                             },
                             {
                                 "chance": 10,
                                 "level": 4,
-                                "pokemon": "abra"
+                                "pokemon": "paras"
                             },
                             {
                                 "chance": 5,
                                 "level": 4,
-                                "pokemon": "exeggcute"
+                                "pokemon": "spinarak"
                             },
                             {
                                 "chance": 4,
                                 "level": 4,
-                                "pokemon": "exeggcute"
+                                "pokemon": "slugma"
                             },
                             {
                                 "chance": 1,
                                 "level": 4,
-                                "pokemon": "spinarak"
+                                "pokemon": "delibird"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
                                 "level": 4,
-                                "pokemon": "grimer"
+                                "pokemon": "slugma"
                             },
                             {
                                 "chance": 30,
                                 "level": 4,
-                                "pokemon": "venonat"
+                                "pokemon": "nidoran-m"
                             },
                             {
                                 "chance": 20,
                                 "level": 4,
-                                "pokemon": "caterpie"
+                                "pokemon": "spinarak"
                             },
                             {
                                 "chance": 10,
                                 "level": 4,
-                                "pokemon": "hoothoot"
+                                "pokemon": "pidgey"
                             },
                             {
                                 "chance": 5,
                                 "level": 4,
-                                "pokemon": "voltorb"
+                                "pokemon": "pidgey"
                             },
                             {
                                 "chance": 4,
                                 "level": 4,
-                                "pokemon": "voltorb"
+                                "pokemon": "pichu"
                             },
                             {
                                 "chance": 1,
                                 "level": 4,
-                                "pokemon": "voltorb"
+                                "pokemon": "delibird"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
                                 "level": 4,
-                                "pokemon": "sentret"
+                                "pokemon": "oddish"
                             },
                             {
                                 "chance": 30,
                                 "level": 4,
-                                "pokemon": "aipom"
+                                "pokemon": "nidoran-f"
                             },
                             {
                                 "chance": 20,
                                 "level": 4,
-                                "pokemon": "lickitung"
+                                "pokemon": "nidoran-m"
                             },
                             {
                                 "chance": 10,
                                 "level": 4,
-                                "pokemon": "dunsparce"
+                                "pokemon": "vulpix"
                             },
                             {
                                 "chance": 5,
                                 "level": 4,
-                                "pokemon": "igglybuff"
+                                "pokemon": "houndour"
                             },
                             {
                                 "chance": 4,
                                 "level": 4,
-                                "pokemon": "cleffa"
+                                "pokemon": "spinarak"
                             },
                             {
                                 "chance": 1,
                                 "level": 4,
-                                "pokemon": "cleffa"
+                                "pokemon": "delibird"
                             }
                         ]
                     },
