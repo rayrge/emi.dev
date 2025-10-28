@@ -2268,7 +2268,7 @@
                             {
                                 "chance": 4,
                                 "level": 9,
-                                "pokemon": "farfetch_d"
+                                "pokemon": "farfetchd"
                             },
                             {
                                 "chance": 1,
@@ -4011,17 +4011,17 @@
                             {
                                 "chance": 5,
                                 "level": 16,
-                                "pokemon": "nidoran_f"
+                                "pokemon": "nidoran-f"
                             },
                             {
                                 "chance": 4,
                                 "level": 16,
-                                "pokemon": "nidoran_m"
+                                "pokemon": "nidoran-m"
                             },
                             {
                                 "chance": 1,
                                 "level": 16,
-                                "pokemon": "nidoran_m"
+                                "pokemon": "nidoran-m"
                             }
                         ],
                         "morning": [
@@ -5081,7 +5081,7 @@
                             {
                                 "chance": 30,
                                 "level": 39,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 30,
@@ -5118,7 +5118,7 @@
                             {
                                 "chance": 30,
                                 "level": 39,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 30,
@@ -5155,7 +5155,7 @@
                             {
                                 "chance": 30,
                                 "level": 39,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 30,
@@ -5397,7 +5397,7 @@
                             {
                                 "chance": 1,
                                 "level": 40,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             }
                         ],
                         "morning": [
@@ -5561,7 +5561,7 @@
                             {
                                 "chance": 1,
                                 "level": 50,
-                                "pokemon": "farfetch_d"
+                                "pokemon": "farfetchd"
                             }
                         ],
                         "morning": [
@@ -5598,7 +5598,7 @@
                             {
                                 "chance": 1,
                                 "level": 50,
-                                "pokemon": "farfetch_d"
+                                "pokemon": "farfetchd"
                             }
                         ],
                         "night": [
@@ -5635,7 +5635,7 @@
                             {
                                 "chance": 1,
                                 "level": 50,
-                                "pokemon": "farfetch_d"
+                                "pokemon": "farfetchd"
                             }
                         ]
                     },
@@ -5950,7 +5950,7 @@
                             {
                                 "chance": 5,
                                 "level": 51,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 4,
@@ -5987,7 +5987,7 @@
                             {
                                 "chance": 5,
                                 "level": 51,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 4,
@@ -6088,7 +6088,7 @@
                             {
                                 "chance": 4,
                                 "level": 51,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 1,
@@ -6115,7 +6115,7 @@
                             {
                                 "chance": 10,
                                 "level": 51,
-                                "pokemon": "farfetch_d"
+                                "pokemon": "farfetchd"
                             },
                             {
                                 "chance": 5,
@@ -6556,7 +6556,7 @@
                             {
                                 "chance": 5,
                                 "level": 53,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 4,
@@ -6773,7 +6773,7 @@
                             {
                                 "chance": 4,
                                 "level": 53,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 1,
@@ -6847,7 +6847,7 @@
                             {
                                 "chance": 4,
                                 "level": 53,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 1,
@@ -6965,7 +6965,7 @@
                             {
                                 "chance": 20,
                                 "level": 63,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 10,
@@ -7872,12 +7872,12 @@
                             {
                                 "chance": 30,
                                 "level": 7,
-                                "pokemon": "nidoran_f"
+                                "pokemon": "nidoran-f"
                             },
                             {
                                 "chance": 30,
                                 "level": 7,
-                                "pokemon": "nidoran_m"
+                                "pokemon": "nidoran-m"
                             },
                             {
                                 "chance": 20,
@@ -8423,12 +8423,12 @@
                             {
                                 "chance": 30,
                                 "level": 5,
-                                "pokemon": "nidoran_f"
+                                "pokemon": "nidoran-f"
                             },
                             {
                                 "chance": 30,
                                 "level": 5,
-                                "pokemon": "nidoran_m"
+                                "pokemon": "nidoran-m"
                             },
                             {
                                 "chance": 20,
@@ -8595,7 +8595,7 @@
                             {
                                 "chance": 10,
                                 "level": 7,
-                                "pokemon": "farfetch_d"
+                                "pokemon": "farfetchd"
                             },
                             {
                                 "chance": 5,
@@ -9385,7 +9385,7 @@
                             {
                                 "chance": 4,
                                 "level": 24,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 1,
@@ -9434,7 +9434,7 @@
                             {
                                 "chance": 30,
                                 "level": 24,
-                                "pokemon": "nidoran_f"
+                                "pokemon": "nidoran-f"
                             },
                             {
                                 "chance": 30,
@@ -9444,7 +9444,7 @@
                             {
                                 "chance": 20,
                                 "level": 24,
-                                "pokemon": "nidoran_m"
+                                "pokemon": "nidoran-m"
                             },
                             {
                                 "chance": 10,
@@ -9839,7 +9839,7 @@
                             {
                                 "chance": 20,
                                 "level": 29,
-                                "pokemon": "farfetch_d"
+                                "pokemon": "farfetchd"
                             },
                             {
                                 "chance": 10,
@@ -9871,7 +9871,7 @@
                             {
                                 "chance": 30,
                                 "level": 29,
-                                "pokemon": "nidoran_m"
+                                "pokemon": "nidoran-m"
                             },
                             {
                                 "chance": 20,
@@ -9881,7 +9881,7 @@
                             {
                                 "chance": 10,
                                 "level": 29,
-                                "pokemon": "nidoran_f"
+                                "pokemon": "nidoran-f"
                             },
                             {
                                 "chance": 5,
@@ -9942,7 +9942,7 @@
                             {
                                 "chance": 4,
                                 "level": 34,
-                                "pokemon": "mr__mime"
+                                "pokemon": "mr-mime"
                             },
                             {
                                 "chance": 1,
