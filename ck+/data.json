@@ -4444,8 +4444,8 @@
                         {
                             "chance": 100,
                             "extra": "Only on fridays. Requires fighting 3 optional trainers. Requires surf, strength, and waterfall",
-                            "level": 90,
-                            "pokemon": "lapras"
+                            "level": 50,
+                            "pokemon": "mewtwo"
                         }
                     ],
                     "type": "static"
@@ -5514,8 +5514,8 @@
                         {
                             "chance": 100,
                             "extra": "Requires beating Kiyo",
-                            "level": 10,
-                            "pokemon": "tyrogue"
+                            "level": 30,
+                            "pokemon": "miltank"
                         }
                     ],
                     "type": "gift"
@@ -9305,46 +9305,34 @@
                 {
                     "pool": [
                         {
-                            "chance": 19,
-                            "extra": "Egg, can be hatched elsewhere. Knows Dizzy Punch. 86% chance to be 0DV. 14% chance to be shiny with 0 2/10 10/10 10 DVs",
+                            "chance": 20,
+                            "extra": "Egg, can be hatched elsewhere. ",
                             "level": 5,
-                            "pokemon": "cleffa"
+                            "pokemon": "jolteon"
                         },
                         {
-                            "chance": 19,
-                            "extra": "Egg, can be hatched elsewhere. Knows Dizzy Punch. 86% chance to be 0DV. 14% chance to be shiny with 0 2/10 10/10 10 DVs",
+                            "chance": 20,
+                            "extra": "Egg, can be hatched elsewhere. ",
                             "level": 5,
-                            "pokemon": "igglybuff"
+                            "pokemon": "umbreon"
                         },
                         {
-                            "chance": 16,
-                            "extra": "Egg, can be hatched elsewhere. Knows Dizzy Punch. 86% chance to be 0DV. 14% chance to be shiny with 0 2/10 10/10 10 DVs",
+                            "chance": 20,
+                            "extra": "Egg, can be hatched elsewhere. ",
                             "level": 5,
-                            "pokemon": "smoochum"
+                            "pokemon": "vaporeon"
                         },
                         {
-                            "chance": 14,
-                            "extra": "Egg, can be hatched elsewhere. Knows Dizzy Punch. 86% chance to be 0DV. 14% chance to be shiny with 0 2/10 10/10 10 DVs",
+                            "chance": 20,
+                            "extra": "Egg, can be hatched elsewhere. ",
                             "level": 5,
-                            "pokemon": "elekid"
+                            "pokemon": "flareon"
                         },
                         {
-                            "chance": 12,
-                            "extra": "Egg, can be hatched elsewhere. Knows Dizzy Punch. 86% chance to be 0DV. 14% chance to be shiny with 0 2/10 10/10 10 DVs",
+                            "chance": 20,
+                            "extra": "Egg, can be hatched elsewhere. ",
                             "level": 5,
-                            "pokemon": "magby"
-                        },
-                        {
-                            "chance": 11,
-                            "extra": "Egg, can be hatched elsewhere. Knows Dizzy Punch. 86% chance to be 0DV. 14% chance to be shiny with 0 2/10 10/10 10 DVs",
-                            "level": 5,
-                            "pokemon": "tyrogue"
-                        },
-                        {
-                            "chance": 9,
-                            "extra": "Egg, can be hatched elsewhere. Knows Dizzy Punch. 86% chance to be 0DV. 14% chance to be shiny with 0 2/10 10/10 10 DVs",
-                            "level": 5,
-                            "pokemon": "pichu"
+                            "pokemon": "espeon"
                         }
                     ],
                     "type": "gift"
@@ -9512,7 +9500,7 @@
                             "chance": 100,
                             "extra": "Holding mail to be delivered to Route 31 in exchange for the TM for Nightmare. Or, can be kept as an encounter with traded OT.",
                             "level": 10,
-                            "pokemon": "spearow"
+                            "pokemon": "murkrow"
                         }
                     ],
                     "type": "gift"
@@ -9776,7 +9764,7 @@
                             "chance": 100,
                             "extra": "Requires squirtbottle after Whitney",
                             "level": 35,
-                            "pokemon": "sudowoodo"
+                            "pokemon": "shuckle"
                         }
                     ],
                     "type": "static"
@@ -15640,7 +15628,7 @@
                             "chance": 100,
                             "extra": "Shiny, has 0 14/10 10/10 10 DVs",
                             "level": 30,
-                            "pokemon": "gyarados"
+                            "pokemon": "lapras"
                         }
                     ],
                     "type": "static"
@@ -15744,7 +15732,7 @@
                             "chance": 100,
                             "extra": "Can be returned at any point. Has traded OT",
                             "level": 15,
-                            "pokemon": "shuckle"
+                            "pokemon": "dratini"
                         }
                     ],
                     "type": "gift"
@@ -15888,10 +15876,22 @@
                 {
                     "pool": [
                         {
-                            "chance": 100,
-                            "extra": "Will have ExtremeSpeed if you answer the quiz questions with PAL, Raising, Anybody, Love, Both in order",
-                            "level": 15,
-                            "pokemon": "dratini"
+                            "chance": 33,
+                            "extra": "None",
+                            "level": 50,
+                            "pokemon": "articuno"
+                        },
+                        {
+                            "chance": 33,
+                            "extra": "None",
+                            "level": 50,
+                            "pokemon": "moltres"
+                        },
+                        {
+                            "chance": 33,
+                            "extra": "None",
+                            "level": 50,
+                            "pokemon": "zapdos"
                         }
                     ],
                     "type": "gift"
@@ -16279,8 +16279,8 @@
                         {
                             "chance": 100,
                             "extra": "In Bill's house after speaking to him in Ecruteak City",
-                            "level": 20,
-                            "pokemon": "eevee"
+                            "level": 10,
+                            "pokemon": "smeargle"
                         }
                     ],
                     "type": "gift"
@@ -16294,16 +16294,22 @@
                             "pokemon": "abra"
                         },
                         {
-                            "chance": 100,
+                            "chance": 50,
                             "extra": "Goldenrod Game Corner, 800 coins",
-                            "level": 15,
-                            "pokemon": "cubone"
+                            "level": 20,
+                            "pokemon": "nidoran-f"
+                        },
+                        {
+                            "chance": 50,
+                            "extra": "Goldenrod Game Corner, 800 coins",
+                            "level": 20,
+                            "pokemon": "nidoran-m"
                         },
                         {
                             "chance": 100,
                             "extra": "Goldenrod Game Corner, 1500 coins",
                             "level": 15,
-                            "pokemon": "wobbuffet"
+                            "pokemon": "porygon"
                         }
                     ],
                     "type": "buy"
@@ -16322,26 +16328,26 @@
                         {
                             "chance": 100,
                             "extra": "In hideout trap tile",
-                            "level": 21,
-                            "pokemon": "geodude"
+                            "level": 30,
+                            "pokemon": "snorlax"
                         },
                         {
                             "chance": 100,
                             "extra": "In hideout trap tile",
-                            "level": 21,
-                            "pokemon": "koffing"
+                            "level": 30,
+                            "pokemon": "snorlax"
                         },
                         {
                             "chance": 100,
                             "extra": "In hideout trap tile",
-                            "level": 23,
-                            "pokemon": "voltorb"
+                            "level": 30,
+                            "pokemon": "snorlax"
                         },
                         {
                             "chance": 100,
                             "extra": "In hideout generator room",
-                            "level": 60,
-                            "pokemon": "electrode"
+                            "level": 5,
+                            "pokemon": "snorlax"
                         }
                     ],
                     "type": "static"
