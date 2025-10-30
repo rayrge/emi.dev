@@ -7134,12 +7134,12 @@
                         {
                             "chance": 30,
                             "level": 62,
-                            "pokemon": "cloyster"
+                            "pokemon": "charizard"
                         },
                         {
                             "chance": 10,
                             "level": 62,
-                            "pokemon": "dragonite"
+                            "pokemon": "suicune"
                         }
                     ],
                     "type": "surfing"
@@ -7282,7 +7282,7 @@
                         {
                             "chance": 60,
                             "level": 62,
-                            "pokemon": "crobat"
+                            "pokemon": "skarmory"
                         },
                         {
                             "chance": 30,
@@ -7292,7 +7292,7 @@
                         {
                             "chance": 10,
                             "level": 62,
-                            "pokemon": "lapras"
+                            "pokemon": "dragonite"
                         }
                     ],
                     "type": "surfing"
