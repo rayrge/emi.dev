@@ -42546,12 +42546,12 @@
       "team": [
         {
           "name": "spinarak",
-          "level": 12,
+          "level": 11,
           "item": "poison-barb",
           "moves": [
             "spider-web",
-            "fury-cutter",
-            "sludge-bomb"
+            "acid",
+            "twineedle"
           ]
         },
         {
@@ -42565,11 +42565,11 @@
         },
         {
           "name": "paras",
-          "level": 10,
-          "item": "silver-powder",
+          "level": 12,
+          "item": "leftovers",
           "moves": [
             "leech-seed",
-            "leech-life",
+            "scratch",
             "mega-drain"
           ]
         }
@@ -42906,7 +42906,7 @@
         {
           "name": "psyduck",
           "level": 15,
-          "item": "gold-berry",
+          "item": "berry-juice",
           "moves": [
             "toxic",
             "encore",
@@ -42917,7 +42917,7 @@
         {
           "name": "murkrow",
           "level": 15,
-          "item": "blackglasses",
+          "item": "amulet-coin",
           "moves": [
             "mirror-move",
             "pursuit"
