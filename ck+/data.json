@@ -22259,12 +22259,12 @@
             "name": "venusaur",
             "pokedex": 3,
             "stats": {
-                "atk": 82,
-                "def": 83,
-                "hp": 80,
+                "atk": 84,
+                "def": 95,
+                "hp": 85,
                 "spa": 100,
                 "spd": 100,
-                "spe": 80
+                "spe": 85
             },
             "tmhm": [
                 "headbutt",
@@ -22341,9 +22341,9 @@
                 "atk": 52,
                 "def": 43,
                 "hp": 39,
-                "spa": 60,
+                "spa": 64,
                 "spd": 50,
-                "spe": 65
+                "spe": 70
             },
             "tmhm": [
                 "dynamicpunch",
@@ -22497,12 +22497,12 @@
             "name": "charizard",
             "pokedex": 6,
             "stats": {
-                "atk": 84,
+                "atk": 88,
                 "def": 78,
                 "hp": 78,
-                "spa": 109,
+                "spa": 110,
                 "spd": 85,
-                "spe": 100
+                "spe": 110
             },
             "tmhm": [
                 "dynamicpunch",
@@ -22583,7 +22583,7 @@
             "stats": {
                 "atk": 48,
                 "def": 65,
-                "hp": 44,
+                "hp": 48,
                 "spa": 50,
                 "spd": 64,
                 "spe": 43
@@ -22764,7 +22764,7 @@
             "stats": {
                 "atk": 83,
                 "def": 100,
-                "hp": 79,
+                "hp": 98,
                 "spa": 85,
                 "spd": 105,
                 "spe": 78
@@ -26474,8 +26474,8 @@
             "pokedex": 56,
             "stats": {
                 "atk": 80,
-                "def": 35,
-                "hp": 40,
+                "def": 55,
+                "hp": 50,
                 "spa": 35,
                 "spd": 45,
                 "spe": 70
@@ -26557,10 +26557,10 @@
             "name": "primeape",
             "pokedex": 57,
             "stats": {
-                "atk": 105,
-                "def": 60,
-                "hp": 65,
-                "spa": 60,
+                "atk": 115,
+                "def": 75,
+                "hp": 85,
+                "spa": 50,
                 "spd": 70,
                 "spe": 95
             },
@@ -28455,11 +28455,11 @@
             "pokedex": 81,
             "stats": {
                 "atk": 35,
-                "def": 70,
-                "hp": 25,
-                "spa": 95,
-                "spd": 55,
-                "spe": 45
+                "def": 83,
+                "hp": 38,
+                "spa": 108,
+                "spd": 63,
+                "spe": 58
             },
             "tmhm": [
                 "curse",
@@ -28532,12 +28532,12 @@
             "name": "magneton",
             "pokedex": 82,
             "stats": {
-                "atk": 60,
-                "def": 95,
-                "hp": 60,
-                "spa": 120,
-                "spd": 70,
-                "spe": 70
+                "atk": 70,
+                "def": 115,
+                "hp": 70,
+                "spa": 130,
+                "spd": 90,
+                "spe": 60
             },
             "tmhm": [
                 "curse",
@@ -28623,12 +28623,12 @@
             "name": "farfetchd",
             "pokedex": 83,
             "stats": {
-                "atk": 90,
-                "def": 55,
-                "hp": 52,
-                "spa": 58,
-                "spd": 62,
-                "spe": 70
+                "atk": 135,
+                "def": 95,
+                "hp": 62,
+                "spa": 68,
+                "spd": 82,
+                "spe": 65
             },
             "tmhm": [
                 "headbutt",
@@ -30079,7 +30079,7 @@
                 "atk": 50,
                 "def": 70,
                 "hp": 60,
-                "spa": 90,
+                "spa": 80,
                 "spd": 80,
                 "spe": 140
             },
@@ -30659,11 +30659,11 @@
             "pokedex": 108,
             "stats": {
                 "atk": 85,
-                "def": 75,
-                "hp": 90,
-                "spa": 60,
-                "spd": 75,
-                "spe": 30
+                "def": 95,
+                "hp": 110,
+                "spa": 80,
+                "spd": 95,
+                "spe": 50
             },
             "tmhm": [
                 "dynamicpunch",
@@ -30951,12 +30951,12 @@
             "name": "rhyhorn",
             "pokedex": 111,
             "stats": {
-                "atk": 85,
-                "def": 95,
-                "hp": 80,
-                "spa": 30,
-                "spd": 30,
-                "spe": 25
+                "atk": 108,
+                "def": 108,
+                "hp": 93,
+                "spa": 38,
+                "spd": 38,
+                "spe": 33
             },
             "tmhm": [
                 "headbutt",
@@ -31025,11 +31025,11 @@
             "name": "rhydon",
             "pokedex": 112,
             "stats": {
-                "atk": 130,
-                "def": 120,
-                "hp": 105,
-                "spa": 45,
-                "spd": 45,
+                "atk": 140,
+                "def": 130,
+                "hp": 115,
+                "spa": 55,
+                "spd": 55,
                 "spe": 40
             },
             "tmhm": [
@@ -31220,11 +31220,11 @@
             "pokedex": 114,
             "stats": {
                 "atk": 100,
-                "def": 115,
+                "def": 125,
                 "hp": 100,
-                "spa": 100,
-                "spd": 100,
-                "spe": 40
+                "spa": 110,
+                "spd": 50,
+                "spe": 50
             },
             "tmhm": [
                 "headbutt",
@@ -31884,9 +31884,9 @@
             "name": "mr-mime",
             "pokedex": 122,
             "stats": {
-                "atk": 45,
+                "atk": 65,
                 "def": 65,
-                "hp": 40,
+                "hp": 65,
                 "spa": 100,
                 "spd": 120,
                 "spe": 90
@@ -32054,12 +32054,12 @@
             "name": "jynx",
             "pokedex": 124,
             "stats": {
-                "atk": 50,
-                "def": 35,
-                "hp": 65,
-                "spa": 115,
-                "spd": 95,
-                "spe": 95
+                "atk": 60,
+                "def": 40,
+                "hp": 75,
+                "spa": 125,
+                "spd": 105,
+                "spe": 115
             },
             "tmhm": [
                 "dynamicpunch",
@@ -32117,7 +32117,7 @@
             "name": "electabuzz",
             "pokedex": 125,
             "stats": {
-                "atk": 103,
+                "atk": 113,
                 "def": 57,
                 "hp": 65,
                 "spa": 95,
@@ -32202,7 +32202,7 @@
                 "atk": 95,
                 "def": 57,
                 "hp": 65,
-                "spa": 115,
+                "spa": 125,
                 "spd": 85,
                 "spe": 93
             },
@@ -32799,9 +32799,9 @@
             "pokedex": 134,
             "stats": {
                 "atk": 65,
-                "def": 60,
+                "def": 85,
                 "hp": 130,
-                "spa": 110,
+                "spa": 85,
                 "spd": 95,
                 "spe": 65
             },
@@ -32884,10 +32884,10 @@
             "name": "jolteon",
             "pokedex": 135,
             "stats": {
-                "atk": 65,
+                "atk": 70,
                 "def": 60,
                 "hp": 65,
-                "spa": 110,
+                "spa": 105,
                 "spd": 95,
                 "spe": 130
             },
@@ -32976,12 +32976,12 @@
             "name": "flareon",
             "pokedex": 136,
             "stats": {
-                "atk": 130,
-                "def": 60,
+                "atk": 145,
+                "def": 55,
                 "hp": 65,
-                "spa": 95,
-                "spd": 110,
-                "spe": 65
+                "spa": 100,
+                "spd": 80,
+                "spe": 80
             },
             "tmhm": [
                 "headbutt",
@@ -34373,11 +34373,11 @@
             "pokedex": 154,
             "stats": {
                 "atk": 82,
-                "def": 100,
+                "def": 102,
                 "hp": 80,
                 "spa": 83,
-                "spd": 100,
-                "spe": 80
+                "spd": 102,
+                "spe": 85
             },
             "tmhm": [
                 "headbutt",
@@ -34463,9 +34463,9 @@
                 "atk": 52,
                 "def": 43,
                 "hp": 39,
-                "spa": 60,
+                "spa": 64,
                 "spd": 50,
-                "spe": 65
+                "spe": 70
             },
             "tmhm": [
                 "headbutt",
@@ -34697,7 +34697,7 @@
                 "def": 64,
                 "hp": 50,
                 "spa": 44,
-                "spd": 48,
+                "spd": 52,
                 "spe": 43
             },
             "tmhm": [
@@ -34856,8 +34856,8 @@
                 "def": 100,
                 "hp": 85,
                 "spa": 79,
-                "spd": 83,
-                "spe": 78
+                "spd": 91,
+                "spe": 80
             },
             "tmhm": [
                 "dynamicpunch",
@@ -36158,12 +36158,12 @@
             "name": "togepi",
             "pokedex": 175,
             "stats": {
-                "atk": 20,
-                "def": 65,
-                "hp": 35,
-                "spa": 40,
-                "spd": 65,
-                "spe": 20
+                "atk": 30,
+                "def": 75,
+                "hp": 45,
+                "spa": 60,
+                "spd": 85,
+                "spe": 30
             },
             "tmhm": [
                 "headbutt",
@@ -36234,12 +36234,12 @@
             "name": "togetic",
             "pokedex": 176,
             "stats": {
-                "atk": 40,
-                "def": 85,
-                "hp": 55,
-                "spa": 80,
-                "spd": 105,
-                "spe": 40
+                "atk": 50,
+                "def": 95,
+                "hp": 85,
+                "spa": 120,
+                "spd": 115,
+                "spe": 80
             },
             "tmhm": [
                 "headbutt",
@@ -37376,10 +37376,10 @@
             "pokedex": 190,
             "stats": {
                 "atk": 100,
-                "def": 55,
-                "hp": 65,
-                "spa": 40,
-                "spd": 55,
+                "def": 66,
+                "hp": 75,
+                "spa": 60,
+                "spd": 66,
                 "spe": 115
             },
             "tmhm": [
@@ -37621,11 +37621,11 @@
             "name": "yanma",
             "pokedex": 193,
             "stats": {
-                "atk": 96,
-                "def": 45,
-                "hp": 65,
-                "spa": 75,
-                "spd": 45,
+                "atk": 76,
+                "def": 86,
+                "hp": 86,
+                "spa": 116,
+                "spd": 56,
                 "spe": 95
             },
             "tmhm": [
@@ -37890,12 +37890,12 @@
             "name": "espeon",
             "pokedex": 196,
             "stats": {
-                "atk": 65,
+                "atk": 50,
                 "def": 60,
                 "hp": 65,
-                "spa": 130,
+                "spa": 135,
                 "spd": 95,
-                "spe": 110
+                "spe": 120
             },
             "tmhm": [
                 "headbutt",
@@ -38065,12 +38065,12 @@
             "name": "murkrow",
             "pokedex": 198,
             "stats": {
-                "atk": 85,
-                "def": 42,
-                "hp": 60,
+                "atk": 125,
+                "def": 52,
+                "hp": 100,
                 "spa": 105,
-                "spd": 42,
-                "spe": 91
+                "spd": 52,
+                "spe": 71
             },
             "tmhm": [
                 "curse",
@@ -38251,7 +38251,7 @@
             "stats": {
                 "atk": 60,
                 "def": 60,
-                "hp": 75,
+                "hp": 60,
                 "spa": 105,
                 "spd": 105,
                 "spe": 105
@@ -38302,12 +38302,12 @@
             "name": "unown",
             "pokedex": 201,
             "stats": {
-                "atk": 72,
-                "def": 48,
-                "hp": 48,
-                "spa": 72,
-                "spd": 48,
-                "spe": 48
+                "atk": 82,
+                "def": 68,
+                "hp": 68,
+                "spa": 82,
+                "spd": 68,
+                "spe": 68
             },
             "tmhm": [],
             "types": [
@@ -38688,12 +38688,12 @@
             "name": "dunsparce",
             "pokedex": 206,
             "stats": {
-                "atk": 75,
-                "def": 75,
-                "hp": 100,
-                "spa": 75,
+                "atk": 100,
+                "def": 80,
+                "hp": 125,
+                "spa": 85,
                 "spd": 75,
-                "spe": 45
+                "spe": 55
             },
             "tmhm": [
                 "headbutt",
@@ -38788,8 +38788,8 @@
                 "atk": 95,
                 "def": 125,
                 "hp": 75,
-                "spa": 35,
-                "spd": 85,
+                "spa": 45,
+                "spd": 75,
                 "spe": 95
             },
             "tmhm": [
@@ -39308,10 +39308,10 @@
             "name": "shuckle",
             "pokedex": 213,
             "stats": {
-                "atk": 5,
+                "atk": 10,
                 "def": 230,
                 "hp": 60,
-                "spa": 5,
+                "spa": 10,
                 "spd": 230,
                 "spe": 5
             },
@@ -39478,12 +39478,12 @@
             "name": "sneasel",
             "pokedex": 215,
             "stats": {
-                "atk": 110,
-                "def": 55,
+                "atk": 120,
+                "def": 65,
                 "hp": 70,
-                "spa": 85,
-                "spd": 75,
-                "spe": 115
+                "spa": 45,
+                "spd": 85,
+                "spe": 125
             },
             "tmhm": [
                 "dynamicpunch",
@@ -39583,9 +39583,9 @@
             "name": "teddiursa",
             "pokedex": 216,
             "stats": {
-                "atk": 80,
-                "def": 50,
-                "hp": 60,
+                "atk": 90,
+                "def": 70,
+                "hp": 80,
                 "spa": 50,
                 "spd": 50,
                 "spe": 40
@@ -39664,9 +39664,9 @@
             "name": "ursaring",
             "pokedex": 217,
             "stats": {
-                "atk": 130,
-                "def": 75,
-                "hp": 90,
+                "atk": 135,
+                "def": 85,
+                "hp": 105,
                 "spa": 75,
                 "spd": 75,
                 "spe": 55
@@ -39922,11 +39922,11 @@
             "name": "swinub",
             "pokedex": 220,
             "stats": {
-                "atk": 50,
-                "def": 40,
-                "hp": 50,
-                "spa": 30,
-                "spd": 30,
+                "atk": 75,
+                "def": 60,
+                "hp": 75,
+                "spa": 45,
+                "spd": 45,
                 "spe": 50
             },
             "tmhm": [
@@ -40003,7 +40003,7 @@
             "stats": {
                 "atk": 130,
                 "def": 80,
-                "hp": 120,
+                "hp": 110,
                 "spa": 70,
                 "spd": 60,
                 "spe": 80
@@ -41022,10 +41022,10 @@
             "pokedex": 233,
             "stats": {
                 "atk": 80,
-                "def": 90,
+                "def": 100,
                 "hp": 85,
                 "spa": 105,
-                "spd": 95,
+                "spd": 105,
                 "spe": 60
             },
             "tmhm": [
@@ -41112,11 +41112,11 @@
             "name": "stantler",
             "pokedex": 234,
             "stats": {
-                "atk": 95,
-                "def": 75,
-                "hp": 75,
-                "spa": 85,
-                "spd": 75,
+                "atk": 105,
+                "def": 67,
+                "hp": 93,
+                "spa": 105,
+                "spd": 70,
                 "spe": 85
             },
             "tmhm": [
@@ -41200,12 +41200,12 @@
             "name": "smeargle",
             "pokedex": 235,
             "stats": {
-                "atk": 50,
+                "atk": 40,
                 "def": 55,
-                "hp": 55,
-                "spa": 50,
-                "spd": 55,
-                "spe": 75
+                "hp": 75,
+                "spa": 40,
+                "spd": 95,
+                "spe": 65
             },
             "tmhm": [],
             "types": [
