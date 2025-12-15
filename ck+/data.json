@@ -19035,7 +19035,7 @@
             ]
         }
     ],
-    "moves": [
+     "moves": [
         {
             "accuracy": 100,
             "extra": [],
@@ -19292,7 +19292,7 @@
             ],
             "index": 245,
             "name": "extremespeed",
-            "power": 100,
+            "power": 80,
             "pp": 8,
             "type": "normal"
         },
@@ -19330,11 +19330,11 @@
         {
             "accuracy": 100,
             "extra": [
-                "30% chance to paralyze opponent"
+                "100% chance to paralyze opponent"
             ],
             "index": 122,
             "name": "lick",
-            "power": 40,
+            "power": 20,
             "pp": 30,
             "type": "ghost"
         },
@@ -19475,7 +19475,7 @@
             ],
             "index": 168,
             "name": "thief",
-            "power": 40,
+            "power": 75,
             "pp": 10,
             "type": "dark"
         },
@@ -19586,15 +19586,14 @@
             "type": "normal"
         },
         {
-            "accuracy": 100,
+            "accuracy": 90,
             "extra": [
                 "User takes 33% of damage dealt as recoil"
             ],
             "index": 136,
             "name": "hi-jump-kick",
-            "power": 110,
+            "power": 120,
             "pp": 20,
-            "template": "recoil-third",
             "type": "fighting"
         },
         {
@@ -19719,11 +19718,11 @@
         {
             "accuracy": 100,
             "extra": [
-                "20% to either paralyze, freeze, or burn the opponent\nHas an increased critical hit rate"
+                "30% to confuse the opponent"
             ],
             "index": 177,
             "name": "aeroblast",
-            "power": 120,
+            "power": 100,
             "pp": 8,
             "type": "flying"
         },
@@ -19841,7 +19840,9 @@
         },
         {
             "accuracy": 100,
-            "extra": [],
+            "extra": [
+		"Cannot miss"
+],
             "index": 17,
             "name": "wing-attack",
             "power": 60,
@@ -20161,7 +20162,7 @@
             "type": "normal"
         },
         {
-            "accuracy": 90,
+            "accuracy": 85,
             "extra": [],
             "index": 224,
             "name": "megahorn",
@@ -20197,7 +20198,7 @@
             ],
             "index": 4,
             "name": "comet-punch",
-            "power": 18,
+            "power": 25,
             "pp": 15,
             "template": "multi-hit",
             "type": "normal"
@@ -20237,7 +20238,9 @@
         },
         {
             "accuracy": 100,
-            "extra": [],
+            "extra": [
+		"High critical hit rate"
+],
             "index": 65,
             "name": "drill-peck",
             "power": 80,
@@ -20279,17 +20282,16 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits 2-5 times"
+                "lowers opponent's speed"
             ],
             "index": 198,
             "name": "bone-rush",
-            "power": 25,
+            "power": 60,
             "pp": 10,
-            "template": "multi-hit",
             "type": "ground"
         },
         {
-            "accuracy": 100,
+            "accuracy": 90,
             "extra": [
                 "Lasts 5 turns, doubling in power each turn\nDoubles in damage if the user has used Defense Curl\n80% chance to discourage this move if the enemy is in love, confused, or paralyzed, 80% chance to discourage this move if the enemy's HP is below 25%, 80% chance to greatly encourage this move otherwise"
             ],
@@ -20351,7 +20353,7 @@
             ],
             "index": 221,
             "name": "sacred-fire",
-            "power": 120,
+            "power": 100,
             "pp": 10,
             "type": "fire"
         },
@@ -20402,13 +20404,13 @@
             "type": "normal"
         },
         {
-            "accuracy": 100,
+            "accuracy": 70,
             "extra": [
                 "30% chance to poison opponent"
             ],
             "index": 124,
             "name": "sludge",
-            "power": 65,
+            "power": 120,
             "pp": 20,
             "type": "poison"
         },
@@ -20499,7 +20501,7 @@
             "type": "poison"
         },
         {
-            "accuracy": 90,
+            "accuracy": 75,
             "extra": [
                 "30% chance to lower opponent's defense"
             ],
@@ -20534,11 +20536,11 @@
         {
             "accuracy": 100,
             "extra": [
-                "30% chance to flinch opponent"
+                "lower's opponent's speed"
             ],
             "index": 67,
             "name": "low-kick",
-            "power": 50,
+            "power": 40,
             "pp": 20,
             "type": "fighting"
         },
@@ -20547,7 +20549,7 @@
             "extra": [],
             "index": 88,
             "name": "rock-throw",
-            "power": 50,
+            "power": 60,
             "pp": 15,
             "type": "rock"
         },
@@ -20620,7 +20622,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "10% chance to freeze opponent"
+                "10% chance to freeze opponent\npriority"
             ],
             "index": 181,
             "name": "powder-snow",
@@ -20699,7 +20701,7 @@
             ],
             "index": 131,
             "name": "spike-cannon",
-            "power": 20,
+            "power": 25,
             "pp": 15,
             "template": "multi-hit",
             "type": "normal"
@@ -20744,7 +20746,7 @@
             ],
             "index": 141,
             "name": "leech-life",
-            "power": 40,
+            "power": 80,
             "pp": 15,
             "template": "drain-half",
             "type": "bug"
@@ -20810,7 +20812,7 @@
             ],
             "index": 152,
             "name": "crabhammer",
-            "power": 120,
+            "power": 100,
             "pp": 10,
             "type": "water"
         },
@@ -20909,7 +20911,7 @@
             ],
             "index": 250,
             "name": "whirlpool",
-            "power": 35,
+            "power": 40,
             "pp": 15,
             "type": "water"
         },
@@ -20962,7 +20964,7 @@
             "extra": [],
             "index": 22,
             "name": "vine-whip",
-            "power": 35,
+            "power": 40,
             "pp": 10,
             "type": "grass"
         },
@@ -21043,11 +21045,11 @@
             "type": "poison"
         },
         {
-            "accuracy": 100,
+            "accuracy": 85,
             "extra": [],
             "index": 21,
             "name": "slam",
-            "power": 80,
+            "power": 95,
             "pp": 20,
             "type": "normal"
         },
@@ -21078,7 +21080,7 @@
             ],
             "index": 83,
             "name": "fire-spin",
-            "power": 15,
+            "power": 20,
             "pp": 15,
             "type": "fire"
         },
@@ -21145,7 +21147,7 @@
             ],
             "index": 41,
             "name": "twineedle",
-            "power": 35,
+            "power": 25,
             "pp": 20,
             "template": "double-hit",
             "type": "bug"
@@ -21185,7 +21187,7 @@
             "type": "grass"
         },
         {
-            "accuracy": 100,
+            "accuracy": 90,
             "extra": [
                 "Has an increased critical hit rate"
             ],
@@ -21235,7 +21237,7 @@
             ],
             "index": 91,
             "name": "dig",
-            "power": 80,
+            "power": 70,
             "pp": 10,
             "type": "ground"
         },
@@ -21255,25 +21257,25 @@
             "extra": [],
             "index": 57,
             "name": "surf",
-            "power": 80,
+            "power": 95,
             "pp": 15,
             "type": "water"
         },
         {
             "accuracy": 100,
             "extra": [
-                "Has an increased critical hit rate"
+                "Has an increased critical hit rate\nCannot miss"
             ],
             "index": 75,
             "name": "razor-leaf",
-            "power": 55,
+            "power": 60,
             "pp": 25,
             "type": "grass"
         },
         {
             "accuracy": 100,
             "extra": [
-                "30% chance to paralyze opponent"
+                "Cannot miss"
             ],
             "index": 209,
             "name": "spark",
@@ -21288,7 +21290,7 @@
             ],
             "index": 246,
             "name": "ancientpower",
-            "power": 100,
+            "power": 80,
             "pp": 8,
             "type": "rock"
         },
@@ -21338,7 +21340,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "10% chance to burn opponent\nWill instantly thaw the user\nmove is guaranteed if the enemy is frozen"
+                "raises the user's speed\nWill instantly thaw the user\nmove is guaranteed if the enemy is frozen"
             ],
             "index": 172,
             "name": "flame-wheel",
@@ -21671,7 +21673,7 @@
             ],
             "index": 248,
             "name": "future-sight",
-            "power": 80,
+            "power": 100,
             "pp": 15,
             "type": "psychic"
         },
@@ -21689,47 +21691,13 @@
         {
             "accuracy": 100,
             "extra": [
-                "Doubles in damage each turn it is used back to back\n80% chance to discourage this move if the enemy is in love, confused, or paralyzed, 80% chance to discourage this move if the enemy's HP is below 25%, 80% chance to greatly encourage this move otherwise"
+                "High critical hit rate"
             ],
             "index": 210,
             "name": "fury-cutter",
-            "power": 15,
+            "power": 80,
             "pp": 20,
             "type": "bug",
-            "variants": [
-                {
-                    "description": "Turn 2",
-                    "effects": {
-                        "modifiers": {
-                            "damage": "=200%"
-                        }
-                    }
-                },
-                {
-                    "description": "Turn 3",
-                    "effects": {
-                        "modifiers": {
-                            "damage": "=400%"
-                        }
-                    }
-                },
-                {
-                    "description": "Turn 4",
-                    "effects": {
-                        "modifiers": {
-                            "damage": "=800%"
-                        }
-                    }
-                },
-                {
-                    "description": "Turn 5",
-                    "effects": {
-                        "modifiers": {
-                            "damage": "=1600%"
-                        }
-                    }
-                }
-            ]
         },
         {
             "accuracy": 100,
@@ -21766,11 +21734,11 @@
         {
             "accuracy": 100,
             "extra": [
-                "10% chance to confuse opponent"
+                "rampage for 2 turns, then confuses user"
             ],
             "index": 80,
             "name": "petal-dance",
-            "power": 90,
+            "power": 120,
             "pp": 20,
             "type": "grass"
         },
@@ -21874,7 +21842,7 @@
             "extra": [],
             "index": 33,
             "name": "tackle",
-            "power": 35,
+            "power": 40,
             "pp": 35,
             "type": "normal"
         },
@@ -21979,7 +21947,7 @@
             "extra": [],
             "index": 64,
             "name": "peck",
-            "power": 35,
+            "power": 40,
             "pp": 35,
             "type": "flying"
         },
