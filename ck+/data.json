@@ -21697,7 +21697,7 @@
             "name": "fury-cutter",
             "power": 80,
             "pp": 20,
-            "type": "bug",
+            "type": "bug"
         },
         {
             "accuracy": 100,
@@ -42499,8 +42499,8 @@
             }
         }
     },
-    "trainers": [
-        {
+   "trainers": [
+    {
       "area": "Route 30",
       "name": "youngster-joey",
       "team": [
@@ -42546,12 +42546,12 @@
       "team": [
         {
           "name": "spinarak",
-          "level": 11,
+          "level": 12,
           "item": "poison-barb",
           "moves": [
             "spider-web",
             "acid",
-            "twineedle"
+            "fury-cutter"
           ]
         },
         {
@@ -42565,7 +42565,7 @@
         },
         {
           "name": "paras",
-          "level": 12,
+          "level": 10,
           "item": "leftovers",
           "moves": [
             "leech-seed",
@@ -42906,11 +42906,11 @@
         {
           "name": "psyduck",
           "level": 15,
-          "item": "berry-juice",
+          "item": "gold-berry",
           "moves": [
             "toxic",
             "encore",
-            "hydro-pump",
+            "surf",
             "future-sight"
           ]
         },
@@ -42939,7 +42939,7 @@
           "level": 16,
           "item": "leftovers",
           "moves": [
-            "hypnosis",   
+            "hypnosis",
             "night-shade",
             "quick-attack",
             "gust"
@@ -42953,11 +42953,1881 @@
             "flame-wheel",
             "thundershock",
             "peck",
-            "low-kick"
+            "mach-punch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 36",
+      "name": "schoolboy-alan",
+      "team": [
+        {
+          "name": "meowth",
+          "level": 16,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "thunder-wave",
+            "fury-swipes"
+          ]
+        },
+        {
+          "name": "sandshrew",
+          "level": 18,
+          "item": "poison-barb",
+          "moves": [
+            "sludge-bomb",
+            "dig",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "sudowoodo",
+          "level": 15,
+          "item": "sitrus-berry",
+          "moves": [
+            "rock-throw",
+            "magnitude",
+            "headbutt"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 36",
+      "name": "psychic-mark",
+      "team": [
+        {
+          "name": "smoochum",
+          "level": 15,
+          "item": "nevermeltice",
+          "moves": [
+            "aurora-beam",
+            "lovely-kiss",
+            "psybeam"
+          ]
+        },
+        {
+          "name": "staryu",
+          "level": 16,
+          "item": "berry-juice",
+          "moves": [
+            "bubblebeam",
+            "hypnosis",
+            "psychic"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "National Park",
+      "name": "pokefan-william",
+      "team": [
+        {
+          "name": "ivysaur",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "growth",
+            "synthesis",
+            "mega-drain",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "butterfree",
+          "level": 17,
+          "item": "leftovers",
+          "moves": [
+            "sleep-powder",
+            "leech-seed",
+            "giga-drain",
+            "psychic"
+          ]
+        },
+        {
+          "name": "clefairy",
+          "level": 19,
+          "item": "pink-bow",
+          "moves": [
+            "double-team",
+            "dizzy-punch",
+            "flamethrower",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "chinchou",
+          "level": 18,
+          "item": "lum-berry",
+          "moves": [
+            "bubblebeam",
+            "thunder-wave",
+            "aurora-beam",
+            "spark"
+          ]
+        },
+        {
+          "name": "pidgeotto",
+          "level": 17,
+          "item": "sharp-beak",
+          "moves": [
+            "wing-attack",
+            "whirlwind",
+            "steel-wing",
+            "fury-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "National Park",
+      "name": "lass-krise",
+      "team": [
+        {
+          "name": "doduo",
+          "level": 18,
+          "item": "pink-bow",
+          "moves": [
+            "thrash",
+            "screech",
+            "wing-attack",
+            "steel-wing"
+          ]
+        },
+        {
+          "name": "ponyta",
+          "level": 17,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "stomp"
+          ]
+        },
+        {
+          "name": "wooper",
+          "level": 19,
+          "item": "sitrus-berry",
+          "moves": [
+            "whirlpool",
+            "recover",
+            "rock-slide",
+            "magnitude"
+          ]
+        },
+        {
+          "name": "bayleef",
+          "level": 17,
+          "item": "leftovers",
+          "moves": [
+            "synthesis",
+            "wrap",
+            "mega-drain",
+            "headbutt"
+          ]
+        },
+        {
+          "name": "beedrill",
+          "level": 17,
+          "item": "scope-lens",
+          "moves": [
+            "focus-energy",
+            "fury-cutter",
+            "acid",
+            "drill-peck"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "National Park",
+      "name": "schoolboy-jack",
+      "team": [
+        {
+          "name": "teddiursa",
+          "level": 16,
+          "item": "sitrus-berry",
+          "moves": [
+            "counter",
+            "double-edge",
+            "submission",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "paras",
+          "level": 17,
+          "item": "miracle-seed",
+          "moves": [
+            "spore",
+            "petal-dance",
+            "fury-cutter",
+            "rock-throw"
+          ]
+        },
+        {
+          "name": "cubone",
+          "level": 16,
+          "item": "soft-sand",
+          "moves": [
+            "bonemerang",
+            "shadow-ball",
+            "rage"
+          ]
+        },
+        {
+          "name": "golbat",
+          "level": 17,
+          "item": "leftovers",
+          "moves": [
+            "mean-look",
+            "toxic",
+            "leech-life",
+            "haze"
+          ]
+        },
+        {
+          "name": "ariados",
+          "level": 17,
+          "item": "scope-lens",
+          "moves": [
+            "razor-leaf",
+            "fury-cutter",
+            "slash",
+            "acid"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "National Park",
+      "name": "pokefan-beverly",
+      "team": [
+        {
+          "name": "pineco",
+          "level": 18,
+          "item": "focus-band",
+          "moves": [
+            "spikes",
+            "light-screen",
+            "pin-missile",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "swinub",
+          "level": 16,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+            "icy-wind",
+            "rock-slide",
+            "take-down"
+          ]
+        },
+        {
+          "name": "haunter",
+          "level": 16,
+          "item": "nevermeltice",
+          "moves": [
+            "ice-punch",
+            "mean-look",
+            "shadow-ball",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "slugma",
+          "level": 17,
+          "item": "sitrus-berry",
+          "moves": [
+            "flame-wheel",
+            "smokescreen",
+            "rock-slide",
+            "magnitude"
+          ]
+        },
+        {
+          "name": "noctowl",
+          "level": 17,
+          "item": "leftovers",
+          "moves": [
+            "toxic",
+            "night-shade",
+            "icy-wind",
+            "protect"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "officer-dirk",
+      "team": [
+        {
+          "name": "growlithe",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "flame-wheel",
+            "headbutt",
+            "crunch"
+          ]
+        },
+        {
+          "name": "machop",
+          "level": 17,
+          "item": "lum-berry",
+          "moves": [
+            "vital-throw",
+            "rock-throw",
+            "bind"
+          ]
+        },
+        {
+          "name": "rhyhorn",
+          "level": 17,
+          "item": "quick-claw",
+          "moves": [
+            "horn-attack",
+            "magnitude"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "firebreather-walt",
+      "team": [
+        {
+          "name": "charmeleon",
+          "level": 16,
+          "item": "lum-berry",
+          "moves": [
+            "fire-spin",
+            "metal-claw",
+            "dragonbreath"
+          ]
+        },
+        {
+          "name": "koffing",
+          "level": 16,
+          "item": "charcoal",
+          "moves": [
+            "sludge-bomb",
+            "flame-wheel"
+          ]
+        }
+    ]
+    },
+    {
+        "area": "Route 35",
+      "name": "juggler-irwin",
+      "team": [
+        {
+          "name": "voltorb",
+          "level": 16,
+          "item": "berry-juice",
+          "moves": [
+            "rollout",
+            "spark",
+            "sonicboom"
+          ]
+        },
+        {
+          "name": "mr-mime",
+          "level": 16,
+          "item": "light-ball",
+          "moves": [
+            "psybeam",
+            "razor-leaf",
+            "thunderpunch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "camper-ivan",
+      "team": [
+        {
+          "name": "weepinbell",
+          "level": 16,
+          "item": "berry-juice",
+          "moves": [
+            "razor-leaf",
+            "acid",
+            "leech-life"
+          ]
+        },
+        {
+          "name": "geodude",
+          "level": 17,
+          "item": "hard-stone",
+          "moves": [
+            "magnitude",
+            "rock-slide",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "flaaffy",
+          "level": 16,
+          "item": "berry-juice",
+          "moves": [
+            "spark",
+            "psybeam",
+            "faint-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "picknicker-brooke",
+      "team": [
+        {
+          "name": "phanpy",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "defense-curl",
+            "rollout",
+            "powder-snow"
+          ]
+        },
+        {
+          "name": "nidorina",
+          "level": 16,
+          "item": "berry-juice",
+          "moves": [
+            "dig",
+            "fire-punch",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "omanyte",
+          "level": 16,
+          "item": "miracle-seed",
+          "moves": [
+            "bubblebeam",
+            "aurora-beam",
+            "giga-drain"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "camper-elliot",
+      "team": [
+        {
+          "name": "nidorino",
+          "level": 16,
+          "item": "berry-juice",
+          "moves": [
+            "sludge-bomb",
+            "shadow-ball",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "seadra",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "bubblebeam",
+            "aurora-beam",
+            "dragonbreath"
+          ]
+        },
+        {
+          "name": "houndour",
+          "level": 16,
+          "item": "black-glasses",
+          "moves": [
+            "bite",
+            "flame-wheel",
+            "scratch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "picknicker-kim",
+      "team": [
+        {
+          "name": "golbat",
+          "level": 16,
+          "item": "silverpowder",
+          "moves": [
+            "leech-life",
+            "toxic",
+            "scary-face"
+          ]
+        },
+        {
+          "name": "kabuto",
+          "level": 16,
+          "item": "berry-juice",
+          "moves": [
+            "rock-slide",
+            "submission",
+            "slash"
+          ]
+        },
+        {
+          "name": "meowth",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "fury-swipes",
+            "screech",
+            "icy-wind"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "bug-catcher-arnie",
+      "team": [
+        {
+          "name": "delibird",
+          "level": 21,
+          "item": "quick-claw",
+          "moves": [
+            "fly",
+            "present"
+          ]
+        },
+        {
+          "name": "psyduck",
+          "level": 19,
+          "item": "leftovers",
+          "moves": [
+            "bubblebeam",
+            "confuse-ray",
+            "psybeam",
+            "aurora-beam"
+          ]
+        },
+        {
+          "name": "fearow",
+          "level": 20,
+          "item": "berry-juice",
+          "moves": [
+            "wing-attack",
+            "fury-attack",
+            "steel-wing",
+            "quick-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "birdkeeper-bryan",
+      "b2b": true,
+      "team": [
+        {
+          "name": "venomoth",
+          "level": 20,
+          "item": "berry-juice",
+          "moves": [
+            "sleep-powder",
+            "psychic",
+            "sludge-bomb",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "ledian",
+          "level": 21,
+          "item": "focus-band",
+          "moves": [
+            "light-screen",
+            "toxic",
+            "giga-drain",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "pinsir",
+          "level": 19,
+          "item": "leftovers",
+          "moves": [
+            "fury-cutter",
+            "vital-throw",
+            "rock-throw",
+            "horn-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Goldenrod Gym",
+      "name": "lass-carrie",
+      "team": [
+        {
+          "name": "pikachu",
+          "level": 20,
+          "item": "light-ball",
+          "moves": [
+            "spark",
+            "extremespeed",
+            "surf",
+            "fly"
+          ]
+        },
+        {
+          "name": "eevee",
+          "level": 21,
+          "item": "leftovers",
+          "moves": [
+            "curse",
+            "rest",
+            "snore",
+            "sleep-talk"
+          ]
+        },
+        {
+          "name": "nidorina",
+          "level": 19,
+          "item": "pink-bow",
+          "moves": [
+            "horn-attack",
+            "dig",
+            "ice-punch",
+            "fire-punch"
+          ]
+        },
+        {
+          "name": "sandslash",
+          "level": 18,
+          "item": "scope-lens",
+          "moves": [
+            "slash",
+            "karate-chop",
+            "twineedle",
+            "rock-throw"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Goldenrod Gym",
+      "name": "lass-bridget",
+      "team": [
+        {
+          "name": "smeargle",
+          "level": 21,
+          "item": "focus-band",
+          "moves": [
+            "spore",
+            "substitute",
+            "baton-pass",
+            "destiny-bond"
+          ]
+        },
+        {
+          "name": "tentacool",
+          "level": 20,
+          "item": "leftovers",
+          "moves": [
+            "whirlpool",
+            "swords-dance",
+            "sludge-bomb",
+            "wrap"
+          ]
+        },
+        {
+          "name": "jigglypuff",
+          "level": 19,
+          "item": "berry-juice",
+          "moves": [
+            "double-edge",
+            "sing",
+            "rollout",
+            "explosion"
+          ]
+        },
+        {
+          "name": "girafarig",
+          "level": 18,
+          "item": "lum-berry",
+          "moves": [
+            "psybeam",
+            "baton-pass",
+            "spark",
+            "flame-wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Goldenrod Gym",
+      "name": "beauty-victoria",
+      "team": [
+        {
+          "name": "persian",
+          "level": 20,
+          "item": "lum-berry",
+          "moves": [
+            "pay-day",
+            "glare",
+            "icy-wind",
+            "bubblebeam"
+          ]
+        },
+        {
+          "name": "ponyta",
+          "level": 21,
+          "item": "berry-juice",
+          "moves": [
+            "flame-wheel",
+            "morning-sun",
+            "spark",
+            "faint-attack"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 19,
+          "item": "leftovers",
+          "moves": [
+            "pain-split",
+            "confuse-ray",
+            "hypnosis",
+            "mean-look"
+          ]
+        },
+        {
+          "name": "dewgong",
+          "level": 20,
+          "item": "pink-bow",
+          "moves": [
+            "encore",
+            "headbutt",
+            "rest",
+            "sleep-talk"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Goldenrod Gym",
+      "name": "beauty-samantha",
+      "team": [
+        {
+          "name": "butterfree",
+          "level": 21,
+          "item": "silverpowder",
+          "moves": [
+            "leech-life",
+            "sleep-powder",
+            "wing-attack",
+            "return"
+          ]
+        },
+        {
+          "name": "flaaffy",
+          "level": 19,
+          "item": "magnet",
+          "moves": [
+            "spark",
+            "thunder-wave",
+            "return",
+            "fire-punch"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 20,
+          "item": "leftovers",
+          "moves": [
+            "return",
+            "iron-tail",
+            "dig",
+            "night-shade"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 19,
+          "item": "lum-berry",
+          "moves": [
+            "drill-peck",
+            "return",
+            "bubblebeam",
+            "aurora-beam"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Goldenrod Gym",
+      "name": "leader-whitney",
+      "team": [
+        {
+          "name": "furret",
+          "level": 21,
+          "item": "soft-sand",
+          "moves": [
+            "dig",
+            "extremespeed",
+            "shadow-ball",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "azumarill",
+          "level": 21,
+          "item": "sitrus-berry",
+          "moves": [
+            "belly-drum",
+            "body-slam",
+            "bubblebeam",
+            "ice-punch"
+          ]
+        },
+        {
+          "name": "clefable",
+          "level": 21,
+          "item": "lum-berry",
+          "moves": [
+            "mimic",
+            "thunder-wave",
+            "sweet-kiss",
+            "fire-punch"
+          ]
+        },
+        {
+          "name": "dragonair",
+          "level": 21,
+          "item": "leftovers",
+          "moves": [
+            "recover",
+            "amnesia",
+            "twister",
+            "wrap"
+          ]
+        },
+        {
+          "name": "granbull",
+          "level": 21,
+          "item": "kings-rock",
+          "moves": [
+            "glare",
+            "headbutt",
+            "rock-slide",
+            "bone-rush"
+          ]
+        },
+        {
+          "name": "miltank",
+          "level": 22,
+          "item": "no-item",
+          "moves": [
+            "rollout",
+            "attract",
+            "milk-drink",
+            "stomp"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 34",
+      "name": "youngster-samuel",
+      "team": [
+        {
+          "name": "raichu",
+          "level": 23,
+          "item": "berry-juice",
+          "moves": [
+            "thunderbolt",
+            "thunder-wave",
+            "surf",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "sandslash",
+          "level": 25,
+          "item": "berry-juice",
+          "moves": [
+            "dig",
+            "rock-slide",
+            "slash",
+            "fury-cutter"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 34",
+      "name": "camper-todd",
+      "team": [
+        {
+          "name": "furret",
+          "level": 24,
+          "item": "pink-bow",
+          "moves": [
+            "lovely-kiss",
+            "charm",
+            "curse",
+            "extremespeed"
+          ]
+        },
+        {
+          "name": "arbok",
+          "level": 24,
+          "item": "kings-rock",
+          "moves": [
+            "glare",
+            "acid",
+            "earthquake",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "wartortle",
+          "level": 24,
+          "item": "sitrus-berry",
+          "moves": [
+            "mirror-coat",
+            "recover",
+            "surf",
+            "ice-beam"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 34",
+      "name": "youngster-ian",
+      "team": [
+        {
+          "name": "pidgeotto",
+          "level": 25,
+          "item": "berry-juice",
+          "moves": [
+            "return",
+            "drill-peck",
+            "flamethrower",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "nidorino",
+          "level": 23,
+          "item": "berry-juice",
+          "moves": [
+            "sludge-bomb",
+            "swords-dance",
+            "dig",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 34",
+      "name": "picknicker-gina",
+      "team": [
+        {
+          "name": "wigglytuff",
+          "level": 24,
+          "item": "lum-berry",
+          "moves": [
+            "sweet-kiss",
+            "lovely-kiss",
+            "charm",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "sunflora",
+          "level": 24,
+          "item": "leftovers",
+          "moves": [
+            "synthesis",
+            "leech-seed",
+            "giga-drain",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "azumarill",
+          "level": 24,
+          "item": "sitrus-berry",
+          "moves": [
+            "waterfall",
+            "charm",
+            "ice-punch",
+            "submission"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 34",
+      "name": "pokefan-brandon",
+      "team": [
+        {
+          "name": "dunsparce",
+          "level": 27,
+          "item": "leftovers",
+          "moves": [
+            "body-slam",
+            "thunder-wave",
+            "rock-slide",
+            "shadow-ball"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 34",
+      "name": "cooltrainers-jenn",
+      "team": [
+        {
+          "name": "drowzee",
+          "level": 24,
+          "item": "sitrus-berry",
+          "moves": [
+            "hypnosis",
+            "dream-eater",
+            "psychic",
+            "thief"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 22,
+          "item": "leftovers",
+          "moves": [
+            "hypnosis",
+            "nightmare",
+            "spite",
+            "swift"
+          ]
+        }
+     ]
+    },
+    {
+    "area": "Route 34",
+      "name": "cooltrainers-kate",
+       "b2b": true,
+      "team": [
+        
+        {
+          "name": "flaaffy",
+          "level": 24,
+          "item": "magnet",
+          "moves": [
+            "thunderpunch",
+            "thunder-wave",
+            "fire-punch",
+            "headbutt"
+          ]
+        },
+        {
+          "name": "gloom",
+          "level": 24,
+          "item": "miracle-seed",
+          "moves": [
+            "moonlight",
+            "toxic",
+            "giga-drain",
+            "acid"
+          ]
+        },
+        {
+          "name": "cloyster",
+          "level": 22,
+          "item": "pink-bow",
+          "moves": [
+            "spike-cannon",
+            "pin-missile",
+            "icy-wind",
+            "whirlpool"
+          ]
+        }
+    ]
+    },
+    {
+    "area": "Route 34",
+    "name": "cooltrainers-irene",
+    "b2b": true,
+    "team": [
+        
+        {
+          "name": "nidorina",
+          "level": 24,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "curse",
+            "earthquake",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 22,
+          "item": "kings-rock",
+          "moves": [
+            "headbutt",
+            "icy-wind",
+            "waterfall",
+            "drill-peck"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 34",
+      "name": "officer-keith",
+      "team": [
+        {
+          "name": "granbull",
+          "level": 22,
+          "item": "blackglasses",
+          "moves": [
+            "crunch",
+            "roar",
+            "headbutt",
+            "submission"
+          ]
+        },
+        {
+          "name": "magnemite",
+          "level": 24,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "thunder-wave",
+            "flash",
+            "psywave"
+          ]
+        },
+        {
+          "name": "rapidash",
+          "level": 23,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "stomp",
+            "spark",
+            "double-kick"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Ilex Forest",
+      "name": "bug-catcher-wayne",
+      "team": [
+        {
+          "name": "fearow",
+          "level": 22,
+          "item": "pink-bow",
+          "moves": [
+            "headbutt",
+            "swords-dance",
+            "drill-peck",
+            "steel-wing"
+          ]
+        },
+        {
+          "name": "exeggcute",
+          "level": 26,
+          "item": "quick-claw",
+          "moves": [
+            "headbutt",
+            "stun-spore",
+            "psychic",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "aipom",
+          "level": 23,
+          "item": "berry-juice",
+          "moves": [
+            "headbutt",
+            "shadow-ball",
+            "double-kick",
+            "iron-tail"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Town",
+      "name": "rival-chikorita",
+      "team": [
+        {
+          "name": "golbat",
+          "level": 24,
+          "item": "scope-lens",
+          "moves": [
+            "confuse-ray",
+            "leech-life",
+            "giga-drain",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "weepinbell",
+          "level": 23,
+          "item": "poison-barb",
+          "moves": [
+            "giga-drain",
+            "sleep-powder",
+            "sludge-bomb",
+            "leech-life"
+          ]
+        },
+        {
+          "name": "haunter",
+          "level": 23,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "fire-punch",
+            "sludge-bomb",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "poliwhirl",
+          "level": 24,
+          "item": "berry-juice",
+          "moves": [
+            "waterfall",
+            "lovely-kiss",
+            "body-slam",
+            "vital-throw"
+          ]
+        },
+        {
+          "name": "quilava",
+          "level": 25,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "thunderpunch",
+            "metal-claw",
+            "return"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Town",
+      "name": "rival-cyndaquil",
+      "team": [
+        {
+          "name": "golbat",
+          "level": 24,
+          "item": "scope-lens",
+          "moves": [
+            "confuse-ray",
+            "leech-life",
+            "giga-drain",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "houndour",
+          "level": 23,
+          "item": "black-glasses",
+          "moves": [
+            "crunch",
+            "mean-look",
+            "flame-wheel",
+            "headbutt"
+          ]
+        },
+        {
+          "name": "haunter",
+          "level": 23,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "thunderpunch",
+            "sludge-bomb",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "weepinbell",
+          "level": 24,
+          "item": "poison-barb",
+          "moves": [
+            "giga-drain",
+            "sleep-powder",
+            "sludge-bomb",
+            "leech-life"
+          ]
+        },
+        {
+          "name": "croconaw",
+          "level": 25,
+          "item": "berry-juice",
+          "moves": [
+            "waterfall",
+            "double-edge",
+            "submission",
+            "ice-punch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Town",
+      "name": "rival-totodile",
+      "team": [
+        {
+          "name": "golbat",
+          "level": 24,
+          "item": "scope-lens",
+          "moves": [
+            "confuse-ray",
+            "leech-life",
+            "giga-drain",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "poliwhirl",
+          "level": 23,
+          "item": "berry-juice",
+          "moves": [
+            "waterfall",
+            "lovely-kiss",
+            "body-slam",
+            "vital-throw"
+          ]
+        },
+        {
+          "name": "haunter",
+          "level": 23,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "ice-punch",
+            "sludge-bomb",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "houndour",
+          "level": 24,
+          "item": "black-glasses",
+          "moves": [
+            "crunch",
+            "mean-look",
+            "flame-wheel",
+            "headbutt"
+          ]
+        },
+        {
+          "name": "bayleef",
+          "level": 25,
+          "item": "leftovers",
+          "moves": [
+            "poisonpowder",
+            "leech-seed",
+            "body-slam",
+            "giga-drain"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Slowpoke Well",
+      "name": "gruntm29",
+      "team": [
+        {
+          "name": "raticate",
+          "level": 23,
+          "item": "pink-bow",
+          "moves": [
+            "hyper-fang",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "houndour",
+          "level": 24,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "destiny-bond",
+            "crunch",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "kingler",
+          "level": 23,
+          "item": "leftovers",
+          "moves": [
+            "crabhammer",
+            "submission",
+            "body-slam",
+            "metal-claw"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Slowpoke Well",
+      "name": "gruntf1",
+      "team": [
+        {
+          "name": "scyther",
+          "level": 22,
+          "item": "black-belt",
+          "moves": [
+            "submission",
+            "wing-attack",
+            "fury-cutter",
+            "slash"
+          ]
+        },
+        {
+          "name": "shellder",
+          "level": 25,
+          "item": "quick-claw",
+          "moves": [
+            "recover",
+            "perish-song",
+            "protect",
+            "whirlpool"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 23,
+          "item": "scope-lens",
+          "moves": [
+            "slash",
+            "metal-claw",
+            "powder-snow",
+            "karate-chop"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Slowpoke Well",
+      "name": "gruntm2",
+      "team": [
+        {
+          "name": "drowzee",
+          "level": 25,
+          "item": "focus-band",
+          "moves": [
+            "hypnosis",
+            "nightmare",
+            "psychic",
+            "faint-attack"
+          ]
+        },
+        {
+          "name": "grimer",
+          "level": 24,
+          "item": "mystic-water",
+          "moves": [
+            "surf",
+            "giga-drain",
+            "sludge-bomb",
+            "dream-eater"
+          ]
+        },
+        {
+          "name": "qwilfish",
+          "level": 23,
+          "item": "berry-juice",
+          "moves": [
+            "pin-missile",
+            "spike-cannon",
+            "selfdestruct",
+            "icy-wind"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Slowpoke Well",
+      "name": "gruntm1",
+      "team": [
+        {
+          "name": "gligar",
+          "level": 23,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "dig",
+            "fury-cutter",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "koffing",
+          "level": 25,
+          "item": "pink-bow",
+          "moves": [
+            "selfdestruct",
+            "disable",
+            "sludge-bomb",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "murkrow",
+          "level": 23,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "curse",
+            "wing-attack",
+            "double-kick"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Gym",
+      "name": "twins-amy-may",
+      "team": [
+        {
+          "name": "phanpy",
+          "level": 38,
+          "item": "berry-juice",
+          "moves": [
+            "earthquake",
+            "charm",
+            "rollout",
+            "powder-snow"
+          ]
+        },
+        {
+          "name": "teddiursa",
+          "level": 38,
+          "item": "berry-juice",
+          "moves": [
+            "fury-swipes",
+            "swords-dance",
+            "submission",
+            "dig"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Gym",
+      "name": "bug-catcher-josh",
+      "team": [
+        {
+          "name": "ledian",
+          "level": 26,
+          "item": "focus-band",
+          "moves": [
+            "light-screen",
+            "toxic",
+            "dynamicpunch",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "shuckle",
+          "level": 27,
+          "item": "leftovers",
+          "moves": [
+            "toxic",
+            "rest",
+            "wrap",
+            "rock-smash"
+          ]
+        },
+        {
+          "name": "butterfree",
+          "level": 26,
+          "item": "berry-juice",
+          "moves": [
+            "toxic",
+            "morning-sun",
+            "psychic",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "omanyte",
+          "level": 26,
+          "item": "hard-stone",
+          "moves": [
+            "surf",
+            "skull-bash",
+            "ice-beam",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "beedrill",
+          "level": 25,
+          "item": "poison-barb",
+          "moves": [
+            "toxic",
+            "leech-life",
+            "acid",
+            "fury-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Gym",
+      "name": "bug-catcher-al",
+      "team": [
+        {
+          "name": "porygon",
+          "level": 26,
+          "item": "leftovers",
+          "moves": [
+            "extremespeed",
+            "ice-beam",
+            "flamethrower",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "furret",
+          "level": 25,
+          "item": "berry-juice",
+          "moves": [
+            "toxic",
+            "fury-swipes",
+            "thief",
+            "surf"
+          ]
+        },
+        {
+          "name": "wobbuffet",
+          "level": 26,
+          "item": "lum-berry",
+          "moves": [
+            "encore",
+            "destiny-bond",
+            "counter",
+            "mirror-coat"
+          ]
+        },
+        {
+          "name": "magnemite",
+          "level": 26,
+          "item": "focus-band",
+          "moves": [
+            "thunder",
+            "substitute",
+            "attract",
+            "solarbeam"
+          ]
+        },
+        {
+          "name": "venomoth",
+          "level": 25,
+          "item": "bright-powder",
+          "moves": [
+            "sleep-powder",
+            "mega-drain",
+            "acid",
+            "wing-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Gym",
+      "name": "bug-catcher-benny",
+      "team": [
+        {
+          "name": "pinsir",
+          "level": 25,
+          "item": "berry-juice",
+          "moves": [
+            "vital-throw",
+            "counter",
+            "wing-attack",
+            "megahorn"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 27,
+          "item": "focus-band",
+          "moves": [
+            "light-screen",
+            "thunder-wave",
+            "pin-missile",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "gligar",
+          "level": 25,
+          "item": "lum-berry",
+          "moves": [
+            "toxic",
+            "protect",
+            "leech-life",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "kingler",
+          "level": 26,
+          "item": "quick-claw",
+          "moves": [
+            "stomp",
+            "submission",
+            "fury-cutter",
+            "dig"
+          ]
+        },
+        {
+          "name": "scyther",
+          "level": 25,
+          "item": "sharp-beak",
+          "moves": [
+            "wing-attack",
+            "screech",
+            "karate-chop",
+            "fury-cutter"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Azalea Gym",
+      "name": "leader-bugsy",
+      "team": [
+        {
+          "name": "scizor",
+          "level": 27,
+          "item": "quick-claw",
+          "moves": [
+            "metal-claw",
+            "fury-cutter",
+            "wing-attack",
+            "submission"
+          ]
+        },
+        {
+          "name": "magcargo",
+          "level": 26,
+          "item": "leftovers",
+          "moves": [
+            "flame-wheel",
+            "recover",
+            "rock-slide",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "yanma",
+          "level": 26,
+          "item": "miracle-seed",
+          "moves": [
+            "giga-drain",
+            "psybeam",
+            "ancientpower",
+            "faint-attack"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 26,
+          "item": "silverpowder",
+          "moves": [
+            "spore",
+            "leech-seed",
+            "leech-life",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "kabutops",
+          "level": 25,
+          "item": "scope-lens",
+          "moves": [
+            "crabhammer",
+            "fury-cutter",
+            "slash",
+            "karate-chop"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 27,
+          "item": "berry-juice",
+          "moves": [
+            "vital-throw",
+            "wing-attack",
+            "rock-slide",
+            "earthquake"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 33",
+      "name": "hiker-anthony",
+      "team": [
+        {
+          "name": "primeape",
+          "level": 26,
+          "item": "black-belt",
+          "moves": [
+            "endure",
+            "reversal",
+            "cross-chop",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "graveler",
+          "level": 27,
+          "item": "quick-claw",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "body-slam",
+            "dynamicpunch"
+          ]
+        },
+        {
+          "name": "girafarig",
+          "level": 26,
+          "item": "pink-bow",
+          "moves": [
+            "headbutt",
+            "iron-tail",
+            "rock-slide",
+            "shadow-ball"
           ]
         }
       ]
     }
+
     ],
     "type_matchups": [
         {
