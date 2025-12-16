@@ -43495,6 +43495,7 @@
     {
       "area": "Route 35",
       "name": "bug-catcher-arnie",
+      "meta": "optional for gold berries",
       "team": [
         {
           "name": "delibird",
