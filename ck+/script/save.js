@@ -72,67 +72,98 @@ function readNewbox(bytes, start, db1, db2) {
 }
 
 function readPokemonList(bytes, start, capacity, increment) {
-	var count = bytes[start];
-	var p = start + 1;
-	var species = [];
-	for (var i = 0; i < count; i++) {
-		species.push(bytes[p + i]);
-	}
-	/* Terminator was broken for a patch
-	if (bytes[p + count] != 0xff) {
-		return;
-	}*/
-	p += capacity + 1;
-	var pokemon = [];
-	for (var i = 0; i < count; i++) {
-		species[i].level = bytes[p + 0x1f];
-		if (bytes[p] != species[i]) { // Mismatching species or egg
-			continue;
-		}
-		var item = bytes[p + 0x01];
-		if (itemsById.has(item)) {
-			item = itemsById.get(item);
-		} else {
-			item = "";
-		}
-		var atk = (bytes[p + 0x15] & 0xf0) >> 4;
-		var def = (bytes[p + 0x15] & 0x0f);
-		var spe = (bytes[p + 0x16] & 0xf0) >> 4;
-		var spa = (bytes[p + 0x16] & 0x0f);
-		var spd = spa
-		var hp = 8 * (atk & 0b1) + 4 * (def & 0b1) + 2 * (spe & 0b1) + (spa & 0b1);
-		var moves = [];
-		for (var j = 0; j < 4; j++) {
-			var move = bytes[p + 0x02 + j];
-			if (movesByIndex.has(move)) {
-				moves.push(movesByIndex.get(move).name);
-			}
-		}
-		var caught = bytes[p + 0x1E] & 0b0111_1111;
-		var landmark = landmarksByIndex.get(caught);
-		if (!landmark) {
-			landmark = "unknown";
-		} else {
-			landmark = landmark.name;
-		}
-		pokemon.push({
-			name: pokemonByPokedex.get(bytes[p]).name,
-			level: bytes[p + 0x1f],
-			dvs: {
-				"hp": hp,
-				"atk": atk,
-				"def": def,
-				"spa": spa,
-				"spd": spd,
-				"spe": spe
-			},
-			"moves": moves,
-			"item": item,
-			"caught": landmark
-		});
-		p += increment;
-	}
-	return pokemon;
+    var count = bytes[start];
+
+    // Sanity check
+    if (count < 0 || count > capacity) {
+        console.warn("Invalid party count:", count, "at", start);
+        return [];
+    }
+
+    var p = start + 1;
+
+    // Read species list
+    var species = [];
+    for (var i = 0; i < count; i++) {
+        species.push(bytes[p + i]);
+    }
+
+    // Move pointer to struct list
+    p += capacity + 1;
+
+    var pokemon = [];
+
+    for (var i = 0; i < count; i++) {
+
+        const speciesId = bytes[p];
+        const dexEntry = pokemonByPokedex.get(speciesId);
+
+        if (!dexEntry) {
+            console.warn(
+                "Invalid species ID",
+                speciesId,
+                "at struct offset",
+                p
+            );
+            p += increment;
+            continue;
+        }
+
+        // Mismatch check (eggs / corruption)
+        if (speciesId !== species[i]) {
+            console.warn(
+                "Species mismatch:",
+                speciesId,
+                "vs",
+                species[i],
+                "at",
+                p
+            );
+            p += increment;
+            continue;
+        }
+
+        var item = bytes[p + 0x01];
+        if (itemsById.has(item)) {
+            item = itemsById.get(item);
+        } else {
+            item = "";
+        }
+
+        var atk = (bytes[p + 0x15] & 0xf0) >> 4;
+        var def = (bytes[p + 0x15] & 0x0f);
+        var spe = (bytes[p + 0x16] & 0xf0) >> 4;
+        var spa = (bytes[p + 0x16] & 0x0f);
+        var spd = spa;
+        var hp = 8 * (atk & 1) + 4 * (def & 1) + 2 * (spe & 1) + (spa & 1);
+
+        var moves = [];
+        for (var j = 0; j < 4; j++) {
+            var move = bytes[p + 0x02 + j];
+            if (movesByIndex.has(move)) {
+                moves.push(movesByIndex.get(move).name);
+            }
+        }
+
+        var caught = bytes[p + 0x1E] & 0x7F;
+        var landmark = landmarksByIndex.get(caught);
+        landmark = landmark ? landmark.name : "unknown";
+
+        pokemon.push({
+            name: dexEntry.name,
+            level: bytes[p + 0x1F],
+            dvs: {
+                hp, atk, def, spa, spd, spe
+            },
+            moves: moves,
+            item: item,
+            caught: landmark
+        });
+
+        p += increment;
+    }
+
+    return pokemon;
 }
 
 function parseBadges(badgeMask) {
