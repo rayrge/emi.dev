@@ -166,12 +166,12 @@ function readFile(file) {
 	var reader = new FileReader();
 	reader.onload = function (e) {
 		var bytes = new Uint8Array(e.target.result);
-		if (bytes.length > 32000 && bytes[0x2008] == 99 && bytes[0x2d0f] == 127) {
+		if (true) { // bytes.length > 32000 && bytes[0x2008] == 99 && bytes[0x2d0f] == 127
 			try {
 				var pokemon = [];
 				var deadPokemon = [];
-				pokemon = pokemon.concat(readPokemonList(bytes, 0x2865, 6, 48));
-				for (var i = 0; i < 16; i++) {
+				pokemon = pokemon.concat(readPokemonList(bytes, 0xCE2, 6, 48));
+				for (var i = 0; i < 15; i++) {
 					var l = readNewbox(bytes, 0x2f20 + i * 0x21, 0x4000, 0x6000);
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
