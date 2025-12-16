@@ -43495,7 +43495,7 @@
     {
       "area": "Route 35",
       "name": "bug-catcher-arnie",
-      "meta": "optional for gold berries",
+      
       "team": [
         {
           "name": "delibird",
@@ -43533,6 +43533,7 @@
     {
       "area": "Route 35",
       "name": "birdkeeper-bryan",
+      "meta": "optional for gold berries",
       "b2b": true,
       "team": [
         {
@@ -44793,6 +44794,7 @@
     {
       "area": "Route 33",
       "name": "hiker-anthony",
+      "meta": "guards union cave",
       "team": [
         {
           "name": "primeape",
