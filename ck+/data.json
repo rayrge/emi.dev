@@ -43324,6 +43324,7 @@
     {
         "area": "Route 35",
       "name": "juggler-irwin",
+      "b2b": true,
       "team": [
         {
           "name": "voltorb",
