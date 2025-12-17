@@ -189,6 +189,19 @@ function probeBoxLayout(bytes, boxTableStart, dbCandidates, structSizes) {
     console.groupEnd();
 }
 
+function findNextBox(bytes, start) {
+    for (let i = start; i < bytes.length - 0x200; i++) {
+        const count = bytes[i];
+        if (count > 0 && count <= 20) {
+            const species = bytes[i + 1];
+            if (pokemonByPokedex.has(species)) {
+                return i;
+            }
+        }
+    }
+    return -1;
+}
+
 function readPokemonList(bytes, start, capacity, increment) {
     var count = bytes[start];
 
@@ -341,15 +354,25 @@ function readFile(file) {
 
                 const BOX_STRUCT_SIZE = 0x30; // likely, based on patterns
 
+				let boxPtr = 0x2D0C;
+
 				for (let i = 0; i < 16; i++) {
-					const boxStart = 0x2D0C + i * 0x100; // box stride, adjust if needed
-					const l = readInlineBox(bytes, boxStart, 20, BOX_STRUCT_SIZE);
+					boxPtr = findNextBox(bytes, boxPtr);
+					if (boxPtr === -1) {
+						console.warn("No more boxes found");
+						break;
+					}
+
+					const l = readInlineBox(bytes, boxPtr, 20, 0x30);
 
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
 					} else {
 						pokemon = pokemon.concat(l);
 					}
+
+					// advance pointer past this box
+					boxPtr += 1 + l.length * 0x30;
 				}
 
 
