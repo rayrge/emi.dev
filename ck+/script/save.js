@@ -85,6 +85,39 @@ function readNewbox(bytes, start, db1, db2) {
     return pokemon;
 }
 
+function probeBoxLayout(bytes, boxTableStart, dbCandidates, structSizes) {
+    console.group("📦 Probing box layout");
+
+    for (const db of dbCandidates) {
+        for (const size of structSizes) {
+            let hits = 0;
+
+            for (let i = 0; i < 5; i++) { // test first 5 slots
+                const b = bytes[boxTableStart + i];
+                if (!b) continue;
+
+                const index = b - 1;
+                const p = db + index * size;
+                const species = bytes[p];
+
+                if (pokemonByPokedex.has(species)) {
+                    hits++;
+                }
+            }
+
+            if (hits >= 2) {
+                console.log(
+                    "✅ Possible layout:",
+                    "DB =", "0x" + db.toString(16),
+                    "STRUCT =", "0x" + size.toString(16),
+                    "hits =", hits
+                );
+            }
+        }
+    }
+
+    console.groupEnd();
+}
 
 function readPokemonList(bytes, start, capacity, increment) {
     var count = bytes[start];
@@ -212,6 +245,13 @@ function readFile(file) {
     var reader = new FileReader();
     reader.onload = function (e) {
         var bytes = new Uint8Array(e.target.result);
+
+		probeBoxLayout(
+			bytes,
+			0x2D0C,                // your current box table start
+			[0x4000, 0x4800, 0x5000, 0x6000, 0x6800],
+			[0x2F, 0x30, 0x31]
+		);
 
         // Safer validation: size + non-empty data
         if (bytes.length > 32000) {
