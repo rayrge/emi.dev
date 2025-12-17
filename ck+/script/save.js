@@ -71,6 +71,34 @@ function readNewbox(bytes, start, db1, db2) {
 	return pokemon;
 }
 
+function findPartyOffset(bytes) {
+  const candidates = [];
+  for (let off = 0; off < Math.min(bytes.length, 0x8000) - 400; off++) {
+    const count = bytes[off];
+    if (count < 1 || count > 6) continue;
+
+    // species list sanity
+    let ok = true;
+    for (let i = 0; i < count; i++) {
+      const s = bytes[off + 1 + i];
+      if (s === 0 || s === 0xFF) { ok = false; break; }
+    }
+    if (!ok) continue;
+
+    const monStart = off + 1 + 6 + 1;
+    for (let i = 0; i < count; i++) {
+      const s = bytes[off + 1 + i];
+      if (bytes[monStart + i * 48] !== s) { ok = false; break; }
+    }
+    if (ok) candidates.push(off);
+  }
+
+  if (candidates.length === 0) return -1;
+
+  // In your saves, the active one consistently shows up at the higher address (e.g. 0x286B)
+  return Math.max(...candidates);
+}
+
 function readPokemonList(bytes, start, capacity, increment) {
 	var count = bytes[start];
 	var p = start + 1;
@@ -170,15 +198,16 @@ function readFile(file) {
 			try {
 				var pokemon = [];
 				var deadPokemon = [];
-				pokemon = pokemon.concat(readPokemonList(bytes, 0x285A, 6, 48));
-				for (var i = 0; i < 16; i++) {
-					var l = readNewbox(bytes, 0x2f20 + i * 0x21, 0x4000, 0x6000);
-					if (i >= 12) {
-						deadPokemon = deadPokemon.concat(l);
-					} else {
-						pokemon = pokemon.concat(l);
-					}
-				}
+				const partyOff = findPartyOffset(bytes);
+				pokemon = pokemon.concat(readPokemonList(bytes, partyOff, 6, 48));
+				// for (var i = 0; i < 16; i++) {
+				// 	var l = readNewbox(bytes, 0x2f20 + i * 0x21, 0x4000, 0x6000);
+				// 	if (i >= 12) {
+				// 		deadPokemon = deadPokemon.concat(l);
+				// 	} else {
+				// 		pokemon = pokemon.concat(l);
+				// 	}
+				// }
 				box = pokemon;
 				deadBox = deadPokemon;
 				parseBadges((bytes[0x23e5] << 8) | bytes[0x23e6]);
