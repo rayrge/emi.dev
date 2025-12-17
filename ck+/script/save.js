@@ -8,7 +8,7 @@ function readNewbox(bytes, start, db1, db2) {
 
     // Read bank bitfield (24 bits)
     for (var i = 0; i < 3; i++) {
-        var b = bytes[start + 0x13 + i];
+        var b = bytes[start + 0x15 + i];
         for (var j = 0; j < 8; j++) {
             banks.push((b & 1) === 1);
             b >>= 1;
