@@ -242,6 +242,8 @@ function finishParse(title, pokemon, deadPokemon) {
 }
 
 function readFile(file) {
+	console.log("BOX TABLE RAW:", Array.from(bytes.slice(0x2D0C, 0x2D0C + 0x40)));
+	
     var reader = new FileReader();
     reader.onload = function (e) {
         var bytes = new Uint8Array(e.target.result);
