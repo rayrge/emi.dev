@@ -379,8 +379,7 @@ function readFile(file) {
     }
 
     if (bytes.length <= 32000) {
-      document.getElementById("info-popup").innerHTML =
-        '<div onclick="closePopup()" class="save-error">File doesn\\'t appear to be a save file!<lb></lb>Name should end with .sav</div>';
+      document.getElementById("info-popup").innerHTML = '<div onclick="closePopup()" class="save-error">File doesn\'t appear to be a save file!<lb></lb>Name should end with .sav</div>';
       return;
     }
 
