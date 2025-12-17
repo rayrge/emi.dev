@@ -85,6 +85,76 @@ function readNewbox(bytes, start, db1, db2) {
     return pokemon;
 }
 
+function readInlineBox(bytes, start, maxSlots, structSize) {
+    const pokemon = [];
+    const count = bytes[start];
+
+    if (count <= 0 || count > maxSlots) {
+        console.warn("Invalid box count", count, "at", start);
+        return pokemon;
+    }
+
+    let p = start + 1;
+
+    for (let i = 0; i < count; i++) {
+        const speciesId = bytes[p];
+        const dexEntry = pokemonByPokedex.get(speciesId);
+
+        if (!dexEntry) {
+            console.warn("Invalid species", speciesId, "at", p);
+            p += structSize;
+            continue;
+        }
+
+        const item = itemsById.get(bytes[p + 0x01]) || "";
+
+        const atk = (bytes[p + 0x15] & 0xF0) >> 4;
+        const def = (bytes[p + 0x15] & 0x0F);
+        const spe = (bytes[p + 0x16] & 0xF0) >> 4;
+        const spa = (bytes[p + 0x16] & 0x0F);
+        const spd = spa;
+        const hp = 8 * (atk & 1) + 4 * (def & 1) + 2 * (spe & 1) + (spa & 1);
+
+        const moves = [];
+        for (let j = 0; j < 4; j++) {
+            const m = bytes[p + 0x02 + j];
+            if (movesByIndex.has(m)) {
+                moves.push(movesByIndex.get(m).name);
+            }
+        }
+
+        pokemon.push({
+            name: dexEntry.name,
+            level: bytes[p + 0x1C],
+            dvs: { hp, atk, def, spa, spd, spe },
+            moves,
+            item
+        });
+
+        p += structSize;
+    }
+
+    return pokemon;
+}
+
+function probeInlineStruct(bytes, base) {
+    console.group("🔍 Inline struct probe at " + base.toString(16));
+
+    for (const size of [0x2F, 0x30, 0x31, 0x32]) {
+        let species = bytes[base + 1]; // first struct
+        if (pokemonByPokedex.has(species)) {
+            console.log(
+                "Possible struct size",
+                "0x" + size.toString(16),
+                "species",
+                species
+            );
+        }
+    }
+
+    console.groupEnd();
+}
+
 function probeBoxLayout(bytes, boxTableStart, dbCandidates, structSizes) {
     console.group("📦 Probing box layout");
 
@@ -256,6 +326,8 @@ function readFile(file) {
 		);
 		console.log("BOX TABLE RAW:", Array.from(bytes.slice(0x2D0C, 0x2D0C + 0x40)));
 
+		probeInlineStruct(bytes, 0x2D0C);
+
         // Safer validation: size + non-empty data
         if (bytes.length > 32000) {
             try {
@@ -267,21 +339,19 @@ function readFile(file) {
                     readPokemonList(bytes, 0x2456, 6, 48)
                 );
 
-                // PC Boxes (NEW TABLE OFFSET)
-                for (var i = 0; i < 16; i++) {
-                    var l = readNewbox(
-                        bytes,
-                        0x2D0C + i * 0x21,
-                        0x4000,
-                        0x6000
-                    );
+                const BOX_STRUCT_SIZE = 0x30; // likely, based on patterns
 
-                    if (i >= 12) {
-                        deadPokemon = deadPokemon.concat(l);
-                    } else {
-                        pokemon = pokemon.concat(l);
-                    }
-                }
+				for (let i = 0; i < 16; i++) {
+					const boxStart = 0x2D0C + i * 0x100; // box stride, adjust if needed
+					const l = readInlineBox(bytes, boxStart, 20, BOX_STRUCT_SIZE);
+
+					if (i >= 12) {
+						deadPokemon = deadPokemon.concat(l);
+					} else {
+						pokemon = pokemon.concat(l);
+					}
+				}
+
 
                 box = pokemon;
                 deadBox = deadPokemon;
