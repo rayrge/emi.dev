@@ -242,7 +242,7 @@ function finishParse(title, pokemon, deadPokemon) {
 }
 
 function readFile(file) {
-	console.log("BOX TABLE RAW:", Array.from(bytes.slice(0x2D0C, 0x2D0C + 0x40)));
+	
 	
     var reader = new FileReader();
     reader.onload = function (e) {
@@ -254,6 +254,7 @@ function readFile(file) {
 			[0x4000, 0x4800, 0x5000, 0x6000, 0x6800],
 			[0x2F, 0x30, 0x31]
 		);
+		console.log("BOX TABLE RAW:", Array.from(bytes.slice(0x2D0C, 0x2D0C + 0x40)));
 
         // Safer validation: size + non-empty data
         if (bytes.length > 32000) {
