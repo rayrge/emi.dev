@@ -85,6 +85,10 @@ function readNewbox(bytes, start, db1, db2) {
     return pokemon;
 }
 
+function expToLevel(exp) {
+    return Math.min(100, Math.floor(Math.cbrt(exp)));
+}
+
 function readInlineBox(bytes, start, maxSlots, structSize) {
     const pokemon = [];
     const count = bytes[start];
@@ -125,7 +129,11 @@ function readInlineBox(bytes, start, maxSlots, structSize) {
 
         pokemon.push({
             name: dexEntry.name,
-            level: bytes[p + 0x1C],
+            level: expToLevel(
+				(bytes[p + 0x08] << 16) |
+				(bytes[p + 0x09] << 8) |
+				(bytes[p + 0x0A])
+			),
             dvs: { hp, atk, def, spa, spd, spe },
             moves,
             item
