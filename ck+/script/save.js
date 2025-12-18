@@ -22,7 +22,7 @@ function readNewbox(bytes, start, db1, db2) {
 		if (banks[i]) {
 			p = db2;
 		}
-		p += b * 0x2F;
+		p += b * 0x32;
 		if (bytes[p + 0x1d] == 0xfd) { // Egg
 			continue;
 		}
