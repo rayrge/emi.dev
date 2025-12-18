@@ -233,13 +233,13 @@ function vsRecorderComplete(event) {
 		}
 		var pokemon = [];
 		var deadPokemon = [];
-		pokemon = pokemon.concat(readPokemonList(hexToBytes(obj.Party), 0x286B, 6, 48));
+		pokemon = pokemon.concat(readPokemonList(hexToBytes(obj.Party), 0, 6, 48));
 		var newboxBytes = hexToBytes(obj.NewboxMetadata);
 		var db1 = newboxBytes.length;
 		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase1));
 		var db2 = newboxBytes.length;
 		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase2));
-		for (var i = 0; i < 15; i++) {
+		for (var i = 0; i < 16; i++) {
 			var l = readNewbox(newboxBytes, 0x00 + i * 0x21, db1, db2);
 			if (i >= 12) {
 				deadPokemon = deadPokemon.concat(l);
