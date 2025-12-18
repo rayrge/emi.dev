@@ -2,6 +2,116 @@ var vsRecorderStatus = 0; // 1 = connected, -1 = disconnected
 var pingsWithoutResponse = 0;
 var outstandingPingTimeout;
 
+function popcount8(x) {
+  x &= 0xFF;
+  x = x - ((x >>> 1) & 0x55);
+  x = (x & 0x33) + ((x >>> 2) & 0x33);
+  return (((x + (x >>> 4)) & 0x0F) * 0x01) & 0xFF;
+}
+
+function looksLikeMon(bytes, p) {
+  if (p < 0 || p + 0x20 >= bytes.length) return -10;
+
+  const species = bytes[p];
+  const lvl = bytes[p + 0x1F];
+  const m0 = bytes[p + 0x02], m1 = bytes[p + 0x03], m2 = bytes[p + 0x04], m3 = bytes[p + 0x05];
+
+  let score = 0;
+
+  if (species !== 0) score += 2; else score -= 3;
+
+  if (lvl >= 1 && lvl <= 100) score += 3;
+  else if (lvl === 0) score -= 1;
+  else score -= 3;
+
+  const nz = (m0 !== 0) + (m1 !== 0) + (m2 !== 0) + (m3 !== 0);
+  if (nz >= 1) score += 1;
+  if (nz >= 2) score += 1;
+  if (nz === 0) score -= 2;
+
+  // “moves in a sane range” heuristic (tweak if your hack uses >250 move ids)
+  const okMoves =
+    (m0 === 0 || (m0 >= 1 && m0 <= 250)) &&
+    (m1 === 0 || (m1 >= 1 && m1 <= 250)) &&
+    (m2 === 0 || (m2 >= 1 && m2 <= 250)) &&
+    (m3 === 0 || (m3 >= 1 && m3 <= 250));
+  score += okMoves ? 1 : -2;
+
+  return score;
+}
+
+function readBankBit(bytes, boxMetaStart, slotIndex) {
+  // banks are 3 bytes at +0x14, least-significant-bit first, exactly like your code
+  const b = bytes[boxMetaStart + 0x14 + ((slotIndex / 8) | 0)];
+  return ((b >>> (slotIndex & 7)) & 1) === 1;
+}
+
+function scoreLayout(bytes, metaStart, db1, db2, stride) {
+  // sample a subset for speed; you can expand once it finds a top candidate
+  const boxesToCheck = 8;      // 0..7 (first half)
+  const slotsToCheck = 20;     // all slots
+  let score = 0;
+  let refs = 0;
+
+  for (let bi = 0; bi < boxesToCheck; bi++) {
+    const boxStart = metaStart + bi * 0x21;
+
+    // quick bounds
+    if (boxStart + 0x21 >= bytes.length) return -1e9;
+
+    // bank bit sanity: number of set bits should roughly match number of nonzero indices
+    let nonzero = 0;
+    const bank0 = bytes[boxStart + 0x14], bank1 = bytes[boxStart + 0x15], bank2 = bytes[boxStart + 0x16];
+    const bankBits = popcount8(bank0) + popcount8(bank1) + popcount8(bank2);
+
+    for (let si = 0; si < slotsToCheck; si++) {
+      const idx = bytes[boxStart + si];
+      if (idx === 0) continue;
+      nonzero++;
+
+      const inDb2 = readBankBit(bytes, boxStart, si);
+      const base = inDb2 ? db2 : db1;
+      const p = base + (idx - 1) * stride;
+
+      score += looksLikeMon(bytes, p);
+      refs++;
+    }
+
+    // Encourage bank bitfield that matches occupancy
+    score -= Math.abs(bankBits - nonzero);
+  }
+
+  // normalize (avoid preferring layouts that only “explain” 1 mon)
+  if (refs < 8) return -1e9;
+  return score / refs;
+}
+
+function findNewboxLayout(bytes) {
+  const strides = [0x2C, 0x2D, 0x2E, 0x2F, 0x30, 0x31, 0x32];
+  let best = { score: -1e9, metaStart: 0, db1: 0, db2: 0, stride: 0 };
+
+  // Coarse scan (fast-ish). Adjust ranges if you know your hack’s SRAM regions.
+  for (let metaStart = 0; metaStart < bytes.length - 16 * 0x21; metaStart += 1) {
+    // quick reject: first box should have at least 2 nonzero indices usually
+    let nz = 0;
+    for (let i = 0; i < 20; i++) if (bytes[metaStart + i] !== 0) nz++;
+    if (nz < 2) continue;
+
+    for (const stride of strides) {
+      // db bases: aligned guesses (0x20). You can widen or narrow.
+      for (let db1 = 0; db1 < bytes.length - 0x400; db1 += 0x20) {
+        for (let db2 = 0; db2 < bytes.length - 0x400; db2 += 0x20) {
+          const s = scoreLayout(bytes, metaStart, db1, db2, stride);
+          if (s > best.score) best = { score: s, metaStart, db1, db2, stride };
+        }
+      }
+    }
+  }
+
+  return best;
+}
+
+
 function readNewbox(bytes, start, db1, db2) {
 	var pokemon = [];
 	var banks = [];
@@ -22,7 +132,7 @@ function readNewbox(bytes, start, db1, db2) {
 		if (banks[i]) {
 			p = db2;
 		}
-		p += b * 0x2F;
+		p += b * stride;
 		if (bytes[p + 0x1d] == 0xfd) { // Egg
 			continue;
 		}
@@ -70,6 +180,7 @@ function readNewbox(bytes, start, db1, db2) {
 	}
 	return pokemon;
 }
+
 
 function findPartyOffset(bytes) {
   const candidates = [];
@@ -200,8 +311,11 @@ function readFile(file) {
 				var deadPokemon = [];
 				const partyOff = findPartyOffset(bytes);
 				pokemon = pokemon.concat(readPokemonList(bytes, partyOff, 6, 48));
-				for (var i = 0; i < 16; i++) {
-					var l = readNewbox(bytes, 0x2D16 + i * 0x21, 0x4000, 0x6000);
+				const layout = findNewboxLayout(bytes);
+				console.log("newbox layout", layout);
+
+				for (let i = 0; i < 16; i++) {
+					const l = readNewbox(bytes, layout.metaStart + i * 0x21, layout.db1, layout.db2, layout.stride);
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
 					} else {
