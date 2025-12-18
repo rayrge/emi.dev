@@ -183,7 +183,6 @@ function readFile(file) {
 			try {
 				var pokemon = [];
 				var deadPokemon = [];
-				const partyOff = findPartyOffset(bytes);
 				pokemon = pokemon.concat(readPokemonList(bytes, 0x286B, 6, 48));
 				for (var i = 0; i < 15; i++) {
 					var l = readNewbox(bytes, 0x2D16 + i * 0x21, 0x4000, 0x6000);
