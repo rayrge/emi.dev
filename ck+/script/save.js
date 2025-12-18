@@ -239,7 +239,7 @@ function vsRecorderComplete(event) {
 		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase1));
 		var db2 = newboxBytes.length;
 		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase2));
-		for (var i = 0; i < 16; i++) {
+		for (var i = 0; i < 15; i++) {
 			var l = readNewbox(newboxBytes, 0x00 + i * 0x21, 0x4000, 0x6000);
 			if (i >= 12) {
 				deadPokemon = deadPokemon.concat(l);
