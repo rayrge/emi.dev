@@ -71,6 +71,16 @@ function readNewbox(bytes, start, db1, db2) {
 	return pokemon;
 }
 
+function hexd(n){ return "0x" + n.toString(16).padStart(2,"0"); }
+
+function dumpWindow(bytes, p, n=0x20) {
+  let out = [];
+  for (let i=0;i<n;i++) out.push(hexd(bytes[p+i]));
+  console.log(out.join(" "));
+}
+
+
+
 function readPokemonList(bytes, start, capacity, increment) {
 	var count = bytes[start];
 	var p = start + 1;
@@ -83,8 +93,11 @@ function readPokemonList(bytes, start, capacity, increment) {
 		return;
 	}*/
 	p += capacity + 1;
+	
 	var pokemon = [];
 	for (var i = 0; i < count; i++) {
+		dumpWindow(bytes, p, 0x20);
+
 		species[i].level = bytes[p + 0x1f];
 		if (bytes[p] != species[i]) { // Mismatching species or egg
 			continue;
@@ -115,6 +128,7 @@ function readPokemonList(bytes, start, capacity, increment) {
 		} else {
 			landmark = landmark.name;
 		}
+		
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
 			level: bytes[p + 0x1f],
