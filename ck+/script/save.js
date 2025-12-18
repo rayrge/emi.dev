@@ -54,7 +54,7 @@ function readNewbox(bytes, start, db1, db2) {
 		} else {
 			landmark = landmark.name;
 		}
-		
+
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
 			level: bytes[p + 0x1f],
@@ -203,7 +203,7 @@ function readFile(file) {
 				var deadPokemon = [];
 				const partyOff = findPartyOffset(bytes);
 				pokemon = pokemon.concat(readPokemonList(bytes, 0x286B, 6, 48));
-				for (var i = 0; i < 16; i++) {
+				for (var i = 0; i < 15; i++) {
 					var l = readNewbox(bytes, 0x2D16 + i * 0x21, 0x4000, 0x6000);
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
