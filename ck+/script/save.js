@@ -22,7 +22,9 @@ function readNewbox(bytes, start, db1, db2) {
 		if (banks[i]) {
 			p = db2;
 		}
-		p += b * 0x2F;
+		p += b * 0x32;
+
+
 		if (bytes[p + 0x1d] == 0xfd) { // Egg
 			continue;
 		}
@@ -52,9 +54,10 @@ function readNewbox(bytes, start, db1, db2) {
 		} else {
 			landmark = landmark.name;
 		}
+
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
-			level: bytes[p + 0x1c],
+			level: bytes[p + 0x1f],
 			dvs: {
 				"hp": hp,
 				"atk": atk,
@@ -69,6 +72,34 @@ function readNewbox(bytes, start, db1, db2) {
 		});
 	}
 	return pokemon;
+}
+
+function findPartyOffset(bytes) {
+  const candidates = [];
+  for (let off = 0; off < Math.min(bytes.length, 0x8000) - 400; off++) {
+    const count = bytes[off];
+    if (count < 1 || count > 6) continue;
+
+    // species list sanity
+    let ok = true;
+    for (let i = 0; i < count; i++) {
+      const s = bytes[off + 1 + i];
+      if (s === 0 || s === 0xFF) { ok = false; break; }
+    }
+    if (!ok) continue;
+
+    const monStart = off + 1 + 6 + 1;
+    for (let i = 0; i < count; i++) {
+      const s = bytes[off + 1 + i];
+      if (bytes[monStart + i * 48] !== s) { ok = false; break; }
+    }
+    if (ok) candidates.push(off);
+  }
+
+  if (candidates.length === 0) return -1;
+
+  // In your saves, the active one consistently shows up at the higher address (e.g. 0x286B)
+  return Math.max(...candidates);
 }
 
 function readPokemonList(bytes, start, capacity, increment) {
@@ -166,13 +197,14 @@ function readFile(file) {
 	var reader = new FileReader();
 	reader.onload = function (e) {
 		var bytes = new Uint8Array(e.target.result);
-		if (true) {
+		if (bytes.length >= 0x8000) {
 			try {
 				var pokemon = [];
 				var deadPokemon = [];
-				pokemon = pokemon.concat(readPokemonList(bytes, 0x2865, 6, 48));
-				for (var i = 0; i < 16; i++) {
-					var l = readNewbox(bytes, 0x2f20 + i * 0x21, 0x4000, 0x6000);
+				const partyOff = findPartyOffset(bytes);
+				pokemon = pokemon.concat(readPokemonList(bytes, 0x286B, 6, 48));
+				for (var i = 0; i < 15; i++) {
+					var l = readNewbox(bytes, 0x2D16 + i * 0x21, 0x4000, 0x6000);
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
 					} else {
