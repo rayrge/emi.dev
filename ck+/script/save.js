@@ -23,6 +23,8 @@ function readNewbox(bytes, start, db1, db2) {
 			p = db2;
 		}
 		p += b * 0x32;
+
+
 		if (bytes[p + 0x1d] == 0xfd) { // Egg
 			continue;
 		}
@@ -52,6 +54,7 @@ function readNewbox(bytes, start, db1, db2) {
 		} else {
 			landmark = landmark.name;
 		}
+		
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
 			level: bytes[p + 0x1f],
@@ -199,7 +202,7 @@ function readFile(file) {
 				var pokemon = [];
 				var deadPokemon = [];
 				const partyOff = findPartyOffset(bytes);
-				pokemon = pokemon.concat(readPokemonList(bytes, partyOff, 6, 48));
+				pokemon = pokemon.concat(readPokemonList(bytes, 0x286B, 6, 48));
 				for (var i = 0; i < 16; i++) {
 					var l = readNewbox(bytes, 0x2D16 + i * 0x21, 0x4000, 0x6000);
 					if (i >= 12) {
