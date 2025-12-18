@@ -18,11 +18,8 @@ function readNewbox(bytes, start, db1, db2) {
 			continue;
 		}
 		b--;
-		var p = db1;
-		if (banks[i]) {
-			p = db2;
-		}
-		p += b * 0x2F;
+		var p = db1 + (b - 1) * 0x2F;
+		
 		if (bytes[p + 0x1d] == 0xfd) { // Egg
 			continue;
 		}
@@ -54,7 +51,7 @@ function readNewbox(bytes, start, db1, db2) {
 		}
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
-			level: bytes[p + 0x1c],
+			level: bytes[p + 0x1f],
 			dvs: {
 				"hp": hp,
 				"atk": atk,
