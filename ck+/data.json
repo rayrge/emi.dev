@@ -21697,7 +21697,7 @@
             "name": "fury-cutter",
             "power": 80,
             "pp": 20,
-            "type": "bug",
+            "type": "bug"
         },
         {
             "accuracy": 100,
