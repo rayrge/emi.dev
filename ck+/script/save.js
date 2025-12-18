@@ -74,13 +74,6 @@ function readNewbox(bytes, start, db1, db2) {
 	return pokemon;
 }
 
-function hexd(n){ return "0x" + n.toString(16).padStart(2,"0"); }
-
-function dumpWindow(bytes, p, n=0x20) {
-  let out = [];
-  for (let i=0;i<n;i++) out.push(hexd(bytes[p+i]));
-  console.log(out.join(" "));
-}
 
 function readPokemonList(bytes, start, capacity, increment) {
 	var count = bytes[start];
@@ -96,7 +89,6 @@ function readPokemonList(bytes, start, capacity, increment) {
 	p += capacity + 1;
 	var pokemon = [];
 	for (var i = 0; i < count; i++) {
-		dumpWindow(bytes, p, 0x20);
 
 		species[i].level = bytes[p + 0x1f];
 		if (bytes[p] != species[i]) { // Mismatching species or egg
@@ -241,14 +233,14 @@ function vsRecorderComplete(event) {
 		}
 		var pokemon = [];
 		var deadPokemon = [];
-		pokemon = pokemon.concat(readPokemonList(hexToBytes(obj.Party), 0, 6, 48));
+		pokemon = pokemon.concat(readPokemonList(hexToBytes(obj.Party), 0x286B, 6, 48));
 		var newboxBytes = hexToBytes(obj.NewboxMetadata);
 		var db1 = newboxBytes.length;
 		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase1));
 		var db2 = newboxBytes.length;
 		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase2));
 		for (var i = 0; i < 16; i++) {
-			var l = readNewbox(newboxBytes, 0x00 + i * 0x21, db1, db2);
+			var l = readNewbox(newboxBytes, 0x2D16 + i * 0x21, db1, db2);
 			if (i >= 12) {
 				deadPokemon = deadPokemon.concat(l);
 			} else {
