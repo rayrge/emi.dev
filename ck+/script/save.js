@@ -23,6 +23,8 @@ function readNewbox(bytes, start, db1, db2) {
 			p = db2;
 		}
 		p += b * 0x32;
+
+
 		if (bytes[p + 0x1d] == 0xfd) { // Egg
 			continue;
 		}
@@ -52,9 +54,10 @@ function readNewbox(bytes, start, db1, db2) {
 		} else {
 			landmark = landmark.name;
 		}
+
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
-			level: bytes[p + 0x1c],
+			level: bytes[p + 0x1f],
 			dvs: {
 				"hp": hp,
 				"atk": atk,
@@ -79,8 +82,6 @@ function dumpWindow(bytes, p, n=0x20) {
   console.log(out.join(" "));
 }
 
-
-
 function readPokemonList(bytes, start, capacity, increment) {
 	var count = bytes[start];
 	var p = start + 1;
@@ -93,7 +94,6 @@ function readPokemonList(bytes, start, capacity, increment) {
 		return;
 	}*/
 	p += capacity + 1;
-	
 	var pokemon = [];
 	for (var i = 0; i < count; i++) {
 		dumpWindow(bytes, p, 0x20);
@@ -128,7 +128,6 @@ function readPokemonList(bytes, start, capacity, increment) {
 		} else {
 			landmark = landmark.name;
 		}
-		
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
 			level: bytes[p + 0x1f],
@@ -180,13 +179,14 @@ function readFile(file) {
 	var reader = new FileReader();
 	reader.onload = function (e) {
 		var bytes = new Uint8Array(e.target.result);
-		if (true) {
+		if (bytes.length >= 0x8000) {
 			try {
 				var pokemon = [];
 				var deadPokemon = [];
-				pokemon = pokemon.concat(readPokemonList(bytes, 0x2865, 6, 48));
-				for (var i = 0; i < 16; i++) {
-					var l = readNewbox(bytes, 0x2f20 + i * 0x21, 0x4000, 0x6000);
+				const partyOff = findPartyOffset(bytes);
+				pokemon = pokemon.concat(readPokemonList(bytes, 0x286B, 6, 48));
+				for (var i = 0; i < 15; i++) {
+					var l = readNewbox(bytes, 0x2D16 + i * 0x21, 0x4000, 0x6000);
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
 					} else {
