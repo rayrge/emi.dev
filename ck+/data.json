@@ -44400,7 +44400,7 @@
         {
           "name": "scyther",
           "level": 22,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "submission",
             "wing-attack",
@@ -44650,7 +44650,7 @@
         {
           "name": "venomoth",
           "level": 25,
-          "item": "bright-powder",
+          "item": "brightpowder",
           "moves": [
             "sleep-powder",
             "mega-drain",
@@ -44801,7 +44801,7 @@
         {
           "name": "primeape",
           "level": 26,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "endure",
             "reversal",
