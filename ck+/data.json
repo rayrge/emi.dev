@@ -16379,7 +16379,7 @@
         },
         {
             "description": "Restores 10hp upon falling under 50% hp, converted to berry juice is held by shuckle in battle",
-            "name": "berry"
+            "name": "oran-berry"
         },
         {
             "description": "Restores 20hp upon falling under 50% hp",
@@ -16419,11 +16419,11 @@
         },
         {
             "description": "Cures poison",
-            "name": "psncureberry"
+            "name": "pecha-berry"
         },
         {
             "description": "Cures sleep",
-            "name": "mint-berry"
+            "name": "chesto-berry"
         },
         {
             "description": "Grants pokemon a share of exp",
@@ -16431,11 +16431,11 @@
         },
         {
             "description": "Cures confusion",
-            "name": "bitter-berry"
+            "name": "persim-berry"
         },
         {
             "description": "Cures paralysis",
-            "name": "przcureberry"
+            "name": "cheri-berry"
         },
         {
             "description": "Increases the damage of grass type moves by 10%",
@@ -16475,7 +16475,7 @@
         },
         {
             "description": "Restores 30hp upon falling under 50% hp",
-            "name": "gold-berry"
+            "name": "sitrus-berry"
         },
         {
             "description": "Increases the damage of fire type moves by 10%",
@@ -16511,7 +16511,7 @@
         },
         {
             "description": "Cures freeze",
-            "name": "burnt-berry"
+            "name": "aspear-berry"
         },
         {
             "description": "If used while fishing 3x catch rate. Otherwise 1x",
@@ -16611,7 +16611,7 @@
         },
         {
             "description": "Cures burns",
-            "name": "ice-berry"
+            "name": "rawst-berry"
         },
         {
             "description": "Increases the damage of electric type moves by 10% ",
@@ -16659,7 +16659,7 @@
         },
         {
             "description": "Cures all status conditions",
-            "name": "miracleberry"
+            "name": "lum-berry"
         },
         {
             "description": "Can be traded with mr pokemon on route 30 for Exp Share",
@@ -16803,7 +16803,7 @@
         },
         {
             "description": "Restores 5pp to a move upon running out of pp",
-            "name": "mysteryberry"
+            "name": "leppa-berry"
         },
         {
             "description": "Sells high",
@@ -16910,7 +16910,7 @@
         },
         {
             "description": "Cures all status conditions",
-            "name": "miracleberry"
+            "name": "lum-berry"
         },
         {
             "description": "When given to a pokemon it restores 100hp out of battle",
@@ -16994,7 +16994,7 @@
                 {
                     "amount": "renewable",
                     "info": "Renewable from tree by Cherrygrove",
-                    "item": "berry"
+                    "item": "oran-berry"
                 },
                 {
                     "amount": "1",
@@ -17040,17 +17040,17 @@
                 {
                     "amount": "1",
                     "info": "Talk to man inside house",
-                    "item": "berry"
+                    "item": "oran-berry"
                 },
                 {
                     "amount": "renewable",
                     "info": "Tree by Mr Pokemon's House",
-                    "item": "psncureberry"
+                    "item": "pecha-berry"
                 },
                 {
                     "amount": "renewable",
                     "info": "Tree by house in south",
-                    "item": "mint-berry"
+                    "item": "chesto-berry"
                 },
                 {
                     "amount": "1",
@@ -17076,7 +17076,7 @@
                 {
                     "amount": "renewable",
                     "info": "Tree by Dark Cave",
-                    "item": "bitter-berry"
+                    "item": "persim-berry"
                 },
                 {
                     "amount": "1",
@@ -17102,7 +17102,7 @@
                 {
                     "amount": "renewable",
                     "info": "Renewable from tree in south west",
-                    "item": "przcureberry"
+                    "item": "cheri-berry"
                 },
                 {
                     "amount": "1",
@@ -17189,12 +17189,12 @@
                 {
                     "amount": "1",
                     "info": "Obtained in the Omanyte Puzzle room while holding a water stone",
-                    "item": "mysteryberry"
+                    "item": "leppa-berry"
                 },
                 {
                     "amount": "1",
                     "info": "Obtained in the Aerodactyl Puzzle room after using Flash",
-                    "item": "gold-berry"
+                    "item": "sitrus-berry"
                 },
                 {
                     "amount": "1",
@@ -17242,7 +17242,7 @@
                 {
                     "amount": "renewable",
                     "info": "Tree by union cave entrance",
-                    "item": "psncureberry"
+                    "item": "pecha-berry"
                 }
             ],
             "locations": [
@@ -17268,7 +17268,7 @@
                 {
                     "amount": "renewable",
                     "info": "Tree by Kurt's house",
-                    "item": "burnt-berry"
+                    "item": "aspear-berry"
                 },
                 {
                     "amount": "1",
@@ -17566,7 +17566,7 @@
                 {
                     "amount": "1",
                     "info": "Come third in bug catching contest",
-                    "item": "gold-berry"
+                    "item": "sitrus-berry"
                 },
                 {
                     "amount": "1",
@@ -17601,7 +17601,7 @@
                 {
                     "amount": "renewable",
                     "info": "Tree by national-park entrance",
-                    "item": "ice-berry"
+                    "item": "rawst-berry"
                 }
             ],
             "locations": [
@@ -17627,12 +17627,12 @@
                 {
                     "amount": "renewable",
                     "info": "Tree in the middle path",
-                    "item": "mysteryberry"
+                    "item": "leppa-berry"
                 },
                 {
                     "amount": "renewable",
                     "info": "Tree in the left path",
-                    "item": "berry"
+                    "item": "oran-berry"
                 }
             ],
             "locations": [
@@ -17911,7 +17911,7 @@
                 {
                     "amount": "renewable",
                     "info": "Tree behind the cut tree, requires surf",
-                    "item": "miracleberry"
+                    "item": "lum-berry"
                 }
             ],
             "locations": [
@@ -17989,7 +17989,7 @@
                 {
                     "amount": "renewable",
                     "info": "Tree to the right of the first B2B",
-                    "item": "gold-berry"
+                    "item": "sitrus-berry"
                 }
             ],
             "locations": [
@@ -23800,7 +23800,7 @@
             "items": [
                 {
                     "chance": 0.0200000000000000004,
-                    "item": "berry"
+                    "item": "oran-berry"
                 }
             ],
             "learnset": [
@@ -42522,7 +42522,7 @@
         {
           "name": "sentret",
           "level": 11,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "quick-attack",
             "defense-curl"
@@ -42531,7 +42531,7 @@
         {
           "name": "pidgey",
           "level": 11,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "wing-attack",
             "sand-attack",
@@ -42582,7 +42582,7 @@
         {
           "name": "ledyba",
           "level": 13,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "mach-punch",
             "ice-punch",
@@ -42600,7 +42600,7 @@
         {
           "name": "butterfree",
           "level": 11,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "sleep-powder",
             "gust",
@@ -42616,7 +42616,7 @@
         {
           "name": "bellsprout",
           "level": 13,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "sludge-bomb",
             "giga-drain",
@@ -42719,7 +42719,7 @@
         {
           "name": "oddish",
           "level": 14,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "sludge-bomb",
             "giga-drain"
@@ -42728,7 +42728,7 @@
         {
           "name": "mankey",
           "level": 14,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "meditate",
             "karate-chop",
@@ -42824,7 +42824,7 @@
         {
           "name": "doduo",
           "level": 15,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "quick-attack",
             "steel-wing",
@@ -42881,7 +42881,7 @@
         {
           "name": "yanma",
           "level": 14,
-          "item": "berry",
+          "item": "oran-berry",
           "moves": [
             "sonicboom",
             "detect"
@@ -44003,7 +44003,7 @@
         {
           "name": "drowzee",
           "level": 24,
-          "item": "sitrus-berry",
+          "item": "gold-berry",
           "moves": [
             "hypnosis",
             "dream-eater",
