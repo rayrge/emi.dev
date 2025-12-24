@@ -42714,6 +42714,7 @@
     {
       "area": "Sprout Tower",
       "name": "sage-jin",
+	"b2b": true,
       "team": [
         {
           "name": "oddish",
@@ -43494,7 +43495,7 @@
     },
     {
       "area": "Route 35",
-      "name": "bug-catcher-arnie",
+      "name": "birdkeeper-bryan",
       
       "team": [
         {
@@ -43532,7 +43533,7 @@
     },
     {
       "area": "Route 35",
-      "name": "birdkeeper-bryan",
+      "name": "bug-catcher-arnie",
       "meta": "optional for gold berries",
       "b2b": true,
       "team": [
@@ -43996,7 +43997,8 @@
     },
     {
       "area": "Route 34",
-      "name": "cooltrainers-jenn",
+      "name": "cooltrainerf-irene",
+      "meta": "awards soft sand",
       "team": [
         {
           "name": "drowzee",
@@ -44024,7 +44026,7 @@
     },
     {
     "area": "Route 34",
-      "name": "cooltrainers-kate",
+      "name": "cooltrainerf-jenn",
        "b2b": true,
       "team": [
         
@@ -44065,7 +44067,7 @@
     },
     {
     "area": "Route 34",
-    "name": "cooltrainers-irene",
+    "name": "cooltrainerf-kate",
     "b2b": true,
     "team": [
         
