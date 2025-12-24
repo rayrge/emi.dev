@@ -20201,7 +20201,7 @@
             "power": 25,
             "pp": 15,
             "template": "multi-hit",
-            "type": "normal"
+            "type": "steel"
         },
         {
             "accuracy": 100,
@@ -42843,7 +42843,7 @@
         },
         {
           "name": "farfetchd",
-          "level": 10,
+          "level": 9,
           "item": "stick",
           "moves": [
             "drill-peck",
@@ -42910,7 +42910,7 @@
           "moves": [
             "toxic",
             "encore",
-            "hydro-pump",
+            "surf",
             "future-sight"
           ]
         },
@@ -42953,7 +42953,7 @@
             "flame-wheel",
             "thundershock",
             "peck",
-            "low-kick"
+            "mach-punch"
           ]
         }
       ]
