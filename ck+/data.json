@@ -42714,7 +42714,6 @@
     {
       "area": "Sprout Tower",
       "name": "sage-jin",
-      "b2b": true,
       "team": [
         {
           "name": "oddish",
@@ -42740,6 +42739,7 @@
     {
       "area": "Sprout Tower",
       "name": "sage-neal",
+      "b2b": true,
       "team": [
         {
           "name": "drowzee",
