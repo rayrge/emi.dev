@@ -43588,6 +43588,34 @@
       ]
     },
     {
+      "area": "Goldenrod Underground",
+      "name": "super-nerd-eric",
+      "meta": "optional",
+      "b2b": true,
+      "team": [
+        {
+          "name": "grimer",
+          "level": 18,
+          "item": "leftovers",
+          "moves": [
+            "curse",
+            "protect",
+            "acid"
+          ]
+        },
+        {
+          "name": "geodude",
+          "level": 19,
+          "item": "hard-stone",
+          "moves": [
+            "rock-slide",
+            "karate-chop",
+            "selfdestruct"
+          ]
+        }
+      ]
+    },
+    {
       "area": "Goldenrod Gym",
       "name": "lass-carrie",
       "team": [
@@ -44687,7 +44715,7 @@
             "vital-throw",
             "counter",
             "wing-attack",
-            "megahorn"
+            "slam"
           ]
         },
         {
@@ -44748,7 +44776,7 @@
             "metal-claw",
             "fury-cutter",
             "wing-attack",
-            "submission"
+            "mach-punch"
           ]
         },
         {
@@ -44764,7 +44792,7 @@
         },
         {
           "name": "yanma",
-          "level": 26,
+          "level": 25,
           "item": "miracle-seed",
           "moves": [
             "giga-drain",
@@ -44802,7 +44830,7 @@
           "moves": [
             "vital-throw",
             "wing-attack",
-            "rock-slide",
+            "rock-throw",
             "earthquake"
           ]
         }
