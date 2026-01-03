@@ -43572,6 +43572,21 @@
         }
       ]
     },
+    { 
+      "area": "Goldenrod Underground",
+      "name": "pokemaniac-issac"
+      "team": [
+        {
+          "name": "lickitung",
+          "level": 18,
+          "item": "berry-juice",
+          "moves": [
+            "lick",
+            "rollout"
+          ]
+        }
+      ]
+    },
     {
       "area": "Goldenrod Gym",
       "name": "lass-carrie",
