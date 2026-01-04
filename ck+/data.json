@@ -45226,8 +45226,8 @@
           ]
         }
       ]
-    }
- {
+    },
+    {
       "area": "Route 32",
       "name": "youngster-gordon",
       "meta": "gauntlet",
@@ -45254,6 +45254,7 @@
         }
       ]
     },
+    {
       "area": "Route 32",
       "name": "bird-keeper-peter",
       "team": [
@@ -45277,9 +45278,9 @@
           ]
         },
         {
-          "name": "xatu",
+          "name": "dodrio",
           "level": 30,
-	  "item": sharp-beak,
+	  "item": "sharp-beak",
           "moves": [
             "tri-attack",
             "drill-peck",
@@ -45288,6 +45289,7 @@
         }
       ]
     },
+    {
       "area": "Route 32",
       "name": "fisher-ralph",
       "team": [
@@ -45313,6 +45315,7 @@
         }
       ]
     },
+    {
       "area": "Route 32",
       "name": "fisher-justin",
       "team": [
@@ -45348,6 +45351,7 @@
         }
       ]
     },
+    {
       "area": "Route 32",
       "name": "fisher-henry",
       "team": [
@@ -45363,6 +45367,7 @@
         }
       ]
     },
+    {
       "area": "Route 32",
       "name": "camper-roland",
       "team": [
@@ -45388,6 +45393,7 @@
         }
       ]
     },
+    {
       "area": "Route 32",
       "name": "picnicker-liz",
       "team": [
@@ -45423,6 +45429,7 @@
         }
       ]
     },
+    {
       "area": "Route 32",
       "name": "youngster-albert",
       "meta": "end gauntlet",
@@ -45450,6 +45457,68 @@
         }
       ]
     },
+    {
+      "area": "Route 37",
+      "name": "twins-ann-anne",
+      "team": [
+        {
+          "name": "clefable",
+          "level": 31,
+          "item": "leppa-berry",
+          "moves": [
+            "metronome"
+          ]
+        },
+        {
+          "name": "wigglytuff",
+          "level": 31,
+          "item": "leppa-berry",
+          "moves": [
+            "metronome"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 37",
+      "name": "psychic-greg",
+      "team": [
+        {
+          "name": "politoed",
+          "level": 32,
+          "item": "leftovers",
+          "moves": [
+            "perish-song",
+            "protect",
+            "encore",
+            "whirlpool"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 32,
+          "item": "sitrus-berry",
+          "moves": [
+            "protect",
+            "light-screen",
+            "giga-drain",
+            "psychic"
+          ]
+        },
+        {
+          "name": "hitmontop",
+          "level": 32,
+          "item": "quick-claw",
+          "moves": [
+            "detect",
+            "scary-face",
+            "mach-punch",
+            "rolling-kick"
+          ]
+        }
+      ]
+    },
+
     ],
     "type_matchups": [
         {
