@@ -45195,6 +45195,7 @@
    {
       "area": "Union Cave",
       "name": "hiker-russell",
+      "meta": "end gauntlet",
       "team": [
         {
           "name": "ursaring",
@@ -45226,7 +45227,229 @@
         }
       ]
     }
-
+ {
+      "area": "Route 32",
+      "name": "youngster-gordon",
+      "meta": "gauntlet",
+      "team": [
+        {
+          "name": "pikachu",
+          "level": 41,
+          "item": "light-ball",
+          "moves": [
+            "thunderbolt",
+	    "sweet-kiss",
+	    "extremespeed"
+          ]
+        },
+        {
+          "name": "marill",
+          "level": 41,
+          "item": "pink-bow",
+          "moves": [
+            "body-slam",
+            "lovely-kiss",
+            "surf"
+          ]
+        }
+      ]
+    },
+      "area": "Route 32",
+      "name": "bird-keeper-peter",
+      "team": [
+        {
+          "name": "noctowl",
+          "level": 31,
+          "item": "leftovers",
+          "moves": [
+            "night-shade",
+	    "moonlight",
+	    "wing-attack"
+          ]
+        },
+        {
+          "name": "xatu",
+          "level": 32,
+          "moves": [
+            "thief",
+            "safeguard",
+            "future-sight"
+          ]
+        },
+        {
+          "name": "xatu",
+          "level": 30,
+	  "item": sharp-beak,
+          "moves": [
+            "tri-attack",
+            "drill-peck",
+            "double-kick"
+          ]
+        }
+      ]
+    },
+      "area": "Route 32",
+      "name": "fisher-ralph",
+      "team": [
+        {
+          "name": "corsola",
+          "level": 33,
+          "item": "leftovers",
+          "moves": [
+            "recover",
+	    "pain-split",
+	    "whirlpool"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 30,
+	  "item": "leftovers",
+          "moves": [
+            "substitute",
+            "spark",
+            "bubblebeam"
+          ]
+        }
+      ]
+    },
+      "area": "Route 32",
+      "name": "fisher-justin",
+      "team": [
+        {
+          "name": "seadra",
+          "level": 32,
+          "item": "mystic-water",
+          "moves": [
+            "rain-dance",
+	    "bubblebeam",
+	    "dragonbreath"
+          ]
+        },
+        {
+          "name": "mantine",
+          "level": 30,
+	  "item": "leftovers",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "surf"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 31,
+	  "item": "berry-juice",
+          "moves": [
+            "octazooka",
+            "wrap",
+            "ice-beam"
+          ]
+        }
+      ]
+    },
+      "area": "Route 32",
+      "name": "fisher-henry",
+      "team": [
+        {
+          "name": "magikarp",
+          "level": 66,
+          "item": "focus-band",
+          "moves": [
+            "hydro-pump",
+	    "tackle",
+	    "flail"
+          ]
+        }
+      ]
+    },
+      "area": "Route 32",
+      "name": "camper-roland",
+      "team": [
+        {
+          "name": "nidorino",
+          "level": 31,
+          "item": "berry-juice",
+          "moves": [
+            "sludge-bomb",
+	    "sand-attack",
+	    "submission"
+          ]
+        },
+        {
+          "name": "nidorina",
+          "level": 31,
+	  "item": "berry-juice",
+          "moves": [
+            "toxic",
+            "surf",
+            "thunderbolt"
+          ]
+        }
+      ]
+    },
+      "area": "Route 32",
+      "name": "picnicker-liz",
+      "team": [
+        {
+          "name": "bellossom",
+          "level": 30,
+          "item": "leftovers",
+          "moves": [
+            "leech-seed",
+	    "giga-drain",
+	    "synthesis"
+          ]
+        },
+        {
+          "name": "flaaffy",
+          "level": 31,
+	  "item": "charcoal",
+          "moves": [
+            "thunder-wave",
+            "megahorn",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "clefable",
+          "level": 32,
+	  "item": "lum-berry",
+          "moves": [
+            "double-edge",
+            "shadow-ball",
+            "wing-attack"
+          ]
+        }
+      ]
+    },
+      "area": "Route 32",
+      "name": "youngster-albert",
+      "meta": "end gauntlet",
+      "team": [
+        {
+          "name": "stantler",
+          "level": 33,
+          "item": "pink-bow",
+          "moves": [
+            "confuse-ray",
+	    "hypnosis",
+	    "double-edge",
+	    "psychic"
+          ]
+        },
+        {
+          "name": "dragonair",
+          "level": 32,
+	  "item": "leftovers"
+          "moves": [
+            "waterfall",
+            "icy-wind",
+            "mirror-coat"
+          ]
+        }
+      ]
+    },
     ],
     "type_matchups": [
         {
