@@ -44968,7 +44968,7 @@
       ]
     },
    {
-      "area": "Route 30",
+      "area": "Union Cave",
       "name": "firebreather-bill",
       "team": [
         {
@@ -45116,7 +45116,7 @@
           "level": 29,
           "item": "leftovers",
           "moves": [
-            "sonic-boom",
+            "sonicboom",
             "wing-attack",
             "giga-drain"
           ]
