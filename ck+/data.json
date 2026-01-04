@@ -44929,8 +44929,303 @@
           ]
         }
       ]
+    },
+    {
+      "area": "Union Cave",
+      "name": "hiker-daniel",
+      "meta": "gauntlet",
+      "team": [
+        {
+          "name": "onix",
+          "level": 30,
+          "item": "focus-band",
+          "moves": [
+            "spikes",
+            "magnitude",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 29,
+          "item": "leftovers",
+          "moves": [
+            "pin-missile",
+            "harden",
+            "dig"
+          ]
+        },
+        {
+          "name": "rhyhorn",
+          "level": 31,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "megahorn"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Route 30",
+      "name": "firebreather-bill",
+      "team": [
+        {
+          "name": "quilava",
+          "level": 30,
+          "item": "berry-juice",
+          "moves": [
+            "rollout",
+            "flame-wheel",
+            "thunder-punch"
+          ]
+        },
+        {
+          "name": "slowbro",
+          "level": 29,
+          "item": "charcoal",
+          "moves": [
+            "flamethrower",
+            "flash",
+            "dig"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Union Cave",
+      "name": "pokemaniac-andrew",
+      "team": [
+        {
+          "name": "golbat",
+          "level": 31,
+          "item": "leftovers",
+          "moves": [
+            "acid",
+            "wing-attack",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "qwilfish",
+          "level": 32,
+          "item": "poison-barb",
+          "moves": [
+            "sludge"
+          ]
+        },
+        {
+          "name": "arbok",
+          "level": 30,
+          "item": "berry-juice",
+          "moves": [
+            "earthquake",
+            "toxic",
+            "sludge-bomb"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Union Cave",
+      "name": "hiker-phillip",
+      "team": [
+        {
+          "name": "granbull",
+          "level": 29,
+          "item": "pink-bow",
+          "moves": [
+            "headbutt",
+            "submission",
+            "bone-rush"
+          ]
+        },
+        {
+          "name": "pupitar",
+          "level": 30,
+          "item": "black-glasses",
+          "moves": [
+            "crunch",
+            "scary-face",
+            "rock-slide",
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Union Cave",
+      "name": "hiker-leonard",
+      "team": [
+        {
+          "name": "donphan",
+          "level": 29,
+          "item": "focus-band",
+          "moves": [
+            "earthquake",
+            "headbutt",
+            "powder-snow"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 30,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 29,
+          "item": "black-belt",
+          "moves": [
+            "vital-throw",
+            "rock-slide",
+            "earthquake"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Union Cave",
+      "name": "pokemaniac-calvin",
+      "team": [
+        {
+          "name": "venomoth",
+          "level": 30,
+          "item": "silver-powder",
+          "moves": [
+            "light-screen",
+            "leech-life",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 30,
+          "item": "quick-claw",
+          "moves": [
+            "spore",
+            "swords-dance",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "yanma",
+          "level": 29,
+          "item": "leftovers",
+          "moves": [
+            "sonic-boom",
+            "wing-attack",
+            "giga-drain"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Union Cave",
+      "name": "pokemaniac-larry",
+      "team": [
+        {
+          "name": "xatu",
+          "level": 30,
+          "item": "scope-lens",
+          "moves": [
+            "drill-peck",
+            "psychic",
+            "slash"
+          ]
+        },
+        {
+          "name": "girafarig",
+          "level": 30,
+          "item": "black-belt",
+          "moves": [
+            "endure",
+            "reversal",
+            "stomp"
+          ]
+        },
+        {
+          "name": "mr-mime",
+          "level": 29,
+          "moves": [
+            "thief",
+            "reflect",
+            "future-sight"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Union Cave",
+      "name": "firebreather-ray",
+      "team": [
+        {
+          "name": "charmeleon",
+          "level": 30,
+          "item": "persim-berry",
+          "moves": [
+            "outrage"
+          ]
+        },
+        {
+          "name": "grimer",
+          "level": 31,
+          "item": "leftovers",
+          "moves": [
+            "pain-split",
+            "fire-punch",
+            "dynamicpunch"
+          ]
+        },
+	{
+          "name": "octillery",
+          "level": 30,
+          "item": "charcoal",
+          "moves": [
+            "flamethrower",
+            "thunder-wave",
+            "bubblebeam"
+	  ]
+	}
+      ]
+    },
+   {
+      "area": "Union Cave",
+      "name": "hiker-russell",
+      "team": [
+        {
+          "name": "ursaring",
+          "level": 31,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge"
+          ]
+        },
+        {
+          "name": "dugtrio",
+          "level": 32,
+          "item": "soft-sand",
+          "moves": [
+            "dig",
+            "tri-attack",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "machoke",
+          "level": 31,
+          "item": "black-belt",
+          "moves": [
+            "vital-throw",
+            "seismic-toss",
+            "rock-slide"
+          ]
+        }
+      ]
     }
-
     ],
     "type_matchups": [
         {
