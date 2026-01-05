@@ -45150,6 +45150,7 @@
         {
           "name": "mr-mime",
           "level": 29,
+	  "item": "no-item",
           "moves": [
             "thief",
             "reflect",
@@ -45271,6 +45272,7 @@
         {
           "name": "xatu",
           "level": 32,
+          "item": "no-item",
           "moves": [
             "thief",
             "safeguard",
@@ -45924,7 +45926,8 @@
       {
         "name": "victreebel",
         "level": 34,
-        "moves": [
+        "item": "no-item",
+	"moves": [
           "giga-drain",
           "stun-spore",
           "leech-life",
@@ -45984,6 +45987,7 @@
       {
         "name": "victreebel",
         "level": 34,
+        "item": "no-item",
         "moves": [
           "giga-drain",
           "poisonpowder",
@@ -46255,6 +46259,7 @@
       {
 	"name": "hypno",
         "level": 34,
+        "item": "no-item",
 	"moves": [
 	  "thief",
 	  "hypnosis",
@@ -46362,6 +46367,7 @@
       {
 	"name": "tauros",
         "level": 36,
+	"item": "no-item",
 	"moves": [
 	  "thief",
 	  "lovely-kiss",
