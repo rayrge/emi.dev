@@ -40341,12 +40341,12 @@
             "name": "delibird",
             "pokedex": 225,
             "stats": {
-                "atk": 90,
+                "atk": 55,
                 "def": 45,
                 "hp": 45,
-                "spa": 100,
+                "spa": 65,
                 "spd": 45,
-                "spe": 85
+                "spe": 75
             },
             "tmhm": [
                 "headbutt",
@@ -46551,7 +46551,7 @@
 {
     "area": "Lighthouse",
     "name": "gentleman-preston",
-    "b2b": "true",
+     "b2b": true,
     "team": [
       {
         "name": "arbok",
