@@ -45522,22 +45522,22 @@
     },
 {
     "area": "Ecruteak Dance Theatre",
-    "name": "kimono-girl-naoko",
+    "name": "kimono-girl-miki",
     "team": [
       {
         "name": "crobat",
-        "level": 30,
+        "level": 32,
         "item": "leftovers",
         "moves": [
           "leech-life",
           "giga-drain",
-          "acid",
+          "sludge-bomb",
           "wing-attack"
         ]
       },
       {
         "name": "sneasel",
-        "level": 30,
+        "level": 31,
         "item": "scope-lens",
         "moves": [
           "metal-claw",
@@ -45552,14 +45552,14 @@
         "item": "sitrus-berry",
         "moves": [
           "swagger",
-          "dig",
+          "earthquake",
           "tri-attack",
           "rock-slide"
         ]
       },
       {
         "name": "aipom",
-        "level": 31,
+        "level": 32,
         "item": "pink-bow",
         "moves": [
           "fury-swipes",
@@ -45570,7 +45570,7 @@
       },
       {
         "name": "jolteon",
-        "level": 32,
+        "level": 33,
         "item": "magnet",
         "moves": [
           "spark",
@@ -45587,7 +45587,7 @@
     "team": [
       {
         "name": "clefable",
-        "level": 30,
+        "level": 31,
         "item": "brightpowder",
         "moves": [
           "double-team",
@@ -45609,8 +45609,8 @@
       },
       {
         "name": "noctowl",
-        "level": 30,
-        "item": "lum-berry",
+        "level": 32,
+        "item": "sitrus-berry",
         "moves": [
           "night-shade",
           "moonlight",
@@ -45621,7 +45621,7 @@
       {
         "name": "shuckle",
         "level": 31,
-        "item": "sitrus-berry",
+        "item": "lum-berry",
         "moves": [
           "wrap",
           "protect",
@@ -45631,7 +45631,7 @@
       },
       {
         "name": "umbreon",
-        "level": 32,
+        "level": 33,
         "item": "leftovers",
         "moves": [
           "confuse-ray",
@@ -45676,7 +45676,7 @@
           "flame-wheel",
           "morning-sun",
           "spark",
-          "bite"
+          "crunch"
         ]
       },
       {
@@ -45687,7 +45687,7 @@
           "sunny-day",
           "leech-seed",
           "giga-drain",
-          "gust"
+          "aeroblast"
         ]
       },
       {
@@ -45698,14 +45698,14 @@
           "psychic",
           "morning-sun",
           "growth",
-          "bite"
+          "crunch"
         ]
       }
     ]
   },
   {
     "area": "Ecruteak Dance Theatre",
-    "name": "kimono-girl-kuni",
+    "name": "kimono-girl-naoko",
     "team": [
       {
         "name": "ursaring",
@@ -45731,7 +45731,7 @@
       },
       {
         "name": "hitmonlee",
-        "level": 31,
+        "level": 32,
         "item": "black-belt",
         "moves": [
           "jump-kick",
@@ -45753,7 +45753,7 @@
       },
       {
         "name": "flareon",
-        "level": 32,
+        "level": 33,
         "item": "charcoal",
         "moves": [
           "flame-wheel",
@@ -45766,14 +45766,14 @@
   },
   {
     "area": "Ecruteak Dance Theatre",
-    "name": "kimono-girl-miki",
+    "name": "kimono-girl-kuni",
     "team": [
       {
         "name": "politoed",
-        "level": 31,
+        "level": 32,
         "item": "mystic-water",
         "moves": [
-          "bubblebeam",
+          "waterfall",
           "lovely-kiss",
           "submission",
           "body-slam"
@@ -45797,13 +45797,13 @@
         "moves": [
           "earthquake",
           "super-fang",
-          "ice-punch",
-          "thunderpunch"
+          "ice-beam",
+          "thunderbolt"
         ]
       },
       {
         "name": "muk",
-        "level": 30,
+        "level": 31,
         "item": "quick-claw",
         "moves": [
           "sludge-bomb",
@@ -45814,7 +45814,7 @@
       },
       {
         "name": "vaporeon",
-        "level": 32,
+        "level": 33,
         "item": "leftovers",
         "moves": [
           "acid-armor",
