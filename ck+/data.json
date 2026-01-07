@@ -45235,7 +45235,7 @@
       "team": [
         {
           "name": "pikachu",
-          "level": 41,
+          "level": 51,
           "item": "light-ball",
           "moves": [
             "thunderbolt",
@@ -45245,7 +45245,7 @@
         },
         {
           "name": "marill",
-          "level": 41,
+          "level": 51,
           "item": "pink-bow",
           "moves": [
             "body-slam",
@@ -45296,9 +45296,18 @@
       "name": "fisher-ralph",
       "team": [
         {
-          "name": "corsola",
+          "name": "stantler",
           "level": 33,
-          "item": "leftovers",
+          "item": "pink-bow",
+          "moves": [
+            "confuse-ray",
+	    "double-edge",
+	    "psychic"
+          ]
+        {
+          "name": "corsola",
+          "level": 34,
+          "item": "focus-band",
           "moves": [
             "recover",
 	    "pain-split",
@@ -45307,12 +45316,12 @@
         },
         {
           "name": "lanturn",
-          "level": 30,
+          "level": 32,
 	  "item": "leftovers",
           "moves": [
             "substitute",
-            "spark",
-            "bubblebeam"
+            "thunderbolt",
+            "surf"
           ]
         }
       ]
@@ -45327,18 +45336,38 @@
           "item": "mystic-water",
           "moves": [
             "rain-dance",
-	    "bubblebeam",
+	    "waterfall",
 	    "dragonbreath"
           ]
         },
         {
           "name": "mantine",
-          "level": 30,
+          "level": 31,
 	  "item": "leftovers",
           "moves": [
             "rest",
             "sleep-talk",
-            "surf"
+            "hydro-pump"
+          ]
+        },
+        {
+          "name": "kadabra",
+          "level": 31,
+	  "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "future-sight",
+            "baton-pass"
+          ]
+        },
+       {
+          "name": "ariados",
+          "level": 32,
+	  "item": "scope-lens",
+          "moves": [
+            "fury-cutter",
+            "sludge-bomb",
+            "slash"
           ]
         },
         {
@@ -45359,7 +45388,37 @@
       "team": [
         {
           "name": "magikarp",
+          "level": 56,
+          "item": "focus-band",
+          "moves": [
+            "hydro-pump",
+	    "tackle",
+	    "flail"
+          ]
+        },
+        {
+          "name": "magikarp",
+          "level": 61,
+          "item": "focus-band",
+          "moves": [
+            "hydro-pump",
+	    "tackle",
+	    "flail"
+          ]
+        },
+        {
+          "name": "magikarp",
           "level": 66,
+          "item": "focus-band",
+          "moves": [
+            "hydro-pump",
+	    "tackle",
+	    "flail"
+          ]
+        },
+        {
+          "name": "magikarp",
+          "level": 71,
           "item": "focus-band",
           "moves": [
             "hydro-pump",
@@ -45374,23 +45433,33 @@
       "name": "camper-roland",
       "team": [
         {
-          "name": "nidorino",
+          "name": "nidoking",
           "level": 31,
           "item": "berry-juice",
           "moves": [
             "sludge-bomb",
-	    "sand-attack",
-	    "submission"
+	    "earthquake",
+	    "megahorn"
           ]
         },
         {
-          "name": "nidorina",
-          "level": 31,
-	  "item": "berry-juice",
+          "name": "magcargo",
+          "level": 33,
+	  "item": "quick-claw",
           "moves": [
-            "toxic",
-            "surf",
-            "thunderbolt"
+            "fire-spin",
+            "flamethrower",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "hypno",
+          "level": 32,
+          "item": "leftovers",
+          "moves": [
+            "hypnosis",
+	    "psychic",
+	    "submission"
           ]
         }
       ]
@@ -45401,7 +45470,7 @@
       "team": [
         {
           "name": "bellossom",
-          "level": 30,
+          "level": 31,
           "item": "leftovers",
           "moves": [
             "leech-seed",
@@ -45411,10 +45480,10 @@
         },
         {
           "name": "flaaffy",
-          "level": 31,
+          "level": 32,
 	  "item": "charcoal",
           "moves": [
-            "thunder-wave",
+            "thunderbolt",
             "megahorn",
             "flamethrower"
           ]
@@ -45437,14 +45506,13 @@
       "meta": "end gauntlet",
       "team": [
         {
-          "name": "stantler",
-          "level": 33,
+          "name": "pidgeot",
+          "level": 34,
           "item": "pink-bow",
           "moves": [
-            "confuse-ray",
-	    "hypnosis",
-	    "double-edge",
-	    "psychic"
+            "double-edge",
+	    "aeroblast",
+	    "steel-wing"
           ]
         },
         {
@@ -45455,6 +45523,16 @@
             "waterfall",
             "icy-wind",
             "mirror-coat"
+          ]
+        },
+        {
+          "name": "marowak",
+          "level": 33,
+          "item": "thick-club",
+          "moves": [
+            "bonemerang",
+	    "rock-slide",
+	    "skull-bash"
           ]
         }
       ]
@@ -45537,7 +45615,7 @@
       },
       {
         "name": "sneasel",
-        "level": 31,
+        "level": 33,
         "item": "scope-lens",
         "moves": [
           "metal-claw",
@@ -45570,7 +45648,7 @@
       },
       {
         "name": "jolteon",
-        "level": 33,
+        "level": 34,
         "item": "magnet",
         "moves": [
           "spark",
@@ -45587,7 +45665,7 @@
     "team": [
       {
         "name": "clefable",
-        "level": 31,
+        "level": 32,
         "item": "brightpowder",
         "moves": [
           "double-team",
@@ -45620,7 +45698,7 @@
       },
       {
         "name": "shuckle",
-        "level": 31,
+        "level": 33,
         "item": "lum-berry",
         "moves": [
           "wrap",
@@ -45631,7 +45709,7 @@
       },
       {
         "name": "umbreon",
-        "level": 33,
+        "level": 34,
         "item": "leftovers",
         "moves": [
           "confuse-ray",
@@ -45648,7 +45726,7 @@
     "team": [
       {
         "name": "butterfree",
-        "level": 31,
+        "level": 32,
         "item": "lum-berry",
         "moves": [
           "sleep-powder",
@@ -45659,7 +45737,7 @@
       },
       {
         "name": "victreebel",
-        "level": 30,
+        "level": 31,
         "item": "miracle-seed",
         "moves": [
           "wrap",
@@ -45670,7 +45748,7 @@
       },
       {
         "name": "arcanine",
-        "level": 30,
+        "level": 32,
         "item": "sitrus-berry",
         "moves": [
           "flame-wheel",
@@ -45692,7 +45770,7 @@
       },
       {
         "name": "espeon",
-        "level": 32,
+        "level": 34,
         "item": "twisted-spoon",
         "moves": [
           "psychic",
@@ -45742,7 +45820,7 @@
       },
       {
         "name": "pinsir",
-        "level": 30,
+        "level": 31,
         "item": "scope-lens",
         "moves": [
           "fury-cutter",
@@ -45753,7 +45831,7 @@
       },
       {
         "name": "flareon",
-        "level": 33,
+        "level": 34,
         "item": "charcoal",
         "moves": [
           "flame-wheel",
@@ -45803,7 +45881,7 @@
       },
       {
         "name": "muk",
-        "level": 31,
+        "level": 32,
         "item": "quick-claw",
         "moves": [
           "sludge-bomb",
@@ -45814,7 +45892,7 @@
       },
       {
         "name": "vaporeon",
-        "level": 33,
+        "level": 34,
         "item": "leftovers",
         "moves": [
           "acid-armor",
@@ -45831,7 +45909,7 @@
     "team": [
       {
         "name": "magneton",
-        "level": 33,
+        "level": 32,
         "item": "focus-band",
         "moves": [
           "light-screen",
@@ -45903,7 +45981,7 @@
     "team": [
       {
         "name": "magneton",
-        "level": 33,
+        "level": 32,
         "item": "focus-band",
         "moves": [
           "light-screen",
@@ -45975,7 +46053,7 @@
     "team": [
       {
         "name": "magneton",
-        "level": 33,
+        "level": 32,
         "item": "focus-band",
         "moves": [
           "light-screen",
@@ -46071,6 +46149,16 @@
     "area": "Route 38",
     "name": "lass-dana",
     "team": [
+      {
+        "name": "farfetch'd",
+        "level": 33,
+        "item": "stick",
+        "moves": [
+          "slash",
+          "drill-peck",
+          "cross-chop"
+        ]
+      },
       {
         "name": "azumarill",
         "level": 33,
@@ -46696,7 +46784,7 @@
     "team": [
       {
         "name": "kingdra",
-        "level": 37,
+        "level": 36,
         "item": "chesto-berry",
         "moves": [
           "rest",
