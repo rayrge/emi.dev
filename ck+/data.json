@@ -46151,7 +46151,7 @@
     "name": "lass-dana",
     "team": [
       {
-        "name": "farfetch'd",
+        "name": "farfetchd",
         "level": 33,
         "item": "stick",
         "moves": [
@@ -46782,6 +46782,7 @@
   {
     "area": "Lighthouse",
     "name": "sailor-kent",
+    "meta": "can't leave after this fight",
     "team": [
       {
         "name": "kingdra",
