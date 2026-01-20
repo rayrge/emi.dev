@@ -2314,6 +2314,10 @@
                             }
                         ]
                     },
+                    "type": "walking"
+                }
+            ]
+        },
         {
             "area": "tin-tower-2f",
             "pools": [
