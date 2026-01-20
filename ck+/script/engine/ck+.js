@@ -61,9 +61,7 @@ class BattleMoveImpl extends BattleMove {
 		if (this.move.name == "hidden-power") {
 			var hp = getHiddenPower(this.user.poke);
 			return hp.type;
-		} else if (this.move.name == "future-sight") {
-			return "curse";
-		}
+		} 
 		return super.type;
 	}
 

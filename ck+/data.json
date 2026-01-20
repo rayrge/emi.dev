@@ -46936,7 +46936,914 @@
         ]
       }
     ]
-  }
+  },
+  {
+      "area": "Route 40",
+      "name": "swimmerm-simon",
+      "team": [
+        {
+          "name": "xatu",
+          "level": 38,
+          "item": "brightpowder",
+          "moves": [
+            "double-team",
+            "psychic",
+            "drill-peck",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "dunsparce",
+          "level": 38,
+          "item": "leftovers",
+          "moves": [
+            "glare",
+            "double-edge",
+            "wing-attack",
+            "outrage"
+          ]
+        },
+        {
+          "name": "tentacruel",
+          "level": 37,
+          "item": "nevermeltice",
+          "moves": [
+            "surf",
+            "ice-beam",
+            "sludge-bomb",
+            "wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 40",
+      "name": "swimmerf-paula",
+      "team": [
+        {
+          "name": "aipom",
+          "level": 38,
+          "item": "lum-berry",
+          "moves": [
+            "fury-swipes",
+            "double-team",
+            "shadow-ball",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 38,
+          "item": "sitrus-berry",
+          "moves": [
+            "waterfall",
+            "earthquake",
+            "cross-chop",
+            "outrage"
+          ]
+        },
+        {
+          "name": "jynx",
+          "level": 37,
+          "item": "mystic-water",
+          "moves": [
+            "sweet-kiss",
+            "ice-beam",
+            "psychic",
+            "surf"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 40",
+      "name": "swimmerm-randall",
+      "team": [
+        {
+          "name": "gligar",
+          "level": 37,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+            "wing-attack",
+            "vicegrip",
+            "toxic"
+          ]
+        },
+        {
+          "name": "togetic",
+          "level": 38,
+          "item": "leppa-berry",
+          "moves": [
+            "encore",
+            "thunder-wave",
+            "metronome",
+            "psywave"
+          ]
+        },
+        {
+          "name": "kingdra",
+          "level": 37,
+          "item": "leftovers",
+          "moves": [
+            "whirlpool",
+            "dragonbreath",
+            "waterfall",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 38,
+          "item": "dragon-fang",
+          "moves": [
+            "flamethrower",
+            "fly",
+            "dragonbreath",
+            "thunderpunch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 40",
+      "name": "swimmerf-elaine",
+      "team": [
+        {
+          "name": "furret",
+          "level": 38,
+          "item": "cheri-berry",
+          "moves": [
+            "sing",
+            "substitute",
+            "baton-pass",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 37,
+          "item": "sitrus-berry",
+          "moves": [
+            "thunderbolt",
+            "thunder-wave",
+            "dragonbreath",
+            "fire-punch"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 38,
+          "item": "pecha-berry",
+          "moves": [
+            "waterfall",
+            "psychic",
+            "thunderbolt",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 37,
+          "item": "persim-berry",
+          "moves": [
+            "petal-dance",
+            "leech-seed",
+            "earthquake",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerm-charlie",
+      "team": [
+        {
+          "name": "girafarig",
+          "level": 38,
+          "item": "twisted-spoon",
+          "moves": [
+            "future-sight",
+            "double-edge",
+            "crunch",
+            "double-kick"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 37,
+          "item": "scope-lens",
+          "moves": [
+            "octazooka",
+            "focus-energy",
+            "shadow-ball",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "meganium",
+          "level": 37,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+            "stun-spore",
+            "leech-seed",
+            "headbutt"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerm-kirk",
+      "team": [
+        {
+          "name": "dodrio",
+          "level": 37,
+          "item": "focus-band",
+          "moves": [
+            "tri-attack",
+            "drill-peck",
+            "double-kick",
+            "rage"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 38,
+          "item": "scope-lens",
+          "moves": [
+            "fire-spin",
+            "cross-chop",
+            "thunder",
+            "psychic"
+          ]
+        }
+      ],
+      "b2b": true
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerf-kaylee",
+      "team": [
+        {
+          "name": "dewgong",
+          "level": 37,
+          "item": "sitrus-berry",
+          "moves": [
+            "headbutt",
+            "encore",
+            "ice-beam",
+            "surf"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 37,
+          "item": "quick-claw",
+          "moves": [
+            "spore",
+            "fury-cutter",
+            "giga-drain",
+            "slash"
+          ]
+        },
+        {
+          "name": "jolteon",
+          "level": 38,
+          "item": "brightpowder",
+          "moves": [
+            "thunder",
+            "bite",
+            "shadow-ball",
+            "quick-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerf-kara",
+      "team": [
+        {
+          "name": "tangela",
+          "level": 37,
+          "item": "persim-berry",
+          "moves": [
+            "stun-spore",
+            "wrap",
+            "petal-dance",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 37,
+          "item": "lum-berry",
+          "moves": [
+            "thunder",
+            "thunder-wave",
+            "surf",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 38,
+          "item": "leftovers",
+          "moves": [
+            "amnesia",
+            "recover",
+            "surf",
+            "ice-beam"
+          ]
+        }
+      ],
+      "b2b": true
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerm-berke",
+      "team": [
+        {
+          "name": "slowbro",
+          "level": 37,
+          "item": "sitrus-berry",
+          "moves": [
+            "disable",
+            "surf",
+            "psybeam",
+            "ice-punch"
+          ]
+        },
+        {
+          "name": "quagsire",
+          "level": 38,
+          "item": "lum-berry",
+          "moves": [
+            "earthquake",
+            "surf",
+            "body-slam",
+            "whirlpool"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 37,
+          "item": "quick-claw",
+          "moves": [
+            "egg-bomb",
+            "stun-spore",
+            "psybeam",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "ledian",
+          "level": 38,
+          "item": "leppa-berry",
+          "moves": [
+            "encore",
+            "toxic",
+            "giga-drain",
+            "aeroblast"
+          ]
+        },
+        {
+          "name": "dodrio",
+          "level": 37,
+          "item": "sharp-beak",
+          "moves": [
+            "drill-peck",
+            "frustration",
+            "steel-wing",
+            "quick-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerf-denise",
+      "team": [
+        {
+          "name": "seaking",
+          "level": 37,
+          "item": "scope-lens",
+          "moves": [
+            "megahorn",
+            "waterfall",
+            "drill-peck"
+          ]
+        },
+        {
+          "name": "lickitung",
+          "level": 38,
+          "item": "lum-berry",
+          "moves": [
+            "lick",
+            "recover",
+            "body-slam",
+            "surf"
+          ]
+        },
+        {
+          "name": "electabuzz",
+          "level": 37,
+          "item": "magnet",
+          "moves": [
+            "thunder",
+            "cross-chop",
+            "ice-punch",
+            "psychic"
+          ]
+        },
+        {
+          "name": "blastoise",
+          "level": 38,
+          "item": "leftovers",
+          "moves": [
+            "counter",
+            "mirror-coat",
+            "hydro-pump",
+            "skull-bash"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerm-george",
+      "team": [
+        {
+          "name": "qwilfish",
+          "level": 38,
+          "item": "brightpowder",
+          "moves": [
+            "hydro-pump",
+            "spikes",
+            "destiny-bond",
+            "explosion"
+          ]
+        },
+        {
+          "name": "raichu",
+          "level": 37,
+          "item": "sitrus-berry",
+          "moves": [
+            "thunder",
+            "surf",
+            "quick-attack",
+            "seismic-toss"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 37,
+          "item": "leftovers",
+          "moves": [
+            "spikes",
+            "protect",
+            "pin-missile",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 38,
+          "item": "brightpowder",
+          "moves": [
+            "earthquake",
+            "double-edge",
+            "hydro-pump",
+            "thunder"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerm-mathew",
+      "team": [
+        {
+          "name": "electrode",
+          "level": 38,
+          "item": "focus-band",
+          "moves": [
+            "thunder",
+            "reflect",
+            "rollout",
+            "explosion"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 37,
+          "item": "leftovers",
+          "moves": [
+            "mach-punch",
+            "swords-dance",
+            "fury-cutter",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "cloyster",
+          "level": 37,
+          "item": "scope-lens",
+          "moves": [
+            "hydro-pump",
+            "scary-face",
+            "rock-slide",
+            "ice-beam"
+          ]
+        }
+      ],
+      "b2b": true
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerf-wendy",
+      "team": [
+        {
+          "name": "azumarill",
+          "level": 38,
+          "item": "sitrus-berry",
+          "moves": [
+            "charm",
+            "seismic-toss",
+            "waterfall",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "mantine",
+          "level": 37,
+          "item": "leftovers",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "surf",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "wigglytuff",
+          "level": 37,
+          "item": "pink-bow",
+          "moves": [
+            "sweet-kiss",
+            "attract",
+            "thunder-wave",
+            "dizzy-punch"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 38,
+          "item": "mystic-water",
+          "moves": [
+            "lovely-kiss",
+            "surf",
+            "psychic",
+            "thunder"
+          ]
+        },
+        {
+          "name": "lapras",
+          "level": 37,
+          "item": "lum-berry",
+          "moves": [
+            "surf",
+            "thunder",
+            "ice-beam",
+            "psychic"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Cianwood City",
+      "name": "mysticalman-eusine",
+      "team": [
+        {
+          "name": "gengar",
+          "level": 40,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "shadow-ball",
+            "thunderbolt",
+            "future-sight"
+          ]
+        },
+        {
+          "name": "omastar",
+          "level": 39,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+            "ice-beam",
+            "ancientpower",
+            "protect"
+          ]
+        },
+        {
+          "name": "yanma",
+          "level": 39,
+          "item": "hard-stone",
+          "moves": [
+            "psychic",
+            "giga-drain",
+            "ancientpower",
+            "faint-attack"
+          ]
+        },
+        {
+          "name": "electrode",
+          "level": 40,
+          "item": "brightpowder",
+          "moves": [
+            "substitute",
+            "thunderbolt",
+            "thunder-wave",
+            "light-screen"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 39,
+          "item": "leftovers",
+          "moves": [
+            "synthesis",
+            "stun-spore",
+            "giga-drain",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 40,
+          "item": "twisted-spoon",
+          "moves": [
+            "psychic",
+            "ice-punch",
+            "fire-punch",
+            "thunderpunch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Cianwood Gym",
+      "name": "blackbelt-yoshi",
+      "team": [
+        {
+          "name": "machoke",
+          "level": 41,
+          "item": "quick-claw",
+          "moves": [
+            "dynamicpunch",
+            "rock-slide",
+            "earthquake",
+            "vital-throw"
+          ]
+        },
+        {
+          "name": "electabuzz",
+          "level": 40,
+          "item": "scope-lens",
+          "moves": [
+            "thunderbolt",
+            "cross-chop",
+            "ice-punch",
+            "quick-attack"
+          ]
+        },
+        {
+          "name": "kangaskhan",
+          "level": 41,
+          "item": "pink-bow",
+          "moves": [
+            "mega-punch",
+            "submission",
+            "counter",
+            "earthquake"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Cianwood Gym",
+      "name": "blackbelt-lao",
+      "team": [
+        {
+          "name": "graveler",
+          "level": 41,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "earthquake",
+            "rock-slide",
+            "submission"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 40,
+          "item": "scope-lens",
+          "moves": [
+            "flamethrower",
+            "cross-chop",
+            "thunderpunch",
+            "mach-punch"
+          ]
+        },
+        {
+          "name": "snorlax",
+          "level": 41,
+          "item": "leftovers",
+          "moves": [
+            "double-edge"
+          ]
+        }
+      ],
+      "b2b": true
+    },
+    {
+      "area": "Cianwood Gym",
+      "name": "blackbelt-nob",
+      "team": [
+        {
+          "name": "hitmonlee",
+          "level": 41,
+          "item": "black-belt",
+          "moves": [
+            "hi-jump-kick",
+            "low-kick",
+            "mega-kick",
+            "flame-wheel"
+          ]
+        },
+        {
+          "name": "wobbuffet",
+          "level": 42,
+          "item": "lum-berry",
+          "moves": [
+            "encore",
+            "safeguard",
+            "mirror-coat",
+            "counter"
+          ]
+        },
+        {
+          "name": "murkrow",
+          "level": 40,
+          "item": "berserk-gene",
+          "moves": [
+            "wing-attack",
+            "jump-kick",
+            "crunch",
+            "quick-attack"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 40,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+            "submission",
+            "earthquake",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Cianwood Gym",
+      "name": "blackbelt-lung",
+      "team": [
+        {
+          "name": "primeape",
+          "level": 41,
+          "item": "scope-lens",
+          "moves": [
+            "cross-chop",
+            "endure",
+            "reversal",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "farfetchd",
+          "level": 40,
+          "item": "stick",
+          "moves": [
+            "slash",
+            "drill-peck",
+            "cross-chop",
+            "razor-leaf"
+          ]
+        },
+        {
+          "name": "pinsir",
+          "level": 40,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+            "vital-throw",
+            "wing-attack",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "hitmonchan",
+          "level": 41,
+          "item": "black-belt",
+          "moves": [
+            "dynamicpunch",
+            "mach-punch",
+            "mega-punch",
+            "shadow-ball"
+          ]
+        }
+      ],
+      "b2b": true
+    },
+    {
+      "area": "Cianwood Gym",
+      "name": "leader-chuck",
+      "team": [
+        {
+          "name": "hitmontop",
+          "level": 41,
+          "item": "black-belt",
+          "moves": [
+            "endure",
+            "hi-jump-kick",
+            "mach-punch",
+            "reversal"
+          ]
+        },
+        {
+          "name": "poliwrath",
+          "level": 42,
+          "item": "mystic-water",
+          "moves": [
+            "waterfall",
+            "hypnosis",
+            "ice-punch",
+            "dynamicpunch"
+          ]
+        },
+        {
+          "name": "ursaring",
+          "level": 41,
+          "item": "sitrus-berry",
+          "moves": [
+            "belly-drum",
+            "quick-attack",
+            "double-edge",
+            "vital-throw"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 41,
+          "item": "hard-stone",
+          "moves": [
+            "counter",
+            "harden",
+            "magnitude",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "nidoking",
+          "level": 41,
+          "item": "leftovers",
+          "moves": [
+            "earthquake",
+            "submission",
+            "thunderpunch",
+            "ice-punch"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 42,
+          "item": "quick-claw",
+          "moves": [
+            "focus-energy",
+            "cross-chop",
+            "earthquake",
+            "rock-slide"
+          ]
+        }
+      ]
+    }
 
     ],
     "type_matchups": [
