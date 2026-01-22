@@ -1,15 +1,15 @@
 var attackBadges = 1;
-var defenseBadges = 7;
-var specialBadges = 6;
-var speedBadges = 3;
+var defenseBadges = 4;
+var specialBadges = 7;
+var speedBadges = 2;
 var badgeTypes = new Map([
 	["flying", 1],
-	["bug", 2],
-	["normal", 3],
-	["ghost", 4],
+	["normal", 2],
+	["bug", 3],
+	["steel", 4],
 	["fighting", 5],
-	["ice", 6],
-	["steel", 7],
+	["ghost", 6],
+	["ice", 7],
 	["dragon", 8],
 	["electric", 9],
 	["psychic", 10],
