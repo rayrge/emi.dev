@@ -29136,35 +29136,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "wrap"
+                    "move": "bind"
                 },
                 {
-                    "level": 5,
-                    "move": "rage"
-                },
-                {
-                    "level": 9,
-                    "move": "magnitude"
-                },
-                {
-                    "level": 14,
+                    "level": 1,
                     "move": "rock-throw"
                 },
                 {
-                    "level": 20,
-                    "move": "slam"
+                    "level": 5,
+                    "move": "screech"
                 },
                 {
-                    "level": 27,
-                    "move": "rock-slide"
+                    "level": 12,
+                    "move": "dragonbreath"
+                },
+                {
+                    "level": 16,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 20,
+                    "move": "magnitude"
+                },
+                {
+                    "level": 28,
+                    "move": "iron-tail"
+                },
+                {
+                    "level": 31,
+                    "move": "dig"
                 },
                 {
                     "level": 34,
-                    "move": "bide"
+                    "move": "rock-slide"
+                },              
+  		{
+                    "level": 37,
+                    "move": "selfdestruct"
                 },
                 {
-                    "level": 50,
+                    "level": 41,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 48,
                     "move": "earthquake"
+                },
+                {
+                    "level": 51,
+                    "move": "explosion"
                 }
             ],
             "name": "onix",
@@ -30120,40 +30140,48 @@
             "items": [],
             "learnset": [
                 {
-                    "level": 1,
-                    "move": "karate-chop"
-                },
-                {
-                    "level": 26,
+                    "level": 20,
                     "move": "mach-punch"
                 },
                 {
-                    "level": 33,
+                    "level": 23,
+                    "move": "pursuit"
+                },
+                {
+                    "level": 25,
+                    "move": "comet-punch"
+                },
+                {
+                    "level": 27,
+                    "move": "dizzy-punch"
+                },
+                {
+                    "level": 30,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 36,
                     "move": "submission"
                 },
                 {
                     "level": 39,
-                    "move": "rapid-spin"
+                    "move": "mega-punch"
                 },
                 {
-                    "level": 46,
+                    "level": 42,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 54,
-                    "move": "earthquake"
+                    "level": 44,
+                    "move": "detect"
                 },
                 {
-                    "level": 58,
+                    "level": 47,
                     "move": "counter"
                 },
                 {
-                    "level": 67,
+                    "level": 50,
                     "move": "cross-chop"
-                },
-                {
-                    "level": 90,
-                    "move": "meditate"
                 }
             ],
             "name": "hitmonchan",
@@ -30957,31 +30985,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "pound"
+                    "move": "smokescreen"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
                     "move": "water-gun"
                 },
                 {
-                    "level": 14,
+                    "level": 12,
+                    "move": "leer"
+                },
+                {
+                    "level": 19,
+                    "move": "twister"
+                },
+                {
+                    "level": 22,
                     "move": "aurora-beam"
                 },
                 {
-                    "level": 23,
-                    "move": "bubblebeam"
+                    "level": 25,
+                    "move": "octazooka"
                 },
                 {
-                    "level": 27,
+                    "level": 36,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 40,
                     "move": "dragonbreath"
                 },
                 {
-                    "level": 32,
-                    "move": "waterfall"
+                    "level": 42,
+                    "move": "ice-beam"
                 },
                 {
-                    "level": 37,
-                    "move": "dragon-rage"
+                    "level": 51,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "horsea",
@@ -31041,19 +31081,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "waterfall"
+                    "move": "smokescreen"
                 },
                 {
-                    "level": 35,
-                    "move": "dragon-rage"
+                    "level": 1,
+                    "move": "water-gun"
+                },
+                {
+                    "level": 12,
+                    "move": "leer"
+                },
+                {
+                    "level": 19,
+                    "move": "twister"
+                },
+                {
+                    "level": 22,
+                    "move": "aurora-beam"
+                },
+                {
+                    "level": 25,
+                    "move": "octazooka"
+                },
+                {
+                    "level": 36,
+                    "move": "safeguard"
                 },
                 {
                     "level": 40,
                     "move": "dragonbreath"
                 },
                 {
-                    "level": 47,
+                    "level": 42,
                     "move": "ice-beam"
+                },
+                {
+                    "level": 51,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "seadra",
@@ -32293,12 +32357,36 @@
                     "move": "quick-attack"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 5,
                     "move": "sand-attack"
                 },
                 {
                     "level": 15,
-                    "move": "headbutt"
+                    "move": "bite"
+                },
+                {
+                    "level": 22,
+                    "move": "swift"
+                },
+                {
+                    "level": 33,
+                    "move": "baton-pass"
+                },
+                {
+                    "level": 45,
+                    "move": "take-down"
+                },
+                {
+                    "level": 49,
+                    "move": "charm"
+                },
+                {
+                    "level": 52,
+                    "move": "double-edge"
                 }
             ],
             "name": "eevee",
@@ -32524,44 +32612,48 @@
                     "move": "quick-attack"
                 },
                 {
+                    "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 5,
+                    "move": "sand-attack"
+                },
+                {
                     "level": 15,
-                    "move": "ember"
+                    "move": "bite"
                 },
                 {
-                    "level": 23,
-                    "move": "double-kick"
+                    "level": 22,
+                    "move": "swift"
                 },
                 {
-                    "level": 28,
-                    "move": "flamethrower"
+                    "level": 29,
+                    "move": "fire-spin"
                 },
                 {
                     "level": 33,
-                    "move": "curse"
+                    "move": "flame-wheel"
                 },
                 {
                     "level": 37,
+                    "move": "submission"
+                },
+                {
+                    "level": 41,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 46,
+                    "level": 45,
+                    "move": "flamethrower"
+                },
+                {
+                    "level": 49,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 52,
                     "move": "double-edge"
-                },
-                {
-                    "level": 53,
-                    "move": "iron-tail"
-                },
-                {
-                    "level": 59,
-                    "move": "sacred-fire"
-                },
-                {
-                    "level": 72,
-                    "move": "extremespeed"
-                },
-                {
-                    "level": 84,
-                    "move": "baton-pass"
                 }
             ],
             "name": "flareon",
@@ -35308,40 +35400,44 @@
                     "move": "bubble"
                 },
                 {
-                    "level": 5,
-                    "move": "thundershock"
-                },
-                {
-                    "level": 9,
+                    "level": 1,
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 14,
-                    "move": "thunder-wave"
+                    "level": 5,
+                    "move": "water-gun"
                 },
                 {
-                    "level": 18,
+                    "level": 13,
                     "move": "spark"
                 },
                 {
-                    "level": 24,
-                    "move": "aurora-beam"
-                },
-                {
-                    "level": 26,
+                    "level": 17,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 37,
-                    "move": "thunderbolt"
+                    "level": 25,
+                    "move": "aurora-beam"
+                },
+                {
+                    "level": 32,
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 39,
+                    "move": "thunder"
+                },
+                {
+                    "level": 41,
+                    "move": "ice-beam"
                 },
                 {
                     "level": 44,
-                    "move": "hydro-pump"
+                    "move": "thunderbolt"
                 },
                 {
-                    "level": 50,
-                    "move": "ice-beam"
+                    "level": 53,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "chinchou",
@@ -35389,31 +35485,47 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "bubble"
+                },
+                {
+                    "level": 1,
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 1,
-                    "move": "thunder-wave"
+                    "level": 5,
+                    "move": "water-gun"
                 },
                 {
-                    "level": 1,
-                    "move": "bubblebeam"
-                },
-                {
-                    "level": 1,
+                    "level": 13,
                     "move": "spark"
                 },
                 {
-                    "level": 37,
-                    "move": "thunderbolt"
+                    "level": 17,
+                    "move": "bubblebeam"
+                },
+                {
+                    "level": 25,
+                    "move": "aurora-beam"
+                },
+                {
+                    "level": 32,
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 39,
+                    "move": "thunder"
+                },
+                {
+                    "level": 41,
+                    "move": "ice-beam"
                 },
                 {
                     "level": 44,
-                    "move": "hydro-pump"
+                    "move": "thunderbolt"
                 },
                 {
-                    "level": 50,
-                    "move": "ice-beam"
+                    "level": 53,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "lanturn",
@@ -38418,31 +38530,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "swagger"
+                    "move": "bind"
                 },
                 {
                     "level": 1,
-                    "move": "body-slam"
+                    "move": "rock-throw"
                 },
                 {
-                    "level": 1,
+                    "level": 5,
+                    "move": "screech"
+                },
+                {
+                    "level": 12,
+                    "move": "dragonbreath"
+                },
+                {
+                    "level": 16,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 20,
+                    "move": "magnitude"
+                },
+                {
+                    "level": 31,
+                    "move": "dig"
+                },
+                {
+                    "level": 34,
                     "move": "rock-slide"
+                },              
+  		{
+                    "level": 37,
+                    "move": "selfdestruct"
                 },
                 {
-                    "level": 56,
-                    "move": "iron-tail"
+                    "level": 41,
+                    "move": "double-edge"
                 },
                 {
-                    "level": 67,
+                    "level": 48,
                     "move": "earthquake"
                 },
                 {
-                    "level": 75,
-                    "move": "bide"
+                    "level": 51,
+                    "move": "explosion"
                 },
                 {
-                    "level": 99,
-                    "move": "explosion"
+                    "level": 52,
+                    "move": "iron-tail"
                 }
             ],
             "name": "steelix",
@@ -40308,31 +40444,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "waterfall"
+                    "move": "smokescreen"
                 },
                 {
-                    "level": 50,
+                    "level": 1,
+                    "move": "bubblebeam"
+                },
+                {
+                    "level": 12,
+                    "move": "leer"
+                },
+                {
+                    "level": 19,
+                    "move": "twister"
+                },
+                {
+                    "level": 22,
+                    "move": "aurora-beam"
+                },
+                {
+                    "level": 25,
+                    "move": "octazooka"
+                },
+                {
+                    "level": 36,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 40,
                     "move": "dragonbreath"
                 },
                 {
-                    "level": 55,
+                    "level": 42,
                     "move": "ice-beam"
                 },
                 {
-                    "level": 65,
-                    "move": "octazooka"
-                },
-                {
-                    "level": 73,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 80,
-                    "move": "octazooka"
-                },
-                {
-                    "level": 90,
-                    "move": "octazooka"
+                    "level": 51,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "kingdra",
@@ -40816,7 +40964,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "karate-chop"
+                    "move": "tackle"
                 }
             ],
             "name": "tyrogue",
