@@ -186,7 +186,7 @@ function readFile(file) {
 				}
 				box = pokemon;
 				deadBox = deadPokemon;
-				parseBadges((bytes[0x23e5] << 8) | bytes[0x23e6]);
+				parseBadges((bytes[0x23eb] << 8) | bytes[0x23ec]);
 				finishParse("Successfully parsed save!", pokemon, deadPokemon);
 			} catch (e) {
 				console.log(e);
