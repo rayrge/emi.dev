@@ -27086,19 +27086,43 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "vine-whip"
+                },
+                {
+                    "level": 1,
                     "move": "acid"
                 },
                 {
-                    "level": 8,
-                    "move": "razor-leaf"
+                    "level": 11,
+                    "move": "wrap"
                 },
                 {
-                    "level": 14,
-                    "move": "stun-spore"
+                    "level": 15,
+                    "move": "sleep-powder"
                 },
                 {
                     "level": 17,
-                    "move": "toxic"
+                    "move": "poisonpowder"
+                },
+                {
+                    "level": 19,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 23,
+                    "move": "sweet-scent"
+                },
+                {
+                    "level": 30,
+                    "move": "giga-drain"
+                },
+                {
+                    "level": 37,
+                    "move": "razor-leaf"
+                },
+                {
+                    "level": 45,
+                    "move": "sludge-bomb"
                 }
             ],
             "name": "bellsprout",
@@ -27142,8 +27166,8 @@
             "evolutions": [
                 {
                     "into": "victreebel",
-                    "item": "leaf-stone",
-                    "method": "item"
+                    "level": 31,
+                    "method": "level"
                 }
             ],
             "gender": "f50",
@@ -27151,23 +27175,47 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "vine-whip"
+                },
+                {
+                    "level": 1,
                     "move": "acid"
                 },
                 {
-                    "level": 26,
-                    "move": "giga-drain"
+                    "level": 11,
+                    "move": "wrap"
+                },
+                {
+                    "level": 15,
+                    "move": "sleep-powder"
+                },
+                {
+                    "level": 17,
+                    "move": "poisonpowder"
+                },
+                {
+                    "level": 19,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 24,
+                    "move": "acid"
                 },
                 {
                     "level": 33,
-                    "move": "body-slam"
+                    "move": "giga-drain"
                 },
                 {
-                    "level": 36,
+                    "level": 42,
+                    "move": "razor-leaf"
+                },
+                {
+                    "level": 54,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 44,
-                    "move": "lovely-kiss"
+                    "level": 66,
+                    "move": "solarbeam"
                 }
             ],
             "name": "weepinbell",
@@ -27213,31 +27261,51 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "lovely-kiss"
+                    "move": "vine-whip"
                 },
                 {
                     "level": 1,
+                    "move": "acid"
+                },
+                {
+                    "level": 11,
+                    "move": "wrap"
+                },
+                {
+                    "level": 15,
+                    "move": "sleep-powder"
+                },
+                {
+                    "level": 17,
+                    "move": "poisonpowder"
+                },
+                {
+                    "level": 19,
                     "move": "stun-spore"
                 },
                 {
-                    "level": 1,
+                    "level": 24,
+                    "move": "acid"
+                },
+                {
+                    "level": 33,
                     "move": "giga-drain"
                 },
                 {
                     "level": 42,
-                    "move": "sludge-bomb"
+                    "move": "razor-leaf"
                 },
                 {
-                    "level": 47,
-                    "move": "petal-dance"
+                    "level": 50,
+                    "move": "leech-life"
                 },
                 {
                     "level": 54,
-                    "move": "synthesis"
+                    "move": "sludge-bomb"
                 },
                 {
-                    "level": 63,
-                    "move": "lovely-kiss"
+                    "level": 66,
+                    "move": "solarbeam"
                 }
             ],
             "name": "victreebel",
@@ -31901,36 +31969,40 @@
                     "move": "vicegrip"
                 },
                 {
-                    "level": 13,
+                    "level": 7,
+                    "move": "focus-energy"
+                },
+		{
+		    "level": 13,
+		    "move": "scary-face"
+		},
+                {
+                    "level": 19,
+                    "move": "seismic-toss"
+                },
+                {
+                    "level": 25,
+                    "move": "vital-throw"
+                },
+                {
+                    "level": 27,
                     "move": "fury-cutter"
                 },
                 {
-                    "level": 24,
-                    "move": "body-slam"
+                    "level": 31,
+                    "move": "guillotine"
                 },
                 {
-                    "level": 29,
+                    "level": 37,
                     "move": "submission"
                 },
                 {
-                    "level": 34,
-                    "move": "rock-slide"
-                },
-                {
                     "level": 40,
+                    "move": "wing-attack"
+                },
+                {
+                    "level": 46,
                     "move": "megahorn"
-                },
-                {
-                    "level": 45,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 50,
-                    "move": "cross-chop"
-                },
-                {
-                    "level": 60,
-                    "move": "guillotine"
                 }
             ],
             "name": "pinsir",
@@ -37128,19 +37200,23 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "mega-drain"
+                    "move": "absorb"
                 },
                 {
                     "level": 4,
-                    "move": "poisonpowder"
+                    "move": "growth"
                 },
                 {
-                    "level": 9,
-                    "move": "hidden-power"
+                    "level": 10,
+                    "move": "mega-drain"
                 },
                 {
-                    "level": 13,
-                    "move": "razor-leaf"
+                    "level": 31,
+                    "move": "synthesis"
+                },
+                {
+                    "level": 46,
+                    "move": "giga-drain"
                 }
             ],
             "name": "sunkern",
@@ -37184,45 +37260,29 @@
             "items": [],
             "learnset": [
                 {
-                    "level": 16,
-                    "move": "synthesis"
+                    "level": 1,
+                    "move": "absorb"
                 },
                 {
-                    "level": 19,
-                    "move": "return"
+                    "level": 4,
+                    "move": "growth"
                 },
                 {
-                    "level": 23,
+                    "level": 10,
+                    "move": "razor-leaf"
+                },
+                {
+                    "level": 24,
                     "move": "giga-drain"
-                },
-                {
-                    "level": 28,
-                    "move": "leech-seed"
                 },
                 {
                     "level": 31,
                     "move": "petal-dance"
                 },
-                {
-                    "level": 38,
-                    "move": "growth"
-                },
-                {
-                    "level": 42,
-                    "move": "sacred-fire"
-                },
-                {
-                    "level": 46,
-                    "move": "sunny-day"
-                },
-                {
-                    "level": 50,
-                    "move": "spore"
-                },
-                {
-                    "level": 53,
-                    "move": "leech-seed"
-                }
+		{
+		    "level": 46,
+		    "move": "solarbeam"
+		}
             ],
             "name": "sunflora",
             "pokedex": 192,
@@ -41006,40 +41066,48 @@
             "items": [],
             "learnset": [
                 {
-                    "level": 1,
-                    "move": "karate-chop"
-                },
-                {
-                    "level": 25,
-                    "move": "double-kick"
-                },
-                {
-                    "level": 31,
-                    "move": "detect"
-                },
-                {
-                    "level": 37,
-                    "move": "submission"
-                },
-                {
-                    "level": 45,
+                    "level": 20,
                     "move": "rapid-spin"
                 },
                 {
-                    "level": 53,
-                    "move": "rock-slide"
+                    "level": 23,
+                    "move": "focus-energy"
                 },
                 {
-                    "level": 58,
-                    "move": "earthquake"
+                    "level": 25,
+                    "move": "pursuit"
                 },
                 {
-                    "level": 66,
-                    "move": "counter"
+                    "level": 27,
+                    "move": "quick-attack"
                 },
                 {
-                    "level": 74,
-                    "move": "hi-jump-kick"
+                    "level": 30,
+                    "move": "rolling-kick"
+                },
+                {
+                    "level": 32,
+                    "move": "mach-punch"
+                },
+                {
+                    "level": 36,
+                    "move": "triple-kick"
+                },
+                {
+                    "level": 37,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 40,
+                    "move": "detect"
+                },
+	                {
+                    "level": 42,
+                    "move": "submission"
+                },
+                {
+                    "level": 49,
+                    "move": "cross-chop"
                 }
             ],
             "name": "hitmontop",
