@@ -4026,7 +4026,7 @@
             ]
         },
         {
-            "area": "slowpoke-well-b1f",
+            "area": "slowpoke-well",
             "pools": [
                 {
                     "pool": {
@@ -16739,9 +16739,7 @@
                 }
             ],
             "locations": [
-                "union-cave-1f",
-                "union-cave-b1f",
-                "union-cave-b2f"
+                "union-cave"
             ],
             "name": "union-cave",
             "positions": [
@@ -16817,8 +16815,7 @@
                 }
             ],
             "locations": [
-                "slowpoke-well-b1f",
-                "slowpoke-well-b2f"
+                "slowpoke-well"
             ],
             "name": "slowpoke-well",
             "positions": [
@@ -16883,7 +16880,7 @@
             "id": 16,
             "items": [
                 {
-                    "amount": "renewable",
+                    "amount": "1",
                     "info": "Buyable in mart",
                     "item": "water-stone"
                 },
@@ -21495,7 +21492,7 @@
             ],
             "index": 200,
             "name": "outrage",
-            "power": 90,
+            "power": 120,
             "pp": 15,
             "type": "dragon"
         },
@@ -21506,7 +21503,7 @@
             ],
             "index": 232,
             "name": "metal-claw",
-            "power": 100,
+            "power": 80,
             "pp": 10,
             "type": "steel"
         },
@@ -43179,7 +43176,7 @@
         {
           "name": "houndour",
           "level": 16,
-          "item": "black-glasses",
+          "item": "blackglasses",
           "moves": [
             "bite",
             "flame-wheel",
@@ -44080,7 +44077,7 @@
         {
           "name": "houndour",
           "level": 23,
-          "item": "black-glasses",
+          "item": "blackglasses",
           "moves": [
             "crunch",
             "mean-look",
@@ -44163,7 +44160,7 @@
         {
           "name": "houndour",
           "level": 24,
-          "item": "black-glasses",
+          "item": "blackglasses",
           "moves": [
             "crunch",
             "mean-look",
@@ -44780,7 +44777,7 @@
         {
           "name": "pupitar",
           "level": 30,
-          "item": "black-glasses",
+          "item": "blackglasses",
           "moves": [
             "crunch",
             "scary-face",
@@ -44816,7 +44813,7 @@
         {
           "name": "heracross",
           "level": 29,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "vital-throw",
 	    "megahorn",
@@ -44882,7 +44879,7 @@
         {
           "name": "girafarig",
           "level": 33,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "endure",
             "reversal",
@@ -44964,7 +44961,7 @@
         {
           "name": "machoke",
           "level": 35,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "vital-throw",
             "seismic-toss",
@@ -45563,7 +45560,7 @@
       {
         "name": "hitmonlee",
         "level": 34,
-        "item": "black-belt",
+        "item": "blackbelt",
         "moves": [
           "jump-kick",
           "earthquake",
@@ -45674,7 +45671,7 @@
       {
         "name": "houndoom",
         "level": 35,
-        "item": "black-glasses",
+        "item": "blackglasses",
         "moves": [
           "substitute",
           "crunch",
@@ -45768,7 +45765,7 @@
       {
         "name": "hitmonlee",
         "level": 34,
-        "item": "black-belt",
+        "item": "blackbelt",
         "moves": [
           "jump-kick",
           "low-kick",
@@ -45829,7 +45826,7 @@
        {
         "name": "houndoom",
         "level": 35,
-        "item": "black-glasses",
+        "item": "blackglasses",
         "moves": [
           "substitute",
           "crunch",
@@ -45851,7 +45848,7 @@
       {
         "name": "hitmonchan",
         "level": 34,
-        "item": "black-belt",
+        "item": "blackbelt",
         "moves": [
           "submission",
           "mach-punch",
@@ -46358,7 +46355,7 @@
       {
         "name": "heracross",
         "level": 36,
-        "item": "black-belt",
+        "item": "blackbelt",
         "moves": [
           "vital-throw",
           "steel-wing",
@@ -46493,7 +46490,7 @@
       {
         "name": "murkrow",
         "level": 35,
-        "item": "black-glasses",
+        "item": "blackglasses",
         "moves": [
           "crunch",
           "drill-peck",
@@ -46618,7 +46615,7 @@
       {
         "name": "poliwrath",
         "level": 37,
-        "item": "black-belt",
+        "item": "blackbelt",
         "moves": [
           "cross-chop",
           "hypnosis",
@@ -47441,7 +47438,7 @@
         {
           "name": "hitmonlee",
           "level": 41,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "hi-jump-kick",
             "low-kick",
@@ -47524,7 +47521,7 @@
         {
           "name": "hitmonchan",
           "level": 41,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "dynamicpunch",
             "mach-punch",
@@ -47542,7 +47539,7 @@
         {
           "name": "hitmontop",
           "level": 42,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "endure",
             "hi-jump-kick",
