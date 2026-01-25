@@ -23018,21 +23018,49 @@
             "gender": "f50",
             "items": [],
             "learnset": [
-                {
+   {
                     "level": 1,
-                    "move": "quick-attack"
-                },
-                {
-                    "level": 7,
                     "move": "peck"
                 },
                 {
-                    "level": 12,
-                    "move": "mud-slap"
+                    "level": 1,
+                    "move": "growl"
                 },
                 {
-                    "level": 15,
-                    "move": "swift"
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 13,
+                    "move": "fury-attack"
+                },
+                {
+                    "level": 16,
+                    "move": "wing-attack"
+                },
+                {
+                    "level": 24,
+                    "move": "headbutt"
+                },
+                {
+                    "level": 27,
+                    "move": "drill-peck"
+                },
+                {
+                    "level": 31,
+                    "move": "mirror-move"
+                },
+                {
+                    "level": 41,
+                    "move": "steel-wing"
+                },
+                {
+                    "level": 43,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 52,
+                    "move": "sky-attack"
                 }
             ],
             "name": "spearow",
@@ -23086,35 +23114,43 @@
                     "move": "peck"
                 },
                 {
-                    "level": 24,
+                    "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 13,
+                    "move": "fury-attack"
+                },
+                {
+                    "level": 16,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 29,
-                    "move": "tri-attack"
+                    "level": 24,
+                    "move": "headbutt"
                 },
                 {
-                    "level": 34,
-                    "move": "steel-wing"
-                },
-                {
-                    "level": 37,
+                    "level": 27,
                     "move": "drill-peck"
                 },
                 {
-                    "level": 43,
+                    "level": 31,
                     "move": "mirror-move"
                 },
                 {
-                    "level": 48,
-                    "move": "agility"
+                    "level": 41,
+                    "move": "steel-wing"
                 },
                 {
-                    "level": 53,
+                    "level": 45,
                     "move": "double-edge"
                 },
                 {
-                    "level": 59,
+                    "level": 55,
                     "move": "sky-attack"
                 }
             ],
@@ -25632,7 +25668,7 @@
             "evolutions": [
                 {
                     "into": "persian",
-                    "level": 25,
+                    "level": 20,
                     "method": "level"
                 }
             ],
@@ -25641,55 +25677,39 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "pay-day"
+                    "move": "scratch"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 11,
                     "move": "bite"
                 },
                 {
-                    "level": 10,
+                    "level": 16,
+                    "move": "pay-day"
+                },
+                {
+                    "level": 21,
                     "move": "slash"
                 },
                 {
-                    "level": 13,
-                    "move": "bubblebeam"
-                },
-                {
-                    "level": 16,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 19,
-                    "move": "icy-wind"
-                },
-                {
-                    "level": 22,
-                    "move": "thunderbolt"
-                },
-                {
-                    "level": 25,
-                    "move": "return"
-                },
-                {
                     "level": 28,
+                    "move": "hypnosis"
+                },
+                {
+                    "level": 35,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 31,
-                    "move": "metal-claw"
-                },
-                {
-                    "level": 37,
-                    "move": "double-edge"
-                },
-                {
                     "level": 41,
-                    "move": "screech"
+                    "move": "fury-swipes"
                 },
                 {
-                    "level": 44,
-                    "move": "hyper-beam"
+                    "level": 46,
+                    "move": "psychic"
                 }
             ],
             "name": "meowth",
@@ -25741,29 +25761,41 @@
             "gender": "f50",
             "items": [],
             "learnset": [
+               {
+                    "level": 1,
+                    "move": "scratch"
+                },
                 {
                     "level": 1,
-                    "move": "return"
+                    "move": "growl"
+                },
+                {
+                    "level": 11,
+                    "move": "bite"
+                },
+                {
+                    "level": 16,
+                    "move": "pay-day"
+                },
+                {
+                    "level": 21,
+                    "move": "slash"
                 },
                 {
                     "level": 28,
+                    "move": "hypnosis"
+                },
+                {
+                    "level": 35,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 31,
-                    "move": "metal-claw"
-                },
-                {
-                    "level": 37,
-                    "move": "double-edge"
-                },
-                {
                     "level": 41,
-                    "move": "screech"
+                    "move": "fury-swipes"
                 },
                 {
-                    "level": 44,
-                    "move": "hyper-beam"
+                    "level": 46,
+                    "move": "psychic"
                 }
             ],
             "name": "persian",
@@ -27749,7 +27781,7 @@
             "evolutions": [
                 {
                     "into": "rapidash",
-                    "level": 31,
+                    "level": 27,
                     "method": "level"
                 }
             ],
@@ -27758,27 +27790,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "ember"
+                    "move": "tackle"
+                },
+                {
+                    "level": 8,
+                    "move": "tail-whip"
                 },
                 {
                     "level": 9,
-                    "move": "stomp"
-                },
-                {
-                    "level": 17,
-                    "move": "double-kick"
-                },
-                {
-                    "level": 24,
                     "move": "flame-wheel"
                 },
                 {
+                    "level": 13,
+                    "move": "stomp"
+                },
+                {
+                    "level": 20,
+                    "move": "fire-spin"
+                },
+                {
                     "level": 30,
+                    "move": "take-down"
+                },
+                {
+                    "level": 32,
+                    "move": "flamethrower"
+                },
+                {
+                    "level": 35,
                     "move": "jump-kick"
                 },
                 {
                     "level": 37,
-                    "move": "flamethrower"
+                    "move": "earthquake"
+                },
+                {
+                    "level": 41,
+                    "move": "fire-blast"
+                },
+                {
+                    "level": 43,
+                    "move": "megahorn"
                 }
             ],
             "name": "ponyta",
@@ -27822,39 +27874,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "ember"
+                    "move": "tackle"
+                },
+                {
+                    "level": 8,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 9,
+                    "move": "flame-wheel"
+                },
+                {
+                    "level": 13,
+                    "move": "stomp"
                 },
                 {
                     "level": 20,
-                    "move": "jump-kick"
+                    "move": "fire-spin"
+                },
+                {
+                    "level": 30,
+                    "move": "take-down"
                 },
                 {
                     "level": 34,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 42,
                     "move": "flamethrower"
                 },
                 {
-                    "level": 46,
-                    "move": "iron-tail"
+                    "level": 37,
+                    "move": "jump-kick"
                 },
                 {
-                    "level": 52,
-                    "move": "megahorn"
+                    "level": 39,
+                    "move": "earthquake"
                 },
                 {
-                    "level": 57,
-                    "move": "hi-jump-kick"
-                },
-                {
-                    "level": 64,
+                    "level": 42,
                     "move": "fire-blast"
                 },
                 {
-                    "level": 70,
-                    "move": "hypnosis"
+                    "level": 45,
+                    "move": "megahorn"
                 }
             ],
             "name": "rapidash",
@@ -31653,8 +31713,8 @@
             "evolutions": [
                 {
                     "into": "scizor",
-                    "level": 55,
-                    "method": "level"
+                    "item": "metal-coat",
+                    "method": "item"
                 }
             ],
             "gender": "f50",
@@ -31662,35 +31722,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "scratch"
-                },
-                {
-                    "level": 8,
-                    "move": "false-swipe"
-                },
-                {
-                    "level": 14,
                     "move": "quick-attack"
                 },
                 {
-                    "level": 24,
-                    "move": "slash"
+                    "level": 1,
+                    "move": "leer"
                 },
                 {
-                    "level": 31,
+                    "level": 6,
+                    "move": "focus-energy"
+                },
+                {
+                    "level": 12,
+                    "move": "pursuit"
+                },
+                {
+                    "level": 18,
+                    "move": "false-swipe"
+                },
+                {
+                    "level": 22,
+                    "move": "fury-cutter"
+                },
+                {
+                    "level": 24,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 37,
-                    "move": "steel-wing"
+                    "level": 36,
+                    "move": "slash"
+                },
+	        {
+                    "level": 52,
+                    "move": "sky-attack"
                 },
                 {
-                    "level": 45,
-                    "move": "razor-wind"
-                },
-                {
-                    "level": 53,
-                    "move": "fury-cutter"
+                    "level": 58,
+                    "move": "double-team"
                 }
             ],
             "name": "scyther",
@@ -36447,35 +36515,27 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "stun-spore"
-                },
-                {
-                    "level": 1,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 1,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 35,
-                    "move": "sleep-powder"
-                },
-                {
-                    "level": 45,
-                    "move": "petal-dance"
-                },
-                {
-                    "level": 60,
-                    "move": "moonlight"
-                },
-                {
-                    "level": 62,
-                    "move": "sleep-powder"
-                },
-                {
-                    "level": 65,
+                    "level": 36,
                     "move": "solarbeam"
+                },
+                {
+                    "level": 40,
+                    "move": "synthesis"
+                },
+                {
+                    "level": 42,
+                    "move": "leech-seed"
+                },
+                {
+                    "level": 48,
+                    "move": "lovely-kiss"
+                },
+                {
+                    "level": 61,
+                    "move": "petal-dance"
                 }
             ],
             "name": "bellossom",
@@ -38972,41 +39032,45 @@
             "gender": "f50",
             "items": [],
             "learnset": [
+               {
+                    "level": 1,
+                    "move": "quick-attack"
+                },
                 {
                     "level": 1,
-                    "move": "slash"
+                    "move": "leer"
                 },
                 {
-                    "level": 45,
-                    "move": "light-screen"
+                    "level": 6,
+                    "move": "focus-energy"
                 },
                 {
-                    "level": 50,
-                    "move": "double-edge"
+                    "level": 12,
+                    "move": "pursuit"
                 },
                 {
-                    "level": 55,
-                    "move": "wing-attack"
-                },
-                {
-                    "level": 60,
+                    "level": 22,
                     "move": "fury-cutter"
                 },
                 {
-                    "level": 65,
-                    "move": "submission"
-                },
-                {
-                    "level": 70,
-                    "move": "steel-wing"
-                },
-                {
-                    "level": 85,
-                    "move": "submission"
-                },
-                {
-                    "level": 90,
+                    "level": 24,
                     "move": "metal-claw"
+                },
+                {
+                    "level": 36,
+                    "move": "slash"
+                },
+                {
+                    "level": 48,
+                    "move": "mach-punch"
+                },
+	        {
+                    "level": 52,
+                    "move": "cross-chop"
+                },
+                {
+                    "level": 58,
+                    "move": "double-team"
                 }
             ],
             "name": "scizor",
