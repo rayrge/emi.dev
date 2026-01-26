@@ -27821,16 +27821,8 @@
                     "move": "jump-kick"
                 },
                 {
-                    "level": 37,
-                    "move": "earthquake"
-                },
-                {
                     "level": 41,
                     "move": "fire-blast"
-                },
-                {
-                    "level": 43,
-                    "move": "megahorn"
                 }
             ],
             "name": "ponyta",
@@ -44753,7 +44745,7 @@
     {
       "area": "Route 33",
       "name": "hiker-anthony",
-      "meta": "guards union cave",
+      "meta": "don't forget to get HM01 before the gauntlet",
       "team": [
         {
           "name": "primeape",
@@ -45653,7 +45645,7 @@
       {
         "name": "espeon",
         "level": 36,
-        "item": "twisted-spoon",
+        "item": "twistedspoon",
         "moves": [
           "psychic",
           "morning-sun",
@@ -46611,7 +46603,7 @@
       {
         "name": "golduck",
         "level": 35,
-        "item": "twisted-spoon",
+        "item": "twistedspoon",
         "moves": [
           "future-sight",
           "mean-look",
@@ -47010,11 +47002,12 @@
     {
       "area": "Route 41",
       "name": "swimmerm-charlie",
+      "meta": "route 41 has rain"
       "team": [
         {
           "name": "girafarig",
           "level": 38,
-          "item": "twisted-spoon",
+          "item": "twistedspoon",
           "moves": [
             "future-sight",
             "double-edge",
@@ -47477,7 +47470,7 @@
         {
           "name": "alakazam",
           "level": 40,
-          "item": "twisted-spoon",
+          "item": "twistedspoon",
           "moves": [
             "psychic",
             "ice-punch",
