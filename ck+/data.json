@@ -27968,23 +27968,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confusion"
-                },
-                {
-                    "level": 8,
                     "move": "water-gun"
                 },
                 {
-                    "level": 14,
-                    "move": "headbutt"
+                    "level": 5,
+                    "move": "confusion"
+                },
+                {
+                    "level": 10,
+                    "move": "disable"
                 },
                 {
                     "level": 23,
+                    "move": "psybeam"
+                },
+                {
+                    "level": 26,
                     "move": "bubblebeam"
                 },
                 {
                     "level": 28,
-                    "move": "psybeam"
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 34,
+                    "move": "aurora-beam"
+                },
+                {
+                    "level": 41,
+                    "move": "psychic"
+                },
+                {
+                    "level": 43,
+                    "move": "future-sight"
+                },
+                {
+                    "level": 55,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "slowpoke",
@@ -28050,31 +28070,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "bubblebeam"
+                    "move": "water-gun"
                 },
                 {
-                    "level": 1,
-                    "move": "psybeam"
+                    "level": 5,
+                    "move": "confusion"
                 },
                 {
-                    "level": 58,
-                    "move": "psychic"
-                },
-                {
-                    "level": 63,
+                    "level": 10,
                     "move": "disable"
                 },
                 {
-                    "level": 68,
-                    "move": "psych-up"
+                    "level": 23,
+                    "move": "psybeam"
                 },
                 {
-                    "level": 73,
-                    "move": "waterfall"
+                    "level": 26,
+                    "move": "bubblebeam"
                 },
                 {
-                    "level": 85,
+                    "level": 28,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 38,
+                    "move": "flamethrower"
+                },
+                {
+                    "level": 38,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 41,
                     "move": "psychic"
+                },
+                {
+                    "level": 43,
+                    "move": "future-sight"
+                },
+                {
+                    "level": 55,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "slowbro",
@@ -29854,40 +29890,36 @@
                     "move": "confusion"
                 },
                 {
-                    "level": 13,
-                    "move": "mega-drain"
-                },
-                {
-                    "level": 17,
-                    "move": "stun-spore"
-                },
-                {
-                    "level": 24,
-                    "move": "psybeam"
-                },
-                {
-                    "level": 30,
-                    "move": "egg-bomb"
-                },
-                {
-                    "level": 36,
-                    "move": "razor-leaf"
-                },
-                {
-                    "level": 46,
+                    "level": 1,
                     "move": "sleep-powder"
                 },
                 {
-                    "level": 57,
-                    "move": "psychic"
+                    "level": 7,
+                    "move": "mega-drain"
                 },
                 {
-                    "level": 67,
+                    "level": 23,
+                    "move": "psybeam"
+                },
+                {
+                    "level": 28,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 36,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 99,
-                    "move": "ancientpower"
+                    "level": 43,
+                    "move": "psychic"
+                },
+                {
+                    "level": 48,
+                    "move": "egg-bomb"
+                },
+                {
+                    "level": 55,
+                    "move": "solarbeam"
                 }
             ],
             "name": "exeggcute",
@@ -29938,27 +29970,39 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "confusion"
+                },
+                {
+                    "level": 1,
+                    "move": "sleep-powder"
+                },
+                {
+                    "level": 7,
+                    "move": "mega-drain"
+                },
+                {
+                    "level": 23,
                     "move": "psybeam"
                 },
                 {
-                    "level": 36,
-                    "move": "egg-bomb"
+                    "level": 28,
+                    "move": "stun-spore"
                 },
                 {
-                    "level": 45,
+                    "level": 36,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 57,
+                    "level": 43,
                     "move": "psychic"
                 },
                 {
-                    "level": 67,
-                    "move": "giga-drain"
+                    "level": 48,
+                    "move": "egg-bomb"
                 },
                 {
-                    "level": 99,
-                    "move": "ancientpower"
+                    "level": 55,
+                    "move": "solarbeam"
                 }
             ],
             "name": "exeggutor",
@@ -35101,30 +35145,46 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "fury-cutter"
+                    "move": "comet-punch"
                 },
                 {
-                    "level": 6,
-                    "move": "mach-punch"
+                    "level": 8,
+                    "move": "supersonic"
                 },
                 {
-                    "level": 11,
+                    "level": 10,
                     "move": "psybeam"
                 },
                 {
-                    "level": 15,
-                    "move": "giga-drain"
-                },
-                {
-                    "level": 19,
-                    "move": "reflect"
-                },
-                {
-                    "level": 21,
+                    "level": 16,
                     "move": "light-screen"
                 },
                 {
+                    "level": 16,
+                    "move": "reflect"
+                },
+                {
+                    "level": 16,
+                    "move": "reflect"
+                },
+                {
+                    "level": 18,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 20,
+                    "move": "giga-drain"
+                },
+                {
                     "level": 23,
+                    "move": "baton-pass"
+                },
+                {
+                    "level": 26,
+                    "move": "encore"
+                },
+                {
+                    "level": 31,
                     "move": "toxic"
                 }
             ],
@@ -35177,31 +35237,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "psybeam"
+                    "move": "comet-punch"
                 },
                 {
-                    "level": 17,
-                    "move": "thunderpunch"
+                    "level": 8,
+                    "move": "supersonic"
                 },
                 {
-                    "level": 21,
-                    "move": "ice-punch"
-                },
-                {
-                    "level": 22,
-                    "move": "psychic"
-                },
-                {
-                    "level": 25,
-                    "move": "reflect"
-                },
-                {
-                    "level": 28,
+                    "level": 16,
                     "move": "light-screen"
                 },
                 {
-                    "level": 45,
+                    "level": 16,
+                    "move": "reflect"
+                },
+                {
+                    "level": 22,
+                    "move": "mach-punch"
+                },
+                {
+                    "level": 24,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 28,
+                    "move": "giga-drain"
+                },
+                {
+                    "level": 36,
                     "move": "encore"
+                },
+                {
+                    "level": 40,
+                    "move": "psybeam"
+                }
+                {
+                    "level": 46,
+                    "move": "mega-punch"
                 }
             ],
             "name": "ledian",
@@ -35797,23 +35869,23 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "present"
+                    "move": "pound"
                 },
                 {
                     "level": 1,
-                    "move": "metronome"
+                    "move": "charm"
                 },
                 {
-                    "level": 1,
-                    "move": "sweet-kiss"
+                    "level": 4,
+                    "move": "encore"
                 },
                 {
                     "level": 8,
-                    "move": "dizzy-punch"
+                    "move": "sing"
                 },
                 {
-                    "level": 25,
-                    "move": "sing"
+                    "level": 13,
+                    "move": "sweet-kiss"
                 }
             ],
             "name": "cleffa",
@@ -37919,27 +37991,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "psychic"
+                    "move": "water-gun"
                 },
                 {
-                    "level": 45,
-                    "move": "waterfall"
+                    "level": 5,
+                    "move": "confusion"
                 },
                 {
-                    "level": 51,
-                    "move": "ice-beam"
+                    "level": 10,
+                    "move": "disable"
                 },
                 {
-                    "level": 55,
-                    "move": "psychic"
+                    "level": 23,
+                    "move": "psybeam"
                 },
                 {
-                    "level": 61,
+                    "level": 26,
+                    "move": "bubblebeam"
+                },
+                {
+                    "level": 28,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 38,
                     "move": "flamethrower"
                 },
                 {
-                    "level": 68,
-                    "move": "earthquake"
+                    "level": 38,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 41,
+                    "move": "psychic"
+                },
+                {
+                    "level": 43,
+                    "move": "future-sight"
+                },
+                {
+                    "level": 55,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "slowking",
@@ -47002,7 +47094,7 @@
     {
       "area": "Route 41",
       "name": "swimmerm-charlie",
-      "meta": "route 41 has rain"
+      "meta": "route 41 has rain",
       "team": [
         {
           "name": "girafarig",
