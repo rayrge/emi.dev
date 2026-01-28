@@ -23928,7 +23928,7 @@
                 },
                 {
                     "level": 49,
-                    "move": "megahorn"
+                    "move": "moonlight"
                 },
                 {
                     "level": 55,
@@ -24101,6 +24101,10 @@
                     "move": "double-kick"
                 },
                 {
+                    "level": 16,
+                    "move": "horn-attack"
+                },
+                {
                     "level": 19,
                     "move": "dig"
                 },
@@ -24113,31 +24117,15 @@
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 36,
-                    "move": "drill-peck"
+                    "level": 32,
+                    "move": "rapid-spin"
                 },
                 {
                     "level": 40,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 45,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 45,
-                    "move": "flamethrower"
-                },
-                {
-                    "level": 45,
-                    "move": "thunderbolt"
-                },
-                {
-                    "level": 49,
-                    "move": "megahorn"
-                },
-                {
-                    "level": 55,
+                    "level": 46,
                     "move": "earthquake"
                 }
             ],
@@ -24190,30 +24178,50 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "sludge"
+                    "move": "scratch"
                 },
                 {
-                    "level": 36,
-                    "move": "body-slam"
+                    "level": 12,
+                    "move": "double-kick"
                 },
                 {
-                    "level": 50,
+                    "level": 19,
+                    "move": "dig"
+                },
+                {
+                    "level": 24,
+                    "move": "slash"
+                },
+                {
+                    "level": 27,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 54,
-                    "move": "earthquake"
+                    "level": 36,
+                    "move": "drill-peck"
                 },
                 {
-                    "level": 59,
-                    "move": "thrash"
+                    "level": 40,
+                    "move": "rock-slide"
                 },
                 {
-                    "level": 75,
-                    "move": "earthquake"
+                    "level": 45,
+                    "move": "ice-beam"
                 },
                 {
-                    "level": 95,
+                    "level": 45,
+                    "move": "flamethrower"
+                },
+                {
+                    "level": 45,
+                    "move": "thunderbolt"
+                },
+                {
+                    "level": 49,
+                    "move": "megahorn"
+                },
+                {
+                    "level": 55,
                     "move": "earthquake"
                 }
             ],
