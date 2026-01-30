@@ -26155,23 +26155,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "low-kick"
+                    "move": "scratch"
                 },
                 {
-                    "level": 5,
-                    "move": "rock-throw"
+                    "level": 1,
+                    "move": "leer"
                 },
                 {
                     "level": 9,
-                    "move": "seismic-toss"
+                    "move": "low-kick"
                 },
                 {
                     "level": 15,
                     "move": "karate-chop"
                 },
                 {
-                    "level": 23,
-                    "move": "body-slam"
+                    "level": 21,
+                    "move": "fury-swipes"
+                },
+                {
+                    "level": 27,
+                    "move": "focus-energy"
+                },
+                {
+                    "level": 33,
+                    "move": "submission"
+                },
+                {
+                    "level": 35,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 39,
+                    "move": "cross-chop"
+                },
+                {
+                    "level": 45,
+                    "move": "screech"
+                },
+                {
+                    "level": 51,
+                    "move": "thrash"
                 }
             ],
             "name": "mankey",
@@ -26227,10 +26251,34 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "scratch"
+                },
+                {
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 9,
+                    "move": "low-kick"
+                },
+                {
+                    "level": 15,
                     "move": "karate-chop"
                 },
                 {
-                    "level": 31,
+                    "level": 21,
+                    "move": "fury-swipes"
+                },
+                {
+                    "level": 27,
+                    "move": "focus-energy"
+                },
+                {
+                    "level": 28,
+                    "move": "rage"
+                },
+                {
+                    "level": 33,
                     "move": "submission"
                 },
                 {
@@ -26238,24 +26286,16 @@
                     "move": "rock-slide"
                 },
                 {
-                    "level": 42,
-                    "move": "thrash"
-                },
-                {
-                    "level": 46,
-                    "move": "foresight"
-                },
-                {
-                    "level": 50,
-                    "move": "encore"
-                },
-                {
-                    "level": 55,
+                    "level": 39,
                     "move": "cross-chop"
                 },
                 {
-                    "level": 98,
-                    "move": "reversal"
+                    "level": 45,
+                    "move": "screech"
+                },
+                {
+                    "level": 51,
+                    "move": "thrash"
                 }
             ],
             "name": "primeape",
@@ -32849,50 +32889,54 @@
             "base_experience": 196,
             "gender": "f12.5",
             "items": [],
-            "learnset": [
-                {
+            "learnset": [               
+		{
                     "level": 1,
                     "move": "quick-attack"
                 },
                 {
-                    "level": 15,
-                    "move": "water-gun"
+                    "level": 1,
+                    "move": "growl"
                 },
                 {
-                    "level": 23,
+                    "level": 5,
+                    "move": "sand-attack"
+                },
+                {
+                    "level": 15,
+                    "move": "bite"
+                },
+                {
+                    "level": 22,
+                    "move": "swift"
+                },
+                {
+                    "level": 29,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 28,
-                    "move": "aurora-beam"
-                },
-                {
-                    "level": 34,
-                    "move": "waterfall"
-                },
-                {
-                    "level": 43,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 46,
+                    "level": 33,
                     "move": "haze"
                 },
                 {
-                    "level": 52,
-                    "move": "attract"
-                },
-                {
-                    "level": 64,
+                    "level": 37,
                     "move": "recover"
                 },
                 {
-                    "level": 73,
-                    "move": "growth"
+                    "level": 41,
+                    "move": "icy-wind"
                 },
                 {
-                    "level": 100,
-                    "move": "baton-pass"
+                    "level": 45,
+                    "move": "whirlpool"
+                },
+                {
+                    "level": 49,
+                    "move": "acid-armor"
+                },
+                {
+                    "level": 52,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "vaporeon",
@@ -33291,27 +33335,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "ice-beam"
+                    "move": "scratch"
                 },
                 {
-                    "level": 42,
-                    "move": "waterfall"
+                    "level": 1,
+                    "move": "harden"
                 },
                 {
-                    "level": 49,
-                    "move": "ancientpower"
+                    "level": 9,
+                    "move": "mega-drain"
+                },
+                {
+                    "level": 9,
+                    "move": "bubblebeam"
+                },
+                {
+                    "level": 14,
+                    "move": "rock-throw"
+                },
+                {
+                    "level": 22,
+                    "move": "dig"
+                },
+                {
+                    "level": 28,
+                    "move": "slash"
+                },
+                {
+                    "level": 37,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 46,
+                    "move": "fury-cutter"
                 },
                 {
                     "level": 55,
-                    "move": "hydro-pump"
+                    "move": "ancientpower"
                 },
                 {
-                    "level": 70,
-                    "move": "recover"
-                },
-                {
-                    "level": 85,
-                    "move": "spikes"
+                    "level": 62,
+                    "move": "crabhammer"
                 }
             ],
             "name": "omastar",
@@ -33369,35 +33433,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "rock-throw"
+                    "move": "scratch"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
+                    "move": "harden"
+                },
+                {
+                    "level": 9,
+                    "move": "mega-drain"
+                },
+                {
+                    "level": 9,
                     "move": "bubblebeam"
                 },
                 {
                     "level": 14,
+                    "move": "rock-throw"
+                },
+                {
+                    "level": 22,
+                    "move": "dig"
+                },
+                {
+                    "level": 28,
                     "move": "slash"
                 },
                 {
-                    "level": 19,
-                    "move": "submission"
-                },
-                {
-                    "level": 24,
+                    "level": 37,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 33,
-                    "move": "hydro-pump"
+                    "level": 46,
+                    "move": "fury-cutter"
                 },
                 {
-                    "level": 39,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 66,
+                    "level": 55,
                     "move": "ancientpower"
+                },
+                {
+                    "level": 62,
+                    "move": "crabhammer"
                 }
             ],
             "name": "kabuto",
