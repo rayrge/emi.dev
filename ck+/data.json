@@ -47819,8 +47819,79 @@
             "rock-slide"
           ]
         }
+        ]
+    },
+    {
+      "area": "Route 41",
+      "name": "swimmerf-susie-4",
+      "team": [
+        {
+          "name": "vileplume",
+          "level": 43,
+          "item": "gold-berry",
+          "moves": ["leech-seed", "wrap", "giga-drain", "sludge-bomb"]
+        },
+        {
+          "name": "yanma",
+          "level": 43,
+          "item": "kings-rock",
+          "moves": ["fury-cutter", "drill-peck", "steel-wing", "shadow-ball"]
+        },
+        {
+          "name": "slowking",
+          "level": 44,
+          "item": "leftovers",
+          "moves": ["whirlpool", "surf", "psychic", "thunder"]
+        }
+      ]
+    },
+
+    {
+      "area": "Rocket Hideout / Whirl Islands",
+      "name": "gruntm-20",
+      "team": [
+        { "name": "magcargo", "level": 43, "item": "focus-band", "moves": ["explosion", "fire-spin", "flame-wheel", "flamethrower"] },
+        { "name": "qwilfish", "level": 44, "item": "kings-rock", "moves": ["waterfall", "spike-cannon", "pin-missile", "selfdestruct"] },
+        { "name": "ursaring", "level": 43, "item": "lum-berry", "moves": ["double-edge", "earthquake", "fire-punch", "rock-slide"] }
+      ]
+    },
+    {
+      "area": "Rocket Hideout / Whirl Islands",
+      "name": "gruntm-21",
+      "b2b": true,
+      "team": [
+        { "name": "farfetchd", "level": 44, "item": "stick", "moves": ["cross-chop", "slash", "drill-peck", "razor-leaf"] },
+        { "name": "weezing", "level": 42, "item": "leftovers", "moves": ["explosion", "sludge-bomb", "shadow-ball", "fire-blast"] },
+        { "name": "poliwrath", "level": 43, "item": "sitrus-berry", "moves": ["belly-drum", "mach-punch", "waterfall", "ice-beam"] }
+      ]
+    },
+
+    {
+      "area": "Lugia Chamber",
+      "name": "lugia",
+      "team": [
+        {
+          "name": "lugia",
+          "level": 50,
+          "item": "no-item",
+          "moves": ["hydro-pump", "future-sight", "aeroblast", "whirlpool"]
+        }
+      ]
+    },
+
+    {
+      "area": "Ecruteak Gym",
+      "name": "leader-morty",
+      "team": [
+        { "name": "crobat", "level": 49, "item": "spell-tag", "moves": ["sky-attack", "sludge", "shadow-ball", "super-fang"] },
+        { "name": "misdreavus", "level": 49, "item": "leftovers", "moves": ["pain-split", "protect", "mean-look", "perish-song"] },
+        { "name": "persian", "level": 49, "item": "brightpowder", "moves": ["confuse-ray", "hypnosis", "double-edge", "psychic"] },
+        { "name": "hypno", "level": 49, "item": "sitrus-berry", "moves": ["hypnosis", "future-sight", "shadow-ball", "submission"] },
+        { "name": "marowak", "level": 49, "item": "thick-club", "moves": ["bonemerang", "shadow-ball", "rock-slide", "frustration"] },
+        { "name": "gengar", "level": 49, "item": "lum-berry", "moves": ["destiny-bond", "thunderbolt", "fire-punch", "ice-punch"] }
       ]
     }
+
 
     ],
     "type_matchups": [
