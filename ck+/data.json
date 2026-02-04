@@ -48522,29 +48522,14 @@
       "area": "Route 41",
       "name": "swimmerf-susie-4",
       "team": [
-        {
-          "name": "vileplume",
-          "level": 43,
-          "item": "gold-berry",
-          "moves": ["leech-seed", "wrap", "giga-drain", "sludge-bomb"]
-        },
-        {
-          "name": "yanma",
-          "level": 43,
-          "item": "kings-rock",
-          "moves": ["fury-cutter", "drill-peck", "steel-wing", "shadow-ball"]
-        },
-        {
-          "name": "slowking",
-          "level": 44,
-          "item": "leftovers",
-          "moves": ["whirlpool", "surf", "psychic", "thunder"]
-        }
+        { "name": "vileplume", "level": 43, "item": "gold-berry", "moves": ["leech-seed", "wrap", "giga-drain", "sludge-bomb"] },
+        { "name": "yanma", "level": 43, "item": "kings-rock", "moves": ["fury-cutter", "drill-peck", "steel-wing", "shadow-ball"] },
+        { "name": "slowking", "level": 44, "item": "leftovers", "moves": ["whirlpool", "surf", "psychic", "thunder"] }
       ]
     },
 
     {
-      "area": "Rocket Hideout / Whirl Islands",
+      "area": "Rocket Hideout B1F",
       "name": "gruntm-20",
       "team": [
         { "name": "magcargo", "level": 43, "item": "focus-band", "moves": ["explosion", "fire-spin", "flame-wheel", "flamethrower"] },
@@ -48553,7 +48538,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout / Whirl Islands",
+      "area": "Rocket Hideout B1F",
       "name": "gruntm-21",
       "b2b": true,
       "team": [
@@ -48564,15 +48549,133 @@
     },
 
     {
+      "area": "Rocket Hideout B1F",
+      "name": "gruntm-16",
+      "team": [
+        { "name": "smeargle", "level": 43, "item": "focus-band", "moves": ["baton-pass", "whirlwind", "toxic", "thunder-wave"] },
+        { "name": "skarmory", "level": 42, "item": "chesto-berry", "moves": ["whirlwind", "steel-wing", "rest", "sleep-talk"] },
+        { "name": "arbok", "level": 42, "item": "leftovers", "moves": ["roar", "super-fang", "sludge", "bite"] },
+        { "name": "hypno", "level": 42, "item": "quick-claw", "moves": ["future-sight", "psychic", "disable", "destiny-bond"] }
+      ]
+    },
+
+    {
+      "area": "Rocket Hideout B1F",
+      "name": "scientist-jed",
+      "team": [
+        { "name": "clefable", "level": 43, "item": "berserk-gene", "moves": ["double-edge", "shadow-ball", "wing-attack", "comet-punch"] },
+        { "name": "wobbuffet", "level": 51, "item": "lum-berry", "moves": ["destiny-bond", "encore", "counter", "mirror-coat"] },
+        { "name": "magneton", "level": 42, "item": "sitrus-berry", "moves": ["explosion", "thunderbolt", "thunder-wave", "psywave"] },
+        { "name": "omastar", "level": 43, "item": "focus-band", "moves": ["hydro-pump", "ice-beam", "ancientpower", "whirlpool"] },
+        { "name": "mr-mime", "level": 44, "item": "twisted-spoon", "moves": ["future-sight", "mimic", "thunderpunch", "ice-punch"] }
+      ]
+    },
+
+    {
+      "area": "Rocket Hideout B2F",
+      "name": "gruntm-19",
+      "team": [
+        { "name": "quagsire", "level": 45, "item": "lum-berry", "moves": ["earthquake", "spikes", "waterfall", "sludge-bomb"] },
+        { "name": "forretress", "level": 45, "item": "sitrus-berry", "moves": ["harden", "toxic", "pin-missile", "earthquake"] },
+        { "name": "gengar", "level": 44, "item": "brightpowder", "moves": ["shadow-ball", "sludge-bomb", "faint-attack", "explosion"] },
+        { "name": "primeape", "level": 44, "item": "kings-rock", "moves": ["cross-chop", "comet-punch", "mud-slap", "swagger"] }
+      ]
+    },
+
+    {
+      "area": "Rocket Hideout B2F",
+      "name": "gruntm-17",
+      "team": [
+        { "name": "seaking", "level": 44, "item": "kings-rock", "moves": ["drill-peck", "megahorn", "waterfall", "ice-beam"] },
+        { "name": "rapidash", "level": 45, "item": "focus-band", "moves": ["flame-wheel", "megahorn", "jump-kick", "reversal"] },
+        { "name": "pinsir", "level": 45, "item": "quick-claw", "moves": ["swords-dance", "megahorn", "vital-throw", "counter"] },
+        { "name": "steelix", "level": 44, "item": "leftovers", "moves": ["explosion", "megahorn", "earthquake", "iron-tail"] }
+      ]
+    },
+
+    {
+      "area": "Rocket Hideout B3F",
+      "name": "scientist-mitch",
+      "team": [
+        { "name": "muk", "level": 45, "item": "brightpowder", "moves": ["sludge", "shadow-ball", "giga-drain", "explosion"] },
+        { "name": "parasect", "level": 45, "item": "quick-claw", "moves": ["spore", "double-edge", "fury-cutter", "giga-drain"] },
+        { "name": "electrode", "level": 46, "item": "berserk-gene", "moves": ["explosion", "thunderbolt", "hyper-beam", "rollout"] }
+      ]
+    },
+
+    {
+      "area": "Rocket Hideout B3F",
+      "name": "gruntm-28",
+      "team": [
+        { "name": "golem", "level": 45, "item": "focus-band", "moves": ["explosion"] },
+        { "name": "beedrill", "level": 44, "item": "brightpowder", "moves": ["focus-energy", "pin-missile", "sludge", "giga-drain"] },
+        { "name": "flareon", "level": 44, "item": "lum-berry", "moves": ["double-edge", "submission", "shadow-ball", "flame-wheel"] },
+        { "name": "gyarados", "level": 44, "item": "leftovers", "moves": ["double-edge", "earthquake", "hydro-pump", "fire-blast"] }
+      ]
+    },
+
+    {
+      "area": "Rocket Hideout B3F",
+      "name": "gruntf-5",
+      "team": [
+        { "name": "aipom", "level": 44, "item": "kings-rock", "moves": ["swagger", "fury-swipes", "triple-kick", "comet-punch"] },
+        { "name": "octillery", "level": 44, "item": "quick-claw", "moves": ["octazooka", "ice-beam", "sludge-bomb", "flamethrower"] },
+        { "name": "dugtrio", "level": 45, "item": "scope-lens", "moves": ["earthquake", "rock-slide", "tri-attack", "substitute"] },
+        { "name": "sudowoodo", "level": 44, "item": "lum-berry", "moves": ["explosion", "earthquake", "rock-slide", "low-kick"] }
+      ]
+    },
+    {
+    "area": "Rocket Hideout B2F",
+    "name": "gruntm-18",
+    "team": [
+        { "name": "cloyster", "level": 43, "item": "lum-berry", "moves": ["explosion", "hydro-pump", "blizzard", "pin-missile"] },
+        { "name": "scizor", "level": 43, "item": "scope-lens", "moves": ["metal-claw", "wing-attack", "cross-chop", "mach-punch"] },
+        { "name": "jumpluff", "level": 45, "item": "leftovers", "moves": ["sleep-powder", "leech-seed", "explosion", "giga-drain"] },
+        { "name": "sandslash", "level": 44, "item": "sitrus-berry", "moves": ["earthquake", "dig", "rock-slide", "fury-cutter"] },
+        { "name": "venomoth", "level": 44, "item": "brightpowder", "moves": ["toxic", "moonlight", "psychic", "leech-life"] }
+    ]
+    },
+    {
+    "area": "Rocket Hideout B3F",
+    "name": "scientist-ross",
+    "team": [
+        { "name": "tangela", "level": 45, "item": "quick-claw", "moves": ["ancientpower", "stun-spore", "wrap", "giga-drain"] },
+        { "name": "porygon2", "level": 44, "item": "leftovers", "moves": ["conversion2", "recover", "tri-attack", "ice-beam"] },
+        { "name": "kabutops", "level": 44, "item": "berserk-gene", "moves": ["ancientpower", "fury-cutter", "slash", "cross-chop"] },
+        { "name": "ditto", "level": 52, "item": "metal-powder", "moves": ["transform"] },
+        { "name": "starmie", "level": 45, "item": "lum-berry", "moves": ["future-sight", "protect", "hydro-pump", "ice-beam"] }
+    ]
+    },
+    {
+    "area": "Rocket Hideout / Whirl Islands",
+    "name": "executivem-4",
+    "team": [
+        { "name": "exeggutor", "level": 45, "item": "focus-band", "moves": ["explosion", "egg-bomb", "giga-drain", "psychic"] },
+        { "name": "gligar", "level": 46, "item": "leftovers", "moves": ["protect", "earthquake", "wing-attack", "sludge-bomb"] },
+        { "name": "houndoom", "level": 46, "item": "sitrus-berry", "moves": ["substitute", "pursuit", "crunch", "fire-blast"] },
+        { "name": "nidoking", "level": 45, "item": "kings-rock", "moves": ["earthquake", "sludge", "surf", "ice-beam"] },
+        { "name": "persian", "level": 46, "item": "scope-lens", "moves": ["hypnosis", "focus-energy", "slash", "shadow-ball"] },
+        { "name": "murkrow", "level": 47, "item": "black-glasses", "moves": ["crunch", "drill-peck", "cross-chop", "pursuit"] }
+    ]
+    },
+    {
+    "area": "Whirl Islands B2F",
+    "name": "executivef-2",
+    "team": [
+        { "name": "dodrio", "level": 46, "item": "lum-berry", "moves": ["sky-attack", "frustration", "hi-jump-kick", "quick-attack"] },
+        { "name": "tentacruel", "level": 47, "item": "leftovers", "moves": ["whirlpool", "sludge", "giga-drain", "ice-beam"] },
+        { "name": "kangaskhan", "level": 46, "item": "sitrus-berry", "moves": ["counter", "mega-punch", "submission", "rock-slide"] },
+        { "name": "victreebel", "level": 46, "item": "no-item", "moves": ["thief", "sleep-powder", "sludge-bomb", "giga-drain"] },
+        { "name": "electabuzz", "level": 46, "item": "scope-lens", "moves": ["thunderbolt", "cross-chop", "ice-punch", "fire-punch"] },
+        { "name": "tyranitar", "level": 47, "item": "black-glasses", "moves": ["crunch", "rock-slide", "earthquake", "flamethrower"] }
+    ]
+    },
+
+    {
       "area": "Lugia Chamber",
       "name": "lugia",
       "team": [
-        {
-          "name": "lugia",
-          "level": 50,
-          "item": "no-item",
-          "moves": ["hydro-pump", "future-sight", "aeroblast", "whirlpool"]
-        }
+        { "name": "lugia", "level": 50, "item": "no-item", "moves": ["hydro-pump", "future-sight", "aeroblast", "whirlpool"] }
       ]
     },
 
