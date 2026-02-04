@@ -48678,7 +48678,48 @@
         { "name": "lugia", "level": 50, "item": "no-item", "moves": ["hydro-pump", "future-sight", "aeroblast", "whirlpool"] }
       ]
     },
-
+    {
+    "area": "Ecruteak Gym",
+    "name": "sage-ping",
+    "team": [
+        { "name": "golduck", "level": 47, "item": "leftovers", "moves": ["hypnosis", "dream-eater", "psychic", "hydro-pump"] },
+        { "name": "xatu", "level": 47, "item": "lum-berry", "moves": ["future-sight", "psychic", "shadow-ball", "giga-drain"] },
+        { "name": "victreebel", "level": 47, "item": "silverpowder", "moves": ["wrap", "sleep-powder", "sludge-bomb", "leech-life"] },
+        { "name": "ninetales", "level": 48, "item": "charcoal", "moves": ["sacred-fire", "shadow-ball", "psychic", "crunch"] }
+    ]
+    },
+    {
+    "area": "Ecruteak Gym",
+    "name": "medium-martha",
+    "team": [
+        { "name": "lanturn", "level": 47, "item": "brightpowder", "moves": ["confuse-ray", "thunder-wave", "ice-beam", "thunderbolt"] },
+        { "name": "vileplume", "level": 47, "item": "leftovers", "moves": ["moonlight", "leech-seed", "giga-drain", "sludge-bomb"] },
+        { "name": "murkrow", "level": 47, "item": "lum-berry", "moves": ["swagger", "crunch", "drill-peck", "shadow-ball"] },
+        { "name": "alakazam", "level": 48, "item": "sitrus-berry", "moves": ["double-team", "substitute", "psychic", "faint-attack"] }
+    ]
+    },
+    {
+    "area": "Ecruteak Gym",
+    "name": "medium-grace",
+    "team": [
+        { "name": "shuckle", "level": 47, "item": "chesto-berry", "moves": ["rest", "mud-slap", "toxic", "wrap"] },
+        { "name": "noctowl", "level": 47, "item": "leftovers", "moves": ["confuse-ray", "reflect", "light-screen", "night-shade"] },
+        { "name": "blastoise", "level": 48, "item": "sitrus-berry", "moves": ["hydro-pump", "shadow-ball", "counter", "mirror-coat"] },
+        { "name": "houndoom", "level": 47, "item": "spell-tag", "moves": ["mean-look", "flamethrower", "crunch", "shadow-ball"] },
+        { "name": "espeon", "level": 49, "item": "lum-berry", "moves": ["hypnosis", "psychic", "flamethrower", "psywave"] }
+    ]
+    },
+    {
+    "area": "Ecruteak Gym",
+    "name": "sage-jeffrey",
+    "team": [
+        { "name": "jynx", "level": 47, "item": "twisted-spoon", "moves": ["psychic", "ice-beam", "confuse-ray", "destiny-bond"] },
+        { "name": "magcargo", "level": 47, "item": "focus-band", "moves": ["sunny-day", "fire-spin", "flamethrower", "rock-slide"] },
+        { "name": "stantler", "level": 47, "item": "lum-berry", "moves": ["shadow-ball", "lick", "return", "blizzard"] },
+        { "name": "umbreon", "level": 49, "item": "leftovers", "moves": ["confuse-ray", "moonlight", "body-slam", "shadow-ball"] },
+        { "name": "venusaur", "level": 48, "item": "charcoal", "moves": ["giga-drain", "sludge-bomb", "flame-wheel", "flamethrower"] }
+    ]
+    },
     {
       "area": "Ecruteak Gym",
       "name": "leader-morty",
