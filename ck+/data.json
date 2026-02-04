@@ -24928,7 +24928,7 @@
             "evolutions": [
                 {
                     "into": "golbat",
-                    "level": 22,
+                    "level": 20,
                     "method": "level"
                 }
             ],
@@ -24937,27 +24937,51 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confuse-ray"
+                    "move": "leech-life"
                 },
                 {
-                    "level": 4,
-                    "move": "bite"
-                },
-                {
-                    "level": 7,
-                    "move": "mega-drain"
-                },
-                {
-                    "level": 9,
+                    "level": 6,
                     "move": "confuse-ray"
                 },
                 {
                     "level": 12,
+                    "move": "giga-drain"
+                },
+                {
+                    "level": 16,
+                    "move": "toxic"
+                },
+                {
+                    "level": 19,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 15,
-                    "move": "sludge"
+                    "level": 26,
+                    "move": "screech"
+                },
+                {
+                    "level": 34,
+                    "move": "sludge-bomb"
+                },
+                {
+                    "level": 36,
+                    "move": "mean-look"
+                },
+                {
+                    "level": 46,
+                    "move": "haze"
+                },
+                {
+                    "level": 54,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 60,
+                    "move": "super-fang"
+                },
+                {
+                    "level": 66,
+                    "move": "sky-attack"
                 }
             ],
             "name": "zubat",
@@ -25000,7 +25024,7 @@
             "evolutions": [
                 {
                     "into": "crobat",
-                    "level": 45,
+                    "level": 41,
                     "method": "level"
                 }
             ],
@@ -25009,23 +25033,51 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "leech-life"
+                },
+                {
+                    "level": 6,
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 22,
-                    "move": "wing-attack"
-                },
-                {
-                    "level": 28,
-                    "move": "sludge-bomb"
-                },
-                {
-                    "level": 34,
+                    "level": 12,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 41,
+                    "level": 16,
+                    "move": "toxic"
+                },
+                {
+                    "level": 19,
+                    "move": "wing-attack"
+                },
+                {
+                    "level": 26,
+                    "move": "screech"
+                },
+                {
+                    "level": 34,
+                    "move": "sludge-bomb"
+                },
+                {
+                    "level": 36,
                     "move": "mean-look"
+                },
+                {
+                    "level": 46,
+                    "move": "haze"
+                },
+                {
+                    "level": 54,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 60,
+                    "move": "super-fang"
+                },
+                {
+                    "level": 66,
+                    "move": "sky-attack"
                 }
             ],
             "name": "golbat",
@@ -28625,7 +28677,7 @@
             "evolutions": [
                 {
                     "into": "dodrio",
-                    "level": 37,
+                    "level": 27,
                     "method": "level"
                 }
             ],
@@ -28634,27 +28686,35 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "quick-attack"
-                },
-                {
-                    "level": 5,
                     "move": "peck"
                 },
                 {
-                    "level": 14,
-                    "move": "swift"
+                    "level": 1,
+                    "move": "screech"
                 },
                 {
-                    "level": 18,
-                    "move": "double-kick"
+                    "level": 13,
+                    "move": "fury-attack"
                 },
                 {
-                    "level": 25,
+                    "level": 21,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 34,
-                    "move": "tri-attack"
+                    "level": 25,
+                    "move": "double-kick"
+                },
+                {
+                    "level": 33,
+                    "move": "drill-peck"
+                },
+                {
+                    "level": 37,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 41,
+                    "move": "sky-attack"
                 }
             ],
             "name": "doduo",
@@ -28704,31 +28764,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "quick-attack"
+                    "move": "peck"
                 },
                 {
-                    "level": 45,
+                    "level": 1,
+                    "move": "screech"
+                },
+                {
+                    "level": 13,
+                    "move": "fury-attack"
+                },
+                {
+                    "level": 21,
+                    "move": "wing-attack"
+                },
+                {
+                    "level": 25,
+                    "move": "double-kick"
+                },
+                {
+                    "level": 27,
+                    "move": "tri-attack"
+                },
+                {
+                    "level": 33,
                     "move": "drill-peck"
                 },
                 {
-                    "level": 49,
-                    "move": "steel-wing"
+                    "level": 36,
+                    "move": "triple-kick"
                 },
                 {
-                    "level": 54,
-                    "move": "jump-kick"
-                },
-                {
-                    "level": 67,
+                    "level": 37,
                     "move": "double-edge"
                 },
                 {
-                    "level": 75,
+                    "level": 43,
                     "move": "sky-attack"
-                },
-                {
-                    "level": 95,
-                    "move": "hi-jump-kick"
                 }
             ],
             "name": "dodrio",
@@ -35068,7 +35140,7 @@
                 },
                 {
                     "level": 17,
-                    "move": "bubble-beam"
+                    "move": "bubblebeam"
                 },
                 {
                     "level": 18,
@@ -35179,7 +35251,7 @@
                 },
                 {
                     "level": 17,
-                    "move": "bubble-beam"
+                    "move": "bubblebeam"
                 },
                 {
                     "level": 18,
@@ -35287,7 +35359,7 @@
                 },
                 {
                     "level": 17,
-                    "move": "bubble-beam"
+                    "move": "bubblebeam"
                 },
                 {
                     "level": 18,
@@ -36129,38 +36201,50 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "leech-life"
+                },
+                {
+                    "level": 6,
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 1,
+                    "level": 12,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 1,
-                    "move": "sludge-bomb"
+                    "level": 16,
+                    "move": "toxic"
                 },
                 {
-                    "level": 39,
+                    "level": 19,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 48,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 55,
-                    "move": "sludge-bomb"
-                },
-                {
-                    "level": 61,
+                    "level": 26,
                     "move": "screech"
                 },
                 {
-                    "level": 80,
-                    "move": "hypnosis"
+                    "level": 34,
+                    "move": "sludge-bomb"
                 },
                 {
-                    "level": 99,
+                    "level": 36,
+                    "move": "mean-look"
+                },
+                {
+                    "level": 46,
+                    "move": "haze"
+                },
+                {
+                    "level": 54,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 60,
+                    "move": "super-fang"
+                },
+                {
+                    "level": 66,
                     "move": "sky-attack"
                 }
             ],
@@ -48520,7 +48604,7 @@
     },
     {
       "area": "Route 41",
-      "name": "swimmerf-susie-4",
+      "name": "swimmerf-susie",
       "team": [
         {
           "name": "vileplume",
@@ -48544,7 +48628,7 @@
     },
 
     {
-      "area": "Rocket Hideout / Whirl Islands",
+      "area": "Rocket Hideout",
       "name": "gruntm-20",
       "team": [
         { "name": "magcargo", "level": 43, "item": "focus-band", "moves": ["explosion", "fire-spin", "flame-wheel", "flamethrower"] },
@@ -48562,20 +48646,6 @@
         { "name": "poliwrath", "level": 43, "item": "sitrus-berry", "moves": ["belly-drum", "mach-punch", "waterfall", "ice-beam"] }
       ]
     },
-
-    {
-      "area": "Lugia Chamber",
-      "name": "lugia",
-      "team": [
-        {
-          "name": "lugia",
-          "level": 50,
-          "item": "no-item",
-          "moves": ["hydro-pump", "future-sight", "aeroblast", "whirlpool"]
-        }
-      ]
-    },
-
     {
       "area": "Ecruteak Gym",
       "name": "leader-morty",
