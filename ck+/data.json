@@ -48639,7 +48639,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B1F",
+      "area": "Rocket Hideout",
       "name": "gruntm-20",
       "team": [
         {
@@ -48678,7 +48678,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B1F",
+      "area": "Rocket Hideout",
       "name": "gruntm-21",
       "b2b": true,
       "team": [
@@ -48718,7 +48718,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B1F",
+      "area": "Rocket Hideout",
       "name": "gruntm-16",
       "team": [
         {
@@ -48768,7 +48768,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B1F",
+      "area": "Rocket Hideout",
       "name": "scientist-jed",
       "team": [
         {
@@ -48829,7 +48829,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B2F",
+      "area": "Rocket Hideout",
       "name": "gruntm-19",
       "team": [
         {
@@ -48879,7 +48879,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B2F",
+      "area": "Rocket Hideout",
       "name": "gruntm-17",
       "team": [
         {
@@ -48929,7 +48929,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B3F",
+      "area": "Rocket Hideout",
       "name": "scientist-mitch",
       "team": [
         {
@@ -48968,7 +48968,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B3F",
+      "area": "Rocket Hideout",
       "name": "gruntm-28",
       "team": [
         {
@@ -49015,7 +49015,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B3F",
+      "area": "Rocket Hideout",
       "name": "gruntf-5",
       "team": [
         {
@@ -49065,7 +49065,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B2F",
+      "area": "Rocket Hideout",
       "name": "gruntm-18",
       "team": [
         {
@@ -49126,7 +49126,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout B3F",
+      "area": "Rocket Hideout",
       "name": "scientist-ross",
       "team": [
         {
@@ -49184,7 +49184,7 @@
       ]
     },
     {
-      "area": "Rocket Hideout / Whirl Islands",
+      "area": "Rocket Hideout",
       "name": "executivem-4",
       "team": [
         {
@@ -49256,7 +49256,7 @@
       ]
     },
     {
-      "area": "Whirl Islands B2F",
+      "area": "Rocket Hideout",
       "name": "executivef-2",
       "team": [
         {
@@ -49323,23 +49323,6 @@
             "rock-slide",
             "earthquake",
             "flamethrower"
-          ]
-        }
-      ]
-    },
-    {
-      "area": "Lugia Chamber",
-      "name": "lugia",
-      "team": [
-        {
-          "name": "lugia",
-          "level": 50,
-          "item": "no-item",
-          "moves": [
-            "hydro-pump",
-            "future-sight",
-            "aeroblast",
-            "whirlpool"
           ]
         }
       ]
