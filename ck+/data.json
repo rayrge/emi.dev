@@ -21900,7 +21900,7 @@
                 },
                 {
                     "level": 34,
-                    "move": "sky-attack"
+                    "move": "solarbeam"
                 },
                 {
                     "level": 44,
@@ -48172,7 +48172,6 @@
     {
       "area": "Route 41",
       "name": "swimmerm-charlie",
-      "meta": "route 41 has rain",
       "team": [
         {
           "name": "girafarig",
@@ -48212,6 +48211,7 @@
     {
       "area": "Route 41",
       "name": "swimmerm-kirk",
+      "meta": "rain",
       "team": [
         {
           "name": "dodrio",
@@ -48280,6 +48280,7 @@
     {
       "area": "Route 41",
       "name": "swimmerf-kara",
+      "meta": "rain",
       "team": [
         {
           "name": "tangela",
@@ -48320,6 +48321,7 @@
     {
       "area": "Route 41",
       "name": "swimmerm-berke",
+      "meta": "rain",
       "team": [
         {
           "name": "slowbro",
@@ -48480,6 +48482,7 @@
     {
       "area": "Route 41",
       "name": "swimmerm-mathew",
+      "meta": "rain",
       "team": [
         {
           "name": "electrode",
@@ -48520,6 +48523,7 @@
     {
       "area": "Route 41",
       "name": "swimmerf-wendy",
+      "meta": "rain",
       "team": [
         {
           "name": "azumarill",
@@ -48901,7 +48905,7 @@
     },
     {
       "area": "Route 41",
-      "name": "swimmerf-susie-4",
+      "name": "swimmerf-susie",
       "meta": "rain",
       "team": [
         {
@@ -49022,6 +49026,7 @@
     {
       "area": "Rocket Hideout",
       "name": "gruntm-16",
+      "meta": "spikes",
       "team": [
         {
           "name": "smeargle",
