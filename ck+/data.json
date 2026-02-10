@@ -23037,6 +23037,14 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "tackle"
+                },
+                {
+                    "level": 1,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 7,
                     "move": "quick-attack"
                 },
                 {
@@ -23044,16 +23052,32 @@
                     "move": "hyper-fang"
                 },
                 {
-                    "level": 17,
-                    "move": "bite"
-                },
-                {
                     "level": 20,
                     "move": "focus-energy"
                 },
                 {
-                    "level": 22,
+                    "level": 23,
+                    "move": "submission"
+                },
+                {
+                    "level": 27,
+                    "move": "crunch"
+                },
+                {
+                    "level": 31,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 34,
                     "move": "super-fang"
+                },
+                {
+                    "level": 38,
+                    "move": "iron-tail"
+                },
+                {
+                    "level": 39,
+                    "move": "double-edge"
                 }
             ],
             "name": "rattata",
@@ -23104,31 +23128,47 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "tackle"
+                },
+                {
+                    "level": 1,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 7,
+                    "move": "quick-attack"
+                },
+                {
+                    "level": 13,
                     "move": "hyper-fang"
                 },
                 {
-                    "level": 22,
-                    "move": "body-slam"
+                    "level": 20,
+                    "move": "scary-face"
                 },
                 {
-                    "level": 26,
+                    "level": 23,
+                    "move": "submission"
+                },
+                {
+                    "level": 27,
                     "move": "crunch"
                 },
                 {
                     "level": 30,
-                    "move": "skull-bash"
+                    "move": "double-edge"
                 },
                 {
-                    "level": 34,
+                    "level": 32,
                     "move": "shadow-ball"
                 },
                 {
                     "level": 38,
-                    "move": "scary-face"
+                    "move": "iron-tail"
                 },
                 {
-                    "level": 42,
-                    "move": "double-edge"
+                    "level": 40,
+                    "move": "super-fang"
                 }
             ],
             "name": "raticate",
@@ -29177,7 +29217,7 @@
             "evolutions": [
                 {
                     "into": "muk",
-                    "level": 37,
+                    "level": 35,
                     "method": "level"
                 }
             ],
@@ -29191,39 +29231,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "mega-drain"
+                    "move": "toxic"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
                     "move": "acid"
                 },
                 {
-                    "level": 13,
-                    "move": "sludge"
+                    "level": 5,
+                    "move": "harden"
                 },
                 {
-                    "level": 18,
+                    "level": 10,
                     "move": "disable"
                 },
                 {
-                    "level": 23,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 25,
+                    "level": 16,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 37,
-                    "move": "shadow-ball"
+                    "level": 23,
+                    "move": "minimize"
                 },
                 {
-                    "level": 46,
-                    "move": "flamethrower"
+                    "level": 31,
+                    "move": "screech"
+                },
+                {
+                    "level": 35,
+                    "move": "explosion"
+                },
+                {
+                    "level": 40,
+                    "move": "acid-armor"
                 },
                 {
                     "level": 50,
-                    "move": "sludge-bomb"
+                    "move": "sludge"
+                },
+                {
+                    "level": 66,
+                    "move": "thief"
                 }
             ],
             "name": "grimer",
@@ -29280,27 +29328,47 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "toxic"
+                },
+                {
+                    "level": 1,
+                    "move": "acid"
+                },
+                {
+                    "level": 5,
+                    "move": "harden"
+                },
+                {
+                    "level": 10,
+                    "move": "disable"
+                },
+                {
+                    "level": 16,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 39,
-                    "move": "giga-drain"
+                    "level": 23,
+                    "move": "minimize"
                 },
                 {
-                    "level": 44,
-                    "move": "flamethrower"
+                    "level": 31,
+                    "move": "screech"
                 },
                 {
-                    "level": 48,
-                    "move": "sludge-bomb"
-                },
-                {
-                    "level": 53,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 99,
+                    "level": 35,
                     "move": "explosion"
+                },
+                {
+                    "level": 40,
+                    "move": "acid-armor"
+                },
+                {
+                    "level": 50,
+                    "move": "sludge"
+                },
+                {
+                    "level": 66,
+                    "move": "thief"
                 }
             ],
             "name": "muk",
@@ -43021,16 +43089,32 @@
                     "move": "bite"
                 },
                 {
-                    "level": 7,
-                    "move": "rock-throw"
-                },
-                {
                     "level": 15,
-                    "move": "magnitude"
+                    "move": "screech"
                 },
                 {
-                    "level": 24,
+                    "level": 22,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 29,
                     "move": "thrash"
+                },
+                {
+                    "level": 36,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 53,
+                    "move": "crunch"
+                },
+                {
+                    "level": 60,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 67,
+                    "move": "hyper-beam"
                 }
             ],
             "name": "larvitar",
@@ -43076,7 +43160,7 @@
             "evolutions": [
                 {
                     "into": "tyranitar",
-                    "level": 65,
+                    "level": 55,
                     "method": "level"
                 }
             ],
@@ -43085,27 +43169,35 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "rock-throw"
-                },
-                {
-                    "level": 47,
                     "move": "bite"
                 },
                 {
-                    "level": 54,
+                    "level": 15,
+                    "move": "screech"
+                },
+                {
+                    "level": 22,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 29,
+                    "move": "thrash"
+                },
+                {
+                    "level": 38,
                     "move": "scary-face"
                 },
                 {
-                    "level": 65,
-                    "move": "hyper-beam"
-                },
-                {
-                    "level": 80,
+                    "level": 53,
                     "move": "crunch"
                 },
                 {
-                    "level": 90,
-                    "move": "rock-slide"
+                    "level": 60,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 67,
+                    "move": "hyper-beam"
                 }
             ],
             "name": "pupitar",
@@ -43156,20 +43248,32 @@
                     "move": "bite"
                 },
                 {
-                    "level": 1,
-                    "move": "hyper-beam"
+                    "level": 15,
+                    "move": "screech"
                 },
                 {
-                    "level": 1,
+                    "level": 22,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 29,
+                    "move": "thrash"
+                },
+                {
+                    "level": 38,
                     "move": "scary-face"
                 },
                 {
-                    "level": 80,
+                    "level": 53,
                     "move": "crunch"
                 },
                 {
-                    "level": 90,
-                    "move": "rock-slide"
+                    "level": 61,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 75,
+                    "move": "hyper-beam"
                 }
             ],
             "name": "tyranitar",
@@ -48383,6 +48487,7 @@
     {
       "area": "Route 41",
       "name": "swimmerf-denise",
+      "meta": "rain",
       "team": [
         {
           "name": "seaking",
