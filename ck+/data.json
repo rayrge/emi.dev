@@ -5741,6 +5741,40 @@
             ]
         },
         {
+            "area": "rocket-hideout",
+            "pools": [
+                {
+                    "pool": [
+                        {
+                            "chance": 100,
+                            "extra": "In hideout trap tile",
+                            "level": 30,
+                            "pokemon": "voltorb"
+                        },
+                        {
+                            "chance": 100,
+                            "extra": "In hideout trap tile",
+                            "level": 30,
+                            "pokemon": "koffing"
+                        },
+                        {
+                            "chance": 100,
+                            "extra": "In hideout trap tile",
+                            "level": 30,
+                            "pokemon": "geodude"
+                        },
+                        {
+                            "chance": 100,
+                            "extra": "In hideout generator room",
+                            "level": 5,
+                            "pokemon": "electrode"
+                        }
+                    ],
+                    "type": "static"
+                }
+            ]
+        },
+        {
             "area": "whirl-island-ne",
             "pools": [
                 {
@@ -14458,18 +14492,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 32,
-                            "pokemon": "qwilfish"
+                            "level": 30,
+                            "pokemon": "lanturn"
                         },
                         {
                             "chance": 30,
-                            "level": 32,
-                            "pokemon": "seadra"
+                            "level": 30,
+                            "pokemon": "mantine"
                         },
                         {
                             "chance": 10,
-                            "level": 32,
-                            "pokemon": "seadra"
+                            "level": 30,
+                            "pokemon": "tentacruel"
                         }
                     ],
                     "type": "surfing"
@@ -14694,17 +14728,17 @@
                         {
                             "chance": 60,
                             "level": 30,
-                            "pokemon": "croconaw"
+                            "pokemon": "lanturn"
                         },
                         {
                             "chance": 30,
                             "level": 30,
-                            "pokemon": "magcargo"
+                            "pokemon": "mantine"
                         },
                         {
                             "chance": 10,
                             "level": 30,
-                            "pokemon": "octillery"
+                            "pokemon": "tentacruel"
                         }
                     ],
                     "type": "surfing"
@@ -15837,35 +15871,6 @@
                 {
                     "pool": "headbutt.town",
                     "type": "headbutt"
-                },
-                {
-                    "pool": [
-                        {
-                            "chance": 100,
-                            "extra": "In hideout trap tile",
-                            "level": 30,
-                            "pokemon": "snorlax"
-                        },
-                        {
-                            "chance": 100,
-                            "extra": "In hideout trap tile",
-                            "level": 30,
-                            "pokemon": "snorlax"
-                        },
-                        {
-                            "chance": 100,
-                            "extra": "In hideout trap tile",
-                            "level": 30,
-                            "pokemon": "snorlax"
-                        },
-                        {
-                            "chance": 100,
-                            "extra": "In hideout generator room",
-                            "level": 5,
-                            "pokemon": "snorlax"
-                        }
-                    ],
-                    "type": "static"
                 }
             ]
         },
@@ -17352,6 +17357,7 @@
             "items": [],
             "locations": [
                 "whirl-island-nw",
+		"rocket-hideout",
                 "whirl-island-ne",
                 "whirl-island-sw",
                 "whirl-island-cave",
@@ -22920,7 +22926,7 @@
             "evolutions": [
                 {
                     "into": "pidgeot",
-                    "level": 36,
+                    "level": 27,
                     "method": "level"
                 }
             ],
