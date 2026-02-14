@@ -22514,7 +22514,7 @@
                     "move": "tackle"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
                     "move": "string-shot"
                 }
             ],
@@ -22547,7 +22547,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "tackle"
+                    "move": "harden"
                 },
                 {
                     "level": 7,
@@ -22580,52 +22580,56 @@
             ],
             "learnset": [
                 {
+                    "level": 1,
+                    "move": "string-shot"
+                },
+                {
                     "level": 10,
                     "move": "confusion"
                 },
                 {
                     "level": 13,
-                    "move": "mega-drain"
+                    "move": "poisonpowder"
                 },
                 {
-                    "level": 14,
+                    "level": 13,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 13,
                     "move": "sleep-powder"
                 },
                 {
                     "level": 16,
-                    "move": "psybeam"
+                    "move": "mega-drain"
                 },
                 {
                     "level": 18,
-                    "move": "giga-drain"
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 21,
-                    "move": "psywave"
+                    "level": 22,
+                    "move": "psybeam"
                 },
                 {
                     "level": 23,
-                    "move": "morning-sun"
-                },
-                {
-                    "level": 25,
                     "move": "encore"
-                },
-                {
-                    "level": 28,
-                    "move": "encore"
-                },
-                {
-                    "level": 28,
-                    "move": "giga-drain"
-                },
-                {
-                    "level": 31,
-                    "move": "psychic"
                 },
                 {
                     "level": 34,
-                    "move": "string-shot"
+                    "move": "giga-drain"
+                },
+                {
+                    "level": 40,
+                    "move": "psychic"
+                },
+                {
+                    "level": 48,
+                    "move": "leech-life"
+                },
+                {
+                    "level": 60,
+                    "move": "morning-sun"
                 }
             ],
             "name": "butterfree",
@@ -22717,7 +22721,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "poison-sting"
+                    "move": "harden"
                 },
                 {
                     "level": 7,
@@ -22751,48 +22755,56 @@
             ],
             "learnset": [
                 {
+                    "level": 1,
+                    "move": "poison-sting"
+                },
+                {
                     "level": 10,
+                    "move": "fury-attack"
+                },
+                {
+                    "level": 14,
                     "move": "twineedle"
                 },
                 {
-                    "level": 12,
-                    "move": "acid"
-                },
-                {
-                    "level": 15,
-                    "move": "rage"
-                },
-                {
-                    "level": 17,
-                    "move": "sludge"
-                },
-                {
-                    "level": 20,
+                    "level": 16,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 23,
-                    "move": "return"
-                },
-                {
-                    "level": 25,
-                    "move": "twineedle"
-                },
-                {
-                    "level": 28,
+                    "level": 21,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 33,
+                    "level": 25,
+                    "move": "fury-cutter"
+                },
+                {
+                    "level": 30,
+                    "move": "wing-attack"
+                },
+                {
+                    "level": 32,
+                    "move": "endure"
+                },
+                {
+                    "level": 35,
+                    "move": "pin-missile"
+                },
+                {
+                    "level": 40,
+                    "move": "leech-life"
+                },
+                {
+                    "level": 43,
                     "move": "toxic"
                 },
                 {
-                    "level": 37,
-                    "move": "megahorn"
+                    "level": 48,
+                    "move": "drill-peck"
                 },
                 {
-                    "level": 44,
-                    "move": "horn-drill"
+                    "level": 51,
+                    "move": "sludge"
                 }
             ],
             "name": "beedrill",
@@ -23482,7 +23494,7 @@
             "evolutions": [
                 {
                     "into": "arbok",
-                    "level": 22,
+                    "level": 20,
                     "method": "level"
                 }
             ],
@@ -23491,27 +23503,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "glare"
+                    "move": "wrap"
                 },
                 {
-                    "level": 4,
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 5,
                     "move": "acid"
                 },
                 {
                     "level": 9,
-                    "move": "mega-drain"
+                    "move": "toxic"
                 },
                 {
-                    "level": 13,
-                    "move": "wrap"
+                    "level": 11,
+                    "move": "headbutt"
                 },
                 {
-                    "level": 16,
-                    "move": "slam"
+                    "level": 15,
+                    "move": "bite"
                 },
                 {
-                    "level": 19,
-                    "move": "pursuit"
+                    "level": 23,
+                    "move": "glare"
+                },
+                {
+                    "level": 25,
+                    "move": "sludge-bomb"
+                },
+                {
+                    "level": 29,
+                    "move": "screech"
+                },
+                {
+                    "level": 37,
+                    "move": "acid"
+                },
+                {
+                    "level": 43,
+                    "move": "haze"
+                },
+                {
+                    "level": 44,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 52,
+                    "move": "sludge"
                 }
             ],
             "name": "ekans",
@@ -23557,31 +23597,59 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "wrap"
+                },
+                {
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 5,
                     "move": "acid"
                 },
                 {
-                    "level": 22,
-                    "move": "sludge"
+                    "level": 9,
+                    "move": "toxic"
                 },
                 {
-                    "level": 25,
+                    "level": 11,
+                    "move": "headbutt"
+                },
+                {
+                    "level": 15,
                     "move": "bite"
                 },
                 {
-                    "level": 30,
+                    "level": 23,
+                    "move": "glare"
+                },
+                {
+                    "level": 25,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 36,
-                    "move": "giga-drain"
+                    "level": 29,
+                    "move": "screech"
                 },
                 {
-                    "level": 41,
-                    "move": "crunch"
+                    "level": 37,
+                    "move": "acid"
                 },
                 {
-                    "level": 47,
+                    "level": 43,
+                    "move": "haze"
+                },
+                {
+                    "level": 46,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 53,
                     "move": "earthquake"
+                },
+                {
+                    "level": 66,
+                    "move": "sludge"
                 }
             ],
             "name": "arbok",
@@ -24627,7 +24695,7 @@
                 },
                 {
                     "level": 13,
-                    "move": "double-slap"
+                    "move": "doubleslap"
                 },
                 {
                     "level": 19,
@@ -24741,7 +24809,7 @@
                 },
                 {
                     "level": 13,
-                    "move": "double-slap"
+                    "move": "doubleslap"
                 },
                 {
                     "level": 19,
@@ -24833,8 +24901,8 @@
             "evolutions": [
                 {
                     "into": "ninetales",
-                    "item": "fire-stone",
-                    "method": "item"
+                    "level": 19,
+                    "method": "level"
                 }
             ],
             "gender": "f75",
@@ -24851,27 +24919,51 @@
                 },
                 {
                     "level": 1,
-                    "move": "quick-attack"
+                    "move": "tail-whip"
                 },
                 {
                     "level": 7,
-                    "move": "swift"
+                    "move": "quick-attack"
                 },
                 {
-                    "level": 13,
-                    "move": "flame-wheel"
-                },
-                {
-                    "level": 16,
+                    "level": 11,
                     "move": "bite"
                 },
                 {
-                    "level": 17,
+                    "level": 13,
+                    "move": "roar"
+                },
+                {
+                    "level": 15,
+                    "move": "flame-wheel"
+                },
+                {
+                    "level": 19,
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 30,
+                    "level": 25,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 26,
+                    "move": "psychic"
+                },
+                {
+                    "level": 29,
+                    "move": "fire-spin"
+                },
+                {
+                    "level": 31,
                     "move": "flamethrower"
+                },
+                {
+                    "level": 34,
+                    "move": "solarbeam"
+                },
+                {
+                    "level": 37,
+                    "move": "fire-blast"
                 }
             ],
             "name": "vulpix",
@@ -24924,31 +25016,51 @@
                     "move": "ember"
                 },
                 {
-                    "level": 36,
-                    "move": "hypnosis"
+                    "level": 1,
+                    "move": "tail-whip"
                 },
                 {
-                    "level": 39,
-                    "move": "iron-tail"
+                    "level": 7,
+                    "move": "quick-attack"
                 },
                 {
-                    "level": 46,
-                    "move": "flamethrower"
+                    "level": 13,
+                    "move": "roar"
                 },
                 {
-                    "level": 49,
-                    "move": "faint-attack"
+                    "level": 15,
+                    "move": "flame-wheel"
                 },
                 {
-                    "level": 51,
+                    "level": 19,
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 67,
+                    "level": 25,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 26,
+                    "move": "psychic"
+                },
+                {
+                    "level": 29,
+                    "move": "fire-spin"
+                },
+                {
+                    "level": 31,
+                    "move": "flamethrower"
+                },
+                {
+                    "level": 34,
                     "move": "solarbeam"
                 },
                 {
-                    "level": 72,
+                    "level": 37,
+                    "move": "fire-blast"
+                },
+                {
+                    "level": 51,
                     "move": "sacred-fire"
                 }
             ],
@@ -24994,8 +25106,8 @@
             "evolutions": [
                 {
                     "into": "wigglytuff",
-                    "item": "moon-stone",
-                    "method": "item"
+                    "level": 31,
+                    "method": "level"
                 }
             ],
             "gender": "f75",
@@ -25010,48 +25122,36 @@
                     "move": "defense-curl"
                 },
                 {
-                    "level": 4,
-                    "move": "dizzy-punch"
-                },
-                {
                     "level": 9,
-                    "move": "bubblebeam"
-                },
-                {
-                    "level": 12,
-                    "move": "rollout"
+                    "move": "pound"
                 },
                 {
                     "level": 14,
-                    "move": "faint-attack"
+                    "move": "disable"
                 },
                 {
-                    "level": 17,
-                    "move": "headbutt"
+                    "level": 19,
+                    "move": "rollout"
                 },
                 {
-                    "level": 21,
-                    "move": "seismic-toss"
-                },
-                {
-                    "level": 26,
-                    "move": "thunder-wave"
+                    "level": 24,
+                    "move": "doubleslap"
                 },
                 {
                     "level": 29,
+                    "move": "rest"
+                },
+                {
+                    "level": 31,
+                    "move": "lovely-kiss"
+                },
+                {
+                    "level": 34,
                     "move": "body-slam"
                 },
                 {
-                    "level": 32,
+                    "level": 39,
                     "move": "double-edge"
-                },
-                {
-                    "level": 37,
-                    "move": "hyper-beam"
-                },
-                {
-                    "level": 45,
-                    "move": "explosion"
                 }
             ],
             "name": "jigglypuff",
@@ -25115,43 +25215,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "dizzy-punch"
+                    "move": "sing"
+                },
+                {
+                    "level": 1,
+                    "move": "defense-curl"
+                },
+                {
+                    "level": 9,
+                    "move": "pound"
+                },
+                {
+                    "level": 14,
+                    "move": "disable"
+                },
+                {
+                    "level": 19,
+                    "move": "rollout"
+                },
+                {
+                    "level": 24,
+                    "move": "doubleslap"
                 },
                 {
                     "level": 29,
-                    "move": "thunder-wave"
+                    "move": "rest"
                 },
                 {
-                    "level": 33,
+                    "level": 31,
+                    "move": "lovely-kiss"
+                },
+                {
+                    "level": 34,
                     "move": "body-slam"
-                },
-                {
-                    "level": 35,
-                    "move": "double-edge"
                 },
                 {
                     "level": 39,
-                    "move": "hyper-beam"
-                },
-                {
-                    "level": 45,
-                    "move": "explosion"
-                },
-                {
-                    "level": 49,
-                    "move": "thunder-wave"
-                },
-                {
-                    "level": 53,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 57,
                     "move": "double-edge"
-                },
-                {
-                    "level": 60,
-                    "move": "hyper-beam"
                 }
             ],
             "name": "wigglytuff",
@@ -25416,23 +25516,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "mega-drain"
+                    "move": "absorb"
                 },
                 {
-                    "level": 4,
-                    "move": "acid"
+                    "level": 7,
+                    "move": "sweet-scent"
                 },
                 {
                     "level": 9,
-                    "move": "poisonpowder"
+                    "move": "acid"
                 },
                 {
                     "level": 13,
-                    "move": "moonlight"
+                    "move": "mega-drain"
+                },
+                {
+                    "level": 14,
+                    "move": "poisonpowder"
                 },
                 {
                     "level": 16,
-                    "move": "razor-leaf"
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 18,
+                    "move": "sleep-powder"
+                },
+                {
+                    "level": 23,
+                    "move": "acid"
+                },
+                {
+                    "level": 25,
+                    "move": "giga-drain"
+                },
+                {
+                    "level": 27,
+                    "move": "sludge-bomb"
+                },
+                {
+                    "level": 29,
+                    "move": "leech-seed"
+                },
+                {
+                    "level": 32,
+                    "move": "moonlight"
+                },
+                {
+                    "level": 39,
+                    "move": "petal-dance"
                 }
             ],
             "name": "oddish",
@@ -25476,12 +25608,12 @@
             "evolutions": [
                 {
                     "into": "vileplume",
-                    "item": "leaf-stone",
-                    "method": "item"
+                    "level": 38,
+                    "method": "level"
                 },
                 {
                     "into": "bellossom",
-                    "item": "sun-stone",
+                    "item": "leaf-stone",
                     "method": "item"
                 }
             ],
@@ -25490,31 +25622,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "mega-drain"
+                    "move": "absorb"
+                },
+                {
+                    "level": 7,
+                    "move": "sweet-scent"
+                },
+                {
+                    "level": 9,
+                    "move": "acid"
                 },
                 {
                     "level": 13,
-                    "move": "moonlight"
+                    "move": "mega-drain"
                 },
                 {
-                    "level": 24,
+                    "level": 14,
+                    "move": "poisonpowder"
+                },
+                {
+                    "level": 16,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 18,
                     "move": "sleep-powder"
                 },
                 {
-                    "level": 30,
+                    "level": 23,
+                    "move": "acid"
+                },
+                {
+                    "level": 25,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 35,
+                    "level": 27,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 40,
-                    "move": "sleep-powder"
+                    "level": 29,
+                    "move": "leech-seed"
                 },
                 {
-                    "level": 46,
+                    "level": 32,
                     "move": "moonlight"
+                },
+                {
+                    "level": 39,
+                    "move": "petal-dance"
                 }
             ],
             "name": "gloom",
@@ -25560,18 +25716,54 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "absorb"
+                },
+                {
+                    "level": 7,
+                    "move": "sweet-scent"
+                },
+                {
+                    "level": 9,
+                    "move": "acid"
+                },
+                {
+                    "level": 13,
+                    "move": "mega-drain"
+                },
+                {
+                    "level": 14,
+                    "move": "poisonpowder"
+                },
+                {
+                    "level": 16,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 18,
+                    "move": "sleep-powder"
+                },
+                {
+                    "level": 23,
+                    "move": "acid"
+                },
+                {
+                    "level": 25,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 47,
+                    "level": 27,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 55,
+                    "level": 29,
+                    "move": "leech-seed"
+                },
+                {
+                    "level": 32,
                     "move": "moonlight"
                 },
                 {
-                    "level": 64,
+                    "level": 39,
                     "move": "petal-dance"
                 }
             ],
@@ -26918,13 +27110,13 @@
             "evolutions": [
                 {
                     "into": "politoed",
-                    "level": 36,
-                    "method": "level"
+                    "item": "kings-rock",
+                    "method": "item"
                 },
                 {
                     "into": "poliwrath",
-                    "item": "water-stone",
-                    "method": "item"
+                    "level": 43,
+                    "method": "level"
                 }
             ],
             "gender": "f50",
@@ -28875,47 +29067,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "scratch"
+                    "move": "peck"
                 },
                 {
-                    "level": 5,
-                    "move": "gust"
-                },
-                {
-                    "level": 9,
-                    "move": "quick-attack"
+                    "level": 7,
+                    "move": "sand-attack"
                 },
                 {
                     "level": 13,
-                    "move": "false-swipe"
+                    "move": "leer"
                 },
                 {
-                    "level": 18,
-                    "move": "slash"
+                    "level": 19,
+                    "move": "fury-attack"
                 },
                 {
                     "level": 23,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 25,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 27,
-                    "move": "steel-wing"
+                    "level": 29,
+                    "move": "razor-leaf"
                 },
                 {
-                    "level": 34,
-                    "move": "submission"
+                    "level": 32,
+                    "move": "slash"
                 },
                 {
-                    "level": 38,
+                    "level": 35,
+                    "move": "drill-peck"
+                },
+                {
+                    "level": 40,
+                    "move": "cross-chop"
+                },
+                {
+                    "level": 51,
                     "move": "sky-attack"
-                },
-                {
-                    "level": 43,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 55,
-                    "move": "aeroblast"
                 }
             ],
             "name": "farfetchd",
@@ -29139,39 +29331,39 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "water-gun"
-                },
-                {
-                    "level": 13,
                     "move": "headbutt"
                 },
                 {
-                    "level": 17,
+                    "level": 5,
+                    "move": "charm"
+                },
+                {
+                    "level": 10,
                     "move": "aurora-beam"
                 },
                 {
-                    "level": 23,
+                    "level": 14,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 29,
-                    "move": "safeguard"
+                    "level": 30,
+                    "move": "encore"
                 },
                 {
-                    "level": 34,
-                    "move": "icy-wind"
+                    "level": 36,
+                    "move": "drill-peck"
                 },
                 {
-                    "level": 39,
-                    "move": "waterfall"
-                },
-                {
-                    "level": 45,
+                    "level": 37,
                     "move": "ice-beam"
                 },
                 {
-                    "level": 53,
-                    "move": "encore"
+                    "level": 48,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 52,
+                    "move": "blizzard"
                 }
             ],
             "name": "seel",
@@ -29220,32 +29412,36 @@
                     "move": "headbutt"
                 },
                 {
-                    "level": 35,
-                    "move": "disable"
+                    "level": 5,
+                    "move": "charm"
                 },
                 {
-                    "level": 39,
-                    "move": "body-slam"
+                    "level": 10,
+                    "move": "aurora-beam"
                 },
                 {
-                    "level": 42,
-                    "move": "waterfall"
+                    "level": 14,
+                    "move": "bubblebeam"
                 },
                 {
-                    "level": 46,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 56,
-                    "move": "icy-wind"
-                },
-                {
-                    "level": 76,
+                    "level": 30,
                     "move": "encore"
                 },
                 {
-                    "level": 100,
-                    "move": "rest"
+                    "level": 36,
+                    "move": "drill-peck"
+                },
+                {
+                    "level": 40,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 50,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 60,
+                    "move": "blizzard"
                 }
             ],
             "name": "dewgong",
@@ -37100,15 +37296,11 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "present"
+                    "move": "sing"
                 },
                 {
                     "level": 1,
-                    "move": "sweet-kiss"
-                },
-                {
-                    "level": 1,
-                    "move": "faint-attack"
+                    "move": "charm"
                 },
                 {
                     "level": 4,
@@ -37116,11 +37308,11 @@
                 },
                 {
                     "level": 9,
-                    "move": "sing"
+                    "move": "pound"
                 },
                 {
                     "level": 14,
-                    "move": "dizzy-punch"
+                    "move": "sweet-kiss"
                 }
             ],
             "name": "igglybuff",
@@ -38089,36 +38281,28 @@
             ],
             "learnset": [
                 {
-                    "level": 36,
-                    "move": "waterfall"
+                    "level": 1,
+                    "move": "bubblebeam"
                 },
                 {
-                    "level": 40,
-                    "move": "ice-beam"
+                    "level": 1,
+                    "move": "hypnosis"
                 },
                 {
-                    "level": 44,
+                    "level": 32,
                     "move": "encore"
                 },
                 {
-                    "level": 48,
-                    "move": "cross-chop"
-                },
-                {
-                    "level": 52,
-                    "move": "lovely-kiss"
-                },
-                {
-                    "level": 56,
+                    "level": 39,
                     "move": "hydro-pump"
                 },
                 {
-                    "level": 62,
-                    "move": "earthquake"
+                    "level": 42,
+                    "move": "perish-song"
                 },
                 {
-                    "level": 73,
-                    "move": "perish-song"
+                    "level": 51,
+                    "move": "swagger"
                 }
             ],
             "name": "politoed",
@@ -49486,53 +49670,6 @@
     },
     {
       "area": "Rocket Hideout",
-      "name": "gruntm-28",
-      "team": [
-        {
-          "name": "golem",
-          "level": 45,
-          "item": "focus-band",
-          "moves": [
-            "explosion"
-          ]
-        },
-        {
-          "name": "beedrill",
-          "level": 44,
-          "item": "brightpowder",
-          "moves": [
-            "focus-energy",
-            "pin-missile",
-            "sludge",
-            "giga-drain"
-          ]
-        },
-        {
-          "name": "flareon",
-          "level": 44,
-          "item": "lum-berry",
-          "moves": [
-            "double-edge",
-            "submission",
-            "shadow-ball",
-            "flame-wheel"
-          ]
-        },
-        {
-          "name": "gyarados",
-          "level": 44,
-          "item": "leftovers",
-          "moves": [
-            "double-edge",
-            "earthquake",
-            "hydro-pump",
-            "fire-blast"
-          ]
-        }
-      ]
-    },
-    {
-      "area": "Rocket Hideout",
       "name": "gruntf-5",
       "team": [
         {
@@ -49577,6 +49714,53 @@
             "earthquake",
             "rock-slide",
             "low-kick"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Rocket Hideout",
+      "name": "gruntm-28",
+      "team": [
+        {
+          "name": "golem",
+          "level": 45,
+          "item": "focus-band",
+          "moves": [
+            "explosion"
+          ]
+        },
+        {
+          "name": "beedrill",
+          "level": 44,
+          "item": "brightpowder",
+          "moves": [
+            "focus-energy",
+            "pin-missile",
+            "sludge",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 44,
+          "item": "lum-berry",
+          "moves": [
+            "double-edge",
+            "submission",
+            "shadow-ball",
+            "flame-wheel"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 44,
+          "item": "leftovers",
+          "moves": [
+            "double-edge",
+            "earthquake",
+            "hydro-pump",
+            "fire-blast"
           ]
         }
       ]
@@ -50000,7 +50184,7 @@
           "moves": [
             "hypnosis",
             "psychic",
-            "flamethrower",
+            "thunderbolt",
             "psywave"
           ]
         }
