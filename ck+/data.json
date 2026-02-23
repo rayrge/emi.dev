@@ -396,45 +396,45 @@
                     "day": [
                         {
                             "chance": 35,
-                            "level": 38,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 35,
-                            "level": 38,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 20,
-                            "level": 38,
-                            "pokemon": "dratini"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 10,
-                            "level": 38,
-                            "pokemon": "dragonair"
+                            "level": 30,
+                            "pokemon": "gyarados"
                         }
                     ],
                     "night": [
                         {
                             "chance": 35,
-                            "level": 38,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 35,
-                            "level": 38,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 20,
-                            "level": 38,
-                            "pokemon": "dratini"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 10,
-                            "level": 38,
-                            "pokemon": "dragonair"
+                            "level": 30,
+                            "pokemon": "gyarados"
                         }
                     ]
                 },
@@ -442,35 +442,35 @@
                     "day": [
                         {
                             "chance": 70,
-                            "level": 5,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 15,
-                            "level": 15,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 15,
-                            "level": 25,
-                            "pokemon": "dratini"
+                            "level": 30,
+                            "pokemon": "magikarp"
                         }
                     ],
                     "night": [
                         {
                             "chance": 70,
-                            "level": 5,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 15,
-                            "level": 15,
-                            "pokemon": "dragonair"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 15,
-                            "level": 25,
-                            "pokemon": "dratini"
+                            "level": 30,
+                            "pokemon": "magikarp"
                         }
                     ]
                 },
@@ -478,45 +478,45 @@
                     "day": [
                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 30,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 20,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         }
                     ],
                     "night": [
                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 30,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 20,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "magikarp"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         }
                     ]
                 }
@@ -9623,106 +9623,106 @@
                             {
                                 "chance": 30,
                                 "level": 38,
-                                "pokemon": "wobbuffet"
+                                "pokemon": "pinsir"
                             },
                             {
                                 "chance": 20,
                                 "level": 38,
-                                "pokemon": "kangaskhan"
+                                "pokemon": "dodrio"
                             },
                             {
                                 "chance": 10,
                                 "level": 38,
-                                "pokemon": "wobbuffet"
+                                "pokemon": "primeape"
                             },
                             {
                                 "chance": 5,
                                 "level": 38,
-                                "pokemon": "azumarill"
+                                "pokemon": "primeape"
                             },
                             {
                                 "chance": 4,
                                 "level": 38,
-                                "pokemon": "wobbuffet"
+                                "pokemon": "yanma"
                             },
                             {
                                 "chance": 1,
                                 "level": 38,
-                                "pokemon": "kangaskhan"
+                                "pokemon": "yanma"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
                                 "level": 38,
-                                "pokemon": "tauros"
+                                "pokemon": "dodrio"
                             },
                             {
                                 "chance": 30,
                                 "level": 38,
-                                "pokemon": "swinub"
+                                "pokemon": "kangaskhan"
                             },
                             {
                                 "chance": 20,
                                 "level": 38,
-                                "pokemon": "tauros"
+                                "pokemon": "pinsir"
                             },
                             {
                                 "chance": 10,
                                 "level": 38,
-                                "pokemon": "swinub"
+                                "pokemon": "tangela"
                             },
                             {
                                 "chance": 5,
                                 "level": 38,
-                                "pokemon": "golduck"
+                                "pokemon": "primeape"
                             },
                             {
                                 "chance": 4,
                                 "level": 38,
-                                "pokemon": "swinub"
+                                "pokemon": "primeape"
                             },
                             {
                                 "chance": 1,
                                 "level": 38,
-                                "pokemon": "swinub"
+                                "pokemon": "primeape"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
                                 "level": 38,
-                                "pokemon": "miltank"
+                                "pokemon": "tangela"
                             },
                             {
                                 "chance": 30,
                                 "level": 38,
-                                "pokemon": "gastly"
+                                "pokemon": "yanma"
                             },
                             {
                                 "chance": 20,
                                 "level": 38,
-                                "pokemon": "miltank"
+                                "pokemon": "pinsir"
                             },
                             {
                                 "chance": 10,
                                 "level": 38,
-                                "pokemon": "haunter"
+                                "pokemon": "pinsir"
                             },
                             {
                                 "chance": 5,
                                 "level": 38,
-                                "pokemon": "azumarill"
+                                "pokemon": "venomoth"
                             },
                             {
                                 "chance": 4,
                                 "level": 38,
-                                "pokemon": "haunter"
+                                "pokemon": "venomoth"
                             },
                             {
                                 "chance": 1,
                                 "level": 38,
-                                "pokemon": "haunter"
+                                "pokemon": "gengar"
                             }
                         ]
                     },
@@ -9732,18 +9732,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 30,
-                            "pokemon": "croconaw"
+                            "level": 31,
+                            "pokemon": "slowpoke"
                         },
                         {
                             "chance": 30,
-                            "level": 30,
-                            "pokemon": "poliwhirl"
+                            "level": 31,
+                            "pokemon": "octillery"
                         },
                         {
                             "chance": 10,
-                            "level": 30,
-                            "pokemon": "poliwhirl"
+                            "level": 32,
+                            "pokemon": "tangela"
                         }
                     ],
                     "type": "surfing"
@@ -9774,112 +9774,112 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "magcargo"
+                                "level": 38,
+                                "pokemon": "farfetchd"
                             },
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "rapidash"
+                                "level": 38,
+                                "pokemon": "dugtrio"
                             },
                             {
                                 "chance": 20,
-                                "level": 39,
-                                "pokemon": "ninetales"
+                                "level": 38,
+                                "pokemon": "electrode"
                             },
                             {
                                 "chance": 10,
-                                "level": 39,
-                                "pokemon": "graveler"
+                                "level": 38,
+                                "pokemon": "murkrow"
                             },
                             {
                                 "chance": 5,
-                                "level": 39,
-                                "pokemon": "houndoom"
+                                "level": 38,
+                                "pokemon": "nidorina"
                             },
                             {
                                 "chance": 4,
-                                "level": 39,
-                                "pokemon": "arcanine"
+                                "level": 38,
+                                "pokemon": "nidorino"
                             },
                             {
                                 "chance": 1,
-                                "level": 39,
-                                "pokemon": "nidoking"
+                                "level": 38,
+                                "pokemon": "nidorino"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "magcargo"
+                                "level": 38,
+                                "pokemon": "farfetchd"
                             },
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "ninetales"
+                                "level": 38,
+                                "pokemon": "electrode"
                             },
                             {
                                 "chance": 20,
-                                "level": 39,
-                                "pokemon": "rapidash"
+                                "level": 38,
+                                "pokemon": "dugtrio"
                             },
                             {
                                 "chance": 10,
-                                "level": 39,
-                                "pokemon": "marowak"
+                                "level": 38,
+                                "pokemon": "murkrow"
                             },
                             {
                                 "chance": 5,
-                                "level": 39,
-                                "pokemon": "arcanine"
+                                "level": 38,
+                                "pokemon": "nidorino"
                             },
                             {
                                 "chance": 4,
-                                "level": 39,
-                                "pokemon": "houndoom"
+                                "level": 38,
+                                "pokemon": "nidorina"
                             },
                             {
                                 "chance": 1,
-                                "level": 39,
-                                "pokemon": "nidoqueen"
+                                "level": 38,
+                                "pokemon": "nidorina"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "houndoom"
+                                "level": 38,
+                                "pokemon": "murkrow"
                             },
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "arcanine"
+                                "level": 38,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 20,
-                                "level": 39,
-                                "pokemon": "rapidash"
+                                "level": 38,
+                                "pokemon": "houndoom"
                             },
                             {
                                 "chance": 10,
-                                "level": 39,
-                                "pokemon": "ninetales"
+                                "level": 38,
+                                "pokemon": "farfetchd"
                             },
                             {
                                 "chance": 5,
-                                "level": 39,
-                                "pokemon": "octillery"
+                                "level": 38,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 4,
-                                "level": 39,
-                                "pokemon": "sneasel"
+                                "level": 38,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 1,
-                                "level": 39,
-                                "pokemon": "dragonair"
+                                "level": 38,
+                                "pokemon": "mr-mime"
                             }
                         ]
                     },
@@ -9889,18 +9889,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 44,
-                            "pokemon": "poliwhirl"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 30,
-                            "level": 44,
-                            "pokemon": "croconaw"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 10,
-                            "level": 44,
-                            "pokemon": "croconaw"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         }
                     ],
                     "type": "surfing"
@@ -15145,18 +15145,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 42,
-                            "pokemon": "dewgong"
+                            "level": 40,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 30,
-                            "level": 43,
-                            "pokemon": "dewgong"
+                            "level": 40,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 10,
-                            "level": 44,
-                            "pokemon": "dewgong"
+                            "level": 50,
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -15183,7 +15183,7 @@
                             "chance": 100,
                             "extra": "Shiny, has 0 14/10 10/10 10 DVs",
                             "level": 30,
-                            "pokemon": "lapras"
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "static"
