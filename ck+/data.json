@@ -4347,112 +4347,112 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 34,
-                                "pokemon": "gligar"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 30,
-                                "level": 34,
-                                "pokemon": "haunter"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 20,
-                                "level": 34,
-                                "pokemon": "houndoom"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
-                                "level": 34,
-                                "pokemon": "swinub"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 5,
-                                "level": 34,
-                                "pokemon": "miltank"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 34,
-                                "pokemon": "forretress"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 1,
-                                "level": 34,
-                                "pokemon": "forretress"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 34,
-                                "pokemon": "gligar"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 30,
-                                "level": 34,
-                                "pokemon": "haunter"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 20,
-                                "level": 34,
-                                "pokemon": "swinub"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 10,
-                                "level": 34,
-                                "pokemon": "houndoom"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 5,
-                                "level": 34,
-                                "pokemon": "miltank"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 34,
-                                "pokemon": "forretress"
+                                "level": 36,
+                                "pokemon": "marowak"
                             },
                             {
                                 "chance": 1,
-                                "level": 34,
-                                "pokemon": "forretress"
+                                "level": 36,
+                                "pokemon": "marowak"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 34,
+                                "level": 36,
                                 "pokemon": "gligar"
                             },
                             {
                                 "chance": 30,
-                                "level": 34,
-                                "pokemon": "haunter"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 20,
-                                "level": 34,
-                                "pokemon": "miltank"
+                                "level": 36,
+                                "pokemon": "marowak"
                             },
                             {
                                 "chance": 10,
-                                "level": 34,
-                                "pokemon": "forretress"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 5,
-                                "level": 34,
-                                "pokemon": "houndoom"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 34,
-                                "pokemon": "swinub"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 1,
-                                "level": 34,
-                                "pokemon": "forretress"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             }
                         ]
                     },
@@ -4462,18 +4462,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 40,
-                            "pokemon": "dewgong"
+                            "level": 35,
+                            "pokemon": "seaking"
                         },
                         {
                             "chance": 30,
-                            "level": 40,
-                            "pokemon": "ledian"
+                            "level": 35,
+                            "pokemon": "tentacruel"
                         },
                         {
                             "chance": 10,
-                            "level": 40,
-                            "pokemon": "lanturn"
+                            "level": 35,
+                            "pokemon": "tangela"
                         }
                     ],
                     "type": "surfing"
@@ -4500,112 +4500,112 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "mr-mime"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "pupitar"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 20,
-                                "level": 39,
-                                "pokemon": "miltank"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
-                                "level": 39,
-                                "pokemon": "tauros"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 5,
-                                "level": 39,
-                                "pokemon": "starmie"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 39,
-                                "pokemon": "magcargo"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 1,
-                                "level": 39,
-                                "pokemon": "jumpluff"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "mr-mime"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "pupitar"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 20,
-                                "level": 39,
-                                "pokemon": "magcargo"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 10,
-                                "level": 39,
-                                "pokemon": "miltank"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 5,
-                                "level": 39,
-                                "pokemon": "tauros"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 39,
-                                "pokemon": "staryu"
+                                "level": 36,
+                                "pokemon": "marowak"
                             },
                             {
                                 "chance": 1,
-                                "level": 39,
-                                "pokemon": "jumpluff"
+                                "level": 36,
+                                "pokemon": "marowak"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "mr-mime"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 30,
-                                "level": 39,
-                                "pokemon": "magcargo"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 20,
-                                "level": 39,
-                                "pokemon": "tauros"
+                                "level": 36,
+                                "pokemon": "marowak"
                             },
                             {
                                 "chance": 10,
-                                "level": 39,
-                                "pokemon": "miltank"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 5,
-                                "level": 39,
-                                "pokemon": "starmie"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 39,
-                                "pokemon": "pupitar"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 1,
-                                "level": 39,
-                                "pokemon": "jumpluff"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             }
                         ]
                     },
@@ -4630,115 +4630,115 @@
             "pools": [
                 {
                     "pool": {
-                        "day": [
+                         "day": [
                             {
                                 "chance": 30,
-                                "level": 42,
-                                "pokemon": "houndoom"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 30,
-                                "level": 42,
-                                "pokemon": "stantler"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 20,
-                                "level": 42,
-                                "pokemon": "pupitar"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
-                                "level": 42,
-                                "pokemon": "sneasel"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 5,
-                                "level": 42,
-                                "pokemon": "magneton"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 42,
-                                "pokemon": "diglett"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 1,
-                                "level": 42,
-                                "pokemon": "kingler"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 42,
-                                "pokemon": "houndoom"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 30,
-                                "level": 42,
-                                "pokemon": "porygon2"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 20,
-                                "level": 42,
-                                "pokemon": "pupitar"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 10,
-                                "level": 42,
-                                "pokemon": "sneasel"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 5,
-                                "level": 42,
-                                "pokemon": "muk"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 42,
-                                "pokemon": "diglett"
+                                "level": 36,
+                                "pokemon": "marowak"
                             },
                             {
                                 "chance": 1,
-                                "level": 42,
-                                "pokemon": "kingler"
+                                "level": 36,
+                                "pokemon": "marowak"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 42,
-                                "pokemon": "houndoom"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 30,
-                                "level": 42,
-                                "pokemon": "kangaskhan"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 20,
-                                "level": 42,
-                                "pokemon": "pupitar"
+                                "level": 36,
+                                "pokemon": "marowak"
                             },
                             {
                                 "chance": 10,
-                                "level": 42,
-                                "pokemon": "sneasel"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 5,
-                                "level": 42,
-                                "pokemon": "sudowoodo"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 42,
-                                "pokemon": "diglett"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 1,
-                                "level": 42,
-                                "pokemon": "kingler"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             }
                         ]
                     },
@@ -4748,17 +4748,17 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 43,
+                            "level": 35,
                             "pokemon": "seadra"
                         },
                         {
                             "chance": 30,
-                            "level": 43,
-                            "pokemon": "misdreavus"
+                            "level": 35,
+                            "pokemon": "muk"
                         },
                         {
                             "chance": 10,
-                            "level": 43,
+                            "level": 35,
                             "pokemon": "tentacruel"
                         }
                     ],
@@ -17219,8 +17219,7 @@
                 }
             ],
             "locations": [
-                "burned-tower-1f",
-                "burned-tower-b1f"
+                "burned-tower"
             ],
             "name": "burned-tower",
             "positions": [
@@ -25826,32 +25825,32 @@
                     "move": "scratch"
                 },
                 {
-                    "level": 4,
+                    "level": 7,
                     "move": "stun-spore"
                 },
                 {
-                    "level": 7,
-                    "move": "mega-drain"
+                    "level": 13,
+                    "move": "poisonpowder"
                 },
                 {
-                    "level": 10,
-                    "move": "toxic"
+                    "level": 19,
+                    "move": "leech-life"
                 },
                 {
-                    "level": 14,
-                    "move": "body-slam"
+                    "level": 21,
+                    "move": "spore"
                 },
                 {
-                    "level": 18,
-                    "move": "giga-drain"
+                    "level": 31,
+                    "move": "slash"
                 },
                 {
-                    "level": 22,
+                    "level": 37,
                     "move": "fury-cutter"
                 },
                 {
-                    "level": 25,
-                    "move": "spore"
+                    "level": 43,
+                    "move": "giga-drain"
                 }
             ],
             "name": "paras",
@@ -25909,40 +25908,32 @@
                     "move": "scratch"
                 },
                 {
-                    "level": 14,
-                    "move": "body-slam"
+                    "level": 7,
+                    "move": "stun-spore"
                 },
                 {
-                    "level": 18,
-                    "move": "giga-drain"
+                    "level": 13,
+                    "move": "poisonpowder"
                 },
                 {
-                    "level": 25,
-                    "move": "spore"
-                },
-                {
-                    "level": 28,
+                    "level": 19,
                     "move": "leech-life"
                 },
                 {
-                    "level": 30,
-                    "move": "toxic"
-                },
-                {
-                    "level": 33,
-                    "move": "synthesis"
-                },
-                {
-                    "level": 36,
-                    "move": "giga-drain"
-                },
-                {
-                    "level": 39,
+                    "level": 21,
                     "move": "spore"
                 },
                 {
-                    "level": 42,
-                    "move": "sludge-bomb"
+                    "level": 31,
+                    "move": "slash"
+                },
+                {
+                    "level": 37,
+                    "move": "fury-cutter"
+                },
+                {
+                    "level": 43,
+                    "move": "giga-drain"
                 }
             ],
             "name": "parasect",
@@ -26000,39 +25991,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confusion"
-                },
-                {
-                    "level": 6,
-                    "move": "mega-drain"
-                },
-                {
-                    "level": 11,
                     "move": "psybeam"
                 },
                 {
-                    "level": 15,
-                    "move": "sludge"
+                    "level": 1,
+                    "move": "disable"
                 },
                 {
-                    "level": 18,
-                    "move": "night-shade"
+                    "level": 9,
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 21,
-                    "move": "toxic"
+                    "level": 12,
+                    "move": "acid"
                 },
                 {
-                    "level": 24,
-                    "move": "protect"
+                    "level": 20,
+                    "move": "poisonpowder"
+                },
+                {
+                    "level": 25,
+                    "move": "leech-life"
                 },
                 {
                     "level": 27,
+                    "move": "moonlight"
+                },
+                {
+                    "level": 28,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 32,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 30,
-                    "move": "morning-sun"
+                    "level": 35,
+                    "move": "psychic"
+                },
+                {
+                    "level": 36,
+                    "move": "sleep-powder"
                 }
             ],
             "name": "venonat",
@@ -26079,47 +26078,51 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "night-shade"
+                    "move": "psybeam"
                 },
                 {
                     "level": 1,
-                    "move": "toxic"
+                    "move": "disable"
                 },
                 {
-                    "level": 1,
-                    "move": "protect"
+                    "level": 9,
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 1,
+                    "level": 12,
+                    "move": "acid"
+                },
+                {
+                    "level": 19,
+                    "move": "wing-attack"
+                },
+                {
+                    "level": 22,
+                    "move": "poisonpowder"
+                },
+                {
+                    "level": 26,
+                    "move": "leech-life"
+                },
+                {
+                    "level": 27,
+                    "move": "moonlight"
+                },
+                {
+                    "level": 28,
+                    "move": "stun-spore"
+                },
+                {
+                    "level": 32,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 34,
-                    "move": "morning-sun"
-                },
-                {
-                    "level": 37,
+                    "level": 38,
                     "move": "psychic"
                 },
                 {
-                    "level": 50,
-                    "move": "sludge-bomb"
-                },
-                {
-                    "level": 60,
-                    "move": "toxic"
-                },
-                {
-                    "level": 60,
-                    "move": "protect"
-                },
-                {
-                    "level": 60,
-                    "move": "sludge-bomb"
-                },
-                {
-                    "level": 60,
-                    "move": "morning-sun"
+                    "level": 45,
+                    "move": "sleep-powder"
                 }
             ],
             "name": "venomoth",
@@ -36668,59 +36671,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "sludge"
+                    "move": "poison-sting"
                 },
                 {
-                    "level": 7,
-                    "move": "mega-drain"
-                },
-                {
-                    "level": 13,
-                    "move": "night-shade"
-                },
-                {
-                    "level": 16,
-                    "move": "toxic"
-                },
-                {
-                    "level": 19,
-                    "move": "disable"
-                },
-                {
-                    "level": 22,
+                    "level": 1,
                     "move": "string-shot"
                 },
                 {
-                    "level": 23,
+                    "level": 6,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 11,
                     "move": "toxic"
                 },
                 {
-                    "level": 23,
-                    "move": "giga-drain"
+                    "level": 17,
+                    "move": "night-shade"
                 },
                 {
-                    "level": 25,
-                    "move": "psychic"
-                },
-                {
-                    "level": 27,
+                    "level": 20,
                     "move": "leech-life"
                 },
                 {
-                    "level": 31,
+                    "level": 22,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 36,
-                    "move": "shadow-ball"
+                    "level": 37,
+                    "move": "spider-web"
                 },
                 {
-                    "level": 46,
-                    "move": "megahorn"
+                    "level": 45,
+                    "move": "psychic"
                 },
                 {
-                    "level": 57,
-                    "move": "agility"
+                    "level": 51,
+                    "move": "sludge"
                 }
             ],
             "name": "spinarak",
@@ -36767,39 +36754,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "mega-drain"
+                    "move": "poison-sting"
                 },
                 {
-                    "level": 23,
+                    "level": 1,
+                    "move": "string-shot"
+                },
+                {
+                    "level": 6,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 11,
                     "move": "toxic"
                 },
                 {
-                    "level": 23,
-                    "move": "giga-drain"
+                    "level": 17,
+                    "move": "night-shade"
                 },
                 {
-                    "level": 25,
-                    "move": "psychic"
-                },
-                {
-                    "level": 27,
+                    "level": 20,
                     "move": "leech-life"
                 },
                 {
-                    "level": 33,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 37,
+                    "level": 22,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 43,
-                    "move": "megahorn"
+                    "level": 37,
+                    "move": "spider-web"
                 },
                 {
-                    "level": 50,
-                    "move": "agility"
+                    "level": 45,
+                    "move": "psychic"
+                },
+                {
+                    "level": 51,
+                    "move": "sludge"
+                },
+                {
+                    "level": 53,
+                    "move": "megahorn"
                 }
             ],
             "name": "ariados",
@@ -38874,47 +38869,51 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confuse-ray"
+                    "move": "quick-attack"
                 },
                 {
-                    "level": 6,
-                    "move": "hypnosis"
+                    "level": 1,
+                    "move": "foresight"
                 },
                 {
-                    "level": 10,
+                    "level": 7,
+                    "move": "sonicboom"
+                },
+                {
+                    "level": 13,
+                    "move": "double-team"
+                },
+                {
+                    "level": 19,
                     "move": "leech-life"
                 },
                 {
-                    "level": 15,
-                    "move": "giga-drain"
-                },
-                {
-                    "level": 18,
+                    "level": 21,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 24,
-                    "move": "toxic"
+                    "level": 25,
+                    "move": "detect"
                 },
                 {
-                    "level": 28,
-                    "move": "hidden-power"
+                    "level": 31,
+                    "move": "giga-drain"
                 },
                 {
-                    "level": 32,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 38,
-                    "move": "protect"
-                },
-                {
-                    "level": 45,
-                    "move": "sky-attack"
-                },
-                {
-                    "level": 52,
+                    "level": 36,
                     "move": "ancientpower"
+                },
+                {
+                    "level": 37,
+                    "move": "faint-attack"
+                },
+                {
+                    "level": 43,
+                    "move": "screech"
+                },
+                {
+                    "level": 54,
+                    "move": "sky-attack"
                 }
             ],
             "name": "yanma",
@@ -39796,35 +39795,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "pin-missile"
+                    "move": "take-down"
                 },
                 {
-                    "level": 9,
-                    "move": "tackle"
+                    "level": 1,
+                    "move": "protect"
                 },
                 {
-                    "level": 14,
-                    "move": "headbutt"
-                },
-                {
-                    "level": 28,
+                    "level": 11,
                     "move": "selfdestruct"
                 },
                 {
-                    "level": 32,
-                    "move": "double-edge"
+                    "level": 15,
+                    "move": "pin-missile"
                 },
                 {
-                    "level": 38,
-                    "move": "light-screen"
+                    "level": 22,
+                    "move": "rapid-spin"
+                },
+                {
+                    "level": 29,
+                    "move": "bide"
+                },
+                {
+                    "level": 33,
+                    "move": "explosion"
+                },
+                {
+                    "level": 37,
+                    "move": "earthquake"
                 },
                 {
                     "level": 43,
-                    "move": "rock-slide"
+                    "move": "spikes"
                 },
                 {
-                    "level": 54,
-                    "move": "earthquake"
+                    "level": 50,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 52,
+                    "move": "baton-pass"
                 }
             ],
             "name": "pineco",
@@ -39871,35 +39882,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "pin-missile"
+                    "move": "take-down"
                 },
                 {
-                    "level": 29,
+                    "level": 1,
+                    "move": "protect"
+                },
+                {
+                    "level": 11,
                     "move": "selfdestruct"
                 },
                 {
-                    "level": 35,
-                    "move": "double-edge"
+                    "level": 15,
+                    "move": "pin-missile"
                 },
                 {
-                    "level": 41,
-                    "move": "light-screen"
-                },
-                {
-                    "level": 42,
-                    "move": "rock-slide"
-                },
-                {
-                    "level": 57,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 67,
+                    "level": 22,
                     "move": "rapid-spin"
                 },
                 {
-                    "level": 99,
+                    "level": 29,
+                    "move": "bide"
+                },
+                {
+                    "level": 34,
                     "move": "explosion"
+                },
+                {
+                    "level": 35,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 38,
+                    "move": "body-slam"
+                },
+                {
+                    "level": 49,
+                    "move": "spikes"
+                },
+                {
+                    "level": 51,
+                    "move": "barrier"
+                },
+                {
+                    "level": 59,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 60,
+                    "move": "baton-pass"
                 }
             ],
             "name": "forretress",
@@ -40625,23 +40656,39 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "sandstorm"
+                    "move": "constrict"
                 },
                 {
                     "level": 1,
+                    "move": "withdraw"
+                },
+                {
+                    "level": 9,
                     "move": "wrap"
                 },
                 {
-                    "level": 1,
+                    "level": 14,
+                    "move": "encore"
+                },
+                {
+                    "level": 20,
+                    "move": "disable"
+                },
+                {
+                    "level": 22,
                     "move": "string-shot"
                 },
                 {
-                    "level": 1,
+                    "level": 23,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 28,
                     "move": "bide"
                 },
                 {
-                    "level": 30,
-                    "move": "disable"
+                    "level": 37,
+                    "move": "sweet-kiss"
                 }
             ],
             "name": "shuckle",
@@ -40693,43 +40740,39 @@
                     "move": "tackle"
                 },
                 {
-                    "level": 13,
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 16,
                     "move": "horn-attack"
                 },
                 {
-                    "level": 18,
-                    "move": "rock-smash"
+                    "level": 12,
+                    "move": "endure"
                 },
                 {
-                    "level": 24,
+                    "level": 19,
                     "move": "fury-cutter"
                 },
                 {
-                    "level": 31,
-                    "move": "wing-attack"
-                },
-                {
-                    "level": 37,
+                    "level": 27,
                     "move": "counter"
                 },
                 {
-                    "level": 44,
-                    "move": "counter"
-                },
-                {
-                    "level": 51,
+                    "level": 35,
                     "move": "vital-throw"
                 },
                 {
-                    "level": 57,
-                    "move": "rock-slide"
+                    "level": 40,
+                    "move": "wing-attack"
                 },
                 {
-                    "level": 68,
+                    "level": 54,
                     "move": "submission"
                 },
                 {
-                    "level": 74,
+                    "level": 64,
                     "move": "megahorn"
                 }
             ],
