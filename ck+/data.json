@@ -25808,7 +25808,7 @@
             "evolutions": [
                 {
                     "into": "parasect",
-                    "level": 24,
+                    "level": 19,
                     "method": "level"
                 }
             ],
@@ -25982,7 +25982,7 @@
             "evolutions": [
                 {
                     "into": "venomoth",
-                    "level": 29,
+                    "level": 19,
                     "method": "level"
                 }
             ],
@@ -36662,7 +36662,7 @@
             "evolutions": [
                 {
                     "into": "ariados",
-                    "level": 22,
+                    "level": 19,
                     "method": "level"
                 }
             ],
@@ -39786,7 +39786,7 @@
             "evolutions": [
                 {
                     "into": "forretress",
-                    "level": 31,
+                    "level": 29,
                     "method": "level"
                 }
             ],
