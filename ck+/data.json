@@ -39146,43 +39146,51 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confusion"
+                    "move": "quick-attack"
                 },
                 {
                     "level": 1,
-                    "move": "psywave"
+                    "move": "growl"
                 },
                 {
-                    "level": 20,
-                    "move": "psybeam"
+                    "level": 5,
+                    "move": "sand-attack"
                 },
                 {
-                    "level": 27,
+                    "level": 15,
                     "move": "bite"
                 },
                 {
+                    "level": 22,
+                    "move": "swift"
+                },
+                {
+                    "level": 29,
+                    "move": "psybeam"
+                },
+                {
                     "level": 33,
-                    "move": "shadow-ball"
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 39,
-                    "move": "crunch"
-                },
-                {
-                    "level": 44,
+                    "level": 37,
                     "move": "psychic"
                 },
                 {
-                    "level": 52,
+                    "level": 41,
                     "move": "morning-sun"
                 },
                 {
-                    "level": 59,
-                    "move": "encore"
+                    "level": 45,
+                    "move": "solarbeam"
                 },
                 {
-                    "level": 100,
-                    "move": "growth"
+                    "level": 49,
+                    "move": "future-sight"
+                },
+                {
+                    "level": 52,
+                    "move": "detect"
                 }
             ],
             "name": "espeon",
@@ -39236,35 +39244,51 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confuse-ray"
+                    "move": "quick-attack"
                 },
                 {
-                    "level": 20,
-                    "move": "body-slam"
+                    "level": 1,
+                    "move": "growl"
                 },
                 {
-                    "level": 35,
+                    "level": 5,
+                    "move": "sand-attack"
+                },
+                {
+                    "level": 15,
                     "move": "bite"
                 },
                 {
-                    "level": 39,
-                    "move": "confuse-ray"
+                    "level": 22,
+                    "move": "swift"
                 },
                 {
-                    "level": 44,
-                    "move": "crunch"
+                    "level": 29,
+                    "move": "body-slam"
                 },
                 {
-                    "level": 55,
+                    "level": 33,
+                    "move": "faint-attack"
+                },
+                {
+                    "level": 37,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 78,
-                    "move": "mean-look"
+                    "level": 41,
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 85,
+                    "level": 45,
+                    "move": "crunch"
+                },
+                {
+                    "level": 49,
                     "move": "moonlight"
+                },
+                {
+                    "level": 52,
+                    "move": "screech"
                 }
             ],
             "name": "umbreon",
@@ -39320,44 +39344,52 @@
                     "move": "peck"
                 },
                 {
-                    "level": 7,
-                    "move": "night-shade"
-                },
-                {
-                    "level": 12,
+                    "level": 11,
                     "move": "pursuit"
                 },
                 {
-                    "level": 18,
-                    "move": "faint-attack"
-                },
-                {
-                    "level": 24,
-                    "move": "wing-attack"
-                },
-                {
-                    "level": 28,
+                    "level": 16,
                     "move": "haze"
                 },
                 {
-                    "level": 33,
+                    "level": 23,
+                    "move": "vital-throw"
+                },
+                {
+                    "level": 26,
+                    "move": "night-shade"
+                },
+                {
+                    "level": 28,
+                    "move": "wing-attack"
+                },
+                {
+                    "level": 31,
+                    "move": "faint-attack"
+                },
+                {
+                    "level": 39,
                     "move": "drill-peck"
                 },
                 {
-                    "level": 37,
-                    "move": "shadow-ball"
+                    "level": 41,
+                    "move": "mean-look"
                 },
                 {
-                    "level": 44,
-                    "move": "sky-attack"
+                    "level": 49,
+                    "move": "destiny-bond"
                 },
                 {
                     "level": 52,
                     "move": "crunch"
+                }
+                {
+                    "level": 55,
+                    "move": "perish-song"
                 },
                 {
-                    "level": 60,
-                    "move": "perish-song"
+                    "level": 61,
+                    "move": "sky-attack"
                 }
             ],
             "name": "murkrow",
@@ -40826,35 +40858,51 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "fury-swipes"
-                },
-                {
-                    "level": 13,
-                    "move": "faint-attack"
-                },
-                {
-                    "level": 22,
-                    "move": "ice-punch"
-                },
-                {
-                    "level": 30,
-                    "move": "beat-up"
-                },
-                {
-                    "level": 38,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 46,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 55,
                     "move": "metal-claw"
                 },
                 {
-                    "level": 64,
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 9,
+                    "move": "faint-attack"
+                },
+                {
+                    "level": 12,
+                    "move": "icy-wind"
+                },
+                {
+                    "level": 15,
+                    "move": "slash"
+                },
+                {
+                    "level": 28,
                     "move": "screech"
+                },
+                {
+                    "level": 31,
+                    "move": "low-kick"
+                },
+                {
+                    "level": 38,
+                    "move": "iron-tail"
+                },
+                {
+                    "level": 41,
+                    "move": "cross-chop"
+                },
+                {
+                    "level": 44,
+                    "move": "crunch"
+                },
+                {
+                    "level": 49,
+                    "move": "powder-snow"
+                },
+                {
+                    "level": 56,
+                    "move": "ice-beam"
                 }
             ],
             "name": "sneasel",
@@ -41921,7 +41969,7 @@
             "evolutions": [
                 {
                     "into": "houndoom",
-                    "level": 30,
+                    "level": 27,
                     "method": "level"
                 }
             ],
@@ -41930,47 +41978,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "smog"
+                    "move": "leer"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
                     "move": "ember"
                 },
                 {
-                    "level": 13,
-                    "move": "pursuit"
-                },
-                {
-                    "level": 17,
+                    "level": 7,
                     "move": "bite"
                 },
                 {
-                    "level": 25,
+                    "level": 13,
+                    "move": "smog"
+                },
+                {
+                    "level": 16,
                     "move": "flame-wheel"
                 },
                 {
-                    "level": 29,
+                    "level": 20,
                     "move": "roar"
                 },
                 {
-                    "level": 33,
-                    "move": "quick-attack"
+                    "level": 27,
+                    "move": "faint-attack"
                 },
                 {
-                    "level": 37,
+                    "level": 35,
                     "move": "flamethrower"
                 },
                 {
-                    "level": 48,
+                    "level": 43,
                     "move": "crunch"
                 },
                 {
-                    "level": 67,
-                    "move": "fire-blast"
+                    "level": 48,
+                    "move": "sludge-bomb"
                 },
                 {
-                    "level": 99,
-                    "move": "return"
+                    "level": 55,
+                    "move": "fire-blast"
                 }
             ],
             "name": "houndour",
@@ -42025,27 +42073,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "flame-wheel"
+                    "move": "leer"
                 },
                 {
                     "level": 1,
+                    "move": "ember"
+                },
+                {
+                    "level": 7,
                     "move": "bite"
                 },
                 {
-                    "level": 43,
+                    "level": 13,
+                    "move": "smog"
+                },
+                {
+                    "level": 16,
+                    "move": "flame-wheel"
+                },
+                {
+                    "level": 20,
+                    "move": "roar"
+                },
+                {
+                    "level": 27,
+                    "move": "faint-attack"
+                },
+                {
+                    "level": 35,
                     "move": "flamethrower"
                 },
                 {
-                    "level": 53,
+                    "level": 43,
                     "move": "crunch"
                 },
                 {
-                    "level": 67,
-                    "move": "fire-blast"
+                    "level": 48,
+                    "move": "sludge-bomb"
                 },
                 {
-                    "level": 99,
-                    "move": "return"
+                    "level": 55,
+                    "move": "fire-blast"
                 }
             ],
             "name": "houndoom",
