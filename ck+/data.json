@@ -26883,8 +26883,8 @@
             "evolutions": [
                 {
                     "into": "arcanine",
-                    "item": "fire-stone",
-                    "method": "item"
+                    "level": 32,
+                    "method": "level"
                 }
             ],
             "gender": "f25",
@@ -26897,27 +26897,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "ember"
-                },
-                {
-                    "level": 6,
-                    "move": "headbutt"
-                },
-                {
-                    "level": 11,
                     "move": "bite"
                 },
                 {
-                    "level": 16,
-                    "move": "take-down"
+                    "level": 1,
+                    "move": "roar"
                 },
                 {
-                    "level": 24,
+                    "level": 9,
+                    "move": "ember"
+                },
+                {
+                    "level": 11,
+                    "move": "growl"
+                },
+                {
+                    "level": 16,
                     "move": "flame-wheel"
                 },
                 {
-                    "level": 36,
+                    "level": 26,
+                    "move": "crunch"
+                },
+                {
+                    "level": 34,
+                    "move": "spark"
+                },
+                {
+                    "level": 42,
                     "move": "flamethrower"
+                },
+                {
+                    "level": 45,
+                    "move": "morning-sun"
+                },
+                {
+                    "level": 59,
+                    "move": "fire-blast"
                 }
             ],
             "name": "growlithe",
@@ -26970,27 +26986,55 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "bite"
+                },
+                {
+                    "level": 1,
+                    "move": "roar"
+                },
+                {
+                    "level": 9,
                     "move": "ember"
                 },
                 {
-                    "level": 39,
+                    "level": 11,
+                    "move": "growl"
+                },
+                {
+                    "level": 16,
+                    "move": "flame-wheel"
+                },
+                {
+                    "level": 26,
                     "move": "crunch"
                 },
                 {
-                    "level": 45,
+                    "level": 34,
+                    "move": "spark"
+                },
+                {
+                    "level": 42,
                     "move": "flamethrower"
                 },
                 {
-                    "level": 53,
-                    "move": "iron-tail"
+                    "level": 45,
+                    "move": "morning-sun"
                 },
                 {
-                    "level": 59,
+                    "level": 50,
+                    "move": "ancientpower"
+                },
+                {
+                    "level": 52,
                     "move": "extremespeed"
                 },
                 {
+                    "level": 66,
+                    "move": "fire-blast"
+                },
+                {
                     "level": 68,
-                    "move": "morning-sun"
+                    "move": "solarbeam"
                 }
             ],
             "name": "arcanine",
@@ -31790,7 +31834,7 @@
             "evolutions": [
                 {
                     "into": "blissey",
-                    "level": 90,
+                    "level": 55,
                     "method": "level"
                 }
             ],
@@ -31823,7 +31867,7 @@
             "pokedex": 113,
             "stats": {
                 "atk": 5,
-                "def": 35,
+                "def": 5,
                 "hp": 250,
                 "spa": 35,
                 "spd": 105,
@@ -41144,7 +41188,7 @@
             "evolutions": [
                 {
                     "into": "magcargo",
-                    "level": 30,
+                    "level": 16,
                     "method": "level"
                 }
             ],
@@ -41153,47 +41197,35 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "smog"
+                },
+                {
+                    "level": 8,
                     "move": "ember"
                 },
                 {
-                    "level": 7,
+                    "level": 15,
                     "move": "rock-throw"
                 },
                 {
-                    "level": 14,
+                    "level": 22,
                     "move": "flame-wheel"
                 },
                 {
-                    "level": 20,
-                    "move": "rock-slide"
-                },
-                {
-                    "level": 27,
-                    "move": "flamethrower"
-                },
-                {
-                    "level": 30,
+                    "level": 29,
                     "move": "recover"
                 },
                 {
-                    "level": 45,
-                    "move": "fire-blast"
+                    "level": 36,
+                    "move": "flamethrower"
                 },
                 {
-                    "level": 49,
-                    "move": "rapid-spin"
+                    "level": 43,
+                    "move": "rock-slide"
                 },
                 {
-                    "level": 57,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 64,
-                    "move": "ancientpower"
-                },
-                {
-                    "level": 72,
-                    "move": "explosion"
+                    "level": 50,
+                    "move": "giga-drain"
                 }
             ],
             "name": "slugma",
@@ -41238,43 +41270,35 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "smog"
+                },
+                {
+                    "level": 8,
                     "move": "ember"
                 },
                 {
-                    "level": 21,
-                    "move": "rock-slide"
+                    "level": 15,
+                    "move": "rock-throw"
                 },
                 {
-                    "level": 31,
-                    "move": "flamethrower"
+                    "level": 22,
+                    "move": "flame-wheel"
                 },
                 {
-                    "level": 37,
+                    "level": 29,
                     "move": "recover"
                 },
                 {
-                    "level": 45,
-                    "move": "fire-blast"
+                    "level": 36,
+                    "move": "flamethrower"
                 },
                 {
-                    "level": 49,
-                    "move": "rapid-spin"
+                    "level": 43,
+                    "move": "rock-slide"
                 },
                 {
-                    "level": 57,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 64,
-                    "move": "ancientpower"
-                },
-                {
-                    "level": 72,
-                    "move": "amnesia"
-                },
-                {
-                    "level": 85,
-                    "move": "explosion"
+                    "level": 50,
+                    "move": "giga-drain"
                 }
             ],
             "name": "magcargo",
@@ -43243,10 +43267,10 @@
             "name": "blissey",
             "pokedex": 242,
             "stats": {
-                "atk": 5,
-                "def": 40,
+                "atk": 10,
+                "def": 10,
                 "hp": 255,
-                "spa": 40,
+                "spa": 75,
                 "spd": 135,
                 "spe": 55
             },
