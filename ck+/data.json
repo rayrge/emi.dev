@@ -28293,19 +28293,43 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "tackle"
+                },
+                {
+                    "level": 6,
+                    "move": "defense-curl"
+                },
+                {
+                    "level": 11,
                     "move": "rock-throw"
                 },
                 {
-                    "level": 7,
-                    "move": "mud-slap"
-                },
-                {
-                    "level": 14,
+                    "level": 16,
                     "move": "magnitude"
                 },
                 {
-                    "level": 26,
+                    "level": 21,
                     "move": "selfdestruct"
+                },
+                {
+                    "level": 26,
+                    "move": "body-slam"
+                },
+                {
+                    "level": 28,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 31,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 36,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 41,
+                    "move": "explosion"
                 }
             ],
             "name": "geodude",
@@ -28356,7 +28380,7 @@
             "evolutions": [
                 {
                     "into": "golem",
-                    "level": 42,
+                    "level": 41,
                     "method": "level"
                 }
             ],
@@ -28370,23 +28394,43 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "tackle"
+                },
+                {
+                    "level": 6,
+                    "move": "defense-curl"
+                },
+                {
+                    "level": 11,
+                    "move": "rock-throw"
+                },
+                {
+                    "level": 16,
+                    "move": "magnitude"
+                },
+                {
+                    "level": 21,
                     "move": "selfdestruct"
                 },
                 {
-                    "level": 25,
+                    "level": 28,
                     "move": "body-slam"
                 },
                 {
-                    "level": 31,
+                    "level": 33,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 35,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 55,
+                    "level": 40,
                     "move": "earthquake"
                 },
                 {
-                    "level": 60,
-                    "move": "ancientpower"
+                    "level": 46,
+                    "move": "explosion"
                 }
             ],
             "name": "graveler",
@@ -28444,27 +28488,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "earthquake"
+                    "move": "tackle"
                 },
                 {
-                    "level": 1,
-                    "move": "rock-slide"
+                    "level": 6,
+                    "move": "defense-curl"
                 },
                 {
-                    "level": 1,
+                    "level": 11,
+                    "move": "rock-throw"
+                },
+                {
+                    "level": 16,
+                    "move": "magnitude"
+                },
+                {
+                    "level": 21,
+                    "move": "selfdestruct"
+                },
+                {
+                    "level": 28,
                     "move": "body-slam"
                 },
                 {
-                    "level": 56,
+                    "level": 33,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 35,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 40,
                     "move": "earthquake"
                 },
                 {
-                    "level": 60,
-                    "move": "ancientpower"
+                    "level": 46,
+                    "move": "explosion"
                 },
                 {
-                    "level": 99,
-                    "move": "explosion"
+                    "level": 49,
+                    "move": "submission"
                 }
             ],
             "name": "golem",
@@ -31669,36 +31733,40 @@
                     "move": "horn-attack"
                 },
                 {
+                    "level": 1,
+                    "move": "magnitude"
+                },
+                {
+                    "level": 8,
+                    "move": "stomp"
+                },
+                {
                     "level": 13,
                     "move": "rock-throw"
                 },
                 {
-                    "level": 18,
-                    "move": "magnitude"
+                    "level": 19,
+                    "move": "headbutt"
                 },
                 {
-                    "level": 27,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 34,
+                    "level": 22,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 42,
+                    "level": 33,
+                    "move": "horn-drill"
+                },
+                {
+                    "level": 41,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 46,
                     "move": "earthquake"
                 },
                 {
-                    "level": 47,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 56,
+                    "level": 49,
                     "move": "megahorn"
-                },
-                {
-                    "level": 74,
-                    "move": "ancientpower"
                 }
             ],
             "name": "rhyhorn",
@@ -31754,25 +31822,45 @@
             "gender": "f50",
             "items": [],
             "learnset": [
-                {
+               {
                     "level": 1,
                     "move": "horn-attack"
                 },
                 {
-                    "level": 42,
+                    "level": 1,
+                    "move": "magnitude"
+                },
+                {
+                    "level": 8,
+                    "move": "stomp"
+                },
+                {
+                    "level": 13,
+                    "move": "rock-throw"
+                },
+                {
+                    "level": 19,
+                    "move": "headbutt"
+                },
+                {
+                    "level": 22,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 33,
+                    "move": "horn-drill"
+                },
+                {
+                    "level": 41,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 46,
                     "move": "earthquake"
                 },
                 {
-                    "level": 47,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 56,
+                    "level": 49,
                     "move": "megahorn"
-                },
-                {
-                    "level": 74,
-                    "move": "ancientpower"
                 }
             ],
             "name": "rhydon",
@@ -34005,7 +34093,7 @@
             "evolutions": [
                 {
                     "into": "omastar",
-                    "level": 40,
+                    "level": 38,
                     "method": "level"
                 }
             ],
@@ -34014,27 +34102,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "water-gun"
+                    "move": "bubble"
                 },
                 {
-                    "level": 8,
+                    "level": 1,
+                    "move": "harden"
+                },
+                {
+                    "level": 9,
                     "move": "aurora-beam"
                 },
                 {
-                    "level": 16,
-                    "move": "rock-slide"
-                },
-                {
-                    "level": 20,
+                    "level": 11,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 29,
-                    "move": "surf"
+                    "level": 14,
+                    "move": "rock-slide"
                 },
                 {
-                    "level": 36,
+                    "level": 22,
+                    "move": "crunch"
+                },
+                {
+                    "level": 28,
+                    "move": "protect"
+                },
+                {
+                    "level": 37,
+                    "move": "giga-drain"
+                },
+                {
+                    "level": 46,
                     "move": "ice-beam"
+                },
+                {
+                    "level": 55,
+                    "move": "ancientpower"
+                },
+                {
+                    "level": 62,
+                    "move": "spikes"
                 }
             ],
             "name": "omanyte",
@@ -34084,7 +34192,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "scratch"
+                    "move": "bubble"
                 },
                 {
                     "level": 1,
@@ -34092,31 +34200,31 @@
                 },
                 {
                     "level": 9,
-                    "move": "mega-drain"
+                    "move": "aurora-beam"
                 },
                 {
-                    "level": 9,
+                    "level": 11,
                     "move": "bubblebeam"
                 },
                 {
                     "level": 14,
-                    "move": "rock-throw"
-                },
-                {
-                    "level": 22,
-                    "move": "dig"
-                },
-                {
-                    "level": 28,
-                    "move": "slash"
-                },
-                {
-                    "level": 37,
                     "move": "rock-slide"
                 },
                 {
+                    "level": 22,
+                    "move": "crunch"
+                },
+                {
+                    "level": 28,
+                    "move": "protect"
+                },
+                {
+                    "level": 37,
+                    "move": "giga-drain"
+                },
+                {
                     "level": 46,
-                    "move": "fury-cutter"
+                    "move": "ice-beam"
                 },
                 {
                     "level": 55,
@@ -34124,7 +34232,7 @@
                 },
                 {
                     "level": 62,
-                    "move": "crabhammer"
+                    "move": "spikes"
                 }
             ],
             "name": "omastar",
@@ -34173,7 +34281,7 @@
             "evolutions": [
                 {
                     "into": "kabutops",
-                    "level": 40,
+                    "level": 38,
                     "method": "level"
                 }
             ],
@@ -34193,7 +34301,7 @@
                     "move": "mega-drain"
                 },
                 {
-                    "level": 9,
+                    "level": 11,
                     "move": "bubblebeam"
                 },
                 {
@@ -34270,15 +34378,47 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "scratch"
+                },
+                {
+                    "level": 1,
+                    "move": "harden"
+                },
+                {
+                    "level": 9,
+                    "move": "mega-drain"
+                },
+                {
+                    "level": 11,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 46,
-                    "move": "earthquake"
+                    "level": 14,
+                    "move": "rock-throw"
                 },
                 {
-                    "level": 66,
+                    "level": 22,
+                    "move": "dig"
+                },
+                {
+                    "level": 28,
+                    "move": "slash"
+                },
+                {
+                    "level": 37,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 46,
+                    "move": "fury-cutter"
+                },
+                {
+                    "level": 55,
                     "move": "ancientpower"
+                },
+                {
+                    "level": 62,
+                    "move": "crabhammer"
                 }
             ],
             "name": "kabutops",
@@ -34332,27 +34472,35 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "rock-throw"
-                },
-                {
-                    "level": 1,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 45,
+                    "level": 8,
+                    "move": "supersonic"
+                },
+                {
+                    "level": 15,
+                    "move": "bite"
+                },
+                {
+                    "level": 22,
+                    "move": "screech"
+                },
+                {
+                    "level": 39,
+                    "move": "ancientpower"
+                },
+                {
+                    "level": 46,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 53,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 78,
-                    "move": "fire-blast"
-                },
-                {
-                    "level": 85,
-                    "move": "crunch"
-                },
-                {
-                    "level": 100,
-                    "move": "scary-face"
+                    "level": 75,
+                    "move": "hyper-beam"
                 }
             ],
             "name": "aerodactyl",
@@ -38229,40 +38377,32 @@
                     "move": "rock-throw"
                 },
                 {
+                    "level": 1,
+                    "move": "mimic"
+                },
+                {
                     "level": 10,
+                    "move": "flail"
+                },
+                {
+                    "level": 19,
                     "move": "low-kick"
                 },
                 {
-                    "level": 14,
-                    "move": "slam"
-                },
-                {
-                    "level": 18,
-                    "move": "rollout"
-                },
-                {
-                    "level": 25,
+                    "level": 28,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 28,
-                    "move": "submission"
-                },
-                {
-                    "level": 31,
+                    "level": 37,
                     "move": "earthquake"
                 },
                 {
-                    "level": 37,
-                    "move": "hi-jump-kick"
+                    "level": 46,
+                    "move": "body-slam"
                 },
                 {
-                    "level": 44,
+                    "level": 51,
                     "move": "ancientpower"
-                },
-                {
-                    "level": 87,
-                    "move": "explosion"
                 }
             ],
             "name": "sudowoodo",
@@ -41508,39 +41648,27 @@
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 18,
-                    "move": "aurora-beam"
+                    "level": 13,
+                    "move": "ice-beam"
                 },
                 {
-                    "level": 22,
-                    "move": "rock-slide"
-                },
-                {
-                    "level": 26,
+                    "level": 19,
                     "move": "recover"
                 },
                 {
-                    "level": 30,
-                    "move": "waterfall"
+                    "level": 25,
+                    "move": "rapid-spin"
                 },
                 {
-                    "level": 33,
-                    "move": "ice-beam"
+                    "level": 31,
+                    "move": "spike-cannon"
                 },
                 {
                     "level": 37,
                     "move": "mirror-coat"
                 },
                 {
-                    "level": 42,
-                    "move": "ancientpower"
-                },
-                {
-                    "level": 53,
-                    "move": "rapid-spin"
-                },
-                {
-                    "level": 58,
+                    "level": 43,
                     "move": "ancientpower"
                 }
             ],
