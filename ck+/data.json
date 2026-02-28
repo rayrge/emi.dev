@@ -51366,6 +51366,255 @@
         }
       ]
     },
+ {
+      "area": "Route 42",
+      "name": "fisher-tully",
+      "team": [
+        {
+          "name": "goldeen",
+          "level": 100,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "megahorn",
+            "hydro-pump",
+            "ice-beam"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 42",
+      "name": "pokemaniac-shane",
+      "team": [
+        {
+          "name": "parasect",
+          "level": 51,
+          "item": "quick-claw",
+          "moves": [
+            "spore",
+            "stun-spore",
+            "guillotine",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "scyther",
+          "level": 51,
+          "item": "silverpowder",
+          "moves": [
+            "fury-cutter",
+            "double-team",
+            "cross-chop",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 51,
+          "item": "lum-berry",
+          "moves": [
+            "megahorn",
+            "swords-dance",
+            "submission",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 42",
+      "name": "hiker-benjamin",
+      "team": [
+        {
+          "name": "dunsparce",
+          "level": 51,
+          "item": "lum-berry",
+          "moves": [
+            "double-edge",
+            "lick",
+            "fire-blast",
+            "hydro-pump"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 51,
+          "item": "soft-sand",
+          "moves": [
+            "magnitude",
+            "glare",
+            "rock-slide",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "arbok",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "curse",
+            "giga-drain",
+            "leech-life",
+            "sludge-bomb"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 43",
+      "name": "picnicker-tiffany",
+      "b2b": true
+      "team": [
+        {
+          "name": "pichu",
+          "level": 91,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "return",
+            "iron-tail",
+            "submission"
+          ]
+        },
+        {
+          "name": "hoppip",
+          "level": 91,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "synthesis",
+            "leech-seed",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "cleffa",
+          "level": 91,
+          "item": "lum-berry",
+          "moves": [
+            "metronome"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 43",
+      "name": "camper-spencer",
+      "b2b": true
+      "team": [
+        {
+          "name": "pineco",
+          "level": 91,
+          "item": "sitrus-berry",
+          "moves": [
+            "spikes",
+            "explosion"
+          ]
+        },
+        {
+          "name": "tyrogue",
+          "level": 91,
+          "item": "lum-berry",
+          "moves": [
+            "cross-chop",
+            "meditate",
+            "rolling-kick",
+            "mach-punch"
+          ]
+        },
+        {
+          "name": "slugma",
+          "level": 91,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+	    "recover",
+	    "rock-slide",
+	    "magnitude"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 43",
+      "name": "pokemaniac-ron",
+      "b2b": true
+      "team": [
+        {
+          "name": "dewgong",
+          "level": 51,
+          "item": "kings-rock",
+          "moves": [
+            "drill-peck",
+            "body-slam",
+            "ice-beam",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 51,
+          "item": "brightpowder",
+          "moves": [
+            "double-team",
+            "confuse-ray",
+            "leech-life",
+            "toxic"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 52,
+          "item": "sitrus-berry",
+          "moves": [
+            "bubblebeam",
+            "psybeam",
+            "aurora-beam",
+            "hyper-beam"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 43",
+      "name": "pokemaniac-ron",
+      "team": [
+        {
+          "name": "vaporeon",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "growth",
+            "baton-pass",
+            "recover",
+            "whirlpool"
+          ]
+        },
+        {
+          "name": "magcargo",
+          "level": 51,
+          "item": "focus-band",
+          "moves": [
+            "flamethrower",
+            "confuse-ray",
+            "rock-slide",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 52,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "disable",
+            "confuse-ray",
+            "destiny-bond"
+          ]
+        }
+      ]
+    },
     {
       "area": "Mahogany Gym",
       "name": "boarder-douglas",
