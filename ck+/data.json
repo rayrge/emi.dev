@@ -50906,6 +50906,221 @@
           ]
         }
       ]
+    },
+    {
+      "area": "Mount Mortar",
+      "name": "blackbelt-kiyo",
+      "meta": "optional. gives tyrogue egg.",
+      "team": [
+        {
+          "name": "hitmontop",
+          "level": 53,
+          "item": "blackbelt",
+          "moves": [
+            "cross-chop",
+            "endure",
+            "reversal",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "hitmonlee",
+          "level": 53,
+          "item": "blackbelt",
+          "moves": [
+            "hi-jump-kick",
+            "rolling-kick",
+            "mega-kick",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "hitmonchan",
+          "level": 53,
+          "item": "blackbelt",
+          "moves": [
+            "dynamicpunch",
+            "submission",
+            "mega-punch",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mount Mortar",
+      "name": "pokemaniac-miller",
+      "meta": "optional. guards Protect TM.",
+      "team": [
+        {
+          "name": "weezing",
+          "level": 51,
+          "item": "quick-claw",
+          "moves": [
+	    "protect",
+            "pain-split",
+            "psychic",
+            "toxic"
+          ]
+        },
+        {
+          "name": "chansey",
+          "level": 52,
+          "item": "lucky-egg",
+          "moves": [
+            "protect",
+            "softboiled",
+            "charm",
+            "toxic"
+          ]
+        },
+        {
+          "name": "dewgong",
+          "level": 52,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "whirlpool",
+            "perish-song",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "mr-mime",
+          "level": 52,
+          "item": "twisted-spoon",
+          "moves": [
+            "protect",
+            "future-sight",
+            "psywave",
+            "reflect"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "leech-seed",
+            "stun-spore",
+            "egg-bomb"
+          ]
+        },
+        {
+          "name": "rapidash",
+          "level": 52,
+          "item": "lum-berry",
+          "moves": [
+            "protect",
+            "fire-spin",
+            "megahorn",
+            "morning-sun"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mount Mortar",
+      "name": "super-nerd-markus",
+      "meta": "optional. guards Focus Band",
+      "team": [
+        {
+          "name": "lickitung",
+          "level": 51,
+          "item": "focus-band",
+          "moves": [
+            "lick",
+            "body-slam",
+            "rollout",
+            "flail"
+          ]
+        },
+        {
+          "name": "beedrill",
+          "level": 52,
+          "item": "focus-band",
+          "moves": [
+            "slash",
+            "giga-drain",
+            "sludge-bomb",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "sunflora",
+          "level": 52,
+          "item": "focus-band",
+          "moves": [
+            "leech-seed",
+            "substitute",
+            "solarbeam",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "pupitar",
+          "level": 52,
+          "item": "focus-band",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "selfdestruct",
+            "crunch"
+          ]
+        },
+        {
+          "name": "azumarill",
+          "level": 52,
+          "item": "focus-band",
+          "moves": [
+            "waterfall",
+            "belly-drum",
+            "icy-wind",
+            "double-edge"
+          ]
+        },
+        {
+          "name": "primeape",
+          "level": 51,
+          "item": "focus-band",
+          "moves": [
+            "scary-face",
+            "reversal",
+            "cross-chop",
+            "rage"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mount Mortar",
+      "name": "super-nerd-hugh",
+      "meta": "optional. guards dragon scale.",
+      "team": [
+        {
+          "name": "kingdra",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "octazooka",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "dragonite",
+          "level": 51,
+          "item": "miracleberry",
+          "moves": [
+            "earthquake",
+            "outrage",
+            "double-edge",
+            "fly"
+          ]
+        }
+      ]
     }
   ],
     "type_matchups": [
