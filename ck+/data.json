@@ -51464,7 +51464,7 @@
  {
       "area": "Route 43",
       "name": "picnicker-tiffany",
-      "b2b": true
+      "b2b": true,
       "team": [
         {
           "name": "pichu",
@@ -51501,7 +51501,6 @@
  {
       "area": "Route 43",
       "name": "camper-spencer",
-      "b2b": true
       "team": [
         {
           "name": "pineco",
@@ -51539,7 +51538,7 @@
  {
       "area": "Route 43",
       "name": "pokemaniac-ron",
-      "b2b": true
+      "b2b": true,
       "team": [
         {
           "name": "dewgong",
