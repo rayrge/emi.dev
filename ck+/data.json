@@ -46245,7 +46245,7 @@
     },
     {
       "area": "Slowpoke Well",
-      "name": "gruntm-1",
+      "name": "grunt-proton",
       "team": [
         {
           "name": "gligar",
@@ -51023,7 +51023,7 @@
     {
       "area": "Mount Mortar",
       "name": "super-nerd-markus",
-      "meta": "optional. guards Focus Band",
+      "meta": "optional. guards Focus Band.",
       "team": [
         {
           "name": "lickitung",
@@ -51118,6 +51118,383 @@
             "outrage",
             "double-edge",
             "fly"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mahogany Gym",
+      "name": "boarder-brad",
+      "team": [
+        {
+          "name": "politoed",
+          "level": 53,
+          "item": "sitrus-berry",
+          "moves": [
+            "perish-song",
+            "whirlpool",
+            "recover",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "porygon2",
+          "level": 53,
+          "item": "nevermeltice",
+          "moves": [
+            "hyper-beam",
+            "conversion2",
+            "tri-attack",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "mr-mime",
+          "level": 53,
+          "item": "twisted-spoon",
+          "moves": [
+            "light-screen",
+            "reflect",
+            "psychic",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "corsola",
+          "level": 54,
+          "item": "leftovers",
+          "moves": [
+            "substitute",
+            "pain-split",
+            "disable",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "togetic",
+          "level": 53,
+          "item": "lum-berry",
+          "moves": [
+            "softboiled",
+            "encore",
+            "tri-attack",
+            "icy-wind"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mahogany Gym",
+      "name": "boarder-ronald",
+      "team": [
+        {
+          "name": "delibird",
+          "level": 53,
+          "item": "quick-claw",
+          "moves": [
+            "destiny-bond",
+            "present",
+            "blizzard",
+            "encore"
+          ]
+        },
+        {
+          "name": "smeargle",
+          "level": 54,
+          "item": "lum-berry",
+          "moves": [
+            "spore",
+            "icy-wind",
+            "substitute",
+            "baton-pass"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 53,
+          "item": "scope-lens",
+          "moves": [
+            "octazooka",
+            "focus-energy",
+            "ice-beam",
+            "mud-slap"
+          ]
+        },
+        {
+          "name": "blissey",
+          "level": 54,
+          "item": "leftovers",
+          "moves": [
+            "softboiled",
+            "psywave",
+            "safeguard",
+            "reflect"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 53,
+          "item": "nevermeltice",
+          "moves": [
+            "ice-punch",
+            "thunderpunch",
+            "fire-punch",
+            "lick"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mahogany Gym",
+      "name": "skier-clarissa",
+      "team": [
+        {
+          "name": "nidoqueen",
+          "level": 53,
+          "item": "nevermeltice",
+          "moves": [
+            "blizzard",
+            "super-fang",
+            "earthquake",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "jynx",
+          "level": 53,
+          "item": "lum-berry",
+          "moves": [
+            "ice-beam",
+            "psychic",
+            "lovely-kiss",
+            "destiny-bond"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 53,
+          "item": "charcoal",
+          "moves": [
+            "substitute",
+            "fire-blast",
+            "double-team",
+            "attract"
+          ]
+        },
+        {
+          "name": "tentacruel",
+          "level": 53,
+          "item": "leftovers",
+          "moves": [
+            "surf",
+            "ice-beam",
+            "sludge-bomb",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "ursaring",
+          "level": 53,
+          "item": "sitrus-berry",
+          "moves": [
+            "belly-drum",
+            "body-slam",
+            "earthquake",
+            "ice-punch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mahogany Gym",
+      "name": "skier-roxanne",
+      "team": [
+        {
+          "name": "shuckle",
+          "level": 54,
+          "item": "lum-berry",
+          "moves": [
+            "sandstorm",
+            "disable",
+            "rollout",
+            "wrap"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 53,
+          "item": "scope-lens",
+          "moves": [
+            "rock-slide",
+            "sky-attack",
+            "earthquake",
+            "fire-blast"
+          ]
+        },
+        {
+          "name": "omastar",
+          "level": 53,
+          "item": "nevermeltice",
+          "moves": [
+            "blizzard",
+            "substitute",
+            "protect",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "sudowoodo",
+          "level": 53,
+          "item": "leftovers",
+          "moves": [
+            "curse",
+            "hi-jump-kick",
+            "synthesis",
+            "explosion"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 53,
+          "item": "sitrus-berry",
+          "moves": [
+            "megahorn",
+            "earthquake",
+            "rock-slide",
+            "drill-peck"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mahogany Gym",
+      "name": "boarder-douglas",
+      "team": [
+        {
+          "name": "tauros",
+          "level": 54,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "megahorn",
+            "earthquake",
+            "blizzard"
+          ]
+        },
+        {
+          "name": "cloyster",
+          "level": 53,
+          "item": "mystic-water",
+          "moves": [
+            "spikes",
+            "selfdestruct",
+            "hydro-pump",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "arcanine",
+          "level": 53,
+          "item": "leftovers",
+          "moves": [
+            "substitute",
+            "flamethrower",
+            "crunch",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "noctowl",
+          "level": 54,
+          "item": "focus-band",
+          "moves": [
+            "whirlwind",
+            "toxic",
+            "icy-wind",
+            "destiny-bond"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 53,
+          "item": "blackbelt",
+          "moves": [
+            "dynamic-punch",
+            "submission",
+            "rock-slide",
+            "body-slam"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mahogany Gym",
+      "name": "leader-pryce",
+      "team": [
+        {
+          "name": "dewgong",
+          "level": 54,
+          "item": "focus-band",
+          "moves": [
+            "blizzard",
+            "whirlpool",
+            "safeguard",
+            "horn-drill"
+          ]
+        },
+        {
+          "name": "slowbro",
+          "level": 54,
+          "item": "leftovers",
+          "moves": [
+            "psychic",
+            "waterfall",
+            "ice-beam",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 54,
+          "item": "scope-lens",
+          "moves": [
+            "metal-claw",
+            "shadow-ball",
+            "cross-chop",
+            "destiny-bond"
+          ]
+        },
+        {
+          "name": "piloswine",
+          "level": 54,
+          "item": "lum-berry",
+          "moves": [
+            "earthquake",
+            "icy-wind",
+            "rock-slide",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "snorlax",
+          "level": 54,
+          "item": "chesto-berry",
+          "moves": [
+            "rest",
+            "double-edge",
+            "earthquake",
+            "blizzard"
+          ]
+        },
+        {
+          "name": "lapras",
+          "level": 54,
+          "item": "nevermeltice",
+          "moves": [
+            "ice-beam",
+            "surf",
+            "thunderbolt",
+            "psychic"
           ]
         }
       ]
