@@ -46130,7 +46130,7 @@
     },
     {
       "area": "Slowpoke Well",
-      "name": "gruntm29",
+      "name": "gruntm-29",
       "team": [
         {
           "name": "raticate",
@@ -46167,7 +46167,7 @@
     },
     {
       "area": "Slowpoke Well",
-      "name": "gruntf1",
+      "name": "gruntf-1",
       "team": [
         {
           "name": "scyther",
@@ -46206,7 +46206,7 @@
     },
     {
       "area": "Slowpoke Well",
-      "name": "gruntm2",
+      "name": "gruntm-2",
       "team": [
         {
           "name": "drowzee",
@@ -46245,7 +46245,7 @@
     },
     {
       "area": "Slowpoke Well",
-      "name": "gruntm1",
+      "name": "gruntm-1",
       "team": [
         {
           "name": "gligar",
@@ -50150,7 +50150,7 @@
     },
     {
       "area": "Rocket Hideout",
-      "name": "executivem-4",
+      "name": "executive-petrel",
       "team": [
         {
           "name": "exeggutor",
@@ -50222,7 +50222,7 @@
     },
     {
       "area": "Rocket Hideout",
-      "name": "executivef-2",
+      "name": "executive-ariana",
       "team": [
         {
           "name": "dodrio",
@@ -50582,6 +50582,327 @@
             "thunderbolt",
             "fire-punch",
             "ice-punch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "gruntm-27",
+      "meta": "sun",
+      "team": [
+        {
+          "name": "exeggutor",
+          "level": 50,
+          "item": "quick-claw",
+          "moves": [
+            "solarbeam",
+            "sleep-powder",
+            "explosion",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "houndoom",
+          "level": 51,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "fire-blast",
+            "bite",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "ursaring",
+          "level": 50,
+          "item": "berserk-gene",
+          "moves": [
+            "double-edge",
+            "earthquake",
+            "rock-slide",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "golem",
+          "level": 51,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "earthquake",
+            "rock-slide",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 51,
+          "item": "nevermeltice",
+          "moves": [
+            "thunderbolt",
+            "substitute",
+            "fire-punch",
+            "aurora-beam"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "gruntf-6",
+      "meta": "sun",
+      "team": [
+        {
+          "name": "miltank",
+          "level": 51,
+          "item": "kings-rock",
+          "moves": [
+            "body-slam",
+            "milk-drink",
+            "iron-tail",
+            "rollout"
+          ]
+        },
+        {
+          "name": "sunflora",
+          "level": 51,
+          "item": "focus-band",
+          "moves": [
+            "stun-spore",
+            "growth",
+            "sacred-fire",
+            "solarbeam"
+          ]
+        },
+        {
+          "name": "slowking",
+          "level": 50,
+          "item": "lum-berry",
+          "moves": [
+            "fire-blast",
+            "whirlpool",
+            "psychic",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "dunsparce",
+          "level": 51,
+          "item": "dragon-fang",
+          "moves": [
+            "glare",
+            "outrage",
+            "double-edge",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "rapidash",
+          "level": 50,
+          "item": "berserk-gene",
+          "moves": [
+            "flame-wheel",
+            "megahorn",
+            "earthquake",
+            "drill-peck"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "gruntf-7",
+      "meta": "sun",
+      "team": [
+        {
+          "name": "ninetales",
+          "level": 51,
+          "item": "lum-berry",
+          "moves": [
+            "solarbeam",
+            "hypnosis",
+            "sacred-fire",
+            "future-sight"
+          ]
+        },
+        {
+          "name": "marowak",
+          "level": 50,
+          "item": "thick-club",
+          "moves": [
+            "bonemerang",
+            "bone-rush",
+            "frustration",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "jumpluff",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "substitute",
+            "sleep-powder",
+            "protect",
+            "solarbeam"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 51,
+          "item": "scope-lens",
+          "moves": [
+            "fire-spin",
+            "psychic",
+            "thunderbolt",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 50,
+          "item": "brightpowder",
+          "moves": [
+            "future-sight",
+            "ice-punch",
+            "fire-punch",
+            "thunderpunch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "gruntm-30",
+      "meta": "sun",
+      "team": [
+        {
+          "name": "gyarados",
+          "level": 50,
+          "item": "brightpowder",
+          "moves": [
+            "fire-blast",
+            "dragonbreath",
+            "thunder",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 50,
+          "item": "quick-claw",
+          "moves": [
+            "cross-chop",
+            "earthquake",
+            "rock-slide",
+            "mega-punch"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 51,
+          "item": "scope-lens",
+          "moves": [
+            "outrage",
+            "flamethrower",
+            "thunderpunch",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "vileplume",
+          "level": 51,
+          "item": "pink-bow",
+          "moves": [
+            "hyper-beam",
+            "substitute",
+            "stun-spore",
+            "sleep-powder"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "earthquake",
+            "powder-snow",
+            "body-slam",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "executive-proton",
+      "meta": "sun",
+      "team": [
+        {
+          "name": "dragonite",
+          "level": 51,
+          "item": "pink-bow",
+          "moves": [
+            "extremespeed",
+            "belly-drum",
+            "ice-beam",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 51,
+          "item": "quick-claw",
+          "moves": [
+            "stun-spore",
+            "wrap",
+            "solarbeam",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 51,
+          "item": "brightpowder",
+          "moves": [
+            "mud-slap",
+            "sludge-bomb",
+            "flamethrower",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 51,
+          "item": "hard-stone",
+          "moves": [
+            "megahorn",
+            "earthquake",
+            "rock-slide",
+            "mega-punch"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 51,
+          "item": "lum-berry",
+          "moves": [
+            "confuse-ray",
+            "icy-wind",
+            "giga-drain",
+            "sludge"
+          ]
+        },
+        {
+          "name": "typhlosion",
+          "level": 52,
+          "item": "charcoal",
+          "moves": [
+            "fire-blast",
+            "cross-chop",
+            "fury-cutter",
+            "thunderpunch"
           ]
         }
       ]
