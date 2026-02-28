@@ -51419,7 +51419,7 @@
           "level": 53,
           "item": "blackbelt",
           "moves": [
-            "dynamic-punch",
+            "dynamicpunch",
             "submission",
             "rock-slide",
             "body-slam"
