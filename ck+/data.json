@@ -51128,7 +51128,7 @@
       "team": [
         {
           "name": "goldeen",
-          "level": 100,
+          "level": 76,
           "item": "pink-bow",
           "moves": [
             "double-edge",
@@ -51293,6 +51293,81 @@
     },
  {
       "area": "Route 43",
+      "name": "pokemaniac-danny",
+      "team": [
+        {
+          "name": "piloswine",
+          "level": 51,
+          "item": "soft-sand",
+          "moves": [
+            "magnitude",
+            "ice-beam",
+            "megahorn",
+            "double-edge"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 51,
+          "item": "focus-band",
+          "moves": [
+            "scary-face",
+            "endure",
+            "body-slam",
+            "flail"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 51,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+            "swords-dance",
+            "rock-slide",
+            "submission"
+          ]
+        },
+        {
+          "name": "wigglytuff",
+          "level": 51,
+          "item": "quick-claw",
+          "moves": [
+            "sing",
+            "body-slam",
+            "shadow-ball",
+            "metronome"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "confuse-ray",
+            "thunderbolt",
+            "surf",
+            "ice-beam"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 43",
+      "name": "fisher-marvin",
+      "b2b": true,
+      "team": [
+        {
+          "name": "qwilfish",
+          "level": 51,
+          "moves": [
+            "explosion"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Route 43",
       "name": "pokemaniac-ron",
       "team": [
         {
@@ -51332,7 +51407,7 @@
     },
  {
       "area": "Route 43",
-      "name": "pokemaniac-ron",
+      "name": "pokemaniac-ben",
       "b2b": true,
       "team": [
         {
@@ -51366,6 +51441,173 @@
             "disable",
             "confuse-ray",
             "destiny-bond"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Lake of Rage",
+      "name": "cooltrainer-aaron",
+      "team": [
+        {
+          "name": "sneasel",
+          "level": 53,
+          "item": "brightpowder",
+          "moves": [
+            "swagger",
+            "double-team",
+            "metal-claw",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "houndoom",
+          "level": 52,
+          "item": "blackglasses",
+          "moves": [
+            "crunch",
+            "mean-look",
+            "destiny-bond",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 53,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "zap-cannon",
+            "explosion",
+            "aurora-beam"
+          ]
+        },
+        {
+          "name": "mantine",
+          "level": 52,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "confuse-ray",
+            "hydro-pump",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 52,
+          "item": "lum-berry",
+          "moves": [
+            "giga-drain",
+            "sludge-bomb",
+            "rock-slide",
+            "earthquake"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Lake of Rage",
+      "name": "fisher-raymond",
+      "team": [
+        {
+          "name": "gyarados",
+          "level": 62,
+          "item": "sitrus-berry",
+          "moves": [
+            "double-edge",
+            "fire-blast",
+            "thunder",
+            "blizzard"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Lake of Rage",
+      "name": "fisher-andre",
+      "team": [
+        {
+          "name": "gyarados",
+          "level": 62,
+          "item": "sitrus-berry",
+          "moves": [
+            "hydro-pump",
+            "wing-attack",
+            "earthquake",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Lake of Rage",
+      "name": "cooltrainer-lois",
+      "team": [
+        {
+          "name": "blastoise",
+          "level": 53,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "mirror-coat",
+            "hydro-pump",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "skarmory",
+          "level": 52,
+          "item": "focus-band",
+          "moves": [
+            "whirlwind",
+            "agility",
+            "sky-attack",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "hitmonchan",
+          "level": 52,
+          "item": "blackbelt",
+          "moves": [
+            "submission",
+            "substitute",
+            "swords-dance",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "kabutops",
+          "level": 52,
+          "item": "scope-lens",
+          "moves": [
+            "crabhammer",
+            "fury-cutter",
+            "ancientpower",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 53,
+          "item": "lum-berry",
+          "moves": [
+            "icy-wind",
+            "earthquake",
+            "body-slam",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 52,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "destiny-bond",
+            "giga-drain",
+            "faint-attack"
           ]
         }
       ]
