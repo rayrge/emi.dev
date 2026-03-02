@@ -51112,7 +51112,7 @@
         {
           "name": "mr-mime",
           "level": 52,
-          "item": "twisted-spoon",
+          "item": "twistedspoon",
           "moves": [
             "protect",
             "future-sight",
@@ -51766,7 +51766,7 @@
         {
           "name": "mr-mime",
           "level": 53,
-          "item": "twisted-spoon",
+          "item": "twistedspoon",
           "moves": [
             "light-screen",
             "reflect",
@@ -52147,7 +52147,7 @@
           "item": "leftovers",
           "moves": [
             "curse",
-            "extreme-speed",
+            "extremespeed",
             "earthquake",
             "fly"
           ]
@@ -52202,7 +52202,7 @@
         {
           "name": "alakazam",
           "level": 54,
-          "item": "twisted-spoon",
+          "item": "twistedspoon",
           "moves": [
             "future-sight",
             "psychic",
