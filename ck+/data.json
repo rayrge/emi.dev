@@ -51572,7 +51572,7 @@
     },
 {
       "area": "Lake of Rage",
-      "name": "cooltrainer-aaron",
+      "name": "cooltrainerm-aaron",
       "team": [
         {
           "name": "sneasel",
@@ -51667,7 +51667,7 @@
     },
 {
       "area": "Lake of Rage",
-      "name": "cooltrainer-lois",
+      "name": "cooltrainerf-lois",
       "team": [
         {
           "name": "blastoise",
@@ -52110,6 +52110,126 @@
             "surf",
             "thunderbolt",
             "psychic"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Union Cave",
+      "name": "cooltrainerm-nick",
+      "meta": "optional. guards lapras.",
+      "team": [
+        {
+          "name": "venusaur",
+          "level": 55,
+          "item": "hard-stone",
+          "moves": [
+            "giga-drain",
+            "leech-seed",
+            "sludge-bomb",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "piloswine",
+          "level": 54,
+          "item": "nevermeltice",
+          "moves": [
+            "ice-beam",
+            "earthquake",
+            "icy-wind",
+            "megahorn"
+          ]
+        },
+        {
+          "name": "dragonite",
+          "level": 54,
+          "item": "leftovers",
+          "moves": [
+            "curse",
+            "extreme-speed",
+            "earthquake",
+            "fly"
+          ]
+        },
+      ]
+    },
+    {
+      "area": "Union Cave",
+      "name": "cooltrainerf-gwen",
+      "b2b": true,
+      "team": [
+        {
+          "name": "blissey",
+          "level": 54,
+          "item": "leftovers",
+          "moves": [
+            "counter",
+            "sing",
+            "heal-bell",
+            "softboiled"
+          ]
+        },
+        {
+          "name": "blastoise",
+          "level": 55,
+          "item": "blackbelt",
+          "moves": [
+            "hydro-pump",
+            "mirror-coat",
+            "skull-bash",
+            "submission"
+          ]
+        },
+        {
+          "name": "tyranitar",
+          "level": 54,
+          "item": "soft-sand",
+          "moves": [
+            "roar",
+            "crunch",
+            "rock-slide",
+            "earthquake"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Union Cave",
+      "name": "cooltrainerf-emma",
+      "b2b": true,
+      "team": [
+        {
+          "name": "alakazam",
+          "level": 54,
+          "item": "twisted-spoon",
+          "moves": [
+            "future-sight",
+            "psychic",
+            "ice-punch",
+            "faint-attack"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 54,
+          "item": "leftovers",
+          "moves": [
+            "thunder",
+            "confuse-ray",
+            "iron-tail",
+            "earthquake"
+          ]
+        }
+        {
+          "name": "charizard",
+          "level": 55,
+          "item": "dragon-fang",
+          "moves": [
+            "fire-blast",
+            "outrage",
+            "thunderpunch",
+            "wing-attack"
           ]
         }
       ]
