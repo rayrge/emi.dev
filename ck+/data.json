@@ -51484,6 +51484,7 @@
         {
           "name": "qwilfish",
           "level": 51,
+          "item": "no-item",
           "moves": [
             "explosion"
           ]
