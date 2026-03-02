@@ -26178,11 +26178,11 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "mud-slap"
+                    "move": "scratch"
                 },
                 {
                     "level": 5,
-                    "move": "scratch"
+                    "move": "growl"
                 },
                 {
                     "level": 9,
@@ -26190,23 +26190,27 @@
                 },
                 {
                     "level": 16,
-                    "move": "rock-throw"
-                },
-                {
-                    "level": 23,
                     "move": "dig"
                 },
                 {
-                    "level": 38,
+                    "level": 18,
+                    "move": "sand-attack"
+                },
+                {
+                    "level": 20,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 44,
-                    "move": "sludge-bomb"
+                    "level": 26,
+                    "move": "slash"
                 },
                 {
-                    "level": 50,
+                    "level": 31,
                     "move": "earthquake"
+                },
+                {
+                    "level": 39,
+                    "move": "fissure"
                 }
             ],
             "name": "diglett",
@@ -26252,31 +26256,43 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "scratch"
+                },
+                {
+                    "level": 5,
+                    "move": "growl"
+                },
+                {
+                    "level": 9,
                     "move": "magnitude"
                 },
                 {
-                    "level": 26,
-                    "move": "slash"
+                    "level": 16,
+                    "move": "dig"
                 },
                 {
-                    "level": 30,
+                    "level": 18,
+                    "move": "sand-attack"
+                },
+                {
+                    "level": 20,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 38,
+                    "level": 26,
                     "move": "tri-attack"
                 },
                 {
-                    "level": 44,
-                    "move": "sludge-bomb"
+                    "level": 28,
+                    "move": "slash"
                 },
                 {
-                    "level": 50,
+                    "level": 39,
                     "move": "earthquake"
                 },
                 {
-                    "level": 85,
-                    "move": "ancientpower"
+                    "level": 51,
+                    "move": "fissure"
                 }
             ],
             "name": "dugtrio",
@@ -31086,7 +31102,7 @@
             "evolutions": [
                 {
                     "into": "marowak",
-                    "level": 24,
+                    "level": 28,
                     "method": "level"
                 }
             ],
@@ -31100,19 +31116,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "headbutt"
+                    "move": "pound"
                 },
                 {
-                    "level": 13,
+                    "level": 5,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 9,
                     "move": "bone-club"
                 },
                 {
-                    "level": 15,
-                    "move": "rock-throw"
+                    "level": 13,
+                    "move": "headbutt"
                 },
                 {
-                    "level": 23,
+                    "level": 17,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 19,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 22,
                     "move": "bone-rush"
+                },
+                {
+                    "level": 29,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 33,
+                    "move": "submission"
+                },
+                {
+                    "level": 37,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 41,
+                    "move": "bonemerang"
                 }
             ],
             "name": "cubone",
@@ -31174,27 +31218,47 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "pound"
+                },
+                {
+                    "level": 5,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 9,
                     "move": "bone-club"
                 },
                 {
-                    "level": 26,
+                    "level": 13,
+                    "move": "headbutt"
+                },
+                {
+                    "level": 17,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 19,
                     "move": "rock-slide"
                 },
                 {
-                    "level": 31,
+                    "level": 22,
+                    "move": "bone-rush"
+                },
+                {
+                    "level": 29,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 33,
+                    "move": "submission"
+                },
+                {
+                    "level": 37,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 41,
                     "move": "bonemerang"
-                },
-                {
-                    "level": 34,
-                    "move": "frustration"
-                },
-                {
-                    "level": 38,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 46,
-                    "move": "ancientpower"
                 }
             ],
             "name": "marowak",
@@ -39151,39 +39215,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "bubblebeam"
+                    "move": "water-gun"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 5,
+                    "move": "mist"
+                },
+                {
+                    "level": 11,
                     "move": "magnitude"
                 },
                 {
-                    "level": 14,
-                    "move": "rock-throw"
+                    "level": 16,
+                    "move": "lovely-kiss"
+                },
+                {
+                    "level": 21,
+                    "move": "bubblebeam"
                 },
                 {
                     "level": 23,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 29,
                     "move": "earthquake"
                 },
                 {
-                    "level": 32,
-                    "move": "ice-beam"
+                    "level": 41,
+                    "move": "rock-slide"
                 },
                 {
-                    "level": 35,
-                    "move": "hydro-pump"
-                },
-                {
-                    "level": 40,
+                    "level": 51,
                     "move": "waterfall"
                 },
                 {
-                    "level": 43,
-                    "move": "sludge-bomb"
+                    "level": 56,
+                    "move": "recover"
                 }
             ],
             "name": "wooper",
@@ -39236,42 +39304,46 @@
             "base_experience": 137,
             "gender": "f50",
             "items": [],
-            "learnset": [
+            "learnset": [  
                 {
                     "level": 1,
+                    "move": "water-gun"
+                },
+                {
+                    "level": 1,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 5,
+                    "move": "mist"
+                },
+                {
+                    "level": 11,
+                    "move": "magnitude"
+                },
+                {
+                    "level": 16,
+                    "move": "lovely-kiss"
+                },
+                {
+                    "level": 21,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 25,
-                    "move": "body-slam"
+                    "level": 23,
+                    "move": "earthquake"
                 },
                 {
-                    "level": 30,
+                    "level": 41,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 51,
                     "move": "waterfall"
                 },
                 {
-                    "level": 35,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 39,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 43,
-                    "move": "sludge-bomb"
-                },
-                {
-                    "level": 47,
-                    "move": "hydro-pump"
-                },
-                {
-                    "level": 60,
+                    "level": 56,
                     "move": "recover"
-                },
-                {
-                    "level": 70,
-                    "move": "earthquake"
                 }
             ],
             "name": "quagsire",
@@ -41485,7 +41557,7 @@
             "evolutions": [
                 {
                     "into": "piloswine",
-                    "level": 50,
+                    "level": 30,
                     "method": "level"
                 }
             ],
@@ -41494,23 +41566,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "powder-snow"
+                    "move": "tackle"
                 },
                 {
-                    "level": 7,
+                    "level": 1,
+                    "move": "mist"
+                },
+                {
+                    "level": 5,
                     "move": "mud-slap"
                 },
                 {
-                    "level": 14,
-                    "move": "magnitude"
-                },
-                {
-                    "level": 28,
+                    "level": 8,
                     "move": "icy-wind"
                 },
                 {
-                    "level": 37,
-                    "move": "return"
+                    "level": 14,
+                    "move": "mist"
+                },
+                {
+                    "level": 18,
+                    "move": "charm"
+                },
+                {
+                    "level": 22,
+                    "move": "powder-snow"
+                },
+                {
+                    "level": 26,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 30,
+                    "move": "ancientpower"
+                },
+                {
+                    "level": 38,
+                    "move": "roar"
+                },
+                {
+                    "level": 41,
+                    "move": "earthquake"
                 }
             ],
             "name": "swinub",
@@ -41559,37 +41655,53 @@
             "gender": "f50",
             "items": [],
             "learnset": [
+               {
+                    "level": 1,
+                    "move": "tackle"
+                },
                 {
                     "level": 1,
+                    "move": "mist"
+                },
+                {
+                    "level": 5,
                     "move": "mud-slap"
                 },
                 {
-                    "level": 1,
-                    "move": "magnitude"
-                },
-                {
-                    "level": 1,
+                    "level": 8,
                     "move": "icy-wind"
                 },
                 {
-                    "level": 1,
-                    "move": "return"
+                    "level": 14,
+                    "move": "mist"
                 },
                 {
-                    "level": 52,
-                    "move": "rock-slide"
+                    "level": 18,
+                    "move": "charm"
                 },
                 {
-                    "level": 58,
+                    "level": 22,
+                    "move": "powder-snow"
+                },
+                {
+                    "level": 26,
                     "move": "ice-beam"
                 },
                 {
-                    "level": 66,
+                    "level": 30,
+                    "move": "ancientpower"
+                },
+                {
+                    "level": 38,
+                    "move": "roar"
+                },
+                {
+                    "level": 41,
                     "move": "earthquake"
                 },
                 {
-                    "level": 99,
-                    "move": "ancientpower"
+                    "level": 51,
+                    "move": "megahorn"
                 }
             ],
             "name": "piloswine",
@@ -42411,7 +42523,7 @@
             "evolutions": [
                 {
                     "into": "donphan",
-                    "level": 25,
+                    "level": 22,
                     "method": "level"
                 }
             ],
@@ -42420,43 +42532,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "tackle"
-                },
-                {
-                    "level": 4,
-                    "move": "flail"
-                },
-                {
-                    "level": 7,
                     "move": "rock-throw"
+                },
+                {
+                    "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 9,
+                    "move": "defense-curl"
                 },
                 {
                     "level": 11,
                     "move": "headbutt"
                 },
                 {
-                    "level": 16,
+                    "level": 17,
                     "move": "rollout"
                 },
                 {
-                    "level": 17,
-                    "move": "magnitude"
-                },
-                {
-                    "level": 25,
-                    "move": "double-edge"
+                    "level": 24,
+                    "move": "dig"
                 },
                 {
                     "level": 33,
-                    "move": "rock-slide"
+                    "move": "sweet-kiss"
                 },
                 {
-                    "level": 44,
+                    "level": 41,
+                    "move": "endure"
+                },
+                {
+                    "level": 45,
                     "move": "rapid-spin"
                 },
                 {
-                    "level": 53,
+                    "level": 49,
                     "move": "earthquake"
+                },
+                {
+                    "level": 51,
+                    "move": "rock-slide"
                 }
             ],
             "name": "phanpy",
@@ -42502,45 +42618,53 @@
             "gender": "f50",
             "items": [],
             "learnset": [
-                {
-                    "level": 1,
-                    "move": "magnitude"
-                },
-                {
+               {
                     "level": 1,
                     "move": "rock-throw"
                 },
                 {
                     "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 9,
+                    "move": "defense-curl"
+                },
+                {
+                    "level": 11,
+                    "move": "headbutt"
+                },
+                {
+                    "level": 17,
                     "move": "rollout"
                 },
                 {
-                    "level": 27,
-                    "move": "swagger"
+                    "level": 25,
+                    "move": "fury-attack"
                 },
                 {
-                    "level": 31,
-                    "move": "body-slam"
+                    "level": 33,
+                    "move": "dig"
                 },
                 {
-                    "level": 37,
-                    "move": "rock-slide"
+                    "level": 38,
+                    "move": "powder-snow"
                 },
                 {
-                    "level": 44,
-                    "move": "earthquake"
+                    "level": 41,
+                    "move": "endure"
                 },
                 {
-                    "level": 53,
+                    "level": 45,
                     "move": "rapid-spin"
                 },
                 {
-                    "level": 68,
-                    "move": "double-edge"
+                    "level": 49,
+                    "move": "earthquake"
                 },
                 {
-                    "level": 72,
-                    "move": "ancientpower"
+                    "level": 51,
+                    "move": "rock-slide"
                 }
             ],
             "name": "donphan",
