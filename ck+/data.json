@@ -52151,7 +52151,7 @@
             "earthquake",
             "fly"
           ]
-        },
+        }
       ]
     },
     {
@@ -52220,7 +52220,7 @@
             "iron-tail",
             "earthquake"
           ]
-        }
+        },
         {
           "name": "charizard",
           "level": 55,
