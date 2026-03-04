@@ -30413,8 +30413,12 @@
                     "move": "disable"
                 },
                 {
-                    "level": 18,
+                    "level": 13,
                     "move": "faint-attack"
+                },
+                {
+                    "level": 16,
+                    "move": "thunderpunch"
                 },
                 {
                     "level": 21,
@@ -30513,8 +30517,12 @@
                     "move": "disable"
                 },
                 {
-                    "level": 18,
+                    "level": 13,
                     "move": "faint-attack"
+                },
+                {
+                    "level": 16,
+                    "move": "thunderpunch"
                 },
                 {
                     "level": 21,
@@ -37796,6 +37804,10 @@
                     "move": "psybeam"
                 },
                 {
+                    "level": 14,
+                    "move": "faint-attack"
+                },
+                {
                     "level": 15,
                     "move": "night-shade"
                 },
@@ -37884,6 +37896,10 @@
                 {
                     "level": 11,
                     "move": "psybeam"
+                },
+                {
+                    "level": 14,
+                    "move": "faint-attack"
                 },
                 {
                     "level": 15,
@@ -50717,7 +50733,7 @@
       "team": [
         {
           "name": "exeggutor",
-          "level": 50,
+          "level": 48,
           "item": "quick-claw",
           "moves": [
             "solarbeam",
@@ -50727,19 +50743,19 @@
           ]
         },
         {
-          "name": "houndoom",
-          "level": 51,
-          "item": "charcoal",
+          "name": "golem",
+          "level": 48,
+          "item": "sitrus-berry",
           "moves": [
-            "flame-wheel",
-            "fire-blast",
-            "bite",
-            "sludge-bomb"
+            "explosion",
+            "earthquake",
+            "rock-slide",
+            "body-slam"
           ]
         },
         {
           "name": "ursaring",
-          "level": 50,
+          "level": 48,
           "item": "berserk-gene",
           "moves": [
             "double-edge",
@@ -50749,19 +50765,19 @@
           ]
         },
         {
-          "name": "golem",
-          "level": 51,
-          "item": "focus-band",
+          "name": "houndoom",
+          "level": 48,
+          "item": "charcoal",
           "moves": [
-            "explosion",
-            "earthquake",
-            "rock-slide",
-            "body-slam"
+            "flame-wheel",
+            "fire-blast",
+            "bite",
+            "sludge-bomb"
           ]
         },
         {
           "name": "ampharos",
-          "level": 51,
+          "level": 49,
           "item": "nevermeltice",
           "moves": [
             "thunderbolt",
@@ -50801,10 +50817,10 @@
         },
         {
           "name": "slowking",
-          "level": 50,
+          "level": 48,
           "item": "lum-berry",
           "moves": [
-            "fire-blast",
+            "flamethrower",
             "whirlpool",
             "psychic",
             "thunderbolt"
@@ -50812,7 +50828,7 @@
         },
         {
           "name": "dunsparce",
-          "level": 51,
+          "level": 50,
           "item": "dragon-fang",
           "moves": [
             "glare",
@@ -50823,12 +50839,12 @@
         },
         {
           "name": "rapidash",
-          "level": 50,
+          "level": 49,
           "item": "berserk-gene",
           "moves": [
             "flame-wheel",
-            "megahorn",
-            "earthquake",
+            "submission",
+            "body-slam",
             "drill-peck"
           ]
         }
@@ -50841,7 +50857,7 @@
       "team": [
         {
           "name": "ninetales",
-          "level": 51,
+          "level": 49,
           "item": "lum-berry",
           "moves": [
             "solarbeam",
@@ -50852,7 +50868,7 @@
         },
         {
           "name": "marowak",
-          "level": 50,
+          "level": 49,
           "item": "thick-club",
           "moves": [
             "bonemerang",
@@ -50874,7 +50890,7 @@
         },
         {
           "name": "magmar",
-          "level": 51,
+          "level": 48,
           "item": "scope-lens",
           "moves": [
             "fire-spin",
@@ -50885,7 +50901,7 @@
         },
         {
           "name": "alakazam",
-          "level": 50,
+          "level": 48,
           "item": "brightpowder",
           "moves": [
             "future-sight",
@@ -50935,8 +50951,8 @@
           ]
         },
         {
-          "name": "vileplume",
-          "level": 51,
+          "name": "bellossom",
+          "level": 54,
           "item": "pink-bow",
           "moves": [
             "hyper-beam",
