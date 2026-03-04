@@ -30076,7 +30076,7 @@
             "evolutions": [
                 {
                     "into": "gengar",
-                    "level": 55,
+                    "level": 52,
                     "method": "level"
                 }
             ],
@@ -32640,8 +32640,8 @@
             "evolutions": [
                 {
                     "into": "starmie",
-                    "item": "water-stone",
-                    "method": "item"
+                    "level": 52,
+                    "method": "level"
                 }
             ],
             "gender": "unknown",
@@ -32657,19 +32657,27 @@
                     "move": "water-gun"
                 },
                 {
-                    "level": 7,
-                    "move": "confuse-ray"
+                    "level": 13,
+                    "move": "rapid-spin"
                 },
                 {
-                    "level": 14,
-                    "move": "tri-attack"
+                    "level": 19,
+                    "move": "recover"
                 },
                 {
-                    "level": 23,
+                    "level": 25,
+                    "move": "swift"
+                },
+                {
+                    "level": 31,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 50,
+                    "level": 37,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 48,
                     "move": "hydro-pump"
                 }
             ],
@@ -32727,31 +32735,27 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "bubblebeam"
-                },
-                {
-                    "level": 49,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 55,
-                    "move": "psychic"
-                },
-                {
-                    "level": 60,
                     "move": "rapid-spin"
                 },
                 {
-                    "level": 67,
-                    "move": "thunderbolt"
-                },
-                {
-                    "level": 73,
-                    "move": "waterfall"
-                },
-                {
-                    "level": 99,
+                    "level": 19,
                     "move": "recover"
+                },
+                {
+                    "level": 37,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 48,
+                    "move": "hydro-pump"
+                },
+                {
+                    "level": 52,
+                    "move": "psychic"
+                },
+                {
+                    "level": 55,
+                    "move": "thunderbolt"
                 }
             ],
             "name": "starmie",
