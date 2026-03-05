@@ -51329,7 +51329,7 @@
         {
           "name": "dunsparce",
           "level": 51,
-          "item": "lum-berry",
+          "item": "leftovers",
           "moves": [
             "double-edge",
             "lick",
@@ -51340,12 +51340,23 @@
         {
           "name": "steelix",
           "level": 51,
-          "item": "soft-sand",
+          "item": "leftovers",
           "moves": [
             "magnitude",
             "glare",
             "rock-slide",
             "iron-tail"
+          ]
+        },
+        {
+          "name": "dragonair",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "ice-beam",
+            "growth",
+            "recover",
+            "dragonbreath"
           ]
         },
         {
@@ -51378,7 +51389,7 @@
         },
         {
           "name": "hoppip",
-          "level": 91,
+          "level": 89,
           "item": "leftovers",
           "moves": [
             "protect",
@@ -51389,7 +51400,7 @@
         },
         {
           "name": "cleffa",
-          "level": 91,
+          "level": 71,
           "item": "lum-berry",
           "moves": [
             "metronome"
@@ -51404,7 +51415,7 @@
       "team": [
         {
           "name": "pineco",
-          "level": 91,
+          "level": 69,
           "item": "sitrus-berry",
           "moves": [
             "spikes",
@@ -51413,7 +51424,7 @@
         },
         {
           "name": "tyrogue",
-          "level": 91,
+          "level": 82,
           "item": "lum-berry",
           "moves": [
             "cross-chop",
@@ -51424,7 +51435,7 @@
         },
         {
           "name": "slugma",
-          "level": 91,
+          "level": 77,
           "item": "charcoal",
           "moves": [
             "flame-wheel",
