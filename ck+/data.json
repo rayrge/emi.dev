@@ -30289,8 +30289,8 @@
             "evolutions": [
                 {
                     "into": "steelix",
-                    "level": 55,
-                    "method": "level"
+                    "item": "metal-coat",
+                    "method": "item"
                 }
             ],
             "gender": "f50",
@@ -33901,40 +33901,52 @@
             "gender": "f12.5",
             "items": [],
             "learnset": [
-                {
+		{
                     "level": 1,
                     "move": "quick-attack"
                 },
                 {
-                    "level": 15,
-                    "move": "thundershock"
+                    "level": 1,
+                    "move": "growl"
                 },
                 {
-                    "level": 19,
+                    "level": 5,
+                    "move": "sand-attack"
+                },
+                {
+                    "level": 15,
                     "move": "bite"
                 },
                 {
-                    "level": 24,
-                    "move": "spark"
+                    "level": 22,
+                    "move": "swift"
                 },
                 {
                     "level": 29,
-                    "move": "bite"
+                    "move": "spark"
                 },
                 {
-                    "level": 37,
+                    "level": 33,
                     "move": "thunder-wave"
                 },
                 {
-                    "level": 44,
+                    "level": 37,
                     "move": "thunderbolt"
                 },
                 {
-                    "level": 52,
-                    "move": "hidden-power"
+                    "level": 41,
+                    "move": "thunder"
                 },
                 {
-                    "level": 99,
+                    "level": 45,
+                    "move": "pin-missile"
+                },
+                {
+                    "level": 49,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 52,
                     "move": "sing"
                 }
             ],
@@ -38001,8 +38013,8 @@
                     "move": "thundershock"
                 },
                 {
-                    "level": 5,
-                    "move": "swift"
+                    "level": 1,
+                    "move": "growl"
                 },
                 {
                     "level": 9,
@@ -38010,15 +38022,19 @@
                 },
                 {
                     "level": 16,
-                    "move": "safeguard"
+                    "move": "spark"
+                },
+                {
+                    "level": 23,
+                    "move": "cotton-spore"
                 },
                 {
                     "level": 30,
-                    "move": "light-screen"
+                    "move": "thunderbolt"
                 },
                 {
-                    "level": 45,
-                    "move": "thunderbolt"
+                    "level": 37,
+                    "move": "thunder"
                 }
             ],
             "name": "mareep",
@@ -38076,27 +38092,31 @@
                 },
                 {
                     "level": 1,
-                    "move": "swift"
+                    "move": "growl"
                 },
                 {
-                    "level": 1,
+                    "level": 9,
                     "move": "thunder-wave"
                 },
                 {
-                    "level": 17,
+                    "level": 16,
                     "move": "spark"
                 },
                 {
-                    "level": 24,
-                    "move": "safeguard"
+                    "level": 27,
+                    "move": "cotton-spore"
                 },
                 {
-                    "level": 30,
+                    "level": 32,
                     "move": "fire-punch"
                 },
                 {
-                    "level": 45,
+                    "level": 36,
                     "move": "thunderbolt"
+                },
+                {
+                    "level": 39,
+                    "move": "thunder"
                 }
             ],
             "name": "flaaffy",
@@ -38148,23 +38168,35 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "thunder-wave"
+                    "move": "thundershock"
                 },
                 {
                     "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 9,
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 16,
                     "move": "spark"
+                },
+                {
+                    "level": 27,
+                    "move": "cotton-spore"
                 },
                 {
                     "level": 30,
                     "move": "fire-punch"
                 },
                 {
-                    "level": 44,
+                    "level": 42,
                     "move": "thunderbolt"
                 },
                 {
-                    "level": 70,
-                    "move": "thunderbolt"
+                    "level": 57,
+                    "move": "thunder"
                 }
             ],
             "name": "ampharos",
