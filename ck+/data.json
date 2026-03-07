@@ -27356,16 +27356,12 @@
                     "move": "confusion"
                 },
                 {
-                    "level": 7,
-                    "move": "kinesis"
+                    "level": 6,
+                    "move": "teleport"
                 },
                 {
-                    "level": 30,
-                    "move": "recover"
-                },
-                {
-                    "level": 90,
-                    "move": "psychic"
+                    "level": 10,
+                    "move": "disable"
                 }
             ],
             "name": "abra",
@@ -27428,28 +27424,40 @@
                     "move": "confusion"
                 },
                 {
+                    "level": 1,
+                    "move": "teleport"
+                },
+                {
+                    "level": 10,
+                    "move": "disable"
+                },
+                {
                     "level": 22,
                     "move": "psybeam"
                 },
                 {
-                    "level": 25,
-                    "move": "thunder-wave"
+                    "level": 24,
+                    "move": "ice-punch"
                 },
                 {
-                    "level": 28,
-                    "move": "seismic-toss"
-                },
-                {
-                    "level": 30,
+                    "level": 26,
                     "move": "recover"
                 },
                 {
-                    "level": 37,
+                    "level": 29,
+                    "move": "fire-punch"
+                },
+                {
+                    "level": 38,
                     "move": "psychic"
                 },
                 {
-                    "level": 90,
-                    "move": "psychic"
+                    "level": 45,
+                    "move": "thunderpunch"
+                },
+                {
+                    "level": 51,
+                    "move": "future-sight"
                 }
             ],
             "name": "kadabra",
@@ -27503,27 +27511,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "seismic-toss"
+                    "move": "confusion"
                 },
                 {
-                    "level": 45,
-                    "move": "recover"
+                    "level": 1,
+                    "move": "teleport"
                 },
                 {
-                    "level": 55,
-                    "move": "psychic"
-                },
-                {
-                    "level": 85,
+                    "level": 10,
                     "move": "disable"
                 },
                 {
-                    "level": 90,
+                    "level": 22,
+                    "move": "psybeam"
+                },
+                {
+                    "level": 24,
+                    "move": "ice-punch"
+                },
+                {
+                    "level": 26,
+                    "move": "recover"
+                },
+                {
+                    "level": 29,
+                    "move": "fire-punch"
+                },
+                {
+                    "level": 38,
                     "move": "psychic"
                 },
                 {
-                    "level": 100,
-                    "move": "encore"
+                    "level": 45,
+                    "move": "thunderpunch"
+                },
+                {
+                    "level": 51,
+                    "move": "future-sight"
                 }
             ],
             "name": "alakazam",
@@ -29816,8 +29840,8 @@
             "evolutions": [
                 {
                     "into": "cloyster",
-                    "item": "water-stone",
-                    "method": "item"
+                    "level": 22,
+                    "method": "level"
                 }
             ],
             "gender": "f50",
@@ -29833,28 +29857,40 @@
                     "move": "water-gun"
                 },
                 {
+                    "level": 1,
+                    "move": "withdraw"
+                },               
+		{
                     "level": 9,
-                    "move": "clamp"
+                    "move": "confuse-ray"
                 },
                 {
                     "level": 14,
+                    "move": "clamp"
+                },
+                {
+                    "level": 16,
                     "move": "aurora-beam"
                 },
                 {
-                    "level": 18,
-                    "move": "spike-cannon"
-                },
-                {
-                    "level": 23,
+                    "level": 20,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 35,
-                    "move": "waterfall"
+                    "level": 22,
+                    "move": "protect"
                 },
                 {
-                    "level": 50,
+                    "level": 41,
                     "move": "ice-beam"
+                },
+                {
+                    "level": 49,
+                    "move": "hydro-pump"
+                },
+                {
+                    "level": 51,
+                    "move": "blizzard"
                 }
             ],
             "name": "shellder",
@@ -29902,32 +29938,60 @@
                 }
             ],
             "learnset": [
+                 {
+                    "level": 1,
+                    "move": "water-gun"
+                },
                 {
                     "level": 1,
-                    "move": "clamp"
+                    "move": "withdraw"
+                },               
+		{
+                    "level": 9,
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 35,
-                    "move": "tri-attack"
+                    "level": 16,
+                    "move": "aurora-beam"
                 },
                 {
-                    "level": 43,
-                    "move": "twineedle"
+                    "level": 20,
+                    "move": "bubblebeam"
                 },
                 {
-                    "level": 50,
-                    "move": "ice-beam"
+                    "level": 22,
+                    "move": "protect"
                 },
                 {
-                    "level": 55,
-                    "move": "rapid-spin"
-                },
-                {
-                    "level": 73,
+                    "level": 33,
                     "move": "spikes"
                 },
                 {
-                    "level": 99,
+                    "level": 35,
+                    "move": "clamp"
+                },
+                {
+                    "level": 41,
+                    "move": "rapid-spin"
+                },
+                {
+                    "level": 42,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 49,
+                    "move": "hydro-pump"
+                },
+                {
+                    "level": 50,
+                    "move": "spike-cannon"
+                },
+                {
+                    "level": 51,
+                    "move": "blizzard"
+                },
+                {
+                    "level": 54,
                     "move": "explosion"
                 }
             ],
@@ -30444,10 +30508,6 @@
                     "level": 40,
                     "move": "psychic"
                 },
-                {
-                    "level": 43,
-                    "move": "thief"
-		},
 		{
 		    "level": 46,
 		    "move": "psych-up"
@@ -30455,7 +30515,11 @@
 		{
 		    "level": 49,
 		    "move": "future-sight"
-                }
+                },
+                {
+                    "level": 66,
+                    "move": "thief"
+		}
             ],
             "name": "drowzee",
             "pokedex": 96,
@@ -30559,7 +30623,11 @@
 		{
 		    "level": 55,
 		    "move": "nightmare"
-                }
+                },
+                {
+                    "level": 66,
+                    "move": "thief"
+		}
             ],
             "name": "hypno",
             "pokedex": 97,
@@ -30935,8 +31003,8 @@
             "evolutions": [
                 {
                     "into": "exeggutor",
-                    "item": "leaf-stone",
-                    "method": "item"
+                    "level": 28,
+                    "method": "level"
                 }
             ],
             "gender": "f50",
@@ -32815,39 +32883,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confusion"
-                },
-                {
-                    "level": 6,
-                    "move": "hypnosis"
-                },
-                {
-                    "level": 16,
-                    "move": "seismic-toss"
-                },
-                {
-                    "level": 24,
-                    "move": "psybeam"
-                },
-                {
-                    "level": 35,
-                    "move": "thunderbolt"
-                },
-                {
-                    "level": 45,
-                    "move": "psychic"
-                },
-                {
-                    "level": 49,
                     "move": "barrier"
                 },
                 {
-                    "level": 54,
+                    "level": 6,
+                    "move": "confusion"
+                },
+                {
+                    "level": 11,
+                    "move": "substitute"
+                },
+                {
+                    "level": 21,
+                    "move": "doubleslap"
+                },
+                {
+                    "level": 26,
+                    "move": "light-screen"
+                },
+                {
+                    "level": 26,
                     "move": "reflect"
                 },
                 {
-                    "level": 60,
+                    "level": 31,
                     "move": "encore"
+                },
+                {
+                    "level": 36,
+                    "move": "psybeam"
+                },
+                {
+                    "level": 41,
+                    "move": "baton-pass"
+                },
+                {
+                    "level": 46,
+                    "move": "safeguard"
                 }
             ],
             "name": "mr-mime",
@@ -40020,59 +40092,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "tackle"
-                },
-                {
-                    "level": 5,
-                    "move": "confusion"
-                },
-                {
-                    "level": 9,
-                    "move": "bite"
-                },
-                {
-                    "level": 12,
-                    "move": "confuse-ray"
-                },
-                {
-                    "level": 16,
                     "move": "stomp"
                 },
                 {
-                    "level": 19,
+                    "level": 1,
+                    "move": "growl"
+                },
+                {
+                    "level": 7,
                     "move": "psybeam"
                 },
                 {
-                    "level": 23,
-                    "move": "crunch"
+                    "level": 16,
+                    "move": "counter"
                 },
                 {
-                    "level": 27,
-                    "move": "body-slam"
+                    "level": 20,
+                    "move": "flame-wheel"
                 },
                 {
-                    "level": 31,
-                    "move": "light-screen"
+                    "level": 30,
+                    "move": "baton-pass"
                 },
                 {
-                    "level": 31,
-                    "move": "reflect"
-                },
-                {
-                    "level": 35,
+                    "level": 41,
                     "move": "psychic"
                 },
                 {
-                    "level": 39,
+                    "level": 43,
+                    "move": "horn-attack"
+                },
+                {
+                    "level": 51,
                     "move": "earthquake"
                 },
                 {
-                    "level": 43,
-                    "move": "thunderbolt"
+                    "level": 53,
+                    "move": "reversal"
                 },
                 {
-                    "level": 48,
-                    "move": "return"
+                    "level": 58,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 59,
+                    "move": "megahorn"
+                },
+                {
+                    "level": 61,
+                    "move": "double-edge"
                 }
             ],
             "name": "girafarig",
@@ -42040,48 +42108,28 @@
                     "move": "present"
                 },
                 {
-                    "level": 6,
-                    "move": "powder-snow"
-                },
-                {
-                    "level": 10,
-                    "move": "peck"
-                },
-                {
-                    "level": 13,
-                    "move": "fury-swipes"
-                },
-                {
-                    "level": 18,
-                    "move": "aurora-beam"
+                    "level": 21,
+                    "move": "spikes"
                 },
                 {
                     "level": 21,
-                    "move": "safeguard"
-                },
-                {
-                    "level": 25,
-                    "move": "wing-attack"
-                },
-                {
-                    "level": 31,
                     "move": "ice-beam"
                 },
                 {
-                    "level": 39,
-                    "move": "sky-attack"
-                },
-                {
-                    "level": 44,
+                    "level": 41,
                     "move": "destiny-bond"
                 },
                 {
-                    "level": 48,
-                    "move": "rapid-spin"
+                    "level": 41,
+                    "move": "substitute"
                 },
                 {
-                    "level": 57,
-                    "move": "spikes"
+                    "level": 51,
+                    "move": "baton-pass"
+                },
+                {
+                    "level": 51,
+                    "move": "sky-attack"
                 }
             ],
             "name": "delibird",
@@ -42214,8 +42262,8 @@
                     "move": "peck"
                 },
                 {
-                    "level": 10,
-                    "move": "swagger"
+                    "level": 1,
+                    "move": "leer"
                 },
                 {
                     "level": 17,
@@ -42234,11 +42282,11 @@
                     "move": "drill-peck"
                 },
                 {
-                    "level": 62,
+                    "level": 52,
                     "move": "steel-wing"
                 },
                 {
-                    "level": 100,
+                    "level": 61,
                     "move": "whirlwind"
                 }
             ],
