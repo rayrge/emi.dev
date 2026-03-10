@@ -15886,7 +15886,7 @@
     ],
     "items": [
         {
-            "description": "Evolves eevee into umbreon",
+            "description": "Evolves Eevee into Umbreon",
             "name": "moon-stone"
         },
         {
@@ -15944,7 +15944,7 @@
         {
             "description": "Cures sleep",
             "name": "chesto-berry"
-        },
+        }
         {
             "description": "Grants pokemon a share of exp",
             "name": "exp-share"
@@ -16054,23 +16054,23 @@
             "name": "soft-sand"
         },
         {
-            "description": "Evolves eevee into vaporeon",
+            "description": "Evolves Eevee into Vaporeon",
             "name": "water-stone"
         },
         {
-            "description": "Evolves eevee into flareon",
+            "description": "Evolves Eevee into Flareon",
             "name": "fire-stone"
         },
         {
-            "description": "Evolves eevee into jolteon",
+            "description": "Evolves Eevee into Jolteon",
             "name": "thunderstone"
         },
         {
-            "description": "Evolves gloom into bellossom",
+            "description": "Evolves Gloom into Bellossom",
             "name": "leaf-stone"
         },
         {
-            "description": "Evolves eevee into espeon",
+            "description": "Evolves Eevee into Espeon",
             "name": "sun-stone"
         },
         {
@@ -16627,7 +16627,7 @@
                 {
                     "amount": "1",
                     "info": "Obtained after defeating Falkner",
-                    "item": "tm-31"
+                    "item": "tm-18"
                 }
             ],
             "locations": [
@@ -16885,34 +16885,9 @@
             "id": 16,
             "items": [
                 {
-                    "amount": "1",
-                    "info": "Buyable in mart",
-                    "item": "water-stone"
-                },
-                {
-                    "amount": "renewable",
-                    "info": "Buyable in mart",
-                    "item": "fire-stone"
-                },
-                {
-                    "amount": "renewable",
-                    "info": "Buyable in mart",
-                    "item": "thunder-stone"
-                },
-                {
                     "amount": "renewable",
                     "info": "Buyable in mart",
                     "item": "leaf-stone"
-                },
-                {
-                    "amount": "renewable",
-                    "info": "Buyable in mart",
-                    "item": "sun-stone"
-                },
-                {
-                    "amount": "renewable",
-                    "info": "Buyable in mart",
-                    "item": "moon-stone"
                 },
                 {
                     "amount": "renewable",
@@ -17082,8 +17057,8 @@
                 },
                 {
                     "amount": "1",
-                    "info": "Come third in bug catching contest",
-                    "item": "sitrus-berry"
+                    "info": "Come second in bug catching contest",
+                    "item": "brightpowder"
                 },
                 {
                     "amount": "1",
@@ -26518,7 +26493,7 @@
             "evolutions": [
                 {
                     "into": "golduck",
-                    "level": 30,
+                    "level": 22,
                     "method": "level"
                 }
             ],
@@ -26527,31 +26502,39 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confusion"
+                    "move": "peck"
                 },
                 {
-                    "level": 4,
-                    "move": "water-gun"
+                    "level": 5,
+                    "move": "disable"
                 },
                 {
-                    "level": 7,
-                    "move": "hypnosis"
+                    "level": 10,
+                    "move": "encore"
                 },
                 {
-                    "level": 13,
-                    "move": "headbutt"
-                },
-                {
-                    "level": 17,
+                    "level": 14,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 21,
-                    "move": "ice-punch"
+                    "level": 16,
+                    "move": "confusion"
                 },
                 {
-                    "level": 26,
-                    "move": "seismic-toss"
+                    "level": 23,
+                    "move": "screech"
+                },
+                {
+                    "level": 31,
+                    "move": "psychic"
+                },
+                {
+                    "level": 40,
+                    "move": "future-sight"
+                },
+                {
+                    "level": 60,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "psyduck",
@@ -26607,39 +26590,47 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "peck"
+                },
+                {
+                    "level": 14,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 33,
-                    "move": "hypnosis"
+                    "level": 16,
+                    "move": "confusion"
                 },
                 {
-                    "level": 37,
-                    "move": "waterfall"
+                    "level": 23,
+                    "move": "ice-punch"
                 },
                 {
-                    "level": 42,
-                    "move": "ice-beam"
+                    "level": 25,
+                    "move": "screech"
                 },
                 {
-                    "level": 46,
+                    "level": 31,
                     "move": "psychic"
                 },
                 {
-                    "level": 51,
-                    "move": "disable"
+                    "level": 34,
+                    "move": "cross-chop"
                 },
                 {
-                    "level": 56,
-                    "move": "hydro-pump"
-                },
-                {
-                    "level": 61,
+                    "level": 40,
                     "move": "encore"
                 },
                 {
-                    "level": 66,
-                    "move": "cross-chop"
+                    "level": 42,
+                    "move": "disable"
+                },
+                {
+                    "level": 45,
+                    "move": "future-sight"
+                },
+                {
+                    "level": 60,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "golduck",
@@ -28159,7 +28150,7 @@
             "evolutions": [
                 {
                     "into": "tentacruel",
-                    "level": 40,
+                    "level": 30,
                     "method": "level"
                 }
             ],
@@ -28168,39 +28159,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "water-gun"
+                    "move": "poison-sting"
                 },
                 {
-                    "level": 7,
-                    "move": "acid"
+                    "level": 6,
+                    "move": "supersonic"
                 },
                 {
                     "level": 12,
-                    "move": "wrap"
+                    "move": "constrict"
                 },
                 {
-                    "level": 16,
+                    "level": 19,
+                    "move": "acid"
+                },
+                {
+                    "level": 20,
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 21,
-                    "move": "aurora-beam"
+                    "level": 22,
+                    "move": "wrap"
                 },
                 {
-                    "level": 45,
-                    "move": "rapid-spin"
-                },
-                {
-                    "level": 56,
+                    "level": 27,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 80,
-                    "move": "waterfall"
+                    "level": 31,
+                    "move": "ice-beam"
                 },
                 {
-                    "level": 99,
-                    "move": "toxic"
+                    "level": 36,
+                    "move": "barrier"
+                },
+                {
+                    "level": 43,
+                    "move": "screech"
+                },
+                {
+                    "level": 49,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "tentacool",
@@ -28248,31 +28247,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "attract"
+                    "move": "poison-sting"
                 },
                 {
-                    "level": 1,
-                    "move": "ice-beam"
+                    "level": 6,
+                    "move": "supersonic"
                 },
                 {
-                    "level": 1,
-                    "move": "surf"
+                    "level": 12,
+                    "move": "constrict"
                 },
                 {
-                    "level": 50,
+                    "level": 19,
+                    "move": "acid"
+                },
+                {
+                    "level": 20,
+                    "move": "bubblebeam"
+                },
+                {
+                    "level": 22,
+                    "move": "wrap"
+                },
+                {
+                    "level": 27,
                     "move": "sludge-bomb"
                 },
                 {
-                    "level": 55,
+                    "level": 31,
                     "move": "ice-beam"
                 },
                 {
-                    "level": 73,
-                    "move": "waterfall"
+                    "level": 36,
+                    "move": "barrier"
                 },
                 {
-                    "level": 99,
-                    "move": "toxic"
+                    "level": 43,
+                    "move": "screech"
+                },
+                {
+                    "level": 49,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "tentacruel",
@@ -30677,28 +30692,52 @@
             "evolutions": [
                 {
                     "into": "kingler",
-                    "level": 28,
+                    "level": 22,
                     "method": "level"
                 }
             ],
             "gender": "f50",
             "items": [],
-            "learnset": [
-                {
+            "learnset": [              
+	        {
                     "level": 1,
-                    "move": "water-gun"
+                    "move": "bubble"
                 },
                 {
+                    "level": 1,
+                    "move": "leer"
+                },               
+		{
                     "level": 9,
-                    "move": "stomp"
+                    "move": "vicegrip"
                 },
                 {
                     "level": 14,
-                    "move": "bubblebeam"
+                    "move": "dig"
                 },
                 {
-                    "level": 26,
-                    "move": "dig"
+                    "level": 16,
+                    "move": "harden"
+                },
+                {
+                    "level": 20,
+                    "move": "submission"
+                },
+                {
+                    "level": 22,
+                    "move": "stomp"
+                },
+                {
+                    "level": 41,
+                    "move": "protect"
+                },
+                {
+                    "level": 49,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 51,
+                    "move": "crabhammer"
                 }
             ],
             "name": "krabby",
@@ -30748,30 +30787,58 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "stomp"
+                    "move": "bubble"
                 },
                 {
-                    "level": 29,
-                    "move": "waterfall"
+                    "level": 1,
+                    "move": "leer"
+                },               
+		{
+                    "level": 9,
+                    "move": "vicegrip"
                 },
                 {
-                    "level": 31,
+                    "level": 16,
+                    "move": "harden"
+                },
+                {
+                    "level": 20,
                     "move": "submission"
                 },
                 {
-                    "level": 36,
-                    "move": "body-slam"
+                    "level": 22,
+                    "move": "stomp"
                 },
                 {
-                    "level": 40,
-                    "move": "crabhammer"
+                    "level": 27,
+                    "move": "guillotine"
                 },
                 {
-                    "level": 44,
-                    "move": "metal-claw"
+                    "level": 35,
+                    "move": "clamp"
                 },
                 {
-                    "level": 65,
+                    "level": 41,
+                    "move": "protect"
+                },
+                {
+                    "level": 42,
+                    "move": "dig"
+                },
+                {
+                    "level": 49,
+                    "move": "fury-cutter"
+                },
+                {
+                    "level": 50,
+                    "move": "cross-chop"
+                },
+                {
+                    "level": 51,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 54,
                     "move": "crabhammer"
                 }
             ],
@@ -32514,7 +32581,7 @@
             "evolutions": [
                 {
                     "into": "seaking",
-                    "level": 25,
+                    "level": 21,
                     "method": "level"
                 }
             ],
@@ -33531,15 +33598,15 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "bubble"
+                    "move": "splash"
                 },
                 {
-                    "level": 1,
+                    "level": 15,
                     "move": "flail"
                 },
                 {
-                    "level": 1,
-                    "move": "tackle"
+                    "level": 30,
+                    "move": "flail"
                 }
             ],
             "name": "magikarp",
@@ -33564,7 +33631,19 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "thrash"
+                },
+                {
+                    "level": 30,
+                    "move": "bite"
+                },
+                {
+                    "level": 32,
                     "move": "dragon-rage"
+                },
+                {
+                    "level": 38,
+                    "move": "icy-wind"
                 },
                 {
                     "level": 35,
@@ -33572,7 +33651,7 @@
                 },
                 {
                     "level": 38,
-                    "move": "thunderbolt"
+                    "move": "take-down"
                 },
                 {
                     "level": 42,
@@ -33580,31 +33659,19 @@
                 },
                 {
                     "level": 45,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 51,
                     "move": "hydro-pump"
                 },
                 {
-                    "level": 59,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 64,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 68,
+                    "level": 49,
                     "move": "double-edge"
                 },
                 {
-                    "level": 72,
-                    "move": "hydro-pump"
+                    "level": 55,
+                    "move": "earthquake"
                 },
                 {
-                    "level": 75,
-                    "move": "earthquake"
+                    "level": 66,
+                    "move": "hyper-beam"
                 },
                 {
                     "level": 80,
@@ -40877,51 +40944,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "water-gun"
-                },
-                {
-                    "level": 5,
-                    "move": "acid"
-                },
-                {
-                    "level": 12,
-                    "move": "twineedle"
-                },
-                {
-                    "level": 16,
-                    "move": "headbutt"
-                },
-                {
-                    "level": 20,
-                    "move": "bubblebeam"
-                },
-                {
-                    "level": 25,
-                    "move": "sludge"
-                },
-                {
-                    "level": 30,
-                    "move": "waterfall"
-                },
-                {
-                    "level": 34,
-                    "move": "sludge-bomb"
-                },
-                {
-                    "level": 40,
-                    "move": "toxic"
-                },
-                {
-                    "level": 47,
-                    "move": "explosion"
-                },
-                {
-                    "level": 73,
                     "move": "spikes"
                 },
                 {
-                    "level": 90,
+                    "level": 1,
+                    "move": "poison-sting"
+                },
+                {
+                    "level": 10,
+                    "move": "harden"
+                },
+                {
+                    "level": 10,
+                    "move": "minimize"
+                },
+                {
+                    "level": 19,
+                    "move": "bubblebeam"
+                },
+                {
+                    "level": 28,
+                    "move": "pin-missile"
+                },
+                {
+                    "level": 35,
+                    "move": "sludge-bomb"
+                },
+                {
+                    "level": 37,
+                    "move": "double-edge"
+                },
+                {
+                    "level": 46,
+                    "move": "hydro-pump"
+                },
+                {
+                    "level": 49,
                     "move": "destiny-bond"
+                },
+                {
+                    "level": 55,
+                    "move": "explosion"
                 }
             ],
             "name": "qwilfish",
@@ -42202,11 +42265,7 @@
                 },
                 {
                     "level": 37,
-                    "move": "waterfall"
-                },
-                {
-                    "level": 49,
-                    "move": "confuse-ray"
+                    "move": "surf"
                 },
                 {
                     "level": 72,
