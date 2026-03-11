@@ -2034,7 +2034,7 @@
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "hoothoot"
+                    "pokemon": "venonat"
                 },
                 {
                     "chance": 5,
@@ -22843,7 +22843,7 @@
                     "move": "quick-attack"
                 },
                 {
-                    "level": 16,
+                    "level": 14,
                     "move": "wing-attack"
                 },
                 {
@@ -24079,8 +24079,8 @@
                     "move": "double-kick"
                 },
                 {
-                    "level": 16,
-                    "move": "poison-sting"
+                    "level": 14,
+                    "move": "acid"
                 },
                 {
                     "level": 24,
@@ -24369,8 +24369,8 @@
                     "move": "double-kick"
                 },
                 {
-                    "level": 16,
-                    "move": "poison-sting"
+                    "level": 14,
+                    "move": "acid"
                 },
                 {
                     "level": 24,
@@ -27088,7 +27088,7 @@
             "evolutions": [
                 {
                     "into": "poliwhirl",
-                    "level": 25,
+                    "level": 21,
                     "method": "level"
                 }
             ],
@@ -33602,7 +33602,7 @@
                 },
                 {
                     "level": 15,
-                    "move": "flail"
+                    "move": "tackle"
                 },
                 {
                     "level": 30,
@@ -33672,10 +33672,6 @@
                 {
                     "level": 66,
                     "move": "hyper-beam"
-                },
-                {
-                    "level": 80,
-                    "move": "rage"
                 }
             ],
             "name": "gyarados",
@@ -37090,11 +37086,15 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "poison-sting"
+                    "move": "acid"
                 },
                 {
                     "level": 1,
                     "move": "string-shot"
+                },
+                {
+                    "level": 5,
+                    "move": "leech-life"
                 },
                 {
                     "level": 6,
@@ -37107,10 +37107,6 @@
                 {
                     "level": 17,
                     "move": "night-shade"
-                },
-                {
-                    "level": 20,
-                    "move": "leech-life"
                 },
                 {
                     "level": 22,
@@ -37173,7 +37169,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "poison-sting"
+                    "move": "acid"
                 },
                 {
                     "level": 1,
@@ -37967,7 +37963,7 @@
                     "move": "night-shade"
                 },
                 {
-                    "level": 23,
+                    "level": 19,
                     "move": "wing-attack"
                 },
                 {
@@ -38153,7 +38149,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "growl"
+                    "move": "headbutt"
                 },
                 {
                     "level": 9,
@@ -38231,7 +38227,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "growl"
+                    "move": "headbutt"
                 },
                 {
                     "level": 9,
@@ -38311,7 +38307,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "growl"
+                    "move": "headbutt"
                 },
                 {
                     "level": 9,
@@ -41410,7 +41406,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "scratch"
+                    "move": "headbutt"
                 },
                 {
                     "level": 9,
@@ -41503,7 +41499,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "slash"
+                    "move": "headbutt"
                 },
                 {
                     "level": 1,
@@ -42967,43 +42963,63 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confuse-ray"
-                },
-                {
-                    "level": 7,
-                    "move": "tackle"
-                },
-                {
-                    "level": 10,
-                    "move": "take-down"
-                },
-                {
-                    "level": 16,
                     "move": "headbutt"
                 },
                 {
-                    "level": 20,
-                    "move": "reflect"
+                    "level": 8,
+                    "move": "scary-face"
+                },
+                {
+                    "level": 11,
+                    "move": "lick"
+                },
+                {
+                    "level": 15,
+                    "move": "hypnosis"
+                },
+                {
+                    "level": 19,
+                    "move": "baton-pass"
+                },
+                {
+                    "level": 23,
+                    "move": "stomp"
+                },
+                {
+                    "level": 25,
+                    "move": "double-kick"
                 },
                 {
                     "level": 27,
-                    "move": "jump-kick"
+                    "move": "psychic"
                 },
                 {
-                    "level": 35,
-                    "move": "earthquake"
+                    "level": 31,
+                    "move": "sand-attack"
+                },
+                {
+                    "level": 33,
+                    "move": "future-sight"
                 },
                 {
                     "level": 40,
-                    "move": "return"
-                },
-                {
-                    "level": 45,
-                    "move": "hi-jump-kick"
-                },
-                {
-                    "level": 49,
                     "move": "double-edge"
+                },
+                {
+                    "level": 42,
+                    "move": "confuse-ray"
+                },
+                {
+                    "level": 48,
+                    "move": "shadow-ball"
+                },
+                {
+                    "level": 50,
+                    "move": "megahorn"
+                },
+                {
+                    "level": 61,
+                    "move": "thrash"
                 }
             ],
             "name": "stantler",
@@ -43555,39 +43571,43 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "confuse-ray"
+                    "move": "tackle"
                 },
                 {
-                    "level": 7,
-                    "move": "attract"
+                    "level": 4,
+                    "move": "growl"
                 },
                 {
-                    "level": 15,
-                    "move": "headbutt"
+                    "level": 8,
+                    "move": "defense-curl"
                 },
                 {
-                    "level": 30,
-                    "move": "body-slam"
+                    "level": 13,
+                    "move": "stomp"
                 },
                 {
-                    "level": 37,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 42,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 46,
+                    "level": 19,
                     "move": "milk-drink"
                 },
                 {
-                    "level": 48,
-                    "move": "heal-bell"
+                    "level": 26,
+                    "move": "body-slam"
+                },
+                {
+                    "level": 34,
+                    "move": "rollout"
+                },
+                {
+                    "level": 43,
+                    "move": "megahorn"
                 },
                 {
                     "level": 53,
-                    "move": "iron-tail"
+                    "move": "heal-bell"
+                },
+                {
+                    "level": 55,
+                    "move": "double-edge"
                 }
             ],
             "name": "miltank",
@@ -44732,7 +44752,7 @@
         },
         {
           "name": "exeggcute",
-          "level": 13,
+          "level": 12,
           "item": "pink-bow",
           "moves": [
             "selfdestruct"
@@ -44872,7 +44892,7 @@
           "moves": [
             "toxic",
             "encore",
-            "surf",
+            "bubblebeam",
             "future-sight"
           ]
         },
@@ -44890,7 +44910,7 @@
           "level": 16,
           "item": "no-item",
           "moves": [
-            "psybeam",
+            "confusion",
             "wing-attack",
             "giga-drain",
             "thief"
@@ -44899,7 +44919,7 @@
         {
           "name": "noctowl",
           "level": 16,
-          "item": "leftovers",
+          "item": "lum-berry",
           "moves": [
             "hypnosis",
             "night-shade",
@@ -49525,7 +49545,7 @@
       "team": [
         {
           "name": "gengar",
-          "level": 40,
+          "level": 41,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -49536,7 +49556,7 @@
         },
         {
           "name": "omastar",
-          "level": 39,
+          "level": 40,
           "item": "mystic-water",
           "moves": [
             "hydro-pump",
@@ -49547,29 +49567,29 @@
         },
         {
           "name": "yanma",
-          "level": 39,
+          "level": 40,
           "item": "hard-stone",
           "moves": [
             "psychic",
-            "giga-drain",
-            "ancientpower",
-            "faint-attack"
+            "double-team",
+            "faint-attack",
+            "ancientpower"
           ]
         },
         {
           "name": "electrode",
-          "level": 40,
+          "level": 41,
           "item": "brightpowder",
           "moves": [
             "substitute",
             "thunderbolt",
-            "thunder-wave",
-            "light-screen"
+            "toxic",
+            "reflect"
           ]
         },
         {
           "name": "tangela",
-          "level": 39,
+          "level": 40,
           "item": "leftovers",
           "moves": [
             "synthesis",
@@ -49580,7 +49600,7 @@
         },
         {
           "name": "alakazam",
-          "level": 40,
+          "level": 41,
           "item": "twistedspoon",
           "moves": [
             "psychic",
