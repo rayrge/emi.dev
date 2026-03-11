@@ -19080,11 +19080,11 @@
         {
             "accuracy": 90,
             "extra": [
-                "User takes 33% of damage dealt as recoil"
+                "If it misses or fails, deals 1\/8 the damage it would've dealt to the user instead"
             ],
             "index": 136,
             "name": "hi-jump-kick",
-            "power": 120,
+            "power": 130,
             "pp": 20,
             "type": "fighting"
         },
@@ -40986,9 +40986,9 @@
             "name": "qwilfish",
             "pokedex": 211,
             "stats": {
-                "atk": 95,
-                "def": 85,
-                "hp": 75,
+                "atk": 115,
+                "def": 95,
+                "hp": 85,
                 "spa": 65,
                 "spd": 55,
                 "spe": 85
