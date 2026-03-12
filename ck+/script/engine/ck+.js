@@ -281,9 +281,9 @@ if (game.name == "ck+xp") {
 	]);
 } else {
 	attackBadges = 1;
-	defenseBadges = 7;
-	specialBadges = 6;
-	speedBadges = 3;
+	defenseBadges = 4;
+	specialBadges = 7;
+	speedBadges = 2;
 	badgeTypes = new Map([
 		["flying", 1],
 		["bug", 2],
