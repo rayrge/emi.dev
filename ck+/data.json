@@ -33136,11 +33136,11 @@
             "name": "vaporeon",
             "pokedex": 134,
             "stats": {
-                "atk": 65,
-                "def": 85,
+                "atk": 55,
+                "def": 90,
                 "hp": 130,
                 "spa": 85,
-                "spd": 95,
+                "spd": 100,
                 "spe": 65
             },
             "tmhm": [
@@ -33234,10 +33234,10 @@
             "name": "jolteon",
             "pokedex": 135,
             "stats": {
-                "atk": 70,
+                "atk": 65,
                 "def": 60,
                 "hp": 65,
-                "spa": 105,
+                "spa": 110,
                 "spd": 95,
                 "spe": 130
             },
@@ -38821,6 +38821,9 @@
                 "nightmare",
                 "cut",
                 "flash"
+		"flamethrower"
+		"thunderbolt"
+		"ice-beam"
             ],
             "types": [
                 "psychic"
@@ -50577,7 +50580,7 @@
       "team": [
         {
           "name": "goldeen",
-          "level": 76,
+          "level": 67,
           "item": "pink-bow",
           "moves": [
             "double-edge",
