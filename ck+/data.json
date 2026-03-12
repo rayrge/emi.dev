@@ -2319,966 +2319,119 @@
             ]
         },
         {
-            "area": "tin-tower-2f",
+            "area": "tin-tower",
             "pools": [
                 {
                     "pool": {
-                        "day": [
+                         "day": [
                             {
                                 "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
+                                "level": 38,
+                                "pokemon": "ninetales"
                             },
                             {
                                 "chance": 30,
-                                "level": 62,
+                                "level": 38,
                                 "pokemon": "electrode"
                             },
                             {
                                 "chance": 20,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "persian"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
+                                "level": 38,
                                 "pokemon": "xatu"
                             },
                             {
+                                "chance": 10,
+                                "level": 38,
+                                "pokemon": "crobat"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
                                 "chance": 1,
-                                "level": 62,
-                                "pokemon": "muk"
+                                "level": 38,
+                                "pokemon": "exeggutor"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "persian"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
+                                "level": 38,
                                 "pokemon": "xatu"
                             },
                             {
+                                "chance": 30,
+                                "level": 38,
+                                "pokemon": "ninetales"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 38,
+                                "pokemon": "electrode"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 38,
+                                "pokemon": "exeggutor"
+                            },
+                            {
                                 "chance": 1,
-                                "level": 62,
-                                "pokemon": "muk"
+                                "level": 38,
+                                "pokemon": "exeggutor"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
+                                "level": 38,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "persian"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                }
-            ]
-        },
-        {
-            "area": "tin-tower-3f",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "persian"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "muk"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "persian"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "muk"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "persian"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                }
-            ]
-        },
-        {
-            "area": "tin-tower-4f",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
+                                "level": 38,
                                 "pokemon": "crobat"
                             },
                             {
                                 "chance": 20,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "persian"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "jumpluff"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "jumpluff"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "ariados"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "raticate"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "ariados"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                }
-            ]
-        },
-        {
-            "area": "tin-tower-5f",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "dunsparce"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "weezing"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "jumpluff"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "murkrow"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "jumpluff"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "dunsparce"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "xatu"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "weezing"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "murkrow"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "dunsparce"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
+                                "level": 38,
                                 "pokemon": "electrode"
                             },
                             {
                                 "chance": 10,
-                                "level": 62,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "weezing"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "victreebel"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "murkrow"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                }
-            ]
-        },
-        {
-            "area": "tin-tower-6f",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "kabutops"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
+                                "level": 38,
                                 "pokemon": "electrode"
                             },
                             {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "kadabra"
-                            },
-                            {
                                 "chance": 5,
-                                "level": 62,
-                                "pokemon": "skarmory"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "primeape"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "kabutops"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "kadabra"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "primeape"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "kabutops"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 62,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 62,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 62,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 62,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 62,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 62,
-                                "pokemon": "houndoom"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                }
-            ]
-        },
-        {
-            "area": "tin-tower-7f",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "omastar"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "venomoth"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "kadabra"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "omastar"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "venomoth"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "kadabra"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "omastar"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "gligar"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "kadabra"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "houndoom"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                }
-            ]
-        },
-        {
-            "area": "tin-tower-8f",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "primeape"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "forretress"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "gengar"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "primeape"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "forretress"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "gengar"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "crobat"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "hypno"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "muk"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "houndoom"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "misdreavus"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                }
-            ]
-        },
-        {
-            "area": "tin-tower-9f",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "forretress"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "ditto"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "primeape"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "houndoom"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "misdreavus"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "forretress"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "ditto"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "primeape"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
-                                "pokemon": "houndoom"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "misdreavus"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 63,
+                                "level": 38,
                                 "pokemon": "misdreavus"
                             },
                             {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "gengar"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "houndoom"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "primeape"
-                            },
-                            {
                                 "chance": 4,
-                                "level": 63,
-                                "pokemon": "ditto"
+                                "level": 38,
+                                "pokemon": "exeggutor"
                             },
                             {
                                 "chance": 1,
-                                "level": 63,
-                                "pokemon": "forretress"
+                                "level": 38,
+                                "pokemon": "exeggutor"
                             }
                         ]
                     },
@@ -3286,7 +2439,7 @@
                 }
             ]
         },
-        {
+             {
             "area": "burned-tower",
             "pools": [
                 {
@@ -17167,14 +16320,7 @@
             "id": 23,
             "items": [],
             "locations": [
-                "tin-tower-2f",
-                "tin-tower-3f",
-                "tin-tower-4f",
-                "tin-tower-5f",
-                "tin-tower-6f",
-                "tin-tower-7f",
-                "tin-tower-8f",
-                "tin-tower-9f"
+                "tin-tower"
             ],
             "name": "tin-tower",
             "positions": [
