@@ -3937,114 +3937,114 @@
                 {
                     "pool": {
                         "day": [
-                            {
+                             {
                                 "chance": 30,
-                                "level": 40,
-                                "pokemon": "electabuzz"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 30,
-                                "level": 40,
-                                "pokemon": "magneton"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 20,
-                                "level": 40,
-                                "pokemon": "weezing"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
-                                "level": 40,
-                                "pokemon": "raichu"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 5,
-                                "level": 40,
-                                "pokemon": "persian"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 40,
-                                "pokemon": "ampharos"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 1,
-                                "level": 40,
-                                "pokemon": "mr-mime"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 40,
-                                "pokemon": "granbull"
+                                "level": 36,
+                                "pokemon": "machoke"
                             },
                             {
                                 "chance": 30,
-                                "level": 40,
-                                "pokemon": "pidgeot"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 20,
-                                "level": 40,
-                                "pokemon": "kangaskhan"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 10,
-                                "level": 40,
-                                "pokemon": "ursaring"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 5,
-                                "level": 40,
-                                "pokemon": "porygon2"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 40,
-                                "pokemon": "tauros"
+                                "level": 36,
+                                "pokemon": "marowak"
                             },
                             {
                                 "chance": 1,
-                                "level": 40,
-                                "pokemon": "chansey"
+                                "level": 36,
+                                "pokemon": "marowak"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 40,
-                                "pokemon": "nidoqueen"
+                                "level": 36,
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 30,
-                                "level": 40,
-                                "pokemon": "nidoking"
+                                "level": 36,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 20,
-                                "level": 40,
-                                "pokemon": "muk"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 40,
+                                "level": 36,
                                 "pokemon": "marowak"
                             },
                             {
+                                "chance": 10,
+                                "level": 36,
+                                "pokemon": "machoke"
+                            },
+                            {
                                 "chance": 5,
-                                "level": 40,
-                                "pokemon": "sneasel"
+                                "level": 36,
+                                "pokemon": "haunter"
                             },
                             {
                                 "chance": 4,
-                                "level": 40,
-                                "pokemon": "arbok"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             },
                             {
                                 "chance": 1,
-                                "level": 40,
-                                "pokemon": "golbat"
+                                "level": 36,
+                                "pokemon": "rhyhorn"
                             }
                         ]
                     },
