@@ -38820,9 +38820,9 @@
                 "attract",
                 "nightmare",
                 "cut",
-                "flash"
-		"flamethrower"
-		"thunderbolt"
+                "flash",
+		"flamethrower",
+		"thunderbolt",
 		"ice-beam"
             ],
             "types": [
