@@ -27808,7 +27808,7 @@
                 },
                 {
                     "level": 20,
-                    "move": "fire-spin"
+                    "move": "rolling-kick"
                 },
                 {
                     "level": 30,
@@ -27884,7 +27884,7 @@
                 },
                 {
                     "level": 20,
-                    "move": "fire-spin"
+                    "move": "rolling-kick"
                 },
                 {
                     "level": 30,
@@ -39897,7 +39897,7 @@
             "evolutions": [
                 {
                     "into": "granbull",
-                    "level": 23,
+                    "level": 21,
                     "method": "level"
                 }
             ],
@@ -42266,8 +42266,8 @@
                 "def": 55,
                 "hp": 75,
                 "spa": 40,
-                "spd": 95,
-                "spe": 65
+                "spd": 65,
+                "spe": 95
             },
             "tmhm": [],
             "types": [
@@ -43712,7 +43712,7 @@
         {
           "name": "ledyba",
           "level": 13,
-          "item": "oran-berry",
+          "item": "blackbelt",
           "moves": [
             "mach-punch",
             "ice-punch",
@@ -44238,7 +44238,7 @@
         },
         {
           "name": "wooper",
-          "level": 22,
+          "level": 20,
           "item": "sitrus-berry",
           "moves": [
             "whirlpool",
@@ -44281,7 +44281,7 @@
           "item": "sitrus-berry",
           "moves": [
             "counter",
-            "double-edge",
+            "body-slam",
             "submission",
             "rock-slide"
           ]
@@ -44807,7 +44807,7 @@
           "level": 20,
           "item": "light-ball",
           "moves": [
-            "spark",
+            "thundershock",
             "extremespeed",
             "surf",
             "fly"
@@ -44987,7 +44987,7 @@
         },
         {
           "name": "seaking",
-          "level": 20,
+          "level": 18,
           "item": "lum-berry",
           "moves": [
             "drill-peck",
@@ -45030,9 +45030,9 @@
           "item": "lum-berry",
           "moves": [
             "mimic",
-            "thunder-wave",
+            "encore",
             "sweet-kiss",
-            "flamethrower"
+            "fire-punch"
           ]
         },
         {
@@ -51280,7 +51280,7 @@
           "item": "scope-lens",
           "moves": [
             "rock-slide",
-            "sky-attack",
+            "drill-peck",
             "earthquake",
             "fire-blast"
           ]
