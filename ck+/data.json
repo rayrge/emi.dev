@@ -33417,32 +33417,40 @@
                     "move": "conversion"
                 },
                 {
-                    "level": 1,
-                    "move": "conversion"
-                },
-                {
-                    "level": 1,
-                    "move": "recover"
-                },
-                {
-                    "level": 1,
+                    "level": 11,
                     "move": "tri-attack"
                 },
                 {
-                    "level": 12,
-                    "move": "psybeam"
+                    "level": 13,
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 20,
+                    "level": 19,
+                    "move": "agility"
+                },
+                {
+                    "level": 22,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 35,
                     "move": "recover"
                 },
                 {
-                    "level": 25,
-                    "move": "icy-wind"
+                    "level": 41,
+                    "move": "thunderbolt"
                 },
                 {
-                    "level": 30,
-                    "move": "shadow-ball"
+                    "level": 50,
+                    "move": "sharpen"
+                },
+                {
+                    "level": 52,
+                    "move": "tri-attack"
+                },
+                {
+                    "level": 64,
+                    "move": "zap-cannon"
                 }
             ],
             "name": "porygon",
@@ -35688,43 +35696,39 @@
                 },
                 {
                     "level": 5,
-                    "move": "swift"
+                    "move": "defense-curl"
                 },
                 {
-                    "level": 8,
-                    "move": "rock-smash"
+                    "level": 7,
+                    "move": "charm"
                 },
                 {
-                    "level": 13,
-                    "move": "pursuit"
+                    "level": 11,
+                    "move": "fury-swipes"
                 },
                 {
                     "level": 16,
-                    "move": "headbutt"
+                    "move": "lovely-kiss"
                 },
                 {
-                    "level": 20,
-                    "move": "growl"
-                },
-                {
-                    "level": 24,
+                    "level": 23,
                     "move": "body-slam"
                 },
                 {
-                    "level": 28,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 32,
-                    "move": "iron-tail"
-                },
-                {
-                    "level": 36,
+                    "level": 27,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 42,
+                    "level": 31,
+                    "move": "swift"
+                },
+                {
+                    "level": 40,
                     "move": "extremespeed"
+                },
+                {
+                    "level": 44,
+                    "move": "surf"
                 }
             ],
             "name": "sentret",
@@ -35788,32 +35792,40 @@
                     "move": "quick-attack"
                 },
                 {
+                    "level": 5,
+                    "move": "defense-curl"
+                },
+                {
+                    "level": 7,
+                    "move": "charm"
+                },
+                {
+                    "level": 11,
+                    "move": "fury-swipes"
+                },
+                {
                     "level": 16,
-                    "move": "headbutt"
+                    "move": "lovely-kiss"
                 },
                 {
-                    "level": 20,
-                    "move": "growl"
-                },
-                {
-                    "level": 24,
+                    "level": 23,
                     "move": "body-slam"
                 },
                 {
-                    "level": 28,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 32,
-                    "move": "iron-tail"
-                },
-                {
-                    "level": 36,
+                    "level": 27,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 42,
+                    "level": 31,
+                    "move": "swift"
+                },
+                {
+                    "level": 40,
                     "move": "extremespeed"
+                },
+                {
+                    "level": 44,
+                    "move": "surf"
                 }
             ],
             "name": "furret",
@@ -38296,42 +38308,46 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "fury-swipes"
-                },
-                {
-                    "level": 7,
-                    "move": "pursuit"
-                },
-                {
-                    "level": 14,
-                    "move": "growl"
-                },
-                {
-                    "level": 19,
                     "move": "quick-attack"
                 },
                 {
-                    "level": 23,
+                    "level": 1,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 6,
+                    "move": "doubleslap"
+                },
+                {
+                    "level": 12,
+                    "move": "fury-swipes"
+                },
+                {
+                    "level": 18,
                     "move": "swift"
                 },
                 {
-                    "level": 31,
+                    "level": 22,
                     "move": "submission"
                 },
                 {
-                    "level": 36,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 47,
-                    "move": "iron-tail"
-                },
-                {
-                    "level": 57,
+                    "level": 25,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 66,
+                    "level": 32,
+                    "move": "screech"
+                },
+                {
+                    "level": 39,
+                    "move": "body-slam"
+                },
+                {
+                    "level": 46,
+                    "move": "sky-attack"
+                },
+                {
+                    "level": 51,
                     "move": "double-edge"
                 }
             ],
@@ -39676,59 +39692,67 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "bite"
+                    "move": "flail"
                 },
                 {
-                    "level": 4,
+                    "level": 1,
                     "move": "defense-curl"
                 },
                 {
-                    "level": 7,
-                    "move": "haze"
+                    "level": 4,
+                    "move": "mud-slap"
                 },
                 {
-                    "level": 12,
-                    "move": "rollout"
-                },
-                {
-                    "level": 15,
-                    "move": "headbutt"
-                },
-                {
-                    "level": 18,
-                    "move": "rage"
-                },
-                {
-                    "level": 21,
+                    "level": 13,
                     "move": "glare"
                 },
                 {
+                    "level": 18,
+                    "move": "spite"
+                },
+                {
+                    "level": 20,
+                    "move": "headbutt"
+                },
+                {
                     "level": 24,
-                    "move": "rock-slide"
-                },
-                {
-                    "level": 27,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 31,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 35,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 41,
                     "move": "ancientpower"
                 },
                 {
-                    "level": 45,
+                    "level": 26,
+                    "move": "rapid-spin"
+                },
+                {
+                    "level": 28,
+                    "move": "drill-peck"
+                },
+                {
+                    "level": 30,
+                    "move": "screech"
+                },
+                {
+                    "level": 32,
+                    "move": "rollout"
+                },
+                {
+                    "level": 38,
+                    "move": "horn-attack"
+                },
+                {
+                    "level": 44,
+                    "move": "steel-wing"
+                },
+                {
+                    "level": 47,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 51,
                     "move": "double-edge"
                 },
                 {
-                    "level": 48,
-                    "move": "rapid-spin"
+                    "level": 59,
+                    "move": "outrage"
                 }
             ],
             "name": "dunsparce",
@@ -39982,27 +40006,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "metronome"
+                    "move": "tackle"
                 },
                 {
-                    "level": 6,
-                    "move": "haze"
+                    "level": 1,
+                    "move": "scary-face"
                 },
                 {
-                    "level": 10,
-                    "move": "lick"
+                    "level": 4,
+                    "move": "tail-whip"
                 },
                 {
-                    "level": 14,
+                    "level": 8,
+                    "move": "charm"
+                },
+                {
+                    "level": 13,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 16,
                     "move": "headbutt"
                 },
                 {
-                    "level": 18,
-                    "move": "crunch"
+                    "level": 19,
+                    "move": "lick"
                 },
                 {
-                    "level": 25,
-                    "move": "body-slam"
+                    "level": 26,
+                    "move": "roar"
+                },
+                {
+                    "level": 34,
+                    "move": "submission"
+                },
+                {
+                    "level": 43,
+                    "move": "glare"
+                },
+                {
+                    "level": 49,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 51,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 55,
+                    "move": "return"
                 }
             ],
             "name": "snubbull",
@@ -40059,55 +40111,55 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "metronome"
+                    "move": "tackle"
                 },
                 {
                     "level": 1,
-                    "move": "bite"
-                },
-                {
-                    "level": 1,
-                    "move": "swift"
-                },
-                {
-                    "level": 1,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 23,
-                    "move": "attract"
-                },
-                {
-                    "level": 27,
-                    "move": "crunch"
-                },
-                {
-                    "level": 31,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 37,
-                    "move": "shadow-ball"
-                },
-                {
-                    "level": 42,
-                    "move": "submission"
-                },
-                {
-                    "level": 46,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 50,
-                    "move": "return"
-                },
-                {
-                    "level": 57,
                     "move": "scary-face"
                 },
                 {
-                    "level": 80,
-                    "move": "lovely-kiss"
+                    "level": 4,
+                    "move": "tail-whip"
+                },
+                {
+                    "level": 8,
+                    "move": "charm"
+                },
+                {
+                    "level": 13,
+                    "move": "karate-chop"
+                },
+                {
+                    "level": 16,
+                    "move": "headbutt"
+                },
+                {
+                    "level": 19,
+                    "move": "lick"
+                },
+                {
+                    "level": 26,
+                    "move": "roar"
+                },
+                {
+                    "level": 34,
+                    "move": "submission"
+                },
+                {
+                    "level": 43,
+                    "move": "glare"
+                },
+                {
+                    "level": 49,
+                    "move": "rock-slide"
+                },
+                {
+                    "level": 51,
+                    "move": "earthquake"
+                },
+                {
+                    "level": 55,
+                    "move": "return"
                 }
             ],
             "name": "granbull",
@@ -40631,43 +40683,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "headbutt"
+                    "move": "scratch"
                 },
                 {
-                    "level": 9,
+                    "level": 1,
+                    "move": "leer"
+                },
+                {
+                    "level": 8,
                     "move": "lick"
                 },
                 {
-                    "level": 15,
-                    "move": "seismic-toss"
+                    "level": 12,
+                    "move": "fury-swipes"
                 },
                 {
-                    "level": 21,
+                    "level": 16,
                     "move": "slash"
                 },
                 {
-                    "level": 27,
-                    "move": "karate-chop"
+                    "level": 20,
+                    "move": "dig"
                 },
                 {
-                    "level": 35,
-                    "move": "metal-claw"
-                },
-                {
-                    "level": 39,
-                    "move": "body-slam"
-                },
-                {
-                    "level": 44,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 47,
+                    "level": 24,
                     "move": "submission"
                 },
                 {
-                    "level": 54,
+                    "level": 36,
                     "move": "double-edge"
+                },
+                {
+                    "level": 39,
+                    "move": "scary-face"
+		},
+                {
+                    "level": 43,
+                    "move": "metal-claw"
+                },
+                {
+                    "level": 50,
+                    "move": "earthquake"
                 }
             ],
             "name": "teddiursa",
@@ -40724,31 +40780,47 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "headbutt"
+                    "move": "scratch"
                 },
                 {
                     "level": 1,
-                    "move": "seismic-toss"
+                    "move": "leer"
                 },
                 {
-                    "level": 35,
-                    "move": "metal-claw"
+                    "level": 8,
+                    "move": "lick"
                 },
                 {
-                    "level": 39,
-                    "move": "body-slam"
+                    "level": 12,
+                    "move": "fury-swipes"
                 },
                 {
-                    "level": 44,
-                    "move": "earthquake"
+                    "level": 16,
+                    "move": "slash"
                 },
                 {
-                    "level": 47,
+                    "level": 20,
+                    "move": "dig"
+                },
+                {
+                    "level": 24,
                     "move": "submission"
                 },
                 {
-                    "level": 54,
+                    "level": 36,
                     "move": "double-edge"
+                },
+                {
+                    "level": 39,
+                    "move": "scary-face"
+		},
+                {
+                    "level": 43,
+                    "move": "metal-claw"
+                },
+                {
+                    "level": 50,
+                    "move": "earthquake"
                 }
             ],
             "name": "ursaring",
@@ -42124,48 +42196,44 @@
             "items": [],
             "learnset": [
                 {
-                    "level": 35,
-                    "move": "thunder-wave"
-                },
-                {
-                    "level": 40,
-                    "move": "thunderbolt"
-                },
-                {
-                    "level": 46,
-                    "move": "ice-beam"
-                },
-                {
-                    "level": 54,
-                    "move": "tri-attack"
-                },
-                {
-                    "level": 60,
-                    "move": "recover"
-                },
-                {
-                    "level": 66,
+                    "level": 1,
                     "move": "conversion"
                 },
                 {
-                    "level": 70,
-                    "move": "conversion2"
-                },
-                {
-                    "level": 75,
-                    "move": "hyper-beam"
-                },
-                {
-                    "level": 80,
+                    "level": 11,
                     "move": "tri-attack"
                 },
                 {
-                    "level": 85,
+                    "level": 13,
+                    "move": "confuse-ray"
+                },
+                {
+                    "level": 19,
+                    "move": "agility"
+                },
+                {
+                    "level": 22,
+                    "move": "ice-beam"
+                },
+                {
+                    "level": 35,
                     "move": "recover"
                 },
                 {
-                    "level": 90,
-                    "move": "sharpen"
+                    "level": 41,
+                    "move": "thunderbolt"
+                },
+                {
+                    "level": 50,
+                    "move": "conversion2"
+                },
+                {
+                    "level": 52,
+                    "move": "tri-attack"
+                },
+                {
+                    "level": 64,
+                    "move": "zap-cannon"
                 }
             ],
             "name": "porygon2",
