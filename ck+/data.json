@@ -1837,12 +1837,12 @@
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "venonat"
+                    "pokemon": "aipom"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "exeggcute"
                 },
                 {
                     "chance": 5,
@@ -1896,27 +1896,27 @@
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "spinarak"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "spearow"
+                    "pokemon": "pineco"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "pineco"
-                },
-                {
-                    "chance": 5,
-                    "level": 10,
                     "pokemon": "aipom"
                 },
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "exeggcute"
+                },
+                {
+                    "chance": 5,
+                    "level": 10,
+                    "pokemon": "heracross"
                 }
             ],
             "kanto": [
@@ -1965,12 +1965,12 @@
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "pineco"
                 },
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "aipom"
+                    "pokemon": "exeggcute"
                 },
                 {
                     "chance": 5,
@@ -2002,7 +2002,7 @@
                 {
                     "chance": 10,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "pineco"
                 },
                 {
                     "chance": 5,
@@ -2012,7 +2012,7 @@
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "pineco"
+                    "pokemon": "exeggcute"
                 }
             ],
             "town": [
@@ -38996,7 +38996,7 @@
                 },
                 {
                     "level": 52,
-                    "move": "screech"
+                    "move": "tail-whip"
                 }
             ],
             "name": "umbreon",
