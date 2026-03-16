@@ -46938,124 +46938,63 @@
         }
       ]
     },
-    {
+  {
       "area": "Ecruteak Dance Theatre",
-      "name": "kimono-girl-miki",
+      "name": "kimono-girl-naoko",
       "team": [
         {
-          "name": "crobat",
+          "name": "ursaring",
           "level": 34,
-          "item": "leftovers",
+          "item": "berserk-gene",
           "moves": [
-            "leech-life",
-            "giga-drain",
-            "sludge-bomb",
-            "wing-attack"
+            "slash",
+            "earthquake",
+            "rock-slide",
+            "fire-punch"
           ]
         },
         {
-          "name": "sneasel",
+          "name": "kingler",
+          "level": 34,
+          "item": "quick-claw",
+          "moves": [
+            "swords-dance",
+            "crabhammer",
+            "fury-cutter",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "hitmonlee",
+          "level": 34,
+          "item": "blackbelt",
+          "moves": [
+            "jump-kick",
+            "earthquake",
+            "flame-wheel",
+            "low-kick"
+          ]
+        },
+        {
+          "name": "pinsir",
           "level": 34,
           "item": "scope-lens",
           "moves": [
-            "metal-claw",
-            "focus-energy",
-            "slash",
+            "fury-cutter",
+            "vicegrip",
+            "wing-attack",
+            "submission"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 36,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "submission",
+            "body-slam",
             "shadow-ball"
-          ]
-        },
-        {
-          "name": "dugtrio",
-          "level": 34,
-          "item": "sitrus-berry",
-          "moves": [
-            "swagger",
-            "earthquake",
-            "tri-attack",
-            "rock-slide"
-          ]
-        },
-        {
-          "name": "aipom",
-          "level": 34,
-          "item": "pink-bow",
-          "moves": [
-            "fury-swipes",
-            "sweet-kiss",
-            "double-team",
-            "baton-pass"
-          ]
-        },
-        {
-          "name": "jolteon",
-          "level": 36,
-          "item": "magnet",
-          "moves": [
-            "thunderbolt",
-            "bite",
-            "quick-attack",
-            "iron-tail"
-          ]
-        }
-      ]
-    },
-    {
-      "area": "Ecruteak Dance Theatre",
-      "name": "kimono-girl-zuki",
-      "team": [
-        {
-          "name": "clefable",
-          "level": 34,
-          "item": "brightpowder",
-          "moves": [
-            "double-team",
-            "thunder-wave",
-            "reflect",
-            "comet-punch"
-          ]
-        },
-        {
-          "name": "vileplume",
-          "level": 34,
-          "item": "miracle-seed",
-          "moves": [
-            "moonlight",
-            "leech-seed",
-            "sleep-powder",
-            "giga-drain"
-          ]
-        },
-        {
-          "name": "noctowl",
-          "level": 34,
-          "item": "sitrus-berry",
-          "moves": [
-            "night-shade",
-            "moonlight",
-            "reflect",
-            "curse"
-          ]
-        },
-        {
-          "name": "shuckle",
-          "level": 34,
-          "item": "lum-berry",
-          "moves": [
-            "wrap",
-            "protect",
-            "mud-slap",
-            "toxic"
-          ]
-        },
-        {
-          "name": "umbreon",
-          "level": 36,
-          "item": "leftovers",
-          "moves": [
-            "confuse-ray",
-            "moonlight",
-            "crunch",
-            "body-slam"
           ]
         }
       ]
@@ -47123,61 +47062,61 @@
     },
     {
       "area": "Ecruteak Dance Theatre",
-      "name": "kimono-girl-naoko",
+      "name": "kimono-girl-zuki",
       "team": [
         {
-          "name": "ursaring",
+          "name": "clefable",
           "level": 34,
-          "item": "berserk-gene",
+          "item": "brightpowder",
           "moves": [
-            "slash",
-            "earthquake",
-            "rock-slide",
-            "fire-punch"
+            "double-team",
+            "thunder-wave",
+            "reflect",
+            "comet-punch"
           ]
         },
         {
-          "name": "kingler",
+          "name": "vileplume",
           "level": 34,
-          "item": "quick-claw",
+          "item": "miracle-seed",
           "moves": [
-            "swords-dance",
-            "crabhammer",
-            "fury-cutter",
-            "body-slam"
+            "moonlight",
+            "leech-seed",
+            "sleep-powder",
+            "giga-drain"
           ]
         },
         {
-          "name": "hitmonlee",
+          "name": "noctowl",
           "level": 34,
-          "item": "blackbelt",
+          "item": "sitrus-berry",
           "moves": [
-            "jump-kick",
-            "earthquake",
-            "flame-wheel",
-            "low-kick"
+            "night-shade",
+            "moonlight",
+            "reflect",
+            "curse"
           ]
         },
         {
-          "name": "pinsir",
+          "name": "shuckle",
           "level": 34,
-          "item": "scope-lens",
+          "item": "lum-berry",
           "moves": [
-            "fury-cutter",
-            "vicegrip",
-            "wing-attack",
-            "submission"
+            "wrap",
+            "protect",
+            "mud-slap",
+            "toxic"
           ]
         },
         {
-          "name": "flareon",
+          "name": "umbreon",
           "level": 36,
-          "item": "charcoal",
+          "item": "leftovers",
           "moves": [
-            "flame-wheel",
-            "submission",
-            "body-slam",
-            "shadow-ball"
+            "confuse-ray",
+            "moonlight",
+            "crunch",
+            "body-slam"
           ]
         }
       ]
@@ -47239,6 +47178,67 @@
             "recover",
             "surf",
             "ice-beam"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Ecruteak Dance Theatre",
+      "name": "kimono-girl-miki",
+      "team": [
+        {
+          "name": "crobat",
+          "level": 34,
+          "item": "leftovers",
+          "moves": [
+            "leech-life",
+            "giga-drain",
+            "sludge-bomb",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 34,
+          "item": "scope-lens",
+          "moves": [
+            "metal-claw",
+            "focus-energy",
+            "slash",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "dugtrio",
+          "level": 34,
+          "item": "sitrus-berry",
+          "moves": [
+            "swagger",
+            "earthquake",
+            "tri-attack",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "aipom",
+          "level": 34,
+          "item": "pink-bow",
+          "moves": [
+            "fury-swipes",
+            "sweet-kiss",
+            "double-team",
+            "baton-pass"
+          ]
+        },
+        {
+          "name": "jolteon",
+          "level": 36,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "bite",
+            "quick-attack",
+            "iron-tail"
           ]
         }
       ]
