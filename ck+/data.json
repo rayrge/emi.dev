@@ -33352,7 +33352,7 @@
                 },
                 {
                     "level": 29,
-                    "move": "fire-spin"
+                    "move": "flamethrower"
                 },
                 {
                     "level": 33,
@@ -33368,7 +33368,7 @@
                 },
                 {
                     "level": 45,
-                    "move": "flamethrower"
+                    "move": "swords-dance"
                 },
                 {
                     "level": 49,
@@ -33382,12 +33382,12 @@
             "name": "flareon",
             "pokedex": 136,
             "stats": {
-                "atk": 145,
-                "def": 55,
+                "atk": 135,
+                "def": 60,
                 "hp": 65,
-                "spa": 100,
-                "spd": 80,
-                "spe": 80
+                "spa": 65,
+                "spd": 115,
+                "spe": 85
             },
             "tmhm": [
                 "headbutt",
@@ -40416,7 +40416,7 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "constrict"
+                    "move": "bind"
                 },
                 {
                     "level": 1,
@@ -46334,8 +46334,7 @@
           "level": 29,
           "item": "poison-barb",
           "moves": [
-            "sludge",
-            "explosion"
+            "sludge"
           ]
         },
         {
