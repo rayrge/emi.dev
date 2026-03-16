@@ -7487,7 +7487,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.forest",
                     "type": "headbutt"
                 },
                 {
@@ -7769,7 +7769,7 @@
                     "type": "walking"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.route",
                     "type": "headbutt"
                 }
             ]
@@ -8083,7 +8083,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.route",
+                    "pool": "headbutt.forest",
                     "type": "headbutt"
                 },
                 {
@@ -8483,7 +8483,7 @@
                     "type": "walking"
                 },
                 {
-                    "pool": "headbutt.route",
+                    "pool": "headbutt.forest",
                     "type": "headbutt"
                 }
             ]
@@ -8914,7 +8914,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.lake",
                     "type": "headbutt"
                 }
             ]
@@ -9071,7 +9071,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.lake",
                     "type": "headbutt"
                 }
             ]
@@ -9228,7 +9228,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.canyon",
                     "type": "headbutt"
                 }
             ]
@@ -9385,7 +9385,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.canyon",
                     "type": "headbutt"
                 }
             ]
@@ -9679,7 +9679,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.forest",
                     "type": "headbutt"
                 }
             ]
@@ -13831,7 +13831,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.route",
                     "type": "headbutt"
                 }
             ]
@@ -14327,7 +14327,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.lake",
                     "type": "headbutt"
                 },
                 {
@@ -14642,7 +14642,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.canyon",
                     "type": "headbutt"
                 },
                 {
@@ -14824,7 +14824,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.canyon",
                     "type": "headbutt"
                 }
             ]
@@ -14902,7 +14902,7 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.lake",
                     "type": "headbutt"
                 },
                 {
@@ -14959,7 +14959,7 @@
             "area": "azalea-town",
             "pools": [
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.forest",
                     "type": "headbutt"
                 }
             ]
@@ -15022,7 +15022,7 @@
             "area": "mahogany-town",
             "pools": [
                 {
-                    "pool": "headbutt.town",
+                    "pool": "headbutt.lake",
                     "type": "headbutt"
                 }
             ]
@@ -15031,7 +15031,7 @@
             "area": "battle-tower-outside",
             "pools": [
                 {
-                    "pool": "headbutt.route",
+                    "pool": "headbutt.forest",
                     "type": "headbutt"
                 }
             ]
@@ -17893,7 +17893,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "50% chance to lower opponent's defense"
+                "100% chance to lower opponent's defense"
             ],
             "index": 249,
             "name": "rock-smash",
@@ -20773,7 +20773,7 @@
             "evolutions": [
                 {
                     "into": "venusaur",
-                    "level": 32,
+                    "level": 36,
                     "method": "level"
                 }
             ],
@@ -20913,6 +20913,10 @@
                     "level": 36,
                     "move": "sludge-bomb"
                 },
+		{
+		    "level": 38,
+		    "move": "body-slam"
+		},
                 {
                     "level": 44,
                     "move": "sweet-scent"
@@ -21227,6 +21231,10 @@
                     "level": 36,
                     "move": "wing-attack"
                 },
+		{
+		    "level": 38,
+		    "move": "earthquake"
+		},
                 {
                     "level": 44,
                     "move": "dragonbreath"
@@ -21552,6 +21560,10 @@
                     "level": 36,
                     "move": "mirror-coat"
                 },
+		{
+		    "level": 38,
+		    "move": "ice-beam"
+		},
                 {
                     "level": 44,
                     "move": "submission"
@@ -21728,11 +21740,11 @@
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 22,
+                    "level": 20,
                     "move": "psybeam"
                 },
                 {
-                    "level": 23,
+                    "level": 22,
                     "move": "encore"
                 },
                 {
@@ -22920,7 +22932,7 @@
             "items": [
                 {
                     "chance": 0.0200000000000000004,
-                    "item": "berry"
+                    "item": "oran-berry"
                 }
             ],
             "learnset": [
@@ -23793,7 +23805,7 @@
             "items": [
                 {
                     "chance": 0.23000000000000001,
-                    "item": "mysteryberry"
+                    "item": "leppa-berry"
                 }
             ],
             "learnset": [
@@ -23907,7 +23919,7 @@
             "items": [
                 {
                     "chance": 0.23000000000000001,
-                    "item": "mysteryberry"
+                    "item": "leppa-berry"
                 }
             ],
             "learnset": [
@@ -24029,7 +24041,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "burnt-berry"
+                    "item": "aspear-berry"
                 }
             ],
             "learnset": [
@@ -24127,7 +24139,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "burnt-berry"
+                    "item": "aspear-berry"
                 }
             ],
             "learnset": [
@@ -25832,7 +25844,7 @@
             "evolutions": [
                 {
                     "into": "primeape",
-                    "level": 28,
+                    "level": 25,
                     "method": "level"
                 }
             ],
@@ -26044,7 +26056,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "burnt-berry"
+                    "item": "aspear-berry"
                 }
             ],
             "learnset": [
@@ -26133,7 +26145,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "burnt-berry"
+                    "item": "aspear-berry"
                 }
             ],
             "learnset": [
@@ -27474,7 +27486,7 @@
                 "atk": 70,
                 "def": 65,
                 "hp": 80,
-                "spa": 100,
+                "spa": 80,
                 "spd": 120,
                 "spe": 100
             },
@@ -30423,7 +30435,7 @@
             "evolutions": [
                 {
                     "into": "marowak",
-                    "level": 28,
+                    "level": 21,
                     "method": "level"
                 }
             ],
@@ -30636,44 +30648,52 @@
             "items": [],
             "learnset": [
                 {
-                    "level": 1,
+                    "level": 20,
+                    "move": "focus-energy"
+                },
+                {
+                    "level": 23,
                     "move": "karate-chop"
                 },
                 {
-                    "level": 26,
-                    "move": "double-kick"
+                    "level": 25,
+                    "move": "rolling-kick"
+                },
+                {
+                    "level": 27,
+                    "move": "low-kick"
                 },
                 {
                     "level": 30,
-                    "move": "body-slam"
+                    "move": "double-edge"
                 },
                 {
                     "level": 36,
                     "move": "submission"
                 },
                 {
+                    "level": 38,
+                    "move": "flame-wheel"
+                },
+                {
+                    "level": 40,
+                    "move": "jump-kick"
+                },
+                {
                     "level": 42,
-                    "move": "rapid-spin"
+                    "move": "mega-kick"
                 },
                 {
-                    "level": 48,
-                    "move": "seismic-toss"
+                    "level": 44,
+                    "move": "endure"
                 },
                 {
-                    "level": 56,
-                    "move": "earthquake"
-                },
-                {
-                    "level": 62,
-                    "move": "rock-slide"
-                },
-                {
-                    "level": 69,
-                    "move": "hi-jump-kick"
-                },
-                {
-                    "level": 95,
+                    "level": 47,
                     "move": "reversal"
+                },
+                {
+                    "level": 50,
+                    "move": "hi-jump-kick"
                 }
             ],
             "name": "hitmonlee",
@@ -32114,7 +32134,7 @@
             "items": [
                 {
                     "chance": 0.0200000000000000004,
-                    "item": "mysteryberry"
+                    "item": "leppa-berry"
                 }
             ],
             "learnset": [
@@ -32304,7 +32324,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "ice-berry"
+                    "item": "rawst-berry"
                 }
             ],
             "learnset": [
@@ -32489,7 +32509,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "burnt-berry"
+                    "item": "aspear-berry"
                 }
             ],
             "learnset": [
@@ -33962,7 +33982,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "miracleberry"
+                    "item": "lum-berry"
                 }
             ],
             "learnset": [
@@ -34592,7 +34612,7 @@
             "items": [
                 {
                     "chance": 0.0200000000000000004,
-                    "item": "miracleberry"
+                    "item": "lum-berry"
                 }
             ],
             "learnset": [
@@ -35452,7 +35472,7 @@
             "evolutions": [
                 {
                     "into": "feraligatr",
-                    "level": 30,
+                    "level": 32,
                     "method": "level"
                 }
             ],
@@ -35686,7 +35706,7 @@
             "items": [
                 {
                     "chance": 0.0200000000000000004,
-                    "item": "berry"
+                    "item": "oran-berry"
                 }
             ],
             "learnset": [
@@ -35783,7 +35803,7 @@
             "items": [
                 {
                     "chance": 0.23000000000000001,
-                    "item": "berry"
+                    "item": "oran-berry"
                 }
             ],
             "learnset": [
@@ -36112,7 +36132,7 @@
                 },
                 {
                     "level": 18,
-                    "move": "safeguard"
+                    "move": "toxic"
                 },
                 {
                     "level": 20,
@@ -36128,7 +36148,7 @@
                 },
                 {
                     "level": 31,
-                    "move": "toxic"
+                    "move": "safeguard"
                 }
             ],
             "name": "ledyba",
@@ -36197,6 +36217,10 @@
                 {
                     "level": 22,
                     "move": "mach-punch"
+                },
+                {
+                    "level": 22,
+                    "move": "encore"
                 },
                 {
                     "level": 24,
@@ -36410,7 +36434,7 @@
                 "hp": 70,
                 "spa": 60,
                 "spd": 60,
-                "spe": 80
+                "spe": 40
             },
             "tmhm": [
                 "curse",
@@ -36728,7 +36752,7 @@
             "items": [
                 {
                     "chance": 0.0200000000000000004,
-                    "item": "berry"
+                    "item": "oran-berry"
                 }
             ],
             "learnset": [
@@ -36810,7 +36834,7 @@
             "items": [
                 {
                     "chance": 0.23000000000000001,
-                    "item": "mysteryberry"
+                    "item": "leppa-berry"
                 }
             ],
             "learnset": [
@@ -36999,15 +37023,15 @@
                 },
                 {
                     "level": 23,
-                    "move": "encore"
-                },
-                {
-                    "level": 29,
                     "move": "safeguard"
                 },
                 {
+                    "level": 29,
+                    "move": "encore"
+                },
+                {
                     "level": 38,
-                    "move": "double-edge"
+                    "move": "egg-bomb"
                 }
             ],
             "name": "togepi",
@@ -37083,11 +37107,11 @@
                 },
                 {
                     "level": 23,
-                    "move": "encore"
+                    "move": "safeguard"
                 },
                 {
                     "level": 29,
-                    "move": "safeguard"
+                    "move": "encore"
                 },
                 {
                     "level": 38,
@@ -39241,42 +39265,34 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "night-shade"
+                    "move": "psywave"
                 },
                 {
-                    "level": 16,
-                    "move": "faint-attack"
+                    "level": 6,
+                    "move": "spite"
                 },
                 {
-                    "level": 24,
-                    "move": "psybeam"
+                    "level": 12,
+                    "move": "confuse-ray"
                 },
                 {
-                    "level": 29,
-                    "move": "hypnosis"
+                    "level": 19,
+                    "move": "mean-look"
                 },
                 {
-                    "level": 34,
-                    "move": "thunderbolt"
+                    "level": 27,
+                    "move": "psychic"
+                },
+                {
+                    "level": 36,
+                    "move": "pain-split"
                 },
                 {
                     "level": 44,
                     "move": "shadow-ball"
                 },
                 {
-                    "level": 49,
-                    "move": "psywave"
-                },
-                {
-                    "level": 55,
-                    "move": "psychic"
-                },
-                {
-                    "level": 73,
-                    "move": "pain-split"
-                },
-                {
-                    "level": 85,
+                    "level": 46,
                     "move": "perish-song"
                 }
             ],
@@ -39614,7 +39630,7 @@
                 },
                 {
                     "level": 29,
-                    "move": "bide"
+                    "move": "rock-slide"
                 },
                 {
                     "level": 34,
@@ -40394,7 +40410,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "berry"
+                    "item": "oran-berry"
                 }
             ],
             "learnset": [
@@ -42610,7 +42626,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "ice-berry"
+                    "item": "rawst-berry"
                 }
             ],
             "learnset": [
@@ -42803,7 +42819,7 @@
             "items": [
                 {
                     "chance": 0.25,
-                    "item": "burnt-berry"
+                    "item": "aspear-berry"
                 }
             ],
             "learnset": [
@@ -43671,7 +43687,7 @@
             "items": [
                 {
                     "chance": 0.0200000000000000004,
-                    "item": "miracleberry"
+                    "item": "lum-berry"
                 }
             ],
             "learnset": [
@@ -43808,7 +43824,7 @@
     "trainers": [
         {
       "area": "Route 30",
-      "name": "youngster-berry",
+      "name": "youngster-joey",
       "team": [
         {
           "name": "rattata",
@@ -44213,7 +44229,7 @@
         {
           "name": "psyduck",
           "level": 16,
-          "item": "berry-juice",
+          "item": "miracleberry",
           "moves": [
             "toxic",
             "encore",
@@ -44235,7 +44251,7 @@
           "level": 16,
           "item": "no-item",
           "moves": [
-            "confusion",
+            "psybeam",
             "wing-attack",
             "giga-drain",
             "thief"
@@ -44244,7 +44260,7 @@
         {
           "name": "noctowl",
           "level": 16,
-          "item": "lum-berry",
+          "item": "berry-juice",
           "moves": [
             "hypnosis",
             "night-shade",
@@ -45055,7 +45071,7 @@
           "level": 19,
           "item": "berry-juice",
           "moves": [
-            "double-edge",
+            "take-down",
             "sing",
             "rollout",
             "explosion"
@@ -45194,8 +45210,8 @@
           "level": 22,
           "item": "sitrus-berry",
           "moves": [
-            "belly-drum",
             "body-slam",
+            "belly-drum",
             "bubblebeam",
             "ice-punch"
           ]
@@ -45227,10 +45243,10 @@
           "level": 22,
           "item": "kings-rock",
           "moves": [
+	    "bone-rush",
             "glare",
-            "headbutt",
-            "rock-slide",
-            "bone-rush"
+            "stomp",
+            "rock-slide"
           ]
         },
         {
@@ -45251,7 +45267,7 @@
       "name": "youngster-samuel",
       "team": [
         {
-          "name": "raichu",
+          "name": "pikachu",
           "level": 23,
           "item": "berry-juice",
           "moves": [
@@ -45296,8 +45312,8 @@
           "moves": [
             "glare",
             "acid",
-            "earthquake",
-            "rock-slide"
+            "dig",
+            "rock-throw"
           ]
         },
         {
@@ -45386,7 +45402,7 @@
       "team": [
         {
           "name": "dunsparce",
-          "level": 27,
+          "level": 22,
           "item": "leftovers",
           "moves": [
             "body-slam",
@@ -45405,7 +45421,7 @@
         {
           "name": "drowzee",
           "level": 24,
-          "item": "gold-berry",
+          "item": "sitrus-berry",
           "moves": [
             "hypnosis",
             "dream-eater",
@@ -45478,7 +45494,7 @@
           "moves": [
             "protect",
             "curse",
-            "earthquake",
+            "horn-attack",
             "sludge-bomb"
           ]
         },
@@ -45500,6 +45516,28 @@
       "name": "officer-keith",
       "team": [
         {
+          "name": "ponyta",
+          "level": 23,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "stomp",
+            "spark",
+            "double-kick"
+          ]
+        },
+        {
+          "name": "magnemite",
+          "level": 24,
+          "item": "magnet",
+          "moves": [
+            "spark",
+            "thunder-wave",
+            "flash",
+            "psywave"
+          ]
+        },
+        {
           "name": "granbull",
           "level": 22,
           "item": "blackglasses",
@@ -45508,28 +45546,6 @@
             "roar",
             "headbutt",
             "submission"
-          ]
-        },
-        {
-          "name": "magnemite",
-          "level": 24,
-          "item": "magnet",
-          "moves": [
-            "thunderbolt",
-            "thunder-wave",
-            "flash",
-            "psywave"
-          ]
-        },
-        {
-          "name": "rapidash",
-          "level": 23,
-          "item": "charcoal",
-          "moves": [
-            "flame-wheel",
-            "stomp",
-            "spark",
-            "double-kick"
           ]
         }
       ]
@@ -45785,9 +45801,9 @@
           "level": 23,
           "item": "leftovers",
           "moves": [
-            "crabhammer",
-            "submission",
-            "body-slam",
+            "clamp",
+            "karate-chop",
+            "vicegrip",
             "metal-claw"
           ]
         }
@@ -45864,8 +45880,8 @@
           "item": "berry-juice",
           "moves": [
             "pin-missile",
-            "spike-cannon",
-            "selfdestruct",
+            "doubleslap",
+            "destiny-bond",
             "icy-wind"
           ]
         }
@@ -45916,7 +45932,7 @@
       "team": [
         {
           "name": "phanpy",
-          "level": 38,
+          "level": 30,
           "item": "berry-juice",
           "moves": [
             "earthquake",
@@ -45927,11 +45943,11 @@
         },
         {
           "name": "teddiursa",
-          "level": 38,
+          "level": 30,
           "item": "berry-juice",
           "moves": [
             "fury-swipes",
-            "swords-dance",
+            "charm",
             "submission",
             "dig"
           ]
@@ -45959,7 +45975,7 @@
           "item": "leftovers",
           "moves": [
             "toxic",
-            "rest",
+            "safeguard",
             "wrap",
             "rock-smash"
           ]
@@ -45983,7 +45999,7 @@
             "surf",
             "skull-bash",
             "ice-beam",
-            "ancientpower"
+            "rock-slide"
           ]
         },
         {
@@ -46009,9 +46025,9 @@
           "item": "leftovers",
           "moves": [
             "extremespeed",
-            "ice-beam",
-            "flamethrower",
-            "thunderbolt"
+            "sharpen",
+            "agility",
+            "conversion"
           ]
         },
         {
@@ -46041,7 +46057,7 @@
           "level": 26,
           "item": "focus-band",
           "moves": [
-            "thunder",
+            "spark",
             "substitute",
             "attract",
             "solarbeam"
@@ -46066,51 +46082,51 @@
       "team": [
         {
           "name": "pinsir",
-          "level": 25,
+          "level": 24,
           "item": "berry-juice",
           "moves": [
             "vital-throw",
             "counter",
             "wing-attack",
-            "slam"
+            "horn-attack"
           ]
         },
         {
           "name": "forretress",
-          "level": 27,
-          "item": "focus-band",
+          "level": 25,
+          "item": "hard-stone",
           "moves": [
             "light-screen",
             "thunder-wave",
-            "pin-missile",
+            "twineedle",
             "rock-slide"
           ]
         },
         {
           "name": "gligar",
-          "level": 25,
+          "level": 24,
           "item": "lum-berry",
           "moves": [
             "toxic",
             "protect",
             "leech-life",
-            "rock-slide"
+            "vicegrip"
           ]
         },
         {
           "name": "kingler",
-          "level": 26,
+          "level": 23,
           "item": "quick-claw",
           "moves": [
             "stomp",
-            "submission",
-            "fury-cutter",
+            "karate-chop",
+            "clamp",
             "dig"
           ]
         },
         {
           "name": "scyther",
-          "level": 25,
+          "level": 24,
           "item": "sharp-beak",
           "moves": [
             "wing-attack",
@@ -46154,7 +46170,7 @@
           "moves": [
             "giga-drain",
             "psybeam",
-            "ancientpower",
+            "dragon-rage",
             "faint-attack"
           ]
         },
@@ -46315,7 +46331,7 @@
         },
         {
           "name": "qwilfish",
-          "level": 32,
+          "level": 29,
           "item": "poison-barb",
           "moves": [
             "sludge",
@@ -46327,9 +46343,9 @@
           "level": 30,
           "item": "berry-juice",
           "moves": [
-            "earthquake",
+            "dig",
             "toxic",
-            "sludge-bomb",
+            "acid",
             "crunch"
           ]
         }
@@ -46377,12 +46393,11 @@
           ]
         },
         {
-          "name": "magneton",
-          "level": 30,
+          "name": "magnemite",
+          "level": 29,
           "item": "magnet",
           "moves": [
-            "thunderbolt",
-            "explosion"
+            "thunderbolt"
           ]
         },
         {
@@ -46519,7 +46534,7 @@
           "level": 34,
           "item": "pink-bow",
           "moves": [
-            "double-edge"
+            "take-down"
           ]
         },
         {
@@ -46553,7 +46568,7 @@
       "team": [
         {
           "name": "pikachu",
-          "level": 51,
+          "level": 41,
           "item": "light-ball",
           "moves": [
             "thunderbolt",
@@ -46563,7 +46578,7 @@
         },
         {
           "name": "marill",
-          "level": 51,
+          "level": 41,
           "item": "pink-bow",
           "moves": [
             "double-edge",
@@ -46577,6 +46592,16 @@
       "area": "Route 32",
       "name": "bird-keeper-peter",
       "team": [
+        {
+          "name": "dodrio",
+          "level": 33,
+          "item": "sharp-beak",
+          "moves": [
+            "tri-attack",
+            "drill-peck",
+            "double-kick"
+          ]
+        },
         {
           "name": "noctowl",
           "level": 33,
@@ -46597,16 +46622,6 @@
             "future-sight",
             "psychic"
           ]
-        },
-        {
-          "name": "dodrio",
-          "level": 33,
-          "item": "sharp-beak",
-          "moves": [
-            "tri-attack",
-            "drill-peck",
-            "double-kick"
-          ]
         }
       ]
     },
@@ -46620,7 +46635,7 @@
           "item": "pink-bow",
           "moves": [
             "confuse-ray",
-            "double-edge",
+            "take-down",
             "psychic"
           ]
         },
@@ -46668,7 +46683,7 @@
           "moves": [
             "rest",
             "sleep-talk",
-            "hydro-pump"
+            "surf"
           ]
         },
         {
@@ -46709,7 +46724,7 @@
       "team": [
         {
           "name": "magikarp",
-          "level": 56,
+          "level": 42,
           "item": "focus-band",
           "moves": [
             "hydro-pump",
@@ -46719,7 +46734,7 @@
         },
         {
           "name": "magikarp",
-          "level": 61,
+          "level": 48,
           "item": "focus-band",
           "moves": [
             "hydro-pump",
@@ -46729,7 +46744,7 @@
         },
         {
           "name": "magikarp",
-          "level": 66,
+          "level": 54,
           "item": "focus-band",
           "moves": [
             "hydro-pump",
@@ -46739,7 +46754,7 @@
         },
         {
           "name": "magikarp",
-          "level": 71,
+          "level": 60,
           "item": "focus-band",
           "moves": [
             "hydro-pump",
@@ -46817,7 +46832,7 @@
           "level": 32,
           "item": "lum-berry",
           "moves": [
-            "double-edge",
+            "take-down",
             "shadow-ball",
             "wing-attack",
             "steel-wing"
@@ -47234,8 +47249,8 @@
       "team": [
         {
           "name": "magneton",
-          "level": 32,
-          "item": "focus-band",
+          "level": 31,
+          "item": "no-item",
           "moves": [
             "light-screen",
             "reflect",
@@ -47306,8 +47321,8 @@
       "team": [
         {
           "name": "magneton",
-          "level": 32,
-          "item": "focus-band",
+          "level": 31,
+          "item": "no-item",
           "moves": [
             "light-screen",
             "reflect",
@@ -47378,8 +47393,8 @@
       "team": [
         {
           "name": "magneton",
-          "level": 32,
-          "item": "focus-band",
+          "level": 31,
+          "item": "no-item",
           "moves": [
             "light-screen",
             "reflect",
@@ -48256,7 +48271,7 @@
             "thunderbolt",
             "iron-tail",
             "surf",
-            "ice-beam"
+            "aurora-beam"
           ]
         },
         {
@@ -49193,7 +49208,7 @@
         {
           "name": "vileplume",
           "level": 43,
-          "item": "gold-berry",
+          "item": "sitrus-berry",
           "moves": [
             "leech-seed",
             "wrap",
@@ -50524,7 +50539,7 @@
         },
         {
           "name": "typhlosion",
-          "level": 52,
+          "level": 51,
           "item": "charcoal",
           "moves": [
             "fire-blast",
@@ -50740,7 +50755,7 @@
         {
           "name": "dragonite",
           "level": 51,
-          "item": "miracleberry",
+          "item": "lum-berry",
           "moves": [
             "earthquake",
             "outrage",
