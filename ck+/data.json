@@ -13869,18 +13869,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 55,
-                            "pokemon": "arcanine"
+                            "level": 50,
+                            "pokemon": "dratini"
                         },
                         {
                             "chance": 30,
-                            "level": 55,
-                            "pokemon": "arcanine"
+                            "level": 50,
+                            "pokemon": "dratini"
                         },
                         {
                             "chance": 10,
-                            "level": 55,
-                            "pokemon": "arcanine"
+                            "level": 50,
+                            "pokemon": "dragonair"
                         }
                     ],
                     "type": "surfing"
@@ -13900,22 +13900,10 @@
                 {
                     "pool": [
                         {
-                            "chance": 33,
+                            "chance": 100,
                             "extra": "None",
-                            "level": 50,
-                            "pokemon": "articuno"
-                        },
-                        {
-                            "chance": 33,
-                            "extra": "None",
-                            "level": 50,
-                            "pokemon": "moltres"
-                        },
-                        {
-                            "chance": 33,
-                            "extra": "None",
-                            "level": 50,
-                            "pokemon": "zapdos"
+                            "level": 15,
+                            "pokemon": "dratini"
                         }
                     ],
                     "type": "gift"
@@ -14189,13 +14177,13 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 50,
-                            "pokemon": "kingdra"
+                            "level": 45,
+                            "pokemon": "seadra"
                         },
                         {
                             "chance": 30,
-                            "level": 50,
-                            "pokemon": "kingdra"
+                            "level": 45,
+                            "pokemon": "seadra"
                         },
                         {
                             "chance": 10,
