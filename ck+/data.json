@@ -136,44 +136,44 @@
                     "day": [
                         {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "gyarados"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "gyarados"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 20,
-                            "level": 63,
+                            "level": 20,
                             "pokemon": "dragonair"
                         },
                         {
                             "chance": 10,
-                            "level": 63,
-                            "pokemon": "gyarados"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         }
                     ],
                     "night": [
                         {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "gyarados"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "gyarados"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 20,
-                            "level": 63,
+                            "level": 20,
                             "pokemon": "dragonair"
                         },
                         {
                             "chance": 10,
-                            "level": 63,
+                            "level": 20,
                             "pokemon": "dragonair"
                         }
                     ]
@@ -182,35 +182,35 @@
                     "day": [
                         {
                             "chance": 70,
-                            "level": 5,
-                            "pokemon": "magikarp"
+                            "level": 10,
+                            "pokemon": "dratini"
                         },
                         {
                             "chance": 15,
-                            "level": 5,
+                            "level": 10,
+                            "pokemon": "dratini"
+                        },
+                        {
+                            "chance": 15,
+                            "level": 10,
                             "pokemon": "dragonair"
-                        },
-                        {
-                            "chance": 15,
-                            "level": 5,
-                            "pokemon": "gyarados"
                         }
                     ],
                     "night": [
                         {
                             "chance": 70,
-                            "level": 5,
-                            "pokemon": "magikarp"
+                            "level": 10,
+                            "pokemon": "dratini"
                         },
                         {
                             "chance": 15,
-                            "level": 5,
+                            "level": 10,
+                            "pokemon": "dratini"
+                        },
+                        {
+                            "chance": 15,
+                            "level": 10,
                             "pokemon": "dragonair"
-                        },
-                        {
-                            "chance": 15,
-                            "level": 5,
-                            "pokemon": "gyarados"
                         }
                     ]
                 },
@@ -266,45 +266,45 @@
                     "day": [
                         {
                             "chance": 35,
-                            "level": 62,
-                            "pokemon": "rhydon"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 35,
-                            "level": 62,
-                            "pokemon": "lanturn"
+                            "level": 20,
+                            "pokemon": "seadra"
                         },
                         {
                             "chance": 20,
-                            "level": 62,
-                            "pokemon": "kingler"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 10,
-                            "level": 62,
-                            "pokemon": "kingler"
+                            "level": 20,
+                            "pokemon": "gyarados"
                         }
                     ],
                     "night": [
                         {
                             "chance": 35,
-                            "level": 62,
-                            "pokemon": "rhydon"
+                            "level": 20,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 35,
-                            "level": 62,
-                            "pokemon": "lanturn"
+                            "level": 20,
+                            "pokemon": "seadra"
                         },
                         {
                             "chance": 20,
-                            "level": 62,
-                            "pokemon": "kingler"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 10,
-                            "level": 62,
-                            "pokemon": "shellder"
+                            "level": 20,
+                            "pokemon": "gyarados"
                         }
                     ]
                 },
@@ -312,18 +312,18 @@
                     "day": [
                         {
                             "chance": 70,
-                            "level": 60,
-                            "pokemon": "blastoise"
+                            "level": 10,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 15,
-                            "level": 60,
-                            "pokemon": "blastoise"
+                            "level": 10,
+                            "pokemon": "magikarp"
                         },
                         {
                             "chance": 15,
-                            "level": 60,
-                            "pokemon": "seel"
+                            "level": 10,
+                            "pokemon": "dratini"
                         }
                     ],
                     "night": [
