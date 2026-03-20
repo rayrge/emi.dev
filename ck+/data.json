@@ -5939,7 +5939,7 @@
             ]
         },
         {
-            "area": "dark-cave-violet-entrance",
+            "area": "dark-cave",
             "pools": [
                 {
                     "pool": {
@@ -6211,160 +6211,7 @@
                 }
             ]
         },
-        {
-            "area": "dark-cave-blackthorn-entrance",
-            "pools": [
-                {
-                    "pool": {
-                        "day": [
-                            {
-                                "chance": 30,
-                                "level": 46,
-                                "pokemon": "tyranitar"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 46,
-                                "pokemon": "steelix"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 46,
-                                "pokemon": "rhydon"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 46,
-                                "pokemon": "chansey"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 46,
-                                "pokemon": "chansey"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 46,
-                                "pokemon": "aerodactyl"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 46,
-                                "pokemon": "aerodactyl"
-                            }
-                        ],
-                        "morning": [
-                            {
-                                "chance": 30,
-                                "level": 46,
-                                "pokemon": "rhydon"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 46,
-                                "pokemon": "piloswine"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 46,
-                                "pokemon": "steelix"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 46,
-                                "pokemon": "chansey"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 46,
-                                "pokemon": "wobbuffet"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 46,
-                                "pokemon": "aerodactyl"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 46,
-                                "pokemon": "aerodactyl"
-                            }
-                        ],
-                        "night": [
-                            {
-                                "chance": 30,
-                                "level": 46,
-                                "pokemon": "rhydon"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 46,
-                                "pokemon": "dugtrio"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 46,
-                                "pokemon": "piloswine"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 46,
-                                "pokemon": "wobbuffet"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 46,
-                                "pokemon": "chansey"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 46,
-                                "pokemon": "aerodactyl"
-                            },
-                            {
-                                "chance": 1,
-                                "level": 46,
-                                "pokemon": "aerodactyl"
-                            }
-                        ]
-                    },
-                    "type": "walking"
-                },
-                {
-                    "pool": [
-                        {
-                            "chance": 60,
-                            "level": 55,
-                            "pokemon": "tentacruel"
-                        },
-                        {
-                            "chance": 30,
-                            "level": 55,
-                            "pokemon": "quagsire"
-                        },
-                        {
-                            "chance": 10,
-                            "level": 55,
-                            "pokemon": "gyarados"
-                        }
-                    ],
-                    "type": "surfing"
-                },
-                {
-                    "pool": "fishing.lake.old",
-                    "type": "old-rod"
-                },
-                {
-                    "pool": "fishing.lake.good",
-                    "type": "good-rod"
-                },
-                {
-                    "pool": "fishing.lake.super",
-                    "type": "super-rod"
-                }
-            ]
-        },
-        {
+          {
             "area": "route-29",
             "pools": [
                 {
@@ -14022,18 +13869,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 55,
-                            "pokemon": "arcanine"
+                            "level": 50,
+                            "pokemon": "dratini"
                         },
                         {
                             "chance": 30,
-                            "level": 55,
-                            "pokemon": "arcanine"
+                            "level": 50,
+                            "pokemon": "dratini"
                         },
                         {
                             "chance": 10,
-                            "level": 55,
-                            "pokemon": "arcanine"
+                            "level": 50,
+                            "pokemon": "dragonair"
                         }
                     ],
                     "type": "surfing"
@@ -14342,13 +14189,13 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 50,
-                            "pokemon": "kingdra"
+                            "level": 45,
+                            "pokemon": "seadra"
                         },
                         {
                             "chance": 30,
-                            "level": 50,
-                            "pokemon": "kingdra"
+                            "level": 45,
+                            "pokemon": "seadra"
                         },
                         {
                             "chance": 10,
@@ -16260,8 +16107,7 @@
                 }
             ],
             "locations": [
-                "dark-cave-violet-entrance",
-                "dark-cave-blackthorn-entrance"
+                "dark-cave",
             ],
             "name": "dark-cave",
             "positions": [
