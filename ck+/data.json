@@ -14174,6 +14174,122 @@
             "area": "blackthorn-city",
             "pools": [
                 {
+                    "pool": {
+                        "day": [
+                            {
+                                "chance": 30,
+                                "level": 44,
+                                "pokemon": "rhydon"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 44,
+                                "pokemon": "skarmory"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 44,
+                                "pokemon": "arcanine"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 44,
+                                "pokemon": "pidgeot"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 44,
+                                "pokemon": "pidgeot"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 44,
+                                "pokemon": "pupitar"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 44,
+                                "pokemon": "larvitar"
+                            }
+                        ],
+                        "morning": [
+                            {
+                                "chance": 30,
+                                "level": 44,
+                                "pokemon": "pidgeot"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 44,
+                                "pokemon": "arcanine"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 44,
+                                "pokemon": "skarmory"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 44,
+                                "pokemon": "skarmory"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 44,
+                                "pokemon": "pupitar"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 44,
+                                "pokemon": "larvitar"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 44,
+                                "pokemon": "larvitar"
+                            }
+                        ],
+                        "night": [
+                            {
+                                "chance": 30,
+                                "level": 44,
+                                "pokemon": "scyther"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 44,
+                                "pokemon": "arcanine"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 44,
+                                "pokemon": "rhydon"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 44,
+                                "pokemon": "rhydon"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 44,
+                                "pokemon": "pupitar"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 44,
+                                "pokemon": "larvitar"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 44,
+                                "pokemon": "larvitar"
+                            }
+                        ]
+                    },
+                    "type": "walking"
+                },
+                {
                     "pool": [
                         {
                             "chance": 60,
@@ -27299,7 +27415,7 @@
                 },
                 {
                     "into": "slowking",
-                    "item": "water-stone",
+                    "item": "kings-rock",
                     "method": "item"
                 }
             ],
@@ -30623,8 +30739,8 @@
             "evolutions": [
                 {
                     "into": "blissey",
-                    "level": 55,
-                    "method": "level"
+                    "item": "lucky-egg",
+                    "method": "item"
                 }
             ],
             "gender": "f100",
@@ -30637,18 +30753,26 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "doubleslap"
+                },
+                {
+                    "level": 13,
+                    "move": "softboiled"
+                },
+                {
+                    "level": 23,
+                    "move": "minimize"
+                },
+                {
+                    "level": 29,
+                    "move": "lovely-kiss"
+                },
+                {
+                    "level": 35,
                     "move": "egg-bomb"
                 },
                 {
-                    "level": 14,
-                    "move": "thunder-wave"
-                },
-                {
-                    "level": 40,
-                    "move": "charm"
-                },
-                {
-                    "level": 100,
+                    "level": 57,
                     "move": "heal-bell"
                 }
             ],
@@ -42318,23 +42442,27 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "thunder-wave"
-                },
-                {
-                    "level": 4,
-                    "move": "reflect"
-                },
-                {
-                    "level": 7,
-                    "move": "psywave"
-                },
-                {
-                    "level": 9,
-                    "move": "safeguard"
+                    "move": "doubleslap"
                 },
                 {
                     "level": 13,
-                    "move": "light-screen"
+                    "move": "softboiled"
+                },
+                {
+                    "level": 23,
+                    "move": "minimize"
+                },
+                {
+                    "level": 29,
+                    "move": "lovely-kiss"
+                },
+                {
+                    "level": 35,
+                    "move": "egg-bomb"
+                },
+                {
+                    "level": 57,
+                    "move": "heal-bell"
                 }
             ],
             "name": "blissey",
