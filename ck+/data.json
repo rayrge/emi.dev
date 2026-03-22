@@ -51225,7 +51225,7 @@
           "level": 59,
           "item": "leftovers",
           "moves": [
-            "ice-beams",
+            "ice-beam",
             "confuse-ray",
             "thunderbolt",
             "surf"
@@ -51390,6 +51390,416 @@
             "transform"
           ]
         }
+      ]
+    },
+    {
+      "area": "Radio Tower",
+      "name": "executive-proton",
+      "team": [
+        {
+          "name": "politoed",
+          "level": 64,
+          "item": "leftovers",
+          "moves": [
+            "rain-dance",
+            "perish-song",
+            "baton-pass",
+            "hydro-pump"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 62,
+          "item": "brightpowder",
+          "moves": [
+            "giga-drain",
+            "sleep-powder",
+            "future-sight",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 62,
+          "item": "quick-claw",
+          "moves": [
+            "octazooka",
+            "mud-slap",
+            "sludge-bomb",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 62,
+          "item": "sitrus-berry",
+          "moves": [
+            "thunder",
+            "confuse-ray",
+            "bubblebeam",
+            "aurora-beam"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 62,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "rain-dance",
+            "sky-attack",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "dragonite",
+          "level": 63,
+          "item": "pink-bow",
+          "moves": [
+            "extremespeed",
+	    "belly-drum",
+	    "waterfall",
+	    "steel-wing"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "gruntm-9",
+      "team": [
+        {
+          "name": "dewgong",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "perish-song",
+            "whirlpool",
+            "surf"
+          ]
+        },
+        {
+          "name": "espeon",
+          "level": 62,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "sing",
+            "thunderbolt",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "muk",
+          "level": 63,
+          "item": "no-item",
+          "moves": [
+            "sludge-bomb",
+            "minimize",
+            "disable",
+            "thief"
+          ]
+        },
+        {
+          "name": "butterfree",
+          "level": 63,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+            "giga-drain",
+            "hydro-pump",
+            "sky-attack"
+          ]
+        },
+        {
+          "name": "aipom",
+          "level": 62,
+          "item": "spell-tag",
+          "moves": [
+            "double-edge",
+            "shadow-ball",
+            "jump-kick",
+            "iron-tail"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "gruntf-4",
+      "team": [
+        {
+          "name": "golduck",
+          "level": 63,
+          "item": "quick-claw",
+          "moves": [
+            "hypnosis",
+            "ice-beam",
+            "waterfall",
+            "psychic"
+          ]
+        },
+        {
+          "name": "qwilfish",
+          "level": 62,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "crunch",
+            "iron-tail",
+            "pin-missile"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 63,
+          "item": "blackbelt",
+          "moves": [
+            "cross-chop",
+            "meditate",
+            "rock-slide",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "umbreon",
+          "level": 62,
+          "item": "leftovers",
+          "moves": [
+            "moonlight",
+            "double-team",
+            "toxic",
+            "pursuit"
+          ]
+        },
+        {
+          "name": "yanma",
+          "level": 63,
+          "item": "dragon-fang",
+          "moves": [
+            "outrage",
+            "giga-drain",
+            "sky-attack",
+            "leech-life"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "executive-petrel",
+      "team": [
+        {
+          "name": "murkrow",
+          "level": 63,
+          "item": "brightpowder",
+          "moves": [
+            "mirror-move",
+            "crunch",
+            "sky-attack",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "dugtrio",
+          "level": 63,
+          "item": "focus-band",
+          "moves": [
+            "earthquake",
+            "swagger",
+            "tri-attack",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "stantler",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "confuse-ray",
+            "frustration",
+            "earthquake",
+            "scary-face"
+          ]
+        },
+        {
+          "name": "victreebel",
+          "level": 63,
+          "item": "poison-barb",
+          "moves": [
+            "sludge",
+            "giga-drain",
+            "crunch",
+            "leech-life"
+          ]
+        },
+        {
+          "name": "kingler",
+          "level": 63,
+          "item": "quick-claw",
+          "moves": [
+            "protect",
+            "cross-chop",
+            "fury-cutter",
+            "clamp"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 63,
+          "item": "kings-rock",
+          "moves": [
+            "mean-look",
+            "shadow-ball",
+            "sludge-bomb",
+            "explosion"
+	  ]
+	}
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "executive-ariana",
+      "team": [
+        {
+          "name": "kangaskhan",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "counter",
+            "body-slam",
+            "jump-kick",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "rapidash",
+          "level": 63,
+          "item": "scope-lens",
+          "moves": [
+            "hypnosis",
+            "flamethrower",
+            "psychic",
+            "horn-drill"
+          ]
+        },
+        {
+          "name": "pinsir",
+          "level": 63,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+            "submission",
+            "wing-attack",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "electabuzz",
+          "level": 63,
+          "item": "focus-band",
+          "moves": [
+            "thunderbolt",
+            "ice-punch",
+            "cross-chop",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "marowak",
+          "level": 63,
+          "item": "thick-club",
+          "moves": [
+            "bone-rush",
+            "confuse-ray",
+            "rock-slide",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "tentacruel",
+          "level": 63,
+          "item": "sitrus-berry",
+          "moves": [
+            "whirlpool",
+            "sludge",
+            "giga-drain",
+            "ice-beam"
+	  ]
+	}
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "executive-archer",
+      "team": [
+        {
+          "name": "alakazam",
+          "level": 63,
+          "item": "twistedspoon",
+          "moves": [
+            "double-team",
+            "future-sight",
+            "ice-punch",
+            "thunderpunch"
+          ]
+        },
+        {
+          "name": "weezing",
+          "level": 63,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "pain-split",
+            "sludge-bomb",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "poliwrath",
+          "level": 63,
+          "item": "lum-berry",
+          "moves": [
+            "waterfall",
+            "hypnosis",
+            "submission",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "houndoom",
+          "level": 63,
+          "item": "charcoal",
+          "moves": [
+            "fire-blast",
+            "flame-wheel",
+            "bite",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "snorlax",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "body-slam",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 63,
+          "item": "scope-lens",
+          "moves": [
+            "ancientpower",
+            "drill-peck",
+            "slash",
+            "fire-blast"
+	  ]
+	}
       ]
     }
   ],
