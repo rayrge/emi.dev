@@ -51193,6 +51193,204 @@
           ]
         }
       ]
+    },
+    {
+      "area": "Radio Tower",
+      "name": "gruntf-2",
+      "team": [
+        {
+          "name": "sandslash",
+          "level": 61,
+          "item": "focus-band",
+          "moves": [
+            "earthquake",
+            "fury-cutter",
+            "slash",
+            "rollout"
+          ]
+        },
+        {
+          "name": "fearow",
+          "level": 60,
+          "item": "scope-lens",
+          "moves": [
+            "drill-peck",
+            "frustration",
+            "mirror-move",
+            "double-kick"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 59,
+          "item": "leftovers",
+          "moves": [
+            "ice-beams",
+            "confuse-ray",
+            "thunderbolt",
+            "surf"
+          ]
+        },
+        {
+          "name": "magcargo",
+          "level": 62,
+          "item": "pink-bow",
+          "moves": [
+            "explosion",
+            "flame-wheel",
+            "rock-slide",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "arbok",
+          "level": 59,
+          "item": "brightpowder",
+          "moves": [
+            "super-fang",
+            "sludge-bomb",
+            "crunch",
+            "leech-life"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Radio Tower",
+      "name": "gruntm-4",
+      "b2b": true,
+      "team": [
+        {
+          "name": "raichu",
+          "level": 61,
+          "item": "lum-berry",
+          "moves": [
+            "sweet-kiss",
+            "lovely-kiss",
+            "petal-dance",
+            "thunderpunch"
+          ]
+        },
+        {
+          "name": "mr-mime",
+          "level": 61,
+          "item": "sitrus-berry",
+          "moves": [
+            "barrier",
+            "thunder-wave",
+            "psychic",
+            "comet-punch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Radio Tower",
+      "name": "gruntm-10",
+      "team": [
+        {
+          "name": "jynx",
+          "level": 61,
+          "item": "brightpowder",
+          "moves": [
+            "screech",
+            "lick",
+            "psychic",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 61,
+          "item": "leftovers",
+          "moves": [
+            "whirlpool",
+            "protect",
+            "recover",
+            "mirror-coat"
+          ]
+        },
+        {
+          "name": "dodrio",
+          "level": 61,
+          "item": "scope-lens",
+          "moves": [
+            "sky-attack",
+            "jump-kick",
+            "frustration",
+            "steel-wing"
+          ]
+        },
+        {
+          "name": "tyranitar",
+          "level": 61,
+          "item": "blackglasses",
+          "moves": [
+            "crunch",
+            "rock-slide",
+            "fire-blast",
+            "thunder"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Radio Tower",
+      "name": "scientist-rich",
+      "team": [
+        {
+          "name": "furret",
+          "level": 65,
+          "item": "pink-bow",
+          "moves": [
+            "curse",
+            "extremespeed",
+            "surf",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "porygon2",
+          "level": 60,
+          "item": "leftovers",
+          "moves": [
+            "conversion2",
+            "recover",
+            "tri-attack",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 62,
+          "item": "berserk-gene",
+          "moves": [
+            "shadow-ball",
+            "baton-pass",
+            "substitute",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 61,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "thunderbolt",
+            "light-screen",
+            "reflect"
+          ]
+        },
+        {
+          "name": "ditto",
+          "level": 72,
+          "item": "metal-powder",
+          "moves": [
+            "transform"
+          ]
+        }
+      ]
     }
   ],
     "type_matchups": [
