@@ -51536,6 +51536,109 @@
     },
  {
       "area": "Radio Tower",
+      "name": "gruntm-13",
+      "team": [
+        {
+          "name": "mantine",
+          "level": 61,
+          "item": "mystic-water",
+          "moves": [
+            "surf",
+            "confuse-ray",
+            "aeroblast",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "beedrill",
+          "level": 62,
+          "item": "scope-lens",
+          "moves": [
+            "acid",
+            "fury-cutter",
+            "slash",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "sudowoodo",
+          "level": 61,
+          "item": "hard-stone",
+          "moves": [
+            "rock-slide",
+            "giga-drain",
+            "rollout",
+            "low-kick"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "gruntm-11",
+      "team": [
+        {
+          "name": "forretress",
+          "level": 62,
+          "item": "lum-berry",
+          "moves": [
+            "explosion"
+          ]
+        },
+        {
+          "name": "pidgeot",
+          "level": 61,
+          "item": "focus-band",
+          "moves": [
+            "razor-wind",
+            "leer",
+            "mirror-move",
+            "aeroblast"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "gruntm-25",
+      "team": [
+        {
+          "name": "ariados",
+          "level": 62,
+          "item": "quick-claw",
+          "moves": [
+            "spider-web",
+            "string-shot",
+            "megahorn",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 61,
+          "item": "sitrus-berry",
+          "moves": [
+            "waterfall",
+            "ice-beam",
+            "psychic",
+            "faint-attack"
+          ]
+        },
+        {
+          "name": "venomoth",
+          "level": 62,
+          "item": "leftovers",
+          "moves": [
+            "moonlight",
+            "toxic",
+            "leech-life",
+            "aeroblast"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Radio Tower",
       "name": "gruntm-9",
       "team": [
         {
