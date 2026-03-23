@@ -51196,6 +51196,56 @@
     },
     {
       "area": "Radio Tower",
+      "name": "gruntm-3",
+      "team": [
+        {
+          "name": "clefable",
+          "level": 60,
+          "item": "brightpowder",
+          "moves": [
+            "spikes",
+            "reflect",
+            "toxic",
+            "double-team"
+          ]
+        },
+        {
+          "name": "girafarig",
+          "level": 60,
+          "item": "kings-rock",
+          "moves": [
+            "double-edge",
+            "psychic",
+            "ice-beam",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "farfetchd",
+          "level": 60,
+          "item": "stick",
+          "moves": [
+            "cross-chop",
+            "drill-peck",
+            "razor-leaf",
+            "slash"
+          ]
+        },
+        {
+          "name": "dunsparce",
+          "level": 60,
+          "item": "focus-band",
+          "moves": [
+            "earthquake",
+            "glare",
+            "body-slam",
+            "ancientpower"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Radio Tower",
       "name": "gruntf-2",
       "team": [
         {
