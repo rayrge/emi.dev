@@ -51689,6 +51689,67 @@
         }
       ]
     },
+   {
+      "area": "Radio Tower",
+      "name": "gruntf-3",
+      "team": [
+        {
+          "name": "gligar",
+          "level": 61,
+          "item": "kings-rock",
+          "moves": [
+            "slash",
+            "wing-attack",
+            "sludge-bomb",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 61,
+          "item": "berserk-gene",
+          "moves": [
+            "flamethrower",
+            "cross-chop",
+            "iron-tail",
+            "sludge"
+          ]
+        },
+        {
+          "name": "slowbro",
+          "level": 60,
+          "item": "leftovers",
+          "moves": [
+            "surf",
+            "psychic",
+            "ice-beam",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "nidoqueen",
+          "level": 60,
+          "item": "brightpowder",
+          "moves": [
+            "lock-on",
+            "fissure",
+            "moonlight",
+            "sweet-kiss"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 61,
+          "item": "quick-claw",
+          "moves": [
+            "metal-claw",
+            "fury-cutter",
+            "submission",
+            "body-slam"
+          ]
+        }
+      ]
+    },
  {
       "area": "Radio Tower",
       "name": "gruntm-9",
