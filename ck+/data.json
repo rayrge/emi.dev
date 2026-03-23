@@ -51576,6 +51576,7 @@
  {
       "area": "Radio Tower",
       "name": "gruntm-11",
+      "b2b": true,
       "team": [
         {
           "name": "forretress",
@@ -51601,6 +51602,7 @@
  {
       "area": "Radio Tower",
       "name": "gruntm-25",
+      "b2b": true,
       "team": [
         {
           "name": "ariados",
