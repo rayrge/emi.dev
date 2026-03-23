@@ -51286,6 +51286,76 @@
     },
     {
       "area": "Radio Tower",
+      "name": "scientist-marc",
+      "team": [
+        {
+          "name": "unown",
+                    "dvs": {
+                        "atk": 9,
+                        "def": 13,
+                        "hp": 0,
+                        "spa": 15,
+                        "spd": 15,
+                        "spe": 15
+                    },
+          "level": 88,
+          "item": "no-item",
+          "moves": [
+            "hidden-power"
+          ]
+        },
+        {
+          "name": "unown",
+                    "dvs": {
+                        "atk": 12,
+                        "def": 12,
+                        "hp": 0,
+                        "spa": 15,
+                        "spd": 15,
+                        "spe": 15
+                    },
+          "level": 88,
+          "item": "no-item",
+          "moves": [
+            "hidden-power"
+          ]
+        },
+         {
+          "name": "unown",
+          "dvs": {
+                        "atk": 11,
+                        "def": 11,
+                        "hp": 0,
+                        "spa": 15,
+                        "spd": 15,
+                        "spe": 11
+                    },
+          "level": 88,
+          "item": "no-item",
+          "moves": [
+            "hidden-power"
+          ]
+        },
+        {
+          "name": "unown",
+          "dvs": {
+                        "atk": 5,
+                        "def": 1,
+                        "hp": 0,
+                        "spa": 15,
+                        "spd": 15,
+                        "spe": 2
+                    },
+          "level": 88,
+          "item": "no-item",
+          "moves": [
+            "hidden-power"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Radio Tower",
       "name": "gruntm-10",
       "team": [
         {
