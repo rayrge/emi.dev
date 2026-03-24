@@ -51728,7 +51728,7 @@
         },
         {
           "name": "nidoqueen",
-          "level": 60,
+          "level": 66,
           "item": "brightpowder",
           "moves": [
             "lock-on",
@@ -51746,6 +51746,122 @@
             "fury-cutter",
             "submission",
             "body-slam"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Radio Tower",
+      "name": "gruntm-24",
+      "team": [
+        {
+          "name": "ledian",
+          "level": 61,
+          "item": brightpowder",
+          "moves": [
+            "toxic",
+            "encore",
+            "flash",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "smeargle",
+          "level": 61,
+          "item": "quick-claw",
+          "moves": [
+            "spore",
+            "clamp",
+            "protect",
+            "explosion"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Radio Tower",
+      "name": "gruntm-14",
+      "b2b": true
+      "team": [
+        {
+          "name": "piloswine",
+          "level": 61,
+          "item": "berserk-gene",
+          "moves": [
+            "earthquake",
+            "fury-cutter",
+            "rock-slide",
+            "stomp"
+          ]
+        },
+        {
+          "name": "skarmory",
+          "level": 61,
+          "item": "leftovers",
+          "moves": [
+            "sleep-talk",
+            "rest",
+            "mud-slap",
+            "steel-wing"
+          ]
+        },
+        {
+          "name": "cloyster",
+          "level": 61,
+          "item": "focus-band",
+          "moves": [
+            "hydro-pump",
+            "ice-beam",
+            "spike-cannon",
+            "pin-missile"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 61,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "hypnosis",
+            "flame-wheel",
+            "bite"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Radio Tower",
+      "name": "gruntm-15",
+      "b2b": true
+      "team": [
+        {
+          "name": "raticate",
+          "level": 61,
+          "item": "pink-bow",
+          "moves": [
+            "hyper-fang"
+          ]
+        },
+        {
+          "name": "dragonair",
+          "level": 61,
+          "item": "sitrus-berry",
+          "moves": [
+            "dragonbreath",
+            "recover",
+            "sweet-kiss",
+            "mirror-coat"
+          ]
+        },
+        {
+          "name": "nidoking",
+          "level": 61,
+          "item": "scope-lens",
+          "moves": [
+            "slash",
+            "cross-chop",
+            "drill-peck",
+            "sludge-bomb"
           ]
         }
       ]
