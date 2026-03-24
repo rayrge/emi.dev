@@ -51757,7 +51757,7 @@
         {
           "name": "ledian",
           "level": 61,
-          "item": brightpowder",
+          "item": "brightpowder",
           "moves": [
             "toxic",
             "encore",
@@ -51781,7 +51781,7 @@
    {
       "area": "Radio Tower",
       "name": "gruntm-14",
-      "b2b": true
+      "b2b": true,
       "team": [
         {
           "name": "piloswine",
@@ -51832,7 +51832,7 @@
    {
       "area": "Radio Tower",
       "name": "gruntm-15",
-      "b2b": true
+      "b2b": true,
       "team": [
         {
           "name": "raticate",
