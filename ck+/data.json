@@ -51689,6 +51689,222 @@
         }
       ]
     },
+{
+      "area": "Radio Tower",
+      "name": "rival-10",
+      "team": [
+        {
+          "name": "charizard",
+          "level": 62,
+          "item": "sharp-beak",
+          "moves": [
+            "fire-blast",
+            "sky-attack",
+            "earthquake",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 62,
+          "item": "metal-coat",
+          "moves": [
+            "metal-claw",
+            "shadow-ball",
+            "ice-beam",
+            "pursuit"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 62,
+          "item": "blackbelt",
+          "moves": [
+            "megahorn",
+            "submission",
+            "rock-slide",
+            "frustration"
+          ]
+        },
+        {
+          "name": "kabutops",
+          "level": 62,
+          "item": "scope-lens",
+          "moves": [
+            "ancientpower",
+            "cross-chop",
+            "slash",
+            "whirlpool"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 62,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "agility",
+            "leech-life",
+            "sky-attack"
+          ]
+        },
+        {
+          "name": "meganium",
+          "level": 62,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+            "light-screen",
+            "leech-seed",
+            "body-slam"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Radio Tower",
+      "name": "rival-11",
+      "team": [
+        {
+          "name": "blastoise",
+          "level": 62,
+          "item": "leftovers",
+          "moves": [
+            "submission",
+            "mirror-coat",
+            "hydro-pump",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 62,
+          "item": "metal-coat",
+          "moves": [
+            "metal-claw",
+            "shadow-ball",
+            "ice-beam",
+            "pursuit"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 62,
+          "item": "blackbelt",
+          "moves": [
+            "megahorn",
+            "submission",
+            "rock-slide",
+            "frustration"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 62,
+          "item": "hard-stone",
+          "moves": [
+            "ancientpower",
+            "stun-spore",
+            "giga-drain",
+            "psychic"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 62,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "agility",
+            "leech-life",
+            "sky-attack"
+          ]
+        },
+        {
+          "name": "typhlosion",
+          "level": 62,
+          "item": "scope-lens",
+          "moves": [
+            "flamethrower",
+            "cross-chop",
+            "fury-cutter",
+            "earthquake"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Radio Tower",
+      "name": "rival-12",
+      "team": [
+        {
+          "name": "venusaur",
+          "level": 62,
+          "item": "scope-lens",
+          "moves": [
+            "giga-drain",
+            "leech-seed",
+            "sludge-bomb",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 62,
+          "item": "metal-coat",
+          "moves": [
+            "metal-claw",
+            "shadow-ball",
+            "ice-beam",
+            "pursuit"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 62,
+          "item": "blackbelt",
+          "moves": [
+            "megahorn",
+            "submission",
+            "rock-slide",
+            "frustration"
+          ]
+        },
+        {
+          "name": "arcanine",
+          "level": 62,
+          "item": "leftovers",
+          "moves": [
+            "flamethrower",
+            "ancientpower",
+            "faint-attack",
+            "spark"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 62,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "agility",
+            "leech-life",
+            "sky-attack"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 62,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+            "submission",
+            "iron-tail",
+            "rock-slide"
+	  ]
+	}
+      ]
+    },
    {
       "area": "Radio Tower",
       "name": "gruntf-3",
