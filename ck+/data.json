@@ -51689,107 +51689,6 @@
         }
       ]
     },
- {
-      "area": "Radio Tower",
-      "name": "burglar-duncan",
-      "team": [
-        {
-          "name": "shuckle",
-          "level": 66,
-          "item": "leftovers",
-          "moves": [
-            "rest",
-            "mud-slap",
-            "wrap",
-            "toxic"
-          ]
-        },
-        {
-          "name": "persian",
-          "level": 62,
-          "item": "no-item",
-          "moves": [
-            "thief",
-            "thunder-wave",
-            "return",
-            "shadow-ball"
-          ]
-        },
-        {
-          "name": "xatu",
-          "level": 62,
-          "item": "no-item",
-          "moves": [
-            "thief",
-            "hypnosis",
-            "giga-drain",
-            "dream-eater"
-          ]
-        },
-        {
-          "name": "hitmontop",
-          "level": 63,
-          "item": "quick-claw",
-          "moves": [
-            "cross-chop",
-            "endure",
-            "reversal",
-            "rock-slide"
-          ]
-        }
-      ]
-    },
- {
-      "area": "Radio Tower",
-      "name": "burglar-eddie",
-      "b2b": true,
-      "team": [
-        {
-          "name": "electrode",
-          "level": 62,
-          "item": "lum-berry",
-          "moves": [
-            "explosion",
-            "thunderbolt",
-            "double-team",
-            "reflect"
-          ]
-        },
-        {
-          "name": "lickitung",
-          "level": 63,
-          "item": "leftovers",
-          "moves": [
-            "rollout",
-            "explosion",
-            "surf",
-            "recover"
-          ]
-        },
-        {
-          "name": "hypno",
-          "level": 62,
-          "item": "no-item",
-          "moves": [
-            "thief",
-            "hypnosis",
-            "dream-eater",
-            "psychic"
-          ]
-        },
-        {
-          "name": "parasect",
-          "level": 64,
-          "item": "brightpowder",
-          "moves": [
-            "spore",
-            "leech-seed",
-            "fury-cutter",
-            "sludge-bomb"
-          ]
-        }
-      ]
-    },
 {
       "area": "Radio Tower",
       "name": "rival-10",
@@ -52004,6 +51903,107 @@
             "rock-slide"
 	  ]
 	}
+      ]
+    },
+{
+      "area": "Radio Tower",
+      "name": "burglar-duncan",
+      "team": [
+        {
+          "name": "shuckle",
+          "level": 66,
+          "item": "leftovers",
+          "moves": [
+            "rest",
+            "mud-slap",
+            "wrap",
+            "toxic"
+          ]
+        },
+        {
+          "name": "persian",
+          "level": 62,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "thunder-wave",
+            "return",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "xatu",
+          "level": 62,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "hypnosis",
+            "giga-drain",
+            "dream-eater"
+          ]
+        },
+        {
+          "name": "hitmontop",
+          "level": 63,
+          "item": "quick-claw",
+          "moves": [
+            "cross-chop",
+            "endure",
+            "reversal",
+            "rock-slide"
+          ]
+        }
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "burglar-eddie",
+      "b2b": true,
+      "team": [
+        {
+          "name": "electrode",
+          "level": 62,
+          "item": "lum-berry",
+          "moves": [
+            "explosion",
+            "thunderbolt",
+            "double-team",
+            "reflect"
+          ]
+        },
+        {
+          "name": "lickitung",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "rollout",
+            "explosion",
+            "surf",
+            "recover"
+          ]
+        },
+        {
+          "name": "hypno",
+          "level": 62,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "hypnosis",
+            "dream-eater",
+            "psychic"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 64,
+          "item": "brightpowder",
+          "moves": [
+            "spore",
+            "leech-seed",
+            "fury-cutter",
+            "sludge-bomb"
+          ]
+        }
       ]
     },
    {
@@ -52517,6 +52517,78 @@
             "drill-peck",
             "slash",
             "fire-blast"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Blackthorn City Gym",
+      "name": "leader-clair",
+      "team": [
+        {
+          "name": "meganium",
+          "level": 66,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+            "light-screen",
+            "substitute",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 66,
+          "item": "kings-rock",
+          "moves": [
+            "double-edge",
+            "scary-face",
+            "thrash",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "arcanine",
+          "level": 66,
+          "item": "dragon-fang",
+          "moves": [
+            "outrage",
+            "flamethrower",
+            "crunch",
+            "extremespeed"
+          ]
+        },
+        {
+          "name": "dragonite",
+          "level": 66,
+          "item": "sharp-beak",
+          "moves": [
+            "hyper-beam",
+            "agility",
+            "sky-attack",
+            "waterfall"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 66,
+          "item": "scope-lens",
+          "moves": [
+            "thunderbolt",
+            "roar",
+            "cotton-spore",
+            "dragonbreath"
+          ]
+        },
+        {
+          "name": "kingdra",
+          "level": 66,
+          "item": "lum-berry",
+          "moves": [
+            "octazooka",
+            "ice-beam",
+            "whirlpool",
+            "icy-wind"
 	  ]
 	}
       ]
