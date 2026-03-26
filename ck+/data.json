@@ -51336,6 +51336,85 @@
     },
  {
       "area": "Radio Tower",
+      "name": "gruntm-5",
+      "team": [
+        {
+          "name": "azumarill",
+          "level": 61,
+          "item": "sitrus-berry",
+          "moves": [
+            "mach-punch",
+            "belly-drum",
+            "body-slam",
+            "submission"
+          ]
+        },
+        {
+          "name": "vileplume",
+          "level": 62,
+          "item": "brightpowder",
+          "moves": [
+            "sludge-bomb",
+            "leech-seed",
+            "moonlight",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "togetic",
+          "level": 61,
+          "item": "leftovers",
+          "moves": [
+            "sacred-fire",
+            "softboiled",
+            "psychic",
+            "razor-leaf"
+	  ]
+	}
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "gruntm-6",
+      "b2b": true,
+      "team": [
+        {
+          "name": "granbull",
+          "level": 62,
+          "item": "focus-band",
+          "moves": [
+            "submission",
+            "double-edge",
+            "crunch",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 61,
+          "item": "nevermeltice",
+          "moves": [
+            "surf",
+            "psychic",
+            "ice-beam",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 61,
+          "item": "quick-claw",
+          "moves": [
+            "explosion",
+            "iron-tail",
+            "earthquake",
+            "rock-slide"
+	  ]
+	}
+      ]
+    },
+ {
+      "area": "Radio Tower",
       "name": "gruntm-7",
       "team": [
         {
@@ -51418,7 +51497,7 @@
           "moves": [
             "leech-seed",
             "sleep-powder",
-            "flash",
+            "explosion",
             "giga-drain"
           ]
         },
