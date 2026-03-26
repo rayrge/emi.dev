@@ -51334,6 +51334,107 @@
         }
       ]
     },
+ {
+      "area": "Radio Tower",
+      "name": "gruntm-7",
+      "team": [
+        {
+          "name": "jolteon",
+          "level": 61,
+          "item": "blackglasses",
+          "moves": [
+            "thunderbolt",
+            "flash",
+            "thunder-wave",
+            "crunch"
+          ]
+        },
+        {
+          "name": "quagsire",
+          "level": 62,
+          "item": "quick-claw",
+          "moves": [
+            "sludge-bomb",
+            "lovely-kiss",
+            "waterfall",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "primeape",
+          "level": 60,
+          "item": "berserk-gene",
+          "moves": [
+            "submission",
+            "rock-slide",
+            "body-slam",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 61,
+          "item": "lum-berry",
+          "moves": [
+            "rollout",
+            "swagger",
+            "megahorn",
+            "earthquake"
+	  ]
+	}
+      ]
+    },
+ {
+      "area": "Radio Tower",
+      "name": "gruntm-8",
+      "b2b": true,
+      "team": [
+        {
+          "name": "omastar",
+          "level": 61,
+          "item": "focus-band",
+          "moves": [
+            "hydro-pump",
+            "ice-beam",
+            "skull-bash",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "noctowl",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "moonlight",
+            "night-shade",
+            "wing-attack",
+            "quick-attack"
+          ]
+        },
+        {
+          "name": "jumpluff",
+          "level": 64,
+          "item": "brightpowder",
+          "moves": [
+            "leech-seed",
+            "sleep-powder",
+            "flash",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "ursaring",
+          "level": 62,
+          "item": "soft-sand",
+          "moves": [
+            "mega-punch",
+            "belly-drum",
+            "earthquake",
+            "rock-slide"
+	  ]
+	}
+      ]
+    },
     {
       "area": "Radio Tower",
       "name": "scientist-marc",
