@@ -44138,7 +44138,7 @@
     },
     {
       "area": "Route 35",
-      "name": "picknicker-brooke",
+      "name": "picnicker-brooke",
       "team": [
         {
           "name": "phanpy",
@@ -44210,7 +44210,7 @@
     },
     {
       "area": "Route 35",
-      "name": "picknicker-kim",
+      "name": "picnicker-kim",
       "team": [
         {
           "name": "golbat",
@@ -44788,7 +44788,7 @@
     },
     {
       "area": "Route 34",
-      "name": "picknicker-gina",
+      "name": "picnicker-gina",
       "team": [
         {
           "name": "wigglytuff",
@@ -51523,7 +51523,7 @@
                     "dvs": {
                         "atk": 9,
                         "def": 13,
-                        "hp": 0,
+                        "hp": 15,
                         "spa": 15,
                         "spd": 15,
                         "spe": 15
@@ -51539,7 +51539,7 @@
                     "dvs": {
                         "atk": 12,
                         "def": 12,
-                        "hp": 0,
+                        "hp": 3,
                         "spa": 15,
                         "spd": 15,
                         "spe": 15
@@ -51555,7 +51555,7 @@
           "dvs": {
                         "atk": 11,
                         "def": 11,
-                        "hp": 0,
+                        "hp": 15,
                         "spa": 15,
                         "spd": 15,
                         "spe": 11
@@ -51569,12 +51569,12 @@
         {
           "name": "unown",
           "dvs": {
-                        "atk": 5,
-                        "def": 1,
-                        "hp": 0,
+                        "atk": 13,
+                        "def": 9,
+                        "hp": 15,
                         "spa": 15,
                         "spd": 15,
-                        "spe": 2
+                        "spe": 13
                     },
           "level": 88,
           "item": "no-item",
