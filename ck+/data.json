@@ -52703,6 +52703,178 @@
     },
 {
       "area": "Blackthorn City Gym",
+      "name": "cooltrainerm-mike",
+      "team": [
+        {
+          "name": "yanma",
+          "level": 65,
+          "item": "miracle-seed",
+          "moves": [
+            "outrage",
+            "dragon-rage",
+            "giga-drain",
+            "psychic"
+          ]
+        },
+        {
+          "name": "dunsparce",
+          "level": 65,
+          "item": "kings-rock",
+          "moves": [
+            "glare",
+            "counter",
+            "outrage",
+            "thrash"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 65,
+          "item": "dragon-fang",
+          "moves": [
+            "earthquake",
+            "shadow-ball",
+            "body-slam",
+            "outrage"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 65,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "outrage",
+            "ice-beam",
+            "waterfall"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Blackthorn City Gym",
+      "name": "cooltrainerm-cody",
+      "team": [
+        {
+          "name": "lapras",
+          "level": 65,
+          "item": "leftovers",
+          "moves": [
+            "perish-song",
+            "confuse-ray",
+            "ice-beam",
+            "surf"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 65,
+          "item": "dragon-fang",
+          "moves": [
+            "explosion",
+            "iron-tail",
+            "earthquake",
+            "dragonbreath"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 65,
+          "item": "scope-lens",
+          "moves": [
+            "sky-attack",
+            "fire-blast",
+            "fury-cutter",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "nidoking",
+          "level": 65,
+          "item": "kings-rock",
+          "moves": [
+            "sludge-bomb",
+            "submission",
+            "ice-beam",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 65,
+          "item": "lum-berry",
+          "moves": [
+            "giga-drain",
+            "growth",
+            "earthquake",
+            "flamethrower"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Blackthorn City Gym",
+      "name": "cooltrainerf-lola",
+      "team": [
+        {
+          "name": "blastoise",
+          "level": 65,
+          "item": "leftovers",
+          "moves": [
+            "hydro-pump",
+            "submission",
+            "flame-wheel",
+            "hyper-beam"
+          ]
+        },
+        {
+          "name": "venomoth",
+          "level": 67,
+          "item": "charcoal",
+          "moves": [
+            "sacred-fire",
+            "sleep-powder",
+            "psychic",
+            "aeroblast"
+          ]
+        },
+        {
+          "name": "dodrio",
+          "level": 65,
+          "item": "scope-lens",
+          "moves": [
+            "hyper-beam",
+            "sky-attack",
+            "tri-attack",
+            "jump-kick"
+          ]
+        },
+        {
+          "name": "primeape",
+          "level": 66,
+          "item": "blackbelt",
+          "moves": [
+            "cross-chop",
+            "meditate",
+            "thrash",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "tyranitar",
+          "level": 65,
+          "item": "hard-stone",
+          "moves": [
+            "ancientpower",
+            "hyper-beam",
+            "fire-blast",
+            "thunder"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Blackthorn City Gym",
       "name": "leader-clair",
       "team": [
         {
