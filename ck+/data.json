@@ -52864,6 +52864,67 @@
     },
 {
       "area": "Blackthorn City Gym",
+      "name": "cooltrainerf-fran",
+      "team": [
+        {
+          "name": "kangaskhan",
+          "level": 65,
+          "item": "lum-berry",
+          "moves": [
+            "shadow-ball",
+            "counter",
+            "double-edge",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "nidoqueen",
+          "level": 65,
+          "item": "charcoal",
+          "moves": [
+            "fire-blast",
+            "blizzard",
+            "thunder",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 65,
+          "item": "dragon-fang",
+          "moves": [
+            "outrage",
+            "waterfall",
+            "body-slam",
+            "crunch"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 65,
+          "item": "leftovers",
+          "moves": [
+            "flamethrower",
+            "sky-attack",
+            "earthquake",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 65,
+          "item": "silvepowder",
+          "moves": [
+            "megahorn",
+            "swords-dance",
+            "rock-slide",
+            "submission"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Blackthorn City Gym",
       "name": "cooltrainerf-lola",
       "team": [
         {
