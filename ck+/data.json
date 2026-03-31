@@ -52753,6 +52753,56 @@
     },
 {
       "area": "Blackthorn City Gym",
+      "name": "cooltrainerm-paul",
+      "team": [
+        {
+          "name": "togetic",
+          "level": 65,
+          "item": "leftovers",
+          "moves": [
+            "metronome",
+            "charm",
+            "ice-beam",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "gligar",
+          "level": 65,
+          "item": "leftovers",
+          "moves": [
+            "swords-dance",
+            "earthquake",
+            "wing-attack",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 65,
+          "item": "leftovers",
+          "moves": [
+            "hypnosis",
+            "sludge",
+            "giga-drain",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "mantine",
+          "level": 65,
+          "item": "leftovers",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "toxic",
+            "surf"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Blackthorn City Gym",
       "name": "cooltrainerm-cody",
       "team": [
         {
