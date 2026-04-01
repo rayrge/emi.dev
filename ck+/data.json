@@ -52703,6 +52703,137 @@
     },
 {
       "area": "Route 44",
+      "name": "psychic-phil",
+      "meta": "top route",
+      "team": [
+        {
+          "name": "exeggutor",
+          "level": 63,
+          "item": "miracle-seed",
+          "moves": [
+            "petal-dance",
+            "stun-spore",
+            "giga-drain",
+            "psychic"
+          ]
+        },
+        {
+          "name": "xatu",
+          "level": 63,
+          "item": "sharp-beak",
+          "moves": [
+            "drill-peck",
+            "faint-attack",
+            "ancientpower",
+            "psychic"
+          ]
+        },
+        {
+          "name": "girafarig",
+          "level": 63,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "iron-tail",
+            "flame-wheel",
+            "psychic"
+	  ]
+	},
+        {
+          "name": "starmie",
+          "level": 63,
+          "item": "mystic-water",
+          "moves": [
+            "waterfall",
+            "recover",
+            "ice-beam",
+            "psychic"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 44",
+      "name": "pokemaniac-zach",
+      "meta": "top route",
+      "team": [
+        {
+          "name": "cloyster",
+          "level": 62,
+          "item": "scope-lens",
+          "moves": [
+            "pin-missile",
+            "spike-cannon",
+            "rollout",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "shuckle",
+          "level": 66,
+          "item": "lum-berry",
+          "moves": [
+            "sandstorm",
+            "rock-smash",
+            "toxic",
+            "wrap"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "iron-tail",
+            "screech",
+            "scary-face",
+            "earthquake"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 44",
+      "name": "bird-keeper-vance",
+      "meta": "top route and middle route (after the b2b)",
+      "team": [
+        {
+          "name": "murkrow",
+          "level": 64,
+          "item": "blackglasses",
+          "moves": [
+            "spikes",
+            "crunch",
+            "sky-attack",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 63,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "thunderbolt",
+            "psychic",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "pidgeot",
+          "level": 64,
+          "item": "pink-bow",
+          "moves": [
+            "aeroblast",
+            "endure",
+            "flail",
+            "double-edge"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 44",
       "name": "fisher-wilton",
       "team": [
         {
