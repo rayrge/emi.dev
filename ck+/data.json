@@ -53368,6 +53368,78 @@
 	  ]
 	}
       ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "elite-four-koga",
+      "team": [
+        {
+          "name": "crobat",
+          "level": 68,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+            "sky-attack",
+            "super-fang",
+            "mean-look"
+          ]
+        },
+        {
+          "name": "electabuzz",
+          "level": 70,
+          "item": "poison-barb",
+          "moves": [
+            "sludge",
+            "cross-chop",
+            "thunderpunch",
+            "ice-punch"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 69,
+          "item": "focus-band",
+          "moves": [
+            "rollout",
+            "spikes",
+            "baton-pass",
+            "pin-missile"
+          ]
+        },
+        {
+          "name": "yanma",
+          "level": 69,
+          "item": "brightpowder",
+          "moves": [
+            "double-team",
+            "confuse-ray",
+            "ancientpower",
+            "leech-life"
+          ]
+        },
+        {
+          "name": "tentacruel",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "surf",
+            "attract",
+            "ice-beam",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "muk",
+          "level": 70,
+          "item": "quick-claw",
+          "moves": [
+            "explosion",
+            "sludge-bomb",
+            "giga-drain",
+            "fire-punch"
+	  ]
+	}
+      ]
     }
   ],
     "type_matchups": [
