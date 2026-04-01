@@ -52702,6 +52702,188 @@
       ]
     },
 {
+      "area": "Route 44",
+      "name": "fisher-wilton",
+      "team": [
+        {
+          "name": "kingler",
+          "level": 63,
+          "item": "scope-lens",
+          "moves": [
+            "clamp",
+            "protect",
+            "crabhammer",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "qwilfish",
+          "level": 63,
+          "item": "poison-barb",
+          "moves": [
+            "explosion",
+            "sludge",
+            "icy-wind",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 63,
+          "item": "leftovers",
+          "moves": [
+            "thunder-wave",
+            "thunderbolt",
+            "surf",
+            "ice-beam"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 44",
+      "name": "fisher-edgar",
+      "b2b": true,
+      "meta": "middle route",
+      "team": [
+        {
+          "name": "mantine",
+          "level": 63,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+            "toxic",
+            "protect",
+            "whirlpool"
+          ]
+        },
+        {
+          "name": "arbok",
+          "level": 63,
+          "item": "miracle-seed",
+          "moves": [
+            "glare",
+            "crunch",
+            "giga-drain",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 63,
+          "item": "lum-berry",
+          "moves": [
+            "shadow-ball",
+            "drill-peck",
+            "double-edge",
+            "submission"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 44",
+      "name": "cooltrainerm-allen",
+      "team": [
+        {
+          "name": "gengar",
+          "level": 62,
+          "item": "magnet",
+          "moves": [
+            "hypnosis",
+            "thunderbolt",
+            "ice-punch",
+            "fire-punch"
+          ]
+        },
+        {
+          "name": "porygon2",
+          "level": 62,
+          "item": "leftovers",
+          "moves": [
+            "hyper-beam",
+            "conversion",
+            "sharpen",
+            "recover"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 62,
+          "item": "hard-stone",
+          "moves": [
+            "stun-spore",
+            "wrap",
+            "ancientpower",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "slowbro",
+          "level": 62,
+          "item": "lum-berry",
+          "moves": [
+            "shadow-ball",
+            "waterfall",
+            "psychic",
+            "flamethrower"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 44",
+      "name": "cooltrainerf-cybil",
+      "b2b": true,
+      "meta": "bottom route",
+      "team": [
+        {
+          "name": "hitmonchan",
+          "level": 62,
+          "item": "blackbelt",
+          "moves": [
+            "mega-punch",
+            "submission",
+            "rock-slide",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 62,
+          "item": "kings-rock",
+          "moves": [
+            "flamethrower",
+            "psychic",
+            "iron-tail",
+            "crunch"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 62,
+          "item": "nevermeltice",
+          "moves": [
+            "ice-beam",
+            "surf",
+            "shadow-ball",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 62,
+          "item": "scope-lens",
+          "moves": [
+            "fury-cutter",
+            "comet-punch",
+            "crabhammer",
+            "mach-punch"
+	  ]
+	}
+      ]
+    },
+{
       "area": "Blackthorn City Gym",
       "name": "cooltrainerm-mike",
       "team": [
