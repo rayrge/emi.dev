@@ -178,7 +178,7 @@ function readFile(file) {
 				pokemon = pokemon.concat(readPokemonList(bytes, 0x286B, 6, 48));
 				
 				for (var i = 0; i < 32; i++) {
-					console.log(bytes[0x2f20 + i]);
+					console.log(bytes[0x2D16 + i]);
 				}
 				
 
