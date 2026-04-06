@@ -38891,11 +38891,11 @@
             "name": "girafarig",
             "pokedex": 203,
             "stats": {
-                "atk": 80,
-                "def": 65,
-                "hp": 70,
-                "spa": 90,
-                "spd": 65,
+                "atk": 85,
+                "def": 67,
+                "hp": 95,
+                "spa": 100,
+                "spd": 67,
                 "spe": 85
             },
             "tmhm": [
@@ -53365,6 +53365,79 @@
             "ice-beam",
             "whirlpool",
             "icy-wind"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
+      "name": "cooltrainerf-kelly",	
+      "meta": "sandstorm",
+      "team": [
+        {
+          "name": "skarmory",
+          "level": 67,
+          "item": "quick-claw",
+          "moves": [
+            "spikes",
+            "protect",
+            "sky-attack",
+            "steel-wing"
+          ]
+        },
+        {
+          "name": "tyranitar",
+          "level": 67,
+          "item": "hard-stone",
+          "moves": [
+            "swords-dance",
+            "rock-slide",
+            "iron-tail",
+            "roar"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 67,
+          "item": "lum-berry",
+          "moves": [
+            "recover",
+            "mirror-coat",
+            "surf",
+            "icy-wind"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 67,
+          "item": "scope-lens",
+          "moves": [
+            "protect",
+            "synthesis",
+            "pin-missile",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 67,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "future-sight",
+            "sacred-fire",
+            "roar"
+          ]
+        },
+        {
+          "name": "marowak",
+          "level": 67,
+          "item": "thick-club",
+          "moves": [
+            "bonemerang",
+            "bone-rush",
+            "rock-slide",
+            "return"
 	  ]
 	}
       ]
