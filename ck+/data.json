@@ -53371,6 +53371,119 @@
     },
 {
       "area": "Route 45",
+      "name": "camper-quentin",	
+      "meta": "sandstorm",
+      "team": [
+        {
+          "name": "shuckle",
+          "level": 67,
+          "item": "lum-berry",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "string-shot",
+            "protect"
+          ]
+        },
+        {
+          "name": "noctowl",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "moonlight",
+            "whirlwind",
+            "night-shade",
+            "return"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 67,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "explosion",
+            "aurora-beam",
+            "psywave"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 67,
+          "item": "soft-sand",
+          "moves": [
+            "roar",
+            "magnitude",
+            "rock-slide",
+            "drill-peck"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
+      "name": "blackbelt-kenji",	
+      "meta": "sandstorm",
+      "team": [
+        {
+          "name": "hitmonlee",
+          "level": 67,
+          "item": "metal-coat",
+          "moves": [
+            "comet-punch",
+            "flame-wheel",
+            "hi-jump-kick",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 67,
+          "item": "blackbelt",
+          "moves": [
+            "cross-chop",
+            "protect",
+            "fury-cutter",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "fearow",
+          "level": 67,
+          "item": "sharp-beak",
+          "moves": [
+            "mean-look",
+            "screech",
+            "sky-attack",
+            "double-edge"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 67,
+          "item": "soft-sand",
+          "moves": [
+            "megahorn",
+            "earthquake",
+            "body-slam",
+            "submission"
+          ]
+        },
+        {
+          "name": "sudowoodo",
+          "level": 67,
+          "item": "hard-stone",
+          "moves": [
+            "protect",
+            "curse",
+            "rollout",
+            "magnitude"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
       "name": "cooltrainerf-kelly",	
       "meta": "sandstorm",
       "team": [
