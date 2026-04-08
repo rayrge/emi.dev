@@ -13,7 +13,7 @@ function readNewbox(bytes, start, db1, db2) {
 		}
 	}
 	for (var i = 0; i < 20; i++) {
-		var b = bytes[start + i];
+		var b = bytes[start + 1 + i];
 		if (b == 0) {
 			continue;
 		}
@@ -54,6 +54,8 @@ function readNewbox(bytes, start, db1, db2) {
 		} else {
 			landmark = landmark.name;
 		}
+		
+		if (!pokemonByPokedex.get(bytes[p])) continue;
 
 		pokemon.push({
 			name: pokemonByPokedex.get(bytes[p]).name,
