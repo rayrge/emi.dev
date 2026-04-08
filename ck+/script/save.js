@@ -182,8 +182,8 @@ function readFile(file) {
 				}
 				
 
-				for (var i = 0; i < 1; i++) {
-					var l = readNewbox(bytes, 0x2D16 + i * 0x450, 0x4000, 0x6000);
+				for (var i = 0; i < 16; i++) {
+					var l = readNewbox(bytes, 0x1248 + i * 0x450, 0x4000, 0x6000);
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
 					} else {
