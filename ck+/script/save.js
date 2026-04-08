@@ -13,15 +13,22 @@ function readNewbox(bytes, start, db1, db2) {
 		}
 	}
 	for (var i = 0; i < 20; i++) {
-		var species = bytes[start + 1 + i];
-		if (species == 0) continue;
+		var b = bytes[start + 1 + i]; // species list FIX
 
-		var p = start + 0x29 + i * 0x30;
+		if (b == 0) continue;
+		b--;
+
+		var p = db1;
+		if (banks[i]) {
+			p = db2;
+		}
+		p += b * 0x32; // struct size FIXED BACK
+
+		var speciesId = bytes[p];
+		var mon = pokemonByPokedex.get(speciesId);
+		if (!mon) continue;
 
 		if (bytes[p + 0x1d] == 0xfd) continue; // egg
-
-		var mon = pokemonByPokedex.get(bytes[p]);
-		if (!mon) continue;
 
 		var item = bytes[p + 0x01];
 		if (itemsById.has(item)) {
@@ -52,7 +59,7 @@ function readNewbox(bytes, start, db1, db2) {
 
 		pokemon.push({
 			name: mon.name,
-			level: bytes[p + 0x1f],
+			level: bytes[p + 0x1e], // ← CRITICAL FIX
 			dvs: { hp, atk, def, spa, spd, spe },
 			moves,
 			item,
