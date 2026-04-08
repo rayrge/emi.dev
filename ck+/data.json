@@ -53473,6 +53473,79 @@
     },
 {
       "area": "Route 45",
+      "name": "cooltrainerm-ryan",	
+      "meta": "sandstorm",
+      "team": [
+        {
+          "name": "girafarig",
+          "level": 67,
+          "item": "lum-berry",
+          "moves": [
+            "double-edge",
+            "psychic",
+            "iron-tail",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "quagsire",
+          "level": 67,
+          "item": "focus-band",
+          "moves": [
+            "whirlpool",
+            "recover",
+            "earthquake",
+            "waterfall"
+          ]
+        },
+        {
+          "name": "sunflora",
+          "level": 67,
+          "item": "brightpowder",
+          "moves": [
+            "toxic",
+            "protect",
+            "leech-seed",
+            "explosion"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 67,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "flamethrower",
+            "thunderbolt",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "lickitung",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "whirlwind",
+            "curse",
+            "slam",
+            "explosion"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 67,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+            "roar",
+            "powder-snow",
+            "rock-slide"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
       "name": "camper-quentin",	
       "meta": "sandstorm",
       "team": [
