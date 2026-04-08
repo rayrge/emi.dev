@@ -1923,17 +1923,17 @@
                 {
                     "chance": 50,
                     "level": 10,
-                    "pokemon": "hoothoot"
+                    "pokemon": "butterfree"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "ekans"
+                    "pokemon": "aipom"
                 },
                 {
                     "chance": 15,
                     "level": 10,
-                    "pokemon": "hoothoot"
+                    "pokemon": "pineco"
                 },
                 {
                     "chance": 10,
@@ -1943,12 +1943,12 @@
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "exeggcute"
+                    "pokemon": "heracross"
                 },
                 {
                     "chance": 5,
                     "level": 10,
-                    "pokemon": "exeggcute"
+                    "pokemon": "heracross"
                 }
             ],
             "lake": [
@@ -53365,6 +53365,108 @@
             "ice-beam",
             "whirlpool",
             "icy-wind"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
+      "name": "hiker-erik",	
+      "meta": "gauntlet. sandstorm. left.",
+      "team": [
+        {
+          "name": "clefable",
+          "level": 67,
+          "item": "leppa-berry",
+          "moves": [
+            "moonlight",
+            "metronome",
+            "charm",
+            "comet-punch"
+          ]
+        },
+        {
+          "name": "dugtrio",
+          "level": 67,
+          "item": "kings-rock",
+          "moves": [
+            "earthquake",
+            "swagger",
+            "rock-slide",
+            "tri-attack"
+          ]
+        },
+        {
+          "name": "golem",
+          "level": 67,
+          "item": "blackbelt",
+          "moves": [
+            "rock-slide",
+            "protect",
+            "body-slam",
+            "karate-chop"
+          ]
+        },
+        {
+          "name": "pinsir",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "leech-life",
+            "clamp",
+            "protect",
+            "stomp"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
+      "name": "hiker-parry",	
+      "meta": "gauntlet. sandstorm. right.",
+      "team": [
+        {
+          "name": "sandslash",
+          "level": 67,
+          "item": "silverpowder",
+          "moves": [
+            "toxic",
+            "protect",
+            "fury-cutter",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 67,
+          "item": "quick-claw",
+          "moves": [
+            "spore",
+            "synthesis",
+            "giga-drain",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "tauros",
+          "level": 67,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "body-slam",
+            "earthquake",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "protect",
+            "whirlpool"
 	  ]
 	}
       ]
