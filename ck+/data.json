@@ -54122,6 +54122,78 @@
     },
 {
       "area": "Route 26",
+      "name": "cooltrainerm-gaven",	
+      "team": [
+        {
+          "name": "raichu",
+          "level": 69,
+          "item": "focus-band",
+          "moves": [
+            "thunderbolt",
+            "sing",
+            "iron-tail",
+            "surf"
+          ]
+        },
+        {
+          "name": "smeargle",
+          "level": 69,
+          "item": "berserkgene",
+          "moves": [
+            "baton-pass",
+            "double-team",
+            "aeroblast",
+            "thief"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 69,
+          "item": "kings-rock",
+          "moves": [
+            "giga-drain",
+            "ice-beam",
+            "psychic",
+            "surf"
+	   ]
+	},
+        {
+          "name": "muk",
+          "level": 69,
+          "item": "quick-claw",
+          "moves": [
+            "sludge-bomb",
+            "shadow-ball",
+            "submission",
+            "explosion"
+          ]
+        },
+        {
+          "name": "kingdra",
+          "level": 69,
+          "item": "scope-lens",
+          "moves": [
+            "octazooka",
+            "icy-wind",
+            "ice-beam",
+            "dragonbreath"
+          ]
+        },
+       {
+          "name": "espeon",
+          "level": 69,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+            "hypnosis",
+            "bite",
+            "thunderbolt"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 26",
       "name": "cooltrainerm-jake",	
       "team": [
         {
@@ -54188,6 +54260,78 @@
             "lock-on",
             "dynamicpunch",
             "mega-kick"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 26",
+      "name": "cooltrainerf-beth",	
+      "team": [
+        {
+          "name": "dragonite",
+          "level": 69,
+          "item": "berserk-gene",
+          "moves": [
+            "extremespeed",
+            "metal-claw",
+            "fly",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "kingler",
+          "level": 69,
+          "item": "berserk-gene",
+          "moves": [
+            "crabhammer",
+            "stomp",
+            "submission",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 69,
+          "item": "berserk-gene",
+          "moves": [
+            "flame-wheel",
+            "double-edge",
+            "shadow-ball",
+            "submission"
+	   ]
+	},
+        {
+          "name": "machamp",
+          "level": 69,
+          "item": "berserk-gene",
+          "moves": [
+            "submission",
+            "body-slam",
+            "earthquake",
+            "comet-punch"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 69,
+          "item": "berserk-gene",
+          "moves": [
+            "megahorn",
+            "earthquake",
+            "rock-slide",
+            "drill-peck"
+          ]
+        },
+       {
+          "name": "ursaring",
+          "level": 69,
+          "item": "berserk-gene",
+          "moves": [
+            "quick-attack",
+            "take-down",
+            "earthquake",
+            "thunderpunch"
 	  ]
 	}
       ]
