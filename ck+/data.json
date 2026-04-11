@@ -53372,7 +53372,7 @@
 {
       "area": "Route 45",
       "name": "hiker-erik",	
-      "meta": "gauntlet. sandstorm. left.",
+      "meta": "gauntlet. sandstorm. right.",
       "team": [
         {
           "name": "clefable",
@@ -53423,7 +53423,7 @@
 {
       "area": "Route 45",
       "name": "hiker-parry",	
-      "meta": "gauntlet. sandstorm. right.",
+      "meta": "gauntlet. sandstorm. left.",
       "team": [
         {
           "name": "sandslash",
@@ -53473,7 +53473,7 @@
     },
 {
       "area": "Route 45",
-      "name": "cooltrainerm-ryan",	
+      "name": "cooltrainerm-ruben",	
       "meta": "sandstorm",
       "team": [
         {
@@ -53659,6 +53659,108 @@
     },
 {
       "area": "Route 45",
+      "name": "hiker-timothy",	
+      "meta": "sandstorm. right.",
+      "team": [
+        {
+          "name": "piloswine",
+          "level": 67,
+          "item": "nevermeltice",
+          "moves": [
+            "ice-beam",
+            "take-down",
+            "rock-slide",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "miltank",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "milk-drink",
+            "attract",
+            "body-slam",
+            "megahorn"
+          ]
+        },
+        {
+          "name": "magcargo",
+          "level": 67,
+          "item": "focus-band",
+          "moves": [
+            "flame-wheel",
+            "protect",
+            "flamethrower",
+            "explosion"
+          ]
+        },
+        {
+          "name": "kabutops",
+          "level": 67,
+          "item": "mysticwater",
+          "moves": [
+            "ancientpower",
+            "harden",
+            "crabhammer",
+            "submission"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
+      "name": "hiker-michael",	
+      "meta": "sandstorm. left.",
+      "team": [
+        {
+          "name": "gligar",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "spikes",
+            "toxic",
+            "super-fang",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 67,
+          "item": "soft-sand",
+          "moves": [
+            "glare",
+            "rock-slide",
+            "earthquake",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "omastar",
+          "level": 67,
+          "item": "brightpowder",
+          "moves": [
+            "surf",
+            "ancientpower",
+            "ice-beam",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 67,
+          "item": "lum-berry",
+          "moves": [
+            "light-screen",
+            "thunder-wave",
+            "earthquake",
+            "pin-missile"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 45",
       "name": "cooltrainerf-kelly",	
       "meta": "sandstorm",
       "team": [
@@ -53726,6 +53828,222 @@
             "bone-rush",
             "rock-slide",
             "return"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 27",
+      "name": "cooltrainerf-megan",	
+      "team": [
+        {
+          "name": "meganium",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "leech-seed",
+            "synthesis",
+            "light-screen",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "snorlax",
+          "level": 68,
+          "item": "chesto-berry",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "curse",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "recover",
+            "hydro-pump",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "arcanine",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "morning-sun",
+            "flamethrower",
+            "double-edge",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "nidoqueen",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "moonlight",
+            "thunderbolt",
+            "earthquake",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "blissey",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "softboiled",
+            "psywave",
+            "heal-bell",
+            "thunder-wave"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 26",
+      "name": "cooltrainerf-joyce",	
+      "team": [
+        {
+          "name": "girafarig",
+          "level": 69,
+          "item": "focus-band",
+          "moves": [
+            "focus-energy",
+            "substitute",
+            "flame-wheel",
+            "baton-pass"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 69,
+          "item": "scope-lens",
+          "moves": [
+            "fury-cutter",
+            "cross-chop",
+            "slash",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "golduck",
+          "level": 69,
+          "item": "scope-lens",
+          "moves": [
+            "focus-energy",
+            "baton-pass",
+            "cross-chop",
+            "aeroblast"
+	   ]
+	},
+        {
+          "name": "sneasel",
+          "level": 69,
+          "item": "scope-lens",
+          "moves": [
+            "metal-claw",
+            "ice-beam",
+            "fury-cutter",
+            "slash"
+          ]
+        },
+        {
+          "name": "farfetchd",
+          "level": 69,
+          "item": "stick",
+          "moves": [
+            "razor-leaf",
+            "drill-peck",
+            "slash",
+            "cross-chop"
+          ]
+        },
+       {
+          "name": "kabutops",
+          "level": 69,
+          "item": "scope-lens",
+          "moves": [
+            "crabhammer",
+            "fury-cutter",
+            "cross-chop",
+            "ancientpower"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 26",
+      "name": "cooltrainerm-jake",	
+      "team": [
+        {
+          "name": "scyther",
+          "level": 69,
+          "item": "brightpowder",
+          "moves": [
+            "guillotine",
+            "lock-on",
+            "wing-attack",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 69,
+          "item": "lum-berry",
+          "moves": [
+            "octazooka",
+            "hydro-pump",
+            "sludge",
+            "mud-slap"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 69,
+          "item": "leftovers",
+          "moves": [
+            "sweet-scent",
+            "ancientpower",
+            "flash",
+            "fissure"
+	   ]
+	},
+        {
+          "name": "magneton",
+          "level": 69,
+          "item": "brightpowder",
+          "moves": [
+            "zap-cannon",
+            "supersonic",
+            "thunder",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "lapras",
+          "level": 69,
+          "item": "leftovers",
+          "moves": [
+            "blizzard",
+            "hydro-pump",
+            "thunder",
+            "horn-drill"
+          ]
+        },
+       {
+          "name": "hitmontop",
+          "level": 69,
+          "item": "brightpowder",
+          "moves": [
+            "foresight",
+            "lock-on",
+            "dynamicpunch",
+            "mega-kick"
 	  ]
 	}
       ]
