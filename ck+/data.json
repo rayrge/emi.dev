@@ -17594,7 +17594,7 @@
             "name": "guillotine",
             "power": 0,
             "pp": 5,
-            "type": "normal"
+            "type": "steel"
         },
         {
             "accuracy": 100,
@@ -18309,7 +18309,7 @@
             "name": "sweet-scent",
             "power": 0,
             "pp": 20,
-            "type": "normal"
+            "type": "grass"
         },
         {
             "accuracy": 100,
@@ -19454,7 +19454,7 @@
             "name": "growth",
             "power": 0,
             "pp": 3,
-            "type": "normal"
+            "type": "grass"
         },
         {
             "accuracy": 100,
@@ -53900,6 +53900,150 @@
             "psywave",
             "heal-bell",
             "thunder-wave"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 27",
+      "name": "cooltrainerm-blake",	
+      "team": [
+        {
+          "name": "tauros",
+          "level": 68,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "swords-dance",
+            "submission",
+            "blizzard"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "swords-dance",
+            "double-edge",
+            "sky-attack",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "weezing",
+          "level": 68,
+          "item": "lum-berry",
+          "moves": [
+            "pain-split",
+            "explosion",
+            "sludge",
+            "psychic"
+          ]
+        },
+        {
+          "name": "dodrio",
+          "level": 68,
+          "item": "blackbelt",
+          "moves": [
+            "hi-jump-kick",
+            "screech",
+            "sky-attack",
+            "double-edge"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 68,
+          "item": "sharp-beak",
+          "moves": [
+            "flamethrower",
+            "belly-drum",
+            "sky-attack",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "azumarill",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "belly-drum",
+            "double-edge",
+            "quick-attack",
+            "waterfall"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 27",
+      "name": "cooltrainerf-reena",	
+      "team": [
+        {
+          "name": "blastoise",
+          "level": 68,
+          "item": "lum-berry",
+          "moves": [
+            "counter",
+            "mirror-coat",
+            "surf",
+            "withdraw"
+          ]
+        },
+        {
+          "name": "umbreon",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "confuse-ray",
+            "screech",
+            "body-slam",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "porygon2",
+          "level": 68,
+          "item": "pink-bow",
+          "moves": [
+            "light-screen",
+            "reflect",
+            "hyper-beam",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "shuckle",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "wrap",
+            "toxic",
+            "protect",
+            "rock-smash"
+          ]
+        },
+        {
+          "name": "bellossom",
+          "level": 68,
+          "item": "quick-claw",
+          "moves": [
+            "sleep-powder",
+            "growth",
+            "double-edge",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "slowbro",
+          "level": 68,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "ice-beam",
+            "thunderbolt",
+            "flamethrower"
 	  ]
 	}
       ]
