@@ -12846,112 +12846,112 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 63,
-                                "pokemon": "magneton"
+                                "level": 48,
+                                "pokemon": "golduck"
                             },
                             {
                                 "chance": 30,
-                                "level": 63,
-                                "pokemon": "forretress"
+                                "level": 48,
+                                "pokemon": "scyther"
                             },
                             {
                                 "chance": 20,
-                                "level": 63,
-                                "pokemon": "steelix"
+                                "level": 48,
+                                "pokemon": "yanma"
                             },
                             {
                                 "chance": 10,
-                                "level": 63,
+                                "level": 48,
                                 "pokemon": "houndoom"
                             },
                             {
                                 "chance": 5,
-                                "level": 63,
-                                "pokemon": "snorlax"
+                                "level": 48,
+                                "pokemon": "venomoth"
                             },
                             {
                                 "chance": 4,
-                                "level": 63,
-                                "pokemon": "skarmory"
+                                "level": 48,
+                                "pokemon": "venomoth"
                             },
                             {
                                 "chance": 1,
-                                "level": 63,
-                                "pokemon": "scizor"
+                                "level": 48,
+                                "pokemon": "mr-mime"
                             }
                         ],
                         "morning": [
-                            {
+                             {
                                 "chance": 30,
-                                "level": 63,
-                                "pokemon": "electrode"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "chansey"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 63,
-                                "pokemon": "sneasel"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 63,
-                                "pokemon": "magcargo"
-                            },
-                            {
-                                "chance": 5,
-                                "level": 63,
-                                "pokemon": "primeape"
-                            },
-                            {
-                                "chance": 4,
-                                "level": 63,
+                                "level": 48,
                                 "pokemon": "yanma"
                             },
                             {
-                                "chance": 1,
-                                "level": 63,
-                                "pokemon": "pinsir"
-                            }
-                        ],
-                        "night": [
-                            {
                                 "chance": 30,
-                                "level": 63,
-                                "pokemon": "ampharos"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 63,
-                                "pokemon": "gligar"
+                                "level": 48,
+                                "pokemon": "houndoom"
                             },
                             {
                                 "chance": 20,
-                                "level": 63,
-                                "pokemon": "jumpluff"
+                                "level": 48,
+                                "pokemon": "scyther"
                             },
                             {
                                 "chance": 10,
-                                "level": 63,
-                                "pokemon": "smeargle"
+                                "level": 48,
+                                "pokemon": "golduck"
                             },
                             {
                                 "chance": 5,
-                                "level": 63,
-                                "pokemon": "tyranitar"
+                                "level": 48,
+                                "pokemon": "venomoth"
                             },
                             {
                                 "chance": 4,
-                                "level": 63,
-                                "pokemon": "chansey"
+                                "level": 48,
+                                "pokemon": "venomoth"
                             },
                             {
                                 "chance": 1,
-                                "level": 63,
-                                "pokemon": "heracross"
+                                "level": 48,
+                                "pokemon": "mr-mime"
+                            }
+                        ],
+                        "night": [
+                             {
+                                "chance": 30,
+                                "level": 48,
+                                "pokemon": "clefable"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 48,
+                                "pokemon": "girafarig"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 48,
+                                "pokemon": "golduck"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 48,
+                                "pokemon": "scyther"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 48,
+                                "pokemon": "venomoth"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 48,
+                                "pokemon": "venomoth"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 48,
+                                "pokemon": "mr-mime"
                             }
                         ]
                     },
@@ -43253,7 +43253,7 @@
     "trainers": [
         {
       "area": "Route 30",
-      "name": "youngster-joey17",
+      "name": "youngster-joey",
       "team": [
         {
           "name": "rattata",
@@ -48711,7 +48711,7 @@
       "area": "Rocket Hideout",
       "name": "gruntm-21",
       "b2b": true,
-      "meta": "spikes. repeats every time you pass a security camera.",
+      "meta": "spikes. repeats every time you pass a security camera",
       "team": [
         {
           "name": "farfetchd",
@@ -49983,7 +49983,7 @@
     {
       "area": "Mount Mortar",
       "name": "blackbelt-kiyo",
-      "meta": "optional. gives tyrogue egg.",
+      "meta": "optional. gives tyrogue egg",
       "team": [
         {
           "name": "hitmontop",
@@ -50023,7 +50023,7 @@
     {
       "area": "Mount Mortar",
       "name": "pokemaniac-miller",
-      "meta": "optional. guards Protect TM.",
+      "meta": "optional. guards Protect TM",
       "team": [
         {
           "name": "weezing",
@@ -50096,7 +50096,7 @@
     {
       "area": "Mount Mortar",
       "name": "super-nerd-markus",
-      "meta": "optional. guards Focus Band.",
+      "meta": "optional. guards Focus Band",
       "team": [
         {
           "name": "lickitung",
@@ -50169,7 +50169,7 @@
     {
       "area": "Mount Mortar",
       "name": "super-nerd-hugh",
-      "meta": "optional. guards dragon scale.",
+      "meta": "optional. guards dragon scale",
       "team": [
         {
           "name": "kingdra",
@@ -51077,7 +51077,7 @@
     {
       "area": "Union Cave",
       "name": "cooltrainerm-nick",
-      "meta": "optional. guards lapras.",
+      "meta": "optional. guards lapras",
       "team": [
         {
           "name": "venusaur",
@@ -53372,7 +53372,7 @@
 {
       "area": "Route 45",
       "name": "hiker-erik",	
-      "meta": "gauntlet. sandstorm. right.",
+      "meta": "gauntlet. sandstorm. right",
       "team": [
         {
           "name": "clefable",
@@ -53423,7 +53423,7 @@
 {
       "area": "Route 45",
       "name": "hiker-parry",	
-      "meta": "gauntlet. sandstorm. left.",
+      "meta": "gauntlet. sandstorm. left",
       "team": [
         {
           "name": "sandslash",
@@ -53660,7 +53660,7 @@
 {
       "area": "Route 45",
       "name": "hiker-timothy",	
-      "meta": "sandstorm. right.",
+      "meta": "sandstorm. right",
       "team": [
         {
           "name": "piloswine",
@@ -53711,7 +53711,7 @@
 {
       "area": "Route 45",
       "name": "hiker-michael",	
-      "meta": "sandstorm. left.",
+      "meta": "sandstorm. left",
       "team": [
         {
           "name": "gligar",
@@ -53828,6 +53828,39 @@
             "bone-rush",
             "rock-slide",
             "return"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 46",
+      "name": "camper-ted",	
+      "meta": "end sandstorm. end gauntlet",
+      "team": [
+        {
+          "name": "mankey",
+          "level": 96,
+          "item": "lum-berry",
+          "moves": [
+            "rock-slide",
+            "cross-chop",
+            "screech",
+            "thrash"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 46",
+      "name": "hiker-bailey",	
+      "b2b": true,
+      "team": [
+        {
+          "name": "geodude",
+          "level": 96,
+          "item": "pink-bow",
+          "moves": [
+            "explosion"
 	  ]
 	}
       ]
@@ -54404,6 +54437,104 @@
             "take-down",
             "earthquake",
             "thunderpunch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 26",
+      "name": "psychic-richard",
+      "meta": "optional. gives you psychic tm",	
+      "team": [
+        {
+          "name": "jynx",
+          "level": 67,
+          "item": "nevermeltice",
+          "moves": [
+            "destiny-bond",
+            "lovely-kiss",
+            "ice-beam",
+            "psychic"
+          ]
+        },
+        {
+          "name": "pidgeot",
+          "level": 68,
+          "item": "scope-lens",
+          "moves": [
+            "aeroblast"
+	  ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "spite",
+            "hypnosis",
+            "dream-eater",
+            "nightmare"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 26",
+      "name": "cooltrainerf-beth",
+      "b2b": true,
+      "meta": "optional: gives you icy-wind"
+      "team": [
+        {
+          "name": "mantine",
+          "level": 67,
+          "item": "lum-berry",
+          "moves": [
+            "toxic",
+            "protect",
+            "aeroblast",
+            "hydro-pump"
+          ]
+        },
+        {
+          "name": "weezing",
+          "level": 67,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "explosion"
+          ]
+        },
+        {
+          "name": "ariados",
+          "level": 69,
+          "item": "quick-claw",
+          "moves": [
+            "megahorn",
+            "sludge",
+            "psychic",
+            "night-shade"
+	   ]
+	},
+        {
+          "name": "corsola",
+          "level": 70,
+          "item": "brightpowder",
+          "moves": [
+            "whirlpool",
+            "perish-song",
+            "protect",
+            "recover"
+          ]
+        },
+        {
+          "name": "tentacruel",
+          "level": 69,
+          "item": "pink-bow",
+          "moves": [
+            "return",
+            "ice-beam",
+            "surf",
+            "giga-drain"
 	  ]
 	}
       ]
