@@ -54480,9 +54480,9 @@
     },
 {
       "area": "Route 26",
-      "name": "cooltrainerf-beth",
+      "name": "fisher-scott",
       "b2b": true,
-      "meta": "optional: gives you icy-wind"
+      "meta": "optional, gives you icy-wind",
       "team": [
         {
           "name": "mantine",
