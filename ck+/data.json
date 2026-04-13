@@ -53698,7 +53698,7 @@
         {
           "name": "kabutops",
           "level": 67,
-          "item": "mysticwater",
+          "item": "mystic-water",
           "moves": [
             "ancientpower",
             "harden",
@@ -53978,6 +53978,78 @@
     },
 {
       "area": "Route 27",
+      "name": "cooltrainerm-brian",	
+      "team": [
+        {
+          "name": "jolteon",
+          "level": 68,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "thunder-wave",
+            "bite",
+            "pin-missile"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 68,
+          "item": "hard-stone",
+          "moves": [
+            "ancientpower",
+            "sky-attack",
+            "earthquake",
+            "fire-blast"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "confuse-ray",
+            "sludge",
+            "sky-attack",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "dugtrio",
+          "level": 68,
+          "item": "soft-dand",
+          "moves": [
+            "earthquake",
+            "swagger",
+            "tri-attack",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "aipom",
+          "level": 68,
+          "item": "focus-band",
+          "moves": [
+            "flash",
+            "light-screen",
+            "fury-swipes",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 68,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "ice-punch",
+            "fire-punch",
+            "thunderpunch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 27",
       "name": "cooltrainerf-reena",	
       "team": [
         {
@@ -54138,7 +54210,7 @@
         {
           "name": "smeargle",
           "level": 69,
-          "item": "berserkgene",
+          "item": "berserk-gene",
           "moves": [
             "baton-pass",
             "double-team",
@@ -54338,6 +54410,78 @@
     },
 {
       "area": "Indigo Plateau",
+      "name": "elite-four-will",
+      "team": [
+        {
+          "name": "xatu",
+          "level": 70,
+          "item": "twistedspoon",
+          "moves": [
+            "destiny-bond",
+            "screech",
+            "future-sight",
+            "drill-peck"
+          ]
+        },
+        {
+          "name": "stantler",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "curse",
+            "body-slam",
+            "earthquake",
+            "baton-pass"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 69,
+          "item": "miracle-seed",
+          "moves": [
+            "giga-drain",
+            "psychic",
+            "explosion",
+            "stun-spore"
+          ]
+        },
+        {
+          "name": "slowbro",
+          "level": 68,
+          "item": "leftovers",
+          "moves": [
+            "future-sight",
+            "ice-beam",
+            "waterfall",
+            "psychic"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 69,
+          "item": "scope-lens",
+          "moves": [
+            "flamethrower",
+            "flame-wheel",
+            "thunderbolt",
+            "psychic"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 68,
+          "item": "twisted-spoon",
+          "moves": [
+            "psychic",
+            "future-sight",
+            "giga-drain",
+            "ice-punch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
       "name": "elite-four-koga",
       "team": [
         {
@@ -54404,6 +54548,78 @@
             "sludge-bomb",
             "giga-drain",
             "fire-punch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "elite-four-koga",
+      "team": [
+        {
+          "name": "clefable",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "double-team",
+            "moonlight",
+            "double-edge",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "houndoom",
+          "level": 69,
+          "item": "blackglasses",
+          "moves": [
+            "pursuit",
+            "crunch",
+            "fire-blast",
+            "substitute"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "mean-look",
+            "perish-song",
+            "pain-split",
+            "protect"
+          ]
+        },
+        {
+          "name": "murkrow",
+          "level": 71,
+          "item": "black-belt",
+          "moves": [
+            "pursuit",
+            "cross-chop",
+            "drill-peck",
+            "crunch"
+          ]
+        },
+        {
+          "name": "shuckle",
+          "level": 70,
+          "item": "chesto-berry",
+          "moves": [
+            "toxic",
+            "rest",
+            "sleep-talk",
+            "mud-slap"
+          ]
+        },
+        {
+          "name": "umbreon",
+          "level": 69,
+          "item": "leftovers",
+          "moves": [
+            "toxic",
+            "double-team",
+            "moonlight",
+            "crunch"
 	  ]
 	}
       ]
