@@ -9528,112 +9528,112 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 64,
-                                "pokemon": "piloswine"
+                                "level": 62,
+                                "pokemon": "rhydon"
                             },
                             {
                                 "chance": 30,
-                                "level": 64,
-                                "pokemon": "pupitar"
+                                "level": 62,
+                                "pokemon": "magmar"
                             },
                             {
                                 "chance": 20,
-                                "level": 64,
-                                "pokemon": "chansey"
+                                "level": 62,
+                                "pokemon": "kangaskhan"
                             },
                             {
                                 "chance": 10,
-                                "level": 64,
-                                "pokemon": "steelix"
+                                "level": 62,
+                                "pokemon": "jynx"
                             },
                             {
                                 "chance": 5,
-                                "level": 64,
-                                "pokemon": "gligar"
+                                "level": 62,
+                                "pokemon": "machamp"
                             },
                             {
                                 "chance": 4,
-                                "level": 64,
-                                "pokemon": "gengar"
+                                "level": 62,
+                                "pokemon": "exeggutor"
                             },
                             {
                                 "chance": 1,
-                                "level": 64,
-                                "pokemon": "electrode"
+                                "level": 62,
+                                "pokemon": "electabuzz"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 64,
-                                "pokemon": "misdreavus"
+                                "level": 62,
+                                "pokemon": "arcanine"
                             },
                             {
                                 "chance": 30,
-                                "level": 64,
-                                "pokemon": "gligar"
+                                "level": 62,
+                                "pokemon": "electabuzz"
                             },
                             {
                                 "chance": 20,
-                                "level": 64,
-                                "pokemon": "gengar"
+                                "level": 62,
+                                "pokemon": "crobat"
                             },
                             {
                                 "chance": 10,
-                                "level": 64,
-                                "pokemon": "piloswine"
+                                "level": 62,
+                                "pokemon": "magmar"
                             },
                             {
                                 "chance": 5,
-                                "level": 64,
-                                "pokemon": "skarmory"
+                                "level": 62,
+                                "pokemon": "scyther"
                             },
                             {
                                 "chance": 4,
-                                "level": 64,
-                                "pokemon": "chansey"
+                                "level": 62,
+                                "pokemon": "poliwrath"
                             },
                             {
                                 "chance": 1,
-                                "level": 64,
-                                "pokemon": "pupitar"
+                                "level": 62,
+                                "pokemon": "jynx"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 64,
-                                "pokemon": "pupitar"
+                                "level": 62,
+                                "pokemon": "ampharos"
                             },
                             {
                                 "chance": 30,
-                                "level": 64,
-                                "pokemon": "gengar"
+                                "level": 62,
+                                "pokemon": "jynx"
                             },
                             {
                                 "chance": 20,
-                                "level": 64,
-                                "pokemon": "gligar"
+                                "level": 62,
+                                "pokemon": "alakazam"
                             },
                             {
                                 "chance": 10,
-                                "level": 64,
-                                "pokemon": "electrode"
+                                "level": 62,
+                                "pokemon": "electabuzz"
                             },
                             {
                                 "chance": 5,
-                                "level": 64,
-                                "pokemon": "charizard"
+                                "level": 62,
+                                "pokemon": "gengar"
                             },
                             {
                                 "chance": 4,
-                                "level": 64,
-                                "pokemon": "nidoqueen"
+                                "level": 62,
+                                "pokemon": "houndoom"
                             },
                             {
                                 "chance": 1,
-                                "level": 64,
-                                "pokemon": "nidoking"
+                                "level": 62,
+                                "pokemon": "magmar"
                             }
                         ]
                     },
@@ -54749,7 +54749,7 @@
           "moves": [
             "sludge",
             "cross-chop",
-            "thunderpunch",
+            "thunderbolt",
             "ice-punch"
           ]
         },
@@ -54758,7 +54758,7 @@
           "level": 69,
           "item": "focus-band",
           "moves": [
-            "rollout",
+            "explosion",
             "spikes",
             "baton-pass",
             "pin-missile"
@@ -54801,7 +54801,79 @@
     },
 {
       "area": "Indigo Plateau",
-      "name": "elite-four-koga",
+      "name": "elite-four-bruno",
+      "team": [
+        {
+          "name": "tauros",
+          "level": 69,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "megahorn",
+            "earthquake",
+            "triple-kick"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 71,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+            "submission",
+            "rock-slide",
+            "wing-attack"
+          ]
+        },
+        {
+          "name": "kabutops",
+          "level": 70,
+          "item": "scope-lens",
+          "moves": [
+            "substitute",
+            "ancientpower",
+            "crabhammer",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "gligar",
+          "level": 69,
+          "item": "leftovers",
+          "moves": [
+            "earthquake",
+            "hi-jump-kick",
+            "leech-life",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 70,
+          "item": "quick-claw",
+          "moves": [
+            "explosion",
+            "screech",
+            "iron-tail",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 71,
+          "item": "blackbelt",
+          "moves": [
+            "cross-chop",
+            "rock-slide",
+            "body-slam",
+            "low-kick"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "elite-four-karen",
       "team": [
         {
           "name": "clefable",
