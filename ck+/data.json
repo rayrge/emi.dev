@@ -53370,6 +53370,103 @@
       ]
     },
 {
+      "area": "Dragon's Den",
+      "name": "cooltrainerm-darin",
+      "team": [
+        {
+          "name": "feraligatr",
+          "level": 66,
+          "item": "quick-claw",
+          "moves": [
+            "hydro-pump",
+            "scary-face",
+            "earthquake",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "typhlosion",
+          "level": 66,
+          "item": "scope-lens",
+          "moves": [
+            "fire-blast",
+            "earthquake",
+            "submission",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "meganium",
+          "level": 66,
+          "item": "leftovers",
+          "moves": [
+            "petal-dance",
+            "poisonpowder",
+            "lovely-kiss",
+            "leech-seed"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Dragon's Den",
+      "name": "cooltrainerf-cara",
+      "b2b": true,
+      "team": [
+        {
+          "name": "charizard",
+          "level": 66,
+          "item": "charcoal",
+          "moves": [
+            "fire-blast",
+            "sky-attack",
+            "earthquake",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 66,
+          "item": "miracle-seed",
+          "moves": [
+            "petal-dance",
+            "leech-seed",
+            "sludge-bomb",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "blastoise",
+          "level": 66,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+            "mirror-coat",
+            "submission",
+            "ice-beam"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Dragon's Den",
+      "name": "twins-lea-pia",
+      "meta": "optional for dragon fang",
+      "team": [
+        {
+          "name": "dragonite",
+          "level": 66,
+          "item": "dragon-fang",
+          "moves": [
+            "outrage",
+            "fly",
+            "flamethrower",
+            "iron-tail"
+	  ]
+	}
+      ]
+    },
+{
       "area": "Route 45",
       "name": "hiker-erik",	
       "meta": "gauntlet. sandstorm. right",
