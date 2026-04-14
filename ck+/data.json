@@ -44102,16 +44102,16 @@
     },
     {
       "area": "Route 35",
-      "name": "camper-ivan",
+      "name": "picnicker-kim",
       "team": [
         {
-          "name": "weepinbell",
-          "level": 16,
-          "item": "berry-juice",
+          "name": "seadra",
+          "level": 17,
+          "item": "dragon-fang",
           "moves": [
-            "razor-leaf",
-            "acid",
-            "leech-life"
+            "bubblebeam",
+            "aurora-beam",
+            "dragonbreath"
           ]
         },
         {
@@ -44125,13 +44125,24 @@
           ]
         },
         {
-          "name": "flaaffy",
-          "level": 16,
+          "name": "weepinbell",
+          "level": 17,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+            "acid",
+            "leech-life"
+          ]
+        },
+       {
+          "name": "elekid",
+          "level": 18,
           "item": "berry-juice",
           "moves": [
             "spark",
-            "psybeam",
-            "faint-attack"
+            "ice-punch",
+	    "karate-chop",
+            "quick-attack"
           ]
         }
       ]
@@ -44141,33 +44152,24 @@
       "name": "picnicker-brooke",
       "team": [
         {
-          "name": "phanpy",
+          "name": "seel",
           "level": 17,
           "item": "berry-juice",
           "moves": [
-            "defense-curl",
-            "rollout",
-            "powder-snow"
+            "charm",
+            "icy-wind",
+            "bubblebeam"
           ]
         },
         {
           "name": "nidorina",
-          "level": 16,
+          "level": 17,
           "item": "berry-juice",
           "moves": [
+            "acid",
             "dig",
-            "fire-punch",
-            "rock-slide"
-          ]
-        },
-        {
-          "name": "omanyte",
-          "level": 16,
-          "item": "miracle-seed",
-          "moves": [
-            "bubblebeam",
-            "aurora-beam",
-            "giga-drain"
+            "rock-slide",
+	    "aurora-beam"
           ]
         }
       ]
@@ -44175,71 +44177,88 @@
     {
       "area": "Route 35",
       "name": "camper-elliot",
+      "b2b": true,
       "team": [
         {
+          "name": "houndour",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "roar",
+	    "bite",
+            "flame-wheel"
+          ]
+        },
+        {
           "name": "nidorino",
-          "level": 16,
+          "level": 17,
           "item": "berry-juice",
           "moves": [
             "sludge-bomb",
             "shadow-ball",
+	    "fire-punch",
             "super-fang"
-          ]
-        },
-        {
-          "name": "seadra",
-          "level": 17,
-          "item": "berry-juice",
-          "moves": [
-            "bubblebeam",
-            "aurora-beam",
-            "dragonbreath"
-          ]
-        },
-        {
-          "name": "houndour",
-          "level": 16,
-          "item": "blackglasses",
-          "moves": [
-            "bite",
-            "flame-wheel",
-            "scratch"
           ]
         }
       ]
     },
-    {
+{
       "area": "Route 35",
-      "name": "picnicker-kim",
+      "name": "camper-ivan",
       "team": [
         {
-          "name": "golbat",
-          "level": 16,
-          "item": "silverpowder",
-          "moves": [
-            "leech-life",
-            "toxic",
-            "scary-face"
-          ]
-        },
-        {
-          "name": "kabuto",
-          "level": 16,
-          "item": "berry-juice",
-          "moves": [
-            "rock-slide",
-            "submission",
-            "slash"
-          ]
-        },
-        {
           "name": "meowth",
-          "level": 17,
+          "level": 18,
+          "item": "pink-bow",
+          "moves": [
+            "payday",
+            "swagger",
+            "bite",
+	    "psybeam"
+          ]
+        },
+        {
+          "name": "flaaffy",
+          "level": 18,
           "item": "berry-juice",
           "moves": [
-            "fury-swipes",
-            "screech",
-            "icy-wind"
+            "spark",
+            "sweet-kiss",
+            "fire-punch",
+	    "faint-attack"
+          ]
+        },
+        {
+          "name": "grimer",
+          "level": 17,
+          "item": "leftovers",
+          "moves": [
+            "recover",
+            "minimize",
+            "acid",
+	    "lick"
+          ]
+        },
+        {
+          "name": "goldeen",
+          "level": 17,
+          "item": "lum-berry",
+          "moves": [
+            "endure",
+            "flail",
+            "drill-peck",
+	    "bubblebeam"
+          ]
+        },
+        {
+          "name": "magby",
+          "level": 18,
+          "item": "charcoal",
+          "moves": [
+            "fire-punch",
+            "spark",
+            "psywave",
+	    "smog"
           ]
         }
       ]
