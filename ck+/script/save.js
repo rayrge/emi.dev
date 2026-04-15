@@ -1,6 +1,9 @@
 var vsRecorderStatus = 0; // 1 = connected, -1 = disconnected
 var pingsWithoutResponse = 0;
 var outstandingPingTimeout;
+var vsLinkCommandFeedback = "Idle";
+var vsLinkIdleTimeout;
+var vsLinkVersionBothering = 0;
 
 function readNewbox(bytes, start, db1, db2) {
 	var pokemon = [];
@@ -13,38 +16,31 @@ function readNewbox(bytes, start, db1, db2) {
 		}
 	}
 	for (var i = 0; i < 20; i++) {
-		var b = bytes[start + 1 + i]; // species list FIX
-
-		if (b == 0) continue;
+		var b = bytes[start + i];
+		if (b == 0) {
+			continue;
+		}
 		b--;
-
 		var p = db1;
 		if (banks[i]) {
 			p = db2;
 		}
-		p += b * 0x32; // struct size FIXED BACK
-
-		var speciesId = bytes[p];
-		var mon = pokemonByPokedex.get(speciesId);
-		if (!mon) continue;
-
-		if (bytes[p + 0x1d] == 0xfd) continue; // egg
-
+		p += b * 0x2F;
+		if (bytes[p + 0x1d] == 0xfd) { // Egg
+			continue;
+		}
 		var item = bytes[p + 0x01];
 		if (itemsById.has(item)) {
 			item = itemsById.get(item);
 		} else {
 			item = "";
 		}
-
 		var atk = (bytes[p + 0x15] & 0xf0) >> 4;
 		var def = (bytes[p + 0x15] & 0x0f);
 		var spe = (bytes[p + 0x16] & 0xf0) >> 4;
 		var spa = (bytes[p + 0x16] & 0x0f);
-		var spd = spa;
-
-		var hp = 8 * (atk & 1) + 4 * (def & 1) + 2 * (spe & 1) + (spa & 1);
-
+		var spd = spa
+		var hp = 8 * (atk & 0b1) + 4 * (def & 0b1) + 2 * (spe & 0b1) + (spa & 0b1);
 		var moves = [];
 		for (var j = 0; j < 4; j++) {
 			var move = bytes[p + 0x02 + j];
@@ -52,23 +48,31 @@ function readNewbox(bytes, start, db1, db2) {
 				moves.push(movesByIndex.get(move).name);
 			}
 		}
-
-		var caught = bytes[p + 0x1B] & 0b01111111;
+		var caught = bytes[p + 0x1B] & 0b0111_1111;
 		var landmark = landmarksByIndex.get(caught);
-		landmark = landmark ? landmark.name : "unknown";
-
+		if (!landmark) {
+			landmark = "unknown";
+		} else {
+			landmark = landmark.name;
+		}
 		pokemon.push({
-			name: mon.name,
-			level: bytes[p + 0x1e], // ← CRITICAL FIX
-			dvs: { hp, atk, def, spa, spd, spe },
-			moves,
-			item,
-			caught: landmark
+			name: pokemonByPokedex.get(bytes[p]).name,
+			level: bytes[p + 0x1c],
+			dvs: {
+				"hp": hp,
+				"atk": atk,
+				"def": def,
+				"spa": spa,
+				"spd": spd,
+				"spe": spe
+			},
+			"moves": moves,
+			"item": item,
+			"caught": landmark
 		});
 	}
 	return pokemon;
 }
-
 
 function readPokemonList(bytes, start, capacity, increment) {
 	var count = bytes[start];
@@ -84,7 +88,6 @@ function readPokemonList(bytes, start, capacity, increment) {
 	p += capacity + 1;
 	var pokemon = [];
 	for (var i = 0; i < count; i++) {
-
 		species[i].level = bytes[p + 0x1f];
 		if (bytes[p] != species[i]) { // Mismatching species or egg
 			continue;
@@ -151,6 +154,7 @@ function finishParse(title, pokemon, deadPokemon) {
 	if (box.length > 0) {
 		setPlayer(0);
 	}
+	setCommands();
 	updateBox();
 	var popup = '<div onclick="closePopup()" class="save-success">' + title;
 	popup += '<lb></lb>Encounters: ' + pokemon.length;
@@ -166,19 +170,26 @@ function readFile(file) {
 	var reader = new FileReader();
 	reader.onload = function (e) {
 		var bytes = new Uint8Array(e.target.result);
-		if (bytes.length >= 0x8000) {
+		if (game.name == "pk") {
+			if (file.name.endsWith(".sav") || file.name.endsWith(".dsv")) {
+				try {
+					var parts = readGen4Save(bytes);
+					box = parts.pokemon;
+					deadBox = parts.deadPokemon
+					finishParse("Successfully parsed save!", box, deadBox);
+					return;
+				} catch (e) {
+					console.log(e);
+				}
+			}
+		}
+		if (bytes.length > 32000 && bytes[0x2008] == 99 && bytes[0x2d0f] == 127) {
 			try {
 				var pokemon = [];
 				var deadPokemon = [];
-				pokemon = pokemon.concat(readPokemonList(bytes, 0x286B, 6, 48));
-				
-				for (var i = 0; i < 32; i++) {
-					console.log(bytes[0x1248 + i]);
-				}
-				
-
+				pokemon = pokemon.concat(readPokemonList(bytes, 0x2865, 6, 48));
 				for (var i = 0; i < 16; i++) {
-					var l = readNewbox(bytes, 0x1248 + i * 0xE00, 0x4000, 0x6000);
+					var l = readNewbox(bytes, 0x2f20 + i * 0x21, 0x4000, 0x6000);
 					if (i >= 12) {
 						deadPokemon = deadPokemon.concat(l);
 					} else {
@@ -187,7 +198,7 @@ function readFile(file) {
 				}
 				box = pokemon;
 				deadBox = deadPokemon;
-				parseBadges((bytes[0x23eb] << 8) | bytes[0x23ec]);
+				parseBadges((bytes[0x23e5] << 8) | bytes[0x23e6]);
 				finishParse("Successfully parsed save!", pokemon, deadPokemon);
 			} catch (e) {
 				console.log(e);
@@ -223,36 +234,440 @@ function hexToBytes(hex) {
     return bytes;
 }
 
-function vsRecorderComplete(event) {
-	try {
-		connectToVsRecorder();
-		var response = event.target.responseText;
-		var values = [...response.matchAll(/(\w+)\:\s*(.+)/g)];
-		var obj = {}
-		for (const v of values) {
-			obj[v[1]] = v[2]
+function readGen4Save(bytes) {
+	var pokemon = [];
+	var deadPokemon = [];
+	function getFooterOffset(addr, footerOffset) {
+		if (read32(bytes, addr + footerOffset) == 4294967295) {
+			return addr + 0x40000;
 		}
-		var pokemon = [];
-		var deadPokemon = [];
-		pokemon = pokemon.concat(readPokemonList(hexToBytes(obj.Party), 0, 6, 48));
-		var newboxBytes = hexToBytes(obj.NewboxMetadata);
-		var db1 = newboxBytes.length;
-		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase1));
-		var db2 = newboxBytes.length;
-		newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase2));
-		for (var i = 0; i < 16; i++) {
-			var l = readNewbox(newboxBytes, 0x00 + i * 0x21, db1, db2);
-			if (i >= 12) {
-				deadPokemon = deadPokemon.concat(l);
-			} else {
-				pokemon = pokemon.concat(l);
+		if (read32(bytes, addr + footerOffset) < read32(bytes, addr + footerOffset + 0x40000)) {
+			return addr + 0x40000;
+		} else {
+			return addr;
+		}
+	}
+	var small = getFooterOffset(0, 0x0CF18 + 4);
+	var large = getFooterOffset(0x0CF2C, 0x1f0fc - 0x0CF2C);
+	for (var i = 0; i < 6; i++) {
+		var mon = readGen4Mon(bytes, small + 0xA0 + 236 * i, true);
+		if (mon) {
+			mon.storage = {
+				type: "party",
+				index: i,
+			};
+			pokemon.push(mon);
+		}
+	}
+	for (var b = 0; b < 18; b++) {
+		for (var a = 0; a < 30; a++) {
+			var index = b * 30 + a;
+			var mon = readGen4Mon(bytes, large + 0x04 + 136 * index);
+			if (mon) {
+				if (b > 12) {
+					deadPokemon.push(mon);
+				} else {
+					pokemon.push(mon);
+				}
 			}
 		}
-		box = pokemon;
-		deadBox = deadPokemon;
-		var inventoryBytes = hexToBytes(obj.InventoryData);
-		parseBadges((inventoryBytes[0x0F] << 8) | inventoryBytes[0x10]);
-		finishParse("Successfully read Vs. Recorder!", pokemon, deadPokemon);
+	}
+	return { pokemon: pokemon, deadPokemon: deadPokemon };
+}
+
+function copySlice(arr, start, length) {
+	var ret = [];
+	for (var i = 0; i < length; i++) {
+		ret.push(arr[start + i])
+	}
+	return ret
+}
+
+function readGen4Mon(bytes, offset, party = false) {
+	var personality = read32(bytes, offset);
+	var encrypted = copySlice(bytes, offset + 8, 128);
+	var decrypted = gen4DecryptMon(encrypted, read16(bytes, offset + 6), 128);
+	var parts = unshuffleParts([
+		copySlice(decrypted, 32 * 0, 32),
+		copySlice(decrypted, 32 * 1, 32),
+		copySlice(decrypted, 32 * 2, 32),
+		copySlice(decrypted, 32 * 3, 32)
+	], ((personality & 0x3e000) >> 13) % 24);
+	var blockA = parseTemplate(parts[0], 0, [
+		2, "species",
+		2, "item",
+		2, "otId",
+		2, "secretId",
+		4, "experience",
+		1, "friendship",
+		1, "ability",
+		1, "markings",
+		1, "language",
+		1, "hpEv",
+		1, "atkEv",
+		1, "defEv",
+		1, "speEv",
+		1, "spaEv",
+		1, "spdEv",
+		1, "cool",
+		1, "beauty",
+		1, "cute",
+		1, "smart",
+		1, "tough",
+		1, "sheen",
+		4, "sinnohRibbons1"
+	]);
+	var blockB = parseTemplate(parts[1], 0, [
+		[2, 4], "moves",
+		[1, 4], "pp",
+		[1, 4], "ppUps",
+		4, "ivs",
+		4, "hoennRibbons", // PK swapped hoennRibbons and ivs just to fuck with me
+		1, "form",
+		1, "leaves",
+		2, "unused",
+		2, "eggLocationPlatinum",
+		2, "metLocationPlatinum"
+	]);
+	var blockC = parseTemplate(parts[1], 0, [
+		[2, 11], "nickname",
+		1, "unused",
+		1, "game",
+		4, "sinnohRibbons2",
+		4, "unused"
+	]);
+	var blockD = parseTemplate(parts[1], 0, [
+		[2, 8], "otName",
+		3, "eggReceivedDate",
+		3, "metDate",
+		2, "eggLocationDP",
+		2, "metLocationDP",
+		1, "pokerus",
+		1, "pokeball",
+		1, "metLevel",
+		1, "encounterType",
+		2, "pkEncounterLocation"
+		// 1, "ballHGSS",
+		// 1, "walkingMood"
+	]);
+	var nature = [
+		"hardy",
+		"lonely",
+		"brave",
+		"adamant",
+		"naughty",
+		"bold",
+		"docile",
+		"relaxed",
+		"impish",
+		"lax",
+		"timid",
+		"hasty",
+		"serious",
+		"jolly",
+		"naive",
+		"modest",
+		"mild",
+		"quiet",
+		"bashful",
+		"rash",
+		"calm",
+		"gentle",
+		"sassy",
+		"careful",
+		"quirky",
+	][personality % 25];
+	
+	var species = pokemonByPokedex.get(blockA.species);
+	if (species == undefined) {
+		return null;
+	}
+	var form = blockB.form;
+	var gender = "male";
+	if (form & 0b10) {
+		gender = "female";
+	} else if (form & 0b100) {
+		gender = "unknown";
+	}
+	form = form >> 3
+	var formMap = {
+		"deoxys": {
+			"0": "deoxys",
+			"1": "deoxys-attack",
+			"2": "deoxys-defense",
+			"3": "deoxys-speed",
+		},
+		"wormadam": {
+			"0": "wormadam",
+			"1": "wormadam-sandy",
+			"2": "wormadam-trash",
+		},
+		"rotom": {
+			"0": "rotom",
+			"1": "rotom-heat",
+			"2": "rotom-wash",
+			"3": "rotom-frost",
+			"4": "rotom-fan",
+			"5": "rotom-mow",
+		},
+		"giratina": {
+			"0": "giratina",
+			"1": "giratina-origin",
+		},
+		"shaymin": {
+			"0": "shaymin",
+			"1": "shaymin-sky",
+		},
+	}
+	if (form > 0) {
+		if (formMap[species.name]?.["" + form]) {
+			species = pokemonByName.get(formMap[species.name]["" + form]);
+		}
+	}
+	var location = landmarksByIndex.get(blockD.pkEncounterLocation)?.name ?? "unknown";
+	var mon = {
+		name: species.name,
+		moves: blockB.moves.map(v => movesByIndex.get(v)?.name).filter(a => a != undefined),
+		item: "", // TODO blockA.item,
+		ability: abilities.byIndex(blockA.ability)?.name ?? undefined,
+		dvs: {
+			hp: (blockB.ivs >> 0) & 0b11111,
+			atk: (blockB.ivs >> 5) & 0b11111,
+			def: (blockB.ivs >> 10) & 0b11111,
+			spa: (blockB.ivs >> 20) & 0b11111,
+			spd: (blockB.ivs >> 25) & 0b11111,
+			spe: (blockB.ivs >> 15) & 0b11111,
+		},
+		nature: nature,
+		level: getLevelFromExperience(species, blockA.experience),
+		experience: blockA.experience,
+		caught: location,
+		gender: gender,
+	};
+
+
+	if (party) {
+		var encryptedBattleData = copySlice(bytes, offset + 8 + 128, 100);
+		var decryptedBattleData = gen4DecryptMon(encryptedBattleData, personality, 100);
+		var battleData = parseTemplate(decryptedBattleData, 0, [
+			1, "status",
+			1, "unknown",
+			1, "unknown",
+			1, "unknown",
+			1, "level",
+			1, "seals",
+			2, "currentHp",
+			2, "maxHp",
+			2, "atk",
+			2, "def",
+			2, "spe",
+			2, "spa",
+			2, "spd",
+			// Mail
+			// Seal coordinates
+		]);
+		if (battleData.status != 0) {
+			if ((battleData.status & 0b1000_0000) != 0) {
+				mon.status = "tox";
+			} else if ((battleData.status & 0b0100_0000) != 0) {
+				mon.status = "prz";
+			} else if ((battleData.status & 0b0010_0000) != 0) {
+				mon.status = "frz";
+			} else if ((battleData.status & 0b0001_0000) != 0) {
+				mon.status = "brn";
+			} else if ((battleData.status & 0b0000_1000) != 0) {
+				mon.status = "psn";
+			} else if ((battleData.status & 0b0000_0111) != 0) {
+				mon.status = "slp";
+			}
+		}
+	}
+
+	return mon;
+}
+
+function getLevelFromExperience(mon, experience) {
+	if (!mon.name) {
+		mon = pokemonByName.get(mon);
+	}
+	var growth = mon.growth;
+	var level = 1;
+	var arr = data.growth[growth];
+	while (level + 1 < arr.length) {
+		if (arr[level + 1] > experience) {
+			break;
+		}
+		level++;
+	}
+	return level;
+
+}
+
+function gen4DecryptMon(bytes, seed, size) {
+	var ret = [];
+	seed = BigInt(seed);
+	for (var i = 0; i < size / 2; i++) {
+		seed = ((BigInt(0x41C64E6D) * seed) + BigInt(0x6073)) & BigInt(0xffffffff);
+		var next = Number(seed);
+		var v = read16(bytes, i * 2)
+		v = v ^ (next >> 16);
+		ret.push((v >> 0) & 0xff);
+		ret.push((v >> 8) & 0xff);
+	}
+	return ret;
+}
+
+function unshuffleParts(parts, variant) {
+	var ordering = [
+		[0, 1, 2, 3],
+		[0, 1, 3, 2],
+		[0, 2, 1, 3],
+		[0, 3, 1, 2],
+		[0, 2, 3, 1],
+		[0, 3, 2, 1],
+		[1, 0, 2, 3],
+		[1, 0, 3, 2],
+		[2, 0, 1, 3],
+		[3, 0, 1, 2],
+		[2, 0, 3, 1],
+		[3, 0, 2, 1],
+		[1, 2, 0, 3],
+		[1, 3, 0, 2],
+		[2, 1, 0, 3],
+		[3, 1, 0, 2],
+		[2, 3, 0, 1],
+		[3, 2, 0, 1],
+		[1, 2, 3, 0],
+		[1, 3, 2, 0],
+		[2, 1, 3, 0],
+		[3, 1, 2, 0],
+		[2, 3, 1, 0],
+		[3, 2, 1, 0]
+	][variant];
+	return [parts[ordering[0]], parts[ordering[1]], parts[ordering[2]], parts[ordering[3]]];
+}
+
+function readN(bytes, offset, size) {
+	if (size == 1) {
+		return bytes[offset];
+	} else if (size == 2) {
+		return read16(bytes, offset);
+	} else if (size == 3) {
+		return read24(bytes, offset);
+	} else if (size == 4) {
+		return read32(bytes, offset)
+	}
+}
+
+function read32(bytes, offset) {
+	return (bytes[offset + 0] << 0) +
+		(bytes[offset + 1] << 8) +
+		(bytes[offset + 2] << 16) +
+		(bytes[offset + 3] * Math.pow(2, 24));
+}
+
+function read24(bytes, offset) {
+	return (bytes[offset + 0] << 0) +
+		(bytes[offset + 1] << 8) +
+		(bytes[offset + 2] << 16);
+}
+
+function read16(bytes, offset) {
+	return (bytes[offset + 0] << 0) +
+		(bytes[offset + 1] << 8);
+}
+
+function parseTemplate(bytes, offset, template) {
+	var ret = {};
+	for (var i = 0; i < template.length; i++) {
+		var size = template[i++];
+		var key = template[i]
+		var value = bytes[offset];
+		if (Array.isArray(size)) {
+			value = [];
+			var aSize = size[0];
+			var aLength = size[1];
+			for (var a = 0; a < aLength; a++) {
+				value.push(readN(bytes, offset, aSize));
+				offset += aSize;
+			}
+		} else {
+			value = readN(bytes, offset, size);
+			offset += size;
+		}
+		ret[key] = value;
+	}
+	return ret;
+}
+
+function vsRecorderComplete(event) {
+	try {
+		if (game.name == "pk") {
+			var response = JSON.parse(event.target.responseText);
+			var pokemon = [];
+			var deadPokemon = [];
+			for (var i = 0; i < 6; i++) {
+				var mon = readGen4Mon(response.party, 0 + 236 * i, true);
+				if (mon) {
+					mon.storage = {
+						type: "party",
+						index: i,
+					};
+					pokemon.push(mon);
+				}
+			}
+			for (var b = 0; b < 18; b++) {
+				for (var a = 0; a < 30; a++) {
+					var index = b * 30 + a;
+					var mon = readGen4Mon(response.pc, 136 * index);
+					if (mon) {
+						if (b > 12) {
+							deadPokemon.push(mon);
+						} else {
+							pokemon.push(mon);
+						}
+					}
+				}
+			}
+			box = pokemon;
+			deadBox = deadPokemon
+			if (response.version != "0.2.0" && vsLinkVersionBothering < 1) {
+				vsLinkVersionBothering++;
+				document.getElementById("info-popup").innerHTML =
+					`<div onclick="closePopup()" class="save-error">Vs. Link Ersatz is out of date.<lb></lb>Please update for the latest features!</div>`;
+			} else {
+				finishParse("Successfully read Vs. Link Ersatz!", box, deadBox);
+			}
+		} else {
+			connectToVsRecorder();
+			var response = event.target.responseText;
+			var values = [...response.matchAll(/(\w+)\:\s*(.+)/g)];
+			var obj = {}
+			for (const v of values) {
+				obj[v[1]] = v[2]
+			}
+			var pokemon = [];
+			var deadPokemon = [];
+			pokemon = pokemon.concat(readPokemonList(hexToBytes(obj.Party), 0, 6, 48));
+			var newboxBytes = hexToBytes(obj.NewboxMetadata);
+			var db1 = newboxBytes.length;
+			newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase1));
+			var db2 = newboxBytes.length;
+			newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase2));
+			for (var i = 0; i < 16; i++) {
+				var l = readNewbox(newboxBytes, 0x00 + i * 0x21, db1, db2);
+				if (i >= 12) {
+					deadPokemon = deadPokemon.concat(l);
+				} else {
+					pokemon = pokemon.concat(l);
+				}
+			}
+			box = pokemon;
+			deadBox = deadPokemon;
+			var inventoryBytes = hexToBytes(obj.InventoryData);
+			parseBadges((inventoryBytes[0x0F] << 8) | inventoryBytes[0x10]);
+			finishParse("Successfully read Vs. Recorder!", pokemon, deadPokemon);
+		}
 	} catch (e) {
 		console.log(e);
 		document.getElementById("info-popup").innerHTML = '<div onclick="closePopup()" class="save-error">Error while parsing Vs. Recorder!<lb></lb>See console for details</div>';
@@ -269,7 +684,11 @@ function updateVsRecorder() {
 	req.addEventListener("load", vsRecorderComplete);
 	req.addEventListener("error", vsRecorderFailed);
 	req.addEventListener("abort", vsRecorderFailed);
-	req.open("GET", "http://localhost:31123/update");
+	if (game.name == "pk") {
+		req.open("GET", "http://localhost:31123/sync");
+	} else {
+		req.open("GET", "http://localhost:31123/update");
+	}
 	req.send();
 }
 
@@ -302,6 +721,79 @@ function connectToVsRecorder() {
 		document.getElementById("update-vs-recorder").classList.remove("vs-recorder-polling");
 		document.getElementById("update-vs-recorder").classList.remove("vs-recorder-disconnected");
 	}
+}
+
+function vsLinkCommandFailed() {
+	vsLinkCommandFeedback = "Errored :(";
+	setCommands();
+}
+
+function vsLinkCommandSucceeded() {
+	vsLinkCommandFeedback = "Synced!";
+	setCommands();
+	vsLinkIdleTimeout = setTimeout(() => {
+		vsLinkCommandFeedback = "Idle";
+		setCommands();
+	}, 5_000);
+}
+
+function commandStatus(member, status) {
+	vsLinkCommandFeedback = "Waiting..."
+	clearTimeout(vsLinkIdleTimeout);
+	var req = new XMLHttpRequest();
+	req.timeout = 2000;
+	req.addEventListener("load", e => {
+		var json = JSON.parse(e.target.responseText);
+		if (json.error) {
+			vsLinkCommandFailed();
+		} else {
+			vsLinkCommandSucceeded();
+		}
+	});
+	req.addEventListener("error", vsLinkCommandFailed);
+	req.addEventListener("abort", vsLinkCommandFailed);
+	req.open("POST", "http://localhost:31123/status");
+	req.send(`{"statuses": [{"index": ${member}, "status": "${status}"}]}`);
+
+	// Update on the client too
+	for (const mon of box) {
+		if (mon.storage?.type == "party" && mon.storage.index == member) {
+			mon.status = status;
+			break;
+		}
+	}
+	setCommands();
+}
+
+function commandPinTime(time) {
+	var hour = time;
+	if (time == "day") {
+		hour = 12;
+	} else if (time == "night") {
+		hour = 0;
+	}
+	vsLinkCommandFeedback = "Waiting..."
+	clearTimeout(vsLinkIdleTimeout);
+	var req = new XMLHttpRequest();
+	req.timeout = 2000;
+	req.addEventListener("load", e => {
+		var json = JSON.parse(e.target.responseText);
+		if (json.error) {
+			vsLinkCommandFailed();
+		} else {
+			vsLinkCommandSucceeded();
+		}
+	});
+	req.addEventListener("error", vsLinkCommandFailed);
+	req.addEventListener("abort", vsLinkCommandFailed);
+	if (time == "none") {
+		req.open("DELETE", "http://localhost:31123/time");
+		req.send();
+	} else {
+		req.open("PUT", "http://localhost:31123/time");
+		req.send(`{"time": {"hour": ${hour}}}`);
+	}
+	setCommands();
 }
 
 setInterval(function() {
