@@ -1,16 +1,3 @@
-var faintedMonToggles = new Map();
-
-function togglePartyIcon(event, trainer, i) {
-	event.preventDefault();
-	var key = `${trainer}-${i}`;
-	if (!faintedMonToggles.has(key)) {
-		faintedMonToggles.set(key, true);
-	} else {
-		faintedMonToggles.set(key, !faintedMonToggles.get(key));
-	}
-	updateCalc();
-}
-
 function calculateBrings(fights) {
 	var brings = new Map();
 	var leads = new Map();
@@ -38,21 +25,11 @@ function calculateBrings(fights) {
 	};
 }
 
-function displayTrainers(split = undefined) {
+function displayTrainers() {
 	var lastArea = ""
 	var v = "";
-	if (splits.length > 0) {
-		v += `<div class="split-buttons"><div class="split-header">Splits</div>`;
-		for (const s of splits) {
-			v += `<button class="split-button ${split == s ? "split-button-selected" : ""}" onclick="displayTrainers('${s}')">${fullCapitalize(s)}</button>`;
-		}
-		v += `</div>`;
-	}
 	for (var i = 0; i < data.trainers.length; i++) {
 		var t = data.trainers[i];
-		if (split != undefined && split != t.split) {
-			continue;
-		}
 		if (isTrainerB2b(i) == false && isTrainerB2b(i + 1) == true) {
 			v += `<div class="b2b">`;
 		}
@@ -62,7 +39,10 @@ function displayTrainers(split = undefined) {
 			if (lastArea.includes("-")) {
 				areaName = fullCapitalize(areaName);
 			}
-			v += "<h3>" + areaName + "</h3>";
+			v += "<h2>" + areaName + "</h2>";
+		}
+		if (t.meta != undefined) {
+			v += "<h3>" + t.meta + "</h3>";
 		}
 		v += getTrainerDisplay(t, i);
 		if (isTrainerB2b(i) == true && isTrainerB2b(i + 1) == false) {
@@ -77,10 +57,8 @@ function getTrainerDisplay(trainer, i) {
 		<div class="trainer">
 			<div>
 				${getTrainerName(trainer.name)}
-				${trainer.meta ? `<span class="meek">${trainer.meta}</span>` : ""}
 				<button style="float:right;" onclick="calcTrainer(${i})">Calc</button>
 				${createLink(`#/trainer/${trainer.name}/`, '<button style="float:right;">Info</button>')}
-				${getAiFlagDisplay(i)}
 			</div>
 			<div class="trainer-pokes">
 				${getTeamDisplay(trainer)}
@@ -95,19 +73,16 @@ function getTeamDisplay(t) {
 
 function getTrainerStats(trainer) {
 	var i = parseInt(trainer.index);
-	var previous = data.trainers[i - 1]?.name ?? trainer.name;
-	var next = data.trainers[i + 1]?.name ?? trainer.name;
+	var previous = orElse(data.trainers[i - 1], {"name": trainer.name}).name;
+	var next = orElse(data.trainers[i + 1], {"name": trainer.name}).name;
 	var v = `
 		<h3>
 			${getTrainerName(trainer.name)}
-			${trainer.meta ? `<span class="meek">${trainer.meta}</span>` : ""}
-			${trainer.split ? `<span class="meek">(${fullCapitalize(trainer.split)} split)</span>` : ""}
 			<span style = "float:right;">
 			<button onclick="calcTrainer(${i})">Calc</button>
 			${createLink(`#/trainer/${previous}/`, `<button>Previous</button>`)}
 			${createLink(`#/trainer/${next}/`, `<button>Next</button>`)}
 			</span>
-			${getAiFlagDisplay(i)}
 		</h3>
 		<div class="trainer">
 			<div class="trainer-pokes">
