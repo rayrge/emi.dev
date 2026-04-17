@@ -14,7 +14,9 @@ var encounterIcons = new Map([
 	["swarm-good-rod", "images/encounters/swarm_good_rod.png"],
 	["swarm-super-rod", "images/encounters/swarm_super_rod.png"],
 	["trade", "images/items/exp_share.png"],
-	["buy", "images/items/coin_case.png"]
+	["buy", "images/items/coin_case.png"],
+	["global-honey-tree", "images/encounters/global_honey_tree.png"],
+	["local-honey-tree", "images/encounters/local_honey_tree.png"],
 ]);
 
 function inflateEncounterPool(p) {
@@ -65,23 +67,27 @@ function getEncounterDisplay(pools) {
 	} else {
 		landmark = landmarksByName.get(pools);
 	}
-	var center = getMapCenter(landmark);
-	var v = "";
-	var w = 320;
-	var h = 280;
-	var scale = 40;
-	v += '<div>';
-	v += '<div class="encounter-minimap">' + getMapDisplay(w, h, -center.x + w / scale / 2, -center.y + h / scale / 2, scale, landmark.name) + '</div>';
+	if (landmark) {
+		var center = getMapCenter(landmark);
+		var v = "";
+		var w = 320;
+		var h = 280;
+		var scale = 40;
+		v += '<div>';
+		v += '<div class="encounter-minimap">' + getMapDisplay(w, h, -center.x + w / scale / 2, -center.y + h / scale / 2, scale, landmark.name) + '</div>';
+	}
 	if (pools.area) {
 		v += "<h3>" + fullCapitalize(pools.area) + "</h3>";
-		v += "<h6>Areas</h6>";
-		for (var i = 0; i < landmark.locations.length; i++) {
-			v += `<div>${areaLink(landmark.locations[i])}</div>`;
+		if (landmark) {
+			v += "<h6>Areas</h6>";
+			for (var i = 0; i < landmark.locations.length; i++) {
+				v += `<div>${areaLink(landmark.locations[i])}</div>`;
+			}
 		}
 	} else {
 		v += "<h3>" + fullCapitalize(pools) + "</h3>";
 	}
-	if (landmark.items.length > 0) {
+	if (landmark && landmark.items.length > 0) {
 		v += "<lb></lb><details><summary>Items</summary>";
 		for (var j = 0; j < landmark.items.length; j++) {
 			v += getItemLocationDescription(landmark.items[j]) + "<lb></lb>";
@@ -89,7 +95,7 @@ function getEncounterDisplay(pools) {
 		v += "</details>";
 	}
 	v += '<br style="clear:both;"/></div>';
-	if (pools.area && pools.pools) {
+	if (pools.area && pools.pools?.length > 0) {
 		var tabHeader = "";
 		var tabBody = "";
 		for (let pool of pools.pools) {
@@ -135,48 +141,56 @@ function arePoolsEqualIgnoreLevel(a, b) {
 function getEncounterPoolGroupDisplay(p) {
 	p = inflateEncounterPool(p);
 	if (Array.isArray(p)) {
-		return `<h6>(Lvl ${p[0].level}):</h6>${getEncounterPoolDisplay(p, "any")}`;
+		p = { any: p };
 	}
 	var rawKeys = Object.keys(p);
 	var keys = [];
-	if (rawKeys.includes("morning")) {
-		keys.push("morning");
-		rawKeys.splice(rawKeys.indexOf("morning"), 1);
-	}
-	if (rawKeys.includes("day")) {
-		keys.push("day");
-		rawKeys.splice(rawKeys.indexOf("day"), 1);
-	}
-	if (rawKeys.includes("night")) {
-		keys.push("night");
-		rawKeys.splice(rawKeys.indexOf("night"), 1);
+	var keyOrdering = ["morning", "day", "night", "fantina", "maylene", "wake", "byron", "candice", "volkner"];
+	for (const ko of keyOrdering) {
+		if (rawKeys.includes(ko)) {
+			keys.push(ko);
+			rawKeys.splice(rawKeys.indexOf(ko), 1);
+		}
 	}
 	keys = keys.concat(rawKeys);
-	var v = `<h6>(Lvl ${p[keys[0]][0].level})</h6>`;
+
+	var minLevel = p[keys[0]][0].level;
+	var maxLevel = p[keys[0]][0].level;
+	for (const k of keys) {
+		for (const e of p[k]) {
+			minLevel = Math.min(e.level, minLevel);
+			maxLevel = Math.max(e.level, maxLevel);
+		}
+	}
+
+	var v = "";
+	if (minLevel == maxLevel) {
+		v += `<h6>(Lvl ${minLevel})</h6>`;
+	} else {
+		v += `<h6>(Lvl ${minLevel}-${maxLevel})</h6>`;
+	}
 	for (var i = 1; i < keys.length; i++) {
-		if (!arePoolsEqual(keys[i], keys[0])) {
+		if (!arePoolsEqual(p[keys[i]], p[keys[0]])) {
 			for (let key of keys) {
-				v += getEncounterPoolDisplay(p[key], key);
+				v += getEncounterPoolDisplay(p[key], key, minLevel != maxLevel);
 			}
 			return v;
 		}
 	}
-	return v + getEncounterPoolDisplay(p.day, "any");
+	return v + getEncounterPoolDisplay(p[keys[0]], "any", minLevel != maxLevel);
 }
 
-function getEncounterPoolDisplay(pool, time) {
+function getEncounterPoolDisplay(pool, time, showLevel) {
+	if (time != "day" && time != "night" && time != "morning") {
+		time = "any";
+	}
 	var v = "";
 	v += '<div class="encounter-pool ' + time + '-pool">';
 	v += '<div style="display:flex;flex-wrap:wrap;">';
 	var totalWeight = 0;
-	var lvl = pool[0].level;
-	var showLevel = false;
 	for (var i = 0; i < pool.length; i++) {
 		if (!hasFamily(pokemonFamilies.get(pokemonByName.get(pool[i].pokemon).pokedex))) {
 			totalWeight += pool[i].chance;
-		}
-		if (pool[i].level != lvl) {
-			showLevel = true;
 		}
 	}
 	for (var i = 0; i < pool.length; i++) {
@@ -194,11 +208,10 @@ function getEncounterPoolDisplay(pool, time) {
 			tt += ' <div class="extra-info" title="' + pool[i].extra + '">?</div>';
 		}
 
-		var header = '<div><ruby>' + percent + '%' + tt + '<rt>(' + adjustedPercent + ')';
+		var header = '<div><ruby>' + percent + '%' + tt + '<rt>(' + adjustedPercent + ')</rt></ruby></div>';
 		if (showLevel) {
-			header += " Lvl " + pool[i].level;
+			header += `<div class="encounter-level">Lvl ${pool[i].level}</div>`;
 		}
-		header += '</rt></ruby></div>';
 		var footer = '<div class="wild-calc"><button onclick="calcWild(' + pokemonByName.get(pool[i].pokemon).pokedex + ', ' + pool[i].level + ')">Calc</button></div>';
 		v += getEncounterPoke(pool[i].pokemon, header, footer, extraClasses);
 	}
@@ -218,7 +231,7 @@ function getPoolOfType(area, type) {
 }
 
 function getRelativeEncounterChances(poke) {
-	var encounters = pokemonEncounters.get(orElse(poke.name, poke));
+	var encounters = pokemonEncounters.get(poke.name ?? poke);
 	var ret = {};
 	if (encounters) {
 		for (const en of encounters.entries()) {
