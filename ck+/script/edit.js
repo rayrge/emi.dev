@@ -35,14 +35,13 @@ function addPokemonToBox() {
 		level: 10,
 		item: "",
 		moves: [],
-		ability: "pressure",
 		dvs: {
-			hp: MAX_DV,
-			atk: MAX_DV,
-			def: MAX_DV,
-			spa: MAX_DV,
-			spd: MAX_DV,
-			spe: MAX_DV,
+			hp: 15,
+			atk: 15,
+			def: 15,
+			spa: 15,
+			spd: 15,
+			spe: 15,
 		}
 	});
 	updateBox();
@@ -54,10 +53,8 @@ function initEdit(poke) {
 	editOriginal = JSON.parse(JSON.stringify(poke));
 	document.getElementById("edit-name").value = fullCapitalize(poke.name);
 	document.getElementById("edit-item").value = fullCapitalize(poke.item);
-	document.getElementById("edit-ability").value = fullCapitalize(poke.ability);
 	document.getElementById("edit-lvl").value = poke.level;
 	OptionSelect.updateSelector(document.getElementById("edit-name"));
-	OptionSelect.updateSelector(document.getElementById("edit-ability"));
 	OptionSelect.updateSelector(document.getElementById("edit-item"));
 	for (var i = 0; i < 4; i++) {
 		var el = document.getElementById("edit-move-" + (i + 1));
@@ -68,56 +65,14 @@ function initEdit(poke) {
 		}
 		OptionSelect.updateSelector(el);
 	}
-	var nature = NATURE_TABLE[poke.nature ?? "hardy"];
 	for (const stat of STATS) {
-		document.getElementById("edit-" + stat + "-dv").value = poke?.dvs?.[stat] ?? MAX_DV;
-		if (stat != "hp") {
-			var divPlus = document.getElementById("edit-" + stat + "-nature-plus");
-			var divMinus = document.getElementById("edit-" + stat + "-nature-minus");
-			divPlus.classList.remove("nature-radio-selected")
-			if (nature[0] == stat) {
-				divPlus.classList.add("nature-radio-selected")
-			}
-			divMinus.classList.remove("nature-radio-selected")
-			if (nature[1] == stat) {
-				divMinus.classList.add("nature-radio-selected")
-			}
+		if (poke.dvs !== undefined && poke.dvs[stat] !== undefined) {
+			document.getElementById("edit-" + stat + "-dv").value = poke.dvs[stat];
+		} else {
+			document.getElementById("edit-" + stat + "-dv").value = 15;
 		}
 	}
 	updateEdits();
-}
-
-function getEditNature() {
-	var plusDiv = document.querySelector(".nature-radio-selected.nature-radio-plus");
-	var minusDiv = document.querySelector(".nature-radio-selected.nature-radio-minus");
-	if (plusDiv && minusDiv) {
-		return getNature(plusDiv.id.split("edit-")[1].split("-nature")[0], minusDiv.id.split("edit-")[1].split("-nature")[0]);
-	}
-	return "hardy";
-}
-
-function setEditNature(stat, dir) {
-	var nature = [...NATURE_TABLE[getEditNature() ?? "hardy"]];
-	if (dir == "plus") {
-		nature[0] = stat;
-	} else {
-		nature[1] = stat;
-	}
-	for (const stat of STATS) {
-		if (stat != "hp") {
-			var divPlus = document.getElementById("edit-" + stat + "-nature-plus");
-			var divMinus = document.getElementById("edit-" + stat + "-nature-minus");
-			divPlus.classList.remove("nature-radio-selected")
-			if (nature[0] == stat) {
-				divPlus.classList.add("nature-radio-selected")
-			}
-			divMinus.classList.remove("nature-radio-selected")
-			if (nature[1] == stat) {
-				divMinus.classList.add("nature-radio-selected")
-			}
-		}
-	}
-	changeEdit();
 }
 
 function undoEdit() {
@@ -169,18 +124,17 @@ function updateEdits() {
 	validate("edit-name", v => pokemonByName.has(v));
 	validate("edit-item", v => v == "" || itemsByName.has(v));
 	validate("edit-lvl", v => v <= 100 && v > 0);
-	validate("edit-ability", v => abilities.byName(v) != undefined);
 	validate("edit-move-1", v => v == "" || movesByName.has(v));
 	validate("edit-move-2", v => v == "" || movesByName.has(v));
 	validate("edit-move-3", v => v == "" || movesByName.has(v));
 	validate("edit-move-4", v => v == "" || movesByName.has(v));
 	for (const stat of STATS) {
-		validate("edit-" + stat + "-dv", v => v >= 0 && v <= MAX_DV);
+		validate("edit-" + stat + "-dv", v => v >= 0 && v < 16);
 		validate("edit-" + stat + "-ev", v => v >= 0 && v < 256);
 	}
 	var poke = getEditedPoke();
 	var bp = BattlePoke.of(editingType != "enemy", poke, getEmptyStages());
-	var hiddenPower = engine.getHiddenPower(poke);
+	var hiddenPower = getHiddenPower(poke);
 	for (const stat of STATS) {
 		document.getElementById("edit-" + stat).innerHTML = bp.getEffectiveStat(stat);
 	}
@@ -191,7 +145,6 @@ function getEditedPoke() {
 	return {
 		name: document.getElementById("edit-name").getAttribute("last-valid"),
 		item: document.getElementById("edit-item").getAttribute("last-valid"),
-		ability: document.getElementById("edit-ability").getAttribute("last-valid"),
 		level: parseInt(document.getElementById("edit-lvl").getAttribute("last-valid")),
 		moves: [
 			document.getElementById("edit-move-1").getAttribute("last-valid"),
@@ -199,7 +152,6 @@ function getEditedPoke() {
 			document.getElementById("edit-move-3").getAttribute("last-valid"),
 			document.getElementById("edit-move-4").getAttribute("last-valid")
 		].filter(v => v && v.length > 0),
-		nature: getEditNature(),
 		dvs: {
 			hp: parseInt(document.getElementById("edit-hp-dv").getAttribute("last-valid")),
 			atk: parseInt(document.getElementById("edit-atk-dv").getAttribute("last-valid")),
@@ -243,18 +195,6 @@ function setPlayerItem(item) {
 	}
 }
 
-function dropCopyMoves(player, from) {
-	var poke = from.poke;
-	if (player) {
-		myPoke = Object.assign({}, myPoke);
-		myPoke.moves = poke.moves;
-	} else {
-		theirPoke = Object.assign({}, theirPoke);
-		theirPoke.moves = poke.moves;
-	}
-	updateCalc()
-}
-
 class DragDrop {
 	static container = null;
 	static type = "";
@@ -270,21 +210,19 @@ class DragDrop {
 		var bestNearest = null;
 		var bestPrevious = null;
 		var previous = null;
-		if (DragDrop.container) {
-			for (const s of DragDrop.container.getElementsByClassName("drag-sortable")) {
-				var rect = s.getBoundingClientRect();
-				var sx = rect.x + (rect.width / 2);
-				var sy = rect.y + (rect.height / 2) + scrollY;
-				var distance = Math.abs(sy - cy) * 4096 + Math.abs(sx - cx);
-				if (distance < bestDistance) {
-					bestDistance = distance;
-					bestActualDistance = Math.sqrt(Math.pow(sx - cx, 2) + Math.pow(sy - cy, 2));
-					bestNearest = s;
-					bestLeft = cx < sx;
-					bestPrevious = previous;
-				}
-				previous = s;
+		for (const s of this.container.getElementsByClassName("drag-sortable")) {
+			var rect = s.getBoundingClientRect();
+			var sx = rect.x + (rect.width / 2);
+			var sy = rect.y + (rect.height / 2) + scrollY;
+			var distance = Math.abs(sy - cy) * 4096 + Math.abs(sx - cx);
+			if (distance < bestDistance) {
+				bestDistance = distance;
+				bestActualDistance = Math.sqrt(Math.pow(sx - cx, 2) + Math.pow(sy - cy, 2));
+				bestNearest = s;
+				bestLeft = cx < sx;
+				bestPrevious = previous;
 			}
+			previous = s;
 		}
 		var dropAccept = null;
 		for (const el of document.querySelectorAll(":hover")) {
@@ -330,17 +268,10 @@ class DragDrop {
 				var distance = Math.sqrt(Math.pow(DragDrop.location.x - event.pageX, 2) + Math.pow(DragDrop.location.y - event.pageY, 2));
 				if (distance > 32) {
 					DragDrop.container = DragDrop.target.closest(".drag-sort-container");
-					if (DragDrop.container) {
-						DragDrop.type = DragDrop.container.getAttribute("drag-type") ?? "";
-						document.getElementById("dragged").style.visibility = "visible";
-						document.getElementById("dragged").innerHTML = DragDrop.target.outerHTML;
-						DragDrop.status = 1;
-					} else {
-						DragDrop.type = DragDrop.target.getAttribute("drag-type") ?? "";
-						document.getElementById("dragged").style.visibility = "visible";
-						document.getElementById("dragged").innerHTML = DragDrop.target.outerHTML;
-						DragDrop.status = 1;
-					}
+					DragDrop.type = orElse(DragDrop.container.getAttribute("drag-type"), "");
+					document.getElementById("dragged").style.visibility = "visible";
+					document.getElementById("dragged").innerHTML = DragDrop.target.outerHTML;
+					DragDrop.status = 1;
 				}
 			}
 			if (DragDrop.status == 1) {
@@ -368,9 +299,6 @@ class DragDrop {
 					} else {
 						del.style.visibility = "hidden";
 					}
-				} else {
-					var del = document.getElementById("drop-indicator");
-					del.style.visibility = "hidden";
 				}
 			}
 		}
@@ -378,8 +306,8 @@ class DragDrop {
 		document.onmouseup = function(event) {
 			if (DragDrop.target != null && DragDrop.status == 1) {
 				var start = -1, end = -1;
-				var dropInfo = DragDrop.getDropInfo(event.pageX, event.pageY);
-				if (DragDrop.container) {
+				{
+					var dropInfo = DragDrop.getDropInfo(event.pageX, event.pageY);
 					var index = 0;
 					for (const s of DragDrop.container.getElementsByClassName("drag-sortable")) {
 						if (s === DragDrop.target) {
@@ -390,34 +318,13 @@ class DragDrop {
 						index++;
 					}
 				}
-				if (dropInfo?.type == "external") {
-					var content = DragDrop.target.getAttribute("drag-content");
-					if (content) {
-						var parts = content.split("-");
-						var from = {};
-						if (parts[0] == "player") {
-							from = {
-								type: "player",
-								index: start,
-								poke: box[start],
-							}
-						} else if (parts[0] == "enemy") {
-							from = {
-								type: "enemy",
-								index: -1,
-								poke: data.trainers[parseInt(parts[1])].team[parseInt(parts[2])]
-							}
-						} else if (parts[0] == "tag") {
-							from = {
-								type: "tag",
-								index: -1,
-								poke: trainersByName.get(playerTagPartners[currentTagPartner]).team[parseInt(parts[1])]
-							}
-						}
+				if (dropInfo.type == "external") {
+					if (start != -1) {
+						var from = start;
 						eval(dropInfo.element.getAttribute("drop"));
 					}
 				} else {
-					if (dropInfo?.distance != undefined && dropInfo.distance < 100 && start != -1 && end != -1) {
+					if (dropInfo.distance < 100 && start != -1 && end != -1) {
 						var from = start;
 						var to = end;
 						eval(DragDrop.container.getAttribute("drag-swap"));
@@ -452,21 +359,8 @@ function swapBox(from, to) {
 	updateCalc();
 }
 
-function calcPlayerFromDrop(from) {
-	var poke = from.poke;
-	if (from.type != "player") {
-		poke = Object.assign({}, from.poke);
-	}
-	myPoke = poke;
-	updateCalc();
-}
-
-function calcEnemyFromDrop(from) {
-	var poke = from.poke;
-	if (from.type != "enemy") {
-		poke = Object.assign({}, from.poke);
-	}
-	theirPoke = poke;
+function calcEnemyFromBox(from) {
+	theirPoke = box[from];
 	updateCalc();
 }
 
@@ -488,7 +382,7 @@ function suggestEditPokemon() {
 				} else if (evolution.method == "hitmonlee" || evolution.method == "hitmonchan" || evolution.method == "hitmontop") {
 					text = `Lv25`;
 				} else {
-					text = "Evo";
+					break;
 				}
 				return `<div class="suggestion-level">${text}</div>`;
 			}
@@ -514,12 +408,6 @@ function suggestEditItems() {
 	return [];
 }
 
-function suggestEditAbilities() {
-	var edited = getEditedPoke();
-	var p = pokemonByName.get(edited.name);
-	return p.abilities?.map(a => {return { value: a, extra: ""}}) ?? [];
-}
-
 class OptionSelect {
 	static lastClickInside = false;
 	static target = null;
@@ -540,8 +428,6 @@ class OptionSelect {
 			contents = this.getOptionPokemon(pokemonByName.get(value), false);
 		} else if (optionType == "items") {
 			contents = this.getOptionItem(itemsByName.get(value), false);
-		} else if (optionType == "abilities") {
-			contents = this.getOptionAbility(abilities.byName(value), false);
 		}
 		element.innerHTML = contents;
 	}
@@ -559,16 +445,13 @@ class OptionSelect {
 		var contents = "";
 		if (optionType == "moves") {
 			contents = data.moves.sort((a, b) => a.name.localeCompare(b.name)).displayMap(m => this.getOptionMove(m, true));
-			suggested = suggested.displayMap(m => this.getOptionMove(movesByName.get(m.value), true, m.extra ?? ""));
+			suggested = suggested.displayMap(m => this.getOptionMove(movesByName.get(m.value), true, orElse(m.extra, "")));
 		} else if (optionType == "pokemon") {
 			contents = data.pokemon.sort((a, b) => a.name.localeCompare(b.name)).displayMap(p => this.getOptionPokemon(p, true));
-			suggested = suggested.displayMap(p => this.getOptionPokemon(pokemonByName.get(p.value), true, p.extra ?? ""));
+			suggested = suggested.displayMap(p => this.getOptionPokemon(pokemonByName.get(p.value), true, orElse(p.extra, "")));
 		} else if (optionType == "items") {
 			contents = data.items.sort((a, b) => a.name.localeCompare(b.name)).displayMap(i => this.getOptionItem(i, true));
-			suggested = suggested.displayMap(i => this.getOptionItem(itemsByName.get(i.value), true, i.extra ?? ""));
-		} else if (optionType == "abilities") {
-			contents = data.abilities.sort((a, b) => a.name.localeCompare(b.name)).displayMap(i => this.getOptionAbility(i, true));
-			suggested = suggested.displayMap(i => this.getOptionAbility(abilities.byName(i.value), true, i.extra ?? ""));
+			suggested = suggested.displayMap(i => this.getOptionItem(itemsByName.get(i.value), true, orElse(i.extra, "")));
 		}
 		document.getElementById("suggested-option-list").innerHTML = suggested;
 		document.getElementById("option-list").innerHTML = contents;
@@ -597,13 +480,6 @@ class OptionSelect {
 			return `<div>​</div>`;
 		}
 		return `<div${option ? ` class="option-list-option" search="${item.name}"` : ""}>${itemImage(item)}${fullCapitalize(item.name)}${extra}</div>`;
-	}
-
-	static getOptionAbility(ability, option, extra = "") {
-		if (!ability) {
-			return `<div>​</div>`;
-		}
-		return `<div${option ? ` class="option-list-option" search="${ability.name}"` : ""}>${fullCapitalize(ability.name)}${extra}</div>`;
 	}
 
 	static cancel() {

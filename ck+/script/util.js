@@ -2,13 +2,9 @@ const STATS = ["hp", "atk", "def", "spa", "spd", "spe"];
 
 function getTinyPokemonDisplay(tp, extra = "") {
 	var p = pokemonByName.get(tp.name);
-	if (p == undefined) {
-		console.warn("Tried to render an unknown pokemon " + tp.name);
-		return "";
-	}
 	var v = '<div class="tiny-poke">';
 	v += '<div class="tiny-poke-header">';
-	v += '<div class="tiny-poke-icon"><img src="' + getPokeImage(tp, "small") + '"></div>';
+	v += '<div class="tiny-poke-icon"><img src="' + getPokeImage(tp) + '"></div>';
 	v += '<div class="tiny-poke-info">';
 	v += `<div style="display:flex;flex-wrap:wrap;">${pokeLink(p.name)} <span class="tiny-poke-level">Lvl ${tp.level}</span></div>`;
 	var typeDisplay = "";
@@ -17,25 +13,11 @@ function getTinyPokemonDisplay(tp, extra = "") {
 	}
 	v += `<div class="tiny-poke-types">${typeDisplay}</div>`;
 	v += `<div>${itemLink(tp.item)}</div>`;
-	v += `<div class="tiny-poke-dvs">`;
-	var nature = NATURE_TABLE[tp.nature ?? "hardy"] ?? ["atk", "atk"];
-	for (const stat of STATS) {
-		var sv = tp.dvs?.[stat] ?? MAX_DV;
-		if (nature[0] != nature[1] && nature[0] == stat) {
-			v += `<span class="dv-plus">${sv}</span>`;
-		} else if (nature[0] != nature[1] && nature[1] == stat) {
-			v += `<span class="dv-minus">${sv}</span>`;
-		} else {
-			v += sv;
-		}
-		if (stat == "atk" || stat == "spa") {
-			v += "/";
-		} else {
-			v += " ";
-		}
+	if (tp.dvs) {
+		v += `<div class="tiny-poke-dvs">${tp.dvs.hp} ${tp.dvs.atk}/${tp.dvs.def} ${tp.dvs.spa}/${tp.dvs.spd} ${tp.dvs.spe}</div>`;
+	} else {
+		v += `<div class="tiny-poke-dvs">15 15/15 15/15 15</div>`;
 	}
-	v += "</div>";
-	v += `<div>${fullCapitalize(tp.ability ?? "")}</div>`;
 	v += `</div></div><div class="tiny-poke-moves"><table><tr>`;
 	for (var i = 0; i < 4; i++) {
 		if (i == 2) {
@@ -46,7 +28,7 @@ function getTinyPokemonDisplay(tp, extra = "") {
 			if (movesByName.has(tp.moves[i])) {
 				var type = movesByName.get(tp.moves[i]).type
 				if (tp.moves[i] == "hidden-power") {
-					type = engine.getHiddenPower(tp).type;
+					type = getHiddenPower(tp).type;
 				}
 			}
 			//v += `<td class="move-emblem" style="--type-color:${color};">${moveLink(tp.moves[i])}</td>`;
@@ -63,7 +45,7 @@ function getTinyPokemonDisplay(tp, extra = "") {
 	return v;
 }
 
-function getPokeImage(poke, size, unownExtra = undefined) {
+function getPokeImage(poke, unownExtra = undefined) {
 	var shiny = poke.name && isShiny(poke) ? "shiny" : "normal";
 	if (poke.name) {
 		if (poke.name == "unown" && !unownExtra) {
@@ -78,54 +60,14 @@ function getPokeImage(poke, size, unownExtra = undefined) {
 	if (unownExtra !== undefined && poke == "unown") {
 		poke += ["-b", "-u", "-n", "-n", "-y", "-q", "-t"][unownExtra];
 	}
-	if (game.name == "pk") {
-		return 'https://img.pokemondb.net/sprites/platinum/' + shiny + '/' + poke + '.png';
-	}
 	return 'https://img.pokemondb.net/sprites/crystal/' + shiny + '/' + poke + '.png';
 }
 
-function getTargeting(move) {
-	var targetMap = {
-		"self": {
-			grid: [false, false, false, true, false, false]
-		},
-		"adjacent": {
-			grid: [true, true, false, false, true, false]
-		},
-		"adjacent-opponents": {
-			grid: [true, true, false, false, false, false],
-			all: true
-		},
-		"all-opponents": {
-			grid: [true, true, true, false, false, false],
-			all: true
-		},
-		"adjacent-ally": {
-			grid: [false, false, false, false, true, false]
-		},
-		"adjacent-opponent": {
-			grid: [true, true, false, false, false, false]
-		},
-		"all-allies": {
-			grid: [false, false, false, true, true, true],
-			all: true
-		},
-		"user-or-ally": {
-			grid: [false, false, false, true, true, false]
-		},
-		"all-adjacent": {
-			grid: [true, true, false, false, true, false],
-			all: true
-		},
-		"all": {
-			grid: [true, true, true, true, true, true],
-			all: true
-		},
-	}
-	if (targetMap[move.target]) {
-		return targetMap[move.target];
+function orElse(some, other) {
+	if (some != undefined && some != null) {
+		return some;
 	} else {
-		return targetMap["adjacent-ally"];
+		return other;
 	}
 }
 
@@ -153,16 +95,10 @@ function padNumber(s) {
  * @returns {String}
  */
 function normalize(s) {
-	if (s == undefined) {
-		return s;
-	}
 	return s.toLowerCase().replaceAll(/[ _]/g, "-")
 }
 
 function fullCapitalize(s) {
-	if (s == undefined) {
-		return s;
-	}
 	s = s.toLowerCase();
 	if (nameFormatting.has(s)) {
 		return nameFormatting.get(s);
@@ -190,15 +126,6 @@ function isShiny(poke) {
 }
 
 function getGender(poke) {
-	if (poke.gender) {
-		if (poke.gender == "female") {
-			return 1;
-		} else if (poke.gender == "male") {
-			return 2;
-		} else {
-			return 0;
-		}
-	}
 	p = pokemonByName.get(poke.name);
 	if (p.gender.startsWith("f")) {
 		var atk = getDv(poke, "atk");
@@ -222,7 +149,10 @@ function getGender(poke) {
 }
 
 function getDv(poke, stat) {
-	return poke?.dvs?.[stat] ?? MAX_DV;
+	if (poke.dvs) {
+		return poke.dvs[stat];
+	}
+	return 15;
 }
 
 function getEmptyStages() {
@@ -231,10 +161,26 @@ function getEmptyStages() {
 	}
 }
 
-function getSwitchPriority(enemy, player) {
-	if (game.name == "pk") {
-		return 0;
+function getHiddenPower(poke) {
+	function mod4(stat) {
+		return (getDv(poke, stat) & 0b11);
 	}
+	function mSig(stat) {
+		return (getDv(poke, stat) & 0b1000) >> 3;
+	}
+	var t = (mod4("atk") << 2) | mod4("def");
+	var types = [
+		"fighting", "flying", "poison", "ground",
+		"rock", "bug", "ghost", "steel",
+		"fire", "water", "grass", "electric",
+		"psychic", "ice", "dragon", "dark"
+	];
+	var ty = types[t];
+	var po = (((mSig("spa") + 2 * mSig("spe") + 4 * mSig("def") + 8 * mSig("atk")) * 5 + mod4("spa")) >> 1) + 31;
+	return { type: ty, power: po };
+}
+
+function getSwitchPriority(enemy, player) {
 	var prio = 0;
 	if (hasSuperEffectiveMove(enemy, player))  {
 		prio++;
@@ -297,7 +243,7 @@ function hasPriority(poke) {
 		return true;
 	}
 	for (var i = 0; i < poke.moves.length; i++) {
-		if (poke.moves[i].priority > 0 || priorityMoves.has(poke.moves[i])) {
+		if (priorityMoves.has(poke.moves[i])) {
 			return true;
 		}
 	}
@@ -334,9 +280,8 @@ function updateBadges() {
 function setTab(name) {
 	if (name == "map") {
 		setMap();
-	} else if (name == "commands") {
-		setCommands();
-	} else if (name == "settings") {
+	}
+	if (name == "settings") {
 		updateExtraDupes();
 	}
 	var tabs = document.getElementsByClassName("tab");

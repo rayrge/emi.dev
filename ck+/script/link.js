@@ -104,9 +104,6 @@ function navigate(url) {
 			} else if (parts[0] == "move") {
 				document.getElementById("full-page").innerHTML = getFullMoveDisplay(movesByName.get(parts[1]));
 				setTab("full-page");
-			} else if (parts[0] == "ability") {
-				document.getElementById("full-page").innerHTML = getFullAbilityDisplay(abilities.byName(parts[1]));
-				setTab("full-page");
 			} else if (parts[0] == "type") {
 				document.getElementById("full-page").innerHTML = getFullTypeDisplay(parts[1]);
 				setTab("full-page");
@@ -126,8 +123,6 @@ function navigate(url) {
 				setTab("trainers")
 			} else if (parts[0] == "map") {
 				setTab("map")
-			} else if (parts[0] == "commands") {
-				setTab("commands")
 			}
 		}
 	} else {
@@ -181,7 +176,7 @@ function itemLink(item) {
 		item = item.name;
 	}
 	if (item.length == 0 || item == "no-item") {
-		return "<div>-</div>";
+		return "";
 	}
 	item = item.replace(" ", "-");
 	return createLink(`#/item/${item}/`, prettyItem(item));
@@ -206,12 +201,6 @@ function itemImage(item) {
 	if (item.startsWith("tm-") || item.startsWith("hm-")) {
 		item = "tm_hm"
 	}
-	if (game.name == "pk") {
-		if (item == "berserk-gene") {
-			return `<img class="item-icon" src="./images/items/${item.replace("-", "_")}.png">`;
-		}
-		return `<img class="item-icon" src="https://play.pokemonshowdown.com/sprites/itemicons/${item}.png">`;
-	}
 	return `<img class="item-icon" src="./images/items/${item.replace("-", "_")}.png">`;
 }
 
@@ -234,13 +223,6 @@ function moveLink(move) {
 	return createLink(`#/move/${move}/`, fullCapitalize(move));
 }
 
-function abilityLink(ability) {
-	if (ability.name) {
-		ability = ability.name;
-	}
-	return createLink(`#/ability/${ability}/`, fullCapitalize(ability));
-}
-
 function calcWild(p, level) {
 	p = pokemonByPokedex.get(p);
 	var moves = [];
@@ -259,11 +241,11 @@ function calcWild(p, level) {
 		"level": level,
 		"dvs": {
 			"hp": 0,
-			"atk": MAX_DV,
+			"atk": 15,
 			"def": 0,
-			"spa": MAX_DV,
+			"spa": 15,
 			"spd": 0,
-			"spe": MAX_DV
+			"spe": 15
 		},
 		"moves": moves
 	}

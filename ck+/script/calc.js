@@ -1,7 +1,6 @@
 class BattlePoke {
 	#player;
 	#stages;
-	#ability;
 	poke;
 
 	static of(player, poke, stages) {
@@ -9,8 +8,6 @@ class BattlePoke {
 		v.#player = player;
 		v.poke = poke;
 		v.#stages = stages;
-		var a = abilities.byName(poke.ability) ?? {"name": "none"};
-		v.#ability = BattleAbility.of(v, a, a.variants?.[player ? playerAbilityVariant : enemyAbilityVariant] ?? {});
 		return v;
 	}
 
@@ -54,10 +51,6 @@ class BattlePoke {
 		return this.poke.name;
 	}
 
-	get ability() {
-		return this.#ability;
-	}
-
 	getStat(stat) {
 		return engine.getPokeStat(this.poke, stat);
 	}
@@ -94,7 +87,7 @@ class BattleMove {
 		var v = engine.createBattleMove();
 		v.user = user;
 		v.move = move;
-		v.#variant = move.variants?.[variant] ?? {};
+		v.#variant = orElse(orElse(move.variants, [])[variant], {});
 		v.crit = crit;
 		return v;
 	}
@@ -104,47 +97,19 @@ class BattleMove {
 	}
 
 	get type() {
-		return this.#variant.type ?? this.move.type;
+		return orElse(this.#variant.type, this.move.type);
 	}
 
 	get category() {
-		return this.#variant.category ?? this.move.category;
+		return orElse(this.#variant.category, this.move.category);
 	}
 
 	get power() {
-		return this.#variant.power ?? this.move.power;
+		return orElse(this.#variant.power, this.move.power);
 	}
 
 	get effects() {
-		return this.#variant.effects ?? this.move.effects;
-	}
-
-	hasFlag(flag) {
-		return contains(this.move.flags ?? [], flag);
-	}
-
-	getEffectiveness(target) {
-		return getMatchup(this.type, target.mon.types[0]) * getMatchup(this.type, target.mon.types[1]);
-	}
-}
-
-class BattleAbility {
-	#variant;
-
-	static of(user, ability, variant) {
-		var v = new BattleAbility();
-		v.user = user;
-		v.ability = ability;
-		v.#variant = variant;
-		return v;
-	}
-
-	get name() {
-		return this.ability.name;
-	}
-
-	get effects() {
-		return this.#variant.effects ?? this.ability.effects;
+		return orElse(this.#variant.effects, this.move.effects);
 	}
 }
 
@@ -156,68 +121,9 @@ class CalcResult {
 		this.max = max;
 	}
 
-	static of(value) {
-		if (Array.isArray(value)) {
-			return new CalcResult(value, Math.min(...value), Math.max(...value));
-		} else {
-			return new CalcResult([value], value, value);
-		}
+	static of(mono) {
+		return new CalcResult([mono], mono, mono);
 	}
-
-	modify(func) {
-		for (var i = 0; i < this.rolls.length; i++) {
-			this.rolls[i] = func(this.rolls[i]);
-		}
-		this.min = func(this.min);
-		this.max = func(this.max);
-	}
-}
-
-const NATURE_TABLE = {
-	atk: {
-		atk: "hardy",
-		def: "lonely",
-		spa: "adamant",
-		spd: "naughty",
-		spe: "brave",
-	},
-	def: {
-		atk: "bold",
-		def: "docile",
-		spa: "impish",
-		spd: "lax",
-		spe: "relaxed",
-	},
-	spa: {
-		atk: "modest",
-		def: "mild",
-		spa: "bashful",
-		spd: "rash",
-		spe: "quiet",
-	},
-	spd: {
-		atk: "calm",
-		def: "gentle",
-		spa: "careful",
-		spd: "quirky",
-		spe: "sassy",
-	},
-	spe: {
-		atk: "timid",
-		def: "hasty",
-		spa: "jolly",
-		spd: "naive",
-		spe: "serious",
-	}
-}
-for (const boon of Object.keys(NATURE_TABLE)) {
-	for (const bane of Object.keys(NATURE_TABLE)) {
-		NATURE_TABLE[NATURE_TABLE[boon][bane]] = [boon, bane];
-	}
-}
-
-function getNature(boon, bane) {
-	return NATURE_TABLE[boon]?.[bane] ?? "hardy";
 }
 
 function hasBadgeBoost(poke, player) {
@@ -225,13 +131,23 @@ function hasBadgeBoost(poke, player) {
 }
 
 function getPokeStat(poke, stat) {
-	return engine.getPokeStat(poke, stat);
-}
+	if (poke.transformStats) {
+		return poke.transformStats[stat];
+	}
+	var p = pokemonByName.get(poke.name);
+	var v = p.stats[stat];
+	if (poke.dvs != undefined) {
+		v += poke.dvs[stat];
+	} else {
+		v += 15;
+	}
+	v = parseInt((v * 2 * poke.level) / 100);
 
-function setTagPlayer(i) {
-	myPoke = trainersByName.get(playerTagPartners[currentTagPartner]).team[i];
-	clearPlayerStages();
-	updateCalc();
+	if (stat == "hp") {
+		return v + poke.level + 10;
+	} else {
+		return v + 5;
+	}
 }
 
 function setPlayer(i) {
@@ -266,71 +182,20 @@ function isTrainerB2b(i) {
 	return false;
 }
 
-function resetBattleSettings() {
-	document.getElementById("current-weather").value = "none";
-	document.getElementById("doubles").checked = false;
-}
-
-function calcTrainer(i, startup = false) {
+function calcTrainer(i) {
 	if (isTrainerB2b(i)) {
 		calcTrainer(i - 1);
 		return;
 	}
-	faintedMonToggles.clear();
-	var trainer = data.trainers[i];
-
-	resetBattleSettings();
-	if (trainer["battle-effects"]?.format == "multi" || trainer["battle-effects"]?.format == "doubles") {
-		document.getElementById("doubles").checked = true;
-	}
-	if (trainer["battle-effects"]?.weather != undefined) {
-		document.getElementById("current-weather").value = trainer["battle-effects"]?.weather;
-	}
-
 	lastTrainer = i;
 	savedData["last-trainer"] = lastTrainer;
 	writeLocalStorage();
-	currentTagPartner = 0;
-	if (trainer["player-partners"]) {
-		playerTagPartners = trainer["player-partners"];
-	} else {
-		playerTagPartners = [];
-	}
-	calcTagPartners();
-	enemyTeam = trainer.team;
-	document.getElementById("current-trainer-name").innerHTML = `${getTrainerName(trainer.name)}`;
-	document.getElementById("current-trainer-navigate").href = `#/trainer/${trainer.name}/`;
+	enemyTeam = data.trainers[i].team;
+	document.getElementById("current-trainer-name").innerHTML = `${getTrainerName(data.trainers[i].name)}`;
+	document.getElementById("current-trainer-navigate").href = `#/trainer/${data.trainers[i].name}/`;
 	setEnemy(lastTrainer, 0);
-	if (!startup) {
-		navigate("#/calc/");
-		history.pushState(getLinkState(), "", "#/calc/");
-	}
-}
-
-function calcTagPartners() {
-	if (playerTagPartners.length > 0) {
-		document.getElementById("tag-partner-team").style.display = "initial";
-		var partner = trainersByName.get(playerTagPartners[currentTagPartner]);
-		var cycling = "";
-		if (playerTagPartners.length > 1) {
-			cycling = `<div id="tag-cycle-buttons"><button onclick="cycleTagPartner(-1)">Previous</button><button onclick="cycleTagPartner(1)">Next</button></div>`;
-		}
-		document.getElementById("tag-partner-name").innerHTML = `${getTrainerName(partner.name)}${cycling}`
-		document.getElementById("tag-partner-meta").innerHTML = `${partner.meta ?? "Tag Partner"}`
-	} else {
-		document.getElementById("tag-partner-team").style.display = "none";
-	}
-}
-
-function cycleTagPartner(i) {
-	currentTagPartner += i;
-	if (currentTagPartner < 0) {
-		currentTagPartner = playerTagPartners.length - 1;
-	} else if (currentTagPartner >= playerTagPartners.length) {
-		currentTagPartner = 0;
-	}
-	calcTagPartners(i);
-	updateCalc();
+	navigate("#/calc/");
+	history.pushState(getLinkState(), "", "#/calc/");
 }
 
 function transform(right) {

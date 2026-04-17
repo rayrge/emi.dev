@@ -1,40 +1,5 @@
-class Lookup {
-	#arr;
-	#maps;
-	
-	constructor(arr) {
-		this.#arr = arr;
-		this.#maps = new Map();
-	}
-
-	get array() {
-		return this.#arr;
-	}
-
-	by(key, value) {
-		if (!this.#maps.has(key)) {
-			var map = new Map();
-			for (const a of this.#arr) {
-				map.set(a[key], a);
-			}
-			this.#maps.set(key, map);
-		}
-		return this.#maps.get(key).get(value);
-	}
-
-	byName(value) {
-		return this.by("name", value);
-	}
-
-	byIndex(value) {
-		return this.by("index", value);
-	}
-}
-
-var MAX_DV = 31;
-
 var data;
-var game = {};
+var game;
 var typeColors = new Map([
 	["normal", "#a8a878"],
 	["fire", "#f08030"],
@@ -56,8 +21,6 @@ var typeColors = new Map([
 	["fairy", "#fc88cf"],
 	["curse", "#68a090"]
 ]);
-var splits = [];
-var abilities = new Lookup([]);
 var typeMatchups = new Map();
 var searchResults = new Map();
 var pokemonByName = new Map();
@@ -84,8 +47,6 @@ var theirPoke;
 var box = [];
 var deadBox = [];
 var enemyTeam = [];
-var playerTagPartners = [];
-var currentTagPartner = 0;
 var editing = -1;
 var copyEditedMoves = false;
 var badges = 0;
@@ -97,15 +58,15 @@ var itemsById = new Map([
 	[0x23, "metal-powder"],
 	[0x39, "exp-share"],
 	[0x49, "quick-claw"],
-	[0x4a, "psncureberry"],
+	[0x4a, "pecha-berry"],
 	[0x4c, "soft-sand"],
 	[0x4d, "sharp-beak"],
-	[0x4e, "przcureberry"],
-	[0x4f, "burnt-berry"],
-	[0x50, "ice-berry"],
+	[0x4e, "cheri-berry"],
+	[0x4f, "aspear-berry"],
+	[0x50, "rawst-berry"],
 	[0x51, "poison-barb"],
 	[0x52, "kings-rock"],
-	[0x53, "bitter-berry"],
+	[0x53, "persim-berry"],
 	[0x54, "mint-berry"],
 	[0x58, "silverpowder"],
 	[0x5b, "amulet-coin"],
@@ -117,7 +78,7 @@ var itemsById = new Map([
 	[0x69, "stick"],
 	[0x6b, "nevermeltice"],
 	[0x6c, "magnet"],
-	[0x6d, "miracleberry"],
+	[0x6d, "lum-berry"],
 	[0x70, "everstone"],
 	[0x71, "spell-tag"],
 	[0x75, "miracle-seed"],
@@ -131,13 +92,13 @@ var itemsById = new Map([
 	[0x8f, "metal-coat"],
 	[0x90, "dragon-fang"],
 	[0x92, "leftovers"],
-	[0x96, "mysteryberry"],
+	[0x96, "leppa-berry"],
 	[0x97, "dragon-scale"],
 	[0x98, "berserk-gene"],
 	[0xa3, "light-ball"],
 	[0xaa, "pokadot-bow"],
-	[0xad, "berry"],
-	[0xae, "gold-berry"],
+	[0xad, "oran-berry"],
+	[0xae, "sitrus-berry"],
 ]);
 var trueNames = [
 	"ThunderPunch",
@@ -168,13 +129,13 @@ var trueNames = [
 	"HP Dark",
 	"HP Steel",
 	"BrightPowder",
-	"PSNCureBerry",
-	"PRZCureBerry",
+	"Pecha Berry",
+	"Cheri Berry",
 	"TwistedSpoon",
 	"BlackGlasses",
 	"NeverMeltIce",
-	"MiracleBerry",
-	"MysteryBerry",
+	"Lum Berry",
+	"Leppa Berry",
 	"SecretPotion",
 ];
 var nameFormatting = new Map();
@@ -191,11 +152,7 @@ function loadData(text) {
 	nameFormatting.set("kings-rock", "King's Rock");
 	nameFormatting.set("dragons-den", "Dragon's Den");
 	data = JSON.parse(text);
-	if (game.name == "pk") {
-		loadEngine("script/engine/gen4.js");
-	} else {
-		loadEngine("script/engine/ck+.js");
-	}
+	loadEngine("script/engine/ck+.js");
 }
 
 function loadFights(text) {
@@ -215,57 +172,27 @@ function loadFights(text) {
 
 function initGame() {
 	game = {};
-	if (window.location.search == "?custom"){
-		selectGame();
+	if (window.location.search == "?custom") {
+		game.name = "custom";
+		loadData(localStorage.getItem("calc/custom-data"));
+		return;
 	} else if (window.location.search == "?xp" || window.location.search == "?xp=") {
-		selectGame("ck+xp");
-	} else if (window.location.search == "?pk" || window.location.search == "?pk=") {
-		selectGame("pk");
+		game.name = "ck+xp";
+		fetchData("ck+xp.json");
 	} else {
-		selectGame("ck+");
-	}
-	applySettings();
-}
-
-function selectGame(gameId) {
-	game.name = gameId;
-	game.id = gameId;
-	if (gameId == "ck+") {
-		MAX_DV = 15;
+		game.name = "ck+";
 		fetchData("data.json");
 		fetchFights("fights.json");
-	} else if (gameId == "ck+xp") {
-		MAX_DV = 15;
-		fetchData("ck+xp.json");
-	} else if (gameId == "pk") {
-		MAX_DV = 31;
-		fetchData("pk.json");
-	} else {
-		// custom game
-		loadData(localStorage.getItem("calc/custom-data"));
 	}
-	setItemMenu();
-	readLocalStorage();
 	updateEngineFlags();
 }
 
 function updateEngineFlags() {
 	var flags = ["dvs"];
-	if (settings.enableStatistics && game.name == "ck+") {
+	if (settings.enableStatistics) {
 		flags.push("statistics");
 	}
-	if (game.name == "pk") {
-		flags.push("ability");
-		flags.push("nature");
-		document.body.classList.add("gen-4");
-	}
 	setEngineDisplayFlags(flags);
-	document.getElementById("edit-hp-dv").max = `${MAX_DV}`;
-	document.getElementById("edit-atk-dv").max = `${MAX_DV}`;
-	document.getElementById("edit-def-dv").max = `${MAX_DV}`;
-	document.getElementById("edit-spa-dv").max = `${MAX_DV}`;
-	document.getElementById("edit-spd-dv").max = `${MAX_DV}`;
-	document.getElementById("edit-spe-dv").max = `${MAX_DV}`;
 }
 
 function fetchData(file) {
@@ -345,12 +272,6 @@ function startup() {
 		}
 		addSearchResult(m.name, {link: `#/move/${m.name}/`});
 	}
-	if (j.abilities) {
-		abilities = new Lookup(j.abilities);
-		for (let a of j.abilities) {
-			addSearchResult(a.name, {link: `#/ability/${a.name}/`});
-		}
-	}
 	for (let i in j.type_matchups) {
 		var m = j.type_matchups[i];
 		if (!typeMatchups.has(m.attacker)) {
@@ -386,13 +307,9 @@ function startup() {
 		addPoolInfo(j.encounters[i]);
 	}
 
-	var lastSplit = undefined;
 	for (let i in j.trainers) {
 		var t = j.trainers[i];
 		t.index = parseInt(i);
-		if (t.split != lastSplit && !contains(splits, t.split)) {
-			splits.push(t.split);
-		}
 		trainersByName.set(t.name, t);
 		addSearchResult(getTrainerName(j.trainers[i].name), {link: `#/trainer/${t.name}/`});
 	}
@@ -402,15 +319,15 @@ function startup() {
 	if (box.length > 0) {
 		myPoke = box[0];
 	}
-	var lt = parseInt(savedData["last-trainer"] ?? 0);
+	var lt = parseInt(orElse(savedData["last-trainer"], 0));
 	if (lt >= 0 && lt < j.trainers.length) {
-		calcTrainer(lt, true);
+		calcTrainer(lt);
 	} else {
-		calcTrainer(0, true);
+		calcTrainer(0);
 	}
 	updateCalc();
 	updateBox();
-	displayTrainers(splits[0]);
+	displayTrainers();
 	if (box.length > 0) {
 		setTab("calc");
 	} else {
@@ -452,51 +369,10 @@ function hasFamily(family) {
 			return true;
 		}
 	}
-	for (const d of settings.extraDupes ?? []) {
+	for (const d of orElse(settings.extraDupes, [])) {
 		if (pokemonFamilies.get(pokemonByName.get(d).pokedex) == family) {
 			return true;
 		}
 	}
 	return false;
-}
-
-
-function validateData() {
-	for (const trainer of data.trainers) {
-		if (!trainer.team || !trainer.name) {
-			console.error("Trainer is missing fields!", trainer);
-		} else {
-			for (const mon of trainer.team) {
-				if (!pokemonByName.has(mon.name)) {
-					console.error(trainer.name, " has unknown pokemon: ", mon.name);
-				}
-				if (!abilities.byName(mon.ability)) {
-					console.error(trainer.name + "'s ", mon.name, " has unknown ability: ", mon.ability)
-				}
-				if (mon.item && !itemsByName.get(mon.item)) {
-					console.error(trainer.name + "'s ", mon.name, " has unknown item: ", mon.item)
-				}
-				for (const move of mon.moves) {
-					if (!movesByName.has(move)) {
-						console.error(trainer.name + "'s ", mon.name, " has unknown move: ", move);
-					}
-				}
-			}
-		}
-	}
-	var usedAreas = new Set();
-	for (const encounter of data.encounters) {
-		if (usedAreas.has(encounter.area)) {
-			console.error("There are multiple encounter areas named ", encounter.area);
-		}
-		usedAreas.add(encounter.area);
-		if (!landmarksByLocation.has(encounter.area)) {
-			console.error("There is no landmark association for ", encounter.area);
-		}
-	}
-	for (const k of landmarksByItem.keys()) {
-		if (!itemsByName.has(k)) {
-			console.error(`Item ${k} does not exist`);
-		}
-	}
 }

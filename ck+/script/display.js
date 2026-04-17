@@ -1,10 +1,6 @@
-const genderIcons = ["∅", "♀", "♂"];
-
 var menuOpen;
 var playerMoveVariants = [-1, -1, -1, -1];
 var enemyMoveVariants = [-1, -1, -1, -1];
-var playerAbilityVariant = -1;
-var enemyAbilityVariant = -1;
 
 function displayCalcPokemon(root, poke, opponent, right) {
 	var player = !right;
@@ -24,8 +20,8 @@ function displayCalcPokemon(root, poke, opponent, right) {
 	}
 	root.getElementsByClassName("poke-level")[0].innerHTML = "Lvl " + poke.level;
 	root.getElementsByClassName("poke-item")[0].innerHTML = itemLink(poke.item);
-	root.getElementsByClassName("poke-icon")[0].innerHTML = '<img draggable="false" src="' + getPokeImage(poke, "large") + '">';
-	root.getElementsByClassName("poke-gender")[0].innerHTML = genderIcons[getGender(poke)];
+	root.getElementsByClassName("poke-icon")[0].innerHTML = '<img draggable="false" src="' + getPokeImage(poke) + '">';
+	root.getElementsByClassName("poke-gender")[0].innerHTML = ["∅", "♀", "♂"][getGender(poke)];
 	if (right && root.getElementsByClassName("experience").length > 0) {
 		var exp = p.base_experience;
 		if (poke.transformStats) {
@@ -95,30 +91,7 @@ function displayCalcPokemon(root, poke, opponent, right) {
 		types += " " + prettyType(p.types[1]);
 	}
 	root.getElementsByClassName("poke-types")[0].innerHTML = types;
-	if (game.name == "pk") {
-		var ability = abilities.byName(poke.ability);
-		if (ability) {
-			var variants = "";
-			if (ability.variants) {
-				variants += `<div class="move-calc-variants" style="width:128px;">`;
-				for (var v = 0; v < ability.variants.length; v++) {
-					var variantExtra = "";
-					if ((player ? playerAbilityVariant : enemyAbilityVariant) == v) {
-						variantExtra = "move-calc-variant-selected";
-					}
-					variants += `<div class="move-calc-variant ${variantExtra}" onclick="setAbilityVariant(${player}, ${v})"></div>`
-				}
-				variants += `</div>`;
-			}
-			root.getElementsByClassName("calc-ability")[0].innerHTML = `
-				${abilityLink(ability)}
-				${variants}
-			`;;
-		} else {
-			root.getElementsByClassName("calc-ability")[0].innerHTML = "-";
-		}
-	}
-	var moves = `<table class="move-calcs" drop-accept="box" drop="dropCopyMoves(${player}, from)">`;
+	var moves = '<table class="move-calcs">';
 	var variantArray = player ? playerMoveVariants : enemyMoveVariants;
 	for (var i = 0; i < 4; i++) {
 		if (i < poke.moves.length) {
@@ -136,7 +109,6 @@ function displayCalcPokemon(root, poke, opponent, right) {
 				}
 				variants += `</div>`;
 			}
-			var indicator = `<div class="move-calc-indicator" style="--type-color:${typeColors.get(move.type) ?? typeColors.get("curse")};"></div>`;
 			var p1 = `<td class="move-calc">${moveLink(poke.moves[i])}${variants}</td>`;
 			var result = engine.getDamage(attacker, defender, BattleMove.of(attacker, move, variantArray[i], false));
 			var rolls = result.rolls;
@@ -188,7 +160,7 @@ function displayCalcPokemon(root, poke, opponent, right) {
 				extra += ' thko';
 			}
 			var p3 = moveDisplay(min, max, minPercent, maxPercent, extra, prettyRolls(rolls, myHp, myCurrentHp, opponentCurrentHp, result), move.power);
-			moves += `<tr>`;
+			moves += "<tr>";
 			if (right) {
 				moves += p3 + p2 + p1;
 			} else {
@@ -310,7 +282,7 @@ function residualFractional(battlePoke, fraction, tooltip) {
 
 function residualRoll(battlePoke, damage, tooltip) {
 	var percent = toPercent(damage / getPokeStat(battlePoke.poke, "hp"));
-	return `<td><ruby>${damage}<rt>${percent}%</rt></ruby>${tooltip ?? ""}</td>`;
+	return `<td><ruby>${damage}<rt>${percent}%</rt></ruby>${orElse(tooltip, "")}</td>`;
 }
 
 function residualToxicTooltip(battlePoke) {
@@ -334,41 +306,11 @@ function displayCalcStat(div, battlePoke, stat) {
 	//div.getElementsByClassName("stat-num")[0].innerHTML = "<ruby>" + s + "<rt>" + o + "</rt></ruby>";
 }
 
-function getEvolutionDescription(evolution) {
-	var desc;
-	if (evolution.method == "item") {
-		desc = itemLink(evolution.item);
-	} else if (evolution.method == "level") {
-		desc = "Level " + evolution.level;
-	} else if (evolution.method == "hitmonlee" || evolution.method == "hitmonchan" || evolution.method == "hitmontop") {
-		desc = "Level 25";
-	} else if (evolution.method == "happiness") {
-		desc = "Max happiness";
-	} else if (evolution.method == "beauty") {
-		desc = "Max beauty";
-	} else if (evolution.method == "partner") {
-		desc = "With " + pokeLink(evolution.partner);
-	} else if (evolution.method == "move") {
-		desc = "Knows " + pokeLink(evolution.move);
-	} else {
-		desc = evolution.method;
-	}
-	if (evolution.gender == "male") {
-		desc += " " + genderIcons[2];
-	} else if (evolution.gender == "female") {
-		desc += " " + genderIcons[1];
-	}
-	if (evolution.location) {
-		desc += ` (${areaLink(evolution.location)})`;
-	}
-	return desc;
-}
-
 function displayPokemon(root, i) {
 	var p = pokemonByPokedex.get(i);
 	root.getElementsByClassName("poke-name")[0].innerHTML = pokeLink(p);
 	root.getElementsByClassName("poke-dex-num")[0].innerHTML = "#" + padNumber(p.pokedex);
-	root.getElementsByClassName("poke-icon")[0].innerHTML = '<img draggable="false" src="' + getPokeImage(p, "large") + '">';
+	root.getElementsByClassName("poke-icon")[0].innerHTML = '<img draggable="false" src="' + getPokeImage(p) + '">';
 	var types = prettyType(p.types[0]);
 	if (p.types.length > 1) {
 		types += " " + prettyType(p.types[1]);
@@ -383,19 +325,11 @@ function displayPokemon(root, i) {
 	if (p.abilities && p.abilities.length == 3) {
 		var abil = `<table>
 			<tr>
-				<td>${abilityLink(p.abilities[0])}</td>
-				<td>${abilityLink(p.abilities[1])}</td>
+				<td>${fullCapitalize(p.abilities[0])}</td>
+				<td>${fullCapitalize(p.abilities[1])}</td>
 			</tr>
 			<tr>
-				<td colspan="2">${abilityLink(p.abilities[2])}</td>
-			</tr>
-		</table>`;
-		root.getElementsByClassName("poke-abilities")[0].innerHTML = abil;
-	} else if (p.abilities && p.abilities.length == 2) {
-		var abil = `<table>
-			<tr>
-				<td>${abilityLink(p.abilities[0])}</td>
-				<td>${abilityLink(p.abilities[1])}</td>
+				<td colspan="2">${fullCapitalize(p.abilities[2])}</td>
 			</tr>
 		</table>`;
 		root.getElementsByClassName("poke-abilities")[0].innerHTML = abil;
@@ -435,14 +369,32 @@ function displayPokemon(root, i) {
 			if (evolution.into != p.name) {
 				continue;
 			}
-			var before = getEvolutionDescription(evolution);
+			var before;
+			if (evolution.method == "item") {
+				before = itemLink(evolution.item);
+			} else if (evolution.method == "level") {
+				before = "Level " + evolution.level;
+			} else if (evolution.method == "hitmonlee" || evolution.method == "hitmonchan" || evolution.method == "hitmontop") {
+				before = "Level 25";
+			} else {
+				before = evolution.method;
+			}
 			evo += "<div>" + pokeLink(v.name) + " -> " + before + "</div>"
 		}
 	}
 	if (p.evolutions) {
 		for (var i = 0; i < p.evolutions.length; i++) {
 			var evolution = p.evolutions[i];
-			var before = getEvolutionDescription(evolution);
+			var before;
+			if (evolution.method == "item") {
+				before = itemLink(evolution.item);
+			} else if (evolution.method == "level") {
+				before = "Level " + evolution.level;
+			} else if (evolution.method == "hitmonlee" || evolution.method == "hitmonchan" || evolution.method == "hitmontop") {
+				before = "Level 25";
+			} else {
+				before = evolution.method;
+			}
 			evo += "<div>" + before + " -> " + pokeLink(evolution.into) + "</div>"
 		}
 	}
@@ -476,22 +428,14 @@ function updateCalc() {
 		displayCalcPokemon(document.getElementById("opponent"), theirPoke, myPoke, true);
 		var v = "";
 		for (var i = 0; i < box.length && i < box.length; i++) {
-			var img = '<img draggable="false" src="' + getPokeImage(box[i], "small") + '">';
-			v += `<div class="micro-mon drag-sortable" drag-content="player-${i}" onclick="setPlayer(${i})">${img}</div>`;
+			var img = '<img draggable="false" src="' + getPokeImage(box[i]) + '">';
+			v += '<div class="micro-mon drag-sortable" onclick="setPlayer(' + i + ')">' + img + "</div>";
 		}
-		document.getElementById("player").getElementsByClassName("calc-team")[1].innerHTML = v;
+		document.getElementById("player").getElementsByClassName("calc-team")[0].innerHTML = v;
 		document.getElementById("opponent").getElementsByClassName("calc-team")[0].innerHTML = getEnemyTeamDisplay(enemyTeam, lastTrainer);
-		document.getElementById("opponent").getElementsByClassName("ai-flags")[0].innerHTML = getAiFlagDisplay(lastTrainer);
-		if (playerTagPartners.length > 0) {
-			document.getElementById("tag-partner-team").getElementsByClassName("calc-team")[0].innerHTML
-				= getTagTeamDisplay(trainersByName.get(playerTagPartners[currentTagPartner]).team);
-			document.getElementById("tag-partner-team").getElementsByClassName("ai-flags")[0].innerHTML
-				= getAiFlagDisplay(trainersByName.get(playerTagPartners[currentTagPartner]));
-		}
 		var extraTrainers = "";
 		for (var i = lastTrainer + 1; isTrainerB2b(i); i++) {
 			extraTrainers += `<div class="calc-team">${getEnemyTeamDisplay(data.trainers[i].team, i)}</div>`;
-			extraTrainers += `<div class="ai-flags">${getAiFlagDisplay(i)}</div>`;
 			extraTrainers += `<div class="calc-navigation"><span>${getTrainerName(data.trainers[i].name)} </span>`;
 			extraTrainers += createLink(`#/trainer/${data.trainers[i].name}/`, `<button>Info</button>`) + " ";
 			extraTrainers += `<button disabled=true onclick="navigateBattle(-1)">Previous</button> `;
@@ -500,7 +444,7 @@ function updateCalc() {
 		}
 		i--; // last trainer of the gauntlet
 		if (data.trainers[i].meta != undefined) {
-			extraTrainers += `<div class="trainer-meta">${data.trainers[i].meta}</div>`;
+			extraTrainers += `<div style="padding-top:10px;">${data.trainers[i].meta}</div>`;
 		}
 		document.getElementById("opponent").getElementsByClassName("extra-calc-teams")[0].innerHTML = extraTrainers;
 	} catch(e) {
@@ -508,62 +452,12 @@ function updateCalc() {
 	}
 }
 
-function getAiFlagDisplay(trainer) {
-	if (game.name != "pk") {
-		return "";
-	}
-	if (!trainer.name) {
-		trainer = data.trainers[trainer];
-	}
-	var v = `<div class="ai-flags">`;
-	if (trainer) {
-		var flags = [
-			"basic",
-			"eval-att",
-			"expert",
-			"status",
-			"risky",
-			"damage-prio",
-			"baton-pass",
-			"tag",
-			"check-hp",
-			"weather",
-			"harrassment",
-			"left-side",
-		];
-		for (const flag of flags) {
-			v += `
-				<div class="ai-flag tooltip-container ${contains(trainer["ai-flags"] ?? [], flag) ? "" : "disabled-ai-flag"}">
-					<img src="./images/ai-flags/${flag}.png">
-					<div class="tooltip">
-						${fullCapitalize(flag)}
-					</div>
-				</div>
-			`;
-		}
-	}
-	v += `</div>`;
-	return v;
-}
-
 function getEnemyTeamDisplay(enemyTeam, trainer) {
 	var v = "";
 	for (let i in enemyTeam) {
-		var extraClasses = faintedMonToggles.get(`${trainer}-${i}`) == true ? "toggled-party-member" : "";
 		var prioClass = ["low", "neutral", "high"][Math.sign(getSwitchPriority(enemyTeam[i], myPoke)) + 1];
-		var img = `<img draggable="false" class="${prioClass}-switch-priority" src="${getPokeImage(enemyTeam[i], "small")}">`;
-		v += `<div class="micro-mon drag-sortable ${extraClasses}" drag-content="enemy-${trainer}-${i}" drag-type="box" oncontextmenu="togglePartyIcon(event, ${trainer}, ${i})" onclick="setEnemy(${trainer}, ${i})">${img}</div>`;
-	}
-	return v;
-}
-
-function getTagTeamDisplay(tagTeam) {
-	var v = "";
-	for (let i in tagTeam) {
-		var extraClasses = faintedMonToggles.get(`tag-${i}`) == true ? "toggled-party-member" : "";
-		var prioClass = ["low", "neutral", "high"][Math.sign(getSwitchPriority(tagTeam[i], myPoke)) + 1];
-		var img = `<img draggable="false" class="${prioClass}-switch-priority" src="${getPokeImage(tagTeam[i], "small")}">`;
-		v += `<div class="micro-mon drag-sortable ${extraClasses}" drag-content="tag-${i}" drag-type="box" oncontextmenu="togglePartyIcon(event, 'tag', ${i})" onclick="setTagPlayer(${i}, ${i})">${img}</div>`;
+		var img = `<img draggable="false" class="${prioClass}-switch-priority" src="${getPokeImage(enemyTeam[i])}">`;
+		v += `<div class="micro-mon" onclick="setEnemy(${trainer}, ${i})">${img}</div>`;
 	}
 	return v;
 }
@@ -590,7 +484,7 @@ function getPokemonEncountersDisplay(p) {
 		var v = "<table class='poke-encounters'>";
 		for (const en of Object.entries(encounters)) {
 			var area = en[0];
-			if (caughtLandmarks.has(landmarksByLocation.get(area)?.name)) {
+			if (caughtLandmarks.has(landmarksByLocation.get(area).name)) {
 				v += `<tr class="poke-encounters-dupe">`;
 			} else {
 				v += "<tr>";
@@ -696,30 +590,14 @@ function getFullItemDisplay(item) {
 
 function getItemLocationDescription(desc) {
 	return `
-		<div>${itemLink(desc.item)} <span class="meek">x${desc.amount}</span></div>
-		<div class="meek">${desc.info}</div>
+		<div>${itemLink(desc.item)} ${desc.amount}</div>
+		<div>${desc.info}</div>
 	`;
 }
 
 function getFullMoveDisplay(move) {
 	var byLearnset = movesByLearnset.get(move.name);
 	var byTMHM = movesByTMHM.get(move.name);
-	var targeting = getTargeting(move);
-	var target = `<div class="targets"><div class="target-row">`;
-	var linkClass = targeting.all ? `<div class="target-link-active"></div>` : "";
-	for (var i = 0; i < 6; i++) {
-		target += `<div class="target-block ${targeting.grid[i] ? "target-block-targeted" : ""}">${i == 3 ? "User" : i > 3 ? "Ally" : "Opp"}</div>`;
-		if (i % 3 != 2) {
-			target += `<div class="target-link-horizontal">${targeting.grid[i] && targeting.grid[i + 1] ? linkClass : ""}</div>`;
-		} else if (i == 2) {
-			target += `</div><div class="target-row">`;
-			target += `<div class="target-link-vertical">${targeting.grid[0] && targeting.grid[3] ? linkClass : ""}</div>`;
-			target += `<div class="target-link-vertical">${targeting.grid[1] && targeting.grid[4] ? linkClass : ""}</div>`;
-			target += `<div class="target-link-vertical">${targeting.grid[2] && targeting.grid[5] ? linkClass : ""}</div>`;
-			target += `</div><div class="target-row">`;
-		}
-	}
-	target += "</div></div>";
 	return `
 		<h3>${getMoveName(move.name)}</h3>
 		${move.extra ?
@@ -730,14 +608,6 @@ function getFullMoveDisplay(move) {
 				${getMoveDisplay(move)}
 			</table>
 		</div>
-		${move.priority ?? 0 != 0 ? `
-			<p>Priority: ${move.priority > 0 ? "+" :""}${move.priority}</p>
-		` : ""}
-		${(move.flags ?? []).length > 0 ? `
-			<p class="meek">Flags: ${move.flags.map(f => fullCapitalize(f)).join(", ")}</p>
-		` : ""}
-		<h3>Targeting</h3>
-		${target}
 		${byLearnset ? `
 			<p>By Learnset (${byLearnset.length}):</p>
 			<div class="learnset-pool">
@@ -754,16 +624,10 @@ function getFullMoveDisplay(move) {
 }
 
 function getMoveDisplay(move, level = undefined) {
-	if (move == undefined) {
-		return `<tr>undefined</tr>`;
-	}
 	return `
 		<tr>
 			${level != undefined ? `<td>${level}</td>` : ``}
 			<td>${prettyType(move.type)}</td>
-			${move.category ? `
-				<td>${prettyCategory(move.category)}</td>
-			`: ""}
 			<td>${moveLink(move.name)}</td>
 			<td>${move.power == 0 ? "-" : move.power}</td>
 			<td>${move.accuracy}%</td>
@@ -773,39 +637,7 @@ function getMoveDisplay(move, level = undefined) {
 	`;
 }
 
-function getFullAbilityDisplay(ability) {
-	return `
-		<h3>${fullCapitalize(ability.name)}</h3>
-		<p>Pokemon with ability:</p>
-		<div class="learnset-pool">
-			${data.pokemon.filter(a => contains(a.abilities ?? [], ability.name)).sort((a, b) => a.pokedex - b.pokedex)
-				.displayMap(e => getEncounterPoke(e, e.abilities.filter(a => a == ability.name).length / e.abilities.length * 100 + "%"))}
-		</div>
-	`;
-}
-
-function prettyCategory(category) {
-	var cat = "???";
-	var color = "#68a090"
-	if (category == "physical") {
-		cat = "Phys";
-		color = "#cc4125"
-	} else if (category == "special") {
-		cat = "Spec";
-		color = "#45818e";
-	} else if (category == "status") {
-		cat = "Stat";
-		color = "#999999";
-	}
-	return `<div class="category" style="background-color: ${color}">${cat}</div>`
-}
-
 function getFullTypeDisplay(type) {
-	var specialTypes = new Set([
-		"fire", "water", "electric", "grass", "ice", "psychic", "dragon", "dark"
-	]);
-	var specialOrder = ["special", "physical", "status"];
-	var physicalOrder = ["physical", "special", "status"];
 	return selectTabInDisplay(`
 	${prettyType(type)}
 	<div class="tab-collection">
@@ -817,29 +649,12 @@ function getFullTypeDisplay(type) {
 		<div class="tab-body">
 			<div class="tab-contents">
 				<div class="learnset-pool">
-					${data.pokemon.filter(p => p.types.contains(type)).sort((a, b) => a.pokedex < b.pokedex ? -1 : 1).displayMap(p => getEncounterPoke(p))}
+					${data.pokemon.filter(p => p.types.contains(type)).displayMap(p => getEncounterPoke(p))}
 				</div>
 			</div>
 			<div class="tab-contents">
 				<table class="move-table">
-					${data.moves.filter(m => m.type == type).sort(function(a, b) {
-						if (a.category != b.category) {
-							if (specialTypes.has(a.type)) {
-								return specialOrder.indexOf(a.category) < specialOrder.indexOf(b.category) ? -1 : 1;
-							} else {
-								return physicalOrder.indexOf(a.category) < physicalOrder.indexOf(b.category) ? -1 : 1;
-							}
-						}
-						if (a.power != b.power) {
-							return a.power > b.power ? -1 : 1;
-						}
-						if (a.accuracy != b.accuracy) {
-							return a.accuracy > b.accuracy ? -1 : 1;
-						}
-						if (a.pp != b.pp) {
-							return a.pp > b.pp ? -1 : 1;
-						}
-					}).displayMap(m => getMoveDisplay(m))}
+					${data.moves.filter(m => m.type == type).displayMap(m => getMoveDisplay(m))}
 				</table>
 			</div>
 		</div>
@@ -852,9 +667,9 @@ function getEncounterPoke(poke, header, footer, extraClasses) {
 	}
 	return `
 		<div class="encounter-poke${extraClasses ? " " + extraClasses : ""}">
-			${header ?? ""}
-			${createLink(`#/pokemon/${poke.name}/`, '<img draggable="false" src="' + getPokeImage(poke.name, "medium") + '">')}
-			${footer ?? ""}
+			${orElse(header, "")}
+			${createLink(`#/pokemon/${poke.name}/`, '<img draggable="false" src="' + getPokeImage(poke.name) + '">')}
+			${orElse(footer, "")}
 			<div class="type-slices">
 				${poke.types.displayMap(t => customLink(`#/type/${t}/`, `class="type-slice" style="background-color: ${typeColor(t)};"`, ""))}
 			</div>
@@ -862,101 +677,21 @@ function getEncounterPoke(poke, header, footer, extraClasses) {
 	`;
 }
 
-function setCommands() {
-	const statuses = [
-		{
-			name: "slp",
-			color: "#697161"
-		},
-		{
-			name: "psn",
-			color: "#c562c5"
-		},
-		{
-			name: "tox",
-			color: "#5400b1"
-		},
-		{
-			name: "brn",
-			color: "#ff4210"
-		},
-		{
-			name: "prz",
-			color: "#ebaa00"
-		},
-		{
-			name: "frz",
-			color: "#4a94ff"
-		}
-	];
-	var party = {};
-	for (const mon of box) {
-		if (mon.storage?.type == "party") {
-			party[mon.storage.index] = mon;
-		}
-	}
-	if (party[0] != undefined) {
-		document.getElementById("vs-link-status").innerHTML = vsLinkCommandFeedback;
-		var v = "";
-		for (var i = 0; i < 6; i++) {
-			var mon = party[i];
-			if (mon == undefined) {
-				break;
-			}
-			var buttons = "";
-			for (const status of statuses) {
-				var extra = "";
-				if (mon.status == status.name) {
-					extra = `class="active-status-button" style="--status-color: ${status.color}"`;
-				}
-				buttons += `<button onclick="commandStatus(${i}, '${status.name}')" ${extra}>${fullCapitalize(status.name)}</button>`;
-			}
-			buttons = `<button onclick="commandStatus(${i}, undefined)">---</button>` + buttons;
-			v += `
-				<div class="command-party-mon">
-					<div class="command-party-mon-display">
-						${getTinyPokemonDisplay(mon)}
-					</div>
-					<div class="status-display">
-						<div display="flex">
-							<span>Status</span>
-							<div class="status-command-buttons">${buttons}</div>
-						</div>
-					</div>
-				</div>
-			`;
-		}
-		document.getElementById("box-commands").innerHTML = v;
-	} else {
-		document.getElementById("box-commands").innerHTML = `
-			<p class="meek">You don't have any pokemon in your party...</p>
-		`;
-	}
-}
-
 function setMap(xOffset = undefined, yOffset = 0, scale = 48) {
 	if (xOffset == undefined) {
-		xOffset = savedData["last-map"] ?? 0;
+		xOffset = orElse(savedData["last-map"], 0);
 	}
 	savedData["last-map"] = xOffset;
 	writeLocalStorage();
 	var th = 17 * scale;
 	var v = "";
-	if (game.name != "pk") {
-		v += '<button onclick="setMap(0)">Johto</button>';
-		v += '<button onclick="setMap(-17)">Kanto</button>';
-	}
+	v += '<button onclick="setMap(0)">Johto</button>';
+	v += '<button onclick="setMap(-17)">Kanto</button>';
 	v += getMapDisplay(960, th, xOffset, yOffset, scale);
 	document.getElementById("map").innerHTML = v;
 }
 
 function getMapDisplay(width, height, xOffset = 0, yOffset = 0, scale = 48, focus = "") {
-	if (game.name == "pk") {
-		if (yOffset == 0) {
-			yOffset = 1;
-		}
-		scale = parseInt(scale * 0.7);
-	}
 	var border = parseInt(scale / 8);
 	var xo = xOffset * scale;
 	var yo = yOffset * scale;
@@ -969,15 +704,6 @@ function getMapDisplay(width, height, xOffset = 0, yOffset = 0, scale = 48, focu
 			cl = "landmark-route";
 		} else if (lc.name.includes("city") || lc.name.includes("town")) {
 			cl = "landmark-town";
-		}
-		if (lc.type == "natural") {
-			cl = "landmark-forest";
-		} else if (lc.type == "water") {
-			cl = "landmark-lake";
-		} else if (lc.type == "cave") {
-			cl = "landmark-cave";
-		} else if (lc.type == "route") {
-			cl = "landmark-route";
 		}
 
 		if (caughtLandmarks.has(lc.name)) {
@@ -1059,7 +785,6 @@ function updateBox() {
 
 function clearPlayerStages() {
 	playerMoveVariants = [-1, -1, -1, -1];
-	playerAbilityVariant = -1;
 	document.getElementById("player").getElementsByClassName("status-select")[0].value = "none";
 	var inputs = document.getElementsByClassName("player-stages");
 	for (var i = 0; i < inputs.length; i++) {
@@ -1071,7 +796,6 @@ function clearPlayerStages() {
 
 function clearEnemyStages() {
 	enemyMoveVariants = [-1, -1, -1, -1];
-	enemyAbilityVariant = -1;
 	document.getElementById("opponent").getElementsByClassName("status-select")[0].value = "none";
 	var inputs = document.getElementsByClassName("enemy-stages");
 	for (var i = 0; i < inputs.length; i++) {
@@ -1093,23 +817,6 @@ function setMoveVariant(player, move, variant) {
 			enemyMoveVariants[move] = -1;
 		} else {
 			enemyMoveVariants[move] = variant;
-		}
-	}
-	updateCalc();
-}
-
-function setAbilityVariant(player, variant) {
-	if (player) {
-		if (playerAbilityVariant == variant) {
-			playerAbilityVariant = -1;
-		} else {
-			playerAbilityVariant = variant;
-		}
-	} else {
-		if (enemyAbilityVariant == variant) {
-			enemyAbilityVariant = -1;
-		} else {
-			enemyAbilityVariant = variant;
 		}
 	}
 	updateCalc();
@@ -1200,46 +907,18 @@ function setItemMenu() {
 		"kings-rock",
 		"thick-club",
 		"metal-powder",
-		"berry",
+		"oran-berry",
 		"berry-juice",
-		"gold-berry",
-		"przcureberry",
+		"sitrus-berry",
+		"cheri-berry",
 		"mint-berry",
-		"psncureberry",
-		"ice-berry",
-		"burnt-berry",
-		"bitter-berry",
-		"mysteryberry",
-		"miracleberry",
+		"pecha-berry",
+		"rawst-berry",
+		"aspear-berry",
+		"persim-berry",
+		"leppa-berry",
+		"lum-berry",
 	];
-	if (game.name == "pk") {
-		handyItems = [
-			"black-belt",
-			"sharp-beak",
-			"poison-barb",
-			"soft-sand",
-			"hard-stone",
-			"silverpowder",
-			"spell-tag",
-			"metal-coat",
-			"charcoal",
-			"mystic-water",
-			"miracle-seed",
-			"magnet",
-			"twistedspoon",
-			"nevermeltice",
-			"dragon-fang",
-			"blackglasses",
-			"silk-scarf",
-			"quick-claw",
-			"kings-rock",
-			"thick-club",
-			"metal-powder",
-			"oran-berry",
-			"berry-juice",
-			"sitrus-berry",
-		];
-	}
 	var v = `<table><tr>`;
 	for (var i = 0; i < handyItems.length; i++) {
 		v += `<td style="cursor:pointer;" onclick="setPlayerItem('${handyItems[i]}')">${itemImage(handyItems[i])}</td>`;

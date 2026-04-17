@@ -49242,7 +49242,7 @@
     },
     {
       "area": "Rocket Hideout",
-      "name": "executive-petrel-1",
+      "name": "executive-petrel",
       "team": [
         {
           "name": "exeggutor",
@@ -49314,7 +49314,7 @@
     },
     {
       "area": "Rocket Hideout",
-      "name": "executive-ariana-1",
+      "name": "executive-ariana",
       "team": [
         {
           "name": "dodrio",
@@ -51811,7 +51811,7 @@
     },
     {
       "area": "Radio Tower",
-      "name": "executive-proton-2",
+      "name": "executive-proton",
       "team": [
         {
           "name": "politoed",
@@ -52604,7 +52604,7 @@
     },
  {
       "area": "Radio Tower",
-      "name": "executive-petrel-2",
+      "name": "executive-petrel",
       "team": [
         {
           "name": "murkrow",
@@ -52676,7 +52676,7 @@
     },
  {
       "area": "Radio Tower",
-      "name": "executive-ariana-2",
+      "name": "executive-ariana",
       "team": [
         {
           "name": "kangaskhan",
