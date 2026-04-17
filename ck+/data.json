@@ -44149,35 +44149,7 @@
     },
     {
       "area": "Route 35",
-      "name": "picnicker-brooke",
-      "team": [
-        {
-          "name": "seel",
-          "level": 17,
-          "item": "berry-juice",
-          "moves": [
-            "charm",
-            "icy-wind",
-            "bubblebeam"
-          ]
-        },
-        {
-          "name": "nidorina",
-          "level": 17,
-          "item": "berry-juice",
-          "moves": [
-            "acid",
-            "dig",
-            "rock-slide",
-	    "aurora-beam"
-          ]
-        }
-      ]
-    },
-    {
-      "area": "Route 35",
       "name": "camper-elliot",
-      "b2b": true,
       "team": [
         {
           "name": "houndour",
@@ -44198,6 +44170,34 @@
             "shadow-ball",
 	    "fire-punch",
             "super-fang"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Route 35",
+      "name": "picnicker-brooke",
+      "b2b": true,
+      "team": [
+        {
+          "name": "seel",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "charm",
+            "icy-wind",
+            "bubblebeam"
+          ]
+        },
+        {
+          "name": "nidorina",
+          "level": 17,
+          "item": "berry-juice",
+          "moves": [
+            "acid",
+            "dig",
+            "rock-slide",
+	    "aurora-beam"
           ]
         }
       ]
@@ -49928,7 +49928,7 @@
     },
     {
       "area": "Tin Tower",
-      "name": "executive-proton",
+      "name": "executive-proton-1",
       "meta": "sun",
       "team": [
         {
@@ -49995,6 +49995,104 @@
             "cross-chop",
             "fury-cutter",
             "thunderpunch"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "sage-gaku",
+      "b2b": true,
+      "team": [
+        {
+          "name": "xatu",
+          "level": 51,
+          "item": "focus-band",
+          "moves": [
+            "powder-snow",
+            "drill-peck",
+            "psychic",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 52,
+          "item": "charcoal",
+          "moves": [
+            "sacred-fire",
+            "flame-wheel",
+            "submission",
+            "shadow-ball"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "sage-masa",
+      "b2b": true,
+      "team": [
+        {
+          "name": "noctowl",
+          "level": 51,
+          "item": "brightpowder",
+          "moves": [
+            "moonlight",
+            "super-fang",
+            "toxic",
+            "quick-attack"
+          ]
+        },
+        {
+          "name": "jolteon",
+          "level": 52,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "sing",
+            "pin-missile",
+            "bite"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Tin Tower",
+      "name": "sage-koji",
+      "b2b": true,
+      "team": [
+        {
+          "name": "alakazam",
+          "level": 51,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "thunderpunch",
+            "ice-punch",
+            "fire-punch"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 51,
+          "item": "leftovers",
+          "moves": [
+            "shadow-ball",
+            "screech",
+            "powder-snow",
+            "psychic"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 52,
+          "item": "mystic-water",
+          "moves": [
+            "recover",
+            "whirlpool",
+            "giga-drain",
+            "surf"
           ]
         }
       ]
@@ -54270,6 +54368,109 @@
       ]
     },
 {
+      "area": "Route 27",
+      "name": "psychic-gilbert",
+      "meta": "optional. gives you thunderbolt tm",	
+      "team": [
+        {
+          "name": "lanturn",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "surf",
+            "ice-beam",
+            "thunderbolt",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "mr-mime",
+          "level": 67,
+          "item": "focus-band",
+          "moves": [
+            "light-screen",
+	    "reflect",
+	    "razor-leaf",
+	    "thunderpunch"
+	  ]
+        },
+        {
+          "name": "lickitung",
+          "level": 66,
+          "item": "pink-bow",
+          "moves": [
+            "slam",
+            "lick",
+            "recover",
+            "thunderbolt"
+	  ]
+	},
+        {
+          "name": "clefable",
+          "level": 67,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+	    "psychic",
+	    "steel-wing",
+	    "flamethrower"
+	  ]
+        },
+        {
+          "name": "starmie",
+          "level": 66,
+          "item": "lum-berry",
+          "moves": [
+            "waterfall",
+	    "psychic",
+	    "thunderbolt",
+	    "ice-beam"
+	  ]
+        }
+      ]
+    },
+{
+      "area": "Route 27",
+      "name": "bird-keeper-jose",
+      "b2b": true,
+      "meta": "optional, gives you shadow ball tm",
+      "team": [
+        {
+          "name": "togetic",
+          "level": 67,
+          "item": "leftovers",
+          "moves": [
+            "metronome",
+            "aeroblast",
+            "ice-beam",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "delibird",
+          "level": 67,
+          "item": "brightpowder",
+          "moves": [
+            "perish-song",
+            "spikes",
+	    "blizzard",
+	    "sky-attack"
+          ]
+        },
+        {
+          "name": "farfetchd",
+          "level": 67,
+          "item": "stick",
+          "moves": [
+            "drill-peck",
+            "cross-chop",
+            "slash",
+            "razor-leaf"
+	  ]
+	}
+      ]
+    },
+{
       "area": "Route 26",
       "name": "cooltrainerf-joyce",	
       "team": [
@@ -54939,6 +55140,78 @@
             "double-team",
             "moonlight",
             "crunch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "champion-lance",
+      "team": [
+        {
+          "name": "lugia",
+          "level": 69,
+          "item": "leftovers",
+          "moves": [
+            "toxic",
+            "surf",
+            "aeroblast",
+            "psychic"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "sky-attack",
+            "ancientpower",
+            "earthquake",
+            "fire-blast"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "flamethrower",
+            "sky-attack",
+            "metal-claw",
+            "thunderpunch"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "double-edge",
+            "hydro-pump",
+            "fire-blast",
+            "thunder"
+          ]
+        },
+        {
+          "name": "tyranitar",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "rock-slide",
+            "roar",
+            "crunch",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "dragonite",
+          "level": 72,
+          "item": "lum-berry",
+          "moves": [
+            "extremespeed",
+            "earthquake",
+            "flamethrower",
+            "ice-beam"
 	  ]
 	}
       ]
