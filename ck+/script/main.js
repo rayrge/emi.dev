@@ -1,9 +1,15 @@
 var savedData = {};
 var settings = {};
 
+function getStorageKey() {
+	return "calc/" + (game && game.id);
+}
+
 function readLocalStorage() {
-	if (localStorage.getItem("calc/ck+")) {
-		savedData = JSON.parse(localStorage.getItem("calc/ck+"));
+	var storageKey = getStorageKey();
+
+	if (localStorage.getItem(storageKey)) {
+		savedData = JSON.parse(localStorage.getItem(storageKey));
 	} else {
 		if (localStorage.getItem("box")) {
 			savedData["box"] = JSON.parse(localStorage.getItem("box"));
@@ -18,11 +24,11 @@ function readLocalStorage() {
 			savedData["settings"] = JSON.parse(localStorage.getItem("settings"));
 		}
 	}
-	savedData = orElse(savedData, {});
-	box = orElse(savedData["box"], []);
-	deadBox = orElse(savedData["dead-box"], []);
-	badges = orElse(savedData["badges"], 0);
-	settings = orElse(savedData["settings"], {});
+	savedData = savedData ?? {};
+	box = savedData["box"] ?? [];
+	deadBox = savedData["dead-box"] ?? [];
+	badges = savedData["badges"] ?? 0;
+	settings = savedData["settings"] ?? {};
 	if (settings.enableStatistics == undefined) {
 		settings.enableStatistics = true;
 	}
@@ -33,7 +39,7 @@ function readLocalStorage() {
 }
 
 function writeLocalStorage() {
-	localStorage.setItem("calc/ck+", JSON.stringify(savedData));
+	localStorage.setItem(getStorageKey(), JSON.stringify(savedData));
 }
 
 function updateSettings() {
@@ -48,10 +54,14 @@ function applySettings() {
 	document.getElementById("enable-statistics").checked = settings.enableStatistics == true;
 	if (settings.enableVsRecorder) {
 		document.getElementById("update-vs-recorder").style.display = "block";
+		if (game.name == "pk") {
+			document.getElementById("vs-link-commands").style.display = "block";
+		}
 	} else {
 		document.getElementById("update-vs-recorder").style.display = "none";
+		document.getElementById("vs-link-commands").style.display = "none";
 	}
-	document.getElementById("extra-dupes").value = orElse(settings.extraDupes, []).join(" ");
+	document.getElementById("extra-dupes").value = settings.extraDupes?.join(" ") ?? "";
 	updateEngineFlags();
 	savedData["settings"] = settings;
 	writeLocalStorage();
@@ -67,7 +77,7 @@ function updateExtraDupes() {
 	for (const dupe of dupes) {
 		if (pokemonByName.has(dupe)) {
 			v += `<div class="micro-mon drag-sortable">
-				<img draggable="false" src="${getPokeImage(pokemonByName.get(dupe))}">
+				<img draggable="false" src="${getPokeImage(pokemonByName.get(dupe), "small")}">
 			</div>`;
 		}
 	}
@@ -103,10 +113,6 @@ document.ondragover = function (event) {
 document.getElementById("badges").oninput = function (event) {
 	updateBadges();
 }
-
-readLocalStorage();
-
-setItemMenu();
 
 document.getElementById("badges").value = badges;
 

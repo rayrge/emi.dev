@@ -1,15 +1,15 @@
 var attackBadges = 1;
-var defenseBadges = 4;
-var specialBadges = 7;
-var speedBadges = 2;
+var defenseBadges = 7;
+var specialBadges = 6;
+var speedBadges = 3;
 var badgeTypes = new Map([
 	["flying", 1],
-	["normal", 2],
-	["bug", 3],
-	["steel", 4],
+	["bug", 2],
+	["normal", 3],
+	["ghost", 4],
 	["fighting", 5],
-	["ghost", 6],
-	["ice", 7],
+	["ice", 6],
+	["steel", 7],
 	["dragon", 8],
 	["electric", 9],
 	["psychic", 10],
@@ -44,11 +44,11 @@ class BattlePokeImpl extends BattlePoke {
 	getEffectiveStat(stat) {
 		var v = getModifiedStat(this.poke, this.stages, stat);
 		if (stat == "spe") {
-			if (this.hasBadgeBoost() && badges >= speedBadges) {
-				v = parseInt(v * 1.125);
-			}
 			if (this.status == "prz") {
 				v = parseInt(v / 4);
+			}
+			if (this.hasBadgeBoost() && badges >= speedBadges) {
+				v = parseInt(v * 1.125);
 			}
 		}
 		return v;
@@ -59,15 +59,17 @@ class BattleMoveImpl extends BattleMove {
 
 	get type() {
 		if (this.move.name == "hidden-power") {
-			var hp = getHiddenPower(this.user.poke);
+			var hp = engine.getHiddenPower(this.user.poke);
 			return hp.type;
-		} 
+		} else if (this.move.name == "future-sight") {
+			return "curse";
+		}
 		return super.type;
 	}
 
 	get power() {
 		if (this.move.name == "hidden-power") {
-			var hp = getHiddenPower(this.user.poke);
+			var hp = engine.getHiddenPower(this.user.poke);
 			return hp.power;
 		} else if (this.move.name == "flail" || this.move.name == "reversal") {
 			var mhp = this.user.getStat("hp");
@@ -209,20 +211,23 @@ function getDamage(attacker, defender, move) {
 
 	var ap = attacker.mon;
 	var dp = defender.mon;
-	// STAB
-	if (move.name != "struggle" && contains(ap.types, move.type)) {
-		v = parseInt(v * 1.5);
-	}
+	// Struggle doesn't have stab or effectiveness
+	if (move.name != "struggle") {
+		// STAB
+		if (contains(ap.types, move.type)) {
+			v = parseInt(v * 1.5);
+		}
 
-	var eff = 1;
-	eff *= getMatchup(move.type, dp.types[0]);
-	if (dp.types.length > 1) {
-		eff *= getMatchup(move.type, dp.types[1]);
+		var eff = 1;
+		eff *= getMatchup(move.type, dp.types[0]);
+		if (dp.types.length > 1) {
+			eff *= getMatchup(move.type, dp.types[1]);
+		}
+		if (eff == 0) {
+			return CalcResult.of(0);
+		}
+		v = parseInt(v * eff);
 	}
-	if (eff == 0) {
-		return CalcResult.of(0);
-	}
-	v = parseInt(v * eff);
 
 	if (move.name == "dragon-rage") {
 		return CalcResult.of(40);
@@ -281,9 +286,9 @@ if (game.name == "ck+xp") {
 	]);
 } else {
 	attackBadges = 1;
-	defenseBadges = 4;
-	specialBadges = 7;
-	speedBadges = 2;
+	defenseBadges = 7;
+	specialBadges = 6;
+	speedBadges = 3;
 	badgeTypes = new Map([
 		["flying", 1],
 		["bug", 2],
