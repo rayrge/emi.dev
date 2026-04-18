@@ -45867,7 +45867,7 @@
         {
           "name": "venomoth",
           "level": 31,
-          "item": "silver-powder",
+          "item": "silverpowder",
           "moves": [
             "light-screen",
             "leech-life",
@@ -54857,6 +54857,222 @@
       ]
     },
 {
+      "area": "Victory Road",
+      "name": "rival-13",
+      "team": [
+        {
+          "name": "donphan",
+          "level": 70,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "submission",
+            "earthquake",
+            "powder-snow"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "fire-punch",
+            "ice-punch",
+            "thunderpunch"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 70,
+          "item": "focus-band",
+          "moves": [
+            "super-fang",
+            "sludge-bomb",
+            "icy-wind",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "poliwrath",
+          "level": 70,
+          "item": "scope-lens",
+          "moves": [
+            "cross-chop",
+            "hypnosis",
+            "waterfall",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 70,
+          "item": "charcoal",
+          "moves": [
+            "flamethrower",
+            "wing-attack",
+            "dragonbreath",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "meganium",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+            "protect",
+            "toxic",
+            "double-edge"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Victory Road",
+      "name": "rival-14",
+      "team": [
+        {
+          "name": "sneasel",
+          "level": 70,
+          "item": "scope-lens",
+          "moves": [
+            "spikes",
+            "ice-beam",
+            "cross-chop",
+            "metal-claw"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "fire-punch",
+            "ice-punch",
+            "thunderpunch"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 70,
+          "item": "kings-rock",
+          "moves": [
+            "confuse-ray",
+            "shadow-ball",
+            "thunderbolt",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "victreebel",
+          "level": 70,
+          "item": "miracle-seed",
+          "moves": [
+            "giga-drain",
+            "sludge",
+            "crunch",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "blastoise",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "mirror-coat",
+            "earthquake",
+            "iron-tail",
+            "hydro-pump"
+          ]
+        },
+        {
+          "name": "typhlosion",
+          "level": 70,
+          "item": "charcoal",
+          "moves": [
+            "flamethrower",
+            "submission",
+            "fury-cutter",
+            "thunderpunch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Victory Road",
+      "name": "rival-15",
+      "team": [
+        {
+          "name": "magneton",
+          "level": 70,
+          "item": "focus-band",
+          "moves": [
+            "light-screen",
+            "reflect",
+            "thunderbolt",
+            "selfdestruct"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "fire-punch",
+            "ice-punch",
+            "thunderpunch"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 70,
+          "item": "blackbelt",
+          "moves": [
+            "submission",
+            "megahorn",
+            "wing-attack",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "houndoom",
+          "level": 70,
+          "item": "blackglasses",
+          "moves": [
+            "destiny-bond",
+            "crunch",
+            "fire-blast",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "sludge-bomb",
+            "giga-drain",
+            "earthquake",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 70,
+          "item": "scope-lens",
+          "moves": [
+            "cross-chop",
+            "slash",
+            "waterfall",
+            "ice-beam"
+	  ]
+	}
+      ]
+    },
+{
       "area": "Indigo Plateau",
       "name": "elite-four-will",
       "team": [
@@ -55112,7 +55328,7 @@
         {
           "name": "murkrow",
           "level": 71,
-          "item": "black-belt",
+          "item": "blackbelt",
           "moves": [
             "pursuit",
             "cross-chop",
