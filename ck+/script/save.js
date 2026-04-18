@@ -16,31 +16,38 @@ function readNewbox(bytes, start, db1, db2) {
 		}
 	}
 	for (var i = 0; i < 20; i++) {
-		var b = bytes[start + i];
-		if (b == 0) {
-			continue;
-		}
+		var b = bytes[start + 1 + i]; // species list FIX
+
+		if (b == 0) continue;
 		b--;
+
 		var p = db1;
 		if (banks[i]) {
 			p = db2;
 		}
-		p += b * 0x2F;
-		if (bytes[p + 0x1d] == 0xfd) { // Egg
-			continue;
-		}
+		p += b * 0x32; // struct size FIXED BACK
+
+		var speciesId = bytes[p];
+		var mon = pokemonByPokedex.get(speciesId);
+		if (!mon) continue;
+
+		if (bytes[p + 0x1d] == 0xfd) continue; // egg
+
 		var item = bytes[p + 0x01];
 		if (itemsById.has(item)) {
 			item = itemsById.get(item);
 		} else {
 			item = "";
 		}
+
 		var atk = (bytes[p + 0x15] & 0xf0) >> 4;
 		var def = (bytes[p + 0x15] & 0x0f);
 		var spe = (bytes[p + 0x16] & 0xf0) >> 4;
 		var spa = (bytes[p + 0x16] & 0x0f);
-		var spd = spa
-		var hp = 8 * (atk & 0b1) + 4 * (def & 0b1) + 2 * (spe & 0b1) + (spa & 0b1);
+		var spd = spa;
+
+		var hp = 8 * (atk & 1) + 4 * (def & 1) + 2 * (spe & 1) + (spa & 1);
+
 		var moves = [];
 		for (var j = 0; j < 4; j++) {
 			var move = bytes[p + 0x02 + j];
@@ -48,27 +55,18 @@ function readNewbox(bytes, start, db1, db2) {
 				moves.push(movesByIndex.get(move).name);
 			}
 		}
-		var caught = bytes[p + 0x1B] & 0b0111_1111;
+
+		var caught = bytes[p + 0x1B] & 0b01111111;
 		var landmark = landmarksByIndex.get(caught);
-		if (!landmark) {
-			landmark = "unknown";
-		} else {
-			landmark = landmark.name;
-		}
+		landmark = landmark ? landmark.name : "unknown";
+
 		pokemon.push({
-			name: pokemonByPokedex.get(bytes[p]).name,
-			level: bytes[p + 0x1c],
-			dvs: {
-				"hp": hp,
-				"atk": atk,
-				"def": def,
-				"spa": spa,
-				"spd": spd,
-				"spe": spe
-			},
-			"moves": moves,
-			"item": item,
-			"caught": landmark
+			name: mon.name,
+			level: bytes[p + 0x1e], // ← CRITICAL FIX
+			dvs: { hp, atk, def, spa, spd, spe },
+			moves,
+			item,
+			caught: landmark
 		});
 	}
 	return pokemon;
