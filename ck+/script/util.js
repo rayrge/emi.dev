@@ -126,26 +126,47 @@ function isShiny(poke) {
 }
 
 function getGender(poke) {
-	p = pokemonByName.get(poke.name);
-	if (p.gender.startsWith("f")) {
-		var atk = getDv(poke, "atk");
-		var def = getDv(poke, "def");
-		var spa = getDv(poke, "spa");
-		var spe = getDv(poke, "spe");
-		var sum = 15;
-		sum = (sum ^ atk) & 15;
-		sum = (sum ^ ((def << 3) | (def >> 1))) & 15;
-		sum = (sum ^ ((spe << 2) | (spe >> 2))) & 15;
-		sum = (sum ^ ((spa << 1) | (spa >> 3))) & 15;
-		var m = parseInt(parseFloat(p.gender.substring(1)) * 16 / 100);
-		if (sum >= m) {
-			return 2;
-		} else {
-			return 1;
-		}
-	} else {
-		return 0;
-	}
+    const p = pokemonByName.get(poke.name);
+
+    // Genderless
+    if (!p.gender || p.gender === "genderless") {
+        return 0;
+    }
+
+    // Always female / male
+    if (p.gender === "f100") return 1;
+    if (p.gender === "f0") return 2;
+
+    const atk = getDv(poke, "atk");
+    const def = getDv(poke, "def");
+    const spa = getDv(poke, "spa"); // Gen 2 uses Spc
+
+    const atkOdd = atk % 2 === 1;
+    const defEven = def % 2 === 0;
+    const spcOdd = spa % 2 === 1;
+
+    const percent = parseFloat(p.gender.substring(1));
+
+    let isFemale = false;
+
+    if (percent === 12.5) {
+        // 7:1
+        isFemale = atkOdd && defEven && spcOdd;
+    } else if (percent === 25) {
+        // 3:1
+        isFemale = defEven && spcOdd;
+    } else if (percent === 50) {
+        // 1:1
+        isFemale = spcOdd;
+    } else if (percent === 75) {
+        // 1:3
+        isFemale = defEven || spcOdd;
+    } else {
+        // fallback (just in case)
+        return 2;
+    }
+
+    return isFemale ? 1 : 2; // 1 = female, 2 = male
 }
 
 function getDv(poke, stat) {
