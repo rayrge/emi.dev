@@ -155,7 +155,6 @@ function finishParse(title, pokemon, deadPokemon) {
 	if (box.length > 0) {
 		setPlayer(0);
 	}
-	setCommands();
 	updateBox();
 	var popup = '<div onclick="closePopup()" class="save-success">' + title;
 	popup += '<lb></lb>Encounters: ' + pokemon.length;
@@ -606,39 +605,20 @@ function vsRecorderComplete(event) {
 		if (game.name == "pk") {
 			var response = JSON.parse(event.target.responseText);
 			var pokemon = [];
-			var deadPokemon = [];
 			for (var i = 0; i < 6; i++) {
-				var mon = readGen4Mon(response.party, 0 + 236 * i, true);
+				var mon = readGen4Mon(response.party, 0 + 236 * i);
 				if (mon) {
-					mon.storage = {
-						type: "party",
-						index: i,
-					};
 					pokemon.push(mon);
 				}
 			}
-			for (var b = 0; b < 18; b++) {
-				for (var a = 0; a < 30; a++) {
-					var index = b * 30 + a;
-					var mon = readGen4Mon(response.pc, 136 * index);
-					if (mon) {
-						if (b > 12) {
-							deadPokemon.push(mon);
-						} else {
-							pokemon.push(mon);
-						}
-					}
+			for (var a = 0; a < 18 * 30; a++) {
+				var mon = readGen4Mon(response.pc, 136 * a);
+				if (mon) {
+					pokemon.push(mon);
 				}
 			}
 			box = pokemon;
-			deadBox = deadPokemon
-			if (response.version != "0.2.0" && vsLinkVersionBothering < 1) {
-				vsLinkVersionBothering++;
-				document.getElementById("info-popup").innerHTML =
-					`<div onclick="closePopup()" class="save-error">Vs. Link Ersatz is out of date.<lb></lb>Please update for the latest features!</div>`;
-			} else {
-				finishParse("Successfully read Vs. Link Ersatz!", box, deadBox);
-			}
+			finishParse("Successfully read Vs. Link Ersatz!", pokemon, []);
 		} else {
 			connectToVsRecorder();
 			var response = event.target.responseText;
@@ -681,8 +661,6 @@ function vsRecorderFailed(event) {
 }
 
 function updateVsRecorder() {
-	postSoulLink();
-	getSoulLink();
 	var req = new XMLHttpRequest();
 	req.addEventListener("load", vsRecorderComplete);
 	req.addEventListener("error", vsRecorderFailed);
@@ -724,135 +702,6 @@ function connectToVsRecorder() {
 		document.getElementById("update-vs-recorder").classList.remove("vs-recorder-polling");
 		document.getElementById("update-vs-recorder").classList.remove("vs-recorder-disconnected");
 	}
-}
-
-function vsLinkCommandFailed() {
-	vsLinkCommandFeedback = "Errored :(";
-	setCommands();
-}
-
-function vsLinkCommandSucceeded() {
-	vsLinkCommandFeedback = "Synced!";
-	setCommands();
-	vsLinkIdleTimeout = setTimeout(() => {
-		vsLinkCommandFeedback = "Idle";
-		setCommands();
-	}, 5_000);
-}
-
-function commandStatus(member, status) {
-	vsLinkCommandFeedback = "Waiting..."
-	clearTimeout(vsLinkIdleTimeout);
-	var req = new XMLHttpRequest();
-	req.timeout = 2000;
-	req.addEventListener("load", e => {
-		var json = JSON.parse(e.target.responseText);
-		if (json.error) {
-			vsLinkCommandFailed();
-		} else {
-			vsLinkCommandSucceeded();
-		}
-	});
-	req.addEventListener("error", vsLinkCommandFailed);
-	req.addEventListener("abort", vsLinkCommandFailed);
-	req.open("POST", "http://localhost:31123/status");
-	req.send(`{"statuses": [{"index": ${member}, "status": "${status}"}]}`);
-
-	// Update on the client too
-	for (const mon of box) {
-		if (mon.storage?.type == "party" && mon.storage.index == member) {
-			mon.status = status;
-			break;
-		}
-	}
-	setCommands();
-}
-
-function commandPinTime(time) {
-	var hour = time;
-	if (time == "day") {
-		hour = 12;
-	} else if (time == "night") {
-		hour = 0;
-	}
-	vsLinkCommandFeedback = "Waiting..."
-	clearTimeout(vsLinkIdleTimeout);
-	var req = new XMLHttpRequest();
-	req.timeout = 2000;
-	req.addEventListener("load", e => {
-		var json = JSON.parse(e.target.responseText);
-		if (json.error) {
-			vsLinkCommandFailed();
-		} else {
-			vsLinkCommandSucceeded();
-		}
-	});
-	req.addEventListener("error", vsLinkCommandFailed);
-	req.addEventListener("abort", vsLinkCommandFailed);
-	if (time == "none") {
-		req.open("DELETE", "http://localhost:31123/time");
-		req.send();
-	} else {
-		req.open("PUT", "http://localhost:31123/time");
-		req.send(`{"time": {"hour": ${hour}}}`);
-	}
-	setCommands();
-}
-
-var soulLinkState = { enabled: false }
-var soulLinkBox = [];
-var soulLinkBoxByArea = new Map();
-
-function updateSoulBinding() {
-	soulLinkBoxByArea.clear();
-	for (const mon of soulLinkBox) {
-		if (mon.caught) {
-			soulLinkBoxByArea.set(mon.caught, mon);
-		}
-	}
-	updateCalc();
-}
-
-function enableSoulLink(url, myId, theirId) {
-	soulLinkState.url = url;
-	soulLinkState.myId = myId;
-	soulLinkState.theirId = theirId;
-	soulLinkState.enabled = true;
-	postSoulLink();
-	getSoulLink();
-}
-
-function postSoulLink() {
-	if (!soulLinkState.enabled) {
-		return;
-	}
-	var req = new XMLHttpRequest();
-	req.addEventListener("load", e => {
-	});
-	req.addEventListener("error", vsLinkCommandFailed);
-	req.addEventListener("abort", vsLinkCommandFailed);
-	req.open("POST", `${soulLinkState.url}/state/${soulLinkState.myId}`);
-	req.setRequestHeader("Content-Type", "application/json");
-	req.send(JSON.stringify({box: box}));
-}
-
-function getSoulLink() {
-	if (!soulLinkState.enabled) {
-		return;
-	}
-	var req = new XMLHttpRequest();
-	req.addEventListener("load", e => {
-		var json = JSON.parse(e.target.responseText);
-		console.log(json);
-		if (json.data?.box) {
-			soulLinkBox = json.data.box;
-			updateSoulBinding();
-		}
-	});
-	req.addEventListener("error", vsLinkCommandFailed);
-	req.addEventListener("abort", vsLinkCommandFailed);
-	req.open("GET", `${soulLinkState.url}/state/${soulLinkState.theirId}`);
-	req.send();
 }
 
 setInterval(function() {
