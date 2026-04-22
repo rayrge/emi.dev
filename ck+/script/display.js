@@ -677,6 +677,8 @@ function getEncounterPoke(poke, header, footer, extraClasses) {
 	`;
 }
 
+
+
 function setMap(xOffset = undefined, yOffset = 0, scale = 48) {
 	if (xOffset == undefined) {
 		xOffset = orElse(savedData["last-map"], 0);
