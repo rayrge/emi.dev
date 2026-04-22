@@ -15085,8 +15085,8 @@
             "id": 2,
             "items": [
                 {
-                    "amount": "several",
-                    "info": "they're around",
+                    "amount": "17-21",
+		    "info": "west",
                     "item": "oran-berry"
                 },
                 {
@@ -15112,7 +15112,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Talk to man on Island, Requires Surf",
+                    "info": "talk to man on Island, requires surf",
                     "item": "twistedspoon"
                 }
             ],
@@ -15132,22 +15132,22 @@
             "items": [
                 {
                     "amount": "30",
-                    "info": "Talk to man inside house",
+                    "info": "talk to man inside house",
                     "item": "oran-berry"
                 },
                 {
-                    "amount": "several",
-                    "info": "Tree by Mr Pokemon's House",
+                    "amount": "17-21",
+                    "info": "tree by Mr Pokemon's house",
                     "item": "pecha-berry"
                 },
                 {
-                    "amount": "several",
-                    "info": "Tree by house in south",
+                    "amount": "17-21",
+                    "info": "tree by house in south",
                     "item": "chesto-berry"
                 },
                 {
                     "amount": "1",
-                    "info": "Talk to Mr Pokemon after obtaining the Red Scale",
+                    "info": "talk to Mr Pokemon after obtaining the Red Scale",
                     "item": "exp-share"
                 }
             ],
@@ -15167,13 +15167,13 @@
             "id": 5,
             "items": [
                 {
-                    "amount": "several",
-                    "info": "Tree by Dark Cave",
+                    "amount": "17-21",
+                    "info": "tree by Dark Cave",
                     "item": "persim-berry"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained after returning Kenya to man by berry tree",
+                    "info": "obtained after returning Kenya to man by berry tree",
                     "item": "tm-50"
                 }
             ],
@@ -15193,13 +15193,13 @@
             "id": 6,
             "items": [
                 {
-                    "amount": "several",
-                    "info": "Renewable from tree in south west",
+                    "amount": "17-21",
+                    "info": "tree in south west",
                     "item": "cheri-berry"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Falkner",
+                    "info": "obtained after defeating Falkner",
                     "item": "tm-18"
                 }
             ],
@@ -15219,7 +15219,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Sage Li",
+                    "info": "obtained after defeating Sage Li",
                     "item": "hm-05"
                 }
             ],
@@ -15240,23 +15240,18 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Located north of route, requires cut",
+                    "info": "located north of route, requires cut",
                     "item": "tm-05"
                 },
                 {
                     "amount": "1",
-                    "info": "Talk to man at entrance of route after defeating Falkner",
+                    "info": "talk to man at entrance of route after defeating Bugsy",
                     "item": "miracle-seed"
                 },
                 {
                     "amount": "1",
-                    "info": "Talk to frieda above pokecenter by union cave entrance",
+                    "info": "talk to Frieda above pokecenter by Union Cave entrance",
                     "item": "poison-barb"
-                },
-                {
-                    "amount": "1",
-                    "info": "Talk to fisherman inside the pokecenter",
-                    "item": "old-rod"
                 }
             ],
             "locations": [
@@ -15276,22 +15271,22 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Obtained in the Omanyte Puzzle room while holding a water stone",
+                    "info": "obtained in the Omanyte Puzzle room while holding a water stone",
                     "item": "mystic-water"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained in the Omanyte Puzzle room while holding a water stone",
+                    "info": "obtained in the Omanyte Puzzle room while holding a water stone",
                     "item": "leppa-berry"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained in the Aerodactyl Puzzle room after using Flash",
+                    "info": "obtained in the Aerodactyl Puzzle room after using Flash",
                     "item": "sitrus-berry"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained in the Aerodactyl Puzzle room after using Flash",
+                    "info": "obtained in the Aerodactyl Puzzle room after using Flash",
                     "item": "moon-stone"
                 }
             ],
@@ -15312,7 +15307,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Located at entrance to B1F",
+                    "info": "located at entrance to B1F",
                     "item": "tm-39"
                 }
             ],
@@ -15331,8 +15326,8 @@
             "id": 11,
             "items": [
                 {
-                    "amount": "renewable",
-                    "info": "Tree by union cave entrance",
+                    "amount": "17-21",
+                    "info": "tree by union cave entrance",
                     "item": "pecha-berry"
                 }
             ],
@@ -15353,22 +15348,22 @@
             "items": [
                 {
                     "amount": "renewable",
-                    "info": "Buyable in mart",
+                    "info": "buyable in mart",
                     "item": "charcoal"
                 },
                 {
-                    "amount": "renewable",
-                    "info": "Tree by Kurt's house",
+                    "amount": "17-21",
+                    "info": "tree by Kurt's house",
                     "item": "aspear-berry"
                 },
                 {
                     "amount": "1",
-                    "info": "Talk to Kurt after beating slowpoke well grunts",
+                    "info": "talk to Kurt after beating Slowpoke Well grunts",
                     "item": "lure-ball"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Bugsy",
+                    "info": "obtained after defeating Bugsy",
                     "item": "tm-49"
                 }
             ],
@@ -15388,7 +15383,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Available in b2f after obtaining surf",
+                    "info": "available in b2f after obtaining surf",
                     "item": "kings-rock"
                 }
             ],
@@ -15408,12 +15403,12 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Man facing tree after getting cut",
+                    "info": "man facing tree after getting cut",
                     "item": "tm-02"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained from men after returning Farfetch'd",
+                    "info": "obtained from men after returning Farfetch'd",
                     "item": "hm-01"
                 }
             ],
@@ -15433,12 +15428,12 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Talk to woman in gatehouse with butterfree",
+                    "info": "talk to woman in gatehouse with butterfree",
                     "item": "tm-12"
                 },
                 {
                     "amount": "1",
-                    "info": "Talk to southern cooltrainerF after the B2B2B",
+                    "info": "talk to Irene after the B2B2B",
                     "item": "soft-sand"
                 }
             ],
@@ -15473,13 +15468,13 @@
                     "item": "tm-02"
                 },
                 {
-                    "amount": "1",
-                    "info": "Girl next to TM vendor on sundays",
+                    "amount": "renewable",
+                    "info": "underground vendor on sundays",
                     "item": "tm-21"
                 },
                 {
-                    "amount": "1",
-                    "info": "Girl next to TM vendor on sundays",
+                    "amount": "renewable",
+                    "info": "underground vendor on sundays",
                     "item": "tm-27"
                 },
                 {
@@ -15540,7 +15535,7 @@
                 {
                     "amount": "1",
                     "info": "Talk to flowershop lady after talking to assistant on route 36 and then again inside the house",
-                    "item": "squirtbottle"
+                    "item": "mystic-water"
                 },
                 {
                     "amount": "1",
@@ -15625,18 +15620,23 @@
                 },
                 {
                     "amount": "1",
-                    "info": "Given by the woman on bench",
+                    "info": "given by the woman on bench",
                     "item": "quick-claw"
                 },
                 {
                     "amount": "1",
-                    "info": "Come second in bug catching contest",
+                    "info": "come second in bug catching contest",
                     "item": "brightpowder"
                 },
                 {
                     "amount": "1",
-                    "info": "Win bug catching contest",
+                    "info": "win bug catching contest",
                     "item": "silverpowder"
+                },
+                {
+                    "amount": "1",
+                    "info": "talk to fisherman inside the gate",
+                    "item": "old-rod"
                 }
             ],
             "locations": [
@@ -15655,7 +15655,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Middle guy on violet city side",
+                    "info": "middle guy on violet city side",
                     "item": "hard-stone"
                 },
                 {
@@ -15664,8 +15664,8 @@
                     "item": "tm-08"
                 },
                 {
-                    "amount": "renewable",
-                    "info": "Tree by national-park entrance",
+                    "amount": "17-21",
+                    "info": "tree by national-park entrance",
                     "item": "rawst-berry"
                 }
             ],
@@ -15686,17 +15686,17 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Talk to boy by ledge on left side of the route",
+                    "info": "talk to boy by ledge on left side of the route",
                     "item": "magnet"
                 },
                 {
-                    "amount": "renewable",
-                    "info": "Tree in the middle path",
+                    "amount": "17-21",
+                    "info": "tree in the middle path",
                     "item": "leppa-berry"
                 },
                 {
-                    "amount": "renewable",
-                    "info": "Tree in the left path",
+                    "amount": "17-21",
+                    "info": "tree in the left path",
                     "item": "oran-berry"
                 }
             ],
@@ -15790,12 +15790,12 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Obtained from woman in MooMoo ranch after completing the side quest to save MooMoo",
+                    "info": "obtained from woman in MooMoo ranch after completing the side quest to save MooMoo",
                     "item": "tm-13"
                 },
                 {
                     "amount": "1",
-                    "info": "Hidden on the ground in MooMoo ranch",
+                    "info": "hidden on the ground in MooMoo ranch",
                     "item": "thick-club"
                 }
             ],
@@ -15816,7 +15816,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Talk to the Fisherman inside this house",
+                    "info": "talk to the Fisherman inside this house",
                     "item": "good-rod"
                 },
                 {
@@ -15876,7 +15876,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Talk to the Blue woman by rock smash rocks",
+                    "info": "talk to the Blue woman by rock smash rocks",
                     "item": "sharp-beak"
                 }
             ],
@@ -15894,7 +15894,18 @@
         },
         {
             "id": 31,
-            "items": [],
+            "items": [
+                {
+                    "amount": "1",
+                    "info": "B2F Rocket Hideout",
+                    "item": "hm-10"
+                },
+                {
+                    "amount": "1",
+                    "info": "B2F Rocket Hideout",
+                    "item": "metal-coat"
+                }
+],
             "locations": [
                 "whirl-island-nw",
 		"rocket-hideout",
@@ -15916,7 +15927,13 @@
         },
         {
             "id": 32,
-            "items": [],
+            "items": [
+                {
+                    "amount": "1",
+                    "info": "Susie gives it to you",
+                    "item": "hm-06"
+                }
+],
             "locations": [
                 "route-41"
             ],
@@ -15933,23 +15950,18 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Chuck",
+                    "info": "obtained after defeating Chuck",
                     "item": "tm-01"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Chuck and talking to the woman outside the gym",
+                    "info": "obtained after defeating Chuck and talking to the woman outside the gym",
                     "item": "hm-02"
                 },
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Eusine and entering the cafe",
+                    "info": "obtained after defeating Eusine and entering the cafe",
                     "item": "hm-04"
-                },
-                {
-                    "amount": "1",
-                    "info": "Talk to pharmacist after talking to jasmine in lighthouse",
-                    "item": "secret-potion"
                 }
             ],
             "locations": [
@@ -15967,8 +15979,8 @@
             "id": 34,
             "items": [
                 {
-                    "amount": "renewable",
-                    "info": "Tree behind the cut tree, requires surf",
+                    "amount": "17-21",
+                    "info": "tree behind the cut tree, requires surf",
                     "item": "lum-berry"
                 }
             ],
@@ -16016,13 +16028,8 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Pryce",
+                    "info": "obtained after defeating Pryce",
                     "item": "tm-16"
-                },
-                {
-                    "amount": "1",
-                    "info": "Obtained after defeating Rocket Hideout",
-                    "item": "hm-06"
                 }
             ],
             "locations": [
@@ -16076,12 +16083,12 @@
                 },
                 {
                     "amount": "1",
-                    "info": "On Island requiring Whirlpool.",
+                    "info": "on the island.",
                     "item": "tm-43"
                 },
                 {
                     "amount": "1",
-                    "info": "On Island requiring Whirlpool.",
+                    "info": "on the island.",
                     "item": "blackbelt"
                 }
             ],
@@ -17112,7 +17119,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Confuses opponent\n90% chance to discourage this move if player's HP is between 25% and 50%, further discouraged if player HP is below 25%"
+                "Confuses opponent"
             ],
             "index": 109,
             "name": "confuse-ray",
@@ -17123,7 +17130,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "If the target attempts to switch out, doubles in power and hits first\n50% chance to greatly encourage this move if player's HP is below 25%, 80% chance to discourage this move otherwise"
+                "If the target attempts to switch out, doubles in power and hits first"
             ],
             "index": 228,
             "name": "pursuit",
@@ -17154,7 +17161,7 @@
         {
             "accuracy": 90,
             "extra": [
-                "Sets up rain for 5 turns\nGreatly discourage this move if it would favour the player type-wise, particularly, if the player is a water-type"
+                "Sets up rain for 5 turns"
             ],
             "index": 240,
             "name": "rain-dance",
@@ -17177,7 +17184,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Lowers opponent's accuracy\nEncouraged if Player HP is full and enemy HP is above 50%, futher encouraged if player is badly poisoned"
+                "Lowers opponent's accuracy"
             ],
             "index": 108,
             "name": "smokescreen",
@@ -17188,7 +17195,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "User faints\nDismissed if any move (including Explosion) will KO the player\nWill not be used if enemies' last pokemon unless you are also on last pokemon. Otherwise discouraged by 90% when enemy HP is full"
+                "User faints"
             ],
             "index": 153,
             "name": "explosion",
@@ -17210,7 +17217,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Restores 50% HP\n90% chance to greatly encourage this move if enemy's HP is below 25%, Discourage this move if enemy's HP is higher than 50%"
+                "Restores 50% HP"
             ],
             "index": 208,
             "name": "milk-drink",
@@ -17255,7 +17262,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Base power is higher when the user has less HP, from 20 to 200\nDiscourage this move if enemy's HP is above 25%"
+                "Base power is higher when the user has less HP, from 20 to 200"
             ],
             "index": 179,
             "name": "reversal",
@@ -17319,7 +17326,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "If user is above half health, removes half of its max HP and sets the user to +6 attack, otherwise removes no health and sharply raises attack\nDismiss this move if enemy's attack is higher than +2 or if enemy's HP is below 50%, Else, discourage this move if enemy's HP is not full"
+                "If user is above half health, removes half of its max HP and sets the user to +6 attack, otherwise removes no health and sharply raises attack"
             ],
             "index": 187,
             "name": "belly-drum",
@@ -17330,7 +17337,7 @@
         {
             "accuracy": 90,
             "extra": [
-                "Sets up harsh sunlight for 5 turns\nGreatly discourage this move if it would favour the player type-wise, particularly, if the player is a Fire-type"
+                "Sets up harsh sunlight for 5 turns"
             ],
             "index": 241,
             "name": "sunny-day",
@@ -17341,7 +17348,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits before other attacks\nDismiss this move if the player is flying or underground, Greatly encourage this move if it will KO the player and the enemy is slower"
+                "Hits before other attacks"
             ],
             "index": 245,
             "name": "extremespeed",
@@ -17363,7 +17370,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Restores 50% HP\n90% chance to greatly encourage this move if enemy's HP is below 25%, Discourage this move if enemy's HP is higher than 50%"
+                "Restores 50% HP"
             ],
             "index": 234,
             "name": "morning-sun",
@@ -17427,7 +17434,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Absorbs damage for 2-3 turns, then deals twice the damage taken to the opponent\n90% chance to discourage this move unless enemy's HP is full"
+                "Absorbs damage for 2-3 turns, then deals twice the damage taken to the opponent"
             ],
             "index": 117,
             "name": "bide",
@@ -17460,7 +17467,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "If the user is above 25% HP, removes 25% HP and adds a Substitute that will take that much damage for the user\nDismiss this move if enemy's HP is below 50%"
+                "If the user is above 25% HP, removes 25% HP and adds a Substitute that will take that much damage for the user"
             ],
             "index": 164,
             "name": "substitute",
@@ -17471,7 +17478,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Becomes semi-invulnerable for a turn, then attacks on the next\nWhile semi-invulnerable, invulnerable to all moves except Gust, Thunder, Twister, and Whirlwind\nGust and Twister will deal double damage\nGreatly encourage this move if the player is flying or underground, and slower than the enemy."
+                "Becomes semi-invulnerable for a turn, then attacks on the next\nWhile semi-invulnerable, invulnerable to all moves except Gust, Thunder, Twister, and Whirlwind\nGust and Twister will deal double damage."
             ],
             "index": 19,
             "name": "fly",
@@ -17502,7 +17509,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Confuses opponent\n90% chance to discourage this move if player's HP is between 25% and 50%, further discouraged if player HP is below 25%"
+                "Confuses opponent"
             ],
             "index": 186,
             "name": "sweet-kiss",
@@ -17557,7 +17564,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Lowers opponent's accuracy\nEncouraged if Player HP is full and enemy HP is above 50%, futher encouraged if player is badly poisoned"
+                "Lowers opponent's accuracy"
             ],
             "index": 134,
             "name": "kinesis",
@@ -17588,7 +17595,7 @@
         {
             "accuracy": 30,
             "extra": [
-                "OHKO\nDismissed if player level is higher than enemies, discouraged if your hp is below 50%"
+                "OHKO"
             ],
             "index": 12,
             "name": "guillotine",
@@ -17816,7 +17823,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Charges on the first turn, then deals damage on the second\nDoes not need to charge in harsh sunlight\nDeals half damage in rain\n80% chance to encourage this move when it's sunny, 90% chance to discourage this move when it's raining"
+                "Charges on the first turn, then deals damage on the second\nDoes not need to charge in harsh sunlight\nDeals half damage in rain"
             ],
             "index": 76,
             "name": "solarbeam",
@@ -17827,7 +17834,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Restores 50% HP\n90% chance to greatly encourage this move if enemy's HP is below 25%, Discourage this move if enemy's HP is higher than 50%"
+                "Restores 50% HP"
             ],
             "index": 135,
             "name": "softboiled",
@@ -17849,7 +17856,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Afflicts the opponent with Leech Seed, transfering 1\/8 of its health to the opponent's opponent, even if the user switches out\nDiscourage this move if player's HP is below 50%"
+                "Afflicts the opponent with Leech Seed, transfering 1\/8 of its health to the opponent's opponent, even if the user switches out"
             ],
             "index": 73,
             "name": "leech-seed",
@@ -17927,7 +17934,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Always hits\n80% chance to greatly encourage this move if either enemy's accuracy level has been lowered three or more stages or player's evasion level has been raised three or more stages"
+                "Always hits"
             ],
             "index": 129,
             "name": "swift",
@@ -17949,7 +17956,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Sets the HP of both the user and the opponent to the average of their HP\nDiscourage this move if [enemy's current HP * 2 > player's current HP]."
+                "Sets the HP of both the user and the opponent to the average of their HP"
             ],
             "index": 220,
             "name": "pain-split",
@@ -17960,7 +17967,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Always hits\n80% chance to greatly encourage this move if either enemy's accuracy level has been lowered three or more stages or player's evasion level has been raised three or more stages"
+                "Always hits"
             ],
             "index": 233,
             "name": "vital-throw",
@@ -18021,7 +18028,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "If the user is a Ghost type, removes half of its max HP and inflicts a curse on the opponent that will deal 1\/4 HP a turn\nOtherwise, raises attack and defense, lowers speed"
+                "If the user is a Ghost type, removes half of its max HP and inflicts a curse on the opponent that will deal 1\/4 HP a turn"
             ],
             "index": 174,
             "name": "curse",
@@ -18043,7 +18050,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Lowers opponent's accuracy\nEncouraged if Player HP is full and enemy HP is above 50%, futher encouraged if player is badly poisoned"
+                "Lowers opponent's accuracy"
             ],
             "index": 28,
             "name": "sand-attack",
@@ -18054,7 +18061,7 @@
         {
             "accuracy": 30,
             "extra": [
-                "OHKO\nDismissed if player level is higher than enemies, discouraged if your hp is below 50%"
+                "OHKO"
             ],
             "index": 32,
             "name": "horn-drill",
@@ -18107,7 +18114,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn\n50% chance to discourage this move if the player is already trapped.  50% chance to greatly encourage this move if player is either badly poisoned, in love, identified, stuck in Rollout, or has a Nightmare. Otherwise 50% chance to increase use on your pokemon's first turn being out."
+                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn"
             ],
             "index": 35,
             "name": "wrap",
@@ -18129,7 +18136,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Double's the team's defense for 5 turns\nOver 50% chance to discourage this move unless enemy's HP is full"
+                "Double's the team's defense for 5 turns"
             ],
             "index": 115,
             "name": "reflect",
@@ -18140,7 +18147,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn\n50% chance to discourage this move if the player is already trapped.  50% chance to greatly encourage this move if player is either badly poisoned, in love, identified, stuck in Rollout, or has a Nightmare. Otherwise 50% chance to increase use on your pokemon's first turn being out."
+                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn"
             ],
             "index": 20,
             "name": "bind",
@@ -18184,7 +18191,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Prevents the user's team from being afflicted with status conditions or confusion for 5 turns\n80% chance to discourage this move if player's HP is below 50%"
+                "Prevents the user's team from being afflicted with status conditions or confusion for 5 turns"
             ],
             "index": 219,
             "name": "safeguard",
@@ -18346,7 +18353,7 @@
         {
             "accuracy": 90,
             "extra": [
-                "Lasts 5 turns, doubling in power each turn\nDoubles in damage if the user has used Defense Curl\n80% chance to discourage this move if the enemy is in love, confused, or paralyzed, 80% chance to discourage this move if the enemy's HP is below 25%, 80% chance to greatly encourage this move otherwise"
+                "Lasts 5 turns, doubling in power each turn\nDoubles in damage if the user has used Defense Curl"
             ],
             "index": 205,
             "name": "rollout",
@@ -18391,7 +18398,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits before other attacks\nDismiss this move if the player is flying or underground, Greatly encourage this move if it will KO the player and the enemy is slower"
+                "Hits before other attacks"
             ],
             "index": 98,
             "name": "quick-attack",
@@ -18493,7 +18500,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Deals half of the opponent's current HP\nDiscouraged if player's HP is below 25"
+                "Deals half of the opponent's current HP"
             ],
             "index": 162,
             "name": "super-fang",
@@ -18545,7 +18552,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Toxic poisons opponent\nDiscouraged if player's HP is below 50%"
+                "Toxic poisons opponent"
             ],
             "index": 92,
             "name": "toxic",
@@ -18567,7 +18574,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "User faints\nDismissed if any move (including SelfDestruct) will KO the player\nWill not be used if enemies' last pokemon unless you are also on last pokemon. Otherwise discouraged by 90% when enemy HP is full"
+                "User faints"
             ],
             "index": 120,
             "name": "selfdestruct",
@@ -18631,7 +18638,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Puts opponent to sleep\nGreatly encouraged if the enemy has either Dream Eater or Nightmare. 50% chance to greatly encourage sleep inducing moves otherwise"
+                "Puts opponent to sleep"
             ],
             "index": 147,
             "name": "spore",
@@ -18653,7 +18660,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Removes the effects of binding moves, Leech Seed, and Spikes on the user's side of the field\n80% chance to greatly encourage this move if the enemy is  trapped (Bind effect), seeded, or scattered with spikes."
+                "Removes the effects of binding moves, Leech Seed, and Spikes on the user's side of the field"
             ],
             "index": 229,
             "name": "rapid-spin",
@@ -18697,7 +18704,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Ranges in power from 10 to 150, 70 is most common\nHits and deals double damage opponents in the semi-invulnerable turn of Dig\nMove is greatly encouraged if the player is underground and the enemy is faster"
+                "Ranges in power from 10 to 150, 70 is most common\nHits and deals double damage opponents in the semi-invulnerable turn of Dig"
             ],
             "index": 222,
             "name": "magnitude",
@@ -18784,7 +18791,7 @@
         {
             "accuracy": 90,
             "extra": [
-                "Puts opponent to sleep\nGreatly encouraged if the enemy has either Dream Eater or Nightmare. 50% chance to greatly encourage sleep inducing moves otherwise"
+                "Puts opponent to sleep"
             ],
             "index": 142,
             "name": "lovely-kiss",
@@ -18818,7 +18825,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Lowers opponent's accuracy\nEncouraged if Player HP is full and enemy HP is above 50%, futher encouraged if player is badly poisoned"
+                "Lowers opponent's accuracy"
             ],
             "index": 148,
             "name": "flash",
@@ -18883,7 +18890,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Infatuates the opponent\n80% chance to encourage this move during the first turn of player's Pokemon. 80% chance to discourage this move otherwise"
+                "Infatuates the opponent"
             ],
             "index": 213,
             "name": "attract",
@@ -18894,7 +18901,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Charges for a turn before attacking\nDismisses move when under the effect of perish song or if you have used protect\nHas an increased critical hit rate"
+                "Charges for a turn before attacking"
             ],
             "index": 13,
             "name": "razor-wind",
@@ -18916,7 +18923,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Goes first, prevents being attacked for the turn\nGreatly discourage this move if the enemy already used Protect, if the player is locked on, if the player's Fury Cutter is boosted enough, if the player has charged a two-turn move, if the player is affected by Toxic, Leech Seed, or Curse,  80% chance to encourage this move otherwise"
+                "Pevents being attacked for the turn"
             ],
             "index": 182,
             "name": "protect",
@@ -18938,7 +18945,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Paralyzes opponent\n50% chance to discourage this move if player's HP is below 25%. 80% chance to greatly encourage this moveif enemy is slower than player and its HP is above 25%."
+                "Paralyzes opponent"
             ],
             "index": 86,
             "name": "thunder-wave",
@@ -18949,7 +18956,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Raises evasion\nDismiss this move if enemy's evasion can't raise anymore, greatly encouraged if player is poisoned, greatly discouraged if player HP is below 25%"
+                "Raises evasion"
             ],
             "index": 104,
             "name": "double-team",
@@ -18960,7 +18967,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn\n50% chance to discourage this move if the player is already trapped.  50% chance to greatly encourage this move if player is either badly poisoned, in love, identified, stuck in Rollout, or has a Nightmare. Otherwise 50% chance to increase use on your pokemon's first turn being out."
+                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn"
             ],
             "index": 250,
             "name": "whirlpool",
@@ -19004,7 +19011,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Restores 50% HP\n90% chance to greatly encourage this move if enemy's HP is below 25%, Discourage this move if enemy's HP is higher than 50%"
+                "Restores 50% HP"
             ],
             "index": 236,
             "name": "moonlight",
@@ -19024,7 +19031,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Double's the team's special defense for 5 turns\nOver 50% chance to discourage this move unless enemy's HP is full"
+                "Double's the team's special defense for 5 turns"
             ],
             "index": 113,
             "name": "light-screen",
@@ -19057,7 +19064,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Sets up a sandstorm for 5 turns\nGreatly discouraged if the player is immune to Sandstorm damage, or if player's HP is below 50%, else encourage by 50%"
+                "Sets up a sandstorm for 5 turns"
             ],
             "index": 201,
             "name": "sandstorm",
@@ -19129,8 +19136,8 @@
         {
             "accuracy": 100,
             "extra": [
-                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn\n50% chance to discourage this move if the player is already trapped.  50% chance to greatly encourage this move if player is either badly poisoned, in love, identified, stuck in Rollout, or has a Nightmare. Otherwise 50% chance to increase use on your pokemon's first turn being out."
-            ],
+                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn"
+           ],
             "index": 83,
             "name": "fire-spin",
             "power": 20,
@@ -19140,7 +19147,7 @@
         {
             "accuracy": 60,
             "extra": [
-                "Confuses opponent\n90% chance to discourage this move if player's HP is between 25% and 50%, further discouraged if player HP is below 25%"
+                "Confuses opponent"
             ],
             "index": 48,
             "name": "supersonic",
@@ -19185,7 +19192,7 @@
         {
             "accuracy": 70,
             "extra": [
-                "Puts opponent to sleep\nGreatly encouraged if the enemy has either Dream Eater or Nightmare. 50% chance to greatly encourage sleep inducing moves otherwise"
+                "Puts opponent to sleep"
             ],
             "index": 47,
             "name": "sing",
@@ -19196,7 +19203,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits 2 times\n20% chance to poison opponents (including steel types)"
+                "Hits 2 times"
             ],
             "index": 41,
             "name": "twineedle",
@@ -19208,7 +19215,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Raises evasion\nCauses Stomp to deal double damage afterwards\nDismiss this move if enemy's evasion can't raise anymore, greatly encouraged if player is poisoned, greatly discouraged if player HP is below 25%"
+                "Raises evasion\nCauses Stomp to deal double damage afterwards"
             ],
             "index": 107,
             "name": "minimize",
@@ -19275,7 +19282,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Paralyzes opponent\n50% chance to discourage this move if player's HP is below 25%. 80% chance to greatly encourage this moveif enemy is slower than player and its HP is above 25%."
+                "Paralyzes opponent"
             ],
             "index": 78,
             "name": "stun-spore",
@@ -19286,7 +19293,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Becomes semi-invulnerable for a turn, then attacks on the next\nWhile semi-invulnerable, invulnerable to all moves except Earthquake, Magnitude, and Fissure\nEarthquake and Magnitude will deal double damage\nGreatly encourage this move if the player is flying or underground, and slower than the enemy."
+                "Becomes semi-invulnerable for a turn, then attacks on the next\nWhile semi-invulnerable, invulnerable to all moves except Earthquake, Magnitude, and Fissure\nEarthquake and Magnitude will deal double damage"
             ],
             "index": 91,
             "name": "dig",
@@ -19317,7 +19324,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Has an increased critical hit rate\nCannot miss"
+                "Has an increased critical hit rate"
             ],
             "index": 75,
             "name": "razor-leaf",
@@ -19350,7 +19357,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Clears the opponent's stat changes\n85% chance to encourage this move if any of enemy's stat levels is lower than -2., 85% chance to encourage this move if any of player's stat levels is higher than +2."
+                "Clears the opponent's stat changes"
             ],
             "index": 114,
             "name": "haze",
@@ -19372,7 +19379,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Forces the opponent to switch\nHits opponents in the semi-invulnerable turn of Fly"
+                "Forces the opponent to switch"
             ],
             "index": 18,
             "name": "whirlwind",
@@ -19393,7 +19400,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "raises the user's speed\nWill instantly thaw the user\nmove is guaranteed if the enemy is frozen"
+                "raises the user's speed\nWill instantly thaw the user"
             ],
             "index": 172,
             "name": "flame-wheel",
@@ -19470,7 +19477,7 @@
         {
             "accuracy": 30,
             "extra": [
-                "OHKO\nHits opponents in the semi-invulnerable turn of Dig\nDismissed if player level is higher than enemies, discouraged if your hp is below 50%"
+                "OHKO\nHits opponents in the semi-invulnerable turn of Dig"
             ],
             "index": 90,
             "name": "fissure",
@@ -19534,7 +19541,7 @@
         {
             "accuracy": 75,
             "extra": [
-                "Puts opponent to sleep\nGreatly encouraged if the enemy has either Dream Eater or Nightmare. 50% chance to greatly encourage sleep inducing moves otherwise"
+                "Puts opponent to sleep"
             ],
             "index": 79,
             "name": "sleep-powder",
@@ -19554,7 +19561,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Paralyzes opponent\n50% chance to discourage this move if player's HP is below 25%. 80% chance to greatly encourage this moveif enemy is slower than player and its HP is above 25%."
+                "Paralyzes opponent"
             ],
             "index": 137,
             "name": "glare",
@@ -19575,7 +19582,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits an deals double damage against opponents in the semi-invulnerable turn of Fly\nMove is greatly encouraged if the player is flying and the enemy is faster"
+                "Hits an deals double damage against opponents in the semi-invulnerable turn of Fly"
             ],
             "index": 16,
             "name": "gust",
@@ -19640,7 +19647,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Restores 50% HP\n90% chance to greatly encourage this move if enemy's HP is below 25%, Discourage this move if enemy's HP is higher than 50%"
+                "Restores 50% HP"
             ],
             "index": 235,
             "name": "synthesis",
@@ -19660,7 +19667,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Goes first, prevents being attacked for the turn\nGreatly discourage this move if the enemy already used Protect, if the player is locked on, if the player's Fury Cutter is boosted enough, if the player has charged a two-turn move, if the player is affected by Toxic, Leech Seed, or Curse,  80% chance to encourage this move otherwise"
+                "Goes first, prevents being attacked for the turn"
             ],
             "index": 197,
             "name": "detect",
@@ -19671,7 +19678,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Sharply raise's the opponent's attack, confuses opponent\n80% chance to encourage this move during the first turn of player's Pokemon. 80% chance to discourage this move otherwise"
+                "Sharply raise's the opponent's attack, confuses opponent"
             ],
             "index": 207,
             "name": "swagger",
@@ -19733,7 +19740,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Will KO the opponent if the user dies before its next turn\n33% chance to encourage this move"
+                "Will KO the opponent if the user dies before its next turn"
             ],
             "index": 194,
             "name": "destiny-bond",
@@ -19776,7 +19783,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Survive all damage on 1 HP until the end of the turn\nWill occur before attacks\nGreatly discourage this move if the enemy already used Protect, Greatly discourage this move if the enemy's HP is full, 80% chance to greatly encourage this move if the enemy has Reversal"
+                "Survive all damage on 1 HP until the end of the turn"
             ],
             "index": 203,
             "name": "endure",
@@ -19798,7 +19805,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn\n50% chance to discourage this move if the player is already trapped.  50% chance to greatly encourage this move if player is either badly poisoned, in love, identified, stuck in Rollout, or has a Nightmare. Otherwise 50% chance to increase use on your pokemon's first turn being out."
+                "For 2-5 turns, prevents the opponent from switching and deals 1\/16 HP at the end of each turn"
             ],
             "index": 128,
             "name": "clamp",
@@ -19913,7 +19920,7 @@
         {
             "accuracy": 70,
             "extra": [
-                "Puts opponent to sleep\nGreatly encouraged if the enemy has either Dream Eater or Nightmare. 50% chance to greatly encourage sleep inducing moves otherwise"
+                "Puts opponent to sleep"
             ],
             "index": 95,
             "name": "hypnosis",
@@ -19935,7 +19942,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits and deals double damage opponents in the semi-invulnerable turn of Dig\nMove is greatly encouraged if the player is underground and the enemy is faster"
+                "Hits and deals double damage opponents in the semi-invulnerable turn of Dig"
             ],
             "index": 89,
             "name": "earthquake",
@@ -19965,7 +19972,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits before other attacks\nDismiss this move if the player is flying or underground, Greatly encourage this move if it will KO the player and the enemy is slower"
+                "Hits before other attacks"
             ],
             "index": 183,
             "name": "mach-punch",
@@ -20007,7 +20014,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "20% chance to flinch opponent\nHits an deals double damage against opponents in the semi-invulnerable turn of Fly\nMove is greatly encouraged if the player is flying and the enemy is faster"
+                "20% chance to flinch opponent"
             ],
             "index": 239,
             "name": "twister",
@@ -20051,7 +20058,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Restores 50% HP\n90% chance to greatly encourage this move if enemy's HP is below 25%, Discourage this move if enemy's HP is higher than 50%"
+                "Restores 50% HP"
             ],
             "index": 105,
             "name": "recover",
@@ -20073,7 +20080,7 @@
         {
             "accuracy": 70,
             "extra": [
-                "30% chance to paralyze opponent\n100% accurate in rain, 50% accurage in sun\nHits opponents in the semi-invulnerable turn of Fly\nMove is greatly encouraged if the player is flying and the enemy is faster\n90% chance to discourage this move when it's sunny"
+                "30% chance to paralyze opponent\n100% accurate in rain, 50% accurate in sun. Hits opponents in the semi vulnerable turn of Fly"
             ],
             "index": 87,
             "name": "thunder",
@@ -29230,10 +29237,6 @@
                     "move": "psychic"
                 },
                 {
-                    "level": 43,
-                    "move": "thief"
-                },
-                {
                     "level": 46,
                     "move": "psych-up"
 		},
@@ -37125,7 +37128,7 @@
             "evolutions": [
                 {
                     "into": "azumarill",
-                    "level": 18,
+                    "level": 16,
                     "method": "level"
                 }
             ],
@@ -37257,10 +37260,10 @@
             "name": "azumarill",
             "pokedex": 184,
             "stats": {
-                "atk": 65,
+                "atk": 50,
                 "def": 80,
                 "hp": 100,
-                "spa": 65,
+                "spa": 50,
                 "spd": 80,
                 "spe": 50
             },
@@ -37494,7 +37497,7 @@
                 },
                 {
                     "level": 14,
-                    "move": "mega-drain"
+                    "move": "giga-drain"
                 },
                 {
                     "level": 15,
@@ -40435,7 +40438,7 @@
             "stats": {
                 "atk": 50,
                 "def": 120,
-                "hp": 65,
+                "hp": 60,
                 "spa": 90,
                 "spd": 80,
                 "spe": 30
@@ -42043,7 +42046,7 @@
             "evolutions": [
                 {
                     "into": "jynx",
-                    "level": 30,
+                    "level": 28,
                     "method": "level"
                 }
             ],
@@ -42144,7 +42147,7 @@
             "evolutions": [
                 {
                     "into": "electabuzz",
-                    "level": 30,
+                    "level": 28,
                     "method": "level"
                 }
             ],
@@ -42236,7 +42239,7 @@
             "evolutions": [
                 {
                     "into": "magmar",
-                    "level": 30,
+                    "level": 28,
                     "method": "level"
                 }
             ],
@@ -43805,8 +43808,8 @@
           "moves": [
             "double-team",
             "dizzy-punch",
-            "flamethrower",
-            "thunderbolt"
+            "fire-punch",
+            "thunderpunch"
           ]
         },
         {
@@ -44630,7 +44633,7 @@
           "level": 18,
           "item": "lum-berry",
           "moves": [
-            "drill-peck",
+            "wing-attack",
             "return",
             "bubblebeam",
             "aurora-beam"
@@ -51687,7 +51690,7 @@
           "name": "unown",
           "dvs": {
                         "atk": 13,
-                        "def": 9,
+                        "def": 8,
                         "hp": 15,
                         "spa": 15,
                         "spd": 15,
