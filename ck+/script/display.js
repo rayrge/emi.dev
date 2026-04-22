@@ -455,10 +455,9 @@ function updateCalc() {
 function getEnemyTeamDisplay(enemyTeam, trainer) {
 	var v = "";
 	for (let i in enemyTeam) {
-		var extraClasses = faintedMonToggles.get(`${trainer}-${i}`) == true ? "toggled-party-member" : "";
 		var prioClass = ["low", "neutral", "high"][Math.sign(getSwitchPriority(enemyTeam[i], myPoke)) + 1];
-		var img = `<img draggable="false" class="${prioClass}-switch-priority" src="${getPokeImage(enemyTeam[i], "small")}">`;
-		v += `<div class="micro-mon drag-sortable ${extraClasses}" drag-content="enemy-${trainer}-${i}" drag-type="box" oncontextmenu="togglePartyIcon(event, ${trainer}, ${i})" onclick="setEnemy(${trainer}, ${i})">${img}</div>`;
+		var img = `<img draggable="false" class="${prioClass}-switch-priority" src="${getPokeImage(enemyTeam[i])}">`;
+		v += `<div class="micro-mon" onclick="setEnemy(${trainer}, ${i})">${img}</div>`;
 	}
 	return v;
 }
