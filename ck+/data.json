@@ -2057,7 +2057,7 @@
                 },
                 {
                     "chance": 10,
-                    "level": 22
+                    "level": 22,
                     "pokemon": "shuckle"
                 }
             ],
@@ -38636,7 +38636,7 @@
                     "move": "pain-split"
                 },
                 {
-                    "level": 38
+                    "level": 38,
                     "move": "giga-drain"
                 },
                 {
@@ -39962,7 +39962,7 @@
                 },
                 {
                     "level": 38,
-                    "move": "metal-claw
+                    "move": "metal-claw"
                 },
                 {
                     "level": 41,
@@ -39970,7 +39970,7 @@
                 },
                 {
                     "level": 44,
-                    "move": "shadow-ball
+                    "move": "shadow-ball"
                 },
                 {
                     "level": 49,
@@ -41823,18 +41823,18 @@
             "base_experience": 91,
             "evolutions": [
                 {
-                    "into": "hitmonchan"
-                    "level": 20
+                    "into": "hitmonchan",
+                    "level": 20,
                     "method": "level"
                 },
                 {               
-                    "into": "hitmonlee"
-                    "level": 20
+                    "into": "hitmonlee",
+                    "level": 20,
                     "method": "level"
                 },
                 {
-                    "into": "hitmontop"
-                    "level": 20
+                    "into": "hitmontop",
+                    "level": 20,
                     "method": "level"
                 }
             ],
@@ -46983,7 +46983,7 @@
       "team": [
         {
           "name": "sunflora",
-          "level": 38
+          "level": 38,
           "item": "quick-claw",
           "moves": [
             "growth",
@@ -46993,7 +46993,7 @@
         },
         {
           "name": "rapidash",
-          "level": 36
+          "level": 36,
           "item": "soft-sand",
           "moves": [
             "flamethrower",
