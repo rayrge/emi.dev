@@ -7265,7 +7265,7 @@
                             {
                                 "chance": 20,
                                 "level": 13,
-                                "pokemon": "pidgey"
+                                "pokemon": "paras"
                             },
                             {
                                 "chance": 10,
@@ -7312,7 +7312,7 @@
                             {
                                 "chance": 5,
                                 "level": 12,
-                                "pokemon": "drowzee"
+                                "pokemon": "paras"
                             },
                             {
                                 "chance": 4,
@@ -7334,7 +7334,7 @@
                             {
                                 "chance": 30,
                                 "level": 14,
-                                "pokemon": "hoothoot"
+                                "pokemon": "paras"
                             },
                             {
                                 "chance": 20,
@@ -18765,7 +18765,7 @@
             "type": "psychic"
         },
         {
-            "accuracy": 90,
+            "accuracy": 75,
             "extra": [
                 "Puts opponent to sleep"
             ],
@@ -25984,7 +25984,7 @@
             "evolutions": [
                 {
                     "into": "alakazam",
-                    "level": 55,
+                    "level": 41,
                     "method": "level"
                 }
             ],
@@ -30047,11 +30047,11 @@
                 },
                 {
                     "level": 40,
-                    "move": "jump-kick"
+                    "move": "mega-kick"
                 },
                 {
                     "level": 42,
-                    "move": "mega-kick"
+                    "move": "jump-kick"
                 },
                 {
                     "level": 44,
@@ -43271,7 +43271,7 @@
         {
           "name": "butterfree",
           "level": 11,
-          "item": "oran-berry",
+          "item": "berry-juice",
           "moves": [
             "sleep-powder",
             "gust",
@@ -43578,7 +43578,7 @@
         {
           "name": "psyduck",
           "level": 16,
-          "item": "miracleberry",
+          "item": "lum-berry",
           "moves": [
             "toxic",
             "encore",
@@ -47625,7 +47625,7 @@
           "item": "nevermeltice",
           "moves": [
             "light-screen",
-            "thunderbolt",
+            "thunder",
             "aurora-beam",
 	    "explosion"
           ]
@@ -54183,7 +54183,7 @@
         {
           "name": "dugtrio",
           "level": 68,
-          "item": "soft-dand",
+          "item": "soft-sand",
           "moves": [
             "earthquake",
             "swagger",
