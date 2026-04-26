@@ -629,7 +629,7 @@ function vsRecorderComplete(event) {
 			}
 			var pokemon = [];
 			var deadPokemon = [];
-			pokemon = pokemon.concat(readPokemonList(hexToBytes(obj.Party), 0, 6, 48));
+			pokemon = pokemon.concat(readPokemonList(0xdce5, 0, 6, 48));
 			var newboxBytes = hexToBytes(obj.NewboxMetadata);
 			var db1 = newboxBytes.length;
 			newboxBytes = newboxBytes.concat(hexToBytes(obj.NewboxDatabase1));
