@@ -21166,7 +21166,7 @@
                 "atk": 45,
                 "def": 50,
                 "hp": 60,
-                "spa": 90,
+                "spa": 80,
                 "spd": 80,
                 "spe": 70
             },
@@ -38129,7 +38129,7 @@
                     "move": "bubblebeam"
                 },
                 {
-                    "level": 23,
+                    "level": 31,
                     "move": "earthquake"
                 },
                 {
