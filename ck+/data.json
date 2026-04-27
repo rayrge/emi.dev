@@ -40448,7 +40448,7 @@
                     "move": "roar"
                 },
                 {
-                    "level": 41,
+                    "level": 44,
                     "move": "earthquake"
                 }
             ],
@@ -40542,7 +40542,7 @@
                     "move": "roar"
                 },
                 {
-                    "level": 41,
+                    "level": 44,
                     "move": "earthquake"
                 },
                 {
@@ -41415,7 +41415,7 @@
                 },
                 {
                     "level": 41,
-                    "move": "endure"
+                    "move": "earthquake"
                 },
                 {
                     "level": 45,
@@ -41423,7 +41423,7 @@
                 },
                 {
                     "level": 49,
-                    "move": "earthquake"
+                    "move": "endure"
                 },
                 {
                     "level": 51,
@@ -41507,7 +41507,7 @@
                 },
                 {
                     "level": 41,
-                    "move": "endure"
+                    "move": "earthquake"
                 },
                 {
                     "level": 45,
@@ -41515,7 +41515,7 @@
                 },
                 {
                     "level": 49,
-                    "move": "earthquake"
+                    "move": "endure"
                 },
                 {
                     "level": 51,
@@ -49162,7 +49162,7 @@
     },
     {
       "area": "Rocket Hideout",
-      "name": "executive-petrel",
+      "name": "executive-petrel-1",
       "team": [
         {
           "name": "exeggutor",
@@ -49234,7 +49234,7 @@
     },
     {
       "area": "Rocket Hideout",
-      "name": "executive-ariana",
+      "name": "executive-ariana-1",
       "team": [
         {
           "name": "dodrio",
@@ -51730,7 +51730,7 @@
     },
     {
       "area": "Radio Tower",
-      "name": "executive-proton",
+      "name": "executive-proton-2",
       "team": [
         {
           "name": "politoed",
@@ -52523,7 +52523,7 @@
     },
  {
       "area": "Radio Tower",
-      "name": "executive-petrel",
+      "name": "executive-petrel-2",
       "team": [
         {
           "name": "murkrow",
@@ -52595,7 +52595,7 @@
     },
  {
       "area": "Radio Tower",
-      "name": "executive-ariana",
+      "name": "executive-ariana-2",
       "team": [
         {
           "name": "kangaskhan",
