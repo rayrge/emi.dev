@@ -15874,7 +15874,7 @@
                 {
                     "amount": "1",
                     "info": "B2F Rocket Hideout",
-                    "item": "hm-10"
+                    "item": "tm-10"
                 },
                 {
                     "amount": "1",
@@ -19589,7 +19589,7 @@
             "type": "normal"
         },
         {
-            "accuracy": 100,
+            "accuracy": 90,
             "extra": [
                 "If it misses or fails, deals 1\/8 the damage it would've dealt to the user instead"
             ],
@@ -49922,7 +49922,6 @@
     {
       "area": "Tin Tower",
       "name": "sage-gaku",
-      "b2b": true,
       "team": [
         {
           "name": "xatu",
