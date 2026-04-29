@@ -51806,7 +51806,7 @@
       "team": [
         {
           "name": "mantine",
-          "level": 61,
+          "level": 66,
           "item": "mystic-water",
           "moves": [
             "surf",
@@ -51817,7 +51817,7 @@
         },
         {
           "name": "beedrill",
-          "level": 62,
+          "level": 66,
           "item": "scope-lens",
           "moves": [
             "acid",
@@ -51828,7 +51828,7 @@
         },
         {
           "name": "sudowoodo",
-          "level": 61,
+          "level": 66,
           "item": "hard-stone",
           "moves": [
             "rock-slide",
@@ -51846,15 +51846,16 @@
       "team": [
         {
           "name": "forretress",
-          "level": 62,
+          "level": 66,
           "item": "lum-berry",
           "moves": [
-            "explosion"
+            "explosion",
+	    "earthquake"
           ]
         },
         {
           "name": "pidgeot",
-          "level": 61,
+          "level": 66,
           "item": "focus-band",
           "moves": [
             "razor-wind",
@@ -51872,7 +51873,7 @@
       "team": [
         {
           "name": "ariados",
-          "level": 62,
+          "level": 66,
           "item": "quick-claw",
           "moves": [
             "spider-web",
@@ -51883,7 +51884,7 @@
         },
         {
           "name": "seaking",
-          "level": 61,
+          "level": 66,
           "item": "sitrus-berry",
           "moves": [
             "waterfall",
@@ -51894,7 +51895,7 @@
         },
         {
           "name": "venomoth",
-          "level": 62,
+          "level": 66,
           "item": "leftovers",
           "moves": [
             "moonlight",
@@ -52671,7 +52672,7 @@
       "team": [
         {
           "name": "alakazam",
-          "level": 63,
+          "level": 64,
           "item": "twistedspoon",
           "moves": [
             "double-team",
@@ -52682,18 +52683,18 @@
         },
         {
           "name": "weezing",
-          "level": 63,
+          "level": 64,
           "item": "focus-band",
           "moves": [
             "explosion",
             "pain-split",
-            "sludge-bomb",
+            "sludge",
             "thunderbolt"
           ]
         },
         {
           "name": "poliwrath",
-          "level": 63,
+          "level": 64,
           "item": "lum-berry",
           "moves": [
             "waterfall",
@@ -52704,7 +52705,7 @@
         },
         {
           "name": "houndoom",
-          "level": 63,
+          "level": 64,
           "item": "charcoal",
           "moves": [
             "fire-blast",
@@ -52715,7 +52716,7 @@
         },
         {
           "name": "snorlax",
-          "level": 63,
+          "level": 64,
           "item": "leftovers",
           "moves": [
             "rest",
@@ -52726,7 +52727,7 @@
         },
         {
           "name": "aerodactyl",
-          "level": 63,
+          "level": 64,
           "item": "scope-lens",
           "moves": [
             "ancientpower",
