@@ -31739,6 +31739,14 @@
 	  	{
 		    "level": 49,
 		    "move": "destiny-bond"
+		},
+	  	{
+		    "level": 51,
+		    "move": "icy-wind"
+		},
+	  	{
+		    "level": 61,
+		    "move": "lovely-kiss"
 		}
             ],
             "name": "jynx",
@@ -31824,6 +31832,14 @@
                 },
 	  	{
 		    "level": 49,
+		    "move": "submission"
+		},
+	  	{
+		    "level": 51,
+		    "move": "sludge"
+		},
+	  	{
+		    "level": 61,
 		    "move": "cross-chop"
 		}
             ],
@@ -31917,6 +31933,14 @@
                 },
 	  	{
 		    "level": 49,
+		    "move": "psychic"
+		},
+	  	{
+		    "level": 51,
+		    "move": "submission"
+		},
+	  	{
+		    "level": 61,
 		    "move": "fire-blast"
 		}
             ],
