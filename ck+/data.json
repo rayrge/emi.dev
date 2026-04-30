@@ -6,45 +6,45 @@
                     "day": [
                         {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "aerodactyl"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "aerodactyl"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 20,
-                            "level": 63,
-                            "pokemon": "lapras"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 10,
-                            "level": 63,
-                            "pokemon": "aerodactyl"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         }
                     ],
                     "night": [
-                        {
+                       {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "aerodactyl"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 35,
-                            "level": 63,
-                            "pokemon": "aerodactyl"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 20,
-                            "level": 63,
-                            "pokemon": "lapras"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         },
                         {
                             "chance": 10,
-                            "level": 63,
-                            "pokemon": "lapras"
+                            "level": 20,
+                            "pokemon": "dragonair"
                         }
                     ]
                 },
@@ -33644,7 +33644,35 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "wrap"
+                },
+                {
+                    "level": 8,
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 15,
+                    "move": "twister"
+                },
+                {
+                    "level": 22,
                     "move": "dragon-rage"
+                },
+                {
+                    "level": 29,
+                    "move": "body-slam"
+                },
+                {
+                    "level": 36,
+                    "move": "whirlpool"
+                },
+                {
+                    "level": 43,
+                    "move": "safeguard"
+                },
+                {
+                    "level": 50,
+                    "move": "outrage"
                 }
             ],
             "name": "dratini",
@@ -33709,31 +33737,35 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "dragon-rage"
-                },
-                {
-                    "level": 30,
-                    "move": "thunder-wave"
-                },
-                {
-                    "level": 36,
-                    "move": "bubblebeam"
-                },
-                {
-                    "level": 39,
                     "move": "wrap"
                 },
                 {
-                    "level": 42,
+                    "level": 8,
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 15,
+                    "move": "twister"
+                },
+                {
+                    "level": 22,
+                    "move": "dragon-rage"
+                },
+                {
+                    "level": 29,
                     "move": "body-slam"
                 },
                 {
-                    "level": 47,
-                    "move": "aurora-beam"
+                    "level": 38,
+                    "move": "crunch"
                 },
                 {
-                    "level": 51,
+                    "level": 47,
                     "move": "safeguard"
+                },
+                {
+                    "level": 56,
+                    "move": "outrage"
                 }
             ],
             "name": "dragonair",
@@ -33792,35 +33824,51 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "twister"
+                },
+                {
+                    "level": 8,
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 22,
                     "move": "dragon-rage"
+                },
+                {
+                    "level": 29,
+                    "move": "body-slam"
+                },
+                {
+                    "level": 38,
+                    "move": "crunch"
+                },
+                {
+                    "level": 47,
+                    "move": "safeguard"
                 },
                 {
                     "level": 55,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 59,
-                    "move": "thunderbolt"
+                    "level": 61,
+                    "move": "outrage"
                 },
                 {
-                    "level": 60,
+                    "level": 69,
                     "move": "ice-beam"
                 },
                 {
-                    "level": 65,
+                    "level": 69,
                     "move": "flamethrower"
                 },
                 {
-                    "level": 74,
-                    "move": "extremespeed"
+                    "level": 69,
+                    "move": "thunderbolt"
                 },
                 {
-                    "level": 87,
-                    "move": "double-edge"
-                },
-                {
-                    "level": 99,
-                    "move": "outrage"
+                    "level": 75,
+                    "move": "hyper-beam"
                 }
             ],
             "name": "dragonite",
@@ -51236,7 +51284,7 @@
       "team": [
         {
           "name": "clefable",
-          "level": 60,
+          "level": 63,
           "item": "brightpowder",
           "moves": [
             "spikes",
@@ -51247,7 +51295,7 @@
         },
         {
           "name": "girafarig",
-          "level": 60,
+          "level": 63,
           "item": "kings-rock",
           "moves": [
             "double-edge",
@@ -51258,7 +51306,7 @@
         },
         {
           "name": "farfetchd",
-          "level": 60,
+          "level": 63,
           "item": "stick",
           "moves": [
             "cross-chop",
@@ -51269,7 +51317,7 @@
         },
         {
           "name": "dunsparce",
-          "level": 60,
+          "level": 63,
           "item": "focus-band",
           "moves": [
             "earthquake",
@@ -51286,7 +51334,7 @@
       "team": [
         {
           "name": "sandslash",
-          "level": 61,
+          "level": 63,
           "item": "focus-band",
           "moves": [
             "earthquake",
@@ -51297,7 +51345,7 @@
         },
         {
           "name": "fearow",
-          "level": 60,
+          "level": 63,
           "item": "scope-lens",
           "moves": [
             "drill-peck",
@@ -51308,7 +51356,7 @@
         },
         {
           "name": "lanturn",
-          "level": 59,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "ice-beam",
@@ -51319,7 +51367,7 @@
         },
         {
           "name": "magcargo",
-          "level": 62,
+          "level": 63,
           "item": "pink-bow",
           "moves": [
             "explosion",
@@ -51330,7 +51378,7 @@
         },
         {
           "name": "arbok",
-          "level": 59,
+          "level": 63,
           "item": "brightpowder",
           "moves": [
             "super-fang",
@@ -51348,7 +51396,7 @@
       "team": [
         {
           "name": "raichu",
-          "level": 61,
+          "level": 63,
           "item": "lum-berry",
           "moves": [
             "sweet-kiss",
@@ -51359,7 +51407,7 @@
         },
         {
           "name": "mr-mime",
-          "level": 61,
+          "level": 63,
           "item": "sitrus-berry",
           "moves": [
             "barrier",
@@ -51376,18 +51424,18 @@
       "team": [
         {
           "name": "azumarill",
-          "level": 61,
+          "level": 63,
           "item": "sitrus-berry",
           "moves": [
             "mach-punch",
             "belly-drum",
             "body-slam",
-            "submission"
+            "hydro-pump"
           ]
         },
         {
           "name": "vileplume",
-          "level": 62,
+          "level": 63,
           "item": "brightpowder",
           "moves": [
             "sludge-bomb",
@@ -51398,7 +51446,7 @@
         },
         {
           "name": "togetic",
-          "level": 61,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "sacred-fire",
@@ -51461,7 +51509,7 @@
             "thunderbolt",
             "flash",
             "thunder-wave",
-            "crunch"
+            "faint-attack"
           ]
         },
         {
@@ -51626,7 +51674,7 @@
       "team": [
         {
           "name": "jynx",
-          "level": 61,
+          "level": 63,
           "item": "brightpowder",
           "moves": [
             "screech",
@@ -51637,7 +51685,7 @@
         },
         {
           "name": "vaporeon",
-          "level": 61,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "whirlpool",
@@ -51648,7 +51696,7 @@
         },
         {
           "name": "dodrio",
-          "level": 61,
+          "level": 63,
           "item": "scope-lens",
           "moves": [
             "sky-attack",
@@ -51659,7 +51707,7 @@
         },
         {
           "name": "tyranitar",
-          "level": 61,
+          "level": 63,
           "item": "blackglasses",
           "moves": [
             "crunch",
@@ -51687,7 +51735,7 @@
         },
         {
           "name": "porygon2",
-          "level": 60,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "conversion2",
@@ -51698,7 +51746,7 @@
         },
         {
           "name": "misdreavus",
-          "level": 62,
+          "level": 64,
           "item": "berserk-gene",
           "moves": [
             "shadow-ball",
@@ -51709,7 +51757,7 @@
         },
         {
           "name": "magneton",
-          "level": 61,
+          "level": 62,
           "item": "focus-band",
           "moves": [
             "explosion",
@@ -51745,7 +51793,7 @@
         },
         {
           "name": "tangela",
-          "level": 62,
+          "level": 63,
           "item": "brightpowder",
           "moves": [
             "giga-drain",
@@ -51756,7 +51804,7 @@
         },
         {
           "name": "octillery",
-          "level": 62,
+          "level": 63,
           "item": "quick-claw",
           "moves": [
             "octazooka",
@@ -51767,7 +51815,7 @@
         },
         {
           "name": "ampharos",
-          "level": 62,
+          "level": 63,
           "item": "sitrus-berry",
           "moves": [
             "thunder",
@@ -51778,7 +51826,7 @@
         },
         {
           "name": "crobat",
-          "level": 62,
+          "level": 63,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -51890,7 +51938,7 @@
             "waterfall",
             "ice-beam",
             "psychic",
-            "faint-attack"
+            "crunch"
           ]
         },
         {
@@ -51912,7 +51960,7 @@
       "team": [
         {
           "name": "charizard",
-          "level": 62,
+          "level": 63,
           "item": "sharp-beak",
           "moves": [
             "fire-blast",
@@ -51923,7 +51971,7 @@
         },
         {
           "name": "sneasel",
-          "level": 62,
+          "level": 63,
           "item": "metal-coat",
           "moves": [
             "metal-claw",
@@ -51934,7 +51982,7 @@
         },
         {
           "name": "heracross",
-          "level": 62,
+          "level": 63,
           "item": "blackbelt",
           "moves": [
             "megahorn",
@@ -51945,7 +51993,7 @@
         },
         {
           "name": "kabutops",
-          "level": 62,
+          "level": 63,
           "item": "scope-lens",
           "moves": [
             "ancientpower",
@@ -51956,7 +52004,7 @@
         },
         {
           "name": "crobat",
-          "level": 62,
+          "level": 63,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -51967,7 +52015,7 @@
         },
         {
           "name": "meganium",
-          "level": 62,
+          "level": 64,
           "item": "leftovers",
           "moves": [
             "giga-drain",
@@ -51984,7 +52032,7 @@
       "team": [
         {
           "name": "blastoise",
-          "level": 62,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "submission",
@@ -51995,7 +52043,7 @@
         },
         {
           "name": "sneasel",
-          "level": 62,
+          "level": 63,
           "item": "metal-coat",
           "moves": [
             "metal-claw",
@@ -52006,7 +52054,7 @@
         },
         {
           "name": "heracross",
-          "level": 62,
+          "level": 63,
           "item": "blackbelt",
           "moves": [
             "megahorn",
@@ -52017,7 +52065,7 @@
         },
         {
           "name": "exeggutor",
-          "level": 62,
+          "level": 63,
           "item": "hard-stone",
           "moves": [
             "ancientpower",
@@ -52028,7 +52076,7 @@
         },
         {
           "name": "crobat",
-          "level": 62,
+          "level": 63,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -52039,7 +52087,7 @@
         },
         {
           "name": "typhlosion",
-          "level": 62,
+          "level": 64,
           "item": "scope-lens",
           "moves": [
             "flamethrower",
@@ -52056,7 +52104,7 @@
       "team": [
         {
           "name": "venusaur",
-          "level": 62,
+          "level": 63,
           "item": "scope-lens",
           "moves": [
             "giga-drain",
@@ -52067,7 +52115,7 @@
         },
         {
           "name": "sneasel",
-          "level": 62,
+          "level": 63,
           "item": "metal-coat",
           "moves": [
             "metal-claw",
@@ -52078,7 +52126,7 @@
         },
         {
           "name": "heracross",
-          "level": 62,
+          "level": 63,
           "item": "blackbelt",
           "moves": [
             "megahorn",
@@ -52089,7 +52137,7 @@
         },
         {
           "name": "arcanine",
-          "level": 62,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "flamethrower",
@@ -52100,7 +52148,7 @@
         },
         {
           "name": "crobat",
-          "level": 62,
+          "level": 63,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -52111,7 +52159,7 @@
         },
         {
           "name": "feraligatr",
-          "level": 62,
+          "level": 64,
           "item": "mystic-water",
           "moves": [
             "hydro-pump",
@@ -52229,7 +52277,7 @@
       "team": [
         {
           "name": "gligar",
-          "level": 61,
+          "level": 63,
           "item": "kings-rock",
           "moves": [
             "slash",
@@ -52240,7 +52288,7 @@
         },
         {
           "name": "magmar",
-          "level": 61,
+          "level": 63,
           "item": "berserk-gene",
           "moves": [
             "flamethrower",
@@ -52251,7 +52299,7 @@
         },
         {
           "name": "slowbro",
-          "level": 60,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "surf",
@@ -52273,7 +52321,7 @@
         },
         {
           "name": "scizor",
-          "level": 61,
+          "level": 63,
           "item": "quick-claw",
           "moves": [
             "metal-claw",
@@ -52290,7 +52338,7 @@
       "team": [
         {
           "name": "ledian",
-          "level": 61,
+          "level": 66,
           "item": "brightpowder",
           "moves": [
             "toxic",
@@ -52301,7 +52349,7 @@
         },
         {
           "name": "smeargle",
-          "level": 61,
+          "level": 66,
           "item": "quick-claw",
           "moves": [
             "spore",
@@ -52319,7 +52367,7 @@
       "team": [
         {
           "name": "piloswine",
-          "level": 61,
+          "level": 62,
           "item": "berserk-gene",
           "moves": [
             "earthquake",
@@ -52330,7 +52378,7 @@
         },
         {
           "name": "skarmory",
-          "level": 61,
+          "level": 62,
           "item": "leftovers",
           "moves": [
             "sleep-talk",
@@ -52341,7 +52389,7 @@
         },
         {
           "name": "cloyster",
-          "level": 61,
+          "level": 62,
           "item": "focus-band",
           "moves": [
             "hydro-pump",
@@ -52352,7 +52400,7 @@
         },
         {
           "name": "ninetales",
-          "level": 61,
+          "level": 62,
           "item": "twistedspoon",
           "moves": [
             "psychic",
@@ -52370,7 +52418,7 @@
       "team": [
         {
           "name": "raticate",
-          "level": 61,
+          "level": 65,
           "item": "pink-bow",
           "moves": [
             "hyper-fang"
@@ -52378,7 +52426,7 @@
         },
         {
           "name": "dragonair",
-          "level": 61,
+          "level": 66,
           "item": "sitrus-berry",
           "moves": [
             "dragonbreath",
@@ -52389,7 +52437,7 @@
         },
         {
           "name": "nidoking",
-          "level": 61,
+          "level": 63,
           "item": "scope-lens",
           "moves": [
             "slash",
@@ -52406,7 +52454,7 @@
       "team": [
         {
           "name": "dewgong",
-          "level": 63,
+          "level": 64,
           "item": "leftovers",
           "moves": [
             "protect",
@@ -52417,7 +52465,7 @@
         },
         {
           "name": "espeon",
-          "level": 62,
+          "level": 64,
           "item": "twistedspoon",
           "moves": [
             "psychic",
@@ -52428,7 +52476,7 @@
         },
         {
           "name": "muk",
-          "level": 63,
+          "level": 64,
           "item": "no-item",
           "moves": [
             "sludge-bomb",
@@ -52439,7 +52487,7 @@
         },
         {
           "name": "butterfree",
-          "level": 63,
+          "level": 64,
           "item": "brightpowder",
           "moves": [
             "psychic",
@@ -52450,7 +52498,7 @@
         },
         {
           "name": "aipom",
-          "level": 62,
+          "level": 64,
           "item": "spell-tag",
           "moves": [
             "double-edge",
@@ -52467,7 +52515,7 @@
       "team": [
         {
           "name": "golduck",
-          "level": 63,
+          "level": 64,
           "item": "quick-claw",
           "moves": [
             "hypnosis",
@@ -52478,7 +52526,7 @@
         },
         {
           "name": "qwilfish",
-          "level": 62,
+          "level": 64,
           "item": "focus-band",
           "moves": [
             "explosion",
@@ -52489,7 +52537,7 @@
         },
         {
           "name": "machamp",
-          "level": 63,
+          "level": 64,
           "item": "blackbelt",
           "moves": [
             "cross-chop",
@@ -52500,7 +52548,7 @@
         },
         {
           "name": "umbreon",
-          "level": 62,
+          "level": 64,
           "item": "leftovers",
           "moves": [
             "moonlight",
@@ -52511,7 +52559,7 @@
         },
         {
           "name": "yanma",
-          "level": 63,
+          "level": 64,
           "item": "dragon-fang",
           "moves": [
             "outrage",
@@ -52745,7 +52793,7 @@
       "team": [
         {
           "name": "exeggutor",
-          "level": 63,
+          "level": 65,
           "item": "miracle-seed",
           "moves": [
             "petal-dance",
@@ -52756,7 +52804,7 @@
         },
         {
           "name": "xatu",
-          "level": 63,
+          "level": 65,
           "item": "sharp-beak",
           "moves": [
             "drill-peck",
@@ -52767,7 +52815,7 @@
         },
         {
           "name": "girafarig",
-          "level": 63,
+          "level": 65,
           "item": "pink-bow",
           "moves": [
             "double-edge",
@@ -52778,7 +52826,7 @@
 	},
         {
           "name": "starmie",
-          "level": 63,
+          "level": 65,
           "item": "mystic-water",
           "moves": [
             "waterfall",
@@ -52875,7 +52923,7 @@
       "team": [
         {
           "name": "kingler",
-          "level": 63,
+          "level": 65,
           "item": "scope-lens",
           "moves": [
             "clamp",
@@ -52886,7 +52934,7 @@
         },
         {
           "name": "qwilfish",
-          "level": 63,
+          "level": 65,
           "item": "poison-barb",
           "moves": [
             "explosion",
@@ -52897,7 +52945,7 @@
         },
         {
           "name": "lanturn",
-          "level": 63,
+          "level": 65,
           "item": "leftovers",
           "moves": [
             "thunder-wave",
@@ -53969,7 +54017,6 @@
 {
       "area": "Route 46",
       "name": "camper-ted",	
-      "meta": "end sandstorm. end gauntlet",
       "team": [
         {
           "name": "mankey",
@@ -53986,7 +54033,8 @@
     },
 {
       "area": "Route 46",
-      "name": "hiker-bailey",	
+      "name": "hiker-bailey",
+      "meta": "end sandstorm. end gauntlet",	
       "b2b": true,
       "team": [
         {
