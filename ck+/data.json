@@ -608,45 +608,45 @@
                     "day": [
                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "slowbro"
-                        },
-                        {
-                            "chance": 30,
-                            "level": 65,
+                            "level": 50,
                             "pokemon": "quagsire"
                         },
                         {
+                            "chance": 30,
+                            "level": 50,
+                            "pokemon": "omastar"
+                        },
+                        {
                             "chance": 20,
-                            "level": 65,
-                            "pokemon": "kabutops"
+                            "level": 50,
+                            "pokemon": "muk"
                         },
                         {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "seaking"
+                            "level": 50,
+                            "pokemon": "tangela"
                         }
                     ],
                     "night": [
                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "slowbro"
+                            "level": 50,
+                            "pokemon": "quagsire"
                         },
                         {
                             "chance": 30,
-                            "level": 65,
-                            "pokemon": "qwilfish"
-                        },
-                        {
-                            "chance": 20,
-                            "level": 65,
+                            "level": 50,
                             "pokemon": "kabutops"
                         },
                         {
+                            "chance": 20,
+                            "level": 50,
+                            "pokemon": "muk"
+                        },
+                        {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "seaking"
+                            "level": 50,
+                            "pokemon": "tangela"
                         }
                     ]
                 }
@@ -738,45 +738,45 @@
                     "day": [
                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "mantine"
+                            "level": 50,
+                            "pokemon": "octillery"
                         },
                         {
                             "chance": 30,
-                            "level": 65,
-                            "pokemon": "staryu"
+                            "level": 50,
+                            "pokemon": "mantine"
                         },
                         {
                             "chance": 20,
-                            "level": 65,
+                            "level": 50,
                             "pokemon": "tentacruel"
                         },
                         {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "staryu"
+                            "level": 50,
+                            "pokemon": "starmie"
                         }
                     ],
                     "night": [
-                        {
+                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "mantine"
+                            "level": 50,
+                            "pokemon": "qwilfish"
                         },
                         {
                             "chance": 30,
-                            "level": 65,
-                            "pokemon": "shellder"
+                            "level": 50,
+                            "pokemon": "mantine"
                         },
                         {
                             "chance": 20,
-                            "level": 65,
+                            "level": 50,
                             "pokemon": "tentacruel"
                         },
                         {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "staryu"
+                            "level": 50,
+                            "pokemon": "starmie"
                         }
                     ]
                 }
@@ -868,45 +868,45 @@
                     "day": [
                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "poliwhirl"
+                            "level": 50,
+                            "pokemon": "seaking"
                         },
                         {
                             "chance": 30,
-                            "level": 65,
-                            "pokemon": "politoed"
+                            "level": 50,
+                            "pokemon": "octillery"
                         },
                         {
                             "chance": 20,
-                            "level": 65,
-                            "pokemon": "azumarill"
+                            "level": 50,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "quagsire"
+                            "level": 50,
+                            "pokemon": "kingdra"
                         }
                     ],
                     "night": [
                         {
                             "chance": 40,
-                            "level": 65,
-                            "pokemon": "poliwhirl"
+                            "level": 50,
+                            "pokemon": "seaking"
                         },
                         {
                             "chance": 30,
-                            "level": 65,
-                            "pokemon": "poliwrath"
+                            "level": 50,
+                            "pokemon": "qwilfish"
                         },
                         {
                             "chance": 20,
-                            "level": 65,
-                            "pokemon": "azumarill"
+                            "level": 50,
+                            "pokemon": "gyarados"
                         },
                         {
                             "chance": 10,
-                            "level": 65,
-                            "pokemon": "quagsire"
+                            "level": 50,
+                            "pokemon": "kingdra"
                         }
                     ]
                 }
