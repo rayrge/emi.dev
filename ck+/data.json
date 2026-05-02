@@ -20371,7 +20371,10 @@
                 "attract",
                 "fury-cutter",
                 "cut",
-                "flash"
+                "flash",
+		"flamethrower",
+		"acid",
+		"roar"
             ],
             "types": [
                 "grass",
@@ -20699,7 +20702,8 @@
                 "cut",
                 "fly",
                 "strength",
-                "flamethrower"
+                "flamethrower",
+		"roar"
             ],
             "types": [
                 "fire",
@@ -21023,7 +21027,8 @@
                 "strength",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "water"
@@ -21196,7 +21201,8 @@
                 "rest",
                 "attract",
                 "nightmare",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -21371,7 +21377,8 @@
                 "rest",
                 "attract",
                 "fury-cutter",
-                "cut"
+                "cut",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -22222,7 +22229,10 @@
                 "rest",
                 "attract",
                 "thief",
-                "strength"
+                "strength",
+		"acid",
+		"lick",
+		"roar"
             ],
             "types": [
                 "poison"
@@ -22425,7 +22435,8 @@
                 "thief",
                 "strength",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"lick"
             ],
             "types": [
                 "electric"
@@ -22897,7 +22908,8 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "poison",
@@ -23184,7 +23196,8 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "poison",
@@ -23626,7 +23639,9 @@
                 "swift",
                 "rest",
                 "attract",
-                "flamethrower"
+                "flamethrower",
+		"lick",
+		"roar"
             ],
             "types": [
                 "fire"
@@ -23832,7 +23847,9 @@
                 "flash",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -24502,7 +24519,8 @@
                 "thief",
                 "fury-cutter",
                 "cut",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -24689,7 +24707,8 @@
                 "rest",
                 "attract",
                 "thief",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -25039,7 +25058,8 @@
                 "attract",
                 "thief",
                 "nightmare",
-                "thunderbolt"
+                "thunderbolt",
+		"lick"
             ],
             "types": [
                 "normal"
@@ -25634,7 +25654,9 @@
                 "swift",
                 "rest",
                 "attract",
-                "flamethrower"
+                "flamethrower",
+		"lick",
+		"roar"
             ],
             "types": [
                 "fire"
@@ -26721,7 +26743,9 @@
                 "rest",
                 "attract",
                 "cut",
-                "flash"
+                "flash",
+		"acid",
+		"lick"
             ],
             "types": [
                 "grass",
@@ -26903,7 +26927,8 @@
                 "cut",
                 "surf",
                 "whirlpool",
-                "ice-beam"
+                "ice-beam",
+		"acid"
             ],
             "types": [
                 "water",
@@ -27598,7 +27623,8 @@
 		"whirlpool",
                 "flash",
                 "flamethrower",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "water",
@@ -27792,7 +27818,8 @@
                 "swift",
                 "rest",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"acid"
             ],
             "types": [
                 "electric",
@@ -28057,7 +28084,8 @@
                 "attract",
                 "thief",
                 "steel-wing",
-                "fly"
+                "fly",
+		"roar"
             ],
             "types": [
                 "normal",
@@ -28220,7 +28248,8 @@
                 "surf",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "water",
@@ -28423,7 +28452,9 @@
                 "thief",
                 "fire-punch",
                 "flamethrower",
-                "thunderbolt"
+                "thunderbolt",
+		"acid",
+		"lick"
             ],
             "types": [
                 "poison"
@@ -28618,7 +28649,8 @@
                 "surf",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "water",
@@ -28930,7 +28962,8 @@
                 "fire-punch",
                 "nightmare",
                 "strength",
-                "thunderbolt"
+                "thunderbolt",
+		"lick"
             ],
             "types": [
                 "ghost",
@@ -29249,7 +29282,8 @@
                 "attract",
                 "fire-punch",
                 "nightmare",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "psychic"
@@ -29623,7 +29657,8 @@
                 "swift",
                 "rest",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"acid"
             ],
             "types": [
                 "electric"
@@ -29797,7 +29832,10 @@
                 "thief",
                 "nightmare",
                 "strength",
-                "flash"
+                "flash",
+		"acid",
+		"lick",
+		"roar"
             ],
             "types": [
                 "grass",
@@ -30294,7 +30332,8 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "normal"
@@ -30484,7 +30523,9 @@
                 "attract",
                 "thief",
                 "flamethrower",
-                "thunderbolt"
+                "thunderbolt",
+		"acid",
+		"lick"
             ],
             "types": [
                 "poison"
@@ -30523,12 +30564,12 @@
                     "move": "headbutt"
                 },
                 {
-                    "level": 22,
-                    "move": "rock-slide"
-                },
-                {
                     "level": 33,
                     "move": "horn-drill"
+                },
+                {
+                    "level": 39,
+                    "move": "rock-slide"
                 },
                 {
                     "level": 41,
@@ -30573,7 +30614,6 @@
                 "thunder",
                 "earthquake",
                 "return",
-                "dig",
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
@@ -30669,7 +30709,6 @@
                 "thunder",
                 "earthquake",
                 "return",
-                "dig",
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
@@ -30684,7 +30723,8 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "ground",
@@ -30946,7 +30986,8 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -31790,7 +31831,8 @@
                 "attract",
                 "thief",
                 "nightmare",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "ice",
@@ -31887,7 +31929,10 @@
                 "fire-punch",
                 "strength",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"acid",
+		"lick",
+		"roar"
             ],
             "types": [
                 "electric"
@@ -32158,7 +32203,9 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -32295,7 +32342,8 @@
                 "waterfall",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "water",
@@ -32392,7 +32440,8 @@
                 "whirlpool",
                 "waterfall",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "water",
@@ -32618,7 +32667,9 @@
                 "surf",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"acid",
+		"lick"
             ],
             "types": [
                 "water"
@@ -32713,7 +32764,8 @@
                 "rest",
                 "attract",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"lick"
             ],
             "types": [
                 "electric"
@@ -32807,7 +32859,8 @@
                 "detect",
                 "rest",
                 "attract",
-                "flamethrower"
+                "flamethrower",
+		"lick"
             ],
             "types": [
                 "fire"
@@ -33357,7 +33410,8 @@
                 "attract",
                 "steel-wing",
                 "fly",
-                "flamethrower"
+                "flamethrower",
+		"roar"
             ],
             "types": [
                 "rock",
@@ -33455,7 +33509,9 @@
                 "surf",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -33583,7 +33639,8 @@
                 "steel-wing",
                 "fly",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"acid"
             ],
             "types": [
                 "electric",
@@ -33950,7 +34007,10 @@
                 "waterfall",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"acid",
+		"lick",
+		"roar"
             ],
             "types": [
                 "dragon",
@@ -34784,7 +34844,8 @@
                 "fury-cutter",
                 "cut",
                 "strength",
-                "flamethrower"
+                "flamethrower",
+		"roar"
             ],
             "types": [
                 "fire"
@@ -35118,7 +35179,8 @@
                 "strength",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "water"
@@ -35321,7 +35383,8 @@
                 "fury-cutter",
                 "cut",
                 "surf",
-                "strength"
+                "strength",
+		"lick"
             ],
             "types": [
                 "normal"
@@ -35892,7 +35955,8 @@
                 "rest",
                 "attract",
                 "thief",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -35984,7 +36048,9 @@
                 "attract",
                 "thief",
                 "steel-wing",
-                "fly"
+                "fly",
+		"acid",
+		"lick"
             ],
             "types": [
                 "poison",
@@ -36166,7 +36232,8 @@
                 "whirlpool",
                 "waterfall",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"acid"
             ],
             "types": [
                 "water",
@@ -36810,7 +36877,8 @@
                 "thief",
                 "nightmare",
                 "fly",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "psychic",
@@ -37054,7 +37122,11 @@
                 "fire-punch",
                 "strength",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"flamethrower",
+		"acid",
+		"lick",
+		"roar"
             ],
             "types": [
                 "electric"
@@ -37119,7 +37191,8 @@
                 "rest",
                 "attract",
                 "cut",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "grass"
@@ -37297,7 +37370,8 @@
                 "strength",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "water"
@@ -37460,7 +37534,8 @@
                 "strength",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "water"
@@ -37845,7 +37920,8 @@
                 "nightmare",
                 "cut",
                 "strength",
-                "thunderbolt"
+                "thunderbolt",
+		"lick"
             ],
             "types": [
                 "normal"
@@ -37979,7 +38055,8 @@
                 "rest",
                 "attract",
                 "cut",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "grass"
@@ -38070,7 +38147,8 @@
                 "rest",
                 "attract",
                 "thief",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -38262,7 +38340,9 @@
                 "flash",
                 "waterfall",
                 "whirlpool",
-                "ice-beam"
+                "ice-beam",
+		"acid",
+		"lick"
             ],
             "types": [
                 "water",
@@ -38363,7 +38443,8 @@
                 "flash",
 		"flamethrower",
 		"thunderbolt",
-		"ice-beam"
+		"ice-beam",
+		"lick"
             ],
             "types": [
                 "psychic"
@@ -38459,7 +38540,8 @@
                 "attract",
                 "nightmare",
                 "cut",
-                "flash"
+                "flash",
+		"roar"
             ],
             "types": [
                 "dark"
@@ -38670,7 +38752,8 @@
                 "flash",
                 "whirlpool",
                 "flamethrower",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "water",
@@ -38760,7 +38843,8 @@
                 "thief",
                 "nightmare",
                 "flash",
-                "thunderbolt"
+                "thunderbolt",
+		"acid"
             ],
             "types": [
                 "ghost"
@@ -38928,7 +39012,10 @@
                 "thief",
                 "nightmare",
                 "strength",
-                "thunderbolt"
+                "thunderbolt",
+		"ice-beam",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal",
@@ -39120,7 +39207,8 @@
                 "defense-curl",
                 "rest",
                 "attract",
-                "strength"
+                "strength",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -39238,7 +39326,10 @@
                 "nightmare",
                 "strength",
                 "flamethrower",
-                "thunderbolt"
+                "thunderbolt",
+		"acid",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -39321,7 +39412,9 @@
                 "thief",
                 "fury-cutter",
                 "cut",
-                "strength"
+                "strength",
+		"acid",
+		"lick"
             ],
             "types": [
                 "ground",
@@ -39428,7 +39521,8 @@
                 "rest",
                 "attract",
                 "cut",
-                "strength"
+                "strength",
+		"roar"
             ],
             "types": [
                 "steel",
@@ -39645,7 +39739,9 @@
                 "thief",
                 "fire-punch",
                 "strength",
-                "thunderbolt"
+                "thunderbolt",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -39734,7 +39830,8 @@
                 "surf",
                 "whirlpool",
                 "waterfall",
-                "ice-beam"
+                "ice-beam",
+		"acid"
             ],
             "types": [
                 "water",
@@ -39907,7 +40004,8 @@
                 "defense-curl",
                 "attract",
                 "strength",
-                "flash"
+                "flash",
+		"acid"
             ],
             "types": [
                 "bug",
@@ -40304,7 +40402,9 @@
                 "fire-punch",
                 "fury-cutter",
                 "cut",
-                "strength"
+                "strength",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -40661,7 +40761,8 @@
                 "rest",
                 "attract",
                 "strength",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "ice",
@@ -40927,7 +41028,8 @@
                 "surf",
                 "whirlpool",
                 "flamethrower",
-                "ice-beam"
+                "ice-beam",
+		"acid"
             ],
             "types": [
                 "water"
@@ -41153,7 +41255,8 @@
                 "thief",
                 "steel-wing",
                 "cut",
-                "fly"
+                "fly",
+		"roar"
             ],
             "types": [
                 "steel",
@@ -41352,7 +41455,9 @@
                 "thief",
                 "nightmare",
                 "strength",
-                "flamethrower"
+                "flamethrower",
+		"lick",
+		"roar"
             ],
             "types": [
                 "dark",
@@ -41631,7 +41736,8 @@
                 "defense-curl",
                 "rest",
                 "attract",
-                "strength"
+                "strength",
+		"roar"
             ],
             "types": [
                 "ground"
@@ -41828,7 +41934,9 @@
                 "attract",
                 "thief",
                 "nightmare",
-                "flash"
+                "flash",
+		"lick",
+		"roar"
             ],
             "types": [
                 "normal"
@@ -42428,7 +42536,8 @@
                 "surf",
                 "strength",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"lick"
             ],
             "types": [
                 "normal"
@@ -42941,7 +43050,8 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"roar"
             ],
             "types": [
                 "rock",
