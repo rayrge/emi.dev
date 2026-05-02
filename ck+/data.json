@@ -214,7 +214,7 @@
                         }
                     ]
                 },
-                "super": {
+                "super": [
                        {
                             "chance": 40,
                             "level": 65,
@@ -2072,8 +2072,7 @@
                     "pokemon": "shuckle"
                 }
             ]
-        }
-    },
+        },
     "encounters": [
         {
             "area": "sprout-tower-2f",
