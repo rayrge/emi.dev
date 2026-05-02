@@ -7,6 +7,69 @@
             ],
             "runner": "erinmnn",
             "trainer": "champion-lance"
+        },
+        {
+            "patch": "Beta",
+            "pokemon": [
+                "gengar",
+	        "dragonite",
+		"hitmonlee",
+		"sneasel",
+		"blastoise",
+		"rhydon"	        
+            ],
+            "runner": "SpaceyDonut",
+            "trainer": "elite-four-will"
+        },
+        {
+            "patch": "Beta",
+            "pokemon": [
+                "dragonite",
+	        "sneasel",
+		"gengar",
+		"rhydon",
+		"blastoise",
+		"hitmonlee"	        
+            ],
+            "runner": "SpaceyDonut",
+            "trainer": "elite-four-koga"
+        },
+        {
+            "patch": "Beta",
+            "pokemon": [
+                "rhydon",
+	        "gengar",
+		"blastoise",
+		"dragonite",
+		"sneasel",
+		"hitmonlee"	        
+            ],
+            "runner": "SpaceyDonut",
+            "trainer": "elite-four-bruno"
+        },
+        {
+            "patch": "Beta",
+            "pokemon": [
+                "hitmonlee",
+	        "dragonite",
+		"gengar",
+		"sneasel",
+		"rhydon"	        
+            ],
+            "runner": "SpaceyDonut",
+            "trainer": "elite-four-karen"
+        },
+        {
+            "patch": "Beta",
+            "pokemon": [
+                "gengar",
+	        "sneasel",
+		"dragonite",
+		"rhydon",
+		"hitmonlee"	        
+            ],
+            "runner": "SpaceyDonut",
+            "trainer": "champion-lance"
         }
     ]
 }
