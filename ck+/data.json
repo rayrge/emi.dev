@@ -20673,8 +20673,7 @@
                 "roar",
                 "toxic",
                 "rock-smash",
-                "hidden-power",
-                
+                "hidden-power",                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -20701,7 +20700,7 @@
                 "fly",
                 "strength",
                 "flamethrower",
-		
+		"bite"	
             ],
             "types": [
                 "fire",
@@ -22210,9 +22209,9 @@
             "tmhm": [
                 "headbutt",
                 "curse",
+		"roar",
                 "toxic",
                 "hidden-power",
-                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -22230,8 +22229,7 @@
                 "thief",
                 "strength",
 		"acid",
-		"lick",
-		
+		"lick"
             ],
             "types": [
                 "poison"
