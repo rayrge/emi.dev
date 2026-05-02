@@ -17595,7 +17595,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "10% chance to lower opponent's defense"
+                "100% chance to lower opponent's defense"
             ],
             "index": 51,
             "name": "acid",
@@ -20146,7 +20146,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -20246,7 +20246,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -20352,7 +20352,7 @@
                 "roar",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+             
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -20374,7 +20374,7 @@
                 "flash",
 		"flamethrower",
 		"acid",
-		"roar"
+		"bite"
             ],
             "types": [
                 "grass",
@@ -20459,7 +20459,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -20563,8 +20563,7 @@
                 "curse",
                 "toxic",
                 "rock-smash",
-                "hidden-power",
-                "sunny-day",
+                "hidden-power",                
                 "snore",
                 "protect",
                 "endure",
@@ -20675,7 +20674,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -20690,7 +20689,6 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
                 "fire-blast",
                 "swift",
                 "defense-curl",
@@ -20703,7 +20701,7 @@
                 "fly",
                 "strength",
                 "flamethrower",
-		"roar"
+		
             ],
             "types": [
                 "fire",
@@ -21028,7 +21026,7 @@
                 "whirlpool",
                 "waterfall",
                 "ice-beam",
-		"roar"
+		"bite"		
             ],
             "types": [
                 "water"
@@ -21183,7 +21181,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -21360,7 +21358,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -21452,7 +21450,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -21542,7 +21540,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -21629,7 +21627,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -21726,7 +21724,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "icy-wind",
@@ -21818,7 +21816,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -21842,7 +21840,8 @@
                 "cut",
                 "strength",
                 "thunderbolt",
-                "ice-beam"
+                "ice-beam",
+		"bite"
             ],
             "types": [
                 "normal"
@@ -21919,7 +21918,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -22011,7 +22010,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -22115,7 +22114,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "giga-drain",
@@ -22213,7 +22212,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -22232,7 +22231,7 @@
                 "strength",
 		"acid",
 		"lick",
-		"roar"
+		
             ],
             "types": [
                 "poison"
@@ -22513,7 +22512,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -22525,7 +22524,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "defense-curl",
                 "detect",
@@ -22600,7 +22599,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -22613,7 +22612,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "defense-curl",
                 "detect",
@@ -22692,7 +22691,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "protect",
@@ -22780,7 +22779,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "protect",
@@ -22877,7 +22876,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -22894,7 +22893,6 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
                 "fire-blast",
                 "defense-curl",
                 "thunderpunch",
@@ -22909,7 +22907,7 @@
                 "flamethrower",
                 "thunderbolt",
                 "ice-beam",
-		"roar"
+		"bite"
             ],
             "types": [
                 "poison",
@@ -22980,7 +22978,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "protect",
@@ -23068,7 +23066,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "protect",
@@ -23165,7 +23163,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -23182,7 +23180,7 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "thunderpunch",
@@ -23197,7 +23195,7 @@
                 "flamethrower",
                 "thunderbolt",
                 "ice-beam",
-		"roar"
+		"bite"
             ],
             "types": [
                 "poison",
@@ -23289,7 +23287,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "protect",
@@ -23403,7 +23401,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -23525,7 +23523,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -23624,7 +23622,7 @@
                 "roar",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -23641,7 +23639,7 @@
                 "attract",
                 "flamethrower",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "fire"
@@ -23719,7 +23717,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "protect",
@@ -23817,8 +23815,7 @@
                 "toxic",
                 "zap-cannon",
                 "psych-up",
-                "hidden-power",
-                "sunny-day",
+                "hidden-power",                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -23848,8 +23845,7 @@
                 "flamethrower",
                 "thunderbolt",
                 "ice-beam",
-		"lick",
-		"roar"
+		"lick"
             ],
             "types": [
                 "normal"
@@ -23930,7 +23926,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -24027,7 +24023,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -24129,7 +24125,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -24235,7 +24231,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -24329,7 +24325,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -24417,7 +24413,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -24500,7 +24496,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -24598,7 +24594,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -24689,7 +24685,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -24779,7 +24775,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -24861,7 +24857,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -24949,7 +24945,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "icy-wind",
                 "protect",
@@ -25035,8 +25031,7 @@
                 "toxic",
                 "zap-cannon",
                 "psych-up",
-                "hidden-power",
-                "sunny-day",
+                "hidden-power",                
                 "snore",
                 "hyper-beam",
                 "icy-wind",
@@ -25059,7 +25054,8 @@
                 "thief",
                 "nightmare",
                 "thunderbolt",
-		"lick"
+		"lick",
+		"bite"
             ],
             "types": [
                 "normal"
@@ -25333,7 +25329,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -25433,7 +25429,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -25537,7 +25533,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -25638,7 +25634,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -25656,7 +25652,7 @@
                 "attract",
                 "flamethrower",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "fire"
@@ -25981,7 +25977,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -26076,7 +26072,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -26165,7 +26161,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -26261,7 +26257,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -26357,7 +26353,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -26450,7 +26446,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -26544,7 +26540,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -26637,7 +26633,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -26727,7 +26723,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -27011,7 +27007,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -27022,7 +27018,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "rest",
@@ -27112,7 +27108,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -27123,7 +27119,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "rest",
@@ -27211,7 +27207,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -27223,7 +27219,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "rest",
@@ -27302,7 +27298,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -27386,7 +27382,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -27486,7 +27482,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "icy-wind",
@@ -27593,7 +27589,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -27897,7 +27893,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -27981,7 +27977,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -28068,7 +28064,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -28084,8 +28080,7 @@
                 "attract",
                 "thief",
                 "steel-wing",
-                "fly",
-		"roar"
+                "fly"
             ],
             "types": [
                 "normal",
@@ -28334,7 +28329,7 @@
                 "toxic",
                 "zap-cannon",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "giga-drain",
@@ -28431,7 +28426,7 @@
                 "toxic",
                 "zap-cannon",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -28734,7 +28729,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "giga-drain",
@@ -28838,7 +28833,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -28940,7 +28935,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -29052,7 +29047,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -29064,7 +29059,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "rest",
                 "attract",
                 "strength"
@@ -29161,7 +29156,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -29264,7 +29259,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -29729,7 +29724,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "giga-drain",
@@ -29813,7 +29808,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -29834,8 +29829,7 @@
                 "strength",
                 "flash",
 		"acid",
-		"lick",
-		"roar"
+		"lick"
             ],
             "types": [
                 "grass",
@@ -29921,7 +29915,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "icy-wind",
@@ -29935,7 +29929,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "thunderpunch",
                 "detect",
@@ -30023,7 +30017,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -30038,7 +30032,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "thunderpunch",
                 "detect",
@@ -30125,7 +30119,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -30212,7 +30206,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -30300,7 +30294,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -30317,7 +30311,7 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "thunderpunch",
@@ -30416,7 +30410,7 @@
                 "toxic",
                 "zap-cannon",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -30507,7 +30501,7 @@
                 "toxic",
                 "zap-cannon",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -30603,7 +30597,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "icy-wind",
@@ -30617,7 +30611,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "rest",
                 "attract",
@@ -30697,7 +30691,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -30712,7 +30706,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "thunderpunch",
                 "rest",
@@ -30723,8 +30717,7 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam",
-		"roar"
+                "ice-beam"
             ],
             "types": [
                 "ground",
@@ -30793,7 +30786,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -30809,7 +30802,7 @@
                 "shadow-ball",
                 "mud-slap",
                 "swagger",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "dream-eater",
@@ -30882,7 +30875,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -30958,7 +30951,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -30975,7 +30968,7 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "thunderpunch",
                 "rest",
@@ -30986,8 +30979,7 @@
                 "strength",
                 "flamethrower",
                 "thunderbolt",
-                "ice-beam",
-		"roar"
+                "ice-beam"
             ],
             "types": [
                 "normal"
@@ -31613,7 +31605,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -31711,7 +31703,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -31931,8 +31923,7 @@
                 "flash",
                 "thunderbolt",
 		"acid",
-		"lick",
-		"roar"
+		"lick"
             ],
             "types": [
                 "electric"
@@ -32010,7 +32001,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -32098,7 +32089,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -32181,7 +32172,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "shadow-ball",
                 "blizzard",
@@ -32204,8 +32195,7 @@
                 "flamethrower",
                 "thunderbolt",
                 "ice-beam",
-		"lick",
-		"roar"
+		"lick"
             ],
             "types": [
                 "normal"
@@ -32332,7 +32322,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "rest",
                 "attract",
@@ -32343,7 +32333,7 @@
                 "flamethrower",
                 "thunderbolt",
                 "ice-beam",
-		"roar"
+		"bite"
             ],
             "types": [
                 "water",
@@ -32557,7 +32547,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -32646,7 +32636,7 @@
                 "roar",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -32746,7 +32736,7 @@
                 "toxic",
                 "zap-cannon",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -32842,7 +32832,7 @@
                 "toxic",
                 "zap-cannon",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -32935,7 +32925,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -33045,7 +33035,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "rest",
                 "attract",
                 "thief",
@@ -33135,7 +33125,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "rest",
                 "attract",
                 "thief",
@@ -33231,7 +33221,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "rest",
                 "attract",
                 "thief",
@@ -33320,7 +33310,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "rest",
                 "attract",
                 "thief",
@@ -33402,7 +33392,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "swift",
                 "detect",
@@ -33410,8 +33400,7 @@
                 "attract",
                 "steel-wing",
                 "fly",
-                "flamethrower",
-		"roar"
+                "flamethrower"
             ],
             "types": [
                 "rock",
@@ -33485,7 +33474,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -33499,7 +33488,7 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "thunderpunch",
@@ -33510,8 +33499,7 @@
                 "flamethrower",
                 "thunderbolt",
                 "ice-beam",
-		"lick",
-		"roar"
+		"lick"
             ],
             "types": [
                 "normal"
@@ -33555,7 +33543,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -33568,7 +33556,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "detect",
                 "rest",
@@ -33620,7 +33608,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -33632,7 +33620,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "detect",
                 "rest",
@@ -33685,7 +33673,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -33696,7 +33684,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "swift",
                 "detect",
@@ -33990,7 +33978,7 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "swift",
                 "thunderpunch",
@@ -34010,7 +33998,7 @@
                 "ice-beam",
 		"acid",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "dragon",
@@ -34063,7 +34051,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -34140,7 +34128,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "blizzard",
@@ -34165,7 +34153,7 @@
                 "swagger",
                 "sleep-talk",
                 "sludge-bomb",
-                "sandstorm",
+                
                 "fire-blast",
                 "swift",
                 "defense-curl",
@@ -34278,7 +34266,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -34386,7 +34374,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -34490,7 +34478,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -34602,7 +34590,7 @@
                 "rollout",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -34713,7 +34701,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -34820,7 +34808,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -34845,7 +34833,7 @@
                 "cut",
                 "strength",
                 "flamethrower",
-		"roar"
+		"bite"
             ],
             "types": [
                 "fire"
@@ -35180,7 +35168,7 @@
                 "whirlpool",
                 "waterfall",
                 "ice-beam",
-		"roar"
+		"bite"
             ],
             "types": [
                 "water"
@@ -35261,7 +35249,7 @@
                 "rollout",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -35358,7 +35346,7 @@
                 "rollout",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -35469,7 +35457,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -35567,7 +35555,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -35664,7 +35652,7 @@
                 "rollout",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -35757,7 +35745,7 @@
                 "rollout",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -35851,7 +35839,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "giga-drain",
@@ -35938,7 +35926,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -36031,7 +36019,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -36377,7 +36365,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "icy-wind",
                 "protect",
@@ -36456,7 +36444,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "icy-wind",
                 "protect",
@@ -36551,7 +36539,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -36650,7 +36638,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -36757,7 +36745,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -36856,7 +36844,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -37100,6 +37088,7 @@
                 "dynamicpunch",
                 "headbutt",
                 "curse",
+		"roar",
                 "toxic",
                 "zap-cannon",
                 "rock-smash",
@@ -37125,8 +37114,7 @@
                 "thunderbolt",
 		"flamethrower",
 		"acid",
-		"lick",
-		"roar"
+		"lick"
             ],
             "types": [
                 "electric"
@@ -37176,7 +37164,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -37434,7 +37422,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -37446,7 +37434,7 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "defense-curl",
                 "thunderpunch",
                 "rest",
@@ -37617,7 +37605,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -37714,7 +37702,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -37804,7 +37792,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -37894,7 +37882,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -37974,7 +37962,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -38039,7 +38027,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -38131,7 +38119,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -38239,7 +38227,7 @@
                 "swagger",
                 "sleep-talk",
                 "sludge-bomb",
-                "sandstorm",
+                
                 "defense-curl",
                 "rest",
                 "attract",
@@ -38331,7 +38319,7 @@
                 "swagger",
                 "sleep-talk",
                 "sludge-bomb",
-                "sandstorm",
+                
                 "defense-curl",
                 "rest",
                 "attract",
@@ -38420,7 +38408,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -38521,7 +38509,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -38541,7 +38529,7 @@
                 "nightmare",
                 "cut",
                 "flash",
-		"roar"
+		"bite"
             ],
             "types": [
                 "dark"
@@ -38620,7 +38608,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "icy-wind",
                 "protect",
@@ -38721,7 +38709,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -38824,7 +38812,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -38987,12 +38975,13 @@
             "tmhm": [
                 "headbutt",
                 "curse",
+		"roar",
                 "toxic",
                 "zap-cannon",
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -39015,7 +39004,7 @@
                 "thunderbolt",
 		"ice-beam",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "normal",
@@ -39096,7 +39085,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "protect",
@@ -39191,7 +39180,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -39203,7 +39192,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "defense-curl",
                 "rest",
                 "attract",
@@ -39299,12 +39288,13 @@
                 "headbutt",
                 "curse",
                 "rollout",
+		"roar",
                 "toxic",
                 "zap-cannon",
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "wing-attack",
@@ -39329,7 +39319,7 @@
                 "thunderbolt",
 		"acid",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "normal"
@@ -39393,7 +39383,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -39404,7 +39394,7 @@
                 "swagger",
                 "sleep-talk",
                 "sludge-bomb",
-                "sandstorm",
+                
                 "swift",
                 "detect",
                 "rest",
@@ -39502,7 +39492,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -39516,13 +39506,12 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "defense-curl",
                 "rest",
                 "attract",
                 "cut",
-                "strength",
-		"roar"
+                "strength"
             ],
             "types": [
                 "steel",
@@ -39613,7 +39602,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -39717,7 +39706,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -39741,7 +39730,7 @@
                 "strength",
                 "thunderbolt",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "normal"
@@ -39900,7 +39889,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -39909,7 +39898,7 @@
                 "return",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "detect",
                 "rest",
@@ -39988,7 +39977,7 @@
                 "rollout",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -40000,7 +39989,7 @@
                 "swagger",
                 "sleep-talk",
                 "sludge-bomb",
-                "sandstorm",
+                
                 "defense-curl",
                 "attract",
                 "strength",
@@ -40074,7 +40063,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -40143,15 +40132,11 @@
                     "move": "cross-chop"
                 },
                 {
-                    "level": 44,
-                    "move": "shadow-ball"
-                },
-                {
                     "level": 49,
                     "move": "powder-snow"
                 },
                 {
-                    "level": 56,
+                    "level": 66,
                     "move": "encore"
                 }
             ],
@@ -40283,7 +40268,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -40380,7 +40365,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -40404,7 +40389,7 @@
                 "cut",
                 "strength",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "normal"
@@ -40471,7 +40456,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -40544,7 +40529,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -40761,8 +40746,7 @@
                 "rest",
                 "attract",
                 "strength",
-                "ice-beam",
-		"roar"
+                "ice-beam"
             ],
             "types": [
                 "ice",
@@ -40828,7 +40812,6 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
                 "snore",
                 "protect",
                 "endure",
@@ -40839,7 +40822,6 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
                 "defense-curl",
                 "rest",
                 "attract",
@@ -41237,7 +41219,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
 		"wing-attack",
@@ -41247,7 +41229,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "detect",
                 "rest",
@@ -41255,8 +41237,7 @@
                 "thief",
                 "steel-wing",
                 "cut",
-                "fly",
-		"roar"
+                "fly"
             ],
             "types": [
                 "steel",
@@ -41337,7 +41318,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -41432,7 +41413,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -41457,7 +41438,7 @@
                 "strength",
                 "flamethrower",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "dark",
@@ -41629,7 +41610,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -41639,7 +41620,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "defense-curl",
                 "rest",
                 "attract",
@@ -41721,7 +41702,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -41732,12 +41713,11 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "defense-curl",
                 "rest",
                 "attract",
-                "strength",
-		"roar"
+                "strength"
             ],
             "types": [
                 "ground"
@@ -41805,7 +41785,7 @@
                 "zap-cannon",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -41916,7 +41896,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -41936,7 +41916,7 @@
                 "nightmare",
                 "flash",
 		"lick",
-		"roar"
+		"bite"
             ],
             "types": [
                 "normal"
@@ -42046,7 +42026,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -42132,7 +42112,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -42414,7 +42394,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "protect",
                 "endure",
@@ -42509,7 +42489,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "blizzard",
@@ -42527,7 +42507,7 @@
                 "ice-punch",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "defense-curl",
                 "thunderpunch",
                 "rest",
@@ -42597,7 +42577,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -42613,7 +42593,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "defense-curl",
                 "dream-eater",
@@ -42658,7 +42638,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -42671,7 +42651,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "detect",
                 "rest",
@@ -42712,7 +42692,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -42725,7 +42705,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "swift",
                 "detect",
@@ -42775,7 +42755,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -42789,7 +42769,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "detect",
                 "rest",
@@ -42863,7 +42843,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -42875,7 +42855,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "detect",
                 "rest",
                 "attract"
@@ -42945,7 +42925,7 @@
                 "curse",
                 "toxic",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -42957,7 +42937,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "detect",
                 "rest",
                 "attract"
@@ -43023,7 +43003,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -43037,7 +43017,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "detect",
                 "rest",
@@ -43051,7 +43031,7 @@
                 "flamethrower",
                 "thunderbolt",
                 "ice-beam",
-		"roar"
+		"bite"
             ],
             "types": [
                 "rock",
@@ -43095,7 +43075,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "blizzard",
                 "hyper-beam",
@@ -43115,7 +43095,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "dream-eater",
                 "detect",
@@ -43180,7 +43160,7 @@
                 "rock-smash",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -43198,7 +43178,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "fire-blast",
                 "swift",
                 "dream-eater",
@@ -43259,7 +43239,7 @@
                 "toxic",
                 "psych-up",
                 "hidden-power",
-                "sunny-day",
+                
                 "sweet-scent",
                 "snore",
                 "hyper-beam",
@@ -43274,7 +43254,7 @@
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
-                "sandstorm",
+                
                 "swift",
                 "defense-curl",
                 "dream-eater",
