@@ -7097,74 +7097,74 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "jigglypuff"
                             },
                             {
                                 "chance": 30,
-                                "level": 21,
+                                "level": 11,
                                 "pokemon": "marill"
                             },
                             {
                                 "chance": 20,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "spearow"
                             },
                             {
                                 "chance": 10,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "spearow"
                             },
                             {
                                 "chance": 5,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "pidgey"
                             },
                             {
                                 "chance": 4,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "weepinbell"
                             },
                             {
                                 "chance": 1,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "pikachu"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "jigglypuff"
                             },
                             {
                                 "chance": 30,
-                                "level": 21,
+                                "level": 11,
                                 "pokemon": "marill"
                             },
                             {
                                 "chance": 20,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "pidgey"
                             },
                             {
                                 "chance": 10,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "pidgey"
                             },
                             {
                                 "chance": 5,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "spearow"
                             },
                             {
                                 "chance": 4,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "weepinbell"
                             },
                             {
                                 "chance": 1,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "pikachu"
                             }
                         ],
@@ -7176,32 +7176,32 @@
                             },
                             {
                                 "chance": 30,
-                                "level": 21,
+                                "level": 11,
                                 "pokemon": "psyduck"
                             },
                             {
                                 "chance": 20,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "rattata"
                             },
                             {
                                 "chance": 10,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "drowzee"
                             },
                             {
                                 "chance": 5,
-                                "level": 21,
+                                "level": 12,
                                 "pokemon": "drowzee"
                             },
                             {
                                 "chance": 4,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "weepinbell"
                             },
                             {
                                 "chance": 1,
-                                "level": 21,
+                                "level": 10,
                                 "pokemon": "weepinbell"
                             }
                         ]
@@ -7259,7 +7259,7 @@
                             },
                             {
                                 "chance": 30,
-                                "level": 14,
+                                "level": 12,
                                 "pokemon": "nidoran-m"
                             },
                             {
@@ -7296,7 +7296,7 @@
                             },
                             {
                                 "chance": 30,
-                                "level": 14,
+                                "level": 12,
                                 "pokemon": "nidoran-f"
                             },
                             {
@@ -18076,7 +18076,7 @@
             ],
             "index": 125,
             "name": "bone-club",
-            "power": 65,
+            "power": 85,
             "pp": 20,
             "type": "ground"
         },
@@ -32607,7 +32607,7 @@
                 },
                 {
                     "level": 45,
-                    "move": "whirlpool"
+                    "move": "mirror-coat"
                 },
                 {
                     "level": 49,
@@ -32720,10 +32720,10 @@
             "name": "jolteon",
             "pokedex": 135,
             "stats": {
-                "atk": 65,
+                "atk": 70,
                 "def": 60,
                 "hp": 65,
-                "spa": 110,
+                "spa": 105,
                 "spd": 95,
                 "spe": 130
             },
@@ -38392,10 +38392,10 @@
             "name": "espeon",
             "pokedex": 196,
             "stats": {
-                "atk": 50,
+                "atk": 45,
                 "def": 60,
                 "hp": 65,
-                "spa": 135,
+                "spa": 140,
                 "spd": 95,
                 "spe": 120
             },
