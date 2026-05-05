@@ -15067,7 +15067,7 @@
                 },
                 {
                     "amount": "1",
-                    "info": "Talk to Tuscany after obtaining pokedex",
+                    "info": "Talk to Tuscany on Tuesday",
                     "item": "pink-bow"
                 }
             ],
@@ -15226,7 +15226,7 @@
                 },
                 {
                     "amount": "1",
-                    "info": "talk to Frieda above pokecenter by Union Cave entrance",
+                    "info": "talk to Frieda on Friday",
                     "item": "poison-barb"
                 }
             ],
@@ -15636,7 +15636,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "middle guy on violet city side",
+                    "info": "talk to Arthur on Thursday",
                     "item": "hard-stone"
                 },
                 {
@@ -15667,7 +15667,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "talk to boy by ledge on left side of the route",
+                    "info": "talk to Sunny on Sunday",
                     "item": "magnet"
                 },
                 {
@@ -15857,7 +15857,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "talk to the Blue woman by rock smash rocks",
+                    "info": "talk to Monica on Monday",
                     "item": "sharp-beak"
                 }
             ],
@@ -16054,22 +16054,22 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Obtained after defeating Shiny Gyarados",
+                    "info": "obtained after defeating Shiny Gyarados",
                     "item": "red-scale"
                 },
                 {
                     "amount": "1",
-                    "info": "Inside house on the left side on the lake.",
+                    "info": "inside the house",
                     "item": "tm-10"
                 },
                 {
                     "amount": "1",
-                    "info": "on the island.",
+                    "info": "in the forest",
                     "item": "tm-43"
                 },
                 {
                     "amount": "1",
-                    "info": "on the island.",
+                    "info": "talk to Wesley on Wednesday",
                     "item": "blackbelt"
                 }
             ],
@@ -16139,7 +16139,7 @@
                 },
                 {
                     "amount": "1",
-                    "info": "Located on cliff by dragon's den entrance",
+                    "info": "talk to Santos on Saturday",
                     "item": "spell-tag"
                 }
             ],
@@ -18868,9 +18868,9 @@
             ],
             "index": 6,
             "name": "pay-day",
-            "power": 40,
+            "power": 60,
             "pp": 20,
-            "type": "normal"
+            "type": "steel"
         },
         {
             "accuracy": 100,
@@ -55517,6 +55517,407 @@
             "earthquake",
             "flamethrower",
             "ice-beam"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "burglar-corey",
+      "meta": "cabin 2",
+      "team": [
+        {
+          "name": "xatu",
+          "level": 72,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "hypnosis",
+            "nightmare",
+            "future-sight"
+          ]
+        },
+        {
+          "name": "muk",
+          "level": 71,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "explosion",
+            "flamethrower",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "hypno",
+          "level": 72,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "hypnosis",
+            "dream-eater",
+            "submission"
+ 	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "pokemaniac-ethan",
+      "meta": "cabin 4",
+      "team": [
+        {
+          "name": "girafarig",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "crunch",
+            "psychic",
+            "body-slam",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 71,
+          "item": "kings-rock",
+          "moves": [
+            "waterfall",
+            "rock-slide",
+            "submission",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "fearow",
+          "level": 72,
+          "item": "sharp-beak",
+          "moves": [
+            "drill-peck",
+            "whirlwind",
+            "flamethrower",
+            "fury-attack"
+          ]
+        },
+        {
+          "name": "victreebel",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "leech-life",
+            "giga-drain",
+            "crunch",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 71,
+          "item": "hard-stone",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "megahorn",
+            "fire-blast"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "pokefan-georgia",
+      "team": [
+        {
+          "name": "furret",
+          "level": 71,
+          "item": "pink-bow",
+          "moves": [
+            "belly-drum",
+            "body-slam",
+            "fury-cutter",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "furret",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "extremespeed",
+            "curse",
+            "submission",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "furret",
+          "level": 71,
+          "item": "quick-claw",
+          "moves": [
+            "surf",
+            "thunderpunch",
+            "ice-punch",
+            "dig"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "pokefan-jeremy",
+      "meta": "cabin 6",
+      "b2b": true,
+      "team": [
+        {
+          "name": "persian",
+          "level": 71,
+          "item": "brightpowder",
+          "moves": [
+            "hypnosis",
+            "flash",
+            "nightmare",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "persian",
+          "level": 71,
+          "item": "pink-bow",
+          "moves": [
+            "return",
+            "dream-eater",
+            "psychic",
+            "shadow-ball"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "guitarist-clyde",
+      "meta": "cabin 7",
+      "team": [
+        {
+          "name": "politoed",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "hydro-pump",
+            "perish-song",
+            "sing",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 71,
+          "item": "magnet",
+          "moves": [
+            "supersonic",
+            "flash",
+            "thunder-wave",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "togetic",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "softboiled",
+            "encore",
+            "perish-song",
+            "toxic"
+ 	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "bug-catcher-ken",
+      "meta": "cabin 8",
+      "team": [
+        {
+          "name": "ariados",
+          "level": 72,
+          "item": "brightpowder",
+          "moves": [
+            "string-shot",
+            "sludge",
+            "future-sight",
+            "megahorn"
+          ]
+        },
+        {
+          "name": "magcargo",
+          "level": 72,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "flamethrower",
+            "lick",
+            "explosion"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 72,
+          "item": "miracle-seed",
+          "moves": [
+            "spore",
+            "leech-seed",
+            "fury-cutter",
+            "giga-drain"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "sailor-stanly",
+      "meta": "cabin 2 after talking to the sailor downstairs",
+      "team": [
+        {
+          "name": "ursaring",
+          "level": 72,
+          "item": "lum-berry",
+          "moves": [
+            "quick-attack",
+            "mega-punch",
+            "earthquake",
+	    "ice-punch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "sailor-kenneth",
+      "team": [
+        {
+          "name": "tangela",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "stun-spore",
+            "wrap",
+            "ancientpower",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "rock-slide",
+            "cross-chop",
+            "bind",
+            "low-kick"
+          ]
+        },
+        {
+          "name": "poliwrath",
+          "level": 71,
+          "item": "mystic-water",
+          "moves": [
+            "whirlpool",
+            "swords-dance",
+            "comet-punch",
+            "submission"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "schoolboy-nate",
+      "team": [
+        {
+          "name": "ledian",
+          "level": 73,
+          "item": "focus-band",
+          "moves": [
+            "toxic",
+            "giga-drain",
+            "reflect",
+            "sleep-powder"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "nightmare",
+            "egg-bomb",
+            "petal-dance",
+            "psychic"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "schoolboy-ricky",
+      "b2b": true,
+      "team": [
+        {
+          "name": "aipom",
+          "level": 72,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "surf",
+            "submission",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "ditto",
+          "level": 71,
+          "item": "metal-powder",
+          "moves": [
+            "transform"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "teacher-shirley",
+      "team": [
+        {
+          "name": "wigglytuff",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "charm",
+            "sing",
+            "psywave"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 72,
+          "item": "pink-bow",
+          "moves": [
+            "explosion",
+            "pin-missile",
+            "light-screen",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 72,
+          "item": "hard-stone",
+          "moves": [
+            "rollout",
+            "attract",
+            "powder-snow",
+            "earthquake"
 	  ]
 	}
       ]
