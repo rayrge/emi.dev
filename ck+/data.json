@@ -15411,6 +15411,11 @@
                     "amount": "1",
                     "info": "talk to Irene after the B2B2B",
                     "item": "soft-sand"
+                },
+                {
+                    "amount": "1",
+                    "info": "hidden near Ilex gate",
+                    "item": "leaf-stone"
                 }
             ],
             "locations": [
