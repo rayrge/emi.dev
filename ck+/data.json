@@ -56885,7 +56885,8 @@
             "type": "item",
             "location": "Route 29",
             "name": "oran-berry",
-            "amount": "17-21"
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "item",
@@ -56898,19 +56899,22 @@
             "type": "item",
             "location": "Route 30",
             "name": "pecha-berry",
-            "amount": "17-21"
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "item",
             "location": "Route 30",
             "name": "chesto-berry",
-            "amount": "17-21"
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "item",
             "location": "Route 30",
             "name": "cheri-berry",
-            "amount": "17-21"
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "roadblock",
@@ -56920,19 +56924,22 @@
             "type": "item",
             "location": "Route 31",
             "name": "rawst-berry",
-            "amount": "17-21"
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "item",
             "location": "Violet City",
             "name": "persim-berry",
-            "amount": "17-21"
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "item",
             "location": "Route 36",
             "name": "aspear-berry",
-            "amount": "17-21"
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "item",
@@ -57019,6 +57026,117 @@
             "name": "tm-04",
             "amount": 1,
 	    "description": "Rollout"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "bug-catcher-arnie"
+	},
+        {
+            "type": "item",
+            "location": "Route 35",
+            "name": "sitrus-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "camper-ivan"
+	},
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-33",
+            "amount": "renewable",
+	    "description": "Ice Punch. mart"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-41",
+            "amount": "renewable",
+	    "description": "ThunderPunch. mart"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-48",
+            "amount": "renewable",
+	    "description": "Fire Punch. mart"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "mystic-water",
+            "amount": 1,
+	    "description": "talk to flower shop girls"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "bike",
+            "amount": 1,
+	    "description": "talk to bike shop guy"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "super-nerd-eric"
+	},
+	{
+	    "type": "roadblock",
+	    "name": "super-nerd-tewu"
+	},
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "coin-case",
+            "amount": 1,
+	    "description": "underground"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-21",
+            "amount": "renewable",
+	    "description": "Frustration. underground on weekends"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-27",
+            "amount": "renewable",
+	    "description": "Return. underground on weekends"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-25",
+            "amount": "renewable",
+	    "description": "Thunder. game corner"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-38",
+            "amount": "renewable",
+	    "description": "Fire Blast. game corner"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-14",
+            "amount": "renewable",
+	    "description": "Blizzard. game corner"
+        },
+	{   
+	    "type": "roadblock",
+	    "name": "leader-whitney"
+	},
+	{	
+            "type": "item",
+            "location": "Goldenrod-City",
+            "name": "tm-45",
+            "amount": 1,
+	    "description": "Attract"
         }
     ]
 }
