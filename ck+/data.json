@@ -15436,11 +15436,6 @@
                 {
                     "amount": "renewable",
                     "info": "Buyable in mart",
-                    "item": "leaf-stone"
-                },
-                {
-                    "amount": "renewable",
-                    "info": "Buyable in mart",
                     "item": "everstone"
                 },
                 {
@@ -15450,12 +15445,12 @@
                 },
                 {
                     "amount": "renewable",
-                    "info": "underground vendor on sundays",
+                    "info": "underground vendor on weekends",
                     "item": "tm-21"
                 },
                 {
                     "amount": "renewable",
-                    "info": "underground vendor on sundays",
+                    "info": "underground vendor on weekends",
                     "item": "tm-27"
                 },
                 {
@@ -30553,10 +30548,6 @@
                     "move": "stomp"
                 },
                 {
-                    "level": 13,
-                    "move": "rock-throw"
-                },
-                {
                     "level": 19,
                     "move": "headbutt"
                 },
@@ -30644,10 +30635,6 @@
                 {
                     "level": 8,
                     "move": "stomp"
-                },
-                {
-                    "level": 13,
-                    "move": "rock-throw"
                 },
                 {
                     "level": 19,
@@ -55523,8 +55510,409 @@
     },
 {
       "area": "S.S. Aqua",
+      "name": "gentleman-edward",
+      "meta": "start passenger set 2. cabin 2",
+      "team": [
+        {
+          "name": "espeon",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "sing",
+            "bite",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "nidoking",
+          "level": 72,
+          "item": "scope-lens",
+          "moves": [
+            "megahorn",
+            "earthquake",
+            "ice-beam",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "recover",
+            "waterfall",
+            "psychic",
+            "thunderbolt"
+ 	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "cooltrainer-sean",
+      "meta": "cabin 4",
+      "team": [
+        {
+          "name": "girafarig",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "crunch",
+            "psychic",
+            "body-slam",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 71,
+          "item": "kings-rock",
+          "moves": [
+            "waterfall",
+            "rock-slide",
+            "submission",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "fearow",
+          "level": 72,
+          "item": "sharp-beak",
+          "moves": [
+            "drill-peck",
+            "whirlwind",
+            "flamethrower",
+            "fury-attack"
+          ]
+        },
+        {
+          "name": "victreebel",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "leech-life",
+            "giga-drain",
+            "crunch",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 71,
+          "item": "hard-stone",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "megahorn",
+            "fire-blast"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "pokefan-georgia",
+      "team": [
+        {
+          "name": "furret",
+          "level": 71,
+          "item": "pink-bow",
+          "moves": [
+            "belly-drum",
+            "body-slam",
+            "fury-cutter",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "furret",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "extremespeed",
+            "curse",
+            "submission",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "furret",
+          "level": 71,
+          "item": "quick-claw",
+          "moves": [
+            "surf",
+            "thunderpunch",
+            "ice-punch",
+            "dig"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "pokefan-jeremy",
+      "meta": "cabin 6",
+      "b2b": true,
+      "team": [
+        {
+          "name": "persian",
+          "level": 71,
+          "item": "brightpowder",
+          "moves": [
+            "hypnosis",
+            "flash",
+            "nightmare",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "persian",
+          "level": 71,
+          "item": "pink-bow",
+          "moves": [
+            "return",
+            "dream-eater",
+            "psychic",
+            "shadow-ball"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "guitarist-clyde",
+      "meta": "cabin 7",
+      "team": [
+        {
+          "name": "politoed",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "hydro-pump",
+            "perish-song",
+            "sing",
+            "body-slam"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 71,
+          "item": "magnet",
+          "moves": [
+            "supersonic",
+            "flash",
+            "thunder-wave",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "togetic",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "softboiled",
+            "encore",
+            "perish-song",
+            "toxic"
+ 	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "bug-catcher-ken",
+      "meta": "cabin 8",
+      "team": [
+        {
+          "name": "ariados",
+          "level": 72,
+          "item": "brightpowder",
+          "moves": [
+            "string-shot",
+            "sludge",
+            "future-sight",
+            "megahorn"
+          ]
+        },
+        {
+          "name": "magcargo",
+          "level": 72,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+            "flamethrower",
+            "lick",
+            "explosion"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 72,
+          "item": "miracle-seed",
+          "moves": [
+            "spore",
+            "leech-seed",
+            "fury-cutter",
+            "giga-drain"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "sailor-stanly",
+      "meta": "cabin 2 after talking to the sailor downstairs",
+      "team": [
+        {
+          "name": "ursaring",
+          "level": 72,
+          "item": "lum-berry",
+          "moves": [
+            "quick-attack",
+            "mega-punch",
+            "earthquake",
+	    "ice-punch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "sailor-kenneth",
+      "team": [
+        {
+          "name": "tangela",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "stun-spore",
+            "wrap",
+            "ancientpower",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "rock-slide",
+            "cross-chop",
+            "bind",
+            "low-kick"
+          ]
+        },
+        {
+          "name": "poliwrath",
+          "level": 71,
+          "item": "mystic-water",
+          "moves": [
+            "whirlpool",
+            "swords-dance",
+            "comet-punch",
+            "submission"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "schoolboy-nate",
+      "team": [
+        {
+          "name": "ledian",
+          "level": 73,
+          "item": "focus-band",
+          "moves": [
+            "toxic",
+            "giga-drain",
+            "reflect",
+            "sleep-powder"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "nightmare",
+            "egg-bomb",
+            "petal-dance",
+            "psychic"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "schoolboy-ricky",
+      "b2b": true,
+      "team": [
+        {
+          "name": "aipom",
+          "level": 72,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "surf",
+            "submission",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "ditto",
+          "level": 71,
+          "item": "metal-powder",
+          "moves": [
+            "transform"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "teacher-shirley",
+      "team": [
+        {
+          "name": "wigglytuff",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "charm",
+            "sing",
+            "psywave"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 72,
+          "item": "pink-bow",
+          "moves": [
+            "explosion",
+            "pin-missile",
+            "light-screen",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 72,
+          "item": "hard-stone",
+          "moves": [
+            "rollout",
+            "attract",
+            "powder-snow",
+            "earthquake"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
       "name": "burglar-corey",
-      "meta": "cabin 2",
+      "meta": "start passenger set 3. cabin 2",
       "team": [
         {
           "name": "xatu",
