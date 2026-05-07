@@ -15118,6 +15118,11 @@
                 },
                 {
                     "amount": "17-21",
+                    "info": "tree by Mr Pokemon's house",
+                    "item": "cheri-berry"
+                },
+                {
+                    "amount": "17-21",
                     "info": "tree by house in south",
                     "item": "chesto-berry"
                 },
@@ -15144,8 +15149,8 @@
             "items": [
                 {
                     "amount": "17-21",
-                    "info": "tree by Dark Cave",
-                    "item": "persim-berry"
+                    "info": "tree by Kenya guy",
+                    "item": "rawst-berry"
                 },
                 {
                     "amount": "1",
@@ -15170,8 +15175,8 @@
             "items": [
                 {
                     "amount": "17-21",
-                    "info": "tree in south west",
-                    "item": "cheri-berry"
+                    "info": "tree in southwest",
+                    "item": "persim-berry"
                 },
                 {
                     "amount": "1",
@@ -15601,7 +15606,7 @@
                 },
                 {
                     "amount": "1",
-                    "info": "come second in bug catching contest",
+                    "info": "place second in bug catching contest",
                     "item": "brightpowder"
                 },
                 {
@@ -15611,7 +15616,7 @@
                 },
                 {
                     "amount": "1",
-                    "info": "talk to fisherman inside the gate",
+                    "info": "talk to fisherman in south gate",
                     "item": "old-rod"
                 }
             ],
@@ -15636,8 +15641,8 @@
                 },
                 {
                     "amount": "1",
-                    "info": "talk to the guy to the right of sudowoodo after defeating it",
-                    "item": "tm-08"
+                    "info": "talk to rock smash guy",
+                    "item": "squirtbottle"
                 },
                 {
                     "amount": "17-21",
@@ -18182,7 +18187,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "30% chance to confuse opponent"
+                "10% chance to confuse opponent"
             ],
             "index": 60,
             "name": "psybeam",
@@ -44515,7 +44520,7 @@
       ]
     },
     {
-      "area": "Goldenrod Gym",
+      "area": "Goldenrod City Gym",
       "name": "lass-carrie",
       "team": [
         {
@@ -44565,7 +44570,7 @@
       ]
     },
     {
-      "area": "Goldenrod Gym",
+      "area": "Goldenrod City Gym",
       "name": "lass-bridget",
       "team": [
         {
@@ -44615,7 +44620,7 @@
       ]
     },
     {
-      "area": "Goldenrod Gym",
+      "area": "Goldenrod City Gym",
       "name": "beauty-victoria",
       "team": [
         {
@@ -44665,7 +44670,7 @@
       ]
     },
     {
-      "area": "Goldenrod Gym",
+      "area": "Goldenrod City Gym",
       "name": "beauty-samantha",
       "team": [
         {
@@ -44715,7 +44720,7 @@
       ]
     },
     {
-      "area": "Goldenrod Gym",
+      "area": "Goldenrod City Gym",
       "name": "leader-whitney",
       "team": [
         {
@@ -45451,7 +45456,7 @@
       ]
     },
     {
-      "area": "Azalea Gym",
+      "area": "Azalea Town Gym",
       "name": "twins-amy-may",
       "team": [
         {
@@ -45479,7 +45484,7 @@
       ]
     },
     {
-      "area": "Azalea Gym",
+      "area": "Azalea Town Gym",
       "name": "bug-catcher-josh",
       "team": [
         {
@@ -45540,7 +45545,7 @@
       ]
     },
     {
-      "area": "Azalea Gym",
+      "area": "Azalea Town Gym",
       "name": "bug-catcher-al",
       "team": [
         {
@@ -45601,7 +45606,7 @@
       ]
     },
     {
-      "area": "Azalea Gym",
+      "area": "Azalea Town Gym",
       "name": "bug-catcher-benny",
       "team": [
         {
@@ -45662,7 +45667,7 @@
       ]
     },
     {
-      "area": "Azalea Gym",
+      "area": "Azalea Town Gym",
       "name": "leader-bugsy",
       "team": [
         {
@@ -48475,7 +48480,7 @@
       ]
     },
     {
-      "area": "Cianwood Gym",
+      "area": "Cianwood City Gym",
       "name": "blackbelt-yoshi",
       "team": [
         {
@@ -48514,7 +48519,7 @@
       ]
     },
     {
-      "area": "Cianwood Gym",
+      "area": "Cianwood City Gym",
       "name": "blackbelt-lao",
       "team": [
         {
@@ -48551,7 +48556,7 @@
       "b2b": true
     },
     {
-      "area": "Cianwood Gym",
+      "area": "Cianwood City Gym",
       "name": "blackbelt-nob",
       "team": [
         {
@@ -48601,7 +48606,7 @@
       ]
     },
     {
-      "area": "Cianwood Gym",
+      "area": "Cianwood City Gym",
       "name": "blackbelt-lung",
       "team": [
         {
@@ -48652,7 +48657,7 @@
       "b2b": true
     },
     {
-      "area": "Cianwood Gym",
+      "area": "Cianwood City Gym",
       "name": "leader-chuck",
       "team": [
         {
@@ -49461,7 +49466,7 @@
       ]
     },
     {
-      "area": "Ecruteak Gym",
+      "area": "Ecruteak City Gym",
       "name": "sage-ping",
       "team": [
         {
@@ -49511,7 +49516,7 @@
       ]
     },
     {
-      "area": "Ecruteak Gym",
+      "area": "Ecruteak City Gym",
       "name": "medium-martha",
       "team": [
         {
@@ -49561,7 +49566,7 @@
       ]
     },
     {
-      "area": "Ecruteak Gym",
+      "area": "Ecruteak City Gym",
       "name": "medium-grace",
       "team": [
         {
@@ -49622,7 +49627,7 @@
       ]
     },
     {
-      "area": "Ecruteak Gym",
+      "area": "Ecruteak City Gym",
       "name": "sage-jeffrey",
       "team": [
         {
@@ -49683,7 +49688,7 @@
       ]
     },
     {
-      "area": "Ecruteak Gym",
+      "area": "Ecruteak City Gym",
       "name": "leader-morty",
       "team": [
         {
@@ -50890,7 +50895,7 @@
       ]
     },
     {
-      "area": "Mahogany Gym",
+      "area": "Mahogany Town Gym",
       "name": "boarder-brad",
       "team": [
         {
@@ -50951,7 +50956,7 @@
       ]
     },
     {
-      "area": "Mahogany Gym",
+      "area": "Mahogany Town Gym",
       "name": "boarder-ronald",
       "team": [
         {
@@ -51012,7 +51017,7 @@
       ]
     },
     {
-      "area": "Mahogany Gym",
+      "area": "Mahogany Town Gym",
       "name": "skier-clarissa",
       "team": [
         {
@@ -51073,7 +51078,7 @@
       ]
     },
     {
-      "area": "Mahogany Gym",
+      "area": "Mahogany Town Gym",
       "name": "skier-roxanne",
       "team": [
         {
@@ -51134,7 +51139,7 @@
       ]
     },
     {
-      "area": "Mahogany Gym",
+      "area": "Mahogany Town Gym",
       "name": "boarder-douglas",
       "team": [
         {
@@ -51195,7 +51200,7 @@
       ]
     },
     {
-      "area": "Mahogany Gym",
+      "area": "Mahogany Town Gym",
       "name": "leader-pryce",
       "team": [
         {
@@ -56866,6 +56871,154 @@
             "attacker": "psychic",
             "defender": "dark",
             "multiplier": 0.0
+        }
+    ],
+"items_map": [
+        {
+            "type": "item",
+            "location": "Route 29",
+            "name": "pink-bow",
+            "amount": 1,
+            "description": "talk to Tuscany on Tuesday"
+        },
+        {
+            "type": "item",
+            "location": "Route 29",
+            "name": "oran-berry",
+            "amount": "17-21"
+        },
+        {
+            "type": "item",
+            "location": "Route 30",
+            "name": "oran-berry",
+            "amount": 30,
+	    "description": "talk to man inside house"
+        },
+        {
+            "type": "item",
+            "location": "Route 30",
+            "name": "pecha-berry",
+            "amount": "17-21"
+        },
+        {
+            "type": "item",
+            "location": "Route 30",
+            "name": "chesto-berry",
+            "amount": "17-21"
+        },
+        {
+            "type": "item",
+            "location": "Route 30",
+            "name": "cheri-berry",
+            "amount": "17-21"
+        },
+        {
+            "type": "roadblock",
+            "name": "bug-catcher-don"
+        },
+        {
+            "type": "item",
+            "location": "Route 31",
+            "name": "rawst-berry",
+            "amount": "17-21"
+        },
+        {
+            "type": "item",
+            "location": "Violet City",
+            "name": "persim-berry",
+            "amount": "17-21"
+        },
+        {
+            "type": "item",
+            "location": "Route 36",
+            "name": "aspear-berry",
+            "amount": "17-21"
+        },
+        {
+            "type": "item",
+            "location": "Route 36",
+            "name": "hard-stone",
+            "amount": 1,
+	    "description": "talk to Arthur on Thursday"
+        },
+        {
+            "type": "roadblock",
+            "name": "sage-li"
+        },
+        {
+            "type": "item",
+            "location": "Sprout Tower",
+            "name": "hm-05",
+            "amount": 1,
+	    "description": "Flash"
+        },
+        {
+            "type": "roadblock",
+            "name": "leader-falkner"
+        },
+        {
+            "type": "item",
+            "location": "Violet City Gym",
+            "name": "tm-18",
+            "amount": 1,
+	    "description": "Wing Attack"
+        },
+        {
+            "type": "item",
+            "location": "Route 36",
+            "name": "squirtbottle",
+            "amount": 1,
+	    "description": "talk to rock smash guy"
+        },
+        {
+            "type": "item",
+            "location": "National Park",
+            "name": "silverpowder",
+            "amount": 1,
+	    "description": "win bug catching contest"
+        },
+        {
+            "type": "item",
+            "location": "National Park",
+            "name": "brightpowder",
+            "amount": 1,
+	    "description": "place second in bug catching contest"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "pokefan-bethany"
+	},
+        {
+            "type": "item",
+            "location": "National Park",
+            "name": "quick-claw",
+            "amount": 1,
+	    "description": "talk to woman on the bench"
+        },	
+	{
+            "type": "item",
+            "location": "National Park",
+            "name": "tm-28",
+            "amount": 1,
+	    "description": "Dig"
+        },
+	{	
+            "type": "item",
+            "location": "National Park",
+            "name": "old-rod",
+            "amount": 1,
+	    "description": "talk to fisherman in south gate"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "firebreather-walt"
+	},
+	{	
+            "type": "item",
+            "location": "Route 35",
+            "name": "tm-04",
+            "amount": 1,
+	    "description": "Rollout"
         }
     ]
 }

@@ -22,6 +22,7 @@ var typeColors = new Map([
 	["curse", "#68a090"]
 ]);
 var typeMatchups = new Map();
+var itemsMap = [];
 var searchResults = new Map();
 var pokemonByName = new Map();
 var pokemonByPokedex = new Map();
@@ -280,6 +281,10 @@ function startup() {
 		var map = typeMatchups.get(m.attacker);
 		map.set(m.defender, m.multiplier);
 	}
+	for (let i in j.items_map) {
+		var t = j.items_map[i];
+		itemsMap[i] = t;
+	}
 	for (let i in j.landmarks) {
 		landmarksByIndex.set(j.landmarks[i].id, j.landmarks[i]);
 		landmarksByName.set(j.landmarks[i].name, j.landmarks[i]);
@@ -328,6 +333,7 @@ function startup() {
 	updateCalc();
 	updateBox();
 	displayTrainers();
+	displayItemsMap();
 	if (box.length > 0) {
 		setTab("calc");
 	} else {

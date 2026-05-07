@@ -1284,3 +1284,28 @@ rt {
 .option-list-selected {
 	background-color: var(--search-suggestion-hover);
 }
+
+#items {
+	overflow-y: scroll;
+}
+
+.entry {
+	margin: 10px 10px 10px 0;
+	padding: 10px;
+	border: var(--border-color);
+	border-width: 4px;
+	border-style: solid;
+}
+
+.entry-item {
+	background-color: #728370;
+}
+
+.entry-roadblock {
+	background-color: #99746F;
+	margin: 0 32px;
+}
+
+.entry-roadblock {
+	font-size: 30px;
+}

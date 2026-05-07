@@ -123,6 +123,8 @@ function navigate(url) {
 				setTab("trainers")
 			} else if (parts[0] == "map") {
 				setTab("map")
+			} else if (parts[0] == "items") {
+				setTab("items")
 			}
 		}
 	} else {
