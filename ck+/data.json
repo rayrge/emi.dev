@@ -15309,7 +15309,7 @@
                 {
                     "amount": "17-21",
                     "info": "tree by union cave entrance",
-                    "item": "pecha-berry"
+                    "item": "leppa-berry"
                 }
             ],
             "locations": [
@@ -15335,7 +15335,7 @@
                 {
                     "amount": "17-21",
                     "info": "tree by Kurt's house",
-                    "item": "aspear-berry"
+                    "item": "sitrus-berry"
                 },
                 {
                     "amount": "1",
@@ -15647,7 +15647,7 @@
                 {
                     "amount": "17-21",
                     "info": "tree by national-park entrance",
-                    "item": "rawst-berry"
+                    "item": "aspear-berry"
                 }
             ],
             "locations": [
@@ -15672,13 +15672,18 @@
                 },
                 {
                     "amount": "17-21",
-                    "info": "tree in the middle path",
+                    "info": "tree",
                     "item": "leppa-berry"
                 },
                 {
                     "amount": "17-21",
-                    "info": "tree in the left path",
-                    "item": "oran-berry"
+                    "info": "tree",
+                    "item": "sitrus-berry"
+                },
+                {
+                    "amount": "17-21",
+                    "info": "tree",
+                    "item": "lum-berry"
                 }
             ],
             "locations": [
@@ -56937,13 +56942,6 @@
         {
             "type": "item",
             "location": "Route 36",
-            "name": "aspear-berry",
-            "amount": "17-21",
-	    "description": "tree"
-        },
-        {
-            "type": "item",
-            "location": "Route 36",
             "name": "hard-stone",
             "amount": 1,
 	    "description": "talk to Arthur on Thursday"
@@ -56965,7 +56963,7 @@
         },
         {
             "type": "item",
-            "location": "Violet City Gym",
+            "location": "Violet City",
             "name": "tm-18",
             "amount": 1,
 	    "description": "Wing Attack"
@@ -56976,6 +56974,17 @@
             "name": "squirtbottle",
             "amount": 1,
 	    "description": "talk to rock smash guy"
+        },
+        {
+            "type": "roadblock",
+            "name": "psychic-mark"
+        },
+        {
+            "type": "item",
+            "location": "Route 36",
+            "name": "aspear-berry",
+            "amount": "17-21",
+	    "description": "tree"
         },
         {
             "type": "item",
@@ -57009,13 +57018,6 @@
             "amount": 1,
 	    "description": "Dig"
         },
-	{	
-            "type": "item",
-            "location": "National Park",
-            "name": "old-rod",
-            "amount": 1,
-	    "description": "talk to fisherman in south gate"
-        },
 	{
 	    "type": "roadblock",
 	    "name": "firebreather-walt"
@@ -57044,35 +57046,42 @@
 	},
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Route 35",
+            "name": "old-rod",
+            "amount": 1,
+	    "description": "talk to fisherman in south gate"
+        },
+	{	
+            "type": "item",
+            "location": "Goldenrod City",
             "name": "tm-33",
             "amount": "renewable",
 	    "description": "Ice Punch. mart"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-41",
             "amount": "renewable",
 	    "description": "ThunderPunch. mart"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-48",
             "amount": "renewable",
 	    "description": "Fire Punch. mart"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "mystic-water",
             "amount": 1,
 	    "description": "talk to flower shop girls"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "bike",
             "amount": 1,
 	    "description": "talk to bike shop guy"
@@ -57087,42 +57096,42 @@
 	},
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "coin-case",
             "amount": 1,
 	    "description": "underground"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-21",
             "amount": "renewable",
 	    "description": "Frustration. underground on weekends"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-27",
             "amount": "renewable",
 	    "description": "Return. underground on weekends"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-25",
             "amount": "renewable",
 	    "description": "Thunder. game corner"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-38",
             "amount": "renewable",
 	    "description": "Fire Blast. game corner"
         },
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-14",
             "amount": "renewable",
 	    "description": "Blizzard. game corner"
@@ -57133,10 +57142,224 @@
 	},
 	{	
             "type": "item",
-            "location": "Goldenrod-City",
+            "location": "Goldenrod City",
             "name": "tm-45",
             "amount": 1,
 	    "description": "Attract"
-        }
+        },
+	{   
+	    "type": "roadblock",
+	    "name": "cooltrainer-irene"
+	},
+	{	
+            "type": "item",
+            "location": "Route-34",
+            "name": "soft-sand",
+            "amount": 1,
+	    "description": " "
+        },
+	{   
+	    "type": "roadblock",
+	    "name": "officer-keith"
+	},
+	{	
+            "type": "item",
+            "location": "Route 34",
+            "name": "leaf-stone",
+            "amount": 1,
+	    "description": "hidden"
+        },
+	{	
+            "type": "item",
+            "location": "Route 34",
+            "name": "tm-12",
+            "amount": 1,
+	    "description": "Sweet Scent"
+        },
+	{	
+            "type": "item",
+            "location": "Azalea Town",
+            "name": "sitrus-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{	
+            "type": "item",
+            "location": "Azalea Town",
+            "name": "charcoal",
+            "amount": "renewable",
+	    "description": "mart"
+        },
+	{	
+            "type": "item",
+            "location": "Route 33",
+            "name": "leppa-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "leader-bugsy"
+	},
+	{	
+            "type": "item",
+            "location": "Azalea Town",
+            "name": "tm-49",
+            "amount": 1,
+	    "description": "Fury-Cutter"
+        },
+	{	
+            "type": "item",
+            "location": "Ilex Forest",
+            "name": "hm-01",
+            "amount": 1,
+	    "description": "Cut"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "firebreather-bill"
+	},
+	{	
+            "type": "item",
+            "location": "Union Cave",
+            "name": "tm-39",
+            "amount": 1,
+	    "description": "Swift"
+        },
+	{	
+            "type": "item",
+            "location": "Route 32",
+            "name": "poison-barb",
+            "amount": 1,
+	    "description": "talk to Frieda on Friday"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "youngster-albert"
+	},
+	{	
+            "type": "item",
+            "location": "Route 32",
+            "name": "tm-05",
+            "amount": 1,
+	    "description": "Roar"
+        },
+	{	
+            "type": "item",
+            "location": "Azalea Town",
+            "name": "miracle-seed",
+            "amount": 1,
+	    "description": "talk to man at gauntlet exit"
+        },
+	{	
+            "type": "item",
+            "location": "Route 37",
+            "name": "leppa-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{	
+            "type": "item",
+            "location": "Route 37",
+            "name": "sitrus-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{	
+            "type": "item",
+            "location": "Route 37",
+            "name": "lum-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{	
+            "type": "item",
+            "location": "Route 37",
+            "name": "magnet",
+            "amount": 1,
+	    "description": "talk to Sunny on Sunday"
+        },
+	{	
+            "type": "item",
+            "location": "Ecruteak City",
+            "name": "hm-03",
+            "amount": 1,
+	    "description": "defeat any kimono girl, they also give you a stone for your Eevee"
+        },
+	{	
+            "type": "item",
+            "location": "Ecruteak City",
+            "name": "hm-08",
+            "amount": "renewable",
+	    "description": "Rock Smash. mart"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "schoolboy-chad"
+	},
+	{	
+            "type": "item",
+            "location": "Route 39",
+            "name": "oran-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{	
+            "type": "item",
+            "location": "Route 39",
+            "name": "moomoo-milk",
+            "amount": "renewable",
+	    "description": "buy at the farm after saving MooMoo"
+        },
+	{	
+            "type": "item",
+            "location": "Route 39",
+            "name": "tm-13",
+            "amount": 1,
+	    "description": "Snore. save MooMoo"
+        },
+	{	
+            "type": "item",
+            "location": "Route 39",
+            "name": "thick-club",
+            "amount": 1,
+	    "description": "hidden"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "sailor-eugene"
+	},
+	{	
+            "type": "item",
+            "location": "Route 40",
+            "name": "sharp-beak",
+            "amount": 1,
+	    "description": "talk to Monica on Monday"
+        },
+	{	
+            "type": "item",
+            "location": "Olivine City",
+            "name": "good-rod",
+            "amount": 1,
+	    "description": "talk to fisherman in a house"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "leader-jasmine"
+	},
+	{	
+            "type": "item",
+            "location": "Olivine City",
+            "name": "tm-23",
+            "amount": 1,
+	    "description": "Iron Tail"
+        },
+	{	
+            "type": "item",
+            "location": "Route 39",
+            "name": "tm-13",
+            "amount": 1,
+	    "description": "Snore. save MooMoo"
+        },
     ]
 }
