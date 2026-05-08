@@ -15702,7 +15702,7 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "obtained by talking to old man after beating all kimono girls",
+                    "info": "obtained by talking to old man after beating a kimono girl",
                     "item": "hm-03"
                 },
                 {
@@ -15938,11 +15938,6 @@
                     "amount": "1",
                     "info": "obtained after defeating Chuck",
                     "item": "tm-01"
-                },
-                {
-                    "amount": "1",
-                    "info": "obtained after defeating Chuck and talking to the woman outside the gym",
-                    "item": "hm-02"
                 },
                 {
                     "amount": "1",
@@ -44936,7 +44931,7 @@
       "team": [
         {
           "name": "dunsparce",
-          "level": 22,
+          "level": 26,
           "item": "leftovers",
           "moves": [
             "body-slam",
@@ -45619,10 +45614,10 @@
           "level": 24,
           "item": "berry-juice",
           "moves": [
-            "vital-throw",
+            "submission",
             "counter",
             "wing-attack",
-            "horn-attack"
+            "fury-cutter"
           ]
         },
         {
@@ -45644,7 +45639,7 @@
             "toxic",
             "protect",
             "leech-life",
-            "vicegrip"
+            "dig"
           ]
         },
         {
@@ -45652,7 +45647,7 @@
           "level": 23,
           "item": "quick-claw",
           "moves": [
-            "stomp",
+            "headbutt",
             "karate-chop",
             "clamp",
             "dig"
@@ -45682,7 +45677,7 @@
           "moves": [
             "metal-claw",
             "wing-attack",
-            "cut",
+            "fury-cutter",
             "mach-punch"
           ]
         },
@@ -45711,7 +45706,7 @@
         {
           "name": "parasect",
           "level": 27,
-          "item": "silverpowder",
+          "item": "focus-band",
           "moves": [
             "spore",
             "leech-seed",
@@ -57356,10 +57351,202 @@
         },
 	{	
             "type": "item",
-            "location": "Route 39",
-            "name": "tm-13",
+            "location": "Cherrygrove City",
+            "name": "twisted-spoon",
             "amount": 1,
-	    "description": "Snore. save MooMoo"
+	    "description": "talk to man on island"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "mysticalman-eusine"
+	},
+	{	
+            "type": "item",
+            "location": "Olivine City",
+            "name": "hm-04",
+            "amount": 1,
+	    "description": "Strength. talk to man in cafe"
+        },
+	{	
+            "type": "item",
+            "location": "Burned Tower",
+            "name": "tm-20",
+            "amount": 1,
+	    "description": "Endure"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "leader-chuck"
+	},
+	{	
+            "type": "item",
+            "location": "Cianwood City",
+            "name": "tm-01",
+            "amount": 1,
+	    "description": "DynamicPunch"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "gruntm-28"
+	},
+	{	
+            "type": "item",
+            "location": "Rocket Hideout",
+            "name": "metal-coat",
+            "amount": 1,
+	    "description": " "
+        },
+	{
+	    "type": "roadblock",
+	    "name": "gruntm-18"
+	},
+	{	
+            "type": "item",
+            "location": "Rocket Hideout",
+            "name": "tm-10",
+            "amount": 1,
+	    "description": "Hidden Power"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "executive-ariana-1"
+	},
+	{	
+            "type": "item",
+            "location": "Rocket Hideout",
+            "name": "hm-02",
+            "amount": 1,
+	    "description": "Fly"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "leader-morty"
+	},
+	{	
+            "type": "item",
+            "location": "Ecruteak City",
+            "name": "tm-30",
+            "amount": 1,
+	    "description": "Shadow Ball"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "executive-proton-1"
+	},
+	{	
+            "type": "item",
+            "location": "Tin Tower",
+            "name": "clear-bell",
+            "amount": 1,
+	    "description": "fight the wise trio to re-enter after rocket takeover"
+        },
+	{	
+            "type": "item",
+            "location": "Route 42",
+            "name": "lum-berry",
+            "amount": "34-42",
+	    "description": "trees"
+        },
+	{	
+            "type": "item",
+            "location": "Route 42",
+            "name": "sitrus-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "pokemaniac-miller"
+	},
+	{	
+            "type": "item",
+            "location": "Mt Mortar",
+            "name": "tm-17",
+            "amount": 1,
+	    "description": "Protect"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "super-nerd-markus"
+	},
+	{	
+            "type": "item",
+            "location": "Mt Mortar",
+            "name": "focus-band",
+            "amount": 1,
+	    "description": " "
+        },
+	{
+	    "type": "roadblock",
+	    "name": "super-nerd-hugh"
+	},
+	{	
+            "type": "item",
+            "location": "Mt Mortar",
+            "name": "dragon-scale",
+            "amount": 1,
+	    "description": " "
+        },
+	{
+	    "type": "roadblock",
+	    "name": "hiker-benjamin"
+	},
+	{	
+            "type": "item",
+            "location": "Route 43",
+            "name": "tm-36",
+            "amount": 1,
+	    "description": "Sludge Bomb. gate officer"
+        },
+	{	
+            "type": "item",
+            "location": "Route 43",
+            "name": "sitrus-berry",
+            "amount": "17-21",
+	    "description": "tree"
+        },
+	{	
+            "type": "item",
+            "location": "Lake Of Rage",
+            "name": "tm-43",
+            "amount": 1,
+	    "description": "Detect"
+        },
+	{	
+            "type": "item",
+            "location": "Lake Of Rage",
+            "name": "tm-10",
+            "amount": 1,
+	    "description": "Hidden Power"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "cooltrainer-lois"
+	},
+	{	
+            "type": "item",
+            "location": "Lake Of Rage",
+            "name": "blackbelt",
+            "amount": 1,
+	    "description": "talk to Wesley on Wednesday"
+        },
+	{	
+            "type": "item",
+            "location": "Lake Of Rage",
+            "name": "red-scale",
+            "amount": 1,
+	    "description": "fight red gyarados"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "leader-pryce"
+	},
+	{	
+            "type": "item",
+            "location": "Mahogany Town",
+            "name": "tm-16",
+            "amount": 1,
+	    "description": "Icy Wind"
         }
     ]
 }
