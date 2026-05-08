@@ -23,4 +23,44 @@ function displayItemsMap() {
 
         list.appendChild(item);
     });
+
+    loadCheckbox();
+}
+
+function saveCheckbox() {
+    const state = {};
+
+    document.querySelectorAll("#items input[type='checkbox']").forEach(c => {
+        state[c.id] = c.checked;
+    });
+
+    savedData["checkbox-state"] = state;
+    writeLocalStorage()
+}
+
+function loadCheckbox() {
+    const state = checkboxState;
+
+    document.querySelectorAll("#items input[type='checkbox']").forEach(c => {
+        var checked = state[c.id];
+        document.getElementById(c.id).checked = checked;
+        if (checked) itemObtained(c);
+    });
+}
+
+function itemObtained(checkbox) {
+    const div = checkbox.closest(".entry");
+    div.style.backgroundColor = checkbox.checked ? '#536878' : '#728370';
+    div.classList.toggle("obtained", checkbox.checked);
+
+    saveCheckbox();
+}
+
+function resetCheckboxState() {
+    document.querySelectorAll("#items input[type='checkbox']").forEach(c => {
+        document.getElementById(c.id).checked = false;
+        itemObtained(c);
+    });
+
+    saveCheckbox();
 }
