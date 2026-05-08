@@ -1,13 +1,17 @@
 function displayItemsMap() {
+    var i = 0;
 
     const list = document.getElementById("items");
 
     itemsMap.forEach((entry) => {
+        i++;
+
         const item = document.createElement("div");
         item.classList.add("entry", `entry-${entry.type}`);
 
         if (entry.type == "item") {
             item.innerHTML = `
+                <span class="item-checkbox"><input id="${i}" type="checkbox" oninput="itemObtained(this)"><label for="${i}" class="fake-checkbox" title="obtained?"></label></span>
                 <div class="item-location">${entry.location}</div>
                 <div class="item-name">${itemLink(entry.name)} ${entry.amount}</div>
                 <div class="item-description">${entry.description}</div>
@@ -16,7 +20,7 @@ function displayItemsMap() {
             item.innerHTML = `
                 <div>
                     ${getTrainerName(entry.name)}
-                    ${createLink(`#/trainer/${entry.name}/`, '<button style="float:right;">Info</button>')}
+                    ${createLink('#/trainer/${entry.name}/', '<button style="float:right;">Info</button>')}
 			    </div>
             `;
         }
