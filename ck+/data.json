@@ -19309,7 +19309,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Has an increased critical hit rate"
+                "Has an increased critical hit rate and cannot miss"
             ],
             "index": 75,
             "name": "razor-leaf",
@@ -48665,7 +48665,7 @@
           "moves": [
             "endure",
             "hi-jump-kick",
-            "mach-punch",
+            "comet-punch",
             "reversal"
           ]
         },
@@ -50592,7 +50592,7 @@
           "moves": [
             "scary-face",
             "endure",
-            "body-slam",
+            "crunch",
             "flail"
           ]
         },
@@ -50854,7 +50854,7 @@
             "submission",
             "substitute",
             "swords-dance",
-            "body-slam"
+            "comet-punch"
           ]
         },
         {
@@ -52532,7 +52532,8 @@
           "level": 65,
           "item": "pink-bow",
           "moves": [
-            "hyper-fang"
+            "hyper-fang",
+	    "destiny-bond"
           ]
         },
         {
@@ -55513,6 +55514,397 @@
     },
 {
       "area": "S.S. Aqua",
+      "name": "hiker-noland",
+      "meta": "start passenger set 1. cabin 3",
+      "team": [
+        {
+          "name": "crobat",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "confuse-ray",
+            "icy-wind",
+            "acid",
+            "super-fang"
+          ]
+        },
+        {
+          "name": "hitmonchan",
+          "level": 71,
+          "item": "blackbelt",
+          "moves": [
+            "submission",
+            "body-slam",
+            "earthquake",
+            "mach-punch"
+          ]
+        },
+        {
+          "name": "marowak",
+          "level": 70,
+          "item": "thick-club",
+          "moves": [
+            "bone-rush",
+            "bonemerang",
+            "frustration",
+            "shadow-ball"
+ 	  ]
+	},
+       {
+          "name": "stantler",
+          "level": 71,
+          "item": "hard-stone",
+          "moves": [
+            "headbutt",
+            "agility",
+            "earthquake",
+            "rock-slide"
+ 	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "pokefanm-colin",
+      "meta": "cabin 7",
+      "team": [
+        {
+          "name": "delibird",
+          "level": 72,
+          "item": "quick-claw",
+          "moves": [
+            "destiny-bond",
+            "present",
+            "blizzard",
+            "fly"
+          ]
+        }
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "twins-meg-peg",
+      "meta": "cabin 7",
+      "team": [
+        {
+          "name": "quagsire",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "earthquake",
+            "lovely-kiss",
+            "waterfall",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "dodrio",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "tri-attack",
+            "drill-peck",
+            "jump-kick",
+            "steel-wing"
+          ]
+        },
+          {
+          "name": "quagsire",
+          "level": 70,
+          "item": "leftovers",
+          "moves": [
+            "earthquake",
+            "lovely-kiss",
+            "waterfall",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "dodrio",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "tri-attack",
+            "drill-peck",
+            "jump-kick",
+            "steel-wing"
+          ]
+        }
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "firebreather-lyle",
+      "meta": "cabin 8",
+      "team": [
+        {
+          "name": "magmar",
+          "level": 71,
+          "item": "charcoal",
+          "moves": [
+            "fire-spin",
+            "flame-wheel",
+            "flamethrower",
+            "fire-blast"
+          ]
+        },
+        {
+          "name": "weezing",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "haze",
+            "toxic",
+            "sludge-bomb",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 72,
+          "item": "blackbelt",
+          "moves": [
+            "iron-tail",
+            "submission",
+            "body-slam",
+            "roar"
+	  ]
+	},
+        {
+          "name": "slowking",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "flamethrower",
+            "recover",
+            "thunder-wave",
+            "psychic"
+	  ]
+	},
+        {
+          "name": "charizard",
+          "level": 70,
+          "item": "sharp-beak",
+          "moves": [
+            "flamethrower",
+            "fly",
+            "metal-claw",
+            "dragonbreath"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "sailor-stanly",
+      "meta": "cabin 2 after talking to the sailor downstairs",
+      "team": [
+        {
+          "name": "ursaring",
+          "level": 72,
+          "item": "lum-berry",
+          "moves": [
+            "quick-attack",
+            "mega-punch",
+            "earthquake",
+	    "ice-punch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "juggler-fritz",
+      "team": [
+        {
+          "name": "mr-mime",
+          "level": 72,
+          "item": "amulet-coin",
+          "moves": [
+            "light-screen",
+            "future-sight",
+            "spikes",
+            "baton-pass"
+          ]
+        },
+        {
+          "name": "smeargle",
+          "level": 73,
+          "item": "amulet-coin",
+          "moves": [
+            "spore",
+            "baton-pass",
+            "whirlwind",
+            "spikes"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 71,
+          "item": "amulet-coin",
+          "moves": [
+            "counter",
+            "roar",
+            "thunderbolt",
+            "cotton-spore"
+	  ]
+	},
+       {
+          "name": "dewgong",
+          "level": 72,
+          "item": "amulet-coin",
+          "moves": [
+            "perish-song",
+            "protect",
+            "whirlpool",
+            "encore"
+	  ]
+	},
+       {
+          "name": "ditto",
+          "level": 71,
+          "item": "metal-powder",
+          "moves": [
+            "transform"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "sailor-jeff",
+      "team": [
+        {
+          "name": "golduck",
+          "level": 70,
+          "item": "twistedspoon",
+          "moves": [
+            "rain-dance",
+            "encore",
+            "future-sight",
+            "whirlpool"
+          ]
+        },
+        {
+          "name": "dunsparce",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "spite",
+            "glare",
+            "headbutt",
+            "outrage"
+	  ]
+	},
+	{
+          "name": "slowbro",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "light-screen",
+            "reflect",
+            "surf",
+            "ice-beam"
+	  ]
+	},
+	{
+          "name": "farfetchd",
+          "level": 71,
+          "item": "stick",
+          "moves": [
+            "focus-energy",
+            "detect",
+            "quick-attack",
+            "mach-punch"
+	  ]
+	},
+	{
+          "name": "tentacruel",
+          "level": 70,
+          "item": "mystic-water",
+          "moves": [
+            "wrap",
+            "surf",
+            "ice-beam",
+            "giga-drain"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "picnicker-debra",
+      "team": [
+        {
+          "name": "kangaskhan",
+          "level": 70,
+          "item": "pink-bow",
+          "moves": [
+            "thunder-wave",
+            "body-slam",
+            "earthquake",
+            "rolling-kick"
+          ]
+        },
+        {
+          "name": "corsola",
+          "level": 73,
+          "item": "focus-band",
+          "moves": [
+            "leech-seed",
+	    "pain-split",
+	    "toxic",
+	    "lovely-kiss"
+	  ]
+	},
+        {
+          "name": "venomoth",
+          "level": 72,
+          "item": "poison-barb",
+          "moves": [
+            "sludge-bomb",
+	    "stun-spore",
+	    "leech-life",
+	    "wing-attack"
+	  ]
+	},
+        {
+          "name": "umbreon",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "moonlight",
+	    "pursuit",
+	    "shadow-ball",
+	    "toxic"
+	  ]
+	},
+        {
+          "name": "nidoqueen",
+          "level": 71,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+	    "flamethrower",
+	    "thunderbolt",
+	    "ice-beam"
+	  ]
+	},
+        {
+          "name": "venusaur",
+          "level": 70,
+          "item": "lum-berry",
+          "moves": [
+            "synthesis",
+	    "giga-drain",
+	    "sludge-bomb",
+	    "roar"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
       "name": "gentleman-edward",
       "meta": "start passenger set 2. cabin 2",
       "team": [
@@ -55554,210 +55946,194 @@
 {
       "area": "S.S. Aqua",
       "name": "cooltrainer-sean",
-      "meta": "cabin 4",
       "team": [
         {
-          "name": "girafarig",
+          "name": "jolteon",
           "level": 71,
-          "item": "lum-berry",
+          "item": "black-glasses",
           "moves": [
-            "crunch",
-            "psychic",
-            "body-slam",
-            "iron-tail"
+            "thunderbolt",
+            "thunder-wave",
+            "pin-missile",
+            "faint-attack"
           ]
         },
         {
-          "name": "feraligatr",
-          "level": 71,
-          "item": "kings-rock",
-          "moves": [
-            "waterfall",
-            "rock-slide",
-            "submission",
-            "earthquake"
-          ]
-        },
-        {
-          "name": "fearow",
-          "level": 72,
-          "item": "sharp-beak",
-          "moves": [
-            "drill-peck",
-            "whirlwind",
-            "flamethrower",
-            "fury-attack"
-          ]
-        },
-        {
-          "name": "victreebel",
-          "level": 72,
-          "item": "leftovers",
-          "moves": [
-            "leech-life",
-            "giga-drain",
-            "crunch",
-            "super-fang"
-          ]
-        },
-        {
-          "name": "rhydon",
-          "level": 71,
-          "item": "hard-stone",
-          "moves": [
-            "earthquake",
-            "rock-slide",
-            "megahorn",
-            "fire-blast"
-	  ]
-	}
-      ]
-    },
-{
-      "area": "S.S. Aqua",
-      "name": "pokefan-georgia",
-      "team": [
-        {
-          "name": "furret",
+          "name": "tauros",
           "level": 71,
           "item": "pink-bow",
           "moves": [
-            "belly-drum",
-            "body-slam",
-            "fury-cutter",
-            "iron-tail"
+            "double-edge",
+            "lick"
           ]
-        },
-        {
-          "name": "furret",
-          "level": 71,
-          "item": "leftovers",
-          "moves": [
-            "extremespeed",
-            "curse",
-            "submission",
-            "shadow-ball"
-          ]
-        },
-        {
-          "name": "furret",
-          "level": 71,
-          "item": "quick-claw",
-          "moves": [
-            "surf",
-            "thunderpunch",
-            "ice-punch",
-            "dig"
-	  ]
 	}
       ]
     },
 {
       "area": "S.S. Aqua",
-      "name": "pokefan-jeremy",
-      "meta": "cabin 6",
+      "name": "cooltrainerf-carol",
+      "meta": "cabin 4",
       "b2b": true,
       "team": [
         {
-          "name": "persian",
-          "level": 71,
-          "item": "brightpowder",
+          "name": "mantine",
+          "level": 72,
+          "item": "lum-berry",
           "moves": [
-            "hypnosis",
-            "flash",
-            "nightmare",
-            "shadow-ball"
+            "sleep-talk",
+            "rest",
+            "hydro-pump",
+            "toxic"
           ]
         },
         {
-          "name": "persian",
-          "level": 71,
-          "item": "pink-bow",
+          "name": "electrode",
+          "level": 72,
+          "item": "hard-stone",
           "moves": [
-            "return",
-            "dream-eater",
-            "psychic",
-            "shadow-ball"
+            "rollout",
+            "double-team",
+            "thunder-wave",
+            "screech"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 71,
+          "item": "charcoal",
+          "moves": [
+            "sacred-fire",
+            "flame-wheel",
+            "crunch",
+            "psychic"
 	  ]
 	}
       ]
     },
 {
       "area": "S.S. Aqua",
-      "name": "guitarist-clyde",
-      "meta": "cabin 7",
+      "name": "super-nerd-shawn",
+      "meta": "cabin 5",
       "team": [
         {
-          "name": "politoed",
-          "level": 71,
-          "item": "leftovers",
-          "moves": [
-            "hydro-pump",
-            "perish-song",
-            "sing",
-            "body-slam"
-          ]
-        },
-        {
-          "name": "magneton",
-          "level": 71,
-          "item": "magnet",
-          "moves": [
-            "supersonic",
-            "flash",
-            "thunder-wave",
-            "thunderbolt"
-          ]
-        },
-        {
-          "name": "togetic",
+          "name": "omastar",
           "level": 71,
           "item": "lum-berry",
           "moves": [
-            "softboiled",
-            "encore",
-            "perish-song",
-            "toxic"
+            "spikes",
+            "whirlpool",
+            "ancientpower",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "ditto",
+          "level": 71,
+          "item": "metal-powder",
+          "moves": [
+            "transform"
+	  ]
+	},
+        {
+          "name": "porygon2",
+          "level": 71,
+          "item": "leftovers",
+          "moves": [
+            "recover",
+            "sharpen",
+            "extremespeed",
+            "shadow-ball"
+          ]
+        }
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "psychic-rodney",
+      "meta": "cabin 6",
+      "team": [
+        {
+          "name": "murkrow",
+          "level": 71,
+          "item": "quick-claw",
+          "moves": [
+            "mirror-move",
+            "spikes",
+            "pursuit",
+            "pay-day"
+          ]
+        },
+        {
+          "name": "qwilfish",
+          "level": 72,
+          "item": "blackglasses",
+          "moves": [
+            "crunch",
+            "destiny-bond",
+            "waterfall",
+            "pin-missile"
+          ]
+        },
+        {
+          "name": "butterfree",
+          "level": 72,
+          "item": "leftovers",
+          "moves": [
+            "growth",
+            "sleep-powder",
+            "giga-drain",
+            "psychic"
+ 	  ]
+	},
+        {
+          "name": "gengar",
+          "level": 71,
+          "item": "spell-tag",
+          "moves": [
+            "shadow-ball",
+            "psychic",
+            "faint-attack",
+            "submission"
  	  ]
 	}
       ]
     },
 {
       "area": "S.S. Aqua",
-      "name": "bug-catcher-ken",
-      "meta": "cabin 8",
+      "name": "beauty-cassie",
+      "meta": "cabin 7",
       "team": [
         {
-          "name": "ariados",
+          "name": "bellossom",
           "level": 72,
-          "item": "brightpowder",
+          "item": "leftovers",
           "moves": [
-            "string-shot",
-            "sludge",
-            "future-sight",
-            "megahorn"
+            "attract",
+            "leech-seed",
+            "toxic",
+            "synthesis"
           ]
         },
         {
-          "name": "magcargo",
+          "name": "rapidash",
           "level": 72,
           "item": "charcoal",
           "moves": [
-            "flame-wheel",
+            "attract",
             "flamethrower",
-            "lick",
-            "explosion"
+            "flame-wheel",
+            "rock-slide"
           ]
         },
         {
-          "name": "parasect",
+          "name": "pidgeot",
           "level": 72,
-          "item": "miracle-seed",
+          "item": "scope-lens",
           "moves": [
-            "spore",
-            "leech-seed",
-            "fury-cutter",
-            "giga-drain"
+            "attract",
+            "drill-peck",
+            "slash",
+            "steel-wing"
 	  ]
 	}
       ]
@@ -55782,132 +56158,139 @@
     },
 {
       "area": "S.S. Aqua",
-      "name": "sailor-kenneth",
+      "name": "fisher-jonah",
       "team": [
         {
-          "name": "tangela",
+          "name": "cloyster",
           "level": 72,
-          "item": "leftovers",
-          "moves": [
-            "stun-spore",
-            "wrap",
-            "ancientpower",
-            "giga-drain"
-          ]
-        },
-        {
-          "name": "machamp",
-          "level": 71,
-          "item": "lum-berry",
-          "moves": [
-            "rock-slide",
-            "cross-chop",
-            "bind",
-            "low-kick"
-          ]
-        },
-        {
-          "name": "poliwrath",
-          "level": 71,
-          "item": "mystic-water",
-          "moves": [
-            "whirlpool",
-            "swords-dance",
-            "comet-punch",
-            "submission"
-	  ]
-	}
-      ]
-    },
-{
-      "area": "S.S. Aqua",
-      "name": "schoolboy-nate",
-      "team": [
-        {
-          "name": "ledian",
-          "level": 73,
           "item": "focus-band",
           "moves": [
-            "toxic",
+            "spikes",
+            "whirlpool",
+            "ice-beam",
+            "pin-missile"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 72,
+          "item": "scope-lens",
+          "moves": [
+            "octazooka",
+            "ice-beam",
             "giga-drain",
-            "reflect",
-            "sleep-powder"
+            "sludge-bomb"
           ]
         },
         {
-          "name": "exeggutor",
-          "level": 71,
-          "item": "leftovers",
+          "name": "seaking",
+          "level": 72,
+          "item": "kings-rock",
           "moves": [
-            "nightmare",
-            "egg-bomb",
-            "petal-dance",
-            "psychic"
+            "flamethrower",
+            "hypnosis",
+            "hydro-pump",
+            "drill-peck"
 	  ]
 	}
       ]
     },
 {
       "area": "S.S. Aqua",
-      "name": "schoolboy-ricky",
-      "b2b": true,
+      "name": "sailor-garrett",
       "team": [
         {
-          "name": "aipom",
-          "level": 72,
-          "item": "pink-bow",
-          "moves": [
-            "double-edge",
-            "surf",
-            "submission",
-            "shadow-ball"
-          ]
-        },
-        {
-          "name": "ditto",
-          "level": 71,
-          "item": "metal-powder",
-          "moves": [
-            "transform"
-	  ]
-	}
-      ]
-    },
-{
-      "area": "S.S. Aqua",
-      "name": "teacher-shirley",
-      "team": [
-        {
-          "name": "wigglytuff",
+          "name": "kingler",
           "level": 72,
           "item": "leftovers",
           "moves": [
+            "clamp",
             "protect",
-            "charm",
-            "sing",
-            "psywave"
+            "submission",
+            "fury-cutter"
           ]
         },
         {
-          "name": "forretress",
-          "level": 72,
-          "item": "pink-bow",
-          "moves": [
-            "explosion",
-            "pin-missile",
-            "light-screen",
-            "rock-slide"
-          ]
-        },
-        {
-          "name": "donphan",
+          "name": "golem",
           "level": 72,
           "item": "hard-stone",
           "moves": [
             "rollout",
-            "attract",
-            "powder-snow",
-            "earthquake"
+            "rock-slide",
+            "earthquake",
+            "submission"
+	  ]
+	},
+	{
+          "name": "gyarados",
+          "level": 72,
+          "item": "lum-berry",
+          "moves": [
+            "waterfall",
+            "crunch",
+            "submission",
+            "double-edge"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "S.S. Aqua",
+      "name": "blackbelt-wai",
+      "team": [
+        {
+          "name": "granbull",
+          "level": 71,
+          "item": "kings-rock",
+          "moves": [
+            "glare",
+            "bone-rush",
+            "double-edge",
+            "submission"
+          ]
+        },
+        {
+          "name": "hitmonlee",
+          "level": 73,
+          "item": "blackbelt",
+          "moves": [
+            "flame-wheel",
+	    "endure",
+	    "reversal",
+	    "body-slam"
+	  ]
+	},
+        {
+          "name": "primeape",
+          "level": 71,
+          "item": "lum-berry",
+          "moves": [
+            "swagger",
+	    "mega-punch",
+	    "cross-chop",
+	    "meditate"
+	  ]
+	},
+        {
+          "name": "sudowoodo",
+          "level": 71,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+	    "giga-drain",
+	    "rock-slide",
+	    "explosion"
+	  ]
+	},
+        {
+          "name": "heracross",
+          "level": 72,
+          "item": "soft-sand",
+          "moves": [
+            "fury-cutter",
+	    "submission",
+	    "rock-slide",
+	    "earthquake"
 	  ]
 	}
       ]
@@ -57357,7 +57740,7 @@
 	{	
             "type": "item",
             "location": "Cherrygrove City",
-            "name": "twisted-spoon",
+            "name": "twistedspoon",
             "amount": 1,
 	    "description": "talk to man on island"
         },
