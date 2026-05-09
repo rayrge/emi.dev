@@ -56877,7 +56877,7 @@
           "level": 75,
           "item": "leftovers",
           "moves": [
-            "conversion",
+            "agility",
             "thunderbolt",
             "ice-beam",
             "tri-attack"
@@ -56891,7 +56891,7 @@
             "thunder",
             "octazooka",
             "flamethrower",
-            "hyper-beam"
+            "giga-drain"
 	  ]
 	},
         {
@@ -56902,7 +56902,7 @@
             "double-team",
             "baton-pass",
             "thunderbolt",
-            "bite"
+            "pin-missile"
 	  ]
 	},
 	{
