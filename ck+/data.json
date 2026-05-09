@@ -56884,17 +56884,6 @@
           ]
         },
         {
-          "name": "octillery",
-          "level": 75,
-          "item": "quick-claw",
-          "moves": [
-            "thunder",
-            "octazooka",
-            "flamethrower",
-            "giga-drain"
-	  ]
-	},
-        {
           "name": "jolteon",
           "level": 75,
           "item": "scope-lens",
@@ -56903,6 +56892,17 @@
             "baton-pass",
             "thunderbolt",
             "pin-missile"
+	  ]
+	},
+        {
+          "name": "octillery",
+          "level": 75,
+          "item": "quick-claw",
+          "moves": [
+            "thunder",
+            "octazooka",
+            "flamethrower",
+            "giga-drain"
 	  ]
 	},
 	{
