@@ -10580,112 +10580,112 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 75,
-                                "pokemon": "charizard"
+                                "level": 48,
+                                "pokemon": "primeape"
                             },
                             {
                                 "chance": 30,
-                                "level": 75,
-                                "pokemon": "venusaur"
+                                "level": 48,
+                                "pokemon": "victreebel"
                             },
                             {
                                 "chance": 20,
-                                "level": 75,
-                                "pokemon": "blastoise"
+                                "level": 48,
+                                "pokemon": "arcanine"
                             },
                             {
                                 "chance": 10,
-                                "level": 75,
-                                "pokemon": "typhlosion"
+                                "level": 48,
+                                "pokemon": "persian"
                             },
                             {
                                 "chance": 5,
-                                "level": 75,
-                                "pokemon": "feraligatr"
+                                "level": 48,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 4,
-                                "level": 75,
-                                "pokemon": "meganium"
+                                "level": 48,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 1,
-                                "level": 75,
-                                "pokemon": "abra"
+                                "level": 48,
+                                "pokemon": "chansey"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 75,
-                                "pokemon": "charizard"
+                                "level": 48,
+                                "pokemon": "arcanine"
                             },
                             {
                                 "chance": 30,
-                                "level": 75,
-                                "pokemon": "venusaur"
+                                "level": 48,
+                                "pokemon": "primeape"
                             },
                             {
                                 "chance": 20,
-                                "level": 75,
-                                "pokemon": "blastoise"
+                                "level": 48,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 10,
-                                "level": 75,
-                                "pokemon": "typhlosion"
+                                "level": 48,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 5,
-                                "level": 75,
-                                "pokemon": "feraligatr"
+                                "level": 48,
+                                "pokemon": "persian"
                             },
                             {
                                 "chance": 4,
-                                "level": 75,
-                                "pokemon": "meganium"
+                                "level": 48,
+                                "pokemon": "victreebel"
                             },
                             {
                                 "chance": 1,
-                                "level": 75,
-                                "pokemon": "abra"
+                                "level": 48,
+                                "pokemon": "victreebel"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 75,
-                                "pokemon": "typhlosion"
+                                "level": 48,
+                                "pokemon": "victreebel"
                             },
                             {
                                 "chance": 30,
-                                "level": 75,
-                                "pokemon": "meganium"
+                                "level": 48,
+                                "pokemon": "persian"
                             },
                             {
                                 "chance": 20,
-                                "level": 75,
-                                "pokemon": "feraligatr"
+                                "level": 48,
+                                "pokemon": "primeape"
                             },
                             {
                                 "chance": 10,
-                                "level": 75,
-                                "pokemon": "charizard"
+                                "level": 48,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 5,
-                                "level": 75,
-                                "pokemon": "venusaur"
+                                "level": 48,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 4,
-                                "level": 75,
-                                "pokemon": "blastoise"
+                                "level": 48,
+                                "pokemon": "arcanine"
                             },
                             {
                                 "chance": 1,
-                                "level": 75,
-                                "pokemon": "abra"
+                                "level": 48,
+                                "pokemon": "arcanine"
                             }
                         ]
                     },
@@ -10701,112 +10701,112 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 67,
-                                "pokemon": "hitmonchan"
+                                "level": 52,
+                                "pokemon": "arbok"
                             },
                             {
                                 "chance": 30,
-                                "level": 67,
-                                "pokemon": "hitmontop"
+                                "level": 52,
+                                "pokemon": "ninetales"
                             },
                             {
                                 "chance": 20,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 52,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 10,
-                                "level": 67,
-                                "pokemon": "flareon"
+                                "level": 52,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 5,
-                                "level": 67,
-                                "pokemon": "hitmonlee"
+                                "level": 52,
+                                "pokemon": "sandslash"
                             },
                             {
                                 "chance": 4,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 53,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 1,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 53,
+                                "pokemon": "vileplume"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 67,
-                                "pokemon": "hitmonchan"
+                                "level": 52,
+                                "pokemon": "arbok"
                             },
                             {
                                 "chance": 30,
-                                "level": 67,
-                                "pokemon": "hitmontop"
+                                "level": 52,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 20,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 52,
+                                "pokemon": "sandslash"
                             },
                             {
                                 "chance": 10,
-                                "level": 67,
-                                "pokemon": "flareon"
+                                "level": 52,
+                                "pokemon": "ninetales"
                             },
                             {
                                 "chance": 5,
-                                "level": 67,
-                                "pokemon": "hitmonchan"
+                                "level": 52,
+                                "pokemon": "ninetales"
                             },
                             {
                                 "chance": 4,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 53,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 1,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 53,
+                                "pokemon": "vileplume"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 67,
-                                "pokemon": "drowzee"
-                            },
-                            {
-                                "chance": 30,
-                                "level": 67,
-                                "pokemon": "noctowl"
-                            },
-                            {
-                                "chance": 20,
-                                "level": 67,
-                                "pokemon": "abra"
-                            },
-                            {
-                                "chance": 10,
-                                "level": 67,
+                                "level": 52,
                                 "pokemon": "haunter"
                             },
                             {
+                                "chance": 30,
+                                "level": 52,
+                                "pokemon": "arbok"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 52,
+                                "pokemon": "ninetales"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 52,
+                                "pokemon": "kadabra"
+                            },
+                            {
                                 "chance": 5,
-                                "level": 67,
-                                "pokemon": "flareon"
+                                "level": 52,
+                                "pokemon": "kadabra"
                             },
                             {
                                 "chance": 4,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 53,
+                                "pokemon": "vileplume"
                             },
                             {
                                 "chance": 1,
-                                "level": 67,
-                                "pokemon": "abra"
+                                "level": 53,
+                                "pokemon": "vileplume"
                             }
                         ]
                     },
@@ -13642,18 +13642,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 72,
-                            "pokemon": "muk"
+                            "level": 34,
+                            "pokemon": "grimer"
                         },
                         {
                             "chance": 30,
-                            "level": 72,
-                            "pokemon": "muk"
+                            "level": 42,
+                            "pokemon": "grimer"
                         },
                         {
                             "chance": 10,
-                            "level": 72,
-                            "pokemon": "grimer"
+                            "level": 51,
+                            "pokemon": "muk"
                         }
                     ],
                     "type": "surfing"
@@ -56753,7 +56753,7 @@
         {
           "name": "seaking",
           "level": 74,
-          "item": "silk-scarf",
+          "item": "pink-bow",
           "moves": [
             "megahorn",
             "double-edge",
@@ -56925,6 +56925,78 @@
             "iron-tail",
             "surf",
             "sludge-bomb"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Saffron City Gym",
+      "name": "leader-sabrina",
+      "team": [
+        {
+          "name": "slowking",
+          "level": 78,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+            "psychic",
+            "thunderbolt",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "espeon",
+          "level": 78,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "flamethrower",
+            "ice-beam",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "venomoth",
+          "level": 78,
+          "item": "brightpowder",
+          "moves": [
+            "protect",
+            "sacred-fire",
+            "hydro-pump",
+            "aeroblast"
+	  ]
+	},
+        {
+          "name": "hypno",
+          "level": 78,
+          "item": "leftovers",
+          "moves": [
+            "hypnosis",
+            "psychic",
+            "shadow-ball",
+            "submission"
+	  ]
+	},
+	{
+          "name": "gengar",
+          "level": 78,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "sludge-bomb",
+            "giga-drain",
+            "thunderbolt"
+	  ]
+	},
+	{
+          "name": "jynx",
+          "level": 78,
+          "item": "twistedspoon",
+          "moves": [
+            "destiny-bond",
+            "sing",
+            "ice-beam",
+            "psychic"
 	  ]
 	}
       ]
@@ -57990,6 +58062,17 @@
             "name": "tm-31",
             "amount": 1,
 	    "description": "Mud Slap"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "swimmerf-susie"
+	},
+	{	
+            "type": "item",
+            "location": "Route 41",
+            "name": "hm-06",
+            "amount": 1,
+	    "description": "Whirlpool"
         },
 	{
 	    "type": "roadblock",
