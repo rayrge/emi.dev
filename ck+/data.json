@@ -56695,6 +56695,239 @@
 	  ]
 	}
       ]
+    },
+{
+      "area": "Vermilion City Gym",
+      "name": "juggler-horton",
+      "team": [
+        {
+          "name": "lickitung",
+          "level": 74,
+          "item": "focus-band",
+          "moves": [
+            "rollout",
+            "curse",
+            "lick",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "weezing",
+          "level": 74,
+          "item": "leftovers",
+          "moves": [
+            "thunder-wave",
+            "icy-wind",
+            "flame-wheel",
+            "psychic"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 74,
+          "item": "lum-berry",
+          "moves": [
+            "blizzard",
+            "hydro-pump",
+            "thunder",
+            "iron-tail"
+	  ]
+	},
+	{
+          "name": "aipom",
+          "level": 74,
+          "item": "kings-rock",
+          "moves": [
+            "mirror-move",
+            "shadow-ball",
+            "flash",
+            "confuse-ray"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Vermilion City Gym",
+      "name": "gentleman-gregory",
+      "team": [
+        {
+          "name": "seaking",
+          "level": 74,
+          "item": "silk-scarf",
+          "moves": [
+            "megahorn",
+            "double-edge",
+            "waterfall",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "nidoking",
+          "level": 74,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "sludge-bomb",
+            "earthquake",
+            "crunch"
+          ]
+        },
+        {
+          "name": "meganium",
+          "level": 74,
+          "item": "leftovers",
+          "moves": [
+            "leech-seed",
+            "outrage",
+            "petal-dance",
+            "thrash"
+	  ]
+	},
+	{
+          "name": "ampharos",
+          "level": 74,
+          "item": "lum-berry",
+          "moves": [
+            "lovely-kiss",
+            "thunder-wave",
+            "aurora-beam",
+            "thunderbolt"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Vermilion City Gym",
+      "name": "guitarist-vincent",
+      "team": [
+        {
+          "name": "scyther",
+          "level": 74,
+          "item": "scope-lens",
+          "moves": [
+            "slash",
+            "cross-chop",
+            "fury-cutter",
+            "drill-peck"
+          ]
+        },
+        {
+          "name": "arcanine",
+          "level": 74,
+          "item": "lum-berry",
+          "moves": [
+            "roar",
+            "flame-wheel",
+            "spark",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "wigglytuff",
+          "level": 74,
+          "item": "pink-bow",
+          "moves": [
+            "explosion",
+            "sing",
+            "thunder",
+            "lick"
+	  ]
+	},
+        {
+          "name": "lapras",
+          "level": 74,
+          "item": "leftovers",
+          "moves": [
+            "perish-song",
+            "protect",
+            "thunderbolt",
+            "ice-beam"
+	  ]
+	},
+	{
+          "name": "electabuzz",
+          "level": 74,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "sludge",
+            "cross-chop",
+            "ice-punch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Vermilion City Gym",
+      "name": "leader-lt-surge",
+      "team": [
+        {
+          "name": "electrode",
+          "level": 75,
+          "item": "lum-berry",
+          "moves": [
+            "explosion",
+            "light-screen",
+            "fire-spin",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "porygon2",
+          "level": 75,
+          "item": "leftovers",
+          "moves": [
+            "conversion",
+            "thunderbolt",
+            "ice-beam",
+            "tri-attack"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 75,
+          "item": "quick-claw",
+          "moves": [
+            "thunder",
+            "octazooka",
+            "flamethrower",
+            "hyper-beam"
+	  ]
+	},
+        {
+          "name": "jolteon",
+          "level": 75,
+          "item": "scope-lens",
+          "moves": [
+            "double-team",
+            "baton-pass",
+            "thunderbolt",
+            "bite"
+	  ]
+	},
+	{
+          "name": "magneton",
+          "level": 75,
+          "item": "nevermeltice",
+          "moves": [
+            "explosion",
+            "reflect",
+            "thunderbolt",
+            "aurora-beam"
+	  ]
+	},
+	{
+          "name": "raichu",
+          "level": 75,
+          "item": "metal-coat",
+          "moves": [
+            "thunderbolt",
+            "iron-tail",
+            "surf",
+            "petal-dance"
+	  ]
+	}
+      ]
     }
   ],
     "type_matchups": [
