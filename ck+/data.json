@@ -40129,8 +40129,8 @@
                     "move": "powder-snow"
                 },
                 {
-                    "level": 66,
-                    "move": "encore"
+                    "level": 56,
+                    "move": "sludge-bomb"
                 }
             ],
             "name": "sneasel",
@@ -40148,8 +40148,7 @@
                 "headbutt",
                 "curse",
                 "toxic",
-                "rock-smash",
-                 
+                "rock-smash",                 
                 "hidden-power",
                 "snore",
                 "blizzard",
@@ -56925,6 +56924,151 @@
             "iron-tail",
             "surf",
             "sludge-bomb"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 6",
+      "name": "pokefanm-rex",
+      "team": [
+        {
+          "name": "sneasel",
+          "level": 72,
+          "item": "spell-tag",
+          "moves": [
+            "shadow-ball",
+            "metal-claw",
+            "low-kick",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 72,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "body-slam",
+            "submission"
+          ]
+        },
+        {
+          "name": "dodrio",
+          "level": 72,
+          "item": "sharp-beak",
+          "moves": [
+            "drill-peck",
+            "tri-attack",
+            "jump-kick",
+            "shadow-ball"
+	  ]
+	},
+        {
+          "name": "hitmonlee",
+          "level": 72,
+          "item": "blackbelt",
+          "moves": [
+            "hi-jump-kick",
+            "rock-slide",
+            "earthquake",
+            "body-slam"
+	  ]
+	},
+	{
+          "name": "kingler",
+          "level": 72,
+          "item": "silverpowder",
+          "moves": [
+            "fury-cutter",
+            "dig",
+            "metal-claw",
+            "double-edge"
+	  ]
+	},
+	{
+          "name": "ursaring",
+          "level": 72,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "quick-attack",
+            "earthquake",
+            "submission"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 6",
+      "name": "pokefanm-allan",
+      "b2b": true,
+      "team": [
+        {
+          "name": "omastar",
+          "level": 72,
+          "item": "mystic-water",
+          "moves": [
+            "surf",
+            "ice-beam",
+            "giga-drain",
+            "crunch"
+          ]
+        },
+        {
+          "name": "porygon2",
+          "level": 72,
+          "item": "nevermeltice",
+          "moves": [
+            "psychic",
+            "ice-beam",
+            "thunderbolt",
+            "faint-attack"
+          ]
+        },
+        {
+          "name": "houndoom",
+          "level": 72,
+          "item": "blackglasses",
+          "moves": [
+            "flamethrower",
+            "flame-wheel",
+            "crunch",
+            "outrage"
+	  ]
+	},
+        {
+          "name": "exeggutor",
+          "level": 72,
+          "item": "miracle-seed",
+          "moves": [
+            "giga-drain",
+            "psychic",
+            "dragonbreath",
+            "thunderpunch"
+	  ]
+	},
+	{
+          "name": "ampharos",
+          "level": 72,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+            "fire-punch",
+            "aurora-beam",
+            "dragonbreath"
+	  ]
+	},
+	{
+          "name": "gengar",
+          "level": 72,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "giga-drain",
+            "ice-punch",
+            "fire-punch"
 	  ]
 	}
       ]
