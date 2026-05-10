@@ -57075,6 +57075,128 @@
     },
 {
       "area": "Saffron City Gym",
+      "name": "medium-rebecca",
+      "team": [
+        {
+          "name": "togetic",
+          "level": 77,
+          "item": "quick-claw",
+          "moves": [
+            "light-screen",
+            "reflect",
+            "psywave",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 77,
+          "item": "metal-coat",
+          "moves": [
+            "iron-tail",
+            "explosion",
+            "earthquake",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 77,
+          "item": "sitrus-berry",
+          "moves": [
+            "sleep-powder",
+            "moonlight",
+            "thief",
+            "giga-drain"
+	  ]
+	},
+        {
+          "name": "umbreon",
+          "level": 77,
+          "item": "brightpowder",
+          "moves": [
+            "moonlight",
+            "acid-armor",
+            "toxic",
+            "pursuit"
+	  ]
+	},
+	{
+          "name": "starmie",
+          "level": 77,
+          "item": "mystic-water",
+          "moves": [
+            "light-screen",
+            "waterfall",
+            "ice-beam,
+            "thunderbolt"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Saffron City Gym",
+      "name": "pinky-frinkly",
+      "team": [
+        {
+          "name": "exeggutor",
+          "level": 77,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "psychic",
+            "giga-drain",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "stantler",
+          "level": 77,
+          "item": "lum-berry",
+          "moves": [
+            "glare",
+            "milk-drink",
+            "psychic",
+            "double-edge"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 77,
+          "item": "charcoal",
+          "moves": [
+            "sacred-fire",
+            "flame-wheel",
+            "psychic",
+            "shadow-ball"
+	  ]
+	},
+        {
+          "name": "kingdra",
+          "level": 77,
+          "item": "leftovers",
+          "moves": [
+            "whirlpool",
+            "outrage",
+            "waterfall",
+            "ice-beam"
+	  ]
+	},
+	{
+          "name": "alakazam",
+          "level": 77,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+            "thunderpunch",
+            "ice-punch,
+            "fire-punch"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Saffron City Gym",
       "name": "leader-sabrina",
       "team": [
         {
