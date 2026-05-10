@@ -57075,6 +57075,128 @@
     },
 {
       "area": "Saffron City Gym",
+      "name": "medium-doris",
+      "team": [
+        {
+          "name": "xatu",
+          "level": 77,
+          "item": "focus-band",
+          "moves": [
+            "future-sight",
+            "protect",
+            "destiny-bond",
+            "sky-attack"
+          ]
+        },
+        {
+          "name": "electrode",
+          "level": 77,
+          "item": "lum-berry",
+          "moves": [
+            "explosion",
+            "reflect",
+            "thunderbolt",
+            "future-sight"
+          ]
+        },
+        {
+          "name": "rapidash",
+          "level": 77,
+          "item": "pink-bow",
+          "moves": [
+            "double-edge",
+            "hi-jump-kick",
+            "psychic",
+            "future-sight"
+	  ]
+	},
+        {
+          "name": "persian",
+          "level": 77,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+            "detect",
+            "future-sight",
+            "shadow-ball"
+	  ]
+	},
+	{
+          "name": "slowbro",
+          "level": 77,
+          "item": "leftovers",
+          "moves": [
+            "recover",
+            "mirror-coat",
+            "ice-beam",
+            "flamethrower"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Saffron City Gym",
+      "name": "psychic-jared",
+      "team": [
+        {
+          "name": "girafarig",
+          "level": 77,
+          "item": "leftovers",
+          "moves": [
+            "baton-pass",
+            "rain-dance",
+            "double-edge",
+            "spikes"
+          ]
+        },
+        {
+          "name": "golduck",
+          "level": 77,
+          "item": "blackbelt",
+          "moves": [
+            "hydro-pump",
+            "psychic",
+            "cross-chop",
+            "blizzard"
+          ]
+        },
+        {
+          "name": "mr-mime",
+          "level": 77,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "thunderbolt",
+            "ice-punch",
+            "fire-punch"
+	  ]
+	},
+        {
+          "name": "forretress",
+          "level": 77,
+          "item": "quick-claw",
+          "moves": [
+            "explosion",
+            "pin-missile",
+            "rock-slide",
+            "baton-pass"
+	  ]
+	},
+	{
+          "name": "murkrow",
+          "level": 77,
+          "item": "blackglasses",
+          "moves": [
+            "pursuit",
+            "mach-punch",
+            "quick-attack",
+            "destiny-bond"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Saffron City Gym",
       "name": "medium-rebecca",
       "team": [
         {
@@ -57090,7 +57212,7 @@
         },
         {
           "name": "steelix",
-          "level": 77,
+          "level": 78,
           "item": "metal-coat",
           "moves": [
             "iron-tail",
@@ -57101,7 +57223,7 @@
         },
         {
           "name": "misdreavus",
-          "level": 77,
+          "level": 78,
           "item": "sitrus-berry",
           "moves": [
             "sleep-powder",
@@ -57112,7 +57234,7 @@
 	},
         {
           "name": "umbreon",
-          "level": 77,
+          "level": 78,
           "item": "brightpowder",
           "moves": [
             "moonlight",
@@ -57151,7 +57273,7 @@
         },
         {
           "name": "stantler",
-          "level": 77,
+          "level": 78,
           "item": "lum-berry",
           "moves": [
             "glare",
@@ -57162,7 +57284,7 @@
         },
         {
           "name": "ninetales",
-          "level": 77,
+          "level": 78,
           "item": "charcoal",
           "moves": [
             "sacred-fire",
@@ -57184,7 +57306,7 @@
 	},
 	{
           "name": "alakazam",
-          "level": 77,
+          "level": 78,
           "item": "brightpowder",
           "moves": [
             "psychic",
