@@ -17514,7 +17514,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "If no item is held, steals the opponent's. you get your item back after the battle, but you keep the opponent's"
+                "If no item is held, steals the opponent's. you don't get your item back after the battle. you keep the opponent's"
             ],
             "index": 168,
             "name": "thief",
@@ -18868,7 +18868,7 @@
             ],
             "index": 6,
             "name": "pay-day",
-            "power": 60,
+            "power": 65,
             "pp": 20,
             "type": "steel"
         },
@@ -28310,10 +28310,6 @@
                 {
                     "level": 50,
                     "move": "sludge"
-                },
-                {
-                    "level": 66,
-                    "move": "thief"
                 }
             ],
             "name": "grimer",
@@ -28407,10 +28403,6 @@
                 {
                     "level": 50,
                     "move": "sludge"
-                },
-                {
-                    "level": 66,
-                    "move": "thief"
                 }
             ],
             "name": "muk",
@@ -29135,11 +29127,7 @@
 		{
 		    "level": 49,
 		    "move": "future-sight"
-                },
-                {
-                    "level": 66,
-                    "move": "thief"
-		}
+                }
             ],
             "name": "drowzee",
             "pokedex": 96,
@@ -29238,11 +29226,7 @@
 		{
 		    "level": 55,
 		    "move": "nightmare"
-                },
-                {
-                    "level": 66,
-                    "move": "thief"
-		}
+                }
             ],
             "name": "hypno",
             "pokedex": 97,
@@ -30549,10 +30533,6 @@
                     "move": "magnitude"
                 },
                 {
-                    "level": 8,
-                    "move": "stomp"
-                },
-                {
                     "level": 19,
                     "move": "headbutt"
                 },
@@ -30636,10 +30616,6 @@
                 {
                     "level": 1,
                     "move": "magnitude"
-                },
-                {
-                    "level": 8,
-                    "move": "stomp"
                 },
                 {
                     "level": 19,
@@ -36717,10 +36693,6 @@
                 {
                     "level": 50,
                     "move": "giga-drain"
-                },
-                {
-                    "level": 66,
-                    "move": "thief"
                 }
             ],
             "name": "natu",
@@ -36816,10 +36788,6 @@
                 {
                     "level": 57,
                     "move": "ancientpower"
-                },
-                {
-                    "level": 66,
-                    "move": "thief"
                 }
             ],
             "name": "xatu",
@@ -41920,43 +41888,27 @@
             "items": [],
             "learnset": [
                 {
-                    "level": 1,
+                    "level": 23,
                     "move": "sketch"
                 },
                 {
-                    "level": 11,
+                    "level": 36,
                     "move": "sketch"
                 },
                 {
-                    "level": 21,
+                    "level": 43,
                     "move": "sketch"
                 },
                 {
-                    "level": 31,
+                    "level": 55,
                     "move": "sketch"
                 },
                 {
-                    "level": 41,
+                    "level": 72,
                     "move": "sketch"
                 },
                 {
-                    "level": 51,
-                    "move": "sketch"
-                },
-                {
-                    "level": 61,
-                    "move": "sketch"
-                },
-                {
-                    "level": 71,
-                    "move": "sketch"
-                },
-                {
-                    "level": 81,
-                    "move": "sketch"
-                },
-                {
-                    "level": 91,
+                    "level": 89,
                     "move": "sketch"
                 }
             ],
@@ -45455,6 +45407,7 @@
     {
       "area": "Azalea Town Gym",
       "name": "twins-amy-may",
+      "meta": "reversible order",
       "team": [
         {
           "name": "phanpy",
@@ -45707,7 +45660,7 @@
           "moves": [
             "spore",
             "leech-seed",
-            "leech-life",
+            "rock-slide",
             "sludge-bomb"
           ]
         },
@@ -46405,6 +46358,7 @@
     {
       "area": "Route 37",
       "name": "twins-ann-anne",
+      "meta": "reversible order",
       "team": [
         {
           "name": "clefable",
@@ -52904,7 +52858,7 @@
       "team": [
         {
           "name": "exeggutor",
-          "level": 65,
+          "level": 67,
           "item": "miracle-seed",
           "moves": [
             "petal-dance",
@@ -52915,7 +52869,7 @@
         },
         {
           "name": "xatu",
-          "level": 65,
+          "level": 67,
           "item": "sharp-beak",
           "moves": [
             "drill-peck",
@@ -52926,7 +52880,7 @@
         },
         {
           "name": "girafarig",
-          "level": 65,
+          "level": 67,
           "item": "pink-bow",
           "moves": [
             "double-edge",
@@ -52937,7 +52891,7 @@
 	},
         {
           "name": "starmie",
-          "level": 65,
+          "level": 67,
           "item": "mystic-water",
           "moves": [
             "waterfall",
@@ -52955,7 +52909,7 @@
       "team": [
         {
           "name": "cloyster",
-          "level": 62,
+          "level": 67,
           "item": "scope-lens",
           "moves": [
             "pin-missile",
@@ -52966,7 +52920,7 @@
         },
         {
           "name": "shuckle",
-          "level": 66,
+          "level": 71,
           "item": "lum-berry",
           "moves": [
             "sandstorm",
@@ -52977,7 +52931,7 @@
         },
         {
           "name": "steelix",
-          "level": 63,
+          "level": 67,
           "item": "leftovers",
           "moves": [
             "iron-tail",
@@ -52995,7 +52949,7 @@
       "team": [
         {
           "name": "murkrow",
-          "level": 64,
+          "level": 66,
           "item": "blackglasses",
           "moves": [
             "spikes",
@@ -53006,7 +52960,7 @@
         },
         {
           "name": "magmar",
-          "level": 63,
+          "level": 66,
           "item": "charcoal",
           "moves": [
             "flame-wheel",
@@ -53017,7 +52971,7 @@
         },
         {
           "name": "pidgeot",
-          "level": 64,
+          "level": 66,
           "item": "pink-bow",
           "moves": [
             "aeroblast",
@@ -53034,7 +52988,7 @@
       "team": [
         {
           "name": "kingler",
-          "level": 65,
+          "level": 67,
           "item": "scope-lens",
           "moves": [
             "clamp",
@@ -53045,7 +52999,7 @@
         },
         {
           "name": "qwilfish",
-          "level": 65,
+          "level": 67,
           "item": "poison-barb",
           "moves": [
             "explosion",
@@ -53056,7 +53010,7 @@
         },
         {
           "name": "lanturn",
-          "level": 65,
+          "level": 67,
           "item": "leftovers",
           "moves": [
             "thunder-wave",
@@ -53075,7 +53029,7 @@
       "team": [
         {
           "name": "mantine",
-          "level": 63,
+          "level": 67,
           "item": "mystic-water",
           "moves": [
             "hydro-pump",
@@ -53086,7 +53040,7 @@
         },
         {
           "name": "arbok",
-          "level": 63,
+          "level": 67,
           "item": "miracle-seed",
           "moves": [
             "glare",
@@ -53097,7 +53051,7 @@
         },
         {
           "name": "seaking",
-          "level": 63,
+          "level": 67,
           "item": "lum-berry",
           "moves": [
             "shadow-ball",
@@ -53355,7 +53309,7 @@
             "sludge-bomb",
             "submission",
             "ice-beam",
-            "flamethrower"
+            "thunderbolt"
           ]
         },
         {
@@ -55583,7 +55537,7 @@
 {
       "area": "S.S. Aqua",
       "name": "twins-meg-peg",
-      "meta": "cabin 7",
+      "meta": "cabin 7, reversible order",
       "team": [
         {
           "name": "quagsire",
@@ -57385,6 +57339,262 @@
             "sing",
             "ice-beam",
             "psychic"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Celadon City Gym",
+      "name": "twins-jo-zoe",
+      "meta": "leech-seed, reversible",
+      "team": [
+	{
+          "name": "shuckle",
+          "level": 91,
+          "item": "lum-berry",
+          "moves": [
+            "rest",
+            "mud-slap",
+            "toxic",
+            "wrap"
+	  ]
+	},
+	{
+          "name": "sunflora",
+          "level": 91,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "petal-dance",
+            "sacred-fire",
+            "hyper-beam"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Celadon City Gym",
+      "name": "picnicker-tanya",
+      "meta": "leech-seed",
+      "team": [
+        {
+          "name": "pinsir",
+          "level": 79,
+          "item": "silverpowder",
+          "moves": [
+            "detect",
+            "submission",
+            "rock-slide",
+            "leech-life"
+          ]
+        },
+        {
+          "name": "diglett",
+          "level": 80,
+          "item": "kings-rock",
+          "moves": [
+            "earthquake",
+            "sweet-kiss",
+            "tri-attack",
+            "rock-slide"
+	  ]
+	},
+        {
+          "name": "seaking",
+          "level": 79,
+          "item": "lum-berry",
+          "moves": [
+            "hydro-pump",
+            "confuse-ray",
+            "ice-beam",
+            "megahorn"
+	  ]
+	},
+	{
+          "name": "bellossom",
+          "level": 79,
+          "item": "miracle-seed",
+          "moves": [
+            "lovely-kiss",
+            "growth",
+            "petal-dance",
+            "return"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Celadon City Gym",
+      "name": "lass-michelle",
+      "b2b": true,
+      "meta": "leech-seed",
+      "team": [
+        {
+          "name": "magcargo",
+          "level": 80,
+          "item": "brightpowder",
+          "moves": [
+            "amnesia",
+            "acid-armor",
+            "flamethrower",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "parasect",
+          "level": 80,
+          "item": "quick-claw",
+          "moves": [
+            "spore",
+            "fury-cutter",
+            "rock-slide",
+            "sludge-bomb"
+	  ]
+	},
+        {
+          "name": "victreebel",
+          "level": 79,
+          "item": "poison-barb",
+          "moves": [
+            "sludge",
+            "giga-drain",
+            "crunch",
+            "leech-life"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Celadon City Gym",
+      "name": "beauty-julia",
+      "meta": "leech-seed",
+      "team": [
+        {
+          "name": "miltank",
+          "level": 79,
+          "item": "leftovers",
+          "moves": [
+            "rollout",
+            "attract",
+            "milk-drink",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "dewgong",
+          "level": 80,
+          "item": "lum-berry",
+          "moves": [
+            "encore",
+            "horn-drill",
+            "blizzard",
+            "hydro-pump"
+	  ]
+	},
+        {
+          "name": "ninetales",
+          "level": 79,
+          "item": "charcoal",
+          "moves": [
+            "thunder-wave",
+            "detect",
+            "flamethrower",
+            "roar"
+	  ]
+	},
+	{
+          "name": "espeon",
+          "level": 79,
+          "item": "twistedspoon",
+          "moves": [
+            "sing",
+            "psychic",
+            "bite",
+            "psywave"
+	  ]
+	},
+	{
+          "name": "meganium",
+          "level": 80,
+          "item": "miracle-seed",
+          "moves": [
+            "protect",
+            "giga-drain",
+            "earthquake",
+            "ancientpower"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Celadon City Gym",
+      "name": "leader-erika",
+      "meta": "leech-seed",
+      "team": [
+        {
+          "name": "jumpluff",
+          "level": 80,
+          "item": "lum-berry",
+          "moves": [
+            "explosion",
+            "aeroblast",
+            "rain-dance",
+            "sunny-day"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 80,
+          "item": "quick-claw",
+          "moves": [
+            "protect",
+            "stun-spore",
+            "giga-drain",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "yanma",
+          "level": 80,
+          "item": "miracle-seed",
+          "moves": [
+            "detect",
+            "giga-drain",
+            "psychic",
+            "ancientpower"
+	  ]
+	},
+        {
+          "name": "exeggutor",
+          "level": 80,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "sleep-powder",
+            "giga-drain",
+            "psychic"
+	  ]
+	},
+	{
+          "name": "kangaskhan",
+          "level": 80,
+          "item": "pink-bow",
+          "moves": [
+            "detect",
+            "mega-kick",
+            "jump-kick",
+            "earthquake"
+	  ]
+	},
+	{
+          "name": "venusaur",
+          "level": 80,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+            "sludge",
+            "giga-drain",
+            "flame-wheel"
 	  ]
 	}
       ]
