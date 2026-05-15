@@ -51224,7 +51224,7 @@
     },
     {
       "area": "Union Cave",
-      "name": "cooltrainerm-nick",
+      "name": "cooltrainerm-randy",
       "meta": "optional. guards lapras",
       "team": [
         {
@@ -51258,6 +51258,24 @@
             "extremespeed",
             "earthquake",
             "fly"
+          ]
+        }
+      ]
+    },
+   {
+      "area": "Ruins Of Alph",
+      "name": "psychic-nathan",
+      "meta": "optional",
+      "team": [
+        {
+          "name": "girafarig",
+          "level": 49,
+          "item": "lum-berry",
+          "moves": [
+            "double-edge",
+            "iron-tail",
+            "ice-beam",
+            "psychic"
           ]
         }
       ]
@@ -57773,6 +57791,366 @@
             "iron-tail",
             "hyper-beam",
             "submission"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 18",
+      "name": "Bird Keeper Bob",
+      "team": [
+        {
+          "name": "golduck",
+          "level": 80,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+            "ice-beam",
+            "thunder-wave",
+            "psywave"
+          ]
+        },
+        {
+          "name": "xatu",
+          "level": 80,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+            "future-sight",
+            "destiny-bond",
+            "giga-drain"
+	  ]
+	},
+	{
+          "name": "magmar",
+          "level": 80,
+          "item": "charcoal",
+          "moves": [
+            "fire-blast",
+            "lovely-kiss",
+            "thunderbolt",
+            "cross-chop"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 18",
+      "name": "Bird Keeper Boris",
+      "meta": "optional",
+      "team": [
+        {
+          "name": "delibird",
+          "level": 80,
+          "item": "focus-band",
+          "moves": [
+            "spikes",
+            "present",
+            "blizzard",
+            "drill-peck"
+          ]
+        },
+        {
+          "name": "noctowl",
+          "level": 80,
+          "item": "lum-berry",
+          "moves": [
+            "super-fang",
+            "hypnosis",
+            "mean-look",
+            "dream-eater"
+	  ]
+	},
+        {
+          "name": "murkrow",
+          "level": 80,
+          "item": "quick-claw",
+          "moves": [
+            "crunch",
+            "sky-attack",
+            "cross-chop",
+            "pursuit"
+	  ]
+	},
+	{
+          "name": "skarmory",
+          "level": 80,
+          "item": "leftovers",
+          "moves": [
+            "toxic",
+            "whirlwind",
+            "bone-rush",
+            "rock-slide"
+	  ]
+	},
+	{
+          "name": "pidgeot",
+          "level": 80,
+          "item": "sharp-beak",
+          "moves": [
+            "aeroblast",
+            "return",
+            "steel-wing",
+            "flamethrower"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Fuchsia City Gym",
+      "name": "lass-linda",
+      "meta": "spikes",
+      "team": [
+        {
+          "name": "ariados",
+          "level": 82,
+          "item": "quick-claw",
+          "moves": [
+            "megahorn",
+            "sludge",
+            "shadow-ball",
+            "future-sight"
+          ]
+        },
+        {
+          "name": "nidoqueen",
+          "level": 82,
+          "item": "brightpowder",
+          "moves": [
+            "horn-drill",
+            "fissure",
+            "lock-on",
+            "roar"
+	  ]
+	},
+        {
+          "name": "vileplume",
+          "level": 81,
+          "item": "persim-berry",
+          "moves": [
+            "petal-dance",
+            "rain-dance",
+            "lovely-kiss",
+            "double-edge"
+	  ]
+	},
+	{
+          "name": "aipom",
+          "level": 81,
+          "item": "focus-band",
+          "moves": [
+            "light-screen",
+            "reflect",
+            "double-team",
+            "baton-pass"
+	  ]
+	},
+	{
+          "name": "cloyster",
+          "level": 82,
+          "item": "nevermeltice",
+          "moves": [
+            "blizzard",
+            "hydro-pump",
+            "spike-cannon",
+            "sludge"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Fuchsia City Gym",
+      "name": "camper-barry",
+      "meta": "spikes",
+      "team": [
+        {
+          "name": "sudowoodo",
+          "level": 81,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "rock-slide",
+            "earthquake",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "wobbuffet",
+          "level": 82,
+          "item": "quick-claw",
+          "moves": [
+            "destiny-bond",
+            "counter",
+            "mirror-coat",
+            "safeguard"
+	  ]
+	},
+        {
+          "name": "beedrill",
+          "level": 82,
+          "item": "brightpowder",
+          "moves": [
+            "sludge",
+            "pin-misile",
+            "drill-peck",
+            "screech"
+	  ]
+	},
+	{
+          "name": "electabuzz",
+          "level": 81,
+          "item": "poison-barb",
+          "moves": [
+            "thunderbolt",
+            "sludge",
+            "ice-punch",
+            "cross-chop"
+	  ]
+	},
+	{
+          "name": "nidoking",
+          "level": 81,
+          "item": "kings-rock",
+          "moves": [
+            "agility",
+            "earthquake",
+            "sludge-bomb",
+            "megahorn"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Fuchsia City Gym",
+      "name": "picnicker-cindy",
+      "meta": "spikes",
+      "team": [
+        {
+          "name": "arbok",
+          "level": 82,
+          "item": "brightpowder",
+          "moves": [
+            "sludge",
+            "glare",
+            "waterfall",
+            "crunch"
+          ]
+        },
+        {
+          "name": "electrode",
+          "level": 82,
+          "item": "pink-bow",
+          "moves": [
+            "double-team",
+            "baton-pass",
+            "thunderbolt",
+            "explosion"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 81,
+          "item": "quick-claw",
+          "moves": [
+            "explosion",
+            "earthquake",
+            "thunder-wave",
+            "baton-pass"
+	  ]
+	},
+        {
+          "name": "gengar",
+          "level": 81,
+          "item": "spell-tag",
+          "moves": [
+            "sludge",
+            "shadow-ball",
+            "cross-chop",
+            "destiny-bond"
+	  ]
+	},
+	{
+          "name": "victreebel",
+          "level": 82,
+          "item": "no-item",
+          "moves": [
+            "thief",
+            "leech-life",
+            "giga-drain",
+            "sludge"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Fuchsia City Gym",
+      "name": "lass-alice",
+      "meta": "spikes",
+      "team": [
+        {
+          "name": "crobat",
+          "level": 81,
+          "item": "miracle-seed",
+          "moves": [
+            "sludge",
+            "sky-attack",
+            "giga-drain",
+            "crunch"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 82,
+          "item": "lum-berry",
+          "moves": [
+            "recover",
+            "ice-beam",
+            "psychic",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 81,
+          "item": "leftovers",
+          "moves": [
+            "roar",
+            "rock-slide",
+            "sludge-bomb",
+            "giga-drain"
+	  ]
+	},
+        {
+          "name": "sneasel",
+          "level": 82,
+          "item": "kings-rock",
+          "moves": [
+            "metal-claw",
+            "shadow-ball",
+            "sludge",
+            "ice-beam"
+	  ]
+	},
+	{
+          "name": "hitmonlee",
+          "level": 82,
+          "item": "focus-band",
+          "moves": [
+            "endure",
+            "reversal",
+            "shadow-ball",
+            "rolling-kick"
+	  ]
+	},
+	{
+          "name": "tentacruel",
+          "level": 81,
+          "item": "leftovers",
+          "moves": [
+            "sludge-bomb",
+            "waterfall",
+            "giga-drain",
+            "ice-beam"
 	  ]
 	}
       ]
