@@ -2178,7 +2178,7 @@
                             },
                             {
                                 "chance": 5,
-                                "level": 6,
+                                "level": 5,
                                 "pokemon": "zubat"
                             },
                             {
@@ -2299,7 +2299,7 @@
                             },
                             {
                                 "chance": 5,
-                                "level": 7,
+                                "level": 6,
                                 "pokemon": "zubat"
                             },
                             {
@@ -2778,7 +2778,7 @@
                             },
                             {
                                 "chance": 1,
-                                "level": 8,
+                                "level": 6,
                                 "pokemon": "smeargle"
                             }
                         ],
@@ -2805,7 +2805,7 @@
                             },
                             {
                                 "chance": 5,
-                                "level": 7,
+                                "level": 5,
                                 "pokemon": "smeargle"
                             },
                             {
@@ -2842,7 +2842,7 @@
                             },
                             {
                                 "chance": 5,
-                                "level": 7,
+                                "level": 6,
                                 "pokemon": "smeargle"
                             },
                             {
@@ -7648,19 +7648,7 @@
                         ]
                     },
                     "type": "walking"
-                },
-                {
-                    "pool": "fishing.shore.old",
-                    "type": "old-rod"
-                },
-                {
-                    "pool": "fishing.shore.good",
-                    "type": "good-rod"
-                },
-                {
-                    "pool": "fishing.shore.super",
-                    "type": "super-rod"
-                },
+                },                
                 {
                     "pool": "headbutt.route",
                     "type": "headbutt"
@@ -21514,19 +21502,19 @@
                     "move": "drill-peck"
                 },
                 {
-                    "level": 25,
+                    "level": 31,
                     "move": "extremespeed"
                 },
                 {
-                    "level": 29,
+                    "level": 35,
                     "move": "steel-wing"
                 },
                 {
-                    "level": 37,
+                    "level": 47,
                     "move": "endure"
                 },
                 {
-                    "level": 47,
+                    "level": 57,
                     "move": "aeroblast"
                 }
             ],
@@ -21597,10 +21585,6 @@
                     "move": "drill-peck"
                 },
                 {
-                    "level": 25,
-                    "move": "extremespeed"
-                },
-                {
                     "level": 30,
                     "move": "steel-wing"
                 },
@@ -21609,11 +21593,11 @@
                     "move": "flamethrower"
                 },
                 {
-                    "level": 40,
+                    "level": 47,
                     "move": "endure"
                 },
                 {
-                    "level": 50,
+                    "level": 57,
                     "move": "aeroblast"
                 }
             ],
@@ -28700,11 +28684,11 @@
                     "move": "dream-eater"
                 },
                 {
-                    "level": 41,
+                    "level": 51,
                     "move": "psychic"
                 },
                 {
-                    "level": 48,
+                    "level": 68,
                     "move": "destiny-bond"
                 }
             ],
@@ -28801,11 +28785,7 @@
                     "move": "dream-eater"
                 },
                 {
-                    "level": 41,
-                    "move": "psychic"
-                },
-                {
-                    "level": 48,
+                    "level": 68,
                     "move": "destiny-bond"
                 }
             ],
@@ -28903,11 +28883,7 @@
                     "move": "dream-eater"
                 },
                 {
-                    "level": 41,
-                    "move": "psychic"
-                },
-                {
-                    "level": 48,
+                    "level": 68,
                     "move": "destiny-bond"
                 }
             ],
@@ -39013,7 +38989,7 @@
                     "move": "explosion"
                 },
                 {
-                    "level": 37,
+                    "level": 41,
                     "move": "earthquake"
                 },
                 {
@@ -39098,10 +39074,6 @@
                 {
                     "level": 34,
                     "move": "explosion"
-                },
-                {
-                    "level": 35,
-                    "move": "earthquake"
                 },
                 {
                     "level": 38,
@@ -39984,12 +39956,12 @@
                     "move": "endure"
                 },
                 {
-                    "level": 19,
-                    "move": "fury-cutter"
-                },
-                {
                     "level": 27,
                     "move": "counter"
+                },
+                {
+                    "level": 29,
+                    "move": "fury-cutter"
                 },
                 {
                     "level": 35,
@@ -44136,7 +44108,7 @@
       "team": [
         {
           "name": "seadra",
-          "level": 17,
+          "level": 19,
           "item": "dragon-fang",
           "moves": [
             "bubblebeam",
@@ -44146,8 +44118,8 @@
         },
         {
           "name": "geodude",
-          "level": 17,
-          "item": "hard-stone",
+          "level": 19,
+          "item": "quick-claw",
           "moves": [
             "magnitude",
             "rock-slide",
@@ -44156,20 +44128,20 @@
         },
         {
           "name": "weepinbell",
-          "level": 17,
+          "level": 19,
           "item": "leftovers",
           "moves": [
             "giga-drain",
-            "acid",
+            "sludge-bomb",
             "leech-life"
           ]
         },
        {
           "name": "elekid",
-          "level": 18,
+          "level": 20,
           "item": "berry-juice",
           "moves": [
-            "spark",
+            "thunderpunch",
             "ice-punch",
 	    "karate-chop",
             "quick-attack"
@@ -44183,17 +44155,18 @@
       "team": [
         {
           "name": "houndour",
-          "level": 17,
+          "level": 18,
           "item": "berry-juice",
           "moves": [
             "roar",
-	    "bite",
-            "flame-wheel"
+	    "crunch",
+            "flame-wheel",
+	    "flamethrower"
           ]
         },
         {
           "name": "nidorino",
-          "level": 17,
+          "level": 19,
           "item": "berry-juice",
           "moves": [
             "sludge-bomb",
@@ -44211,20 +44184,21 @@
       "team": [
         {
           "name": "seel",
-          "level": 17,
+          "level": 18,
           "item": "berry-juice",
           "moves": [
             "charm",
             "icy-wind",
-            "bubblebeam"
+            "surf",
+	    "ice-beam"
           ]
         },
         {
           "name": "nidorina",
-          "level": 17,
+          "level": 19,
           "item": "berry-juice",
           "moves": [
-            "acid",
+            "sludge-bomb",
             "dig",
             "rock-slide",
 	    "aurora-beam"
@@ -44238,18 +44212,18 @@
       "team": [
         {
           "name": "meowth",
-          "level": 18,
-          "item": "pink-bow",
+          "level": 20,
+          "item": "metal-coat",
           "moves": [
             "pay-day",
             "swagger",
             "bite",
-	    "psybeam"
+	    "psychic"
           ]
         },
         {
           "name": "flaaffy",
-          "level": 18,
+          "level": 19,
           "item": "berry-juice",
           "moves": [
             "spark",
@@ -44260,10 +44234,10 @@
         },
         {
           "name": "grimer",
-          "level": 17,
+          "level": 19,
           "item": "leftovers",
           "moves": [
-            "recover",
+            "selfdestruct",
             "minimize",
             "acid",
 	    "lick"
@@ -44271,7 +44245,7 @@
         },
         {
           "name": "goldeen",
-          "level": 17,
+          "level": 19,
           "item": "lum-berry",
           "moves": [
             "endure",
@@ -44282,13 +44256,13 @@
         },
         {
           "name": "magby",
-          "level": 18,
+          "level": 20,
           "item": "charcoal",
           "moves": [
             "fire-punch",
-            "spark",
-            "psywave",
-	    "smog"
+            "thunderpunch",
+            "psybeam",
+	    "sludge-bomb"
           ]
         }
       ]
@@ -44904,7 +44878,7 @@
             "hypnosis",
             "dream-eater",
             "psychic",
-            "thief"
+            "faint-attack"
           ]
         },
         {
@@ -44930,7 +44904,7 @@
           "level": 24,
           "item": "magnet",
           "moves": [
-            "thunderpunch",
+            "thunderbolt",
             "thunder-wave",
             "fire-punch",
             "headbutt"
@@ -44944,7 +44918,7 @@
             "moonlight",
             "toxic",
             "giga-drain",
-            "acid"
+            "sludge-bomb"
           ]
         },
         {
@@ -44972,7 +44946,7 @@
           "moves": [
             "protect",
             "curse",
-            "horn-attack",
+            "rock-slide",
             "sludge-bomb"
           ]
         },
@@ -45073,7 +45047,7 @@
       "team": [
         {
           "name": "golbat",
-          "level": 24,
+          "level": 25,
           "item": "scope-lens",
           "moves": [
             "confuse-ray",
@@ -45084,7 +45058,7 @@
         },
         {
           "name": "weepinbell",
-          "level": 23,
+          "level": 24,
           "item": "poison-barb",
           "moves": [
             "giga-drain",
@@ -45095,7 +45069,7 @@
         },
         {
           "name": "haunter",
-          "level": 23,
+          "level": 24,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -45106,7 +45080,7 @@
         },
         {
           "name": "poliwhirl",
-          "level": 24,
+          "level": 25,
           "item": "berry-juice",
           "moves": [
             "waterfall",
@@ -45117,7 +45091,7 @@
         },
         {
           "name": "quilava",
-          "level": 25,
+          "level": 27,
           "item": "charcoal",
           "moves": [
             "flame-wheel",
@@ -45134,7 +45108,7 @@
       "team": [
         {
           "name": "golbat",
-          "level": 24,
+          "level": 25,
           "item": "scope-lens",
           "moves": [
             "confuse-ray",
@@ -45145,18 +45119,18 @@
         },
         {
           "name": "houndour",
-          "level": 23,
+          "level": 24,
           "item": "blackglasses",
           "moves": [
             "crunch",
-            "mean-look",
+            "flamethrower",
             "flame-wheel",
-            "headbutt"
+            "sludge-bomb"
           ]
         },
         {
           "name": "haunter",
-          "level": 23,
+          "level": 24,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -45167,7 +45141,7 @@
         },
         {
           "name": "weepinbell",
-          "level": 24,
+          "level": 25,
           "item": "poison-barb",
           "moves": [
             "giga-drain",
@@ -45178,7 +45152,7 @@
         },
         {
           "name": "croconaw",
-          "level": 25,
+          "level": 27,
           "item": "berry-juice",
           "moves": [
             "waterfall",
@@ -45195,7 +45169,7 @@
       "team": [
         {
           "name": "golbat",
-          "level": 24,
+          "level": 25,
           "item": "scope-lens",
           "moves": [
             "confuse-ray",
@@ -45206,7 +45180,7 @@
         },
         {
           "name": "poliwhirl",
-          "level": 23,
+          "level": 24,
           "item": "berry-juice",
           "moves": [
             "waterfall",
@@ -45217,7 +45191,7 @@
         },
         {
           "name": "haunter",
-          "level": 23,
+          "level": 24,
           "item": "lum-berry",
           "moves": [
             "hypnosis",
@@ -45228,18 +45202,18 @@
         },
         {
           "name": "houndour",
-          "level": 24,
+          "level": 25,
           "item": "blackglasses",
           "moves": [
             "crunch",
-            "mean-look",
+            "flamethrower",
             "flame-wheel",
-            "headbutt"
+            "sludge-bomb"
           ]
         },
         {
           "name": "bayleef",
-          "level": 25,
+          "level": 27,
           "item": "leftovers",
           "moves": [
             "poisonpowder",
@@ -45514,7 +45488,7 @@
           "level": 25,
           "item": "berry-juice",
           "moves": [
-            "toxic",
+            "karate-chop",
             "fury-swipes",
             "thief",
             "surf"
@@ -45777,8 +45751,9 @@
           "item": "berry-juice",
           "moves": [
             "rollout",
-            "flame-wheel",
-            "thunderpunch"
+            "flamethrower",
+            "thunderpunch",
+	    "flame-wheel"
           ]
         },
         {
@@ -47181,7 +47156,7 @@
           "moves": [
             "thief",
             "hypnosis",
-            "dream-eater",
+            "submission",
             "psychic"
           ]
         },
@@ -52286,7 +52261,7 @@
             "thief",
             "hypnosis",
             "giga-drain",
-            "dream-eater"
+            "drill-peck"
           ]
         },
         {
@@ -57991,7 +57966,7 @@
           "item": "brightpowder",
           "moves": [
             "sludge",
-            "pin-misile",
+            "pin-missile",
             "drill-peck",
             "screech"
 	  ]
