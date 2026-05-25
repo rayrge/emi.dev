@@ -17606,7 +17606,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Decreases the PP of the opponent's last used move by 2-5"
+                "Decreases the PP of the opponent's last used move by 5-7"
             ],
             "index": 180,
             "name": "spite",
@@ -58378,7 +58378,7 @@
         {
           "name": "tentacruel",
           "level": 86,
-          "item": "mysticwater",
+          "item": "mystic-water",
           "moves": [
             "hydro-pump",
             "ice-beam",
@@ -59029,7 +59029,7 @@
         {
           "name": "gengar",
           "level": 85,
-          "item": "twisted-spoon",
+          "item": "twistedspoon",
           "moves": [
             "shadow-ball",
             "psychic",
@@ -59081,7 +59081,7 @@
         {
           "name": "jynx",
           "level": 85,
-          "item": "twisted-spoon",
+          "item": "twistedspoon",
           "moves": [
             "future-sight",
             "ice-beam",
@@ -59120,6 +59120,79 @@
 	    "earthquake",
 	    "thunder",
 	    "fire-blast"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Lavender Town",
+      "name": "elite-four-agatha",
+      "meta": "permanent perish counter",
+      "team": [
+        {
+          "name": "crobat",
+          "level": 87,
+          "item": "leftovers",
+          "moves": [
+            "fly",
+            "sludge-bomb",
+            "protect",
+            "shadow-ball"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 87,
+          "item": "leftovers",
+          "moves": [
+            "mean-look",
+	    "pain-split",
+	    "giga-drain",
+	    "protect"
+          ]
+        },
+        {
+          "name": "umbreon",
+          "level": 87,
+          "item": "brightpowder",
+          "moves": [
+            "pursuit",
+	    "confuse-ray",
+	    "double-team",
+	    "reflect"
+          ]
+        },
+        {
+          "name": "noctowl",
+          "level": 87,
+          "item": "leftovers",
+          "moves": [
+            "mean-look",
+	    "protect",
+	    "shadow-ball",
+	    "psychic"
+          ]
+        },
+        {
+          "name": "snorlax",
+          "level": 87,
+          "item": "chesto-berry",
+          "moves": [
+            "rest",
+	    "protect",
+	    "shadow-ball",
+	    "iron-tail"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 87,
+          "item": "focus-band",
+          "moves": [
+            "mean-look",
+	    "ice-punch",
+	    "shadow-ball",
+	    "sludge-bomb"
           ]
         }
       ]
