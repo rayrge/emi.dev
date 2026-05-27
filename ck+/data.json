@@ -59195,6 +59195,226 @@
     },
 {
       "area": "Route 9",
+      "name": "picnicker-heidi",
+      "meta": "middle",
+      "team": [
+        {
+          "name": "rapidash",
+          "level": 88,
+          "item": "berserk-gene",
+          "moves": [
+            "hi-jump-kick",
+	    "earthquake",
+	    "megahorn",
+	    "fire-blast"
+          ]
+        },
+        {
+          "name": "bellossom",
+          "level": 88,
+          "item": "quick-claw",
+          "moves": [
+            "sleep-powder",
+	    "acid",
+	    "giga-drain",
+	    "return"
+          ]
+        },
+        {
+          "name": "miltank",
+          "level": 88,
+          "item": "leftovers",
+          "moves": [
+            "milk-drink",
+	    "attract",
+	    "body-slam",
+	    "earthquake"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 9",
+      "name": "hiker-sidney",
+      "meta": "down",
+      "team": [
+        {
+          "name": "sneasel",
+          "level": 88,
+          "item": "kings-rock",
+          "moves": [
+            "drill-peck",
+	    "cross-chop",
+	    "shadow-ball",
+	    "fury-cutter"
+          ]
+        },
+        {
+          "name": "jolteon",
+          "level": 88,
+          "item": "brightpowder",
+          "moves": [
+            "substitute",
+	    "baton-pass",
+	    "thunderbolt",
+	    "bite"
+          ]
+        },
+        {
+          "name": "primeape",
+          "level": 88,
+          "item": "blackbelt",
+          "moves": [
+            "meditate",
+	    "submission",
+	    "rock-slide",
+	    "iron-tail"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 9",
+      "name": "camper-dean",
+      "meta": "up",
+      "team": [
+        {
+          "name": "omastar",
+          "level": 88,
+          "item": "focus-band",
+          "moves": [
+            "spikes",
+	    "hydro-pump",
+	    "ancientpower",
+	    "crunch"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 88,
+          "item": "leftovers",
+          "moves": [
+            "explosion",
+	    "giga-drain",
+	    "flame-wheel",
+	    "amnesia"
+          ]
+        },
+        {
+          "name": "gligar",
+          "level": 88,
+          "item": "poison-barb",
+          "moves": [
+            "swords-dance",
+	    "sludge-bomb",
+	    "earthquake",
+	    "rock-slide"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 9",
+      "name": "hiker-tim",
+      "meta": "up",
+      "team": [
+        {
+          "name": "donphan",
+          "level": 89,
+          "item": "lum-berry",
+          "moves": [
+            "swagger",
+	    "earthquake",
+	    "rock-slide",
+	    "body-slam"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 89,
+          "item": "scope-lens",
+          "moves": [
+            "rock-slide",
+	    "drill-peck",
+	    "super-fang",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 89,
+          "item": "quick-claw",
+          "moves": [
+            "giga-drain",
+            "explosion",
+            "ancientpower",
+            "psychic"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 89,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+	    "thunderpunch",
+	    "fire-punch",
+	    "ice-punch"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 9",
+      "name": "picnicker-edna",
+      "meta": "down",
+      "team": [
+        {
+          "name": "poliwrath",
+          "level": 89,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+	    "cross-chop",
+	    "waterfall",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "kingdra",
+          "level": 89,
+          "item": "leftovers",
+          "moves": [
+            "outrage",
+	    "safeguard"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 89,
+          "item": "quick-claw",
+          "moves": [
+            "giga-drain",
+            "explosion",
+            "ancientpower",
+            "psychic"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 89,
+          "item": "twistedspoon",
+          "moves": [
+            "psychic",
+	    "thunderpunch",
+	    "fire-punch",
+	    "ice-punch"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 9",
       "name": "camper-cam",
       "team": [
         {
