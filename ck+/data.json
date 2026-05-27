@@ -59370,14 +59370,14 @@
       "meta": "down",
       "team": [
         {
-          "name": "poliwrath",
+          "name": "stantler",
           "level": 89,
           "item": "lum-berry",
           "moves": [
-            "hypnosis",
-	    "cross-chop",
-	    "waterfall",
-	    "earthquake"
+            "future-sight",
+	    "double-edge",
+	    "megahorn",
+	    "light-screen"
           ]
         },
         {
