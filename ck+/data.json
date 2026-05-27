@@ -59194,6 +59194,82 @@
       ]
     },
 {
+      "area": "Route 10 South",
+      "name": "pokefan-robert",
+      "team": [
+        {
+          "name": "togetic",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "metronome",
+	    "softboiled"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 10 South",
+      "name": "hiker-jim",
+      "team": [
+        {
+          "name": "meganium",
+          "level": 88,
+          "item": "leftovers",
+          "moves": [
+            "reflect",
+	    "double-edge",
+	    "rock-slide",
+	    "sleep-powder"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 88,
+          "item": "soft-sand",
+          "moves": [
+            "curse",
+	    "extremespeed",
+	    "earthquake",
+	    "submission"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 88,
+          "item": "quick-claw",
+          "moves": [
+            "megahorn",
+	    "cross-chop",
+	    "fire-blast",
+	    "thunder"
+          ]
+        },
+        {
+          "name": "blastoise",
+          "level": 88,
+          "item": "lum-berry",
+          "moves": [
+            "mirror-coat",
+	    "counter",
+	    "blizzard",
+	    "encore"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 88,
+          "item": "sharp-beak",
+          "moves": [
+            "wing-attack",
+	    "rock-slide",
+	    "earthquake",
+	    "metal-claw"
+          ]
+        }
+      ]
+    },
+{
       "area": "Route 9",
       "name": "picnicker-heidi",
       "meta": "middle",
@@ -59615,6 +59691,297 @@
 	    "blizzard",
 	    "sing",
 	    "thunder"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Mt Moon",
+      "name": "rival-16",
+      "meta": "start gauntlet",
+      "team": [
+        {
+          "name": "sneasel",
+          "level": 94,
+          "item": "scope-lens",
+          "moves": [
+            "drill-peck",
+            "cross-chop",
+            "sunny-day",
+            "baton-pass"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "fire-blast",
+	    "sky-attack",
+	    "thunderpunch",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 94,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+	    "thunderbolt",
+	    "psywave",
+	    "confuse-ray"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 94,
+          "item": "kings-rock",
+          "moves": [
+            "sludge-bomb",
+	    "shadow-ball",
+	    "psychic",
+	    "destiny-bond"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 94,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+	    "ice-punch",
+	    "fire-punch",
+	    "thunderpunch"
+          ]
+        },
+        {
+          "name": "meganium",
+          "level": 94,
+          "item": "miracle-seed",
+          "moves": [
+            "petal-dance",
+	    "safeguard",
+	    "ancientpower",
+	    "earthquake"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Mt Moon",
+      "name": "rival-17",
+      "meta": "start gauntlet",
+      "team": [
+        {
+          "name": "gengar",
+          "level": 94,
+          "item": "kings-rock",
+          "moves": [
+            "sludge-bomb",
+            "shadow-ball",
+            "psychic",
+            "destiny-bond"
+          ]
+        },
+        {
+          "name": "blastoise",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "mirror-coat",
+	    "counter",
+	    "hydro-pump",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 94,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+	    "thunderbolt",
+	    "psywave",
+	    "confuse-ray"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 94,
+          "item": "lum-berry",
+          "moves": [
+            "sky-attack",
+	    "giga-drain",
+	    "acid",
+	    "super-fang"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 94,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+	    "ice-punch",
+	    "fire-punch",
+	    "thunderpunch"
+          ]
+        },
+        {
+          "name": "typhlosion",
+          "level": 94,
+          "item": "charcoal",
+          "moves": [
+            "fire-blast",
+	    "ancientpower",
+	    "cross-chop",
+	    "thunderpunch"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Mt Moon",
+      "name": "rival-18",
+      "meta": "start gauntlet",
+      "team": [
+        {
+          "name": "crobat",
+          "level": 94,
+          "item": "lum-berry",
+          "moves": [
+            "spikes",
+            "leech-life",
+            "sky-attack",
+            "hypnosis"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "sludge",
+	    "rock-slide",
+	    "giga-drain",
+	    "sleep-powder"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 94,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+	    "thunderbolt",
+	    "psywave",
+	    "confuse-ray"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 94,
+          "item": "scope-lens",
+          "moves": [
+            "destiny-bond",
+	    "shadow-ball",
+	    "fury-cutter",
+	    "icy-wind"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 94,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+	    "ice-punch",
+	    "fire-punch",
+	    "thunderpunch"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 94,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+	    "cross-chop",
+	    "earthquake",
+	    "ancientpower"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Pewter City Gym",
+      "name": "leader-brock",
+      "team": [
+        {
+          "name": "steelix",
+          "level": 96,
+          "item": "quick-claw",
+          "moves": [
+            "explosion",
+            "rock-slide",
+            "iron-tail",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 96,
+          "item": "charcoal",
+          "moves": [
+            "sacred-fire",
+	    "hypnosis",
+	    "psychic",
+	    "ancientpower"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 96,
+          "item": "leftovers",
+          "moves": [
+            "spikes",
+	    "sky-attack",
+	    "giga-drain",
+	    "flamethrower"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 96,
+          "item": "brightpowder",
+          "moves": [
+            "explosion",
+	    "sandstorm",
+	    "pin-missile",
+	    "screech"
+          ]
+        },
+        {
+          "name": "blissey",
+          "level": 96,
+          "item": "focus-band",
+          "moves": [
+            "counter",
+	    "barrier",
+	    "blizzard",
+	    "thunder"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 96,
+          "item": "hard-stone",
+          "moves": [
+            "ancientpower",
+	    "sky-attack",
+	    "earthquake",
+	    "fire-blast"
           ]
         }
       ]
