@@ -59341,25 +59341,25 @@
           ]
         },
         {
-          "name": "exeggutor",
+          "name": "machamp",
           "level": 89,
-          "item": "quick-claw",
+          "item": "focus-band",
           "moves": [
-            "giga-drain",
-            "explosion",
-            "ancientpower",
-            "psychic"
+            "counter",
+            "cross-chop",
+            "rock-slide",
+            "sludge-bomb"
           ]
         },
         {
-          "name": "alakazam",
+          "name": "rhydon",
           "level": 89,
-          "item": "twistedspoon",
+          "item": "hard-stone",
           "moves": [
-            "psychic",
-	    "thunderpunch",
-	    "fire-punch",
-	    "ice-punch"
+            "rock-slide",
+	    "earthquake",
+	    "fire-blast",
+	    "megahorn"
           ]
         }
       ]
