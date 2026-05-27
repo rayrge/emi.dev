@@ -25792,7 +25792,7 @@
             "evolutions": [
                 {
                     "into": "kadabra",
-                    "level": 16,
+                    "level": 22,
                     "method": "level"
                 }
             ],
@@ -31975,7 +31975,7 @@
                 "def": 95,
                 "hp": 75,
                 "spa": 40,
-                "spd": 80,
+                "spd": 70,
                 "spe": 110
             },
             "tmhm": [
@@ -37792,20 +37792,16 @@
                     "move": "growth"
                 },
                 {
-                    "level": 10,
-                    "move": "razor-leaf"
-                },
-                {
-                    "level": 24,
+                    "level": 16,
                     "move": "giga-drain"
                 },
                 {
-                    "level": 31,
-                    "move": "petal-dance"
+                    "level": 21,
+                    "move": "synthesis"
                 },
 		{
-		    "level": 46,
-		    "move": "solarbeam"
+		    "level": 36,
+		    "move": "sacred-fire"
 		}
             ],
             "name": "sunflora",
@@ -43161,7 +43157,7 @@
         },
         {
           "name": "kabuto",
-          "level": 12,
+          "level": 11,
           "item": "scope-lens",
           "moves": [
             "slash"
@@ -59127,7 +59123,7 @@
 {
       "area": "Lavender Town",
       "name": "elite-four-agatha",
-      "meta": "permanent perish counter",
+      "meta": "perish",
       "team": [
         {
           "name": "crobat",
@@ -59193,6 +59189,212 @@
 	    "ice-punch",
 	    "shadow-ball",
 	    "sludge-bomb"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 9",
+      "name": "camper-cam",
+      "team": [
+        {
+          "name": "poliwrath",
+          "level": 89,
+          "item": "lum-berry",
+          "moves": [
+            "hypnosis",
+	    "cross-chop",
+	    "waterfall",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "electrode",
+          "level": 90,
+          "item": "magnet",
+          "moves": [
+            "thunderbolt",
+	    "explosion",
+	    "thunder-wave",
+	    "giga-drain"
+          ]
+        },
+        {
+          "name": "magneton",
+          "level": 90,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "thunderbolt",
+            "aurora-beam",
+            "reflect"
+          ]
+        },
+        {
+          "name": "umbreon",
+          "level": 89,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+	    "pursuit",
+	    "toxic",
+	    "moonlight"
+          ]
+        },
+        {
+          "name": "golduck",
+          "level": 89,
+          "item": "quick-claw",
+          "moves": [
+            "perish-song",
+	    "protect",
+	    "whirlpool",
+	    "hydro-pump"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 24",
+      "name": "gruntm-31",
+      "team": [
+        {
+          "name": "muk",
+          "level": 90,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+	    "sludge-bomb",
+	    "cross-chop",
+	    "flamethrower"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 90,
+          "item": "brightpowder",
+          "moves": [
+            "surf",
+	    "recover",
+	    "ice-beam",
+	    "thunderbolt"
+          ]
+        },
+        {
+          "name": "crobat",
+          "level": 90,
+          "item": "scope-lens",
+          "moves": [
+            "sky-attack",
+            "sludge",
+            "thunder-wave",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "electabuzz",
+          "level": 90,
+          "item": "kings-rock",
+          "moves": [
+            "thunderbolt",
+	    "ice-punch",
+	    "sludge",
+	    "cross-chop"
+          ]
+        },
+        {
+          "name": "dragonite",
+          "level": 90,
+          "item": "leftovers",
+          "moves": [
+            "swords-dance",
+	    "extremespeed",
+	    "earthquake",
+	    "thunder-wave"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 90,
+          "item": "quick-claw",
+          "moves": [
+            "thunderbolt",
+	    "sing",
+	    "ice-punch",
+	    "earthquake"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Cerulean City Gym",
+      "name": "leader-misty",
+      "meta": "rain",
+      "team": [
+        {
+          "name": "politoed",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "baton-pass",
+            "substitute",
+            "attract",
+            "hydro-pump"
+          ]
+        },
+        {
+          "name": "kingdra",
+          "level": 93,
+          "item": "lum-berry",
+          "moves": [
+            "rest",
+	    "double-edge",
+	    "octazooka",
+	    "ice-beam"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 93,
+          "item": "mystic-water",
+          "moves": [
+            "hydro-pump",
+	    "psychic",
+	    "thunderbolt",
+	    "ice-beam"
+          ]
+        },
+        {
+          "name": "togetic",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "growth",
+	    "amnesia",
+	    "ice-beam",
+	    "thunderbolt"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 93,
+          "item": "pink-bow",
+          "moves": [
+            "hydro-pump",
+	    "double-edge",
+	    "earthquake",
+	    "rock-slide"
+          ]
+        },
+        {
+          "name": "lapras",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "hydro-pump",
+	    "blizzard",
+	    "sing",
+	    "thunder"
           ]
         }
       ]
