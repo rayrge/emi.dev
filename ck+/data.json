@@ -45291,8 +45291,8 @@
           "item": "leftovers",
           "moves": [
             "extremespeed",
-            "sharpen",
-            "agility",
+            "curse",
+            "recover",
             "conversion"
           ]
         },
@@ -59624,6 +59624,203 @@
     },
 {
       "area": "Cerulean City Gym",
+      "name": "swimmerf-briana",
+      "meta": "rain",
+      "team": [
+        {
+          "name": "wigglytuff",
+          "level": 93,
+          "item": "pink-bow",
+          "moves": [
+            "sing",
+	    "explosion",
+	    "thunder",
+	    "hydro-pump"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 92,
+          "item": "lum-berry",
+          "moves": [
+            "recover",
+	    "mirror-coat",
+	    "surf",
+	    "icy-wind"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 93,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+	    "confuse-ray",
+	    "hydro-pump",
+	    "blizzard"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+	    "ancientpower",
+	    "sludge-bomb",
+	    "protect"
+          ]
+        },
+        {
+          "name": "slowbro",
+          "level": 92,
+          "item": "magnet",
+          "moves": [
+            "hydro-pump",
+	    "thunder",
+	    "psychic",
+	    "crunch"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Cerulean City Gym",
+      "name": "swimmerm-parker",
+      "meta": "rain",
+      "team": [
+        {
+          "name": "octillery",
+          "level": 92,
+          "item": "brightpowder",
+          "moves": [
+            "octazooka",
+	    "mud-slap",
+	    "sludge-bomb",
+	    "ice-beam"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 93,
+          "item": "scope-lens",
+          "moves": [
+            "rock-slide",
+	    "wing-attack",
+	    "cross-chop",
+	    "crabhammer"
+          ]
+        },
+        {
+          "name": "lickitung",
+          "level": 93,
+          "item": "pink-bow",
+          "moves": [
+            "lick",
+	    "explosion",
+	    "hydro-pump",
+	    "thunder"
+          ]
+        },
+        {
+          "name": "blastoise",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "protect",
+	    "curse",
+	    "double-edge",
+	    "shadow-ball"
+          ]
+        },
+        {
+          "name": "tentacruel",
+          "level": 92,
+          "item": "miracle-seed",
+          "moves": [
+            "hydro-pump",
+	    "ice-beam",
+	    "giga-drain",
+	    "sludge-bomb"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Cerulean City Gym",
+      "name": "swimmerf-diana",
+      "meta": "rain",
+      "team": [
+        {
+          "name": "feraligatr",
+          "level": 92,
+          "item": "quick-claw",
+          "moves": [
+            "iron-tail",
+	    "hydro-pump",
+	    "crunch",
+	    "rock-slide"
+          ]
+        },
+        {
+          "name": "raichu",
+          "level": 93,
+          "item": "magnet",
+          "moves": [
+            "thunder",
+	    "surf",
+	    "cross-chop",
+	    "disable"
+          ]
+        },
+        {
+          "name": "jynx",
+          "level": 92,
+          "item": "nevermeltice",
+          "moves": [
+            "lick",
+	    "blizzard",
+	    "psychic",
+	    "hydro-pump"
+          ]
+        },
+        {
+          "name": "golduck",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "whirlpool",
+	    "agility",
+	    "growth",
+	    "hydro-pump"
+          ]
+        },
+        {
+          "name": "mantine",
+          "level": 93,
+          "item": "lum-berry",
+          "moves": [
+            "aeroblast",
+	    "hydro-pump",
+	    "toxic",
+	    "amnesia"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 92,
+          "item": "mystic-water",
+          "moves": [
+            "surf",
+	    "psychic",
+	    "giga-drain",
+	    "thunder"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Cerulean City Gym",
       "name": "leader-misty",
       "meta": "rain",
       "team": [
@@ -59958,7 +60155,7 @@
           "moves": [
             "explosion",
 	    "sandstorm",
-	    "pin-missile",
+	    "earthquake",
 	    "screech"
           ]
         },
@@ -59969,8 +60166,8 @@
           "moves": [
             "counter",
 	    "barrier",
-	    "blizzard",
-	    "thunder"
+	    "psywave",
+	    "safeguard"
           ]
         },
         {
