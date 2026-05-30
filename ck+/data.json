@@ -8478,18 +8478,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 35,
-                            "pokemon": "poliwag"
+                            "level": 44,
+                            "pokemon": "poliwhirl"
                         },
                         {
                             "chance": 30,
-                            "level": 35,
-                            "pokemon": "poliwag"
+                            "level": 44,
+                            "pokemon": "misdreavus"
                         },
                         {
                             "chance": 10,
-                            "level": 35,
-                            "pokemon": "poliwhirl"
+                            "level": 44,
+                            "pokemon": "poliwrath"
                         }
                     ],
                     "type": "surfing"
@@ -9481,6 +9481,17 @@
                 {
                     "pool": "fishing.shore.super",
                     "type": "super-rod"
+                },
+                {
+                    "pool": [
+                        {
+                            "chance": 100,
+                            "extra": "Appears after deafeating Blue",
+                            "level": 100,
+                            "pokemon": "moltres"
+                        }
+                    ],
+                    "type": "static"
                 }
             ]
         },
@@ -10983,6 +10994,17 @@
                         }
                     ],
                     "type": "trade"
+                },
+                {
+                    "pool": [
+                        {
+                            "chance": 100,
+                            "extra": "Appears after deafeating Blue",
+                            "level": 100,
+                            "pokemon": "zapdos"
+                        }
+                    ],
+                    "type": "static"
                 }
             ]
         },
@@ -33324,7 +33346,11 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "ice-beam"
+                    "move": "powder-snow"
+                },
+                {
+                    "level": 1,
+                    "move": "agility"
                 },
                 {
                     "level": 1,
@@ -33332,11 +33358,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "rest"
-                },
-                {
-                    "level": 1,
-                    "move": "sleep-talk"
+                    "move": "whirlwind"
                 }
             ],
             "name": "articuno",
@@ -33368,7 +33390,6 @@
                 "sleep-talk",
                 "swift",
                 "detect",
-                "rest",
                 "steel-wing",
                 "fly",
                 "ice-beam"
@@ -33385,7 +33406,11 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "thunderbolt"
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 1,
+                    "move": "detect"
                 },
                 {
                     "level": 1,
@@ -33393,11 +33418,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "hidden-power"
-                },
-                {
-                    "level": 1,
-                    "move": "thunder-wave"
+                    "move": "whirlwind"
                 }
             ],
             "name": "zapdos",
@@ -33430,7 +33451,6 @@
                 "sleep-talk",
                 "swift",
                 "detect",
-                "rest",
                 "steel-wing",
                 "fly",
                 "flash",
@@ -33452,15 +33472,15 @@
                 },
                 {
                     "level": 1,
+                    "move": "endure"
+                },
+                {
+                    "level": 1,
                     "move": "sky-attack"
                 },
                 {
                     "level": 1,
-                    "move": "fire-blast"
-                },
-                {
-                    "level": 1,
-                    "move": "hidden-power"
+                    "move": "whirlwind"
                 }
             ],
             "name": "moltres",
@@ -33492,7 +33512,6 @@
                 "fire-blast",
                 "swift",
                 "detect",
-                "rest",
                 "steel-wing",
                 "fly",
                 "flamethrower"
@@ -42386,6 +42405,18 @@
             "learnset": [
                 {
                     "level": 1,
+                    "move": "thunder-wave"
+                },
+                {
+                    "level": 1,
+                    "move": "detect"
+                },
+                {
+                    "level": 1,
+                    "move": "quick-attack"
+                },
+                {
+                    "level": 1,
                     "move": "roar"
                 }
             ],
@@ -42421,7 +42452,6 @@
                 "sleep-talk",
                 "swift",
                 "detect",
-                "rest",
                 "cut",
                 "strength",
                 "flash",
@@ -42436,6 +42466,18 @@
             "gender": "unknown",
             "items": [],
             "learnset": [
+                {
+                    "level": 1,
+                    "move": "fire-spin"
+                },
+                {
+                    "level": 1,
+                    "move": "stomp"
+                },
+                {
+                    "level": 1,
+                    "move": "swagger"
+                },
                 {
                     "level": 1,
                     "move": "roar"
@@ -42489,15 +42531,19 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "bite"
+                    "move": "gust"
                 },
                 {
                     "level": 1,
-                    "move": "surf"
+                    "move": "mirror-coat"
                 },
                 {
                     "level": 1,
-                    "move": "ice-beam"
+                    "move": "gust"
+                },
+                {
+                    "level": 1,
+                    "move": "roar"
                 }
             ],
             "name": "suicune",
@@ -42804,15 +42850,19 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "roar"
+                    "move": "safeguard"
+                },
+                {
+                    "level": 1,
+                    "move": "swift"
                 },
                 {
                     "level": 22,
-                    "move": "recover"
+                    "move": "future-sight"
                 },
                 {
                     "level": 99,
-                    "move": "aeroblast"
+                    "move": "whirlwind"
                 }
             ],
             "name": "lugia",
@@ -42869,19 +42919,19 @@
             "learnset": [
                 {
                     "level": 1,
-                    "move": "whirlwind"
+                    "move": "safeguard"
                 },
                 {
                     "level": 1,
-                    "move": "roar"
+                    "move": "swift"
                 },
                 {
                     "level": 22,
-                    "move": "recover"
+                    "move": "future-sight"
                 },
                 {
                     "level": 99,
-                    "move": "sacred-fire"
+                    "move": "whirlwind"
                 }
             ],
             "name": "ho-oh",
