@@ -2436,6 +2436,22 @@
                         ]
                     },
                     "type": "walking"
+                },
+                {
+                    "pool": [
+                        {
+                            "chance": 100,
+                            "level": 100,
+                            "pokemon": "ho-oh"
+                        },
+                        {
+                            "chance": 100,
+			    "extra": "Appears on Sundays after defeating Lance",
+                            "level": 100,
+                            "pokemon": "suicune"
+                        }
+                    ],
+                    "type": "static"
                 }
             ]
         },
@@ -5383,6 +5399,16 @@
                 {
                     "pool": "fishing.whirlislands.super",
                     "type": "super-rod"
+                },
+                {
+                    "pool": [
+                        {
+                            "chance": 100,
+                            "level": 100,
+                            "pokemon": "lugia"
+                        }
+                    ],
+                    "type": "static"
                 }
             ]
         },
@@ -10999,7 +11025,7 @@
                     "pool": [
                         {
                             "chance": 100,
-                            "extra": "Appears after deafeating Blue",
+                            "extra": "Appears on Tuesdays after deafeating Blue",
                             "level": 100,
                             "pokemon": "zapdos"
                         }
@@ -16525,6 +16551,11 @@
                     "amount": "1",
                     "info": "Buyable from game corner",
                     "item": "tm-29"
+                },
+                {
+                    "amount": "1",
+                    "info": "Buyable from game corner",
+                    "item": "tm-32"
                 }
             ],
             "locations": [
@@ -42857,11 +42888,11 @@
                     "move": "swift"
                 },
                 {
-                    "level": 22,
+                    "level": 1,
                     "move": "future-sight"
                 },
                 {
-                    "level": 99,
+                    "level": 1,
                     "move": "whirlwind"
                 }
             ],
@@ -42926,11 +42957,11 @@
                     "move": "swift"
                 },
                 {
-                    "level": 22,
+                    "level": 1,
                     "move": "future-sight"
                 },
                 {
-                    "level": 99,
+                    "level": 1,
                     "move": "whirlwind"
                 }
             ],
@@ -43435,7 +43466,7 @@
     },
     {
       "area": "Violet City Gym",
-      "name": "birdkeeper-abe",
+      "name": "bird-keeper-abe",
       "team": [
         {
           "name": "doduo",
@@ -43472,7 +43503,7 @@
     },
     {
       "area": "Violet City Gym",
-      "name": "birdkeeper-rod",
+      "name": "bird-keeper-rod",
       "team": [
         {
           "name": "venonat",
@@ -44133,7 +44164,7 @@
     },
     {
       "area": "Route 35",
-      "name": "birdkeeper-bryan",
+      "name": "bird-keeper-bryan",
       "team": [
         {
           "name": "delibird",
@@ -60775,6 +60806,366 @@
           ]
         }
       ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "elite-four-will-2",
+      "team": [
+        {
+          "name": "jynx",
+          "level": 100,
+          "item": "lum-berry",
+          "moves": [
+            "destiny-bond",
+            "future-sight",
+            "psychic",
+            "ice-beam"
+          ]
+        },
+        {
+          "name": "articuno",
+          "level": 100,
+          "item": "twistedspoon",
+          "moves": [
+            "agility",
+            "ice-beam",
+            "sky-attack",
+            "psychic"
+          ]
+        },
+        {
+          "name": "misdreavus",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "mean-look",
+            "curse",
+            "protect",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "slowking",
+          "level": 100,
+          "item": "lum-berry",
+          "moves": [
+            "waterfall",
+            "psychic",
+            "flamethrower",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "espeon",
+          "level": 100,
+          "item": "twistedspoon",
+          "moves": [
+            "future-sight",
+            "psychic",
+            "sing",
+            "psywave"
+          ]
+        },
+        {
+          "name": "celebi",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "psychic",
+            "detect",
+            "giga-drain",
+            "ancientpower"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "elite-four-koga-2",
+      "team": [
+        {
+          "name": "muk",
+          "level": 100,
+          "item": "quick-claw",
+          "moves": [
+            "explosion",
+            "sludge-bomb",
+            "cross-chop",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "raikou",
+          "level": 100,
+          "item": "poison-barb",
+          "moves": [
+            "double-team",
+            "thunderbolt",
+            "sludge-bomb",
+            "crunch"
+          ]
+        },
+        {
+          "name": "victreebel",
+          "level": 100,
+          "item": "focus-band",
+          "moves": [
+            "sleep-powder",
+            "wrap",
+            "sludge",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "mew",
+          "level": 100,
+          "item": "leftoveres",
+          "moves": [
+            "acid-armor",
+            "milk-drink",
+            "psychic",
+            "aeroblast"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 100,
+          "item": "brightpowder",
+          "moves": [
+            "fury-cutter",
+            "metal-claw",
+            "cross-chop",
+            "crabhammer"
+          ]
+        },
+        {
+          "name": "gengar",
+          "level": 100,
+          "item": "scope-lens",
+          "moves": [
+            "explosion",
+            "shadow-ball",
+            "ice-punch",
+            "thunderbolt"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "elite-four-bruno-2",
+      "team": [
+        {
+          "name": "ursaring",
+          "level": 100,
+          "item": "berserk-gene",
+          "moves": [
+            "double-edge",
+            "earthquake",
+            "submission",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "zapdos",
+          "level": 100,
+          "item": "blackbelt",
+          "moves": [
+            "sky-attack",
+            "hi-jump-kick",
+            "swords-dance",
+            "thunderbolt"
+          ]
+        },
+        {
+          "name": "steelix",
+          "level": 100,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "iron-tail",
+            "earthquake",
+            "screech"
+          ]
+        },
+        {
+          "name": "entei",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "sacred-fire",
+            "extremespeed",
+            "submission",
+            "ancientpower"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 100,
+          "item": "silverpowder",
+          "moves": [
+            "substitute",
+            "megahorn",
+            "rock-slide",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "machamp",
+          "level": 100,
+          "item": "quick-claw",
+          "moves": [
+            "cross-chop",
+            "rock-slide",
+            "earthquake",
+            "low-kick"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "elite-four-karen-2",
+      "team": [
+        {
+          "name": "suicune",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "toxic",
+            "rest",
+            "sleep-talk",
+            "waterfall"
+          ]
+        },
+        {
+          "name": "sneasel",
+          "level": 100,
+          "item": "blackglasses",
+          "moves": [
+            "pursuit",
+            "cross-chop",
+            "metal-claw",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "umbreon",
+          "level": 100,
+          "item": "lum-berry",
+          "moves": [
+            "toxic",
+            "double-team",
+            "moonlight",
+            "pursuit"
+          ]
+        },
+        {
+          "name": "tangela",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "leech-seed",
+            "protect",
+            "giga-drain",
+            "toxic"
+          ]
+        },
+        {
+          "name": "moltres",
+          "level": 100,
+          "item": "blackglasses",
+          "moves": [
+            "crunch",
+            "flamethrower",
+            "sky-attack",
+            "psychic"
+          ]
+        },
+        {
+          "name": "tyranitar",
+          "level": 100,
+          "item": "lum-berry",
+          "moves": [
+            "rock-slide",
+            "barrier",
+            "ice-beam",
+            "thunderbolt"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "trainer-red",
+      "team": [
+        {
+          "name": "pikachu",
+          "level": 108,
+          "item": "light-ball",
+          "moves": [
+            "thunderbolt",
+            "surf",
+            "fly",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "mewtwo",
+          "level": 100,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "submission",
+            "shadow-ball",
+            "fury-cutter"
+          ]
+        },
+        {
+          "name": "snorlax",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "rest",
+            "sleep-talk",
+            "body-slam",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+            "sludge-bomb",
+            "earthquake",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "ho-oh",
+          "level": 100,
+          "item": "lum-berry",
+          "moves": [
+            "sacred-fire",
+            "sky-attack",
+            "recover",
+            "crunch"
+          ]
+        },
+        {
+          "name": "lapras",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "ice-beam",
+            "waterfall",
+            "perish-song",
+            "thunderbolt"
+	  ]
+	}
+      ]
     }
   ],
     "type_matchups": [
@@ -62117,6 +62508,13 @@
             "amount": 1,
 	    "description": "Solarbeam"
         },
+	{	
+            "type": "item",
+            "location": "Route 27",
+            "name": "tm-06",
+            "amount": 1,
+	    "description": "Toxic"
+        },
 	{
 	    "type": "roadblock",
 	    "name": "psychic-gilbert"
@@ -62170,6 +62568,49 @@
         },
 	{
 	    "type": "roadblock",
+	    "name": "sailor-stanley"
+	},
+	{	
+            "type": "item",
+            "location": "Vermilion City",
+            "name": "tm-09",
+            "amount": "renewable",
+	    "description": "Ice Beam"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "cooltrainerm-allen"
+	},
+	{	
+            "type": "item",
+            "location": "Celadon City",
+            "name": "tm-10",
+            "amount": "renewable",
+	    "description": "Hidden Power"
+        },
+	{	
+            "type": "item",
+            "location": "Celadon City",
+            "name": "tm-32",
+            "amount": "renewable",
+	    "description": "Double Team"
+        },
+	{	
+            "type": "item",
+            "location": "Celadon City",
+            "name": "tm-29",
+            "amount": "renewable",
+	    "description": "Psychic"
+        },
+	{	
+            "type": "item",
+            "location": "Celadon City",
+            "name": "tm-15",
+            "amount": "renewable",
+	    "description": "Hyper Beam"
+        },
+	{
+	    "type": "roadblock",
 	    "name": "leader-erika"
 	},
 	{	
@@ -62178,6 +62619,17 @@
             "name": "tm-19",
             "amount": 1,
 	    "description": "Giga Drain"
+        },
+	{
+	    "type": "roadblock",
+	    "name": "bird-keeper-bob"
+	},
+	{	
+            "type": "item",
+            "location": "Fuchsia City",
+            "name": "tm-11",
+            "amount": "renewable",
+	    "description": "Flamethrower"
         },
 	{
 	    "type": "roadblock",
