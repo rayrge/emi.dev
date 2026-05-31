@@ -13372,18 +13372,18 @@
                     "pool": [
                         {
                             "chance": 60,
-                            "level": 67,
+                            "level": 64,
                             "pokemon": "seaking"
                         },
                         {
                             "chance": 30,
-                            "level": 67,
+                            "level": 64,
                             "pokemon": "kingdra"
                         },
                         {
                             "chance": 10,
-                            "level": 67,
-                            "pokemon": "lapras"
+                            "level": 64,
+                            "pokemon": "gyarados"
                         }
                     ],
                     "type": "surfing"
@@ -60400,6 +60400,191 @@
 	    "sky-attack",
 	    "earthquake",
 	    "fire-blast"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 2",
+      "name": "bug-catcher-rob",
+      "team": [
+        {
+          "name": "parasect",
+          "level": 95,
+          "item": "quick-claw",
+          "moves": [
+            "spore",
+            "giga-drain",
+            "fury-cutter",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "ariados",
+          "level": 95,
+          "item": "quick-claw",
+          "moves": [
+            "future-sight",
+	    "toxic",
+	    "leech-seed",
+	    "sludge-bomb"
+          ]
+        },
+        {
+          "name": "shuckle",
+          "level": 93,
+          "item": "lum-berry",
+          "moves": [
+            "sandstorm",
+	    "sweet-kiss",
+	    "rest",
+	    "wrap"
+          ]
+        },
+        {
+          "name": "heracross",
+          "level": 94,
+          "item": "scope-lens",
+          "moves": [
+            "megahorn",
+	    "submission",
+	    "wing-attack",
+	    "steel-wing"
+          ]
+        },
+        {
+          "name": "forretress",
+          "level": 94,
+          "item": "lum-berry",
+          "moves": [
+            "explosion",
+	    "pin-missile",
+	    "rock-slide",
+	    "earthquake"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 2",
+      "name": "bug-catcher-ed",
+      "b2b": true,
+      "team": [
+        {
+          "name": "ledian",
+          "level": 95,
+          "item": "lum-berry",
+          "moves": [
+            "toxic",
+            "mega-punch",
+            "comet-punch",
+            "dynamicpunch"
+          ]
+        },
+        {
+          "name": "beedrill",
+          "level": 95,
+          "item": "focus-band",
+          "moves": [
+            "pin-missile",
+	    "toxic",
+	    "string-shot",
+	    "sludge-bomb"
+          ]
+        },
+        {
+          "name": "omastar",
+          "level": 93,
+          "item": "lum-berry",
+          "moves": [
+            "ancientpower",
+	    "surf",
+	    "giga-drain",
+	    "crunch"
+          ]
+        },
+        {
+          "name": "venomoth",
+          "level": 95,
+          "item": "brightpowder",
+          "moves": [
+            "wrap",
+	    "perish-song",
+	    "moonlight",
+	    "light-screen"
+          ]
+        },
+        {
+          "name": "pinsir",
+          "level": 93,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn",
+	    "counter",
+	    "vital-throw",
+	    "body-slam"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 2",
+      "name": "bug-catcher-doug",
+      "b2b": true,
+      "team": [
+        {
+          "name": "yanma",
+          "level": 94,
+          "item": "focus-band",
+          "moves": [
+            "confuse-ray",
+            "giga-drain",
+            "wing-attack",
+            "toxic"
+          ]
+        },
+        {
+          "name": "scyther",
+          "level": 93,
+          "item": "scope-lens",
+          "moves": [
+            "fury-cutter",
+	    "slash",
+	    "karate-chop",
+	    "drill-peck"
+          ]
+        },
+        {
+          "name": "gligar",
+          "level": 93,
+          "item": "lum-berry",
+          "moves": [
+            "leech-life",
+	    "sludge-bomb",
+	    "wing-attack",
+	    "protect"
+          ]
+        },
+        {
+          "name": "kabutops",
+          "level": 93,
+          "item": "lum-berry",
+          "moves": [
+            "scary-face",
+	    "waterfall",
+	    "rock-slide",
+	    "fury-cutter"
+          ]
+        },
+        {
+          "name": "butterfree",
+          "level": 95,
+          "item": "brightpowder",
+          "moves": [
+            "psychic",
+	    "leech-seed",
+	    "protect",
+	    "giga-drain"
           ]
         }
       ]
