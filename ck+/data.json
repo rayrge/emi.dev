@@ -5413,7 +5413,7 @@
             ]
         },
         {
-            "area": "silver-cave",
+            "area": "silver-cave-inside",
             "pools": [
                 {
                     "pool": {
@@ -5532,6 +5532,26 @@
                     "type": "walking"
                 },
                 {
+                    "pool": [
+                        {
+                            "chance": 60,
+                            "level": 84,
+                            "pokemon": "ditto"
+                        },
+                        {
+                            "chance": 30,
+                            "level": 84,
+                            "pokemon": "poliwrath"
+                        },
+                        {
+                            "chance": 10,
+                            "level": 84,
+                            "pokemon": "starmie"
+                        }
+                    ],
+                    "type": "surfing"
+                },
+                {
                     "pool": "fishing.lake.old",
                     "type": "old-rod"
                 },
@@ -5542,6 +5562,127 @@
                 {
                     "pool": "fishing.lake.super",
                     "type": "super-rod"
+                }
+            ]
+        },
+        {
+            "area": "route-28",
+            "pools": [
+                {
+                    "pool": {
+                        "day": [
+                            {
+                                "chance": 30,
+                                "level": 84,
+                                "pokemon": "tangela"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 84,
+                                "pokemon": "arbok"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 84,
+                                "pokemon": "rapidash"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 84,
+                                "pokemon": "ursaring"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 84,
+                                "pokemon": "donphan"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 84,
+                                "pokemon": "dodrio"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 84,
+                                "pokemon": "dodrio"
+                            }
+                        ],
+                        "morning": [
+                            {
+                                "chance": 30,
+                                "level": 84,
+                                "pokemon": "tangela"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 84,
+                                "pokemon": "rapidash"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 84,
+                                "pokemon": "donphan"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 84,
+                                "pokemon": "donphan"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 84,
+                                "pokemon": "arbok"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 84,
+                                "pokemon": "ursaring"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 84,
+                                "pokemon": "dodrio"
+                            }
+                        ],
+                        "night": [
+                            {
+                                "chance": 30,
+                                "level": 84,
+                                "pokemon": "tangela"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 84,
+                                "pokemon": "ursaring"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 84,
+                                "pokemon": "poliwrath"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 84,
+                                "pokemon": "poliwrath"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 84,
+                                "pokemon": "crobat"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 84,
+                                "pokemon": "donphan"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 84,
+                                "pokemon": "wobbuffet"
+                            }
+                        ]
+                    },
+                    "type": "walking"
                 }
             ]
         },
@@ -13926,7 +14067,7 @@
                             "pokemon": "articuno"
                         }
                     ],
-                    "type": "trade"
+                    "type": "static"
                 }
             ]
         },
@@ -15852,7 +15993,8 @@
             "id": 46,
             "items": [],
             "locations": [
-                "silver-cave"
+                "silver-cave-inside",
+		"silver-cave-outside"
             ],
             "name": "silver-cave",
             "positions": [
