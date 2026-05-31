@@ -8563,155 +8563,119 @@
                         "day": [
                             {
                                 "chance": 30,
-                                "level": 100,
-                                "pokemon": "tauros"
+                                "level": 84,
+                                "pokemon": "tangela"
                             },
                             {
                                 "chance": 30,
-                                "level": 100,
-                                "pokemon": "jolteon"
+                                "level": 84,
+                                "pokemon": "arbok"
                             },
                             {
                                 "chance": 20,
-                                "level": 100,
-                                "pokemon": "exeggutor"
+                                "level": 84,
+                                "pokemon": "rapidash"
                             },
                             {
                                 "chance": 10,
-                                "level": 100,
-                                "pokemon": "vaporeon"
+                                "level": 84,
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 5,
-                                "level": 100,
-                                "pokemon": "nidoking"
+                                "level": 84,
+                                "pokemon": "donphan"
                             },
                             {
                                 "chance": 4,
-                                "level": 100,
-                                "pokemon": "forretress"
+                                "level": 84,
+                                "pokemon": "dodrio"
                             },
                             {
                                 "chance": 1,
-                                "level": 100,
-                                "pokemon": "chansey"
+                                "level": 84,
+                                "pokemon": "dodrio"
                             }
                         ],
                         "morning": [
                             {
                                 "chance": 30,
-                                "level": 100,
-                                "pokemon": "heracross"
+                                "level": 84,
+                                "pokemon": "tangela"
                             },
                             {
                                 "chance": 30,
-                                "level": 100,
-                                "pokemon": "miltank"
+                                "level": 84,
+                                "pokemon": "rapidash"
                             },
                             {
                                 "chance": 20,
-                                "level": 100,
-                                "pokemon": "jolteon"
+                                "level": 84,
+                                "pokemon": "donphan"
                             },
                             {
                                 "chance": 10,
-                                "level": 100,
-                                "pokemon": "vaporeon"
+                                "level": 84,
+                                "pokemon": "donphan"
                             },
                             {
                                 "chance": 5,
-                                "level": 100,
-                                "pokemon": "exeggutor"
+                                "level": 84,
+                                "pokemon": "arbok"
                             },
                             {
                                 "chance": 4,
-                                "level": 100,
-                                "pokemon": "forretress"
+                                "level": 84,
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 1,
-                                "level": 100,
-                                "pokemon": "chansey"
+                                "level": 84,
+                                "pokemon": "dodrio"
                             }
                         ],
                         "night": [
                             {
                                 "chance": 30,
-                                "level": 99,
-                                "pokemon": "crobat"
+                                "level": 84,
+                                "pokemon": "tangela"
                             },
                             {
                                 "chance": 30,
-                                "level": 99,
-                                "pokemon": "umbreon"
+                                "level": 84,
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 20,
-                                "level": 99,
-                                "pokemon": "tauros"
+                                "level": 84,
+                                "pokemon": "poliwrath"
                             },
                             {
                                 "chance": 10,
-                                "level": 99,
-                                "pokemon": "jolteon"
+                                "level": 84,
+                                "pokemon": "poliwrath"
                             },
                             {
                                 "chance": 5,
-                                "level": 99,
-                                "pokemon": "forretress"
+                                "level": 84,
+                                "pokemon": "crobat"
                             },
                             {
                                 "chance": 4,
-                                "level": 99,
-                                "pokemon": "miltank"
+                                "level": 84,
+                                "pokemon": "donphan"
                             },
                             {
                                 "chance": 1,
-                                "level": 99,
-                                "pokemon": "skarmory"
+                                "level": 84,
+                                "pokemon": "wobbuffet"
                             }
                         ]
                     },
                     "type": "walking"
-                },
-                {
-                    "pool": [
-                        {
-                            "chance": 60,
-                            "level": 90,
-                            "pokemon": "cloyster"
-                        },
-                        {
-                            "chance": 30,
-                            "level": 90,
-                            "pokemon": "starmie"
-                        },
-                        {
-                            "chance": 10,
-                            "level": 90,
-                            "pokemon": "lapras"
-                        }
-                    ],
-                    "type": "surfing"
-                },
-                {
-                    "pool": "fishing.pond.old",
-                    "type": "old-rod"
-                },
-                {
-                    "pool": "fishing.pond.good",
-                    "type": "good-rod"
-                },
-                {
-                    "pool": "fishing.pond.super",
-                    "type": "super-rod"
-                },
-                {
-                    "pool": "headbutt.forest",
-                    "type": "headbutt"
                 }
-            ]
-        },
+	    ]
+	},
         {
             "area": "digletts-cave",
             "pools": [
