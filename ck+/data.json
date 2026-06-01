@@ -33196,7 +33196,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "agility"
+                    "move": "mirror-coat"
                 },
                 {
                     "level": 1,
@@ -33238,7 +33238,8 @@
                 "detect",
                 "steel-wing",
                 "fly",
-                "ice-beam"
+                "ice-beam",
+		"thunderbolt"
             ],
             "types": [
                 "ice",
@@ -33360,7 +33361,8 @@
                 "detect",
                 "steel-wing",
                 "fly",
-                "flamethrower"
+                "flamethrower",
+		"thunderbolt"
             ],
             "types": [
                 "fire",
@@ -42385,7 +42387,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "gust"
+                    "move": "mist"
                 },
                 {
                     "level": 1,
@@ -42427,8 +42429,7 @@
                 "cut",
                 "surf",
                 "whirlpool",
-                "waterfall",
-                "ice-beam"
+                "waterfall"
             ],
             "types": [
                 "water"
@@ -60053,9 +60054,136 @@
       ]
     },
 {
+      "area": "Route 4",
+      "name": "picnicker-sharon",
+      "team": [
+        {
+          "name": "jumpluff",
+          "level": 93,
+          "item": "pink-bow",
+          "moves": [
+	    "explosion",
+            "sleep-powder",
+            "leech-seed",
+            "giga-drain"
+          ]
+        },
+        {
+          "name": "hitmonchan",
+          "level": 93,
+          "item": "pink-bow",
+          "moves": [
+            "cross-chop",
+	    "agility",
+	    "mega-punch",
+	    "rock-slide"
+          ]
+        },
+        {
+          "name": "ariados",
+          "level": 93,
+          "item": "pink-bow",
+          "moves": [
+	    "sludge",
+            "thrash",
+	    "psychic",
+	    "shadow-ball"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 4",
+      "name": "bird-keeper-hank",
+      "team": [
+        {
+          "name": "fearow",
+          "level": 94,
+          "item": "sharp-beak",
+          "moves": [
+	    "sky-attack",
+            "double-edge",
+            "screech",
+            "steel-wing"
+          ]
+        },
+        {
+          "name": "houndoom",
+          "level": 94,
+          "item": "charcoal",
+          "moves": [
+            "flame-wheel",
+	    "fire-blast",
+	    "crunch",
+	    "shadow-ball"
+          ]
+        },
+        {
+          "name": "weezing",
+          "level": 94,
+          "item": "magnet",
+          "moves": [
+            "sludge-bomb",
+	    "explosion",
+	    "thunderbolt",
+	    "psychic"
+          ]
+        },
+        {
+          "name": "tauros",
+          "level": 94,
+          "item": "pink-bow",
+          "moves": [
+            "mega-kick",
+	    "thunder-wave",
+	    "swords-dance",
+	    "earthquake"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 4",
+      "name": "picnicker-hope",
+      "team": [
+        {
+          "name": "noctowl",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+	    "whirlwind",
+            "spikes",
+            "toxic",
+            "moonlight"
+          ]
+        },
+        {
+          "name": "ampharos",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "cotton-spore",
+	    "lovely-kiss",
+	    "thunderbolt",
+	    "flamethrower"
+          ]
+        },
+        {
+          "name": "victreebel",
+          "level": 93,
+          "item": "leftovers",
+          "moves": [
+            "substitute",
+	    "giga-drain",
+	    "crunch",
+	    "growth"
+          ]
+        }
+      ]
+    },
+{
       "area": "Mt Moon",
       "name": "rival-16",
-      "meta": "start gauntlet",
       "team": [
         {
           "name": "sneasel",
@@ -60128,7 +60256,6 @@
 {
       "area": "Mt Moon",
       "name": "rival-17",
-      "meta": "start gauntlet",
       "team": [
         {
           "name": "gengar",
@@ -60201,7 +60328,6 @@
 {
       "area": "Mt Moon",
       "name": "rival-18",
-      "meta": "start gauntlet",
       "team": [
         {
           "name": "crobat",
@@ -60272,6 +60398,254 @@
       ]
     },
 {
+      "area": "Route 3",
+      "name": "firebreather-burt",
+      "meta": "sand. start gauntlet",
+      "team": [
+        {
+          "name": "slowbro",
+          "level": 94,
+          "item": "charcoal",
+          "moves": [
+            "waterfall",
+            "flamethrower",
+            "ice-beam",
+            "psychic"
+          ]
+        },
+        {
+          "name": "arcanine",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "flame-wheel",
+	    "substitute",
+	    "morning-sun",
+	    "bite"
+          ]
+        },
+        {
+          "name": "weezing",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "pain-split",
+	    "protect",
+	    "haze",
+	    "recover"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 94,
+          "item": "charcoal",
+          "moves": [
+            "octazooka",
+	    "protect",
+	    "flamethrower",
+	    "mud-slap"
+          ]
+        },
+        {
+          "name": "nidoking",
+          "level": 94,
+          "item": "charcoal",
+          "moves": [
+            "flamethrower",
+	    "scary-face",
+	    "earthquake",
+	    "sludge-bomb"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 3",
+      "name": "firebreather-otis",
+      "meta": "sand",
+      "team": [
+        {
+          "name": "sunflora",
+          "level": 95,
+          "item": "focus-band",
+          "moves": [
+            "sunny-day",
+            "giga-drain",
+            "sacred-fire",
+            "lick"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "flamethrower",
+	    "sky-attack",
+	    "metal-claw",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "rhydon",
+          "level": 94,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+	    "rock-slide",
+	    "scary-face",
+	    "fire-blast"
+          ]
+        },
+        {
+          "name": "muk",
+          "level": 95,
+          "item": "no-item",
+          "moves": [
+            "thief",
+	    "sludge-bomb",
+	    "flamethrower",
+	    "submission"
+          ]
+        },
+        {
+          "name": "magmar",
+          "level": 94,
+          "item": "twistedspoon",
+          "moves": [
+            "flamethrower",
+	    "psychic",
+	    "lovely-kiss",
+	    "cross-chop"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 3",
+      "name": "youngster-jimmy",
+      "meta": "sand",
+      "team": [
+        {
+          "name": "forretress",
+          "level": 94,
+          "item": "quick-claw",
+          "moves": [
+            "light-screen",
+            "spikes",
+            "protect",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "kingler",
+          "level": 94,
+          "item": "scope-lens",
+          "moves": [
+            "fury-cutter",
+	    "clamp",
+	    "crabhammer",
+	    "dig"
+          ]
+        },
+        {
+          "name": "sudowoodo",
+          "level": 94,
+          "item": "hard-stone",
+          "moves": [
+            "mimic",
+	    "protect",
+	    "rock-slide",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "corsola",
+          "level": 95,
+          "item": "leftovers",
+          "moves": [
+            "substitute",
+	    "leech-seed",
+	    "whirlpool",
+	    "amnesia"
+          ]
+        },
+        {
+          "name": "exeggutor",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "leech-seed",
+	    "sleep-powder",
+	    "psychic",
+	    "rock-slide"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 3",
+      "name": "youngster-warren",
+      "meta": "sand. end gauntlet",
+      "team": [
+        {
+          "name": "gligar",
+          "level": 95,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "wing-attack",
+            "leech-life"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "recover",
+	    "mirror-coat",
+	    "protect",
+	    "surf"
+          ]
+        },
+        {
+          "name": "skarmory",
+          "level": 94,
+          "item": "chesto-berry",
+          "moves": [
+            "rest",
+	    "sleep-talk",
+	    "drill-peck",
+	    "metal-claw"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 95,
+          "item": "hard-stone",
+          "moves": [
+            "rock-slide",
+	    "protect",
+	    "powder-snow",
+	    "earthquake"
+          ]
+        },
+        {
+          "name": "politoed",
+          "level": 94,
+          "item": "leftovers",
+          "moves": [
+            "whirlpool",
+	    "encore",
+	    "lick",
+	    "protect"
+          ]
+        }
+      ]
+    },
+{
       "area": "Pewter City Gym",
       "name": "camper-jerry",
       "team": [
@@ -60320,7 +60694,7 @@
           ]
         },
         {
-          "name": "aerodactyl",
+          "name": "yanma",
           "level": 96,
           "item": "sharp-beak",
           "moves": [
@@ -60884,14 +61258,25 @@
       "name": "elite-four-koga-2",
       "team": [
         {
-          "name": "muk",
+          "name": "victreebel",
           "level": 100,
-          "item": "quick-claw",
+          "item": "focus-band",
           "moves": [
-            "explosion",
-            "sludge-bomb",
-            "cross-chop",
+            "sleep-powder",
+            "wrap",
+            "sludge",
             "giga-drain"
+          ]
+        },
+        {
+          "name": "mew",
+          "level": 100,
+          "item": "leftovers",
+          "moves": [
+            "acid-armor",
+            "milk-drink",
+            "psychic",
+            "aeroblast"
           ]
         },
         {
@@ -60906,25 +61291,14 @@
           ]
         },
         {
-          "name": "victreebel",
+          "name": "muk",
           "level": 100,
-          "item": "focus-band",
+          "item": "quick-claw",
           "moves": [
-            "sleep-powder",
-            "wrap",
-            "sludge",
+            "explosion",
+            "sludge-bomb",
+            "cross-chop",
             "giga-drain"
-          ]
-        },
-        {
-          "name": "mew",
-          "level": 100,
-          "item": "leftoveres",
-          "moves": [
-            "acid-armor",
-            "milk-drink",
-            "psychic",
-            "aeroblast"
           ]
         },
         {
@@ -60958,7 +61332,7 @@
         {
           "name": "ursaring",
           "level": 100,
-          "item": "berserk-gene",
+          "item": "pink-bow",
           "moves": [
             "double-edge",
             "earthquake",
@@ -60980,7 +61354,7 @@
         {
           "name": "steelix",
           "level": 100,
-          "item": "focus-band",
+          "item": "soft-sand",
           "moves": [
             "explosion",
             "iron-tail",
