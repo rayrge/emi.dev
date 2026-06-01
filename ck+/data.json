@@ -56750,6 +56750,62 @@
       ]
     },
 {
+      "area": "Route 8",
+      "name": "biker-dwayne",
+      "meta": "optional",
+      "team": [
+        {
+          "name": "magmar",
+          "level": 76,
+          "item": "quick-claw",
+          "moves": [
+            "flamethrower",
+            "thunderbolt",
+            "psychic",
+            "cross-chop"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 8",
+      "name": "biker-harris",
+      "b2b": true,
+      "meta": "optional",
+      "team": [
+        {
+          "name": "electabuzz",
+          "level": 76,
+          "item": "brightpowder",
+          "moves": [
+            "thunderbolt",
+            "ice-punch",
+            "cross-chop",
+            "sludge-bomb"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Route 8",
+      "name": "biker-zeke",
+      "b2b": true,
+      "meta": "optional",
+      "team": [
+        {
+          "name": "jynx",
+          "level": 76,
+          "item": "focus-band",
+          "moves": [
+            "ice-beam",
+            "psychic",
+            "faint-attack",
+            "razor-leaf"
+	  ]
+	}
+      ]
+    },
+{
       "area": "Saffron City Gym",
       "name": "medium-doris",
       "team": [
@@ -59026,6 +59082,37 @@
       ]
     },
 {
+      "area": "Route 8",
+      "name": "super-nerd-sam",
+      "meta": "optional",
+      "team": [
+        {
+          "name": "ditto",
+          "level": 100,
+          "item": "metal-powder",
+          "moves": [
+            "transform"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 8",
+      "name": "super-nerd-tom",
+      "b2b": true,
+      "meta": "optional",
+      "team": [
+        {
+          "name": "ditto",
+          "level": 100,
+          "item": "metal-powder",
+          "moves": [
+            "transform"
+          ]
+        }
+      ]
+    },
+{
       "area": "Lavender Town",
       "name": "elite-four-agatha",
       "meta": "perish",
@@ -61183,6 +61270,150 @@
     },
 {
       "area": "Indigo Plateau",
+      "name": "cooltrainerm-ruben-2",
+      "team": [
+        {
+          "name": "snorlax",
+          "level": 97,
+          "item": "focus-band",
+          "moves": [
+            "explosion",
+            "rest",
+            "double-edge",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "vaporeon",
+          "level": 97,
+          "item": "brightpowder",
+          "moves": [
+            "mirror-coat",
+            "counter",
+	    "rest",
+            "hydro-pump"
+          ]
+        },
+        {
+          "name": "sunflora",
+          "level": 97,
+          "item": "quick-claw",
+          "moves": [
+            "sunny-day",
+            "sacred-fire",
+            "giga-drain",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "name": "hitmonlee",
+          "level": 97,
+          "item": "focus-band",
+          "moves": [
+            "reversal",
+            "endure",
+            "mega-kick",
+            "rock-slide"
+          ]
+        },
+        {
+          "name": "charizard",
+          "level": 97,
+          "item": "brightpowder",
+          "moves": [
+            "flamethrower",
+            "thunderbolt",
+            "ancientpower",
+            "earthquake"
+          ]
+        },
+        {
+          "name": "donphan",
+          "level": 98,
+          "item": "quick-claw",
+          "moves": [
+            "earthquake",
+            "swagger",
+            "rock-slide",
+            "body-slam"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
+      "name": "biker-nick-2",
+      "team": [
+        {
+          "name": "jumpluff",
+          "level": 97,
+          "item": "brightpowder",
+          "moves": [
+            "sleep-powder",
+            "attract",
+            "baton-pass",
+            "leech-seed"
+          ]
+        },
+        {
+          "name": "tauros",
+          "level": 98,
+          "item": "brightpowder",
+          "moves": [
+            "extremespeed",
+            "iron-tail",
+            "fire-blast",
+            "swords-dance"
+          ]
+        },
+        {
+          "name": "aerodactyl",
+          "level": 97,
+          "item": "focus-band",
+          "moves": [
+            "roar",
+            "aeroblast",
+            "ancientpower",
+            "attract"
+          ]
+        },
+        {
+          "name": "flareon",
+          "level": 97,
+          "item": "quick-claw",
+          "moves": [
+            "extremespeed",
+            "sacred-fire",
+            "zap-cannon",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 97,
+          "item": "focus-band",
+          "moves": [
+            "waterfall",
+            "ice-beam",
+            "thunderbolt",
+            "psychic"
+          ]
+        },
+        {
+          "name": "nidoking",
+          "level": 97,
+          "item": "quick-claw",
+          "moves": [
+            "lovely-kiss",
+            "earthquake",
+            "fire-blast",
+            "thunder"
+	  ]
+	}
+      ]
+    },
+{
+      "area": "Indigo Plateau",
       "name": "elite-four-will-2",
       "team": [
         {
@@ -62860,6 +63091,13 @@
             "amount": 1,
 	    "description": "DragonBreath"
         },
+	{	
+            "type": "item",
+            "location": "New Bark Town",
+            "name": "master-ball",
+            "amount": 1,
+	    "description": "Elm will call you"
+        },
 	{
 	    "type": "roadblock",
 	    "name": "twins-lea-pia"
@@ -63056,16 +63294,12 @@
             "amount": 1,
 	    "description": "Dream Eater"
         },
-	{
-	    "type": "roadblock",
-	    "name": "leader-blue"
-	},
 	{	
             "type": "item",
-            "location": "new-bark-town",
-            "name": "master-ball",
+            "location": "Route 1",
+            "name": "scope-lens",
             "amount": 1,
-	    "description": "elm will call you"
+	    "description": " "
         }
     ]
 }
