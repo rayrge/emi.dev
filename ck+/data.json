@@ -42418,9 +42418,7 @@
                 "icy-wind",
                 "protect",
                 "endure",
-                "frustration",
                 "iron-tail",
-                "return",
                 "dig",
                 "mud-slap",
                 "swagger",
@@ -42734,9 +42732,7 @@
                 "protect",
                 "wing-attack",
                 "endure",
-                "frustration",
                 "dragonbreath",
-                "return",
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
@@ -42800,11 +42796,9 @@
                 "protect",
                 "wing-attack",
                 "endure",
-                "frustration",
                 "solarbeam",
                 "dragonbreath",
                 "thunder",
-                "return",
                 "mud-slap",
                 "swagger",
                 "sleep-talk",
@@ -61248,6 +61242,7 @@
 {
       "area": "Route 21",
       "name": "swimmerm-seth",
+      "b2b": true,
       "team": [
         {
           "name": "politoed",
@@ -61341,6 +61336,187 @@
 	    "wing-attack",
 	    "crunch",
 	    "waterfall"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 20",
+      "name": "swimmerm-cameron",
+      "team": [
+        {
+          "name": "electrode",
+          "level": 97,
+          "item": "lum-berry",
+          "moves": [
+            "light-screen",
+            "reflect",
+            "explosion",
+            "baton-pass"
+          ]
+        },
+        {
+          "name": "piloswine",
+          "level": 98,
+          "item": "soft-sand",
+          "moves": [
+            "earthquake",
+	    "ice-beam",
+	    "agility",
+	    "rock-slide"
+          ]
+        },
+        {
+          "name": "hypno",
+          "level": 99,
+          "item": "no-item",
+          "moves": [
+            "dream-eater",
+	    "hypnosis",
+	    "thief",
+	    "poison-gas"
+          ]
+        },
+        {
+          "name": "porygon2",
+          "level": 97,
+          "item": "leftovers",
+          "moves": [
+            "growth",
+	    "conversion",
+	    "ice-beam",
+	    "thunderbolt"
+          ]
+        },
+        {
+          "name": "meganium",
+          "level": 98,
+          "item": "leftovers",
+          "moves": [
+            "giga-drain",
+	    "lovely-kiss",
+	    "synthesis",
+	    "substitute"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 20",
+      "name": "swimmerf-lori",
+      "team": [
+        {
+          "name": "clefable",
+          "level": 99,
+          "item": "pink-bow",
+          "moves": [
+            "return",
+            "aeroblast",
+            "thunder",
+            "fire-blast"
+          ]
+        },
+        {
+          "name": "starmie",
+          "level": 97,
+          "item": "leftovers",
+          "moves": [
+            "light-screen",
+	    "waterfall",
+	    "psychic",
+	    "recover"
+          ]
+        },
+        {
+          "name": "venusaur",
+          "level": 98,
+          "item": "poison-barb",
+          "moves": [
+            "sludge-bomb",
+	    "earthquake",
+	    "rock-slide",
+	    "flame-wheel"
+          ]
+        },
+        {
+          "name": "kingdra",
+          "level": 97,
+          "item": "persim-berry",
+          "moves": [
+            "outrage",
+	    "octazooka"
+          ]
+        },
+        {
+          "name": "tentacruel",
+          "level": 97,
+          "item": "leftovers",
+          "moves": [
+            "surf",
+	    "giga-drain",
+	    "ice-beam",
+	    "sludge-bomb"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 20",
+      "name": "swimmerf-nicole",
+      "team": [
+        {
+          "name": "snorlax",
+          "level": 97,
+          "item": "leftovers",
+          "moves": [
+            "double-edge",
+            "fire-blast",
+            "recover",
+            "iron-tail"
+          ]
+        },
+        {
+          "name": "alakazam",
+          "level": 97,
+          "item": "twistedspoon",
+          "moves": [
+            "substitute",
+	    "psychic",
+	    "thunderpunch",
+	    "ice-punch"
+          ]
+        },
+        {
+          "name": "dewgong",
+          "level": 99,
+          "item": "quick-claw",
+          "moves": [
+            "blizzard",
+	    "hydro-pump",
+	    "horn-drill",
+	    "safeguard"
+          ]
+        },
+        {
+          "name": "togetic",
+          "level": 98,
+          "item": "leftovers",
+          "moves": [
+            "softboiled",
+	    "agility",
+	    "ice-beam",
+	    "thunderbolt"
+          ]
+        },
+        {
+          "name": "feraligatr",
+          "level": 97,
+          "item": "kings-rock",
+          "moves": [
+            "earthquake",
+	    "outrage",
+	    "rock-slide",
+	    "cross-chop"
           ]
         }
       ]
@@ -61924,7 +62100,7 @@
       ]
     },
 {
-      "area": "Indigo Plateau",
+      "area": "Mount Silver",
       "name": "trainer-red",
       "team": [
         {
