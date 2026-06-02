@@ -17995,11 +17995,11 @@
         {
             "accuracy": 100,
             "extra": [
-                "Hits 3 times, doubling in damage each hit"
+                "Hits up to 3 times, doubling in damage each hit"
             ],
             "index": 167,
             "name": "triple-kick",
-            "power": 15,
+            "power": 20,
             "pp": 10,
             "type": "fighting"
         },
@@ -33301,6 +33301,7 @@
                 "steel-wing",
                 "fly",
                 "flash",
+		"thunderbolt",
 		"acid"
             ],
             "types": [
@@ -41714,7 +41715,7 @@
                 },
                 {
                     "level": 36,
-                    "move": "triple-kick"
+                    "move": "flame-wheel"
                 },
                 {
                     "level": 37,
@@ -42320,7 +42321,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "stomp"
+                    "move": "ancientpower"
                 },
                 {
                     "level": 1,
@@ -42383,7 +42384,7 @@
                 },
                 {
                     "level": 1,
-                    "move": "mirror-coat"
+                    "move": "heal-bell"
                 },
                 {
                     "level": 1,
@@ -61123,6 +61124,228 @@
       ]
     },
 {
+      "area": "Route 1",
+      "name": "cooltrainerf-quinn",
+      "team": [
+        {
+          "name": "jolteon",
+          "level": 97,
+          "item": "lum-berry",
+          "moves": [
+            "thunderbolt",
+            "spikes",
+            "sing",
+            "bite"
+          ]
+        },
+        {
+          "name": "tyranitar",
+          "level": 97,
+          "item": "hard-stone",
+          "moves": [
+            "rock-slide",
+	    "roar",
+	    "flamethrower",
+	    "iron-tail"
+          ]
+        },
+        {
+          "name": "ninetales",
+          "level": 97,
+          "item": "charcoal",
+          "moves": [
+            "hypnosis",
+	    "sacred-fire",
+	    "giga-drain",
+	    "future-sight"
+          ]
+        },
+        {
+          "name": "marowak",
+          "level": 97,
+          "item": "thick-club",
+          "moves": [
+            "bonemerang",
+	    "shadow-ball",
+	    "rock-slide",
+	    "frustration"
+          ]
+        },
+        {
+          "name": "scizor",
+          "level": 97,
+          "item": "scope-lens",
+          "moves": [
+            "metal-claw",
+	    "fury-cutter",
+	    "rock-slide",
+	    "cross-chop"
+          ]
+        },
+        {
+          "name": "dragonite",
+          "level": 97,
+          "item": "leftovers",
+          "moves": [
+            "outrage",
+	    "extremespeed",
+	    "thunderbolt",
+	    "scary-face"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 21",
+      "name": "swimmerf-nikki",
+      "team": [
+        {
+          "name": "tangela",
+          "level": 97,
+          "item": "poison-barb",
+          "moves": [
+            "sludge-bomb",
+            "ancientpower",
+            "growth",
+            "synthesis"
+          ]
+        },
+        {
+          "name": "mantine",
+          "level": 97,
+          "item": "leftovers",
+          "moves": [
+            "hydro-pump",
+	    "rest",
+	    "sleep-talk",
+	    "amnesia"
+          ]
+        },
+        {
+          "name": "azumarill",
+          "level": 98,
+          "item": "quick-claw",
+          "moves": [
+            "belly-drum",
+	    "waterfall",
+	    "body-slam",
+	    "submission"
+          ]
+        },
+        {
+          "name": "hitmontop",
+          "level": 98,
+          "item": "blackbelt",
+          "moves": [
+            "cross-chop",
+	    "rock-slide",
+	    "mega-kick",
+	    "flame-wheel"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 21",
+      "name": "swimmerm-seth",
+      "team": [
+        {
+          "name": "politoed",
+          "level": 98,
+          "item": "leftovers",
+          "moves": [
+            "lick",
+            "ice-beam",
+            "psychic",
+            "cross-chop"
+          ]
+        },
+        {
+          "name": "aipom",
+          "level": 98,
+          "item": "scope-lens",
+          "moves": [
+            "fury-swipes",
+	    "pin-missile",
+	    "comet-punch",
+	    "triple-kick"
+          ]
+        },
+        {
+          "name": "raichu",
+          "level": 97,
+          "item": "lum-berry",
+          "moves": [
+            "thunderbolt",
+	    "surf",
+	    "petal-dance",
+	    "iron-tail"
+          ]
+        },
+        {
+          "name": "octillery",
+          "level": 97,
+          "item": "brightpowder",
+          "moves": [
+            "octazooka",
+	    "ice-beam",
+	    "thunder-wave",
+	    "sludge-bomb"
+          ]
+        }
+      ]
+    },
+{
+      "area": "Route 21",
+      "name": "fisher-arnold",
+      "team": [
+        {
+          "name": "seaking",
+          "level": 97,
+          "item": "focus-band",
+          "moves": [
+            "waterfall",
+            "ice-beam",
+            "drill-peck",
+            "submission"
+          ]
+        },
+        {
+          "name": "qwilfish",
+          "level": 97,
+          "item": "scope-lens",
+          "moves": [
+            "explosion",
+	    "sludge-bomb",
+	    "waterfall",
+	    "destiny-bond"
+          ]
+        },
+        {
+          "name": "lanturn",
+          "level": 97,
+          "item": "leftovers",
+          "moves": [
+            "thunderbolt",
+	    "waterfall",
+	    "ice-beam",
+	    "iron-tail"
+          ]
+        },
+        {
+          "name": "gyarados",
+          "level": 97,
+          "item": "brightpowder",
+          "moves": [
+            "double-edge",
+	    "wing-attack",
+	    "crunch",
+	    "waterfall"
+          ]
+        }
+      ]
+    },
+{
       "area": "Seafoam Islands",
       "name": "elite-four-lorelei",
       "meta": "rain",
@@ -61269,13 +61492,13 @@
       ]
     },
 {
-      "area": "Indigo Plateau",
+      "area": "Route 23",
       "name": "cooltrainerm-ruben-2",
       "team": [
         {
           "name": "snorlax",
           "level": 97,
-          "item": "focus-band",
+          "item": "brightpowder",
           "moves": [
             "explosion",
             "rest",
@@ -61297,7 +61520,7 @@
         {
           "name": "sunflora",
           "level": 97,
-          "item": "quick-claw",
+          "item": "focus-band",
           "moves": [
             "sunny-day",
             "sacred-fire",
@@ -61317,14 +61540,14 @@
           ]
         },
         {
-          "name": "charizard",
+          "name": "tyranitar",
           "level": 97,
-          "item": "brightpowder",
+          "item": "quick-claw",
           "moves": [
-            "flamethrower",
-            "thunderbolt",
             "ancientpower",
-            "earthquake"
+            "fire-blast",
+            "thunder",
+            "blizzard"
           ]
         },
         {
@@ -61341,7 +61564,7 @@
       ]
     },
 {
-      "area": "Indigo Plateau",
+      "area": "Route 23",
       "name": "biker-nick-2",
       "team": [
         {
