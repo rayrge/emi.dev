@@ -21263,7 +21263,6 @@
                 "spe": 71
             },
             "tmhm": [
-                "curse",
                 "toxic",
                 "hidden-power",
                 
@@ -25350,7 +25349,6 @@
             },
             "tmhm": [
                 "headbutt",
-                "curse",
                 "roar",
                 "toxic",
                 "rock-smash",
@@ -33525,7 +33523,6 @@
             },
             "tmhm": [
                 "headbutt",
-                "curse",
                 "toxic",
                 "zap-cannon",
                 "hidden-power",
@@ -58049,6 +58046,7 @@
       "area": "Route 15",
       "name": "schoolboy-kipp",
       "b2b": true,
+      "meta": "start gauntlet",
       "team": [
         {
           "name": "electrode",
@@ -61646,7 +61644,7 @@
         {
           "name": "rhydon",
           "level": 99,
-          "item": "quick-claw",
+          "item": "scope-lens",
           "moves": [
             "rock-slide",
 	    "earthquake",
@@ -61760,7 +61758,7 @@
           "item": "brightpowder",
           "moves": [
             "extremespeed",
-            "iron-tail",
+            "megahorn",
             "fire-blast",
             "swords-dance"
           ]
@@ -61792,7 +61790,7 @@
           "level": 97,
           "item": "focus-band",
           "moves": [
-            "waterfall",
+            "surf",
             "ice-beam",
             "thunderbolt",
             "psychic"
@@ -62036,7 +62034,7 @@
           "level": 100,
           "item": "leftovers",
           "moves": [
-            "toxic",
+            "growth",
             "rest",
             "sleep-talk",
             "waterfall"
@@ -62072,7 +62070,7 @@
             "leech-seed",
             "protect",
             "giga-drain",
-            "toxic"
+            "ancientpower"
           ]
         },
         {
@@ -62082,7 +62080,7 @@
           "moves": [
             "crunch",
             "flamethrower",
-            "fly",
+            "aeroblast",
             "psychic"
           ]
         },
@@ -62091,7 +62089,7 @@
           "level": 100,
           "item": "lum-berry",
           "moves": [
-            "rock-slide",
+            "ancientpower",
             "barrier",
             "ice-beam",
             "thunderbolt"
