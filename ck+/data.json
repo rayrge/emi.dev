@@ -2703,42 +2703,42 @@
                     "pool": [
                         {
                             "chance": 20,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "beedrill"
                         },
                         {
                             "chance": 20,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "butterfree"
                         },
                         {
                             "chance": 10,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "venonat"
                         },
                         {
                             "chance": 10,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "paras"
                         },
                         {
                             "chance": 10,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "pinsir"
                         },
                         {
                             "chance": 10,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "yanma"
                         },
                         {
                             "chance": 5,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "ledyba"
                         },
                         {
                             "chance": 5,
-                            "level": 7,
+                            "level": "7-18",
                             "pokemon": "pineco"
                         },
                         {
@@ -2748,7 +2748,7 @@
                         },
                         {
                             "chance": 5,
-                            "level": 18,
+                            "level": "7-18",
                             "pokemon": "heracross"
                         }
                     ],
