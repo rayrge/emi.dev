@@ -2703,52 +2703,52 @@
                     "pool": [
                         {
                             "chance": 20,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "beedrill"
                         },
                         {
                             "chance": 20,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "butterfree"
                         },
                         {
                             "chance": 10,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "venonat"
                         },
                         {
                             "chance": 10,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "paras"
                         },
                         {
                             "chance": 10,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "pinsir"
                         },
                         {
                             "chance": 10,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "yanma"
                         },
                         {
                             "chance": 5,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "ledyba"
                         },
                         {
                             "chance": 5,
-                            "level": 25,
+                            "level": 7,
                             "pokemon": "pineco"
                         },
                         {
                             "chance": 5,
-                            "level": 25,
+                            "level": "7-18",
                             "pokemon": "scyther"
                         },
                         {
                             "chance": 5,
-                            "level": 25,
+                            "level": 18,
                             "pokemon": "heracross"
                         }
                     ],
@@ -6991,6 +6991,46 @@
                 {
                     "pool": "headbutt.route",
                     "type": "headbutt"
+                },
+                {
+                    "pool": [
+                        {
+                            "chance": 23,
+                            "level": 5,
+                            "pokemon": "magby"
+                        },
+                        {
+                            "chance": 23,
+                            "level": 5,
+                            "pokemon": "elekid"
+                        },
+                        {
+                            "chance": 23,
+                            "level": 5,
+                            "pokemon": "smoochum"
+                        },
+                        {
+                            "chance": 20,
+                            "level": 5,
+                            "pokemon": "tyrogue"
+                        },
+                        {
+                            "chance": 5,
+                            "level": 5,
+                            "pokemon": "cleffa"
+                        },
+                        {
+                            "chance": 5,
+                            "level": 5,
+                            "pokemon": "igglybuff"
+                        },
+                        {
+                            "chance": 1,
+                            "level": 5,
+                            "pokemon": "pichu"
+                        }
+                    ],
+                    "type": "gift"
                 }
             ]
         },
@@ -38988,7 +39028,7 @@
                 },
                 {
                     "level": 10,
-                    "move": "magnitude"
+                    "move": "leech-life"
                 },
                 {
                     "level": 21,
@@ -61965,7 +62005,7 @@
             "double-edge",
             "earthquake",
             "submission",
-            "rock-slide"
+            "fire-punch"
           ]
         },
         {
@@ -61997,7 +62037,7 @@
           "moves": [
             "sacred-fire",
             "extremespeed",
-            "submission",
+            "thunderbolt",
             "ancientpower"
           ]
         },
@@ -62078,10 +62118,10 @@
           "level": 100,
           "item": "blackglasses",
           "moves": [
-            "crunch",
             "flamethrower",
             "aeroblast",
-            "psychic"
+            "ancientpower",
+	    "crunch"
           ]
         },
         {
