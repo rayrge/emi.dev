@@ -9945,12 +9945,12 @@
                             {
                                 "chance": 5,
                                 "level": 46,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 4,
                                 "level": 46,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 1,
@@ -9987,12 +9987,12 @@
                             {
                                 "chance": 4,
                                 "level": 46,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 1,
                                 "level": 46,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             }
                         ],
                         "night": [
@@ -10009,12 +10009,12 @@
                             {
                                 "chance": 20,
                                 "level": 46,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 10,
                                 "level": 46,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 5,
@@ -10330,12 +10330,12 @@
                             {
                                 "chance": 20,
                                 "level": 52,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 10,
                                 "level": 52,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 5,
@@ -10362,7 +10362,7 @@
                             {
                                 "chance": 30,
                                 "level": 52,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 20,
@@ -10409,12 +10409,12 @@
                             {
                                 "chance": 10,
                                 "level": 52,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 5,
                                 "level": 52,
-                                "pokemon": "kadabra"
+                                "pokemon": "abra"
                             },
                             {
                                 "chance": 4,
@@ -14793,11 +14793,6 @@
             "items": [
                 {
                     "amount": "1",
-                    "info": "Obtained from mum after giving her $18000 and defeating 4 trainers",
-                    "item": "moon-stone"
-                },
-                {
-                    "amount": "1",
                     "info": "Obtained from Elm after defeating Lance",
                     "item": "rainbow-wing"
                 },
@@ -15025,11 +15020,6 @@
                     "amount": "1",
                     "info": "obtained in the Aerodactyl Puzzle room after using Flash",
                     "item": "sitrus-berry"
-                },
-                {
-                    "amount": "1",
-                    "info": "obtained in the Aerodactyl Puzzle room after using Flash",
-                    "item": "moon-stone"
                 }
             ],
             "locations": [
@@ -18570,7 +18560,7 @@
             "type": "normal"
         },
         {
-            "accuracy": 100,
+            "accuracy": 70,
             "extra": [
                 "Lowers opponent's accuracy"
             ],
@@ -31247,6 +31237,7 @@
                 "surf",
                 "flash",
                 "whirlpool",
+		"waterfall",
                 "thunderbolt",
                 "ice-beam"
             ],
@@ -44793,7 +44784,7 @@
     },
     {
       "area": "Azalea Town",
-      "name": "rival-4",
+      "name": "rival-2m",
       "team": [
         {
           "name": "golbat",
@@ -44854,7 +44845,7 @@
     },
     {
       "area": "Azalea Town",
-      "name": "rival-5",
+      "name": "rival-2t",
       "team": [
         {
           "name": "golbat",
@@ -44915,7 +44906,7 @@
     },
     {
       "area": "Azalea Town",
-      "name": "rival-6",
+      "name": "rival-2f",
       "team": [
         {
           "name": "golbat",
@@ -45455,7 +45446,7 @@
     {
       "area": "Union Cave",
       "name": "hiker-daniel",
-      "meta": "gauntlet",
+      "meta": "start gauntlet",
       "team": [
         {
           "name": "onix",
@@ -45776,7 +45767,7 @@
     {
       "area": "Route 32",
       "name": "youngster-gordon",
-      "meta": "gauntlet",
+      "meta": "start gauntlet",
       "team": [
         {
           "name": "pikachu",
@@ -46458,7 +46449,7 @@
     },
     {
       "area": "Burned Tower",
-      "name": "rival-7",
+      "name": "rival-3f",
       "team": [
         {
           "name": "magneton",
@@ -46530,7 +46521,7 @@
     },
     {
       "area": "Burned Tower",
-      "name": "rival-8",
+      "name": "rival-3m",
       "team": [
         {
           "name": "magneton",
@@ -46602,7 +46593,7 @@
     },
     {
       "area": "Burned Tower",
-      "name": "rival-9",
+      "name": "rival-3t",
       "team": [
         {
           "name": "magneton",
@@ -49828,6 +49819,7 @@
       "area": "Tin Tower",
       "name": "sage-koji",
       "b2b": true,
+      "meta": "optional",
       "team": [
         {
           "name": "alakazam",
@@ -50979,7 +50971,6 @@
     {
       "area": "Union Cave",
       "name": "cooltrainerm-randy",
-      "meta": "optional. guards lapras",
       "team": [
         {
           "name": "venusaur",
@@ -51060,6 +51051,7 @@
       "area": "Union Cave",
       "name": "cooltrainerf-emma",
       "b2b": true,
+      "meta": "optional. guards lapras",
       "team": [
         {
           "name": "alakazam",
@@ -51774,7 +51766,7 @@
     },
 {
       "area": "Radio Tower",
-      "name": "rival-10",
+      "name": "rival-4f",
       "team": [
         {
           "name": "charizard",
@@ -51846,7 +51838,7 @@
     },
 {
       "area": "Radio Tower",
-      "name": "rival-11",
+      "name": "rival-4m",
       "team": [
         {
           "name": "blastoise",
@@ -51918,7 +51910,7 @@
     },
 {
       "area": "Radio Tower",
-      "name": "rival-12",
+      "name": "rival-4t",
       "team": [
         {
           "name": "venusaur",
@@ -52095,7 +52087,7 @@
       "team": [
         {
           "name": "gligar",
-          "level": 53,
+          "level": 65,
           "item": "kings-rock",
           "moves": [
             "earthquake",
@@ -54645,7 +54637,7 @@
     },
 {
       "area": "Victory Road",
-      "name": "rival-13",
+      "name": "rival-5f",
       "team": [
         {
           "name": "donphan",
@@ -54717,7 +54709,7 @@
     },
 {
       "area": "Victory Road",
-      "name": "rival-14",
+      "name": "rival-5m",
       "team": [
         {
           "name": "sneasel",
@@ -54789,7 +54781,7 @@
     },
 {
       "area": "Victory Road",
-      "name": "rival-15",
+      "name": "rival-5t",
       "team": [
         {
           "name": "magneton",
@@ -60303,7 +60295,7 @@
     },
 {
       "area": "Mt Moon",
-      "name": "rival-16",
+      "name": "rival-6f",
       "team": [
         {
           "name": "sneasel",
@@ -60375,7 +60367,7 @@
     },
 {
       "area": "Mt Moon",
-      "name": "rival-17",
+      "name": "rival-6m",
       "team": [
         {
           "name": "gengar",
@@ -60447,7 +60439,7 @@
     },
 {
       "area": "Mt Moon",
-      "name": "rival-18",
+      "name": "rival-6t",
       "team": [
         {
           "name": "crobat",
@@ -62036,7 +62028,7 @@
           "item": "leftovers",
           "moves": [
             "sacred-fire",
-            "extremespeed",
+            "submission",
             "thunderbolt",
             "ancientpower"
           ]
