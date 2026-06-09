@@ -17,12 +17,16 @@ function readLocalStorage() {
 		if (localStorage.getItem("settings")) {
 			savedData["settings"] = JSON.parse(localStorage.getItem("settings"));
 		}
+		if (localStorage.getItem("checkbox-state")) {
+			savedData["checkbox-state"] = JSON.parse(localStorage.getItem("checkbox-state"));
+		}
 	}
 	savedData = orElse(savedData, {});
 	box = orElse(savedData["box"], []);
 	deadBox = orElse(savedData["dead-box"], []);
 	badges = orElse(savedData["badges"], 0);
 	settings = orElse(savedData["settings"], {});
+	checkboxState = orElse(savedData["checkbox-state"], {});
 	if (settings.enableStatistics == undefined) {
 		settings.enableStatistics = true;
 	}

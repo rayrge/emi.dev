@@ -26,6 +26,7 @@
 					<a class="poke-link" onclick="clickLink(event)" href="#/box/"><button class="tab-select">Box</button></a>
 					<a class="poke-link" onclick="clickLink(event)" href="#/trainers/"><button class="tab-select">Trainers</button></a>
 					<a class="poke-link" onclick="clickLink(event)" href="#/map/"><button class="tab-select">Map</button></a>
+					<a class="poke-link" onclick="clickLink(event)" href="#/items/"><button class="tab-select">Items</button></a>
 					<span id="tab-select-right"></span>
 					<button class="tab-select vs-recorder-polling" id="update-vs-recorder" style="display:none;" onclick="updateVsRecorder()">Sync</button>
 					<button class="tab-select" onclick="setTab('settings')">Settings</button>
@@ -47,6 +48,7 @@
 			<p>Drag your .sav file on this page to fill with your party and boxes 1-12. Boxes 13-16 are considered dead.</p>
 		</div>
 		<div id="map" class="tab"></div>
+		<div id="items" class="tab"><button class="item-checkbox-reset" onclick="resetCheckboxState()">Reset All</button></div>
 		<div id="calc" class="tab">
 			<div id="player">
 				<table class="poke-title">
@@ -356,6 +358,7 @@
 	<script src="script/save.js"></script>
 	<script src="script/info/encounters.js"></script>
 	<script src="script/info/trainer.js"></script>
+	<script src="script/info/items.js"></script>
 	<script src="script/display.js"></script>
 	<script src="script/calc.js"></script>
 	<script src="script/main.js"></script>
