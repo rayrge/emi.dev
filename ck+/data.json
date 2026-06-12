@@ -6995,37 +6995,37 @@
                 {
                     "pool": [
                         {
-                            "chance": 23,
-                            "level": 5,
-                            "pokemon": "magby"
-                        },
-                        {
-                            "chance": 23,
-                            "level": 5,
-                            "pokemon": "elekid"
-                        },
-                        {
-                            "chance": 23,
-                            "level": 5,
-                            "pokemon": "smoochum"
-                        },
-                        {
-                            "chance": 20,
+                            "chance": 21,
                             "level": 5,
                             "pokemon": "tyrogue"
                         },
                         {
-                            "chance": 5,
+                            "chance": 15,
                             "level": 5,
                             "pokemon": "cleffa"
                         },
                         {
-                            "chance": 5,
+                            "chance": 15,
                             "level": 5,
                             "pokemon": "igglybuff"
                         },
                         {
-                            "chance": 1,
+                            "chance": 14,
+                            "level": 5,
+                            "pokemon": "magby"
+                        },
+                        {
+                            "chance": 14,
+                            "level": 5,
+                            "pokemon": "elekid"
+                        },
+                        {
+                            "chance": 14,
+                            "level": 5,
+                            "pokemon": "smoochum"
+                        },
+                        {
+                            "chance": 7,
                             "level": 5,
                             "pokemon": "pichu"
                         }
@@ -7477,7 +7477,7 @@
                             },
                             {
                                 "chance": 10,
-                                "level": 16,
+                                "level": 15,
                                 "pokemon": "magnemite"
                             },
                             {
@@ -7514,7 +7514,7 @@
                             },
                             {
                                 "chance": 10,
-                                "level": 16,
+                                "level": 15,
                                 "pokemon": "swinub"
                             },
                             {
@@ -7551,7 +7551,7 @@
                             },
                             {
                                 "chance": 10,
-                                "level": 16,
+                                "level": 15,
                                 "pokemon": "voltorb"
                             },
                             {
@@ -30699,7 +30699,7 @@
             "evolutions": [
                 {
                     "into": "seadra",
-                    "level": 32,
+                    "level": 23,
                     "method": "level"
                 }
             ],
