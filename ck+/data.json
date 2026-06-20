@@ -9429,7 +9429,7 @@
                             {
                                 "chance": 5,
                                 "level": 22,
-                                "pokemon": "pidgeot"
+                                "pokemon": "sandslash"
                             },
                             {
                                 "chance": 4,
@@ -9461,7 +9461,7 @@
                             {
                                 "chance": 10,
                                 "level": 22,
-                                "pokemon": "arbok"
+                                "pokemon": "sandslash"
                             },
                             {
                                 "chance": 5,
@@ -9503,7 +9503,7 @@
                             {
                                 "chance": 5,
                                 "level": 22,
-                                "pokemon": "arbok"
+                                "pokemon": "sandslash"
                             },
                             {
                                 "chance": 4,
@@ -9513,7 +9513,7 @@
                             {
                                 "chance": 1,
                                 "level": 22,
-                                "pokemon": "pidgeot"
+                                "pokemon": "arbok"
                             }
                         ]
                     },
@@ -13346,10 +13346,6 @@
                 {
                     "pool": "fishing.shore.super",
                     "type": "super-rod"
-                },
-                {
-                    "pool": "headbutt.town",
-                    "type": "headbutt"
                 },
                 {
                     "pool": "rock.rock",
@@ -17770,7 +17766,7 @@
             "index": 174,
             "name": "curse",
             "power": 0,
-            "pp": 3,
+            "pp": 10,
             "type": "curse"
         },
         {
@@ -21372,7 +21368,7 @@
                 "hp": 83,
                 "spa": 70,
                 "spd": 70,
-                "spe": 101
+                "spe": 91
             },
             "tmhm": [
                 "curse",
@@ -23135,10 +23131,10 @@
             "name": "clefable",
             "pokedex": 36,
             "stats": {
-                "atk": 80,
+                "atk": 70,
                 "def": 73,
                 "hp": 95,
-                "spa": 95,
+                "spa": 85,
                 "spd": 90,
                 "spe": 60
             },
@@ -23550,7 +23546,7 @@
             "name": "wigglytuff",
             "pokedex": 40,
             "stats": {
-                "atk": 80,
+                "atk": 70,
                 "def": 45,
                 "hp": 140,
                 "spa": 75,
@@ -24236,7 +24232,7 @@
             "stats": {
                 "atk": 95,
                 "def": 80,
-                "hp": 80,
+                "hp": 60,
                 "spa": 60,
                 "spd": 80,
                 "spe": 30
@@ -26465,7 +26461,7 @@
                 "def": 65,
                 "hp": 80,
                 "spa": 100,
-                "spd": 70,
+                "spd": 60,
                 "spe": 70
             },
             "tmhm": [
@@ -30216,7 +30212,7 @@
                 "atk": 90,
                 "def": 120,
                 "hp": 65,
-                "spa": 115,
+                "spa": 85,
                 "spd": 70,
                 "spe": 60
             },
@@ -32106,7 +32102,7 @@
                 "atk": 85,
                 "def": 80,
                 "hp": 130,
-                "spa": 95,
+                "spa": 85,
                 "spd": 95,
                 "spe": 60
             },
@@ -33242,7 +33238,7 @@
                 "atk": 85,
                 "def": 100,
                 "hp": 90,
-                "spa": 115,
+                "spa": 95,
                 "spd": 125,
                 "spe": 85
             },
@@ -33300,12 +33296,12 @@
             "name": "zapdos",
             "pokedex": 145,
             "stats": {
-                "atk": 95,
-                "def": 90,
+                "atk": 90,
+                "def": 85,
                 "hp": 90,
                 "spa": 125,
-                "spd": 95,
-                "spe": 105
+                "spd": 90,
+                "spe": 100
             },
             "tmhm": [
                 "curse",
@@ -33363,12 +33359,12 @@
             "name": "moltres",
             "pokedex": 146,
             "stats": {
-                "atk": 110,
+                "atk": 100,
                 "def": 90,
                 "hp": 90,
                 "spa": 125,
                 "spd": 85,
-                "spe": 100
+                "spe": 90
             },
             "tmhm": [
                 "curse",
@@ -35246,7 +35242,7 @@
                 "atk": 50,
                 "def": 50,
                 "hp": 100,
-                "spa": 86,
+                "spa": 76,
                 "spd": 96,
                 "spe": 70
             },
@@ -40782,32 +40778,32 @@
                     "move": "aurora-beam"
                 },
                 {
-                    "level": 6,
+                    "level": 1,
                     "move": "confuse-ray"
                 },
                 {
-                    "level": 13,
+                    "level": 17,
                     "move": "bubblebeam"
-                },
-                {
-                    "level": 20,
-                    "move": "toxic"
                 },
                 {
                     "level": 25,
                     "move": "wing-attack"
                 },
                 {
-                    "level": 31,
+                    "level": 34,
+                    "move": "toxic"
+                },
+                {
+                    "level": 48,
                     "move": "ice-beam"
                 },
                 {
-                    "level": 37,
-                    "move": "surf"
+                    "level": 52,
+                    "move": "aeroblast"
                 },
                 {
-                    "level": 72,
-                    "move": "aeroblast"
+                    "level": 61,
+                    "move": "hydro-pump"
                 }
             ],
             "name": "mantine",
@@ -40815,7 +40811,7 @@
             "stats": {
                 "atk": 40,
                 "def": 70,
-                "hp": 85,
+                "hp": 65,
                 "spa": 80,
                 "spd": 140,
                 "spe": 70
@@ -42301,7 +42297,7 @@
             "pokedex": 243,
             "stats": {
                 "atk": 85,
-                "def": 95,
+                "def": 75,
                 "hp": 90,
                 "spa": 115,
                 "spd": 100,
@@ -42428,7 +42424,7 @@
             "stats": {
                 "atk": 75,
                 "def": 115,
-                "hp": 120,
+                "hp": 100,
                 "spa": 90,
                 "spd": 115,
                 "spe": 85
