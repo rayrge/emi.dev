@@ -13547,10 +13547,6 @@
                     "type": "super-rod"
                 },
                 {
-                    "pool": "headbutt.canyon",
-                    "type": "headbutt"
-                },
-                {
                     "pool": "rock.rock",
                     "type": "rock"
                 }
@@ -15161,7 +15157,7 @@
                 },
                 {
                     "amount": "1",
-                    "info": "talk to Irene after the B2B2B",
+                    "info": "talk to Kate after the B2B2B",
                     "item": "soft-sand"
                 },
                 {
@@ -16931,7 +16927,7 @@
             "index": 153,
             "name": "explosion",
             "power": 250,
-            "pp": 1,
+            "pp": 5,
             "type": "normal"
         },
         {
@@ -17062,7 +17058,7 @@
             "index": 187,
             "name": "belly-drum",
             "power": 0,
-            "pp": 1,
+            "pp": 10,
             "type": "normal"
         },
         {
@@ -17364,7 +17360,7 @@
             "index": 100,
             "name": "teleport",
             "power": 0,
-            "pp": 1,
+            "pp": 20,
             "type": "psychic"
         },
         {
@@ -17617,7 +17613,7 @@
             "index": 244,
             "name": "psych-up",
             "power": 0,
-            "pp": 1,
+            "pp": 10,
             "type": "normal"
         },
         {
@@ -17700,7 +17696,7 @@
         {
             "accuracy": 100,
             "extra": [
-                "Always hits"
+                "Always hits. negative priority"
             ],
             "index": 233,
             "name": "vital-throw",
@@ -17874,7 +17870,7 @@
             "index": 115,
             "name": "reflect",
             "power": 0,
-            "pp": 3,
+            "pp": 20,
             "type": "psychic"
         },
         {
@@ -17896,7 +17892,7 @@
             "index": 226,
             "name": "baton-pass",
             "power": 0,
-            "pp": 1,
+            "pp": 40,
             "type": "normal"
         },
         {
@@ -18091,7 +18087,7 @@
             "index": 205,
             "name": "rollout",
             "power": 30,
-            "pp": 1,
+            "pp": 20,
             "type": "rock",
             "variants": [
                 {
@@ -18312,7 +18308,7 @@
             "index": 120,
             "name": "selfdestruct",
             "power": 200,
-            "pp": 1,
+            "pp": 5,
             "type": "normal"
         },
         {
@@ -18552,7 +18548,7 @@
             "index": 159,
             "name": "sharpen",
             "power": 0,
-            "pp": 1,
+            "pp": 30,
             "type": "normal"
         },
         {
@@ -18769,7 +18765,7 @@
             "index": 113,
             "name": "light-screen",
             "power": 0,
-            "pp": 3,
+            "pp": 20,
             "type": "psychic"
         },
         {
@@ -19171,7 +19167,7 @@
             "index": 191,
             "name": "spikes",
             "power": 0,
-            "pp": 1,
+            "pp": 20,
             "type": "ground"
         },
         {
@@ -44077,24 +44073,7 @@
     },
     {
       "area": "Goldenrod Underground",
-      "name": "pokemaniac-issac",
-      "team": [
-        {
-          "name": "lickitung",
-          "level": 22,
-          "item": "berry-juice",
-          "moves": [
-            "lick",
-            "rollout"
-          ]
-        }
-      ]
-    },
-    {
-      "area": "Goldenrod Underground",
       "name": "super-nerd-eric",
-      "meta": "optional",
-      "b2b": true,
       "team": [
         {
           "name": "grimer",
@@ -44116,6 +44095,23 @@
 	    "agility",
             "karate-chop",
             "selfdestruct"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Goldenrod Underground",
+      "name": "pokemaniac-issac",
+      "meta": "optional",
+      "b2b": true,
+      "team": [
+        {
+          "name": "lickitung",
+          "level": 22,
+          "item": "berry-juice",
+          "moves": [
+            "lick",
+            "rollout"
           ]
         }
       ]
@@ -44604,7 +44600,6 @@
     {
       "area": "Route 34",
       "name": "cooltrainerf-irene",
-      "meta": "awards soft sand",
       "team": [
         {
           "name": "drowzee",
@@ -44674,6 +44669,7 @@
       "area": "Route 34",
       "name": "cooltrainerf-kate",
       "b2b": true,
+      "meta": "awards soft sand",
       "team": [
         {
           "name": "nidorina",
@@ -45247,7 +45243,7 @@
           "level": 26,
           "item": "focus-band",
           "moves": [
-            "spark",
+            "thunderbolt",
             "substitute",
             "attract",
             "solarbeam"
@@ -63130,7 +63126,7 @@
         },
 	{	
             "type": "item",
-            "location": "Azalea Town",
+            "location": "Route 32",
             "name": "miracle-seed",
             "amount": 1,
 	    "description": "talk to man at gauntlet exit"
