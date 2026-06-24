@@ -17860,7 +17860,7 @@
             "name": "psywave",
             "power": 1,
             "pp": 15,
-            "type": "curse"
+            "type": "psychic"
         },
         {
             "accuracy": 100,
@@ -43781,7 +43781,7 @@
       "team": [
         {
           "name": "charmeleon",
-          "level": 20,
+          "level": 16,
           "item": "lum-berry",
           "moves": [
             "flamethrower",
@@ -43791,7 +43791,7 @@
         },
         {
           "name": "koffing",
-          "level": 20,
+          "level": 16,
           "item": "charcoal",
           "moves": [
             "sludge-bomb",
