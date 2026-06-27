@@ -2401,6 +2401,143 @@
                             {
                                 "chance": 30,
                                 "level": 38,
+                                "pokemon": "ninetales"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 38,
+                                "pokemon": "crobat"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 38,
+                                "pokemon": "electrode"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 38,
+                                "pokemon": "electrode"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 38,
+                                "pokemon": "misdreavus"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 38,
+                                "pokemon": "exeggutor"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 38,
+                                "pokemon": "exeggutor"
+                            }
+                        ]
+                    },
+                    "type": "walking"
+                },
+                {
+                    "pool": [
+                        {
+                            "chance": 100,
+                            "level": 100,
+                            "pokemon": "ho-oh"
+                        },
+                        {
+                            "chance": 100,
+			    "extra": "Appears on Sundays after defeating Lance",
+                            "level": 100,
+                            "pokemon": "suicune"
+                        }
+                    ],
+                    "type": "static"
+                }
+            ]
+        },
+        {
+            "area": "tin-tower-2f",
+            "pools": [
+                {
+                    "pool": {
+                         "day": [
+                            {
+                                "chance": 30,
+                                "level": 38,
+                                "pokemon": "ninetales"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 38,
+                                "pokemon": "electrode"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 38,
+                                "pokemon": "xatu"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 38,
+                                "pokemon": "crobat"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 38,
+                                "pokemon": "exeggutor"
+                            }
+                        ],
+                        "morning": [
+                            {
+                                "chance": 30,
+                                "level": 38,
+                                "pokemon": "xatu"
+                            },
+                            {
+                                "chance": 30,
+                                "level": 38,
+                                "pokemon": "ninetales"
+                            },
+                            {
+                                "chance": 20,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
+                                "chance": 10,
+                                "level": 38,
+                                "pokemon": "haunter"
+                            },
+                            {
+                                "chance": 5,
+                                "level": 38,
+                                "pokemon": "electrode"
+                            },
+                            {
+                                "chance": 4,
+                                "level": 38,
+                                "pokemon": "exeggutor"
+                            },
+                            {
+                                "chance": 1,
+                                "level": 38,
+                                "pokemon": "exeggutor"
+                            }
+                        ],
+                        "night": [
+                            {
+                                "chance": 30,
+                                "level": 38,
                                 "pokemon": "haunter"
                             },
                             {
@@ -15469,7 +15606,8 @@
             "id": 23,
             "items": [],
             "locations": [
-                "tin-tower"
+                "tin-tower",
+		"tin-tower-2f"
             ],
             "name": "tin-tower",
             "positions": [
@@ -15521,11 +15659,6 @@
                     "amount": "1",
                     "info": "obtained from woman in MooMoo ranch after completing the side quest to save MooMoo",
                     "item": "tm-13"
-                },
-                {
-                    "amount": "1",
-                    "info": "hidden on the ground in MooMoo ranch",
-                    "item": "thick-club"
                 }
             ],
             "locations": [
@@ -16916,7 +17049,7 @@
             "index": 108,
             "name": "smokescreen",
             "power": 0,
-            "pp": 3,
+            "pp": 20,
             "type": "normal"
         },
         {
@@ -17144,7 +17277,7 @@
             "index": 139,
             "name": "poison-gas",
             "power": 0,
-            "pp": 3,
+            "pp": 40,
             "type": "poison"
         },
         {
@@ -17230,7 +17363,7 @@
             "index": 112,
             "name": "barrier",
             "power": 0,
-            "pp": 3,
+            "pp": 30,
             "type": "psychic"
         },
         {
@@ -17296,7 +17429,7 @@
             "index": 134,
             "name": "kinesis",
             "power": 0,
-            "pp": 3,
+            "pp": 15,
             "type": "psychic"
         },
         {
@@ -17307,7 +17440,7 @@
             "index": 116,
             "name": "focus-energy",
             "power": 0,
-            "pp": 3,
+            "pp": 30,
             "type": "normal"
         },
         {
@@ -17371,7 +17504,7 @@
             "index": 204,
             "name": "charm",
             "power": 0,
-            "pp": 3,
+            "pp": 20,
             "type": "normal"
         },
         {
@@ -17455,7 +17588,7 @@
             "index": 77,
             "name": "poisonpowder",
             "power": 0,
-            "pp": 3,
+            "pp": 35,
             "type": "poison"
         },
         {
@@ -17546,7 +17679,7 @@
             "index": 110,
             "name": "withdraw",
             "power": 0,
-            "pp": 3,
+            "pp": 40,
             "type": "water"
         },
         {
@@ -17624,7 +17757,7 @@
             "index": 81,
             "name": "string-shot",
             "power": 0,
-            "pp": 3,
+            "pp": 40,
             "type": "bug"
         },
         {
@@ -17657,7 +17790,7 @@
             "index": 111,
             "name": "defense-curl",
             "power": 0,
-            "pp": 3,
+            "pp": 40,
             "type": "normal"
         },
         {
@@ -17679,7 +17812,7 @@
             "index": 160,
             "name": "conversion",
             "power": 0,
-            "pp": 3,
+            "pp": 30,
             "type": "normal"
         },
         {
@@ -18245,7 +18378,7 @@
             "index": 39,
             "name": "tail-whip",
             "power": 0,
-            "pp": 3,
+            "pp": 40,
             "type": "normal"
         },
         {
@@ -18690,7 +18823,7 @@
             "index": 104,
             "name": "double-team",
             "power": 0,
-            "pp": 3,
+            "pp": 15,
             "type": "normal"
         },
         {
@@ -18949,7 +19082,7 @@
             "index": 107,
             "name": "minimize",
             "power": 0,
-            "pp": 3,
+            "pp": 20,
             "type": "normal"
         },
         {
@@ -19016,7 +19149,7 @@
             "index": 78,
             "name": "stun-spore",
             "power": 0,
-            "pp": 3,
+            "pp": 30,
             "type": "grass"
         },
         {
@@ -19091,7 +19224,7 @@
             "index": 114,
             "name": "haze",
             "power": 0,
-            "pp": 3,
+            "pp": 30,
             "type": "ice"
         },
         {
@@ -19189,7 +19322,7 @@
             "index": 74,
             "name": "growth",
             "power": 0,
-            "pp": 3,
+            "pp": 10,
             "type": "grass"
         },
         {
@@ -19275,7 +19408,7 @@
             "index": 79,
             "name": "sleep-powder",
             "power": 0,
-            "pp": 3,
+            "pp": 15,
             "type": "grass"
         },
         {
@@ -19295,7 +19428,7 @@
             "index": 137,
             "name": "glare",
             "power": 0,
-            "pp": 3,
+            "pp": 30,
             "type": "normal"
         },
         {
@@ -19717,7 +19850,7 @@
             "index": 176,
             "name": "conversion2",
             "power": 0,
-            "pp": 3,
+            "pp": 30,
             "type": "normal"
         },
         {
@@ -53747,7 +53880,7 @@
 {
       "area": "Route 45",
       "name": "cooltrainerf-kelly",	
-      "meta": "sandstorm",
+      "meta": "sandstorm. end gauntlet",
       "team": [
         {
           "name": "skarmory",
@@ -53837,7 +53970,7 @@
 {
       "area": "Route 46",
       "name": "hiker-bailey",
-      "meta": "end sandstorm. end gauntlet",	
+      "meta": "end sandstorm",	
       "b2b": true,
       "team": [
         {
