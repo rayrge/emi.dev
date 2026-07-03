@@ -6114,7 +6114,7 @@
                             },
                             {
                                 "chance": 20,
-                                "level": 2,
+                                "level": 3,
                                 "pokemon": "rattata"
                             },
                             {
@@ -58913,6 +58913,7 @@
 {
       "area": "Route 12",
       "name": "fisher-kyle",
+	  "meta": "end gauntlet",
       "team": [
         {
           "name": "lanturn",
@@ -58971,7 +58972,6 @@
 {
       "area": "Route 12",
       "name": "fisher-martin",
-      "meta": "end gauntlet",
       "team": [
         {
           "name": "slowking",
