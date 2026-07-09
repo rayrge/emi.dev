@@ -18920,7 +18920,7 @@
             "index": 103,
             "name": "screech",
             "power": 0,
-            "pp": 40,
+            "pp": 5,
             "type": "normal"
         },
         {
@@ -30689,7 +30689,7 @@
                     "move": "solarbeam"
                 },
                 {
-                    "level": 43,
+                    "level": 61,
                     "move": "fire-blast"
                 }
             ],
@@ -31520,6 +31520,10 @@
                 {
                     "level": 58,
                     "move": "double-team"
+                },
+                {
+                    "level": 62,
+                    "move": "fury-cutter"
                 }
             ],
             "name": "scyther",
@@ -31924,7 +31928,7 @@
                 "toxic",
                 "rock-smash",
                 "hidden-power",
-                
+                "wing-attack",
                 "snore",
                 "hyper-beam",
                 "protect",
@@ -39679,6 +39683,10 @@
                 {
                     "level": 58,
                     "move": "double-team"
+                },
+                {
+                    "level": 62,
+                    "move": "metal-claw"
                 }
             ],
             "name": "scizor",
@@ -43914,7 +43922,7 @@
       "team": [
         {
           "name": "charmeleon",
-          "level": 16,
+          "level": 18,
           "item": "lum-berry",
           "moves": [
             "flamethrower",
@@ -43924,7 +43932,7 @@
         },
         {
           "name": "koffing",
-          "level": 16,
+          "level": 17,
           "item": "charcoal",
           "moves": [
             "sludge-bomb",
@@ -43941,7 +43949,7 @@
       "team": [
         {
           "name": "voltorb",
-          "level": 20,
+          "level": 19,
           "item": "berry-juice",
           "moves": [
             "rollout",
@@ -43951,7 +43959,7 @@
         },
         {
           "name": "mr-mime",
-          "level": 20,
+          "level": 16,
           "item": "light-ball",
           "moves": [
             "psybeam",
@@ -43997,7 +44005,7 @@
         },
        {
           "name": "elekid",
-          "level": 20,
+          "level": 19,
           "item": "berry-juice",
           "moves": [
             "thunderpunch",
@@ -46136,7 +46144,7 @@
       "team": [
         {
           "name": "bellossom",
-          "level": 31,
+          "level": 33,
           "item": "leftovers",
           "moves": [
             "leech-seed",
@@ -46147,7 +46155,7 @@
         },
         {
           "name": "flaaffy",
-          "level": 32,
+          "level": 33,
           "item": "charcoal",
           "moves": [
             "thunderbolt",
@@ -46157,7 +46165,7 @@
         },
         {
           "name": "clefable",
-          "level": 32,
+          "level": 34,
           "item": "lum-berry",
           "moves": [
             "take-down",
@@ -52512,7 +52520,7 @@
       "team": [
         {
           "name": "murkrow",
-          "level": 63,
+          "level": 64,
           "item": "brightpowder",
           "moves": [
             "mirror-move",
@@ -52523,7 +52531,7 @@
         },
         {
           "name": "dugtrio",
-          "level": 63,
+          "level": 64,
           "item": "focus-band",
           "moves": [
             "earthquake",
@@ -52534,7 +52542,7 @@
         },
         {
           "name": "stantler",
-          "level": 63,
+          "level": 64,
           "item": "leftovers",
           "moves": [
             "confuse-ray",
@@ -52545,7 +52553,7 @@
         },
         {
           "name": "victreebel",
-          "level": 63,
+          "level": 64,
           "item": "poison-barb",
           "moves": [
             "sludge",
@@ -52556,7 +52564,7 @@
         },
         {
           "name": "kingler",
-          "level": 63,
+          "level": 64,
           "item": "quick-claw",
           "moves": [
             "protect",
@@ -52567,7 +52575,7 @@
         },
         {
           "name": "gengar",
-          "level": 63,
+          "level": 64,
           "item": "kings-rock",
           "moves": [
             "mean-look",
@@ -52584,7 +52592,7 @@
       "team": [
         {
           "name": "kangaskhan",
-          "level": 63,
+          "level": 64,
           "item": "leftovers",
           "moves": [
             "counter",
@@ -52595,7 +52603,7 @@
         },
         {
           "name": "rapidash",
-          "level": 63,
+          "level": 64,
           "item": "scope-lens",
           "moves": [
             "hypnosis",
@@ -52606,7 +52614,7 @@
         },
         {
           "name": "pinsir",
-          "level": 63,
+          "level": 64,
           "item": "silverpowder",
           "moves": [
             "megahorn",
@@ -52617,7 +52625,7 @@
         },
         {
           "name": "electabuzz",
-          "level": 63,
+          "level": 64,
           "item": "focus-band",
           "moves": [
             "thunderbolt",
@@ -52628,7 +52636,7 @@
         },
         {
           "name": "marowak",
-          "level": 63,
+          "level": 64,
           "item": "thick-club",
           "moves": [
             "bone-rush",
@@ -52639,7 +52647,7 @@
         },
         {
           "name": "tentacruel",
-          "level": 63,
+          "level": 64,
           "item": "sitrus-berry",
           "moves": [
             "whirlpool",
@@ -53247,7 +53255,7 @@
         {
           "name": "rhydon",
           "level": 65,
-          "item": "silvepowder",
+          "item": "silverpowder",
           "moves": [
             "megahorn",
             "swords-dance",
@@ -55370,7 +55378,6 @@
           "moves": [
             "bone-rush",
             "bonemerang",
-            "frustration",
             "shadow-ball"
  	  ]
 	},
@@ -55468,8 +55475,7 @@
           "moves": [
             "fire-spin",
             "flame-wheel",
-            "flamethrower",
-            "fire-blast"
+            "flamethrower"
           ]
         },
         {
@@ -55512,7 +55518,6 @@
           "moves": [
             "flamethrower",
             "fly",
-            "metal-claw",
             "dragonbreath"
 	  ]
 	}
@@ -55616,8 +55621,7 @@
           "moves": [
             "spite",
             "glare",
-            "headbutt",
-            "outrage"
+            "headbutt"
 	  ]
 	},
 	{
@@ -55649,8 +55653,7 @@
           "moves": [
             "wrap",
             "surf",
-            "ice-beam",
-            "giga-drain"
+            "ice-beam"
 	  ]
 	}
       ]
@@ -55666,7 +55669,6 @@
           "moves": [
             "thunder-wave",
             "body-slam",
-            "earthquake",
             "rolling-kick"
           ]
         },
@@ -55709,9 +55711,8 @@
           "item": "soft-sand",
           "moves": [
             "earthquake",
-	    "flamethrower",
-	    "thunderbolt",
-	    "ice-beam"
+	    "sludge-bomb",
+	    "super-fang"
 	  ]
 	},
         {
@@ -55721,7 +55722,6 @@
           "moves": [
             "synthesis",
 	    "giga-drain",
-	    "sludge-bomb",
 	    "roar"
 	  ]
 	}
@@ -55735,12 +55735,9 @@
         {
           "name": "espeon",
           "level": 71,
-          "item": "lum-berry",
+          "item": "spell-tag",
           "moves": [
-            "psychic",
-            "sing",
-            "bite",
-            "ice-beam"
+            "lick"
           ]
         },
         {
@@ -55761,8 +55758,7 @@
           "moves": [
             "recover",
             "waterfall",
-            "psychic",
-            "thunderbolt"
+            "psychic"
  	  ]
 	}
       ]
@@ -55894,7 +55890,6 @@
           "moves": [
             "crunch",
             "destiny-bond",
-            "waterfall",
             "pin-missile"
           ]
         },
@@ -55915,7 +55910,6 @@
           "item": "spell-tag",
           "moves": [
             "shadow-ball",
-            "psychic",
             "faint-attack",
             "submission"
  	  ]
@@ -55934,7 +55928,6 @@
           "moves": [
             "attract",
             "leech-seed",
-            "toxic",
             "synthesis"
           ]
         },
@@ -55944,7 +55937,6 @@
           "item": "charcoal",
           "moves": [
             "attract",
-            "flamethrower",
             "flame-wheel",
             "rock-slide"
           ]
@@ -55956,8 +55948,7 @@
           "moves": [
             "attract",
             "drill-peck",
-            "slash",
-            "steel-wing"
+            "slash"
 	  ]
 	}
       ]
@@ -55986,7 +55977,7 @@
       "team": [
         {
           "name": "cloyster",
-          "level": 72,
+          "level": 69,
           "item": "focus-band",
           "moves": [
             "spikes",
@@ -55997,7 +55988,7 @@
         },
         {
           "name": "octillery",
-          "level": 72,
+          "level": 69,
           "item": "scope-lens",
           "moves": [
             "octazooka",
@@ -56008,7 +55999,7 @@
         },
         {
           "name": "seaking",
-          "level": 72,
+          "level": 69,
           "item": "kings-rock",
           "moves": [
             "flamethrower",
@@ -56030,8 +56021,7 @@
           "moves": [
             "clamp",
             "protect",
-            "submission",
-            "fury-cutter"
+            "submission"
           ]
         },
         {
@@ -56041,7 +56031,6 @@
           "moves": [
             "rollout",
             "rock-slide",
-            "earthquake",
             "submission"
 	  ]
 	},
@@ -56052,8 +56041,7 @@
           "moves": [
             "waterfall",
             "crunch",
-            "submission",
-            "double-edge"
+            "submission"
 	  ]
 	}
       ]
@@ -56069,7 +56057,7 @@
           "moves": [
             "glare",
             "bone-rush",
-            "double-edge",
+            "headbutt",
             "submission"
           ]
         },
@@ -56080,8 +56068,7 @@
           "moves": [
             "flame-wheel",
 	    "endure",
-	    "reversal",
-	    "body-slam"
+	    "reversal"
 	  ]
 	},
         {
@@ -56102,7 +56089,6 @@
           "moves": [
             "megahorn",
 	    "giga-drain",
-	    "rock-slide",
 	    "explosion"
 	  ]
 	},
@@ -56170,7 +56156,6 @@
           "item": "lum-berry",
           "moves": [
             "crunch",
-            "psychic",
             "body-slam",
             "iron-tail"
           ]
@@ -56182,7 +56167,6 @@
           "moves": [
             "waterfall",
             "rock-slide",
-            "submission",
             "earthquake"
           ]
         },
@@ -56204,7 +56188,6 @@
           "moves": [
             "leech-life",
             "giga-drain",
-            "crunch",
             "super-fang"
           ]
         },
@@ -56227,7 +56210,7 @@
       "team": [
         {
           "name": "furret",
-          "level": 71,
+          "level": 68,
           "item": "pink-bow",
           "moves": [
             "belly-drum",
@@ -56238,7 +56221,7 @@
         },
         {
           "name": "furret",
-          "level": 71,
+          "level": 69,
           "item": "leftovers",
           "moves": [
             "extremespeed",
@@ -56249,7 +56232,7 @@
         },
         {
           "name": "furret",
-          "level": 71,
+          "level": 70,
           "item": "quick-claw",
           "moves": [
             "surf",
@@ -56268,7 +56251,7 @@
       "team": [
         {
           "name": "persian",
-          "level": 71,
+          "level": 66,
           "item": "brightpowder",
           "moves": [
             "hypnosis",
@@ -56279,7 +56262,7 @@
         },
         {
           "name": "persian",
-          "level": 71,
+          "level": 67,
           "item": "pink-bow",
           "moves": [
             "return",
@@ -56300,7 +56283,6 @@
           "level": 71,
           "item": "leftovers",
           "moves": [
-            "hydro-pump",
             "perish-song",
             "sing",
             "body-slam"
@@ -56313,7 +56295,6 @@
           "moves": [
             "supersonic",
             "flash",
-            "thunder-wave",
             "thunderbolt"
           ]
         },
@@ -56324,8 +56305,7 @@
           "moves": [
             "softboiled",
             "encore",
-            "perish-song",
-            "toxic"
+            "perish-song"
  	  ]
 	}
       ]
@@ -56409,7 +56389,7 @@
           "item": "lum-berry",
           "moves": [
             "rock-slide",
-            "cross-chop",
+            "submission",
             "bind",
             "low-kick"
           ]
@@ -56422,7 +56402,7 @@
             "whirlpool",
             "swords-dance",
             "comet-punch",
-            "submission"
+            "body-slam"
 	  ]
 	}
       ]
@@ -56465,10 +56445,7 @@
           "level": 72,
           "item": "pink-bow",
           "moves": [
-            "double-edge",
-            "surf",
-            "submission",
-            "shadow-ball"
+            "double-edge"
           ]
         },
         {
@@ -63633,6 +63610,13 @@
             "name": "blackglasses",
             "amount": 1,
 	    "description": " "
+        },
+	{	
+            "type": "item",
+            "location": "Dark Cave",
+            "name": "tm-13",
+            "amount": 1,
+	    "description": "Snore"
         },
 	{
 	    "type": "roadblock",
