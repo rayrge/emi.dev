@@ -53146,6 +53146,7 @@
 {
       "area": "Blackthorn City Gym",
       "name": "cooltrainerm-cody",
+	  "meta": "trainer to the south",
       "team": [
         {
           "name": "lapras",
@@ -53207,6 +53208,7 @@
 {
       "area": "Blackthorn City Gym",
       "name": "cooltrainerf-fran",
+	  "meta": "trainer to the north",
       "team": [
         {
           "name": "kangaskhan",
