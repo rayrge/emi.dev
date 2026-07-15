@@ -54288,7 +54288,6 @@
 {
       "area": "Route 27",
       "name": "psychic-gilbert",
-      "meta": "optional. gives you thunderbolt tm",	
       "team": [
         {
           "name": "lanturn",
@@ -54351,7 +54350,7 @@
       "area": "Route 27",
       "name": "bird-keeper-jose",
       "b2b": true,
-      "meta": "optional, gives you shadow ball tm",
+      "meta": "optional for renewable shadow ball and tbolt tms",
       "team": [
         {
           "name": "togetic",
@@ -54679,7 +54678,6 @@
 {
       "area": "Route 26",
       "name": "psychic-richard",
-      "meta": "optional. gives you psychic tm",	
       "team": [
         {
           "name": "jynx",
@@ -54717,7 +54715,7 @@
       "area": "Route 26",
       "name": "fisher-scott",
       "b2b": true,
-      "meta": "optional, gives you icy-wind",
+      "meta": "optional for renewable icy wind and psychic tms",
       "team": [
         {
           "name": "mantine",
@@ -58898,6 +58896,64 @@
     },
 {
       "area": "Route 12",
+      "name": "fisher-martin",
+      "team": [
+        {
+          "name": "slowking",
+          "level": 86,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "waterfall",
+            "ice-beam",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "kingler",
+          "level": 86,
+          "item": "quick-claw",
+          "moves": [
+            "crabhammer",
+	    "swords-dance",
+	    "metal-claw",
+	    "submission"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 86,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn"
+	  ]
+	},
+        {
+          "name": "nidoking",
+          "level": 86,
+          "item": "mystic-water",
+          "moves": [
+            "surf",
+            "submission",
+            "body-slam",
+            "shadow-ball"
+	  ]
+	},
+        {
+          "name": "kingdra",
+          "level": 86,
+          "item": "leftovers",
+          "moves": [
+            "octazooka",
+            "dragonbreath",
+            "return",
+            "ice-beam"
+	  ]
+	}
+      ]
+    },		
+{
+      "area": "Route 12",
       "name": "fisher-kyle",
 	  "meta": "end of gauntlet",
       "team": [
@@ -58951,64 +59007,6 @@
             "flamethrower",
             "giga-drain",
             "sludge-bomb"
-	  ]
-	}
-      ]
-    },
-{
-      "area": "Route 12",
-      "name": "fisher-martin",
-      "team": [
-        {
-          "name": "slowking",
-          "level": 86,
-          "item": "lum-berry",
-          "moves": [
-            "psychic",
-            "waterfall",
-            "ice-beam",
-            "flamethrower"
-          ]
-        },
-        {
-          "name": "kingler",
-          "level": 86,
-          "item": "quick-claw",
-          "moves": [
-            "crabhammer",
-	    "swords-dance",
-	    "metal-claw",
-	    "submission"
-          ]
-        },
-        {
-          "name": "seaking",
-          "level": 86,
-          "item": "silverpowder",
-          "moves": [
-            "megahorn"
-	  ]
-	},
-        {
-          "name": "nidoking",
-          "level": 86,
-          "item": "mystic-water",
-          "moves": [
-            "surf",
-            "submission",
-            "body-slam",
-            "shadow-ball"
-	  ]
-	},
-        {
-          "name": "kingdra",
-          "level": 86,
-          "item": "leftovers",
-          "moves": [
-            "octazooka",
-            "dragonbreath",
-            "return",
-            "ice-beam"
 	  ]
 	}
       ]
