@@ -55667,6 +55667,7 @@
 {
       "area": "S.S. Aqua",
       "name": "picnicker-debra",
+	  "meta": "final trainer set 1",
       "team": [
         {
           "name": "kangaskhan",
@@ -56055,6 +56056,7 @@
 {
       "area": "S.S. Aqua",
       "name": "blackbelt-wai",
+	  "meta": "final trainer set 2",
       "team": [
         {
           "name": "granbull",
@@ -56467,6 +56469,7 @@
 {
       "area": "S.S. Aqua",
       "name": "teacher-shirley",
+	  "meta": "final trainer set 3",
       "team": [
         {
           "name": "wigglytuff",
