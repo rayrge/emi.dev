@@ -41742,7 +41742,11 @@
             "gender": "f50",
             "items": [],
             "learnset": [
-                {
+            	{
+                    "level": 1,
+                    "move": "splash"
+                },
+				{
                     "level": 23,
                     "move": "sketch"
                 },
@@ -44799,7 +44803,7 @@
           "item": "pink-bow",
           "moves": [
             "spike-cannon",
-            "pin-missile",
+            "twineedle",
             "icy-wind",
             "whirlpool"
           ]
