@@ -54350,7 +54350,7 @@
       "area": "Route 27",
       "name": "bird-keeper-jose",
       "b2b": true,
-      "meta": "optional for renewable shadow ball and tbolt tms",
+      "meta": "optional, gives renewable shadow ball and tbolt tms",
       "team": [
         {
           "name": "togetic",
@@ -54715,7 +54715,7 @@
       "area": "Route 26",
       "name": "fisher-scott",
       "b2b": true,
-      "meta": "optional for renewable icy wind and psychic tms",
+      "meta": "optional, gives renewable icy wind and psychic tms",
       "team": [
         {
           "name": "mantine",
