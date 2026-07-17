@@ -42060,13 +42060,25 @@
                     "level": 13,
                     "move": "thunderpunch"
                 },
+				{
+                    "level": 13,
+                    "move": "smog"
+                },
                 {
                     "level": 19,
                     "move": "ice-punch"
                 },
+				{
+                    "level": 19,
+                    "move": "fire-punch"
+                },
                 {
                     "level": 25,
                     "move": "swift"
+                },
+				{
+                    "level": 25,
+                    "move": "smokescreen"
                 },
                 {
                     "level": 31,
@@ -47325,7 +47337,7 @@
         },
         {
           "name": "feraligatr",
-          "level": 35,
+          "level": 36,
           "item": "metal-coat",
           "moves": [
             "iron-tail",
@@ -52596,7 +52608,7 @@
       "team": [
         {
           "name": "kangaskhan",
-          "level": 64,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "counter",
@@ -52607,7 +52619,7 @@
         },
         {
           "name": "rapidash",
-          "level": 64,
+          "level": 63,
           "item": "scope-lens",
           "moves": [
             "hypnosis",
@@ -52618,7 +52630,7 @@
         },
         {
           "name": "pinsir",
-          "level": 64,
+          "level": 63,
           "item": "silverpowder",
           "moves": [
             "megahorn",
@@ -52629,7 +52641,7 @@
         },
         {
           "name": "electabuzz",
-          "level": 64,
+          "level": 63,
           "item": "focus-band",
           "moves": [
             "thunderbolt",
@@ -52640,7 +52652,7 @@
         },
         {
           "name": "marowak",
-          "level": 64,
+          "level": 63,
           "item": "thick-club",
           "moves": [
             "bone-rush",
@@ -52651,7 +52663,7 @@
         },
         {
           "name": "tentacruel",
-          "level": 64,
+          "level": 63,
           "item": "sitrus-berry",
           "moves": [
             "whirlpool",
@@ -62992,7 +63004,7 @@
         },
 	{
 	    "type": "roadblock",
-	    "name": "pokefan-bethany"
+	    "name": "pokefan-beverly"
 	},
         {
             "type": "item",
