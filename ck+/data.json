@@ -42084,13 +42084,25 @@
                     "level": 31,
                     "move": "screech"
                 },
+				{
+                    "level": 31,
+                    "move": "thunderbolt"
+                },
                 {
                     "level": 37,
                     "move": "thunderbolt"
                 },
+				{
+                    "level": 37,
+                    "move": "flamethrower"
+                },
                 {
                     "level": 43,
                     "move": "thunder"
+                },
+				{
+                    "level": 43,
+                    "move": "confuse-ray"
                 },
 	  	{
 		    "level": 49,
