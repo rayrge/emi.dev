@@ -41722,7 +41722,11 @@
             "gender": "f50",
             "items": [],
             "learnset": [
-                {
+            	{
+                    "level": 1,
+                    "move": "splash"
+                },
+				{
                     "level": 23,
                     "move": "sketch"
                 },
@@ -42036,25 +42040,49 @@
                     "level": 13,
                     "move": "thunderpunch"
                 },
+				{
+                    "level": 13,
+                    "move": "smog"
+                },
                 {
                     "level": 19,
                     "move": "ice-punch"
+                },
+				{
+                    "level": 19,
+                    "move": "fire-punch"
                 },
                 {
                     "level": 25,
                     "move": "swift"
                 },
+				{
+                    "level": 25,
+                    "move": "smokescreen"
+                },
                 {
                     "level": 31,
                     "move": "screech"
+                },
+				{
+                    "level": 31,
+                    "move": "thunderbolt"
                 },
                 {
                     "level": 37,
                     "move": "thunderbolt"
                 },
+				{
+                    "level": 37,
+                    "move": "flamethrower"
+                },
                 {
                     "level": 43,
                     "move": "thunder"
+                },
+				{
+                    "level": 43,
+                    "move": "confuse-ray"
                 },
 	  	{
 		    "level": 49,
@@ -44790,7 +44818,7 @@
       "area": "Route 34",
       "name": "cooltrainerf-kate",
       "b2b": true,
-      "meta": "awards soft sand",
+      "meta": "gives soft sand",
       "team": [
         {
           "name": "nidorina",
@@ -47301,7 +47329,7 @@
         },
         {
           "name": "feraligatr",
-          "level": 35,
+          "level": 36,
           "item": "metal-coat",
           "moves": [
             "iron-tail",
@@ -52572,7 +52600,7 @@
       "team": [
         {
           "name": "kangaskhan",
-          "level": 64,
+          "level": 63,
           "item": "leftovers",
           "moves": [
             "counter",
@@ -52583,7 +52611,7 @@
         },
         {
           "name": "rapidash",
-          "level": 64,
+          "level": 63,
           "item": "scope-lens",
           "moves": [
             "hypnosis",
@@ -52594,7 +52622,7 @@
         },
         {
           "name": "pinsir",
-          "level": 64,
+          "level": 63,
           "item": "silverpowder",
           "moves": [
             "megahorn",
@@ -52605,7 +52633,7 @@
         },
         {
           "name": "electabuzz",
-          "level": 64,
+          "level": 63,
           "item": "focus-band",
           "moves": [
             "thunderbolt",
@@ -52616,7 +52644,7 @@
         },
         {
           "name": "marowak",
-          "level": 64,
+          "level": 63,
           "item": "thick-club",
           "moves": [
             "bone-rush",
@@ -52627,7 +52655,7 @@
         },
         {
           "name": "tentacruel",
-          "level": 64,
+          "level": 63,
           "item": "sitrus-berry",
           "moves": [
             "whirlpool",
@@ -53126,6 +53154,7 @@
 {
       "area": "Blackthorn City Gym",
       "name": "cooltrainerm-cody",
+	  "meta": "trainer to south",
       "team": [
         {
           "name": "lapras",
@@ -53187,6 +53216,7 @@
 {
       "area": "Blackthorn City Gym",
       "name": "cooltrainerf-fran",
+	  "meta": "trainer to north",
       "team": [
         {
           "name": "kangaskhan",
@@ -54262,7 +54292,6 @@
 {
       "area": "Route 27",
       "name": "psychic-gilbert",
-      "meta": "optional. gives you thunderbolt tm",	
       "team": [
         {
           "name": "lanturn",
@@ -54325,7 +54354,7 @@
       "area": "Route 27",
       "name": "bird-keeper-jose",
       "b2b": true,
-      "meta": "optional, gives you shadow ball tm",
+      "meta": "optional, gives renewable shadow ball and tbolt tms",
       "team": [
         {
           "name": "togetic",
@@ -54653,7 +54682,6 @@
 {
       "area": "Route 26",
       "name": "psychic-richard",
-      "meta": "optional. gives you psychic tm",	
       "team": [
         {
           "name": "jynx",
@@ -54691,7 +54719,7 @@
       "area": "Route 26",
       "name": "fisher-scott",
       "b2b": true,
-      "meta": "optional, gives you icy-wind",
+      "meta": "optional, gives renewable icy wind and psychic tms",
       "team": [
         {
           "name": "mantine",
@@ -55641,6 +55669,7 @@
 {
       "area": "S.S. Aqua",
       "name": "picnicker-debra",
+	  "meta": "final trainer set 1",
       "team": [
         {
           "name": "kangaskhan",
@@ -56029,6 +56058,7 @@
 {
       "area": "S.S. Aqua",
       "name": "blackbelt-wai",
+	  "meta": "final trainer set 2",
       "team": [
         {
           "name": "granbull",
@@ -56441,6 +56471,7 @@
 {
       "area": "S.S. Aqua",
       "name": "teacher-shirley",
+	  "meta": "final trainer set 3",
       "team": [
         {
           "name": "wigglytuff",
@@ -58869,6 +58900,64 @@
     },
 {
       "area": "Route 12",
+      "name": "fisher-martin",
+      "team": [
+        {
+          "name": "slowking",
+          "level": 86,
+          "item": "lum-berry",
+          "moves": [
+            "psychic",
+            "waterfall",
+            "ice-beam",
+            "flamethrower"
+          ]
+        },
+        {
+          "name": "kingler",
+          "level": 86,
+          "item": "quick-claw",
+          "moves": [
+            "crabhammer",
+	    "swords-dance",
+	    "metal-claw",
+	    "submission"
+          ]
+        },
+        {
+          "name": "seaking",
+          "level": 86,
+          "item": "silverpowder",
+          "moves": [
+            "megahorn"
+	  ]
+	},
+        {
+          "name": "nidoking",
+          "level": 86,
+          "item": "mystic-water",
+          "moves": [
+            "surf",
+            "submission",
+            "body-slam",
+            "shadow-ball"
+	  ]
+	},
+        {
+          "name": "kingdra",
+          "level": 86,
+          "item": "leftovers",
+          "moves": [
+            "octazooka",
+            "dragonbreath",
+            "return",
+            "ice-beam"
+	  ]
+	}
+      ]
+    },		
+{
+      "area": "Route 12",
       "name": "fisher-kyle",
 	  "meta": "end of gauntlet",
       "team": [
@@ -58922,64 +59011,6 @@
             "flamethrower",
             "giga-drain",
             "sludge-bomb"
-	  ]
-	}
-      ]
-    },
-{
-      "area": "Route 12",
-      "name": "fisher-martin",
-      "team": [
-        {
-          "name": "slowking",
-          "level": 86,
-          "item": "lum-berry",
-          "moves": [
-            "psychic",
-            "waterfall",
-            "ice-beam",
-            "flamethrower"
-          ]
-        },
-        {
-          "name": "kingler",
-          "level": 86,
-          "item": "quick-claw",
-          "moves": [
-            "crabhammer",
-	    "swords-dance",
-	    "metal-claw",
-	    "submission"
-          ]
-        },
-        {
-          "name": "seaking",
-          "level": 86,
-          "item": "silverpowder",
-          "moves": [
-            "megahorn"
-	  ]
-	},
-        {
-          "name": "nidoking",
-          "level": 86,
-          "item": "mystic-water",
-          "moves": [
-            "surf",
-            "submission",
-            "body-slam",
-            "shadow-ball"
-	  ]
-	},
-        {
-          "name": "kingdra",
-          "level": 86,
-          "item": "leftovers",
-          "moves": [
-            "octazooka",
-            "dragonbreath",
-            "return",
-            "ice-beam"
 	  ]
 	}
       ]
@@ -62965,7 +62996,7 @@
         },
 	{
 	    "type": "roadblock",
-	    "name": "pokefan-bethany"
+	    "name": "pokefan-beverly"
 	},
         {
             "type": "item",
