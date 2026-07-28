@@ -1,0 +1,240 @@
+Donphan @ Sitrus Berry
+Ability: Battle Armor
+Level: 54
+Hasty Nature
+IVs: 27 HP / 8 Atk / 3 Def / 19 SpA / 31 SpD / 27 Spe
+- Ice Shard
+- Knock Off
+- High Horsepower
+- Rapid Spin
+
+Crustle @ Shed Shell
+Ability: Shell Armor
+Level: 54
+Impish Nature
+IVs: 7 HP / 23 Atk / 27 Def / 11 SpA / 19 SpD / 13 Spe
+- Knock Off
+- Leech Life
+- Rock Slide
+- Stomping Tantrum
+
+Golem-Alola @ Sitrus Berry
+Ability: Magnet Pull
+Level: 54
+Hasty Nature
+IVs: 18 HP / 14 Atk / 20 Def / 12 SpA / 17 SpD / 1 Spe
+- Magnet Rise
+- Wild Charge
+- Explosion
+- Thunder Punch
+
+Azumarill @ Pixie Plate
+Ability: Thick Fat
+Level: 54
+Lonely Nature
+IVs: 17 HP / 31 Atk / 27 Def / 24 SpA / 6 SpD / 20 Spe
+- Play Rough
+- Superpower
+- Aqua Jet
+- Double-Edge
+
+Salazzle @ Poison Barb
+Ability: Corrosion
+Level: 54
+Quirky Nature
+IVs: 17 HP / 12 Atk / 21 Def / 7 SpA / 18 SpD / 27 Spe
+- Sludge Bomb
+- Flamethrower
+- Toxic
+- Venoshock
+
+Flygon @ Sitrus Berry
+Ability: Levitate
+Level: 54
+Naive Nature
+IVs: 6 HP / 8 Atk / 14 Def / 19 SpA / 10 SpD / 21 Spe
+- Stomping Tantrum
+- Earth Power
+- Bulldoze
+- Dragon Claw
+
+Infernape
+Ability: Vital Spirit
+Level: 54
+Naive Nature
+IVs: 19 HP / 31 Atk / 19 Def / 31 SpA / 19 SpD / 31 Spe
+- Overheat
+- Flare Blitz
+- Fake Out
+- Mach Punch
+
+Sawsbuck
+Ability: Chlorophyll
+Level: 54
+Hasty Nature
+IVs: 27 HP / 5 Atk / 17 Def / 14 SpA / 25 SpD / 3 Spe
+- Double-Edge
+- Stomping Tantrum
+- Horn Leech
+- Solar Blade
+
+Shiftry
+Ability: Early Bird
+Level: 54
+Serious Nature
+IVs: 6 HP / 18 Atk / 2 Def / 24 SpA / 11 SpD / 0 Spe
+- Sucker Punch
+- Foul Play
+- Fake Out
+- Magical Leaf
+
+Seismitoad
+Ability: Swift Swim
+Level: 54
+Quirky Nature
+IVs: 31 HP / 13 Atk / 12 Def / 13 SpA / 12 SpD / 8 Spe
+- Liquidation
+- Earth Power
+- Mud Shot
+- Hydro Pump
+
+Arcanine-Hisui
+Ability: Rock Head
+Level: 54
+Lax Nature
+IVs: 29 HP / 31 Atk / 31 Def / 27 SpA / 30 SpD / 31 Spe
+- Rock Slide
+- Flamethrower
+- Extreme Speed
+- Close Combat
+
+Conkeldurr
+Ability: Sheer Force
+Level: 54
+Quirky Nature
+IVs: 12 HP / 27 Atk / 10 Def / 19 SpA / 16 SpD / 31 Spe
+- Hammer Arm
+- Scary Face
+- Low Kick
+- Rock Slide
+
+Kingdra
+Ability: Swift Swim
+Level: 54
+Lonely Nature
+IVs: 21 HP / 23 Atk / 17 Def / 0 SpA / 8 SpD / 20 Spe
+- Octazooka
+- Clear Smog
+- Dragon Pulse
+- Waterfall
+
+Walrein
+Ability: Thick Fat
+Level: 54
+Brave Nature
+IVs: 13 HP / 17 Atk / 20 Def / 14 SpA / 24 SpD / 30 Spe
+- Charm
+- Super Fang
+- Surf
+- Icy Wind
+
+Carracosta
+Ability: Solid Rock
+Level: 46
+Bashful Nature
+IVs: 0 HP / 26 Atk / 14 Def / 4 SpA / 4 SpD / 9 Spe
+- Knock Off
+- Protect
+- Rock Slide
+- Aqua Jet
+
+Octillery
+Ability: Suction Cups
+Level: 40
+Lonely Nature
+IVs: 31 HP / 10 Atk / 21 Def / 11 SpA / 7 SpD / 7 Spe
+- Octazooka
+- Wring Out
+- Signal Beam
+- Aurora Beam
+
+Hitmonlee
+Ability: Reckless
+Level: 54
+Quirky Nature
+IVs: 11 HP / 24 Atk / 5 Def / 25 SpA / 19 SpD / 31 Spe
+- Double-Edge
+- Submission
+- Fake Out
+- Low Kick
+
+Meganium
+Ability: Overgrow
+Level: 54
+Naive Nature
+IVs: 31 HP / 11 Atk / 8 Def / 16 SpA / 28 SpD / 26 Spe
+- Growl
+- Synthesis
+- Poison Powder
+- Energy Ball
+
+Orbeetle
+Ability: Swarm
+Level: 54
+Serious Nature
+IVs: 20 HP / 23 Atk / 24 Def / 14 SpA / 26 SpD / 29 Spe
+- Psyshock
+- Psychic
+- Secret Power
+- Bug Buzz
+
+Aurorus
+Ability: Refrigerate
+Level: 54
+Naughty Nature
+IVs: 25 HP / 31 Atk / 6 Def / 31 SpA / 31 SpD / 19 Spe
+- Icy Wind
+- Body Slam
+- Ice Beam
+- Avalanche
+
+Roserade
+Ability: Technician
+Level: 54
+Naive Nature
+IVs: 28 HP / 16 Atk / 2 Def / 22 SpA / 21 SpD / 4 Spe
+- Sleep Powder
+- Synthesis
+- Toxic
+- Energy Ball
+
+Pyroar
+Ability: Unnerve
+Level: 40
+Quirky Nature
+IVs: 9 HP / 13 Atk / 25 Def / 12 SpA / 15 SpD / 8 Spe
+- Crunch
+- Flamethrower
+- Will-O-Wisp
+- Hyper Voice
+
+Torkoal
+Ability: Shell Armor
+Level: 54
+Calm Nature
+IVs: 5 HP / 3 Atk / 1 Def / 21 SpA / 24 SpD / 0 Spe
+- Rapid Spin
+- Protect
+- Eruption
+- Heat Wave
+
+Lycanroc-Dusk
+Ability: Tough Claws
+Level: 40
+Hardy Nature
+IVs: 3 HP / 19 Atk / 5 Def / 12 SpA / 6 SpD / 14 Spe
+- Sucker Punch
+- Thrash
+- Rock Slide
+- Accelerock
+

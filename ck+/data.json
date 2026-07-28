@@ -3651,7 +3651,7 @@
                 {
                     "pool": {
                         "day": [
-                            {
+                             {
                                 "chance": 30,
                                 "level": 36,
                                 "pokemon": "rhyhorn"
@@ -3664,7 +3664,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 10,
@@ -3696,7 +3696,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 20,
@@ -3716,7 +3716,7 @@
                             {
                                 "chance": 4,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 1,
@@ -3728,7 +3728,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 30,
@@ -3738,7 +3738,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
@@ -3804,7 +3804,7 @@
                 {
                     "pool": {
                         "day": [
-                            {
+                             {
                                 "chance": 30,
                                 "level": 36,
                                 "pokemon": "rhyhorn"
@@ -3817,7 +3817,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 10,
@@ -3849,7 +3849,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 20,
@@ -3869,7 +3869,7 @@
                             {
                                 "chance": 4,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 1,
@@ -3881,7 +3881,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 30,
@@ -3891,7 +3891,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
@@ -3936,8 +3936,8 @@
             "pools": [
                 {
                     "pool": {
-                         "day": [
-                            {
+                        "day": [
+                             {
                                 "chance": 30,
                                 "level": 36,
                                 "pokemon": "rhyhorn"
@@ -3950,7 +3950,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 10,
@@ -3982,7 +3982,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 20,
@@ -4002,7 +4002,7 @@
                             {
                                 "chance": 4,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 1,
@@ -4014,7 +4014,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 30,
@@ -4024,7 +4024,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
@@ -4103,7 +4103,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 10,
@@ -4135,7 +4135,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 20,
@@ -4155,7 +4155,7 @@
                             {
                                 "chance": 4,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 1,
@@ -4167,7 +4167,7 @@
                             {
                                 "chance": 30,
                                 "level": 36,
-                                "pokemon": "gligar"
+                                "pokemon": "ursaring"
                             },
                             {
                                 "chance": 30,
@@ -4177,7 +4177,7 @@
                             {
                                 "chance": 20,
                                 "level": 36,
-                                "pokemon": "marowak"
+                                "pokemon": "gligar"
                             },
                             {
                                 "chance": 10,
@@ -27506,7 +27506,7 @@
             "evolutions": [
                 {
                     "into": "magneton",
-                    "level": 30,
+                    "level": 42,
                     "method": "level"
                 }
             ],
@@ -27535,10 +27535,6 @@
                     "move": "thunder-wave"
                 },
                 {
-                    "level": 12,
-                    "move": "spark"
-                },
-                {
                     "level": 17,
                     "move": "sonicboom"
                 },
@@ -27551,12 +27547,8 @@
                     "move": "flash"
                 },
                 {
-                    "level": 29,
+                    "level": 49,
                     "move": "thunderbolt"
-                },
-                {
-                    "level": 48,
-                    "move": "zap-cannon"
                 },
                 {
                     "level": 58,
@@ -27624,10 +27616,6 @@
                     "move": "thunder-wave"
                 },
                 {
-                    "level": 12,
-                    "move": "spark"
-                },
-                {
                     "level": 17,
                     "move": "sonicboom"
                 },
@@ -27640,10 +27628,6 @@
                     "move": "flash"
                 },
                 {
-                    "level": 29,
-                    "move": "thunderbolt"
-                },
-                {
                     "level": 30,
                     "move": "tri-attack"
                 },
@@ -27652,8 +27636,8 @@
                     "move": "thunder"
                 },
                 {
-                    "level": 48,
-                    "move": "zap-cannon"
+                    "level": 49,
+                    "move": "thunderbolt"
                 },
                 {
                     "level": 58,
@@ -27831,10 +27815,6 @@
                 {
                     "level": 37,
                     "move": "double-edge"
-                },
-                {
-                    "level": 41,
-                    "move": "sky-attack"
                 }
             ],
             "name": "doduo",
@@ -27920,7 +27900,7 @@
                     "move": "double-edge"
                 },
                 {
-                    "level": 64,
+                    "level": 66,
                     "move": "sky-attack"
                 }
             ],
@@ -30380,7 +30360,7 @@
             "evolutions": [
                 {
                     "into": "rhydon",
-                    "level": 42,
+                    "level": 48,
                     "method": "level"
                 }
             ],
@@ -30412,12 +30392,12 @@
                     "move": "scary-face"
                 },
                 {
-                    "level": 46,
-                    "move": "earthquake"
-                },
-                {
                     "level": 49,
                     "move": "megahorn"
+                },
+                {
+                    "level": 56,
+                    "move": "earthquake"
                 }
             ],
             "name": "rhyhorn",
@@ -30497,12 +30477,12 @@
                     "move": "scary-face"
                 },
                 {
-                    "level": 46,
-                    "move": "earthquake"
-                },
-                {
                     "level": 49,
                     "move": "megahorn"
+                },
+                {
+                    "level": 56,
+                    "move": "earthquake"
                 }
             ],
             "name": "rhydon",
@@ -32202,7 +32182,7 @@
                 },
                 {
                     "level": 29,
-                    "move": "perish-song"
+                    "move": "safeguard"
                 },
                 {
                     "level": 36,
@@ -32218,7 +32198,7 @@
                 },
                 {
                     "level": 50,
-                    "move": "safeguard"
+                    "move": "perish-song"
                 },
                 {
                     "level": 57,
@@ -32539,7 +32519,7 @@
                 },
                 {
                     "level": 37,
-                    "move": "thunderbolt"
+                    "move": "pin-missile"
                 },
                 {
                     "level": 41,
@@ -32547,7 +32527,7 @@
                 },
                 {
                     "level": 45,
-                    "move": "pin-missile"
+                    "move": "thunderbolt"
                 },
                 {
                     "level": 49,
@@ -34048,7 +34028,7 @@
                 },
                 {
                     "level": 17,
-                    "move": "stun-spore"
+                    "move": "attract"
                 },
                 {
                     "level": 18,
@@ -34155,7 +34135,7 @@
                 },
                 {
                     "level": 17,
-                    "move": "stun-spore"
+                    "move": "attract"
                 },
                 {
                     "level": 18,
@@ -34259,7 +34239,7 @@
                 },
                 {
                     "level": 17,
-                    "move": "stun-spore"
+                    "move": "attract"
                 },
                 {
                     "level": 18,
@@ -35829,7 +35809,7 @@
                     "move": "super-fang"
                 },
                 {
-                    "level": 66,
+                    "level": 76,
                     "move": "sky-attack"
                 }
             ],
@@ -38210,10 +38190,10 @@
             "name": "espeon",
             "pokedex": 196,
             "stats": {
-                "atk": 45,
+                "atk": 50,
                 "def": 60,
                 "hp": 65,
-                "spa": 140,
+                "spa": 135,
                 "spd": 95,
                 "spe": 120
             },
@@ -44799,7 +44779,7 @@
           "item": "pink-bow",
           "moves": [
             "spike-cannon",
-            "pin-missile",
+            "twineedle",
             "icy-wind",
             "whirlpool"
           ]
@@ -47610,7 +47590,7 @@
             "thunderbolt",
             "iron-tail",
             "surf",
-            "aurora-beam"
+            "ice-beam"
           ]
         },
         {
@@ -52687,7 +52667,7 @@
         {
           "name": "poliwrath",
           "level": 64,
-          "item": "lum-berry",
+          "item": "brightpowder",
           "moves": [
             "waterfall",
             "hypnosis",
@@ -52724,7 +52704,7 @@
           "moves": [
             "ancientpower",
             "drill-peck",
-            "slash",
+            "bone-rush",
             "fire-blast"
 	  ]
 	}
@@ -55095,13 +55075,13 @@
         },
         {
           "name": "yanma",
-          "level": 69,
+          "level": 70,
           "item": "brightpowder",
           "moves": [
             "double-team",
             "confuse-ray",
             "ancientpower",
-            "leech-life"
+            "giga-drain"
           ]
         },
         {
@@ -55117,7 +55097,7 @@
         },
         {
           "name": "muk",
-          "level": 70,
+          "level": 69,
           "item": "quick-claw",
           "moves": [
             "explosion",
@@ -55256,7 +55236,7 @@
             "toxic",
             "rest",
             "sleep-talk",
-            "mud-slap"
+            "sand-attack"
           ]
         },
         {
@@ -60111,7 +60091,7 @@
         {
           "name": "tentacruel",
           "level": 92,
-          "item": "miracle-seed",
+          "item": "nevermeltice",
           "moves": [
             "hydro-pump",
 	    "ice-beam",
@@ -61975,9 +61955,9 @@
           "item": "leftovers",
           "moves": [
             "mean-look",
-            "curse",
+            "perish-song",
             "protect",
-            "giga-drain"
+            "charm"
           ]
         },
         {
@@ -61999,7 +61979,7 @@
             "future-sight",
             "psychic",
             "sing",
-            "psywave"
+            "bite"
           ]
         },
         {
@@ -62025,7 +62005,7 @@
           "item": "focus-band",
           "moves": [
             "sleep-powder",
-            "wrap",
+            "flame-wheel",
             "sludge",
             "giga-drain"
           ]
@@ -62169,8 +62149,8 @@
           "item": "leftovers",
           "moves": [
             "growth",
-            "rest",
-            "sleep-talk",
+            "amnesia",
+            "ice-beam",
             "waterfall"
           ]
         },
@@ -62190,7 +62170,7 @@
           "level": 100,
           "item": "lum-berry",
           "moves": [
-            "toxic",
+            "perish-song",
             "double-team",
             "moonlight",
             "pursuit"
@@ -62201,7 +62181,7 @@
           "level": 100,
           "item": "leftovers",
           "moves": [
-            "leech-seed",
+            "flame-wheel",
             "protect",
             "giga-drain",
             "ancientpower"
@@ -62212,7 +62192,7 @@
           "level": 100,
           "item": "blackglasses",
           "moves": [
-            "flamethrower",
+            "sacred-fire",
             "aeroblast",
             "ancientpower",
 	    "crunch"
@@ -62276,7 +62256,7 @@
             "giga-drain",
             "sludge-bomb",
             "earthquake",
-            "rock-slide"
+            "ancientpower"
           ]
         },
         {
