@@ -63615,6 +63615,13 @@
 	},
 	{	
             "type": "item",
+            "location": "Saffron City",
+            "name": "focus-band",
+            "amount": 1,
+	    "description": " "
+        },
+	{	
+            "type": "item",
             "location": "Celadon City",
             "name": "tm-10",
             "amount": "renewable",
