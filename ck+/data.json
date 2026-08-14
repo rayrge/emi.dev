@@ -15549,6 +15549,11 @@
                     "amount": "1",
                     "info": "obtained from woman in MooMoo ranch after completing the side quest to save MooMoo",
                     "item": "tm-13"
+                },
+                {
+                    "amount": "1",
+                    "info": "in da dirt. go crawlin in the dirt, worm.",
+                    "item": "thick-club"
                 }
             ],
             "locations": [
