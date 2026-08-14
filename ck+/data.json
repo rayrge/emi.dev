@@ -2110,7 +2110,7 @@
                             {
                                 "chance": 4,
                                 "level": 5,
-                                "pokemon": "rattata"
+                                "pokemon": "vulpix"
                             },
                             {
                                 "chance": 1,
@@ -2137,7 +2137,7 @@
                             {
                                 "chance": 10,
                                 "level": 3,
-                                "pokemon": "drowzee"
+                                "pokemon": "vulpix"
                             },
                             {
                                 "chance": 5,
@@ -2169,7 +2169,7 @@
                             {
                                 "chance": 20,
                                 "level": 5,
-                                "pokemon": "meowth"
+                                "pokemon": "vulpix"
                             },
                             {
                                 "chance": 10,
