@@ -4229,18 +4229,6 @@
                         ]
                     },
                     "type": "walking"
-                },
-                {
-                    "pool": "fishing.dratini.old",
-                    "type": "old-rod"
-                },
-                {
-                    "pool": "fishing.dratini.good",
-                    "type": "good-rod"
-                },
-                {
-                    "pool": "fishing.dratini.super",
-                    "type": "super-rod"
                 }
             ]
         },
@@ -13995,12 +13983,12 @@
                             },
                             {
                                 "chance": 4,
-                                "level": 44,
+                                "level": 81,
                                 "pokemon": "jynx"
                             },
                             {
                                 "chance": 1,
-                                "level": 44,
+                                "level": 81,
                                 "pokemon": "jynx"
                             }
                         ],
@@ -14032,12 +14020,12 @@
                             },
                             {
                                 "chance": 4,
-                                "level": 44,
+                                "level": 81,
                                 "pokemon": "jynx"
                             },
                             {
                                 "chance": 1,
-                                "level": 44,
+                                "level": 81,
                                 "pokemon": "jynx"
                             }
                         ],
@@ -14069,12 +14057,12 @@
                             },
                             {
                                 "chance": 4,
-                                "level": 44,
+                                "level": 81,
                                 "pokemon": "jynx"
                             },
                             {
                                 "chance": 1,
-                                "level": 44,
+                                "level": 81,
                                 "pokemon": "jynx"
                             }
                         ]
@@ -25246,7 +25234,7 @@
                     "move": "ember"
                 },
                 {
-                    "level": 11,
+                    "level": 15,
                     "move": "roar"
                 },
                 {
@@ -41911,49 +41899,25 @@
                     "level": 13,
                     "move": "thunderpunch"
                 },
-				{
-                    "level": 13,
-                    "move": "smog"
-                },
                 {
                     "level": 19,
                     "move": "ice-punch"
-                },
-				{
-                    "level": 19,
-                    "move": "fire-punch"
                 },
                 {
                     "level": 25,
                     "move": "swift"
                 },
-				{
-                    "level": 25,
-                    "move": "smokescreen"
-                },
                 {
                     "level": 31,
                     "move": "screech"
                 },
-				{
-                    "level": 31,
-                    "move": "thunderbolt"
-                },
                 {
                     "level": 37,
                     "move": "thunderbolt"
-                },
-				{
-                    "level": 37,
-                    "move": "flamethrower"
                 },
                 {
                     "level": 43,
                     "move": "thunder"
-                },
-				{
-                    "level": 43,
-                    "move": "confuse-ray"
                 },
 	  	{
 		    "level": 49,
