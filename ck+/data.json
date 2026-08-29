@@ -7460,27 +7460,27 @@
                             },
                             {
                                 "chance": 20,
-                                "level": 15,
+                                "level": 13,
                                 "pokemon": "wooper"
                             },
                             {
                                 "chance": 10,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "magnemite"
                             },
                             {
                                 "chance": 5,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "magnemite"
                             },
                             {
                                 "chance": 4,
-                                "level": 15,
+                                "level": 13,
                                 "pokemon": "magby"
                             },
                             {
                                 "chance": 1,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "smoochum"
                             }
                         ],
@@ -7497,27 +7497,27 @@
                             },
                             {
                                 "chance": 20,
-                                "level": 15,
+                                "level": 13,
                                 "pokemon": "wooper"
                             },
                             {
                                 "chance": 10,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "swinub"
                             },
                             {
                                 "chance": 5,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "swinub"
                             },
                             {
                                 "chance": 4,
-                                "level": 15,
+                                "level": 13,
                                 "pokemon": "elekid"
                             },
                             {
                                 "chance": 1,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "magby"
                             }
                         ],
@@ -7534,27 +7534,27 @@
                             },
                             {
                                 "chance": 20,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "diglett"
                             },
                             {
                                 "chance": 10,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "voltorb"
                             },
                             {
                                 "chance": 5,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "gastly"
                             },
                             {
                                 "chance": 4,
-                                "level": 15,
+                                "level": 13,
                                 "pokemon": "smoochum"
                             },
                             {
                                 "chance": 1,
-                                "level": 15,
+                                "level": 14,
                                 "pokemon": "elekid"
                             }
                         ]
@@ -32539,8 +32539,8 @@
             "evolutions": [
                 {
                     "into": "porygon2",
-                    "level": 40,
-                    "method": "level"
+                    "item": "upgrade",
+                    "method": "item"
                 }
             ],
             "gender": "unknown",
@@ -54911,7 +54911,7 @@
             "hypnosis",
             "sky-attack",
             "super-fang",
-            "mean-look"
+            "giga-drain"
           ]
         },
         {
@@ -54922,7 +54922,7 @@
             "sludge",
             "cross-chop",
             "thunderbolt",
-            "ice-punch"
+            "ice-beam"
           ]
         },
         {
@@ -54932,8 +54932,8 @@
           "moves": [
             "explosion",
             "spikes",
-            "baton-pass",
-            "pin-missile"
+            "mirror-coat",
+            "shadow-ball"
           ]
         },
         {
@@ -54954,8 +54954,8 @@
           "moves": [
             "surf",
             "attract",
-            "ice-beam",
-            "giga-drain"
+            "barrier",
+	    "ice-beam"
           ]
         },
         {
@@ -54966,7 +54966,7 @@
             "explosion",
             "sludge-bomb",
             "giga-drain",
-            "fire-punch"
+            "flamethrower"
 	  ]
 	}
       ]

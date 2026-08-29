@@ -68,7 +68,7 @@ var itemsById = new Map([
 	[0x51, "poison-barb"],
 	[0x52, "kings-rock"],
 	[0x53, "persim-berry"],
-	[0x54, "mint-berry"],
+	[0x54, "chesto-berry"],
 	[0x58, "silverpowder"],
 	[0x5b, "amulet-coin"],
 	[0x5f, "mystic-water"],
@@ -142,7 +142,7 @@ var trueNames = [
 var nameFormatting = new Map();
 
 var priorityMoves = new Set([
-	"quick-attack", "mach-punch", "extremespeed", "protect", "detect", "endure"
+	"quick-attack", "mach-punch", "extremespeed", "protect", "detect", "endure", "powder-snow"
 ]);
 
 function loadData(text) {
