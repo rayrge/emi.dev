@@ -9076,18 +9076,6 @@
                         ]
                     },
                     "type": "walking"
-                },
-                {
-                    "pool": "fishing.shore.old",
-                    "type": "old-rod"
-                },
-                {
-                    "pool": "fishing.shore.good",
-                    "type": "good-rod"
-                },
-                {
-                    "pool": "fishing.shore.super",
-                    "type": "super-rod"
                 }
             ]
         },
@@ -31850,9 +31838,7 @@
                 "zap-cannon",
                 "rock-smash",
                 "hidden-power",
-                
                 "snore",
-                "shadow-ball",
                 "blizzard",
                 "hyper-beam",
                 "icy-wind",
@@ -32108,8 +32094,7 @@
                 "whirlpool",
                 "waterfall",
                 "thunderbolt",
-                "ice-beam",
-		"lick"
+        "ice-beam"
             ],
             "types": [
                 "water",
@@ -60286,7 +60271,7 @@
             "sludge-bomb",
 	    "shadow-ball",
 	    "psychic",
-	    "destiny-bond"
+	    "explosion"
           ]
         },
         {
@@ -60860,7 +60845,7 @@
           "moves": [
             "future-sight",
 	    "toxic",
-	    "leech-seed",
+	    "leech-life",
 	    "sludge-bomb"
           ]
         },
